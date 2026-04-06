@@ -64,12 +64,6 @@ struct PopoverContentView: View {
 
             Divider()
 
-            // Pending review (only if there are pending items)
-            if !appState.pendingProjects.isEmpty {
-                PendingReviewView(appState: appState)
-                Divider()
-            }
-
             // Project list
             TrackerListView(appState: appState)
 
