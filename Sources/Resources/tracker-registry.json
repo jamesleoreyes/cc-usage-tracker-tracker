@@ -6414,5 +6414,23 @@
     "authMethod": [],
     "features": [],
     "builtWithClaude": null
+  },
+  {
+    "id": "lablelee/ClaudeSwitch",
+    "name": "ClaudeSwitch",
+    "author": "lablelee",
+    "repoURL": "https://github.com/lablelee/ClaudeSwitch",
+    "description": "Switch between Claude Max, AWS Bedrock, and Azure Foundry with a single command. Cross-platform profile switcher + custom statusline for Claude Code.",
+    "category": "Statusline",
+    "platforms": [],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-04-06T04:56:27Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-04-06T05:31:57.842Z"
   }
 ]
