@@ -138,6 +138,9 @@ function isLikelyTracker(repo) {
 
   // --- Hard rejects ---
 
+  // lol
+  if (repo.full_name === "jamesleoreyes/cc-usage-tracker-tracker") return false;
+
   // Skip forks (they're copies, not original projects)
   if (repo.fork) return false;
 
