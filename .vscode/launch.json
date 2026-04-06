@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:cc-usage-tracker-tracker}",
+      "name": "Debug CCUsageTrackerTracker",
+      "target": "CCUsageTrackerTracker",
+      "configuration": "debug",
+      "preLaunchTask": "swift: Build Debug CCUsageTrackerTracker"
+    },
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:cc-usage-tracker-tracker}",
+      "name": "Release CCUsageTrackerTracker",
+      "target": "CCUsageTrackerTracker",
+      "configuration": "release",
+      "preLaunchTask": "swift: Build Release CCUsageTrackerTracker"
+    }
+  ]
+}
