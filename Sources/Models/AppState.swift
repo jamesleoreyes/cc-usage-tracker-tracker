@@ -54,9 +54,5 @@ final class AppState {
 }
 
 struct AppSettings {
-    var refreshIntervalMinutes: Int = 30
-    var discoveryEnabled: Bool = true
-    var discoveryIntervalHours: Int = 6
-    var notificationsEnabled: Bool = true
     var launchAtLogin: Bool = false
 }
