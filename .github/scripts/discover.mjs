@@ -9,71 +9,100 @@ const REGISTRY_PATH = "Sources/Resources/tracker-registry.json";
 const GITHUB_API = "https://api.github.com";
 const TOKEN = process.env.GH_TOKEN;
 
+// Targeted search queries — each should return mostly relevant results
 const SEARCH_QUERIES = [
-  // Literal naming patterns
-  "claude+usage+tracker",
-  "claude+usage+monitor",
-  "claude+usage+widget",
-  "claude+usage+bar",
-  "claude+code+usage",
-  "claude+code+monitor",
-  "claude+code+tracker",
-  "claude+rate+limit",
-  // CC prefix pattern
-  "ccusage",
-  "ccstatusline",
-  "cctray",
-  "ccowl",
-  "ccflare",
+  // Exact-phrase searches (most precise)
+  '"claude usage" tracker',
+  '"claude usage" monitor',
+  '"claude usage" widget',
+  '"claude usage" bar',
+  '"claude code" usage monitor',
+  '"claude code" usage tracker',
+  '"claude code" usage widget',
+  '"claude code" statusline',
+  '"claude code" status line',
+  '"claude code" "rate limit"',
+  '"claude code" "menu bar"',
+  // CC-prefix (scoped to avoid CI/CD cctray)
+  "ccusage claude",
+  "ccowl claude",
+  "ccflare claude",
   // Statusline / powerline
-  "claude+statusline",
-  "claude+powerline",
-  "claude+code+statusline",
-  "claude+code+status+line",
-  // Metaphor names
-  "claude+hud",
-  "claude+meter",
-  "claude+pulse",
-  "claude+bar",
-  // Token tracking
-  "claude+token+tracker",
-  "tokscale+claude",
-  "toktrack+claude",
+  '"claude" statusline',
+  '"claude" powerline',
   // Platform-specific
-  "claude+menu+bar+macos",
-  "claude+waybar",
-  "claude+tmux+status",
-  "claude+neovim+usage",
-  "claude+vscode+usage",
-  "claude+raycast+usage",
+  '"claude" "menu bar" usage',
+  '"claude" waybar usage',
+  '"claude" tmux usage',
+  '"claude" raycast usage',
+  // Metaphor names (paired with claude to reduce noise)
+  '"claude" hud usage',
+  '"claude" meter usage',
+  '"claude" pulse usage',
+  // Token tracking
+  '"claude" "token tracker"',
 ];
 
-// GitHub Topics that tracker repos commonly use
+// Topic-based searches (more precise than keyword search)
 const TOPIC_QUERIES = [
   "topic:claude-usage",
   "topic:ccusage",
-  "topic:claude-code",
   "topic:claude-code-usage",
-  "topic:claude-monitor",
+  "topic:claude-usage-tracker",
+  "topic:claude-usage-monitor",
 ];
 
-// Keywords in repo description that suggest it's a usage tracker
-const RELEVANCE_KEYWORDS = [
-  "usage",
-  "monitor",
-  "tracker",
-  "token",
+// A repo must match at least one STRONG signal to be considered
+const STRONG_SIGNALS = [
+  "usage tracker",
+  "usage monitor",
+  "usage widget",
+  "usage bar",
+  "usage overlay",
+  "usage dashboard",
+  "usage extension",
   "rate limit",
-  "status bar",
+  "rate-limit",
+  "burn rate",
+  "token usage",
+  "token tracker",
+  "token monitor",
+  "cost tracker",
+  "cost monitor",
   "statusline",
+  "status line",
+  "status-line",
+  "powerline",
   "menu bar",
   "menubar",
-  "widget",
-  "dashboard",
-  "cost",
-  "burn rate",
-  "quota",
-  "limit",
+  "system tray",
+  "waybar",
+];
+
+// Repos matching these patterns are almost certainly not usage trackers
+const REJECT_PATTERNS = [
+  // CI/CD cctray XML format (completely unrelated)
+  /\bcctray\b.*\b(jenkins|ci|xml|feed|build|semaphore|gocd|bamboo)\b/i,
+  /\b(jenkins|ci|xml|feed|build|semaphore|gocd|bamboo)\b.*\bcctray\b/i,
+  // Personal dotfiles / configs
+  /^\.?dotfiles$/i,
+  /\bmy-config\b/i,
+  // Not about tracking usage
+  /\b(chatbot|chat bot|assistant|prompt|template|tutorial|course|awesome-list)\b/i,
+  /\b(proxy|relay|gateway|bridge|forwarder)\b/i,
+  /\b(session.?manager|session.?keeper|keepalive)\b/i,
+  /\b(behavioral|controller|organizer|kanban)\b/i,
+  // Generic tools that happen to mention Claude
+  /\b(stock.?market|fraud|competitive.?intel|voice.?pilot)\b/i,
+];
+
+// Repo names that are known false positive patterns
+const NAME_REJECT_PATTERNS = [
+  /^dotfiles$/i,
+  /^\.files$/i,
+  /config$/i,
+  /-config$/i,
+  /^homebrew-/i, // Homebrew tap repos, not the apps themselves
 ];
 
 async function githubFetch(url) {
@@ -96,85 +125,134 @@ async function githubFetch(url) {
 }
 
 async function searchRepos(query) {
-  const url = `${GITHUB_API}/search/repositories?q=${encodeURIComponent(query)}&sort=updated&per_page=50`;
+  const url = `${GITHUB_API}/search/repositories?q=${encodeURIComponent(query)}&sort=updated&per_page=30`;
   const data = await githubFetch(url);
   return data?.items ?? [];
 }
 
 function isLikelyTracker(repo) {
-  const text =
-    `${repo.full_name} ${repo.description ?? ""} ${(repo.topics ?? []).join(" ")}`.toLowerCase();
+  const name = repo.name.toLowerCase();
+  const desc = (repo.description ?? "").toLowerCase();
+  const topics = (repo.topics ?? []).join(" ").toLowerCase();
+  const text = `${name} ${desc} ${topics}`;
 
-  // Must have some connection to Claude/Anthropic/CC
+  // --- Hard rejects ---
+
+  // Skip forks (they're copies, not original projects)
+  if (repo.fork) return false;
+
+  // Skip repos with no description (too risky, can't judge relevance)
+  if (!repo.description || repo.description.trim().length < 10) return false;
+
+  // Skip archived repos
+  if (repo.archived) return false;
+
+  // Skip name-based rejects
+  if (NAME_REJECT_PATTERNS.some((p) => p.test(name))) return false;
+
+  // Skip content-based rejects
+  if (REJECT_PATTERNS.some((p) => p.test(text))) return false;
+
+  // --- Must have Claude connection ---
   const hasClaude =
     text.includes("claude") ||
     text.includes("anthropic") ||
-    text.includes("ccusage") ||
-    /\bcc[a-z]/.test(text);
+    // "ccusage" is specific enough to Claude Code
+    name.includes("ccusage") ||
+    topics.includes("ccusage") ||
+    topics.includes("claude-usage");
+
   if (!hasClaude) return false;
 
-  // Must have some tracker/monitor signal
-  return RELEVANCE_KEYWORDS.some((kw) => text.includes(kw));
+  // --- Must have a strong usage-tracking signal ---
+  const hasStrongSignal = STRONG_SIGNALS.some((s) => text.includes(s));
+
+  // If name strongly suggests a tracker, that's also good enough
+  const nameSignal =
+    /usage/i.test(name) ||
+    /monitor/i.test(name) ||
+    /tracker/i.test(name) ||
+    /widget/i.test(name) ||
+    /statusline/i.test(name) ||
+    /powerline/i.test(name) ||
+    /meter/i.test(name);
+
+  return hasStrongSignal || nameSignal;
 }
 
 function guessCategory(repo) {
   const text =
-    `${repo.full_name} ${repo.description ?? ""} ${(repo.topics ?? []).join(" ")}`.toLowerCase();
+    `${repo.name} ${repo.description ?? ""} ${(repo.topics ?? []).join(" ")}`.toLowerCase();
 
   if (text.includes("statusline") || text.includes("status-line") || text.includes("powerline"))
     return "Statusline";
-  if (text.includes("menu bar") || text.includes("menubar") || text.includes("macos native"))
-    return "macOS Native";
   if (text.includes("waybar")) return "Waybar Module";
   if (text.includes("tmux")) return "Tmux Plugin";
   if (text.includes("neovim") || text.includes("nvim")) return "Neovim Plugin";
   if (text.includes("vscode") || text.includes("vs code")) return "VS Code Extension";
   if (text.includes("raycast")) return "Raycast Extension";
-  if (text.includes("browser") || text.includes("extension") || text.includes("chrome"))
+  if (
+    text.includes("ubersicht") ||
+    text.includes("übersicht") ||
+    text.includes("uebersicht")
+  )
+    return "Übersicht Widget";
+  if (text.includes("menu bar") || text.includes("menubar"))
+    return "macOS Native";
+  if (text.includes("browser") || text.includes("chrome extension"))
     return "Browser Extension";
-  if (text.includes("electron") || text.includes("desktop widget")) return "Electron/Desktop";
-  if (text.includes("ubersicht") || text.includes("übersicht")) return "Übersicht Widget";
-  if (text.includes("web") || text.includes("dashboard")) return "Web Dashboard";
+  if (text.includes("electron") || text.includes("desktop widget"))
+    return "Electron/Desktop";
   if (text.includes("overlay")) return "Desktop Overlay";
+  if (text.includes("dashboard")) return "Web Dashboard";
+  if (text.includes("tui")) return "Terminal UI";
+  if (text.includes("android") || text.includes("ios")) return "Mobile";
   if (text.includes("cli") || text.includes("terminal")) return "CLI/Terminal";
-  if (text.includes("tui") || text.includes("rich")) return "Terminal UI";
-  if (text.includes("android") || text.includes("ios") || text.includes("mobile")) return "Mobile";
-  return "CLI/Terminal"; // default
+
+  // Guess from language
+  const lang = (repo.language ?? "").toLowerCase();
+  if (lang === "swift") return "macOS Native";
+  if (lang === "java" || lang === "kotlin") return "Mobile";
+
+  return "CLI/Terminal";
 }
 
 async function main() {
-  // Load current registry
   const registry = JSON.parse(readFileSync(REGISTRY_PATH, "utf-8"));
   const knownIDs = new Set(registry.map((p) => p.id));
   console.log(`Current registry: ${registry.length} projects`);
 
-  // Collect candidates from all searches
   const candidates = new Map();
 
-  // Search queries
   for (const query of [...SEARCH_QUERIES, ...TOPIC_QUERIES]) {
     console.log(`Searching: ${query}`);
     const repos = await searchRepos(query);
+
     for (const repo of repos) {
-      if (!knownIDs.has(repo.full_name) && !candidates.has(repo.full_name)) {
-        if (isLikelyTracker(repo)) {
-          candidates.set(repo.full_name, repo);
-        }
+      if (knownIDs.has(repo.full_name) || candidates.has(repo.full_name)) continue;
+      if (isLikelyTracker(repo)) {
+        candidates.set(repo.full_name, repo);
       }
     }
-    // Respect rate limits: 2s between searches
+
+    // Respect rate limits
     await new Promise((r) => setTimeout(r, 2000));
   }
 
-  console.log(`Found ${candidates.size} new candidates`);
+  console.log(`\nFound ${candidates.size} new candidates`);
 
   if (candidates.size === 0) {
     console.log("No new trackers found");
     return;
   }
 
-  // Add new entries to registry
-  for (const [, repo] of candidates) {
+  // Cap at 50 per run to keep PRs reviewable
+  const toAdd = [...candidates.values()].slice(0, 50);
+  if (candidates.size > 50) {
+    console.log(`Capping at 50 (${candidates.size - 50} deferred to next run)`);
+  }
+
+  for (const repo of toAdd) {
     const entry = {
       id: repo.full_name,
       name: repo.name,
@@ -189,12 +267,11 @@ async function main() {
       builtWithClaude: null,
     };
     registry.push(entry);
-    console.log(`  + ${repo.full_name} (${entry.category})`);
+    console.log(`  + ${repo.full_name} [${entry.category}] — ${entry.description.slice(0, 80)}`);
   }
 
-  // Write updated registry
   writeFileSync(REGISTRY_PATH, JSON.stringify(registry, null, 2) + "\n");
-  console.log(`Registry updated: ${registry.length} projects`);
+  console.log(`\nRegistry updated: ${registry.length} projects (+${toAdd.length})`);
 }
 
 main().catch(console.error);
