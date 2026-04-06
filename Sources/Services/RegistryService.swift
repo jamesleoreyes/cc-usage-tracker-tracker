@@ -6,12 +6,18 @@ enum RegistryService {
         string: "https://raw.githubusercontent.com/jamesleoreyes/cc-usage-tracker-tracker/main/Sources/Resources/tracker-registry.json"
     )!
 
+    private static var decoder: JSONDecoder {
+        let decoder = JSONDecoder()
+        decoder.dateDecodingStrategy = .iso8601
+        return decoder
+    }
+
     static func loadBundledRegistry() throws -> [TrackerProject] {
         guard let url = Bundle.appBundle.url(forResource: "tracker-registry", withExtension: "json") else {
             throw RegistryError.missingBundledFile
         }
         let data = try Data(contentsOf: url)
-        return try JSONDecoder().decode([TrackerProject].self, from: data)
+        return try decoder.decode([TrackerProject].self, from: data)
     }
 
     /// Fetch the latest registry from GitHub. Returns nil on failure.
@@ -21,32 +27,21 @@ enum RegistryService {
             guard let http = response as? HTTPURLResponse, http.statusCode == 200 else {
                 return nil
             }
-            return try JSONDecoder().decode([TrackerProject].self, from: data)
+            let decoder = JSONDecoder()
+            decoder.dateDecodingStrategy = .iso8601
+            return try decoder.decode([TrackerProject].self, from: data)
         } catch {
             print("Remote registry fetch failed: \(error)")
             return nil
         }
     }
 
-    /// Merge two registries. `primary` wins for static fields; `secondary` provides live metadata fallback.
+    /// Merge registries. `primary` is the source of truth (remote registry with live metadata).
+    /// `secondary` provides fallback data for any projects not yet in primary.
     static func merge(primary: [TrackerProject], secondary: [TrackerProject]) -> [TrackerProject] {
-        let secondaryByID = Dictionary(secondary.map { ($0.id, $0) }, uniquingKeysWith: { _, last in last })
-        var result: [TrackerProject] = []
+        var result = primary
 
-        for var project in primary {
-            if let existing = secondaryByID[project.id] {
-                // Preserve live metadata from secondary
-                project.stars = existing.stars
-                project.lastCommitDate = existing.lastCommitDate
-                project.openIssues = existing.openIssues
-                project.latestRelease = existing.latestRelease
-                project.archived = existing.archived
-                project.lastFetched = existing.lastFetched
-            }
-            result.append(project)
-        }
-
-        // Include any projects in secondary not present in primary (user-added)
+        // Include any projects in secondary not present in primary
         let primaryIDs = Set(primary.map(\.id))
         for project in secondary where !primaryIDs.contains(project.id) {
             result.append(project)

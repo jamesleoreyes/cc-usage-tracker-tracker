@@ -23,7 +23,9 @@ enum CacheService {
         guard FileManager.default.fileExists(atPath: url.path) else { return nil }
         do {
             let data = try Data(contentsOf: url)
-            return try JSONDecoder().decode(CachedData.self, from: data)
+            let decoder = JSONDecoder()
+            decoder.dateDecodingStrategy = .iso8601
+            return try decoder.decode(CachedData.self, from: data)
         } catch {
             print("Cache load error: \(error)")
             return nil
@@ -37,7 +39,9 @@ enum CacheService {
                 at: cacheDirectoryURL,
                 withIntermediateDirectories: true
             )
-            let data = try JSONEncoder().encode(cachedData)
+            let encoder = JSONEncoder()
+            encoder.dateEncodingStrategy = .iso8601
+            let data = try encoder.encode(cachedData)
             try data.write(to: url, options: .atomic)
         } catch {
             print("Cache save error: \(error)")
