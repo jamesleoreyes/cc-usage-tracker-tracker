@@ -30,11 +30,14 @@ app: build
 	# Info.plist
 	cp Resources/Info.plist $(APP_BUNDLE)/Contents/
 
-	# SPM resource bundle — accessor looks at Bundle.main.bundleURL root
-	cp -R $(RESOURCE_BUNDLE) $(APP_BUNDLE)/
+	# SPM resource bundle — inside Contents/Resources/ for valid bundle structure
+	cp -R $(RESOURCE_BUNDLE) $(APP_BUNDLE)/Contents/Resources/
 
 	# PkgInfo
 	echo -n "APPL????" > $(APP_BUNDLE)/Contents/PkgInfo
+
+	# Ad-hoc code sign
+	codesign --force --deep --sign - $(APP_BUNDLE)
 
 	@echo "Built $(APP_BUNDLE)"
 

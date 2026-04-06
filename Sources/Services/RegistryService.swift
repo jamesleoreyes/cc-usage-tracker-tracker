@@ -7,7 +7,7 @@ enum RegistryService {
     )!
 
     static func loadBundledRegistry() throws -> [TrackerProject] {
-        guard let url = Bundle.module.url(forResource: "tracker-registry", withExtension: "json") else {
+        guard let url = Bundle.appBundle.url(forResource: "tracker-registry", withExtension: "json") else {
             throw RegistryError.missingBundledFile
         }
         let data = try Data(contentsOf: url)

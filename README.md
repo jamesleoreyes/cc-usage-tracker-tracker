@@ -6,7 +6,13 @@ A native macOS status bar app that discovers, catalogs, and monitors every open-
 
 ## Install
 
-Download the latest `.dmg` from [Releases](../../releases), open it, and drag **CC Usage Tracker Tracker** to your Applications folder. That's it.
+Download the latest `.dmg` from [Releases](../../releases), open it, and drag **CC Usage Tracker Tracker** to your Applications folder.
+
+Since the app isn't notarized with an Apple Developer ID, macOS may block it on first launch. To fix this, run once after installing:
+
+```bash
+xattr -cr /Applications/CCUsageTrackerTracker.app
+```
 
 The app lives in your menu bar (no Dock icon). Look for the number.
 
