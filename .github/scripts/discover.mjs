@@ -259,9 +259,14 @@ async function main() {
       authMethod: [],
       features: [],
       builtWithClaude: null,
+      stars: repo.stargazers_count ?? 0,
+      lastCommitDate: repo.pushed_at ?? null,
+      openIssues: repo.open_issues_count ?? 0,
+      archived: repo.archived ?? false,
+      lastFetched: new Date().toISOString(),
     };
     registry.push(entry);
-    console.log(`  + ${repo.full_name} [${entry.category}] — ${entry.description.slice(0, 80)}`);
+    console.log(`  + ${repo.full_name} [${entry.category}] ★${entry.stars} — ${entry.description.slice(0, 70)}`);
   }
 
   writeFileSync(REGISTRY_PATH, JSON.stringify(registry, null, 2) + "\n");
