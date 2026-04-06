@@ -89,11 +89,19 @@ extension TrackerCategory {
         case .macosNative: "macOS"
         case .electron: "Desktop"
         case .cli: "CLI"
-        case .browserExtension: "Extension"
+        case .terminalUI: "TUI"
+        case .browserExtension: "Browser"
         case .webDashboard: "Web"
         case .mobile: "Mobile"
         case .statusline: "Statusline"
         case .ubersicht: "Übersicht"
+        case .vscodeExtension: "VS Code"
+        case .neovimPlugin: "Neovim"
+        case .raycast: "Raycast"
+        case .tmux: "Tmux"
+        case .waybar: "Waybar"
+        case .desktopOverlay: "Overlay"
+        case .claudeCodePlugin: "CC Plugin"
         }
     }
 }

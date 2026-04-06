@@ -2,6 +2,10 @@ import Foundation
 
 @MainActor
 enum RegistryService {
+    static let remoteRegistryURL = URL(
+        string: "https://raw.githubusercontent.com/jamesleoreyes/cc-usage-tracker-tracker/main/Sources/Resources/tracker-registry.json"
+    )!
+
     static func loadBundledRegistry() throws -> [TrackerProject] {
         guard let url = Bundle.module.url(forResource: "tracker-registry", withExtension: "json") else {
             throw RegistryError.missingBundledFile
@@ -10,27 +14,41 @@ enum RegistryService {
         return try JSONDecoder().decode([TrackerProject].self, from: data)
     }
 
-    /// Merge bundled registry (source of truth for static fields) with cached data (has live metadata).
-    static func merge(bundled: [TrackerProject], cached: [TrackerProject]) -> [TrackerProject] {
-        let cachedByID = Dictionary(cached.map { ($0.id, $0) }, uniquingKeysWith: { _, last in last })
+    /// Fetch the latest registry from GitHub. Returns nil on failure.
+    nonisolated static func fetchRemoteRegistry() async -> [TrackerProject]? {
+        do {
+            let (data, response) = try await URLSession.shared.data(from: remoteRegistryURL)
+            guard let http = response as? HTTPURLResponse, http.statusCode == 200 else {
+                return nil
+            }
+            return try JSONDecoder().decode([TrackerProject].self, from: data)
+        } catch {
+            print("Remote registry fetch failed: \(error)")
+            return nil
+        }
+    }
+
+    /// Merge two registries. `primary` wins for static fields; `secondary` provides live metadata fallback.
+    static func merge(primary: [TrackerProject], secondary: [TrackerProject]) -> [TrackerProject] {
+        let secondaryByID = Dictionary(secondary.map { ($0.id, $0) }, uniquingKeysWith: { _, last in last })
         var result: [TrackerProject] = []
 
-        for var project in bundled {
-            if let cached = cachedByID[project.id] {
-                // Preserve live metadata from cache
-                project.stars = cached.stars
-                project.lastCommitDate = cached.lastCommitDate
-                project.openIssues = cached.openIssues
-                project.latestRelease = cached.latestRelease
-                project.archived = cached.archived
-                project.lastFetched = cached.lastFetched
+        for var project in primary {
+            if let existing = secondaryByID[project.id] {
+                // Preserve live metadata from secondary
+                project.stars = existing.stars
+                project.lastCommitDate = existing.lastCommitDate
+                project.openIssues = existing.openIssues
+                project.latestRelease = existing.latestRelease
+                project.archived = existing.archived
+                project.lastFetched = existing.lastFetched
             }
             result.append(project)
         }
 
-        // Include any user-added projects not in the bundled registry
-        let bundledIDs = Set(bundled.map(\.id))
-        for project in cached where !bundledIDs.contains(project.id) {
+        // Include any projects in secondary not present in primary (user-added)
+        let primaryIDs = Set(primary.map(\.id))
+        for project in secondary where !primaryIDs.contains(project.id) {
             result.append(project)
         }
 
