@@ -55,7 +55,7 @@ For development, `swift build && swift run` works but notifications will be disa
 > No.
 >
 > **Q: Can I add usage tracking as a feature?**
-> No, but you can use this app to find a tracker that tracks your usage.****
+> No, but you can use this app to find a tracker that tracks your usage.
 >
 > **Q: Is this app tracked by itself?**
 > No. This is a tracker tracker, not a tracker tracker tracker. Including itself would create a paradox.
