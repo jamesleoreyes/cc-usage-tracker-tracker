@@ -1,0 +1,57 @@
+name: Discover New Trackers
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # Every 6 hours
+  workflow_dispatch:        # Manual trigger
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Search GitHub for new trackers
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node .github/scripts/discover.mjs
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet Sources/Resources/tracker-registry.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "$(git diff --stat Sources/Resources/tracker-registry.json)"
+          fi
+
+      - name: Create PR with new discoveries
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          BRANCH="discovery/$(date +%Y%m%d-%H%M)"
+          git checkout -b "$BRANCH"
+          git add Sources/Resources/tracker-registry.json
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "Add newly discovered tracker repos"
+          git push origin "$BRANCH"
+          gh pr create \
+            --title "New tracker repos discovered" \
+            --body "$(cat <<'EOF'
+          Automated discovery found new Claude usage tracker repos not yet in the registry.
+
+          **Review each entry** — the script filters by topic/description relevance but may include false positives.
+          EOF
+          )" \
+            --label "discovery"
