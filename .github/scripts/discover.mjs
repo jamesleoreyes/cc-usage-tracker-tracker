@@ -246,13 +246,7 @@ async function main() {
     return;
   }
 
-  // Cap at 50 per run to keep PRs reviewable
-  const toAdd = [...candidates.values()].slice(0, 50);
-  if (candidates.size > 50) {
-    console.log(`Capping at 50 (${candidates.size - 50} deferred to next run)`);
-  }
-
-  for (const repo of toAdd) {
+  for (const repo of candidates.values()) {
     const entry = {
       id: repo.full_name,
       name: repo.name,
@@ -271,7 +265,7 @@ async function main() {
   }
 
   writeFileSync(REGISTRY_PATH, JSON.stringify(registry, null, 2) + "\n");
-  console.log(`\nRegistry updated: ${registry.length} projects (+${toAdd.length})`);
+  console.log(`\nRegistry updated: ${registry.length} projects (+${candidates.size})`);
 }
 
 main().catch(console.error);
