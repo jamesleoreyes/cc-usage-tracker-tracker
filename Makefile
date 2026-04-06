@@ -10,7 +10,7 @@ DMG_DIR = build/dmg
 BINARY = $(BUILD_DIR)/$(APP_NAME)
 RESOURCE_BUNDLE = $(BUILD_DIR)/$(APP_NAME)_$(APP_NAME).bundle
 
-.PHONY: all build app dmg clean run
+.PHONY: all build app dmg clean run release bump
 
 all: dmg
 
@@ -57,6 +57,23 @@ dmg: app
 # --- Dev: build and run the .app directly ---
 run: app
 	open $(APP_BUNDLE)
+
+# --- Bump version, build DMG, and create GitHub release ---
+# Usage: make release V=1.2.0
+release:
+ifndef V
+	$(error Usage: make release V=1.2.0)
+endif
+	@echo "Bumping version to $(V)..."
+	sed -i '' 's/^VERSION = .*/VERSION = $(V)/' Makefile
+	plutil -replace CFBundleShortVersionString -string "$(V)" Resources/Info.plist
+	$(MAKE) dmg VERSION=$(V)
+	git add Makefile Resources/Info.plist
+	git commit -m "Bump version to $(V)"
+	gh release create v$(V) build/$(APP_NAME)-$(V).dmg \
+		--title "v$(V)" \
+		--generate-notes
+	@echo "Released v$(V)"
 
 # --- Clean ---
 clean:
