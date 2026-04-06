@@ -12,13 +12,11 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationDidFinishLaunching(_ notification: Notification) {
         NSApp.setActivationPolicy(.accessory)
 
-        // Load bundled registry
+        // Load bundled registry + cache immediately (fast, offline)
         do {
             let bundled = try RegistryService.loadBundledRegistry()
-
-            // Merge with cache if available
             if let cached = CacheService.load() {
-                appState.projects = RegistryService.merge(bundled: bundled, cached: cached.projects)
+                appState.projects = RegistryService.merge(primary: bundled, secondary: cached.projects)
                 appState.dismissedIDs = cached.dismissedIDs
             } else {
                 appState.projects = bundled
@@ -34,7 +32,10 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         // Request notification permission
         NotificationService.requestPermission()
 
-        // Initial refresh
+        // Fetch latest registry from GitHub (non-blocking)
+        fetchRemoteRegistry()
+
+        // Initial metadata refresh
         refreshAll()
 
         // Periodic refresh every 30 minutes
@@ -48,6 +49,20 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         discoveryTimer = Timer.scheduledTimer(withTimeInterval: 6 * 60 * 60, repeats: true) { [weak self] _ in
             Task { @MainActor in
                 self?.runDiscovery()
+            }
+        }
+    }
+
+    private func fetchRemoteRegistry() {
+        Task {
+            guard let remote = await RegistryService.fetchRemoteRegistry() else { return }
+            // Merge: remote registry is the new primary (latest curated data),
+            // current projects provide live metadata
+            let merged = RegistryService.merge(primary: remote, secondary: appState.projects)
+            let oldCount = appState.projects.count
+            appState.projects = merged
+            if merged.count > oldCount {
+                print("Registry updated: \(oldCount) -> \(merged.count) projects")
             }
         }
     }
