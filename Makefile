@@ -1,6 +1,6 @@
 APP_NAME = CCUsageTrackerTracker
 BUNDLE_ID = com.jamesleoreyes.cc-usage-tracker-tracker
-VERSION = 1.0.0
+VERSION = 1.1.0
 
 BUILD_DIR = .build/release
 APP_BUNDLE = build/$(APP_NAME).app
