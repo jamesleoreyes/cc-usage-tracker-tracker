@@ -26,15 +26,24 @@ enum TrackerCategory: String, Codable, CaseIterable {
     case macosNative = "macOS Native"
     case electron = "Electron/Desktop"
     case cli = "CLI/Terminal"
+    case terminalUI = "Terminal UI"
     case browserExtension = "Browser Extension"
     case webDashboard = "Web Dashboard"
     case mobile = "Mobile"
     case statusline = "Statusline"
     case ubersicht = "Übersicht Widget"
+    case vscodeExtension = "VS Code Extension"
+    case neovimPlugin = "Neovim Plugin"
+    case raycast = "Raycast Extension"
+    case tmux = "Tmux Plugin"
+    case waybar = "Waybar Module"
+    case desktopOverlay = "Desktop Overlay"
+    case claudeCodePlugin = "Claude Code Plugin"
 }
 
 enum Platform: String, Codable {
     case macos, windows, linux, android, ios, web, chromium, firefox
+    case vscode, neovim, raycast, tmux
 }
 
 enum AuthMethod: String, Codable {
@@ -44,6 +53,8 @@ enum AuthMethod: String, Codable {
     case jsonlParsing = "JSONL Log Parsing"
     case apiKey = "API Key"
     case browserCookie = "Browser Cookie Auto-detect"
+    case otel = "OpenTelemetry"
+    case trafficCapture = "Traffic Capture"
 }
 
 enum SortOrder: String, CaseIterable {
