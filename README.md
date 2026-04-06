@@ -1,7 +1,5 @@
 # CC Usage Tracker Tracker
 
-![Trackers Tracked](https://img.shields.io/badge/trackers_tracked-23-blue)
-
 A native macOS status bar app that discovers, catalogs, and monitors every open-source project people have built to track their Claude AI usage.
 
 **It does not track your Claude usage.** It tracks the trackers that track Claude usage.
