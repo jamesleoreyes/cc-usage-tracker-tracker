@@ -23,9 +23,7 @@ enum CacheService {
         guard FileManager.default.fileExists(atPath: url.path) else { return nil }
         do {
             let data = try Data(contentsOf: url)
-            let decoder = JSONDecoder()
-            decoder.dateDecodingStrategy = .iso8601
-            return try decoder.decode(CachedData.self, from: data)
+            return try RegistryService.makeISO8601Decoder().decode(CachedData.self, from: data)
         } catch {
             print("Cache load error: \(error)")
             return nil
