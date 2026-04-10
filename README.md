@@ -20,9 +20,8 @@ The app lives in your menu bar (no Dock icon). Look for the number.
 
 - Shows the count of known Claude usage tracker projects in your menu bar
 - Click to open a dashboard with every project listed, searchable, filterable, and sortable
-- Fetches live metadata from GitHub (stars, last commit, health status)
-- Periodically discovers new tracker projects via GitHub Search API
-- Sends macOS notifications when new trackers appear in the wild
+- Live metadata (stars, last commit, health status) updated automatically via GitHub Actions
+- New tracker projects discovered automatically every 6 hours via GitHub Search API
 
 ## Features
 
@@ -30,9 +29,19 @@ The app lives in your menu bar (no Dock icon). Look for the number.
 - **Popover dashboard** with search, category filters, and sort options
 - **Health indicators**: green (active), yellow (aging), red (stale/archived), skull (deleted)
 - **Expandable detail** per project: features, auth methods, platforms, GitHub link
-- **Discovery engine**: finds new Claude usage trackers automatically
+- **Automated discovery**: a GitHub Action finds new trackers and opens PRs for review
+- **Automated metadata**: a GitHub Action updates stars, commit dates, and health every 4 hours
 - **Stats section**: language census, platform spread, "Built with Claude" percentage
-- **Settings**: optional GitHub PAT for higher API rate limits, refresh intervals, launch at login
+- **Instant loading**: the app reads a single JSON registry — no API calls, no loading spinners
+
+## How It Works
+
+The app itself makes **zero GitHub API calls**. All the heavy lifting happens in GitHub Actions:
+
+- **Discovery** (`discover-trackers.yml`): Runs every 6 hours, searches GitHub for new Claude usage tracker repos, and opens a PR for review.
+- **Metadata** (`update-registry.yml`): Runs every 4 hours, fetches stars, commit dates, archived status, and releases for every repo, then commits the updated registry directly to `main`.
+
+The app just fetches `tracker-registry.json` from this repo on launch and displays it. One HTTP request, instant results.
 
 ## Build from Source
 
@@ -49,7 +58,7 @@ make dmg
 make run
 ```
 
-The `.app` lands in `build/CCUsageTrackerTracker.app` and the `.dmg` in `build/CCUsageTrackerTracker-1.0.0.dmg`.
+The `.app` lands in `build/CCUsageTrackerTracker.app` and the `.dmg` in `build/`.
 
 For development, `swift build && swift run` works but notifications will be disabled (they require a real `.app` bundle).
 
