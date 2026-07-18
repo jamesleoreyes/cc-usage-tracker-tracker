@@ -1,0 +1,40 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  # Registry commits are pushed by the automation workflows using GITHUB_TOKEN,
+  # which never triggers `push` workflows (GitHub's recursion guard). Running
+  # after each automation workflow completes is what actually guards the
+  # registry — a bad automated commit fails CI within minutes of landing.
+  workflow_run:
+    workflows: ["Discover New Trackers", "Update Registry Metadata"]
+    types: [completed]
+
+concurrency:
+  group: ci-${{ github.ref }}-${{ github.event_name }}
+  cancel-in-progress: true
+
+jobs:
+  build-and-test:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Swift version
+        run: swift --version
+
+      - name: Build
+        run: swift build
+
+      # Conditional so this workflow can merge independently of the PR that
+      # introduces the test target.
+      - name: Test
+        run: |
+          if [ -d Tests ]; then
+            swift test
+          else
+            echo "No Tests directory yet — skipping"
+          fi
