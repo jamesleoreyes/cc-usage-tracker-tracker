@@ -102,6 +102,7 @@ extension TrackerCategory {
         case .waybar: "Waybar"
         case .desktopOverlay: "Overlay"
         case .claudeCodePlugin: "CC Plugin"
+        case .other: "Other"
         }
     }
 }
