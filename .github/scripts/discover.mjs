@@ -4,10 +4,16 @@
 // Runs as a GitHub Action on a schedule.
 
 import { readFileSync, writeFileSync } from "fs";
+import { classifyRepo, gatherEvidence, DEFAULT_MODEL } from "./classify.mjs";
 
 const REGISTRY_PATH = "Sources/Resources/tracker-registry.json";
+const REJECTED_PATH = ".github/data/rejected.json";
 const GITHUB_API = "https://api.github.com";
 const TOKEN = process.env.GH_TOKEN;
+const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
+const CLASSIFIER_MODEL = process.env.CLASSIFIER_MODEL ?? DEFAULT_MODEL;
+const CONFIDENCE_THRESHOLD = 0.6;
+const CLASSIFY_CAP = 40; // cost guard; deferred candidates re-surface next run
 
 // Targeted search queries — each should return mostly relevant results
 const SEARCH_QUERIES = [
@@ -226,10 +232,21 @@ function guessCategory(repo) {
   return "CLI/Terminal";
 }
 
+function loadRejected() {
+  try {
+    return JSON.parse(readFileSync(REJECTED_PATH, "utf-8"));
+  } catch {
+    return [];
+  }
+}
+
 async function main() {
   const registry = JSON.parse(readFileSync(REGISTRY_PATH, "utf-8"));
-  const knownIDs = new Set(registry.map((p) => p.id));
-  console.log(`Current registry: ${registry.length} projects`);
+  const rejected = loadRejected();
+  // Classifier-rejected repos are remembered so they aren't re-fetched and
+  // re-classified every 6 hours for as long as they keep matching a search.
+  const knownIDs = new Set([...registry.map((p) => p.id), ...rejected.map((r) => r.id)]);
+  console.log(`Current registry: ${registry.length} projects (+${rejected.length} remembered rejects)`);
 
   const candidates = new Map();
 
@@ -255,19 +272,60 @@ async function main() {
     return;
   }
 
-  for (const repo of candidates.values()) {
+  // Second stage: LLM classification with deterministic evidence. Without an
+  // API key (or on API failure) discovery falls open to the heuristic-only
+  // behavior — the classifier improves quality, it must never block discovery.
+  const accepted = [];
+  const newlyRejected = [];
+
+  if (ANTHROPIC_API_KEY) {
+    const toClassify = [...candidates.values()].slice(0, CLASSIFY_CAP);
+    const deferred = candidates.size - toClassify.length;
+    if (deferred > 0) console.log(`Classifying ${toClassify.length}, deferring ${deferred} to the next run`);
+
+    for (const repo of toClassify) {
+      let verdict = null;
+      let evidence = { readme: null, claudeCommitEvidence: null };
+      try {
+        evidence = await gatherEvidence(repo.full_name, TOKEN);
+        verdict = await classifyRepo(repo, evidence, { apiKey: ANTHROPIC_API_KEY, model: CLASSIFIER_MODEL });
+      } catch (e) {
+        console.warn(`  ? ${repo.full_name}: classifier unavailable (${e.message.slice(0, 80)}), accepting heuristically`);
+        accepted.push({ repo, verdict: null });
+        continue;
+      }
+
+      if (verdict.is_tracker && verdict.confidence >= CONFIDENCE_THRESHOLD) {
+        console.log(`  ✓ ${repo.full_name} (${verdict.confidence.toFixed(2)}) [${verdict.category}] — ${verdict.reason.slice(0, 80)}`);
+        accepted.push({ repo, verdict });
+      } else {
+        console.log(`  ✗ ${repo.full_name} (${verdict.confidence.toFixed(2)}) — ${verdict.reason.slice(0, 100)}`);
+        newlyRejected.push({
+          id: repo.full_name,
+          reason: verdict.reason,
+          confidence: verdict.confidence,
+          rejectedAt: new Date().toISOString(),
+        });
+      }
+    }
+  } else {
+    console.log("ANTHROPIC_API_KEY not set — accepting all candidates heuristically (no classification)");
+    for (const repo of candidates.values()) accepted.push({ repo, verdict: null });
+  }
+
+  for (const { repo, verdict } of accepted) {
     const entry = {
       id: repo.full_name,
       name: repo.name,
       author: repo.owner.login,
       repoURL: repo.html_url,
       description: repo.description ?? "",
-      category: guessCategory(repo),
-      platforms: [],
+      category: verdict?.category ?? guessCategory(repo),
+      platforms: verdict?.platforms ?? [],
       language: repo.language ?? "Unknown",
-      authMethod: [],
-      features: [],
-      builtWithClaude: null,
+      authMethod: verdict?.auth_methods ?? [],
+      features: verdict?.features ?? [],
+      builtWithClaude: verdict?.built_with_claude ?? null,
       stars: repo.stargazers_count ?? 0,
       lastCommitDate: repo.pushed_at ?? null,
       openIssues: repo.open_issues_count ?? 0,
@@ -278,8 +336,13 @@ async function main() {
     console.log(`  + ${repo.full_name} [${entry.category}] ★${entry.stars} — ${entry.description.slice(0, 70)}`);
   }
 
-  writeFileSync(REGISTRY_PATH, JSON.stringify(registry, null, 2) + "\n");
-  console.log(`\nRegistry updated: ${registry.length} projects (+${candidates.size})`);
+  if (accepted.length > 0) {
+    writeFileSync(REGISTRY_PATH, JSON.stringify(registry, null, 2) + "\n");
+  }
+  if (newlyRejected.length > 0) {
+    writeFileSync(REJECTED_PATH, JSON.stringify([...rejected, ...newlyRejected], null, 2) + "\n");
+  }
+  console.log(`\nRegistry updated: ${registry.length} projects (+${accepted.length}, rejected ${newlyRejected.length})`);
 }
 
 main().catch(console.error);

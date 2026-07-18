@@ -27,30 +27,41 @@ jobs:
       - name: Search GitHub for new trackers
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Optional: enables LLM classification of candidates. Without it,
+          # discovery falls back to heuristic-only filtering.
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: node .github/scripts/discover.mjs
 
       - name: Count new discoveries
         id: changes
         run: |
-          if git diff --quiet Sources/Resources/tracker-registry.json; then
+          if git diff --quiet -- Sources/Resources/tracker-registry.json .github/data/rejected.json; then
+            echo "dirty=false" >> "$GITHUB_OUTPUT"
             echo "count=0" >> "$GITHUB_OUTPUT"
           else
             BEFORE=$(git show HEAD:Sources/Resources/tracker-registry.json | jq length)
             AFTER=$(jq length Sources/Resources/tracker-registry.json)
+            echo "dirty=true" >> "$GITHUB_OUTPUT"
             echo "count=$((AFTER - BEFORE))" >> "$GITHUB_OUTPUT"
             echo "Found $((AFTER - BEFORE)) new tracker(s)"
           fi
 
       # Normal drip: commit straight to main. No PR, no review queue.
+      # count == 0 with dirty == true means a rejects-only run — still worth
+      # committing so rejected candidates aren't re-classified every 6 hours.
       - name: Commit to main
-        if: steps.changes.outputs.count > 0 && steps.changes.outputs.count <= 15
+        if: steps.changes.outputs.dirty == 'true' && steps.changes.outputs.count <= 15
         env:
           NEW_COUNT: ${{ steps.changes.outputs.count }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add Sources/Resources/tracker-registry.json
-          git commit -m "Add $NEW_COUNT newly discovered tracker repo(s)"
+          git add Sources/Resources/tracker-registry.json .github/data/rejected.json
+          if [ "$NEW_COUNT" -gt 0 ]; then
+            git commit -m "Add $NEW_COUNT newly discovered tracker repo(s)"
+          else
+            git commit -m "Record rejected discovery candidates"
+          fi
           for i in 1 2 3; do
             if git push; then exit 0; fi
             git pull --rebase origin main || { git rebase --abort; exit 1; }
@@ -68,7 +79,7 @@ jobs:
         run: |
           BRANCH="discovery/$(date +%Y%m%d-%H%M)"
           git checkout -b "$BRANCH"
-          git add Sources/Resources/tracker-registry.json
+          git add Sources/Resources/tracker-registry.json .github/data/rejected.json
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git commit -m "Add $NEW_COUNT newly discovered tracker repos"
