@@ -8,6 +8,11 @@ on:
 permissions:
   contents: write
 
+# Never run concurrently with discovery — both rewrite the registry.
+concurrency:
+  group: registry-writes
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -32,5 +37,10 @@ jobs:
             git config user.email "github-actions[bot]@users.noreply.github.com"
             git add Sources/Resources/tracker-registry.json
             git commit -m "Update registry metadata"
-            git push
+            for i in 1 2 3; do
+              if git push; then exit 0; fi
+              git pull --rebase origin main || { git rebase --abort; exit 1; }
+              sleep 10
+            done
+            exit 1
           fi

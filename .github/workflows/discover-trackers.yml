@@ -9,6 +9,11 @@ permissions:
   contents: write
   pull-requests: write
 
+# Never run concurrently with the metadata updater — both rewrite the registry.
+concurrency:
+  group: registry-writes
+  cancel-in-progress: false
+
 jobs:
   discover:
     runs-on: ubuntu-latest
@@ -24,35 +29,57 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node .github/scripts/discover.mjs
 
-      - name: Check for changes
+      - name: Count new discoveries
         id: changes
         run: |
           if git diff --quiet Sources/Resources/tracker-registry.json; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "count=0" >> "$GITHUB_OUTPUT"
           else
-            echo "changed=true" >> "$GITHUB_OUTPUT"
-            echo "$(git diff --stat Sources/Resources/tracker-registry.json)"
+            BEFORE=$(git show HEAD:Sources/Resources/tracker-registry.json | jq length)
+            AFTER=$(jq length Sources/Resources/tracker-registry.json)
+            echo "count=$((AFTER - BEFORE))" >> "$GITHUB_OUTPUT"
+            echo "Found $((AFTER - BEFORE)) new tracker(s)"
           fi
 
-      - name: Create PR with new discoveries
-        if: steps.changes.outputs.changed == 'true'
+      # Normal drip: commit straight to main. No PR, no review queue.
+      - name: Commit to main
+        if: steps.changes.outputs.count > 0 && steps.changes.outputs.count <= 15
+        env:
+          NEW_COUNT: ${{ steps.changes.outputs.count }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add Sources/Resources/tracker-registry.json
+          git commit -m "Add $NEW_COUNT newly discovered tracker repo(s)"
+          for i in 1 2 3; do
+            if git push; then exit 0; fi
+            git pull --rebase origin main || { git rebase --abort; exit 1; }
+            sleep 10
+          done
+          exit 1
+
+      # Anomaly guard: a batch this large usually means a search-filter regression,
+      # so keep the old PR-for-review path for it.
+      - name: Open PR for review (unusually large batch)
+        if: steps.changes.outputs.count > 15
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NEW_COUNT: ${{ steps.changes.outputs.count }}
         run: |
           BRANCH="discovery/$(date +%Y%m%d-%H%M)"
           git checkout -b "$BRANCH"
           git add Sources/Resources/tracker-registry.json
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git commit -m "Add newly discovered tracker repos"
+          git commit -m "Add $NEW_COUNT newly discovered tracker repos"
           git push origin "$BRANCH"
           gh label create discovery --description "Automated tracker discovery" --color "0E8A16" 2>/dev/null || true
           gh pr create \
-            --title "New tracker repos discovered" \
+            --title "Review needed: $NEW_COUNT trackers discovered in one run" \
             --body "$(cat <<'EOF'
-          Automated discovery found new Claude usage tracker repos not yet in the registry.
+          Automated discovery found an unusually large batch of new tracker repos (>15 in a single run).
 
-          **Review each entry** — the script filters by topic/description relevance but may include false positives.
+          Normal-sized batches are committed directly to `main`; a batch this size may indicate a search-query or filter regression, so **review before merging**.
           EOF
           )" \
             --label "discovery"

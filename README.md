@@ -29,7 +29,7 @@ The app lives in your menu bar (no Dock icon). Look for the number.
 - **Popover dashboard** with search, category filters, and sort options
 - **Health indicators**: green (active), yellow (aging), red (stale/archived), skull (deleted)
 - **Expandable detail** per project: features, auth methods, platforms, GitHub link
-- **Automated discovery**: a GitHub Action finds new trackers and opens PRs for review
+- **Automated discovery**: a GitHub Action finds new trackers and commits them straight to the registry (unusually large batches open a PR for review instead)
 - **Automated metadata**: a GitHub Action updates stars, commit dates, and health every 4 hours
 - **Stats section**: language census, platform spread, "Built with Claude" percentage
 - **Instant loading**: the app reads a single JSON registry — no API calls, no loading spinners
@@ -38,8 +38,8 @@ The app lives in your menu bar (no Dock icon). Look for the number.
 
 The app itself makes **zero GitHub API calls**. All the heavy lifting happens in GitHub Actions:
 
-- **Discovery** (`discover-trackers.yml`): Runs every 6 hours, searches GitHub for new Claude usage tracker repos, and opens a PR for review.
-- **Metadata** (`update-registry.yml`): Runs every 4 hours, fetches stars, commit dates, archived status, and releases for every repo, then commits the updated registry directly to `main`.
+- **Discovery** (`discover-trackers.yml`): Runs every 6 hours, searches GitHub for new Claude usage tracker repos, and commits them directly to `main`. Batches larger than 15 open a PR for review instead — an anomaly guard against filter regressions.
+- **Metadata** (`update-registry.yml`): Runs every 4 hours, fetches stars, commit dates, archived status, and releases for the stalest ~400 entries, then commits the updated registry directly to `main`. The rotation covers the full registry about once a day and a half.
 
 The app just fetches `tracker-registry.json` from this repo on launch and displays it. One HTTP request, instant results.
 

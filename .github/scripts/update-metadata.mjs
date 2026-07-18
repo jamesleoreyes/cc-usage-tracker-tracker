@@ -1,14 +1,21 @@
 #!/usr/bin/env node
 
 // Fetches live GitHub metadata (stars, last commit, archived, open issues,
-// latest release) for every repo in the registry and writes it back.
+// latest release) for repos in the registry and writes it back.
 // Runs as a GitHub Action on a schedule.
+//
+// The registry is larger than one run's API budget, so each run refreshes the
+// BATCH_LIMIT stalest entries (by lastFetched) and the schedule rotates
+// through everything over ~a day and a half.
 
 import { readFileSync, writeFileSync } from "fs";
 
 const REGISTRY_PATH = "Sources/Resources/tracker-registry.json";
 const GITHUB_API = "https://api.github.com";
 const TOKEN = process.env.GH_TOKEN;
+const BATCH_LIMIT = parseInt(process.env.BATCH_LIMIT ?? "400", 10);
+
+let rateLimited = false;
 
 async function githubFetch(url) {
   const headers = {
@@ -29,6 +36,7 @@ async function githubFetch(url) {
     const reset = res.headers.get("X-RateLimit-Reset");
     const waitUntil = reset ? new Date(parseInt(reset) * 1000).toISOString() : "unknown";
     console.warn(`Rate limited, resets at ${waitUntil}`);
+    rateLimited = true;
     return null;
   }
   if (res.status === 404) return { _notFound: true };
@@ -57,14 +65,24 @@ async function fetchLatestRelease(owner, repo) {
 
 async function main() {
   const registry = JSON.parse(readFileSync(REGISTRY_PATH, "utf-8"));
-  console.log(`Updating metadata for ${registry.length} projects...`);
+
+  // Refresh the stalest entries first. Sorting a copy of object references
+  // means updates land in the original array without changing its order.
+  const batch = [...registry]
+    .sort((a, b) => (a.lastFetched ?? "").localeCompare(b.lastFetched ?? ""))
+    .slice(0, BATCH_LIMIT);
+  console.log(`Registry has ${registry.length} projects; refreshing the ${batch.length} stalest...`);
 
   let updated = 0;
   let notFound = 0;
   let errors = 0;
 
-  for (let i = 0; i < registry.length; i++) {
-    const project = registry[i];
+  for (let i = 0; i < batch.length; i++) {
+    if (rateLimited) {
+      console.warn(`Stopping early at ${i}/${batch.length} — rate limited; the rest stay stalest and go first next run`);
+      break;
+    }
+    const project = batch[i];
     const [owner, repo] = project.id.split("/");
 
     if (!owner || !repo) {
@@ -102,7 +120,7 @@ async function main() {
 
     // Progress log every 50 repos
     if ((i + 1) % 50 === 0) {
-      console.log(`  Progress: ${i + 1}/${registry.length}`);
+      console.log(`  Progress: ${i + 1}/${batch.length}`);
     }
 
     // Small delay to be respectful (GITHUB_TOKEN gets 1000 req/hr for search, 5000 for REST)

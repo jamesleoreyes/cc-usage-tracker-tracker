@@ -79,8 +79,14 @@ const STRONG_SIGNALS = [
   "waybar",
 ];
 
-// Repos matching these patterns are almost certainly not usage trackers
+// Repos matching these patterns are almost certainly not usage trackers.
+// Curation rule: an entry must display, measure, or report Claude usage as a
+// substantial feature. Account poolers, setup kits, and orchestrators don't count.
 const REJECT_PATTERNS = [
+  // Account poolers / credential rotators (circumvent limits rather than track them)
+  /\b(pools?|pooling|rotat\w+|swap\w*)\b.{0,24}\b(accounts?|credentials?|keys?)\b/i,
+  /\baccounts?\b.{0,24}\b(pool\w*|rotat\w+|swap\w*)\b/i,
+  /\breverse\s+prox(y|ies)\b/i,
   // CI/CD cctray XML format (completely unrelated)
   /\bcctray\b.*\b(jenkins|ci|xml|feed|build|semaphore|gocd|bamboo)\b/i,
   /\b(jenkins|ci|xml|feed|build|semaphore|gocd|bamboo)\b.*\bcctray\b/i,
