@@ -6,8 +6,25 @@ enum RegistryService {
         string: "https://raw.githubusercontent.com/jamesleoreyes/cc-usage-tracker-tracker/main/Sources/Resources/tracker-registry.json"
     )!
 
-    private static var decoder: JSONDecoder {
-        makeISO8601Decoder()
+    /// Wrapper that swallows a single entry's decode failure so one malformed
+    /// entry can't take down the whole registry (which would silently freeze
+    /// every installed app on its bundled copy).
+    private struct FailableEntry: Decodable {
+        let value: TrackerProject?
+        init(from decoder: Decoder) {
+            value = try? TrackerProject(from: decoder)
+        }
+    }
+
+    /// Decode a registry array, dropping malformed entries instead of failing wholesale.
+    nonisolated static func decodeRegistry(from data: Data) throws -> [TrackerProject] {
+        let entries = try makeISO8601Decoder().decode([FailableEntry].self, from: data)
+        let projects = entries.compactMap(\.value)
+        let dropped = entries.count - projects.count
+        if dropped > 0 {
+            print("Registry decode: dropped \(dropped) malformed entr\(dropped == 1 ? "y" : "ies") of \(entries.count)")
+        }
+        return projects
     }
 
     /// Creates a JSONDecoder that handles ISO 8601 dates both with and without
@@ -36,7 +53,7 @@ enum RegistryService {
             throw RegistryError.missingBundledFile
         }
         let data = try Data(contentsOf: url)
-        return try decoder.decode([TrackerProject].self, from: data)
+        return try decodeRegistry(from: data)
     }
 
     /// Fetch the latest registry from GitHub. Returns nil on failure.
@@ -46,7 +63,7 @@ enum RegistryService {
             guard let http = response as? HTTPURLResponse, http.statusCode == 200 else {
                 return nil
             }
-            return try makeISO8601Decoder().decode([TrackerProject].self, from: data)
+            return try decodeRegistry(from: data)
         } catch {
             print("Remote registry fetch failed: \(error)")
             return nil

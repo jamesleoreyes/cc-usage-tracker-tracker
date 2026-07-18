@@ -11,6 +11,11 @@ let package = Package(
             resources: [
                 .process("Resources/tracker-registry.json")
             ]
+        ),
+        .testTarget(
+            name: "CCUsageTrackerTrackerTests",
+            dependencies: ["CCUsageTrackerTracker"],
+            path: "Tests"
         )
     ]
 )

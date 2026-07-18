@@ -29,7 +29,7 @@ struct TrackerDetailView: View {
                 Text("Auth:")
                     .font(.caption2)
                     .foregroundStyle(.secondary)
-                ForEach(project.authMethod, id: \.self) { method in
+                ForEach(project.authMethod.filter { $0 != .unknown }, id: \.self) { method in
                     Text(method.rawValue)
                         .font(.caption2)
                         .padding(.horizontal, 5)
@@ -69,7 +69,7 @@ struct TrackerDetailView: View {
                 Text("Platforms:")
                     .font(.caption2)
                     .foregroundStyle(.secondary)
-                ForEach(project.platforms, id: \.self) { platform in
+                ForEach(project.platforms.filter { $0 != .unknown }, id: \.self) { platform in
                     Text(platform.rawValue)
                         .font(.caption2)
                         .foregroundStyle(.secondary)

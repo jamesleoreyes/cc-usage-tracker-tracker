@@ -39,11 +39,25 @@ enum TrackerCategory: String, Codable, CaseIterable {
     case waybar = "Waybar Module"
     case desktopOverlay = "Desktop Overlay"
     case claudeCodePlugin = "Claude Code Plugin"
+    case other = "Other"
+
+    // A category string this app version doesn't know must not break decoding —
+    // the registry updates continuously and old installs keep fetching it.
+    init(from decoder: Decoder) throws {
+        let raw = try decoder.singleValueContainer().decode(String.self)
+        self = TrackerCategory(rawValue: raw) ?? .other
+    }
 }
 
 enum Platform: String, Codable {
     case macos, windows, linux, android, ios, web, chromium, firefox
     case vscode, neovim, raycast, tmux
+    case unknown
+
+    init(from decoder: Decoder) throws {
+        let raw = try decoder.singleValueContainer().decode(String.self)
+        self = Platform(rawValue: raw) ?? .unknown
+    }
 }
 
 enum AuthMethod: String, Codable {
@@ -55,6 +69,12 @@ enum AuthMethod: String, Codable {
     case browserCookie = "Browser Cookie Auto-detect"
     case otel = "OpenTelemetry"
     case trafficCapture = "Traffic Capture"
+    case unknown = "Unknown"
+
+    init(from decoder: Decoder) throws {
+        let raw = try decoder.singleValueContainer().decode(String.self)
+        self = AuthMethod(rawValue: raw) ?? .unknown
+    }
 }
 
 enum SortOrder: String, CaseIterable {
