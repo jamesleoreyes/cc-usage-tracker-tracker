@@ -27,6 +27,7 @@ import {
 
 const REGISTRY_PATH = "Sources/Resources/tracker-registry.json";
 const FLAGGED_PATH = "backfill-flagged.json";
+const BATCH_MAP_PATH = "backfill-batch-map.json";
 const BATCHES_API = "https://api.anthropic.com/v1/messages/batches";
 
 const API_KEY = process.env.ANTHROPIC_API_KEY;
@@ -125,7 +126,12 @@ async function phaseB(targets, cache) {
   });
   if (!res.ok) throw new Error(`batch create failed ${res.status}: ${(await res.text()).slice(0, 300)}`);
   const batch = await res.json();
-  console.log(`Phase B — batch submitted: ${batch.id} (${requests.length} requests)`);
+  // custom_ids are positional (r0, r1, ...), so persist the position → repo-id
+  // mapping. A --batch-id resume must NOT recompute selection from the registry:
+  // if the registry changed in between (a discovery run landed), positional
+  // recomputation would silently apply verdicts to the wrong entries.
+  writeFileSync(BATCH_MAP_PATH, JSON.stringify({ batchId: batch.id, ids: targets.map((p) => p.id) }));
+  console.log(`Phase B — batch submitted: ${batch.id} (${requests.length} requests, id map saved to ${BATCH_MAP_PATH})`);
   return batch.id;
 }
 
@@ -141,12 +147,13 @@ async function pollBatch(batchId) {
   }
 }
 
-async function phaseC(batch, targets, registry) {
+async function phaseC(batch, ids, registry) {
   const res = await fetch(batch.results_url, { headers: anthropicHeaders });
   if (!res.ok) throw new Error(`results fetch failed ${res.status}`);
   const lines = (await res.text()).trim().split("\n");
 
   const byID = new Map(registry.map((p) => [p.id, p]));
+  const cache = existsSync(CACHE_PATH) ? JSON.parse(readFileSync(CACHE_PATH, "utf-8")) : {};
   const flagged = [];
   let enriched = 0;
   let errored = 0;
@@ -154,7 +161,7 @@ async function phaseC(batch, targets, registry) {
   for (const line of lines) {
     const result = JSON.parse(line);
     const index = parseInt(result.custom_id.slice(1), 10);
-    const project = byID.get(targets[index].id);
+    const project = byID.get(ids[index]);
     if (!project) continue;
 
     if (result.result.type !== "succeeded") {
@@ -162,13 +169,11 @@ async function phaseC(batch, targets, registry) {
       continue;
     }
 
-    const evidence = { claudeCommitEvidence: null };
+    // Evidence-based builtWithClaude was baked into the prompt; re-derive
+    // from the cache so hard evidence still outranks the model here.
+    const evidence = { claudeCommitEvidence: cache[project.id]?.claudeCommitEvidence ?? null };
     let verdict;
     try {
-      // Evidence-based builtWithClaude was baked into the prompt; re-derive
-      // from the cache so hard evidence still outranks the model here.
-      const cache = existsSync(CACHE_PATH) ? JSON.parse(readFileSync(CACHE_PATH, "utf-8")) : {};
-      evidence.claudeCommitEvidence = cache[project.id]?.claudeCommitEvidence ?? null;
       verdict = parseVerdict(result.result.message, evidence);
     } catch {
       errored++;
@@ -203,8 +208,17 @@ async function main() {
   console.log(`Registry: ${registry.length} entries, ${targets.length} selected for enrichment (model: ${MODEL})`);
 
   if (RESUME_BATCH_ID) {
+    if (!existsSync(BATCH_MAP_PATH)) {
+      console.error(`--batch-id resume requires ${BATCH_MAP_PATH} (written at submit time); refusing to guess the result mapping.`);
+      process.exit(1);
+    }
+    const map = JSON.parse(readFileSync(BATCH_MAP_PATH, "utf-8"));
+    if (map.batchId !== RESUME_BATCH_ID) {
+      console.error(`${BATCH_MAP_PATH} is for batch ${map.batchId}, not ${RESUME_BATCH_ID}.`);
+      process.exit(1);
+    }
     const batch = await pollBatch(RESUME_BATCH_ID);
-    await phaseC(batch, targets, registry);
+    await phaseC(batch, map.ids, registry);
     return;
   }
 
@@ -219,7 +233,7 @@ async function main() {
 
   const batchId = await phaseB(targets, cache);
   const batch = await pollBatch(batchId);
-  await phaseC(batch, targets, registry);
+  await phaseC(batch, targets.map((p) => p.id), registry);
 }
 
 main().catch((e) => {

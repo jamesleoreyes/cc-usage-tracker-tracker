@@ -1,2 +1,7 @@
 .build/
 build/
+
+# backfill-enrich.mjs working files (local artifacts, never committed)
+backfill-evidence.json
+backfill-flagged.json
+backfill-batch-map.json
