@@ -116680,5 +116680,345 @@
     "openIssues": 1,
     "archived": false,
     "lastFetched": "2026-07-19T08:20:58.891Z"
+  },
+  {
+    "id": "samxhuang/claude-widget",
+    "name": "claude-widget",
+    "author": "samxhuang",
+    "repoURL": "https://github.com/samxhuang/claude-widget",
+    "description": "Claude usage overlay widget + autoresume daemon",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "usage-bars",
+      "cost-graph",
+      "plan-fit-analysis",
+      "sessions-list",
+      "remote-ssh-hosts",
+      "auto-resume",
+      "rate-limit-tracking",
+      "budget-alerts"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-19T13:08:18Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-19T13:20:22.921Z"
+  },
+  {
+    "id": "GarageMan/ClaudeUsageWidget",
+    "name": "ClaudeUsageWidget",
+    "author": "GarageMan",
+    "repoURL": "https://github.com/GarageMan/ClaudeUsageWidget",
+    "description": "Ein schlankes WPF-Widget, das oberhalb der Taskleiste sitzt und meine Claude-Nutzung anzeigt",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "C#",
+    "authMethod": [
+      "OpenTelemetry"
+    ],
+    "features": [
+      "5-hour-session-window",
+      "7-day-weekly-window",
+      "usage-percentage",
+      "traffic-light-alerts",
+      "reset-countdown",
+      "draggable-overlay",
+      "statusline-integration"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-19T12:10:09Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-19T13:20:22.922Z"
+  },
+  {
+    "id": "BigBundit/claude-usage-widget",
+    "name": "claude-usage-widget",
+    "author": "BigBundit",
+    "repoURL": "https://github.com/BigBundit/claude-usage-widget",
+    "description": "Cute Husky-themed floating desktop widget showing Claude usage and per-model cost (Windows/Electron)",
+    "category": "Electron/Desktop",
+    "platforms": [
+      "windows"
+    ],
+    "language": "HTML",
+    "authMethod": [
+      "OAuth Token",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "plan-limits",
+      "cost-per-model",
+      "currency-conversion",
+      "privacy-toggle",
+      "collapsible-widget",
+      "auto-refresh",
+      "token-auto-refresh"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-19T11:29:43Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-19T13:20:22.922Z"
+  },
+  {
+    "id": "LijiAlex/claudometer",
+    "name": "claudometer",
+    "author": "LijiAlex",
+    "repoURL": "https://github.com/LijiAlex/claudometer",
+    "description": "macOS menu bar app for Claude usage limits",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "menu-bar-display",
+      "session-limits",
+      "weekly-limits",
+      "per-model-breakdown",
+      "keychain-auth",
+      "progress-bars"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-19T11:30:39Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-19T13:20:22.922Z"
+  },
+  {
+    "id": "BRONDIJKxyz/claude-usage-swiftbar",
+    "name": "claude-usage-swiftbar",
+    "author": "BRONDIJKxyz",
+    "repoURL": "https://github.com/BRONDIJKxyz/claude-usage-swiftbar",
+    "description": "Claude Code usage & rate limits in your macOS menu bar (SwiftBar plugin)",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "OAuth Token",
+      "Session Cookie"
+    ],
+    "features": [
+      "menu-bar-display",
+      "rate-limit-alerts",
+      "usage-breakdown",
+      "keychain-integration",
+      "5h-session-limit",
+      "weekly-limits",
+      "model-scoped-quotas"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-19T09:34:34Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-19T13:20:22.923Z"
+  },
+  {
+    "id": "tugrulcavus/claude-usage-bar",
+    "name": "claude-usage-bar",
+    "author": "tugrulcavus",
+    "repoURL": "https://github.com/tugrulcavus/claude-usage-bar",
+    "description": "macOS menu bar app for Claude plan usage (5h + weekly). Official statusline data, no token required. SwiftUI, no Xcode.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OpenTelemetry",
+      "API Key",
+      "Session Key"
+    ],
+    "features": [
+      "dual-bar-menu-glyph",
+      "pacing-verdict",
+      "burn-rate-alerts",
+      "per-model-rows",
+      "severity-color",
+      "reset-countdown"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-19T09:20:54Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-19T13:20:22.923Z"
+  },
+  {
+    "id": "sytang9/cc-usage-bar",
+    "name": "cc-usage-bar",
+    "author": "sytang9",
+    "repoURL": "https://github.com/sytang9/cc-usage-bar",
+    "description": "Claude Code usage status bar + ccswitch multi-account CLI (5h/weekly rate-limit meters, account switch, all-account usage monitor)",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Session Key",
+      "API Key"
+    ],
+    "features": [
+      "statusline-display",
+      "5h-rate-limit",
+      "weekly-rate-limit",
+      "context-window",
+      "multi-account",
+      "account-switch",
+      "usage-monitor"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-19T12:32:25Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-19T13:20:22.923Z"
+  },
+  {
+    "id": "kitsuyui/agent-usage",
+    "name": "agent-usage",
+    "author": "kitsuyui",
+    "repoURL": "https://github.com/kitsuyui/agent-usage",
+    "description": "Track AI coding agent (Claude Code, Codex CLI, Antigravity, Copilot CLI) rate limits and usage over time, with HTTP/MCP APIs and a small dashboard.",
+    "category": "Web Dashboard",
+    "platforms": [
+      "web"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "rate-limit-tracking",
+      "usage-history",
+      "multi-provider",
+      "http-api",
+      "mcp-server",
+      "sqlite-backend",
+      "static-dashboard",
+      "reset-time-calc"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-19T12:52:34Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-19T13:20:22.923Z"
+  },
+  {
+    "id": "meet30997/ai_usage_widget",
+    "name": "ai_usage_widget",
+    "author": "meet30997",
+    "repoURL": "https://github.com/meet30997/ai_usage_widget",
+    "description": "A lightweight macOS menu bar app for tracking Claude Code and OpenAI Codex usage, rate limits, and token consumption locally.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Traffic Capture",
+      "API Key"
+    ],
+    "features": [
+      "claude-code-tracking",
+      "openai-codex-tracking",
+      "rate-limit-monitoring",
+      "token-consumption",
+      "14-day-visualization",
+      "local-only",
+      "menu-bar-app",
+      "multi-provider"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-19T09:37:36Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-19T13:20:22.923Z"
+  },
+  {
+    "id": "Robin0725/cc-quota",
+    "name": "cc-quota",
+    "author": "Robin0725",
+    "repoURL": "https://github.com/Robin0725/cc-quota",
+    "description": "macOS 菜单栏 AI 额度胶囊 · A local-first macOS menu bar monitor for Claude Code, Codex and Kimi quota. 额度一眼可见，无需逐个点开。",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "multi-account",
+      "quota-monitor",
+      "5-hour-window",
+      "menu-bar-widget",
+      "local-first"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-07-19T11:49:24Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-19T13:20:22.923Z"
+  },
+  {
+    "id": "monsieurfux/clawd-meter",
+    "name": "clawd-meter",
+    "author": "monsieurfux",
+    "repoURL": "https://github.com/monsieurfux/clawd-meter",
+    "description": "Claude usage on the ESP32 Cheap Yellow Display, with Clawd — an animated mascot whose mood follows your quota. Remix of glimmer + clawd-mochi.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "linux",
+      "windows",
+      "macos"
+    ],
+    "language": "C++",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "claude-usage-display",
+      "quota-visualization",
+      "animated-mascot",
+      "5-hour-window",
+      "weekly-window",
+      "per-model-breakdown",
+      "weather-widget",
+      "touch-interface"
+    ],
+    "builtWithClaude": null,
+    "stars": 4,
+    "lastCommitDate": "2026-07-18T17:32:09Z",
+    "openIssues": 1,
+    "archived": false,
+    "lastFetched": "2026-07-19T13:20:22.923Z"
   }
 ]
