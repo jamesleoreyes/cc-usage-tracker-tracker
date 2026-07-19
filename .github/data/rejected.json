@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "id": "sammpentz-commits/waitperk-client",
+    "reason": "WaitPerk is a Claude Code status-line monetization tool that displays sponsor messages, not a Claude usage tracker—it measures impression time and earnings rather than tokens, cost, or API usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-19T02:47:07.746Z"
+  },
+  {
+    "id": "juliuswiener/nord-kit",
+    "reason": "nord-kit is a Claude Code plugin marketplace with multi-agent skills and utilities, not a usage tracker; it provides a statusline (nord-hud) that displays context/model info but does not measure or report Claude usage (tokens, cost, quotas) as a feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-19T02:47:10.654Z"
+  }
+]
