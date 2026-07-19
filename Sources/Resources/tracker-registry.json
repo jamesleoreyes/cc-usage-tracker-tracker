@@ -117279,5 +117279,269 @@
     "openIssues": 1,
     "archived": false,
     "lastFetched": "2026-07-19T13:20:22.923Z"
+  },
+  {
+    "id": "smafnan5/claude-usage-widget",
+    "name": "claude-usage-widget",
+    "author": "smafnan5",
+    "repoURL": "https://github.com/smafnan5/claude-usage-widget",
+    "description": "Floating always-on-top widget showing Claude usage limits (Windows/macOS)",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "macos",
+      "windows"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "OAuth Token",
+      "Session Key",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "floating-widget",
+      "usage-limits",
+      "live-progress-bars",
+      "timer-countdowns",
+      "collapsible",
+      "tray-icon",
+      "claude-code-integration"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-19T17:40:52Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-19T19:08:17.069Z"
+  },
+  {
+    "id": "snail2sky/claude-statusline",
+    "name": "claude-statusline",
+    "author": "snail2sky",
+    "repoURL": "https://github.com/snail2sky/claude-statusline",
+    "description": "Cross-machine Claude Code statusline — fancy python script + one-shot installer",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "Python",
+    "authMethod": [],
+    "features": [
+      "context-usage-display",
+      "progress-bar",
+      "cross-machine-sync",
+      "claude-code-integration"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-19T18:48:24Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-19T19:08:17.070Z"
+  },
+  {
+    "id": "bradleybeatz1313/claude-gauge",
+    "name": "claude-gauge",
+    "author": "bradleybeatz1313",
+    "repoURL": "https://github.com/bradleybeatz1313/claude-gauge",
+    "description": "Claude Code statusline: shows the active model and a live usage percentage bar (context used/left + session cost)",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Traffic Capture"
+    ],
+    "features": [
+      "live-context-usage",
+      "session-cost",
+      "model-display",
+      "usage-bar",
+      "token-counting"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-19T18:19:48Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-19T19:08:17.070Z"
+  },
+  {
+    "id": "JustinGamer191/ConTeX",
+    "name": "ConTeX",
+    "author": "JustinGamer191",
+    "repoURL": "https://github.com/JustinGamer191/ConTeX",
+    "description": "20 context-window meters for the Claude Code statusline. Clone, pick a bar, vibe.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "JavaScript",
+    "authMethod": [],
+    "features": [
+      "context-window-meter",
+      "25-design-variants",
+      "live-preview",
+      "auto-theme-detection",
+      "claude-code-integration"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-19T17:56:29Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-19T19:08:17.070Z"
+  },
+  {
+    "id": "umarfarooque88/custom-statusline",
+    "name": "custom-statusline",
+    "author": "umarfarooque88",
+    "repoURL": "https://github.com/umarfarooque88/custom-statusline",
+    "description": "Claude Code skill: 27 status line designs, selectable by number via /custom-statusline",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "HTML",
+    "authMethod": [],
+    "features": [
+      "context-usage-display",
+      "rate-limit-tracking",
+      "cost-estimation",
+      "model-info",
+      "session-metrics",
+      "27-design-themes",
+      "real-time-updates"
+    ],
+    "builtWithClaude": null,
+    "stars": 1,
+    "lastCommitDate": "2026-07-19T17:55:36Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-19T19:08:17.070Z"
+  },
+  {
+    "id": "michaeldmoser/claude-statusline",
+    "name": "claude-statusline",
+    "author": "michaeldmoser",
+    "repoURL": "https://github.com/michaeldmoser/claude-statusline",
+    "description": "A fast Claude Code statusLine: context-window % plus 5h / weekly / per-model rate-limit usage, color-coded with reset countdowns.",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Rust",
+    "authMethod": [],
+    "features": [
+      "context-window-usage",
+      "rate-limit-tracking",
+      "5h-window",
+      "weekly-window",
+      "per-model-limits",
+      "color-coded",
+      "reset-countdown"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-19T13:59:21Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-19T19:08:17.070Z"
+  },
+  {
+    "id": "anyonic/ccstatus",
+    "name": "ccstatus",
+    "author": "anyonic",
+    "repoURL": "https://github.com/anyonic/ccstatus",
+    "description": "Custom Claude Code status line: model, effort, context usage, and rate limits at a glance",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "context-usage-display",
+      "rate-limit-tracking",
+      "model-indicator",
+      "effort-level",
+      "color-coded-alerts",
+      "countdown-timer"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-19T15:05:53Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-19T19:08:17.070Z"
+  },
+  {
+    "id": "alfonsocartes/lil-agents",
+    "name": "lil-agents",
+    "author": "alfonsocartes",
+    "repoURL": "https://github.com/alfonsocartes/lil-agents",
+    "description": "Live status overlay + menu bar app for Claude Code & Codex CLI sessions on macOS",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Traffic Capture",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "live-session-monitoring",
+      "status-overlay",
+      "menu-bar-icon",
+      "multi-agent-tracking",
+      "tty-matching",
+      "project-aware-labels",
+      "stay-awake-toggle",
+      "hotkey-toggle"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-19T16:04:27Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-19T19:08:17.070Z"
+  },
+  {
+    "id": "clearmud/model-meter",
+    "name": "model-meter",
+    "author": "clearmud",
+    "repoURL": "https://github.com/clearmud/model-meter",
+    "description": "Local-first usage meter for OpenAI Codex, Claude Code, and Grok CLI sessions",
+    "category": "Web Dashboard",
+    "platforms": [
+      "web"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "claude-code-tracking",
+      "openai-codex-tracking",
+      "grok-tracking",
+      "token-aggregation",
+      "cost-estimation",
+      "sub-agent-accounting",
+      "multi-provider",
+      "local-first"
+    ],
+    "builtWithClaude": null,
+    "stars": 2,
+    "lastCommitDate": "2026-07-19T17:39:44Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-19T19:08:17.070Z"
   }
 ]
