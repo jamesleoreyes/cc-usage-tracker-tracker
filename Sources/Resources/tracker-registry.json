@@ -116400,5 +116400,149 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-07-19T02:47:30.874Z"
+  },
+  {
+    "id": "amakiton/claude-usage-widget",
+    "name": "claude-usage-widget",
+    "author": "amakiton",
+    "repoURL": "https://github.com/amakiton/claude-usage-widget",
+    "description": "วิดเจ็ตโควตา Claude",
+    "category": "Übersicht Widget",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Unknown",
+    "authMethod": [],
+    "features": [
+      "quota-display",
+      "claude-api-integration"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-19T08:04:14Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-19T08:20:58.891Z"
+  },
+  {
+    "id": "WhistlerChoi/claude-usage",
+    "name": "claude-usage",
+    "author": "WhistlerChoi",
+    "repoURL": "https://github.com/WhistlerChoi/claude-usage",
+    "description": "Always-visible Claude Code 5h/weekly usage — VSCode status bar, system tray (Go), and macOS menu bar (Swift)",
+    "category": "VS Code Extension",
+    "platforms": [
+      "vscode",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "usage-display",
+      "5h-weekly-window",
+      "reset-timer",
+      "model-detection",
+      "color-alerts",
+      "multi-platform",
+      "menubar-app",
+      "systray-app"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-19T04:56:09Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-19T08:20:58.891Z"
+  },
+  {
+    "id": "M4nu0w2/claude_code_token_tracker",
+    "name": "claude_code_token_tracker",
+    "author": "M4nu0w2",
+    "repoURL": "https://github.com/M4nu0w2/claude_code_token_tracker",
+    "description": "VS Code extension showing Claude Code usage limits in the status bar: 5h session, weekly quota, reset times, and a details panel.",
+    "category": "VS Code Extension",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "status-bar-display",
+      "weekly-quota",
+      "session-limits",
+      "colored-thresholds",
+      "details-panel",
+      "auto-refresh",
+      "reset-times"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-19T08:17:25Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-19T08:20:58.891Z"
+  },
+  {
+    "id": "stelsoft/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "stelsoft",
+    "repoURL": "https://github.com/stelsoft/claude-code-statusline",
+    "description": "Zero-dependency bash statusline for Claude Code: context usage bar + 5h/7d rate-limit bars",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "context-usage-bar",
+      "token-count",
+      "rate-limit-tracking",
+      "reset-countdown",
+      "zero-dependency"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-19T07:33:51Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-19T08:20:58.891Z"
+  },
+  {
+    "id": "mkuri/agent-status-bar",
+    "name": "agent-status-bar",
+    "author": "mkuri",
+    "repoURL": "https://github.com/mkuri/agent-status-bar",
+    "description": "Minimal macOS menu bar app showing every Claude Code and Antigravity CLI session at a glance, with sound and blink alerts when one waits past a threshold.",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "claude-code-sessions",
+      "antigravity-cli-sessions",
+      "multi-agent-tracking",
+      "alerts-on-wait-threshold",
+      "sound-notifications",
+      "blink-alerts"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-19T04:27:19Z",
+    "openIssues": 1,
+    "archived": false,
+    "lastFetched": "2026-07-19T08:20:58.891Z"
   }
 ]
