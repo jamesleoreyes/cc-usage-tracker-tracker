@@ -118796,5 +118796,154 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-07-20T09:16:24.641Z"
+  },
+  {
+    "id": "andriar/gnome-shell-extension-claude-usage",
+    "name": "gnome-shell-extension-claude-usage",
+    "author": "andriar",
+    "repoURL": "https://github.com/andriar/gnome-shell-extension-claude-usage",
+    "description": "GNOME Shell extension: monitor Claude Code subscription usage (5-hour + weekly limits) in the top bar, using the official /usage endpoint.",
+    "category": "Übersicht Widget",
+    "platforms": [
+      "linux"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "OAuth Token",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "session-window-tracking",
+      "weekly-limit-tracking",
+      "live-progress-bars",
+      "reset-countdown",
+      "official-api",
+      "rate-limit-friendly",
+      "stale-cache-indicator"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-20T12:23:59Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-20T14:08:09.843Z"
+  },
+  {
+    "id": "petrihanninen/claude-usage",
+    "name": "claude-usage",
+    "author": "petrihanninen",
+    "repoURL": "https://github.com/petrihanninen/claude-usage",
+    "description": "macOS menu bar app showing Claude rate-limit usage",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "Session Cookie"
+    ],
+    "features": [
+      "rate-limit-display",
+      "session-percentage",
+      "progress-bars",
+      "reset-timers",
+      "keychain-integration",
+      "auto-refresh"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-20T11:55:58Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-20T14:08:09.844Z"
+  },
+  {
+    "id": "nasri-mohamed/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "nasri-mohamed",
+    "repoURL": "https://github.com/nasri-mohamed/claude-code-statusline",
+    "description": "Status line for Claude Code: truecolor context window usage bar, live session cost, token usage, 5h/7d rate limit countdowns with reset times, plain action hints. Bash + PowerShell, zero dependencies, macOS / Linux / Windows.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "context-window-bar",
+      "token-usage",
+      "session-cost",
+      "rate-limit-countdown",
+      "action-hints",
+      "multi-platform"
+    ],
+    "builtWithClaude": null,
+    "stars": 3,
+    "lastCommitDate": "2026-07-20T13:28:33Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-20T14:08:09.844Z"
+  },
+  {
+    "id": "maximpedraza0/claude-statusline",
+    "name": "claude-statusline",
+    "author": "maximpedraza0",
+    "repoURL": "https://github.com/maximpedraza0/claude-statusline",
+    "description": "Claude Code status line — model, context and rate-limit usage in bash",
+    "category": "Claude Code Plugin",
+    "platforms": [],
+    "language": "Shell",
+    "authMethod": [
+      "OpenTelemetry"
+    ],
+    "features": [
+      "context-usage-display",
+      "rate-limit-tracking",
+      "color-coded-thresholds",
+      "5h-7day-windows",
+      "model-display",
+      "countdown-to-reset"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-20T12:28:59Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-20T14:08:09.844Z"
+  },
+  {
+    "id": "kheeyau/token-tracker",
+    "name": "token-tracker",
+    "author": "kheeyau",
+    "repoURL": "https://github.com/kheeyau/token-tracker",
+    "description": "Beautiful, private LLM usage dashboard for Claude, Codex, and Gemini",
+    "category": "Web Dashboard",
+    "platforms": [
+      "windows",
+      "macos"
+    ],
+    "language": "HTML",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "multi-vendor-support",
+      "token-trends",
+      "prompt-insights",
+      "rate-limit-tracking",
+      "cross-machine-sync",
+      "private-local-first"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-20T13:15:14Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-20T14:08:09.844Z"
   }
 ]

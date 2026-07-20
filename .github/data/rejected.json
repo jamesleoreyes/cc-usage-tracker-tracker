@@ -16,5 +16,11 @@
     "reason": "Lararium is a delightful companion/pet simulator for Claude Code that lives in the statusline, but it does not display, measure, or report Claude usage (tokens, cost, quotas, sessions) — instead it reflects coding mood and progress, making it a companion tool rather than a usage tracker.",
     "confidence": 0.95,
     "rejectedAt": "2026-07-20T03:16:42.296Z"
+  },
+  {
+    "id": "Raloch/agent-notify-plugin",
+    "reason": "This is a notification and status UI plugin for Claude Code that displays agent session state (waiting/complete) but does not measure, display, or report Claude usage metrics like tokens, cost, or rate limits.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-20T14:08:06.489Z"
   }
 ]
