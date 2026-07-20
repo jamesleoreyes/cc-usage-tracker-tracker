@@ -22,5 +22,11 @@
     "reason": "This is a notification and status UI plugin for Claude Code that displays agent session state (waiting/complete) but does not measure, display, or report Claude usage metrics like tokens, cost, or rate limits.",
     "confidence": 0.95,
     "rejectedAt": "2026-07-20T14:08:06.489Z"
+  },
+  {
+    "id": "timvdhoorn/cc-my-pi",
+    "reason": "This is a UI/rendering bundle for the Pi coding agent with Claude Code-inspired styling and components; it does not measure, display, or report Claude usage metrics, tokens, costs, or quotas.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-20T19:45:28.830Z"
   }
 ]
