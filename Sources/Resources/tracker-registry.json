@@ -118256,5 +118256,421 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-07-20T03:16:52.212Z"
+  },
+  {
+    "id": "tpklo/claude-usage-touchbar",
+    "name": "claude-usage-touchbar",
+    "author": "tpklo",
+    "repoURL": "https://github.com/tpklo/claude-usage-touchbar",
+    "description": "Live Claude usage limits on the MacBook Pro Touch Bar, with a pixel creature whose behaviour tracks the same numbers",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Objective-C",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "live-usage-display",
+      "5h-7d-limits",
+      "touch-bar-widget",
+      "pixel-creature-gauge",
+      "multi-model-caps",
+      "keychain-integration"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-20T05:47:10Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-20T09:16:24.640Z"
+  },
+  {
+    "id": "ali5917/claude-maxer",
+    "name": "claude-maxer",
+    "author": "ali5917",
+    "repoURL": "https://github.com/ali5917/claude-maxer",
+    "description": "Live Claude usage tracking + auto-reset for your rolling 5-hour window",
+    "category": "Browser Extension",
+    "platforms": [
+      "chromium"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "live-usage-bar",
+      "toolbar-badge",
+      "per-message-cost",
+      "token-estimate",
+      "auto-reset-mode",
+      "scheduled-trigger",
+      "notifications"
+    ],
+    "builtWithClaude": null,
+    "stars": 1,
+    "lastCommitDate": "2026-07-18T07:26:57Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-20T09:16:24.640Z"
+  },
+  {
+    "id": "ImL1s/reset_monitor",
+    "name": "reset_monitor",
+    "author": "ImL1s",
+    "repoURL": "https://github.com/ImL1s/reset_monitor",
+    "description": "Zero-auth public radar for Codex/Claude usage hard RESETs",
+    "category": "Web Dashboard",
+    "platforms": [
+      "web"
+    ],
+    "language": "TypeScript",
+    "authMethod": [],
+    "features": [
+      "codex-claude-status",
+      "hard-reset-monitor",
+      "public-radar",
+      "zero-auth",
+      "fxtwitter-polling"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-20T09:06:15Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-20T09:16:24.640Z"
+  },
+  {
+    "id": "kuljitAujla/claude-usage-monitoring-widget",
+    "name": "claude-usage-monitoring-widget",
+    "author": "kuljitAujla",
+    "repoURL": "https://github.com/kuljitAujla/claude-usage-monitoring-widget",
+    "description": "Monitor your claude code usage from the comfort of your task bar with 5hr session time predictions based on your usage habits",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "progress-bars",
+      "burn-rate-prediction",
+      "rolling-session-tracking",
+      "rolling-weekly-tracking"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-20T08:10:45Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-20T09:16:24.640Z"
+  },
+  {
+    "id": "mbicl/swiss_bar",
+    "name": "swiss_bar",
+    "author": "mbicl",
+    "repoURL": "https://github.com/mbicl/swiss_bar",
+    "description": "macOS menubar multitool — window switcher (Cmd+Tab per window), clipboard history, keyboard cleaning mode, and live network/Claude usage indicators.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "claude-usage-indicator",
+      "window-switcher",
+      "clipboard-history",
+      "keyboard-cleaning",
+      "network-speed"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-20T06:46:40Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-20T09:16:24.640Z"
+  },
+  {
+    "id": "narayann7/claude-usage-workflow",
+    "name": "claude-usage-workflow",
+    "author": "narayann7",
+    "repoURL": "https://github.com/narayann7/claude-usage-workflow",
+    "description": "Live Claude Code usage (5-hour session + 7-day weekly limits with reset times) in your macOS menu bar, Raycast, and Alfred. Same numbers as the /usage panel.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos",
+      "raycast"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "OAuth Token",
+      "Session Cookie",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "session-limits",
+      "weekly-limits",
+      "reset-times",
+      "menu-bar-display",
+      "raycast-extension",
+      "alfred-workflow",
+      "multi-surface"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-20T06:41:22Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-20T09:16:24.640Z"
+  },
+  {
+    "id": "jeff-hong/UsageMonitor",
+    "name": "UsageMonitor",
+    "author": "jeff-hong",
+    "repoURL": "https://github.com/jeff-hong/UsageMonitor",
+    "description": "一款 Windows 桌面小工具，实时统计 Claude Code 与 Codex 的 token 使用量并换算为美元花费。以毛玻璃半透明悬浮窗常驻桌面，悬停即可查看当日明细，点击展开历史趋势、项目排行与设置面板。",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "API Key"
+    ],
+    "features": [
+      "real-time-token-tracking",
+      "cost-calculation",
+      "history-trends",
+      "project-ranking",
+      "model-distribution",
+      "supplier-balance",
+      "taskbar-integration",
+      "theme-switching"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-20T03:39:08Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-20T09:16:24.640Z"
+  },
+  {
+    "id": "timharris707/modeldeck",
+    "name": "modeldeck",
+    "author": "timharris707",
+    "repoURL": "https://github.com/timharris707/modeldeck",
+    "description": "macOS menu bar app that tracks usage limits across all your Claude Code and Codex CLI accounts — live \"% left\" meters per rate-limit window, reset countdowns, low-capacity alerts, and one-click account switching. Local-first: no cloud, no telemetry, credentials never touched. Native SwiftUI + a localhost Node daemon.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "multi-account-tracking",
+      "rate-limit-meters",
+      "reset-countdowns",
+      "low-capacity-alerts",
+      "account-switching",
+      "model-scoped-limits",
+      "local-first",
+      "keychain-integration"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-20T08:48:34Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-20T09:16:24.640Z"
+  },
+  {
+    "id": "nhannt315/tokei",
+    "name": "tokei",
+    "author": "nhannt315",
+    "repoURL": "https://github.com/nhannt315/tokei",
+    "description": "macOS menu bar app tracking Claude Code token usage, cost, and quota",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "token-cost-tracking",
+      "quota-monitoring",
+      "session-quota-display",
+      "per-model-breakdown",
+      "daily-monthly-stats",
+      "live-updates",
+      "cli-tool"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-20T08:32:44Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-20T09:16:24.640Z"
+  },
+  {
+    "id": "JuDaXia/claude-speed",
+    "name": "claude-speed",
+    "author": "JuDaXia",
+    "repoURL": "https://github.com/JuDaXia/claude-speed",
+    "description": "See Claude Code's real generation speed — menu bar + statusline monitor that separates true tok/s from first-token latency",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "generation-speed-monitoring",
+      "ttft-measurement",
+      "tokens-per-second",
+      "menu-bar-display",
+      "statusline-integration",
+      "prompt-cache-metrics",
+      "multi-session-tracking",
+      "error-alerts"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-20T08:51:28Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-20T09:16:24.641Z"
+  },
+  {
+    "id": "silee-tools/claude-statusline",
+    "name": "claude-statusline",
+    "author": "silee-tools",
+    "repoURL": "https://github.com/silee-tools/claude-statusline",
+    "description": "Width-independent vertical-stack statusline HUD for Claude Code",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "context-window-usage",
+      "rate-limit-display",
+      "cost-tracking",
+      "reasoning-effort",
+      "session-indicators",
+      "multi-model"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-20T05:38:02Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-20T09:16:24.641Z"
+  },
+  {
+    "id": "Moonlighter99/2vs0-statusline-kr",
+    "name": "2vs0-statusline-kr",
+    "author": "Moonlighter99",
+    "repoURL": "https://github.com/Moonlighter99/2vs0-statusline-kr",
+    "description": "Claude Code statusline with quota bars, running-subagents (⚒) row, and KRW session cost — 한국어 친화 statusline",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "quota-bars",
+      "running-subagents",
+      "session-cost-krw",
+      "context-usage",
+      "effort-badge",
+      "responsive-layout",
+      "multi-account-support",
+      "rate-limit-countdown"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-20T05:27:40Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-20T09:16:24.641Z"
+  },
+  {
+    "id": "h4ckm1n-dev/claude-statusline",
+    "name": "claude-statusline",
+    "author": "h4ckm1n-dev",
+    "repoURL": "https://github.com/h4ckm1n-dev/claude-statusline",
+    "description": "Claude Code status line in Catppuccin Macchiato — git, context, cache, and rate-limit bars",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "OAuth Token",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "rate-limit-bars",
+      "context-window-display",
+      "cache-metrics",
+      "model-display",
+      "git-integration"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-20T05:20:42Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-20T09:16:24.641Z"
+  },
+  {
+    "id": "ahiruchang/runcat-claude-limits",
+    "name": "runcat-claude-limits",
+    "author": "ahiruchang",
+    "repoURL": "https://github.com/ahiruchang/runcat-claude-limits",
+    "description": "RunCat Neo Custom Metrics source: Claude Code rate-limit lanes (5h / 7d / model-scoped Fable) with reset times",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "OAuth Token",
+      "Session Key"
+    ],
+    "features": [
+      "rate-limit-display",
+      "claude-code-integration",
+      "reset-timers",
+      "model-scoped-lanes",
+      "runcat-neo-custom-metrics",
+      "oauth-usage-api",
+      "keychain-auth"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-20T07:42:39Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-20T09:16:24.641Z"
   }
 ]
