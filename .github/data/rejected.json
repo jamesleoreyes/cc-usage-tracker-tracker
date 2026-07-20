@@ -10,5 +10,11 @@
     "reason": "nord-kit is a Claude Code plugin marketplace with multi-agent skills and utilities, not a usage tracker; it provides a statusline (nord-hud) that displays context/model info but does not measure or report Claude usage (tokens, cost, quotas) as a feature.",
     "confidence": 0.95,
     "rejectedAt": "2026-07-19T02:47:10.654Z"
+  },
+  {
+    "id": "Rynaro/lararium",
+    "reason": "Lararium is a delightful companion/pet simulator for Claude Code that lives in the statusline, but it does not display, measure, or report Claude usage (tokens, cost, quotas, sessions) — instead it reflects coding mood and progress, making it a companion tool rather than a usage tracker.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-20T03:16:42.296Z"
   }
 ]
