@@ -119410,5 +119410,159 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-07-21T02:44:49.943Z"
+  },
+  {
+    "id": "shawnhoon/ClaudeUsageToolbar",
+    "name": "ClaudeUsageToolbar",
+    "author": "shawnhoon",
+    "repoURL": "https://github.com/shawnhoon/ClaudeUsageToolbar",
+    "description": "macOS menu bar app for Claude Code usage: official plan-limit percentages, live token ticker, and cost estimates",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "plan-limit-percentages",
+      "live-token-ticker",
+      "cost-estimates",
+      "per-model-attribution",
+      "7-day-history",
+      "cache-pricing"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-21T05:53:47Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-21T08:30:59.033Z"
+  },
+  {
+    "id": "frank-bee/claude-budget",
+    "name": "claude-budget",
+    "author": "frank-bee",
+    "repoURL": "https://github.com/frank-bee/claude-budget",
+    "description": "Configurable Claude spend readout for the Claude Code statusline, calibrated against your real bill",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "spend-readout",
+      "calibration-offset",
+      "billing-cycle-aware",
+      "ccusage-integration",
+      "budget-ceiling",
+      "model-exclusion",
+      "statusline-integration"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-21T08:27:32Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-21T08:30:59.033Z"
+  },
+  {
+    "id": "ember-hearted/statusline",
+    "name": "statusline",
+    "author": "ember-hearted",
+    "repoURL": "https://github.com/ember-hearted/statusline",
+    "description": "跨平台的 Claude Code 状态栏脚本，支持动态颜色进度条、Git 状态集成和实时活动显示。 | A cross-platform statusline script for Claude Code, featuring dynamic color progress bars, Git status integration, and real-time activity display.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "API Key",
+      "Session Cookie"
+    ],
+    "features": [
+      "context-usage-bar",
+      "multi-provider-balance",
+      "git-integration",
+      "real-time-activity",
+      "dynamic-colors",
+      "cross-platform"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-21T05:40:24Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-21T08:30:59.033Z"
+  },
+  {
+    "id": "PatrickJaiin/status-line-claude-code",
+    "name": "status-line-claude-code",
+    "author": "PatrickJaiin",
+    "repoURL": "https://github.com/PatrickJaiin/status-line-claude-code",
+    "description": "Collection of useful cool status line for Claude Code and Codex",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "context-usage",
+      "rate-limit-display",
+      "session-cost",
+      "token-counting",
+      "cpu-ram-battery",
+      "multi-variant"
+    ],
+    "builtWithClaude": true,
+    "stars": 8,
+    "lastCommitDate": "2026-07-21T08:28:16Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-21T08:30:59.033Z"
+  },
+  {
+    "id": "RiahStudio/riah-usage",
+    "name": "riah-usage",
+    "author": "RiahStudio",
+    "repoURL": "https://github.com/RiahStudio/riah-usage",
+    "description": "Free local dashboard for AI subscription usage meters (Claude, Cursor, Codex, Grok, Gemini).",
+    "category": "Web Dashboard",
+    "platforms": [
+      "web",
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Browser Cookie Auto-detect",
+      "Session Key"
+    ],
+    "features": [
+      "multi-provider",
+      "local-dashboard",
+      "ai-subscription-meters",
+      "no-telemetry",
+      "drag-reorder-cards",
+      "system-tray-windows",
+      "live-meter-refresh"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-21T07:36:31Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-21T08:30:59.033Z"
   }
 ]
