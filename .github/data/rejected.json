@@ -28,5 +28,11 @@
     "reason": "This is a UI/rendering bundle for the Pi coding agent with Claude Code-inspired styling and components; it does not measure, display, or report Claude usage metrics, tokens, costs, or quotas.",
     "confidence": 0.95,
     "rejectedAt": "2026-07-20T19:45:28.830Z"
+  },
+  {
+    "id": "ruanss4/statusline-cli",
+    "reason": "This project installs statusline configurations for multiple AI coding agents (Claude Code, Codex, Antigravity, Grok) but does not itself track, measure, or report Claude usage—it merely displays pre-existing usage metrics from those agents' native statuslines.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-21T02:44:40.673Z"
   }
 ]

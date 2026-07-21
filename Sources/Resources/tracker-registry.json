@@ -119232,5 +119232,178 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-07-20T19:45:48.203Z"
+  },
+  {
+    "id": "Eyuel-Nigussie/claude-usage-monitor",
+    "name": "claude-usage-monitor",
+    "author": "Eyuel-Nigussie",
+    "repoURL": "https://github.com/Eyuel-Nigussie/claude-usage-monitor",
+    "description": "Minimal macOS menu bar widget showing Claude Code 5h/weekly plan limits and token usage",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "session-usage",
+      "weekly-usage",
+      "menu-bar",
+      "floating-widget",
+      "rate-limit-tracking",
+      "reset-countdown"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-21T01:54:33Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-21T02:44:49.943Z"
+  },
+  {
+    "id": "jadenswift/claude-usage-widget",
+    "name": "claude-usage-widget",
+    "author": "jadenswift",
+    "repoURL": "https://github.com/jadenswift/claude-usage-widget",
+    "description": "Always-on-top Windows widget showing live Claude (5h/weekly/model) and OpenAI Codex rate limits - zero quota cost, account-wide",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "PowerShell",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "live-rate-limits",
+      "pace-projection",
+      "multi-window-tracking",
+      "color-coded-alerts",
+      "offline-indicators",
+      "codex-support"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-20T19:53:15Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-21T02:44:49.943Z"
+  },
+  {
+    "id": "musetradinglimited-collab/agent-rabbit",
+    "name": "agent-rabbit",
+    "author": "musetradinglimited-collab",
+    "repoURL": "https://github.com/musetradinglimited-collab/agent-rabbit",
+    "description": "Local-first macOS menu bar usage/status monitor for Codex, Claude Code, Gemini CLI, and Antigravity",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Unknown",
+    "authMethod": [],
+    "features": [
+      "multi-model-support",
+      "menu-bar-app",
+      "local-first",
+      "status-monitor"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-20T23:47:36Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-21T02:44:49.943Z"
+  },
+  {
+    "id": "Maxnflaxl/claude-statusline",
+    "name": "claude-statusline",
+    "author": "Maxnflaxl",
+    "repoURL": "https://github.com/Maxnflaxl/claude-statusline",
+    "description": "A colorful three-line statusline for Claude Code — git state, cost, rate-limit bars, context usage, and live token throughput.",
+    "category": "Statusline",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "cost-tracking",
+      "rate-limit-bars",
+      "context-usage",
+      "token-throughput",
+      "session-duration",
+      "prompt-cache-display",
+      "git-integration",
+      "live-updates"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-20T21:52:00Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-21T02:44:49.943Z"
+  },
+  {
+    "id": "yashkotha/claude-statusbar",
+    "name": "claude-statusbar",
+    "author": "yashkotha",
+    "repoURL": "https://github.com/yashkotha/claude-statusbar",
+    "description": "macOS menu bar app: live Claude Code session status as a dancing Clawd crab",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "live-session-status",
+      "multi-session-display",
+      "activity-tracking",
+      "idle-animation",
+      "session-navigation"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-20T21:37:57Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-21T02:44:49.943Z"
+  },
+  {
+    "id": "matpb/claude-meter",
+    "name": "claude-meter",
+    "author": "matpb",
+    "repoURL": "https://github.com/matpb/claude-meter",
+    "description": "Live Claude usage (5h & 7d windows) in your KDE Plasma panel — read from claude.ai, pace-colored, zero token cost",
+    "category": "Statusline",
+    "platforms": [
+      "linux"
+    ],
+    "language": "QML",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "5h-7d-windows",
+      "pace-colored-bars",
+      "live-fetch",
+      "kwallets-support",
+      "zero-token-cost",
+      "stale-indicator",
+      "kde-plasma-6"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-21T01:12:24Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-21T02:44:49.943Z"
   }
 ]
