@@ -119565,5 +119565,310 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-07-21T08:30:59.033Z"
+  },
+  {
+    "id": "chrisongithub1977/geiger-diy",
+    "name": "geiger-diy",
+    "author": "chrisongithub1977",
+    "repoURL": "https://github.com/chrisongithub1977/geiger-diy",
+    "description": "DIY desk-side Claude usage monitor — ESP32 AMOLED cube firmware, PC server, simulator. Open edition of geigerbox.com",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "C",
+    "authMethod": [
+      "API Key",
+      "Browser Cookie Auto-detect",
+      "OpenTelemetry"
+    ],
+    "features": [
+      "hardware-cube-widget",
+      "real-time-usage",
+      "rate-limit-tracking",
+      "5-hour-rolling-window",
+      "weekly-cap-monitor",
+      "multi-backend"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-21T10:07:16Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-21T13:52:35.574Z"
+  },
+  {
+    "id": "MolezzzZ/SomeCherries",
+    "name": "SomeCherries",
+    "author": "MolezzzZ",
+    "repoURL": "https://github.com/MolezzzZ/SomeCherries",
+    "description": "SomeCherries is a floating Windows desktop monitor that visualizes Claude Code and cc-switch token usage as animated cherries.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Dart",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "cherry-visualization",
+      "token-usage-display",
+      "cost-tracking",
+      "cc-switch-integration",
+      "manual-data-source",
+      "multi-period-stats",
+      "project-scope-filtering"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-21T09:58:32Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-21T13:52:35.574Z"
+  },
+  {
+    "id": "abstract-karshit/claude-code-tracker",
+    "name": "claude-code-tracker",
+    "author": "abstract-karshit",
+    "repoURL": "https://github.com/abstract-karshit/claude-code-tracker",
+    "description": " Chrome extension that tracks your local Claude Code token usage, estimated costs, and weekly/daily trends — all processed locally in your browser.",
+    "category": "Browser Extension",
+    "platforms": [
+      "chromium"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "token-counting",
+      "cost-estimation",
+      "daily-trends",
+      "weekly-trends",
+      "multi-currency",
+      "local-processing"
+    ],
+    "builtWithClaude": null,
+    "stars": 1,
+    "lastCommitDate": "2026-07-21T10:44:20Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-21T13:52:35.574Z"
+  },
+  {
+    "id": "Casta-mere/tokenlens",
+    "name": "tokenlens",
+    "author": "Casta-mere",
+    "repoURL": "https://github.com/Casta-mere/tokenlens",
+    "description": "Self-hosted daily AI token usage tracking across Claude Code, Copilot CLI, and sub2api — one dashboard you own.",
+    "category": "Web Dashboard",
+    "platforms": [
+      "web"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "multi-provider-tracking",
+      "claude-code",
+      "copilot-cli",
+      "self-hosted",
+      "daily-breakdown",
+      "multi-user",
+      "token-counts"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-21T09:36:38Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-21T13:52:35.574Z"
+  },
+  {
+    "id": "dayfinggg/claude-code-discord-presence",
+    "name": "claude-code-discord-presence",
+    "author": "dayfinggg",
+    "repoURL": "https://github.com/dayfinggg/claude-code-discord-presence",
+    "description": "Discord Rich Presence for Claude Code Desktop and CLI with live models, limits, costs, tools, agents, statusline, and secure SSH remotes.",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "discord-rich-presence",
+      "live-model-display",
+      "usage-limits",
+      "token-tracking",
+      "cost-calculation",
+      "statusline",
+      "multi-platform"
+    ],
+    "builtWithClaude": null,
+    "stars": 1,
+    "lastCommitDate": "2026-07-21T13:37:34Z",
+    "openIssues": 2,
+    "archived": false,
+    "lastFetched": "2026-07-21T13:52:35.574Z"
+  },
+  {
+    "id": "dberardi2020/claude-statusline-kit",
+    "name": "claude-statusline-kit",
+    "author": "dberardi2020",
+    "repoURL": "https://github.com/dberardi2020/claude-statusline-kit",
+    "description": "A two-line cross-platform Claude Code statusline: model, context, rate-limits, cwd, branch, cost. Bash + PowerShell.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "HTML",
+    "authMethod": [],
+    "features": [
+      "model-display",
+      "context-window-tracking",
+      "rate-limit-monitoring",
+      "cost-tracking",
+      "session-elapsed-time",
+      "cross-platform"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-21T13:09:45Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-21T13:52:35.574Z"
+  },
+  {
+    "id": "borissharikoff-droid/agent-monitor",
+    "name": "agent-monitor",
+    "author": "borissharikoff-droid",
+    "repoURL": "https://github.com/borissharikoff-droid/agent-monitor",
+    "description": "Live subagent statusline + web dashboard for Claude Code",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "JavaScript",
+    "authMethod": [],
+    "features": [
+      "live-subagent-status",
+      "task-tree-view",
+      "parallel-sessions",
+      "duration-tracking",
+      "terminal-statusline",
+      "web-dashboard"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-21T09:18:42Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-21T13:52:35.574Z"
+  },
+  {
+    "id": "caffentrager/claude-desktop-display",
+    "name": "claude-desktop-display",
+    "author": "caffentrager",
+    "repoURL": "https://github.com/caffentrager/claude-desktop-display",
+    "description": "ESP32-C3 + I2C LCD desk gadget that shows Claude Code's 5-hour and weekly rate-limit usage, polling api.anthropic.com directly",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "C++",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "5h-rate-limit",
+      "7d-rate-limit",
+      "usage-display",
+      "hardware-device",
+      "esp32",
+      "lcd-display"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-07-21T12:48:19Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-21T13:52:35.574Z"
+  },
+  {
+    "id": "chsistrying/TokenScope",
+    "name": "TokenScope",
+    "author": "chsistrying",
+    "repoURL": "https://github.com/chsistrying/TokenScope",
+    "description": "Native macOS menu bar app: see where your Claude Code and Codex tokens actually went. 100% local.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "cost-breakdown",
+      "token-analysis",
+      "session-timeline",
+      "waste-signals",
+      "multi-provider",
+      "100-percent-local",
+      "time-ranges",
+      "incremental-refresh"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-21T10:22:57Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-21T13:52:35.574Z"
+  },
+  {
+    "id": "ihsandeniz/usage-tracker",
+    "name": "usage-tracker",
+    "author": "ihsandeniz",
+    "repoURL": "https://github.com/ihsandeniz/usage-tracker",
+    "description": "A Pane-for-Linux: all your AI usage, rate limits and real $ spend in a waybar badge + a movable/resizable widget. stdlib Python + Vanilla JS, zero deps.",
+    "category": "Waybar Module",
+    "platforms": [
+      "linux"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "API Key"
+    ],
+    "features": [
+      "multi-provider",
+      "spend-tracking",
+      "rate-limit-tracking",
+      "30day-chart",
+      "waybar-badge",
+      "floating-widget",
+      "zero-deps",
+      "linux-native"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-21T12:59:15Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-21T13:52:35.574Z"
   }
 ]
