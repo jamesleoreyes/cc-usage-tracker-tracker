@@ -119874,5 +119874,697 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-07-21T13:52:35.574Z"
+  },
+  {
+    "id": "noahkiss/claude-usage",
+    "name": "claude-usage",
+    "author": "noahkiss",
+    "repoURL": "https://github.com/noahkiss/claude-usage",
+    "description": "Realtime Claude Code usage estimation — tracks token consumption from session logs, calibrates against API billing, and provides a web dashboard",
+    "category": "Web Dashboard",
+    "platforms": [
+      "web"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "API Key"
+    ],
+    "features": [
+      "realtime-estimation",
+      "token-counting",
+      "api-reconciliation",
+      "dynamic-calibration",
+      "web-dashboard",
+      "rate-limit-hook",
+      "per-session-breakdown",
+      "plan-tier-aware"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-21T15:50:22Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-21T19:25:10.284Z"
+  },
+  {
+    "id": "jpuritz/ClaudeUsageBar",
+    "name": "ClaudeUsageBar",
+    "author": "jpuritz",
+    "repoURL": "https://github.com/jpuritz/ClaudeUsageBar",
+    "description": "macOS menu bar app and desktop widget for monitoring Claude usage limits",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "usage-limits-display",
+      "menu-bar-widget",
+      "desktop-widget",
+      "burn-rate-alerts",
+      "progress-indicators",
+      "notification-alerts",
+      "keychain-oauth"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-21T19:19:18Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-21T19:25:10.284Z"
+  },
+  {
+    "id": "Juan23/claude-usage-tray",
+    "name": "claude-usage-tray",
+    "author": "Juan23",
+    "repoURL": "https://github.com/Juan23/claude-usage-tray",
+    "description": "Tiny always-on-top Windows tray widget showing Claude Code 5H/7D usage vs. time-elapsed at a glance",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "live-usage-display",
+      "5h-7d-windows",
+      "pace-indicator",
+      "color-coded-alerts",
+      "always-on-top",
+      "tray-widget"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-21T15:12:15Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-21T19:25:10.284Z"
+  },
+  {
+    "id": "scottdflorida/claude-usage-micro",
+    "name": "claude-usage-micro",
+    "author": "scottdflorida",
+    "repoURL": "https://github.com/scottdflorida/claude-usage-micro",
+    "description": "Tiny macOS menu-bar meter for Claude Code usage.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "current-session-usage",
+      "weekly-all-model",
+      "weekly-fable-usage",
+      "usage-remaining-bars",
+      "time-remaining-markers",
+      "burn-rate-indicator"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-21T18:59:25Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-21T19:25:10.284Z"
+  },
+  {
+    "id": "windy-schmieder/Claude-Bar",
+    "name": "Claude-Bar",
+    "author": "windy-schmieder",
+    "repoURL": "https://github.com/windy-schmieder/Claude-Bar",
+    "description": "Claude usage limits in the Mac menu bar",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "API Key",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "menu-bar-display",
+      "usage-metrics",
+      "session-tracking",
+      "weekly-limits",
+      "cost-grid",
+      "30-day-chart",
+      "auto-refresh"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-21T14:28:10Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-21T19:25:10.284Z"
+  },
+  {
+    "id": "sjcsoftware/trackclaude",
+    "name": "trackclaude",
+    "author": "sjcsoftware",
+    "repoURL": "https://github.com/sjcsoftware/trackclaude",
+    "description": "Fast and lightweight claude code usage monitor that lives in the menu bar",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "menu-bar-app",
+      "session-limits",
+      "token-stats",
+      "per-model-breakdown",
+      "multi-account",
+      "cost-estimation",
+      "local-parsing"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-21T19:10:40Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-21T19:25:10.284Z"
+  },
+  {
+    "id": "ridvankuntug/Claude-Code-Usage-Monitor",
+    "name": "Claude-Code-Usage-Monitor",
+    "author": "ridvankuntug",
+    "repoURL": "https://github.com/ridvankuntug/Claude-Code-Usage-Monitor",
+    "description": "Custom Claude Code Usage Monitor build with Claude Desktop usage history fallback",
+    "category": "Statusline",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "OAuth Token",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "5h-usage-window",
+      "7d-usage-window",
+      "claude-code-support",
+      "codex-support",
+      "antigravity-support",
+      "taskbar-widget",
+      "tray-icon-badges",
+      "multi-monitor"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-21T16:47:14Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-21T19:25:10.284Z"
+  },
+  {
+    "id": "eldios/clawd-bot",
+    "name": "clawd-bot",
+    "author": "eldios",
+    "repoURL": "https://github.com/eldios/clawd-bot",
+    "description": "Standalone Claude Code usage monitor for M5Stack devices - ESPHome package, big readable screens, OTA updates",
+    "category": "Übersicht Widget",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Nix",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "5h-window-utilization",
+      "7d-bars",
+      "rate-limit-headers",
+      "ota-updates",
+      "touch-refresh",
+      "multi-board"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-21T16:10:10Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-21T19:25:10.284Z"
+  },
+  {
+    "id": "Undone-drawknife974/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "Undone-drawknife974",
+    "repoURL": "https://github.com/Undone-drawknife974/claude-code-statusline",
+    "description": "Track Claude Code context usage, session costs, and rate limit resets with a lightweight, dependency-free status line dashboard for your terminal.",
+    "category": "Statusline",
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "context-window-tracking",
+      "session-cost-display",
+      "token-counting",
+      "rate-limit-timers",
+      "real-time-updates",
+      "dependency-free"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-21T17:09:30Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-21T19:25:10.284Z"
+  },
+  {
+    "id": "Qyrhal/Clawdmeter-hermes",
+    "name": "Clawdmeter-hermes",
+    "author": "Qyrhal",
+    "repoURL": "https://github.com/Qyrhal/Clawdmeter-hermes",
+    "description": "Fork of Clawdmeter tracking a local Hermes Agent's cron scheduler instead of Claude Code usage",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "linux"
+    ],
+    "language": "C",
+    "authMethod": [
+      "Traffic Capture"
+    ],
+    "features": [
+      "hardware-dashboard",
+      "ble-hid-bridge",
+      "cron-job-tracking",
+      "hermes-agent"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-21T15:16:00Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-21T19:25:10.284Z"
+  },
+  {
+    "id": "Vesperino/ai-usage-tracker",
+    "name": "ai-usage-tracker",
+    "author": "Vesperino",
+    "repoURL": "https://github.com/Vesperino/ai-usage-tracker",
+    "description": "Windows tray app that tracks Claude Code & Codex CLI usage limits a desktop robot with alerts, auto-refresh, and EN/PL UI",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "C#",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "claude-code-limits",
+      "codex-cli-limits",
+      "tray-icon",
+      "alerts-80-95",
+      "auto-refresh",
+      "bilingual-ui",
+      "usage-display"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-21T14:14:11Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-21T19:25:10.284Z"
+  },
+  {
+    "id": "guruprasath005/markr",
+    "name": "markr",
+    "author": "guruprasath005",
+    "repoURL": "https://github.com/guruprasath005/markr",
+    "description": "A clean, full-width, auto-adjusting status line for Claude Code — context, rate-limit quota, cost and git at a glance.",
+    "category": "Statusline",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "rate-limit-quota",
+      "context-usage",
+      "session-cost",
+      "git-integration",
+      "responsive-layout",
+      "extended-thinking"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-21T19:19:28Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-21T19:25:10.284Z"
+  },
+  {
+    "id": "soy-rafa/claude-barra-campeones26",
+    "name": "claude-barra-campeones26",
+    "author": "soy-rafa",
+    "repoURL": "https://github.com/soy-rafa/claude-barra-campeones26",
+    "description": "Statusline de Claude Code, Edición Campeones del Mundo 🇪🇸⭐⭐: métricas como partido de la Roja + titulares reales de fútbol + contador Mundial 2030",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "claude-usage-metrics",
+      "token-counter",
+      "context-percentage",
+      "session-duration",
+      "rate-limit-tracking",
+      "themed-display",
+      "real-news-feed",
+      "world-cup-countdown"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-21T18:06:10Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-21T19:25:10.284Z"
+  },
+  {
+    "id": "tyler-yukich/claude-statusline",
+    "name": "claude-statusline",
+    "author": "tyler-yukich",
+    "repoURL": "https://github.com/tyler-yukich/claude-statusline",
+    "description": "A rich, accessible status line for Claude Code — model, context meter, spend, and git state in one line.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "context-meter",
+      "model-display",
+      "spend-tracking",
+      "git-state",
+      "accessibility-features"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-21T17:20:41Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-21T19:25:10.284Z"
+  },
+  {
+    "id": "ye4wzp/claude-statusline",
+    "name": "claude-statusline",
+    "author": "ye4wzp",
+    "repoURL": "https://github.com/ye4wzp/claude-statusline",
+    "description": "A fast, good-looking Claude Code statusline — model, context usage & rate limits. Zero network calls, ~12ms cold start. Bun + TypeScript.",
+    "category": "Statusline",
+    "platforms": [
+      "web"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Traffic Capture",
+      "OpenTelemetry"
+    ],
+    "features": [
+      "context-usage",
+      "rate-limit-display",
+      "model-tracking",
+      "cost-tracking",
+      "git-integration",
+      "pr-info",
+      "configurable-segments"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-21T17:19:09Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-21T19:25:10.284Z"
+  },
+  {
+    "id": "deviationist/claude-statusline",
+    "name": "claude-statusline",
+    "author": "deviationist",
+    "repoURL": "https://github.com/deviationist/claude-statusline",
+    "description": "A status line for Claude Code with account-usage bars straight from Anthropic's own server-side counter, plus live-togglable segments and a /sl slash command.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "account-usage-bars",
+      "rate-limit-windows",
+      "context-usage",
+      "live-toggle-segments",
+      "slack-command",
+      "multi-account",
+      "stale-while-revalidate-cache"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-21T15:54:56Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-21T19:25:10.284Z"
+  },
+  {
+    "id": "OpenClawFarm/claude-statusline",
+    "name": "claude-statusline",
+    "author": "OpenClawFarm",
+    "repoURL": "https://github.com/OpenClawFarm/claude-statusline",
+    "description": "HUD-style status line for Claude Code — network health, TPS, context, quotas, cost, all in one line",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "context-usage",
+      "quota-tracking",
+      "cost-display",
+      "network-health",
+      "throughput-tps",
+      "latency-monitoring",
+      "multi-session"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-21T15:49:18Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-21T19:25:10.284Z"
+  },
+  {
+    "id": "lgdlcs/my-claudecode-terminal-setup",
+    "name": "my-claudecode-terminal-setup",
+    "author": "lgdlcs",
+    "repoURL": "https://github.com/lgdlcs/my-claudecode-terminal-setup",
+    "description": "Fun touches for the Claude Code terminal — tab color, sound, spinner verbs, statusline with context %",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "PowerShell",
+    "authMethod": [],
+    "features": [
+      "context-window-usage",
+      "plan-usage-gauge",
+      "statusline",
+      "session-colors",
+      "multi-session",
+      "custom-spinner"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-21T14:58:52Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-21T19:25:10.284Z"
+  },
+  {
+    "id": "jekleb/digimon-companion",
+    "name": "digimon-companion",
+    "author": "jekleb",
+    "repoURL": "https://github.com/jekleb/digimon-companion",
+    "description": "🥚 An animated 8-bit virtual pet for the Claude Code status bar — evolves as you spend tokens, trains with active subagents, and rebirths at the level cap. Pure-Python, zero deps.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "token-tracking",
+      "evolution-system",
+      "prestige-rebirth",
+      "subagent-detection",
+      "8-bit-sprites",
+      "status-line-display"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-07-21T14:38:43Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-21T19:25:10.284Z"
+  },
+  {
+    "id": "rogeriodeandradepires/usageline",
+    "name": "usageline",
+    "author": "rogeriodeandradepires",
+    "repoURL": "https://github.com/rogeriodeandradepires/usageline",
+    "description": "Custom multi-provider usage/cost renderer for the Claude Code status line (DeepSeek balance/spend, Kimi/OpenAI/Gemini quotas, CCR per-model costs). Plain ESM Node, zero deps.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "API Key",
+      "Session Key",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "multi-provider",
+      "deepseek-balance",
+      "kimi-openai-gemini-quotas",
+      "per-model-costs",
+      "ccr-integration",
+      "live-api-fetch",
+      "local-log-parsing",
+      "cache-with-ttl"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-21T18:58:58Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-21T19:25:10.284Z"
+  },
+  {
+    "id": "Undone-drawknife974/undone-drawknife974.github.io",
+    "name": "undone-drawknife974.github.io",
+    "author": "Undone-drawknife974",
+    "repoURL": "https://github.com/Undone-drawknife974/undone-drawknife974.github.io",
+    "description": "Transform your Claude Code status line into a dashboard showing token usage, session costs, and rate limit reset times for macOS, Linux, and Windows.",
+    "category": "Web Dashboard",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "HTML",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "token-usage",
+      "session-costs",
+      "rate-limit-reset",
+      "multi-platform"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-21T17:15:55Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-21T19:25:10.284Z"
+  },
+  {
+    "id": "mpecan/rusted-claude-meter",
+    "name": "rusted-claude-meter",
+    "author": "mpecan",
+    "repoURL": "https://github.com/mpecan/rusted-claude-meter",
+    "description": "Claude plan usage meter in your tray — cross-platform Tauri v2 port of ClaudeMeter",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "Browser Cookie Auto-detect",
+      "Session Cookie",
+      "Session Key"
+    ],
+    "features": [
+      "menu-bar-gauge",
+      "burn-rate-pacing",
+      "model-scoped-limits",
+      "threshold-notifications",
+      "usage-popover",
+      "statusline-export",
+      "multi-window-tracking"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-21T15:08:45Z",
+    "openIssues": 4,
+    "archived": false,
+    "lastFetched": "2026-07-21T19:25:10.284Z"
+  },
+  {
+    "id": "dion-jy/claude-meter",
+    "name": "claude-meter",
+    "author": "dion-jy",
+    "repoURL": "https://github.com/dion-jy/claude-meter",
+    "description": "Squeeze your productivity. Monitor your Claude.ai usage in real-time.",
+    "category": "Mobile",
+    "platforms": [
+      "android"
+    ],
+    "language": "Kotlin",
+    "authMethod": [
+      "Session Cookie",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "real-time-tracking",
+      "per-model-breakdown",
+      "push-notifications",
+      "home-screen-widget",
+      "usage-alerts",
+      "overage-tracking"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-21T15:25:14Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-21T19:25:10.284Z"
   }
 ]
