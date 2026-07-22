@@ -40,5 +40,23 @@
     "reason": "DevDeck manages Claude Code and Grok sessions (resume, kill, organize) but does not display, measure, or report usage metrics like tokens, cost, or quotas — it is a session manager, not a usage tracker.",
     "confidence": 0.95,
     "rejectedAt": "2026-07-21T08:30:54.903Z"
+  },
+  {
+    "id": "beomeodev/claude-dashboard-mac-vitals",
+    "reason": "This project displays macOS system vitals (CPU, RAM, disk, swap) in the Claude Code status line, not Claude usage metrics—it monitors host resources, not tokens or API consumption.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-22T08:31:39.551Z"
+  },
+  {
+    "id": "mattkuda/claude-code-setup",
+    "reason": "Personal Claude Code configuration and setup distribution, not a usage tracker; while it includes a status line that displays context %, tokens, and model info, the primary purpose is sharing dotfiles and configuration rather than measuring or reporting Claude usage as a substantial feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-22T08:31:53.160Z"
+  },
+  {
+    "id": "saksham10arora-dotcom/claude-code-checkpoint",
+    "reason": "This is a Claude Code hook for snapshotting work during context compaction or session end, but it does not display, measure, or report Claude usage (tokens, cost, limits, quotas) as a feature—it only protects against the consequences of hitting limits.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-22T08:32:11.532Z"
   }
 ]
