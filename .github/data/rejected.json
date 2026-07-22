@@ -40,5 +40,47 @@
     "reason": "DevDeck manages Claude Code and Grok sessions (resume, kill, organize) but does not display, measure, or report usage metrics like tokens, cost, or quotas — it is a session manager, not a usage tracker.",
     "confidence": 0.95,
     "rejectedAt": "2026-07-21T08:30:54.903Z"
+  },
+  {
+    "id": "beomeodev/claude-dashboard-mac-vitals",
+    "reason": "This is a system metrics monitor for the Claude Code statusline that displays CPU/RAM/disk/swap—not a Claude usage tracker; it measures host resources, not tokens, cost, or Claude API consumption.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-22T13:57:24.651Z"
+  },
+  {
+    "id": "mattkuda/claude-code-setup",
+    "reason": "This is a personal dotfiles/setup collection for Claude Code configuration (statusline, commands, skills, hooks) that displays context usage in the statusline but does not measure or report Claude usage as a substantial feature—the statusline is a UI helper, not a usage tracker.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-22T13:57:40.713Z"
+  },
+  {
+    "id": "InonB2/multi-agent-orchestration",
+    "reason": "This is a multi-agent orchestration framework that routes tasks between different AI models (Claude Code, Codex, AGY) with checkpointing and telemetry, but it does not track or display Claude usage metrics—it only coordinates execution; therefore it does not qualify as a Claude usage tracker.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-22T13:57:48.290Z"
+  },
+  {
+    "id": "saksham10arora-dotcom/claude-code-checkpoint",
+    "reason": "This is a work-preservation and recovery tool that responds to Claude Code lifecycle events, but does not display, measure, or report Claude usage metrics—it focuses entirely on safeguarding unfinished work rather than tracking consumption.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-22T13:57:56.092Z"
+  },
+  {
+    "id": "Qyrhal/Clawdmeter-hermes",
+    "reason": "Manual review: fork of Clawdmeter repurposed to track a local Hermes Agent cron scheduler — by its own description it no longer tracks Claude usage.",
+    "confidence": 1,
+    "rejectedAt": "2026-07-22T18:16:07.000Z"
+  },
+  {
+    "id": "lgdlcs/my-claudecode-terminal-setup",
+    "reason": "Manual review: personal terminal setup collection (tab colors, sounds, spinner verbs) with a statusline garnish; per the mattkuda/claude-code-setup precedent, dotfiles with a usage statusline are not themselves usage trackers.",
+    "confidence": 1,
+    "rejectedAt": "2026-07-22T18:16:07.000Z"
+  },
+  {
+    "id": "Undone-drawknife974/undone-drawknife974.github.io",
+    "reason": "Manual review: personal GitHub Pages landing site (index.html + CNAME, no code) whose description advertises the owner's separate claude-code-statusline project — the tracker is that repo, not this site.",
+    "confidence": 1,
+    "rejectedAt": "2026-07-22T18:16:07.000Z"
   }
 ]
