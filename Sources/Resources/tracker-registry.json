@@ -121304,5 +121304,272 @@
     "openIssues": 1,
     "archived": false,
     "lastFetched": "2026-07-22T13:58:42.115Z"
+  },
+  {
+    "id": "Johnson8701/claude-bar",
+    "name": "claude-bar",
+    "author": "Johnson8701",
+    "repoURL": "https://github.com/Johnson8701/claude-bar",
+    "description": "A native macOS menu-bar prototype for Claude usage monitoring.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [],
+    "features": [
+      "menu-bar-monitor",
+      "usage-display",
+      "native-swiftui",
+      "preview-mode"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-22T19:11:52Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-22T19:21:51.674Z"
+  },
+  {
+    "id": "delta42/ClaudeUsageWidget",
+    "name": "ClaudeUsageWidget",
+    "author": "delta42",
+    "repoURL": "https://github.com/delta42/ClaudeUsageWidget",
+    "description": "Always-on-top Windows widget showing your Claude.ai usage % and reset time.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "C#",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "usage-percentage",
+      "reset-timer",
+      "always-on-top",
+      "auto-refresh",
+      "session-persistence"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-22T14:31:16Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-22T19:21:51.674Z"
+  },
+  {
+    "id": "Rabbit025879/claude-usage-gnome-extension",
+    "name": "claude-usage-gnome-extension",
+    "author": "Rabbit025879",
+    "repoURL": "https://github.com/Rabbit025879/claude-usage-gnome-extension",
+    "description": "A GNOME Shell extension that shows Claude Code's 5-hour and weekly usage limits in the top bar, complete with a small animated \"Clawd\" mascot that reacts to how close you are to your limits.",
+    "category": "Neovim Plugin",
+    "platforms": [
+      "linux"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "usage-display",
+      "rate-limit-alerts",
+      "animated-mascot",
+      "auto-refresh",
+      "multi-window"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-22T15:23:58Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-22T19:21:51.674Z"
+  },
+  {
+    "id": "mohitmayank/claude-monitor-gnome-extn",
+    "name": "claude-monitor-gnome-extn",
+    "author": "mohitmayank",
+    "repoURL": "https://github.com/mohitmayank/claude-monitor-gnome-extn",
+    "description": "GNOME Shell 48 taskbar indicator that monitors Claude Code token usage, cost, and burn rate in real time",
+    "category": "Neovim Plugin",
+    "platforms": [
+      "linux"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "real-time-monitoring",
+      "cost-tracking",
+      "burn-rate-alerts",
+      "progress-bars",
+      "15-color-schemes",
+      "customizable-ui",
+      "multi-model-pricing",
+      "usage-estimation"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-22T16:26:56Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-22T19:21:51.674Z"
+  },
+  {
+    "id": "akwnnwastaken/UsageBar",
+    "name": "UsageBar",
+    "author": "akwnnwastaken",
+    "repoURL": "https://github.com/akwnnwastaken/UsageBar",
+    "description": "Minimal macOS menu bar usage tracker for Codex and Claude Code",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "codex-tracking",
+      "claude-code-tracking",
+      "menu-bar-display",
+      "usage-windows",
+      "rate-limits",
+      "reset-timer",
+      "multi-provider"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-22T18:08:27Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-22T19:21:51.674Z"
+  },
+  {
+    "id": "tangjianfang/claudecode-statusline",
+    "name": "claudecode-statusline",
+    "author": "tangjianfang",
+    "repoURL": "https://github.com/tangjianfang/claudecode-statusline",
+    "description": "Custom status line for Claude Code: model, output TPS, token/cost totals, git branch, context usage — plus an opt-in auto-continue loop and a pricing updater. Zero-dependency single-file Node.js.",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "token-counting",
+      "cost-tracking",
+      "tps-monitoring",
+      "context-usage",
+      "rate-limit-tracking",
+      "auto-continue-loop",
+      "multi-model-pricing",
+      "git-integration"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-22T18:26:21Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-22T19:21:51.674Z"
+  },
+  {
+    "id": "srich-kr/claude-code-extensions",
+    "name": "claude-code-extensions",
+    "author": "srich-kr",
+    "repoURL": "https://github.com/srich-kr/claude-code-extensions",
+    "description": "Claude Code extensions — KrAIG budget statusline",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "API Key",
+      "Session Cookie"
+    ],
+    "features": [
+      "budget-tracking",
+      "spending-alerts",
+      "multi-account",
+      "statusline-display",
+      "interactive-cli"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-22T18:16:10Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-22T19:21:51.674Z"
+  },
+  {
+    "id": "Zaronian/claude-usage-statusline",
+    "name": "claude-usage-statusline",
+    "author": "Zaronian",
+    "repoURL": "https://github.com/Zaronian/claude-usage-statusline",
+    "description": "Claude Code statusline showing context, cost, and your 5-hour/weekly usage limits with reset times",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "context-usage-display",
+      "cost-estimation",
+      "rate-limit-alerts",
+      "rolling-window-tracking",
+      "reset-timers",
+      "weekly-quota-tracking"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-22T16:18:45Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-22T19:21:51.674Z"
+  },
+  {
+    "id": "cerealskill/clawdmeter",
+    "name": "clawdmeter",
+    "author": "cerealskill",
+    "repoURL": "https://github.com/cerealskill/clawdmeter",
+    "description": "Physical Claude Code usage meter — animated Clawd on a 3.5\" TFT (Raspberry Pi), fed by the Claude Code status line.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Traffic Capture",
+      "Session Cookie"
+    ],
+    "features": [
+      "rate-limit-display",
+      "animated-ui",
+      "touchscreen-control",
+      "5h-7d-windows",
+      "ntfy-alerts",
+      "cost-tracking",
+      "context-window-pct",
+      "sparkline-trends"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-22T17:29:48Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-22T19:21:51.674Z"
   }
 ]

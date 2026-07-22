@@ -82,5 +82,17 @@
     "reason": "Manual review: personal GitHub Pages landing site (index.html + CNAME, no code) whose description advertises the owner's separate claude-code-statusline project — the tracker is that repo, not this site.",
     "confidence": 1,
     "rejectedAt": "2026-07-22T18:16:07.000Z"
+  },
+  {
+    "id": "hayden1126/dotclaude",
+    "reason": "This is a personal dotfiles/configuration snapshot for Claude Code with no usage tracking or measurement features; while it was built with Claude, it does not display, measure, or report Claude usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-22T19:21:40.895Z"
+  },
+  {
+    "id": "karimbabasf/karim-skills",
+    "reason": "This is a collection of Claude Code skills/agent tools for productivity (calendar, focus planning, note-taking, Notion automation), not a Claude usage tracker—it does not display, measure, or report Claude usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-22T19:21:51.674Z"
   }
 ]
