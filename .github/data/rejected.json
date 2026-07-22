@@ -40,5 +40,17 @@
     "reason": "DevDeck manages Claude Code and Grok sessions (resume, kill, organize) but does not display, measure, or report usage metrics like tokens, cost, or quotas — it is a session manager, not a usage tracker.",
     "confidence": 0.95,
     "rejectedAt": "2026-07-21T08:30:54.903Z"
+  },
+  {
+    "id": "mattkuda/claude-code-setup",
+    "reason": "This is a personal Claude Code configuration and setup collection with a status line display, but it does not track or measure Claude usage as a substantial feature — the status line merely displays context percentage and token counts already provided by Claude Code, rather than accumulating or analyzing usage data.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-22T02:43:28.634Z"
+  },
+  {
+    "id": "saksham10arora-dotcom/claude-code-checkpoint",
+    "reason": "This is a Claude Code hook for preserving work across context limits and session ends, but it does not display, measure, or report Claude usage (tokens, costs, rate limits, quotas) as a feature—it only snapshots code state and documents where work was interrupted.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-22T02:43:49.705Z"
   }
 ]
