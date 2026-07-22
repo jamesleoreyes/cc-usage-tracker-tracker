@@ -246,7 +246,22 @@ async function main() {
   // Classifier-rejected repos are remembered so they aren't re-fetched and
   // re-classified every 6 hours for as long as they keep matching a search.
   const knownIDs = new Set([...registry.map((p) => p.id), ...rejected.map((r) => r.id)]);
-  console.log(`Current registry: ${registry.length} projects (+${rejected.length} remembered rejects)`);
+  // Candidates already quarantined on the pending-review branch are known too:
+  // the workflow re-applies them from that branch, so classifying them again
+  // here would burn API calls and produce churn between runs.
+  let pendingCount = 0;
+  if (process.env.PENDING_REGISTRY) {
+    try {
+      const pending = JSON.parse(readFileSync(process.env.PENDING_REGISTRY, "utf-8"));
+      for (const p of pending) knownIDs.add(p.id);
+      pendingCount = pending.length;
+    } catch {
+      // No pending file or unreadable — nothing quarantined.
+    }
+  }
+  console.log(
+    `Current registry: ${registry.length} projects (+${rejected.length} remembered rejects, ${pendingCount} quarantined)`
+  );
 
   const candidates = new Map();
 

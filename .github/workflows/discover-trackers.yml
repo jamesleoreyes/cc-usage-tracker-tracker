@@ -24,12 +24,31 @@ jobs:
         with:
           node-version: '20'
 
+      # Oversized batches get parked on the discovery/pending branch (one rolling
+      # PR) instead of main. Load what's parked there so this run neither
+      # re-classifies those candidates nor loses them when the branch is rebuilt.
+      - name: Load quarantined candidates
+        id: pending
+        run: |
+          echo '[]' > /tmp/pending.json
+          if git fetch origin discovery/pending 2>/dev/null; then
+            git show FETCH_HEAD:Sources/Resources/tracker-registry.json > /tmp/pending-branch-registry.json
+            jq -s '
+              (.[0] | map(.id)) as $known
+              | .[1] | map(select(.id as $i | ($known | index($i)) | not))
+            ' Sources/Resources/tracker-registry.json /tmp/pending-branch-registry.json > /tmp/pending.json
+          fi
+          COUNT=$(jq length /tmp/pending.json)
+          echo "count=$COUNT" >> "$GITHUB_OUTPUT"
+          echo "Quarantine branch holds $COUNT pending candidate(s)"
+
       - name: Search GitHub for new trackers
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # Optional: enables LLM classification of candidates. Without it,
           # discovery falls back to heuristic-only filtering.
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          PENDING_REGISTRY: /tmp/pending.json
         run: node .github/scripts/discover.mjs
 
       - name: Count new discoveries
@@ -38,12 +57,16 @@ jobs:
           if git diff --quiet -- Sources/Resources/tracker-registry.json .github/data/rejected.json; then
             echo "dirty=false" >> "$GITHUB_OUTPUT"
             echo "count=0" >> "$GITHUB_OUTPUT"
+            echo '[]' > /tmp/new-accepts.json
           else
-            BEFORE=$(git show HEAD:Sources/Resources/tracker-registry.json | jq length)
-            AFTER=$(jq length Sources/Resources/tracker-registry.json)
+            git show HEAD:Sources/Resources/tracker-registry.json > /tmp/before-registry.json
+            jq -s '
+              (.[0] | map(.id)) as $before
+              | .[1] | map(select(.id as $i | ($before | index($i)) | not))
+            ' /tmp/before-registry.json Sources/Resources/tracker-registry.json > /tmp/new-accepts.json
             echo "dirty=true" >> "$GITHUB_OUTPUT"
-            echo "count=$((AFTER - BEFORE))" >> "$GITHUB_OUTPUT"
-            echo "Found $((AFTER - BEFORE)) new tracker(s)"
+            echo "count=$(jq length /tmp/new-accepts.json)" >> "$GITHUB_OUTPUT"
+            echo "Found $(jq length /tmp/new-accepts.json) new tracker(s)"
           fi
 
       # Normal drip: commit straight to main. No PR, no review queue.
@@ -69,28 +92,90 @@ jobs:
           done
           exit 1
 
-      # Anomaly guard: a batch this large usually means a search-filter regression,
-      # so keep the old PR-for-review path for it.
-      - name: Open PR for review (unusually large batch)
+      # Anomaly path: rejects are memory, not part of the proposal — they land on
+      # main immediately so pending candidates aren't re-classified while the
+      # oversized batch waits for review.
+      - name: Record rejects on main (oversized batch)
         if: steps.changes.outputs.count > 15
+        run: |
+          if git diff --quiet -- .github/data/rejected.json; then
+            echo "No new rejects this run"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .github/data/rejected.json
+          git commit -m "Record rejected discovery candidates"
+          # Drop the uncommitted oversized registry batch (it lives on in
+          # /tmp/new-accepts.json) so pull --rebase below starts clean.
+          git checkout -- Sources/Resources/tracker-registry.json
+          for i in 1 2 3; do
+            if git push; then exit 0; fi
+            git pull --rebase origin main || { git rebase --abort; exit 1; }
+            sleep 10
+          done
+          exit 1
+
+      # Anomaly guard: a batch >15 usually means a search-filter regression, so
+      # it goes to a PR for human review instead of main. One *rolling* PR: the
+      # discovery/pending branch is rebuilt from current main every run (so it
+      # stays mergeable despite the 4-hourly metadata rewrites) and new oversized
+      # batches append to it instead of opening PR after PR.
+      - name: Sync quarantine PR
+        if: steps.changes.outputs.count > 15 || steps.pending.outputs.count > 0
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NEW_COUNT: ${{ steps.changes.outputs.count }}
         run: |
-          BRANCH="discovery/$(date +%Y%m%d-%H%M)"
-          git checkout -b "$BRANCH"
-          git add Sources/Resources/tracker-registry.json .github/data/rejected.json
+          if [ "$NEW_COUNT" -gt 15 ]; then
+            jq -s '
+              .[0] as $pending | ($pending | map(.id)) as $ids
+              | $pending + (.[1] | map(select(.id as $i | ($ids | index($i)) | not)))
+            ' /tmp/pending.json /tmp/new-accepts.json > /tmp/quarantine.json
+          else
+            cp /tmp/pending.json /tmp/quarantine.json
+          fi
+          TOTAL=$(jq length /tmp/quarantine.json)
+
+          # Everything previously quarantined has since reached main (or been
+          # rejected): retire the branch. Deleting it auto-closes the PR.
+          if [ "$TOTAL" -eq 0 ]; then
+            git push origin --delete discovery/pending 2>/dev/null || true
+            exit 0
+          fi
+
+          # Rebuild the branch from current main so the PR never goes stale.
+          git checkout -- Sources/Resources/tracker-registry.json
+          git checkout -B discovery/pending
+          jq -s '.[0] + .[1]' Sources/Resources/tracker-registry.json /tmp/quarantine.json > /tmp/merged-registry.json
+          node -e '
+            const fs = require("fs");
+            const reg = JSON.parse(fs.readFileSync("/tmp/merged-registry.json", "utf-8"));
+            fs.writeFileSync("Sources/Resources/tracker-registry.json", JSON.stringify(reg, null, 2) + "\n");
+          '
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git commit -m "Add $NEW_COUNT newly discovered tracker repos"
-          git push origin "$BRANCH"
+          git add Sources/Resources/tracker-registry.json
+          git commit -m "Quarantine $TOTAL oversized-batch candidates for review"
+          git push --force origin discovery/pending
+
+          TITLE="Review needed: $TOTAL quarantined discovery candidates"
+          OPEN=$(gh pr list --head discovery/pending --state open --json number -q '.[0].number')
+          if [ -n "$OPEN" ]; then
+            gh pr edit "$OPEN" --title "$TITLE"
+            exit 0
+          fi
           gh label create discovery --description "Automated tracker discovery" --color "0E8A16" 2>/dev/null || true
           gh pr create \
-            --title "Review needed: $NEW_COUNT trackers discovered in one run" \
+            --title "$TITLE" \
+            --label "discovery" \
             --body "$(cat <<'EOF'
-          Automated discovery found an unusually large batch of new tracker repos (>15 in a single run).
+          Automated discovery hit an unusually large batch (>15 accepts in a single run), which may indicate a search-query or filter regression — so these candidates are parked here for review instead of being committed to `main`.
 
-          Normal-sized batches are committed directly to `main`; a batch this size may indicate a search-query or filter regression, so **review before merging**.
+          This is a **rolling** PR: it is rebuilt on top of current `main` every discovery run (staying mergeable despite metadata rewrites), and any further oversized batches are appended here instead of opening new PRs. Normal-sized discoveries keep flowing straight to `main` in the meantime.
+
+          - **Merging** accepts every quarantined candidate.
+          - **To reject some or all**, add them to `.github/data/rejected.json` on `main` (or ask Claude to review the batch) — anything not rejected will be re-discovered.
+          - **Closing without merging**: also delete the `discovery/pending` branch, or the next run will reopen this PR.
           EOF
-          )" \
-            --label "discovery"
+          )"
