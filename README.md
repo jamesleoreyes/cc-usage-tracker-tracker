@@ -29,7 +29,7 @@ The app lives in your menu bar (no Dock icon). Look for the number.
 - **Popover dashboard** with search, category filters, and sort options
 - **Health indicators**: green (active), yellow (aging), red (stale/archived), skull (deleted)
 - **Expandable detail** per project: features, auth methods, platforms, GitHub link
-- **Automated discovery**: a GitHub Action finds new trackers and commits them straight to the registry (unusually large batches open a PR for review instead)
+- **Automated discovery**: a GitHub Action finds new trackers and commits them straight to the registry (unusually large batches are parked on a single rolling review PR instead)
 - **Automated metadata**: a GitHub Action updates stars, commit dates, and health every 4 hours
 - **Stats section**: language census, platform spread, "Built with Claude" percentage
 - **Instant loading**: the app reads a single JSON registry — no API calls, no loading spinners
@@ -38,7 +38,7 @@ The app lives in your menu bar (no Dock icon). Look for the number.
 
 The app itself makes **zero GitHub API calls**. All the heavy lifting happens in GitHub Actions:
 
-- **Discovery** (`discover-trackers.yml`): Runs every 6 hours, searches GitHub for new Claude usage tracker repos, and commits them directly to `main`. Batches larger than 15 open a PR for review instead — an anomaly guard against filter regressions.
+- **Discovery** (`discover-trackers.yml`): Runs every 6 hours, searches GitHub for new Claude usage tracker repos, and commits them directly to `main`. Batches larger than 15 are quarantined on a single rolling PR (`discovery/pending`) for review — an anomaly guard against filter regressions. The PR is rebuilt on top of current `main` every run so it never goes stale, further oversized batches append to it rather than opening new PRs, and normal-sized discoveries keep flowing directly in the meantime.
 - **Classification**: When an `ANTHROPIC_API_KEY` repo secret is set, each candidate is classified by Claude before joining the registry (yes, Claude vetting the trackers of Claude — it's trackers all the way down). The script deterministically gathers each repo's README and recent commit history — commits carrying `Co-Authored-By: Claude` trailers or authored by `claude[bot]` are hard evidence for the "Built with Claude" badge — then one structured-output call decides whether it's genuinely a usage tracker and fills in category, platforms, auth methods, and features. Rejected candidates are remembered in `.github/data/rejected.json` so they aren't re-classified every run. Without the secret, discovery falls back to heuristic keyword filtering.
 - **Metadata** (`update-registry.yml`): Runs every 4 hours, fetches stars, commit dates, archived status, and releases for the stalest ~400 entries, then commits the updated registry directly to `main`. The rotation covers the full registry about once a day and a half.
 
