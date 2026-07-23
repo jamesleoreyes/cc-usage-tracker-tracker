@@ -118,5 +118,23 @@
     "reason": "EyeSaver is a health/wellness app that reminds users to take eye breaks and includes Claude Code awareness, but does not display, measure, or report Claude usage—it merely pauses break notifications while Claude Code generates.",
     "confidence": 0.95,
     "rejectedAt": "2026-07-23T14:03:16.261Z"
+  },
+  {
+    "id": "thomastiscornia/claude-permission-notify",
+    "reason": "This project notifies about Claude Code permission requests and session status via menu bar UI, but does not display or measure Claude usage (tokens, cost, rate limits) as a substantial feature—it monitors session state and permissions instead.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-07-23T19:20:19.615Z"
+  },
+  {
+    "id": "dem1-st/lorebar",
+    "reason": "LoreBar is a task-board for AI agents that displays persistent per-project work, not Claude usage/tokens/costs; it explicitly positions itself against token trackers in the crowded menu-bar space.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-07-23T19:20:22.950Z"
+  },
+  {
+    "id": "killmashinator/even-toggle",
+    "reason": "This is a supervisor/launcher app for Even Realities glasses with Claude Code, not a usage tracker—it controls the server on/off and manages pairing, not measures or reports Claude usage, tokens, or cost.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-23T19:20:26.242Z"
   }
 ]

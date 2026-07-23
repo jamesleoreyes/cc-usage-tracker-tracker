@@ -122126,5 +122126,326 @@
     "openIssues": 7,
     "archived": false,
     "lastFetched": "2026-07-23T08:32:37.165Z"
+  },
+  {
+    "id": "t6tv8e/llm-usage-tracker",
+    "name": "llm-usage-tracker",
+    "author": "t6tv8e",
+    "repoURL": "https://github.com/t6tv8e/llm-usage-tracker",
+    "description": "Local-only macOS menu bar app showing Codex and Claude Code subscription usage",
+    "category": "Electron/Desktop",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Unknown",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "menu-bar-display",
+      "quota-tracking",
+      "claude-code-support",
+      "codex-support",
+      "local-only",
+      "refresh-control",
+      "session-windows"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-23T19:11:43Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-23T19:20:26.242Z"
+  },
+  {
+    "id": "nateyg/lenny",
+    "name": "lenny",
+    "author": "nateyg",
+    "repoURL": "https://github.com/nateyg/lenny",
+    "description": "Lenny is a Claude Code usage tracker and screensaver that counts down the time until reset. Nothing leaves your Mac. Please don’t tell anyone how I live.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Traffic Capture"
+    ],
+    "features": [
+      "countdown-timer",
+      "usage-percentage",
+      "lockout-detection",
+      "screensaver",
+      "5-hour-window",
+      "rate-limit-tracking"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-23T19:01:22Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-23T19:20:26.242Z"
+  },
+  {
+    "id": "vcekron/claude-statusline",
+    "name": "claude-statusline",
+    "author": "vcekron",
+    "repoURL": "https://github.com/vcekron/claude-statusline",
+    "description": "Fast, minimal status line provider for Claude Code, written in Rust",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "context-usage",
+      "rate-limit-tracking",
+      "cost-reporting",
+      "workspace-info",
+      "model-display"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-07-23T17:56:40Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-23T19:20:26.242Z"
+  },
+  {
+    "id": "helicopterrun/claude-code-bootstrap",
+    "name": "claude-code-bootstrap",
+    "author": "helicopterrun",
+    "repoURL": "https://github.com/helicopterrun/claude-code-bootstrap",
+    "description": "One-shot setup for a comfortable Claude Code environment on a fresh Linux box: tmux session picker, custom statusline, scrollback tuning, and 1Password     ▎ SSH login.",
+    "category": "Tmux Plugin",
+    "platforms": [
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "context-meter",
+      "rate-limit-display",
+      "statusline",
+      "tmux-session-picker",
+      "1password-ssh"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-23T17:24:01Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-23T19:20:26.242Z"
+  },
+  {
+    "id": "Tzu-YangLi/claude-statusline",
+    "name": "claude-statusline",
+    "author": "Tzu-YangLi",
+    "repoURL": "https://github.com/Tzu-YangLi/claude-statusline",
+    "description": "A colored progress-bar statusline for Claude Code — Windows / Linux / macOS.",
+    "category": "Statusline",
+    "platforms": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "language": "PowerShell",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "context-window-display",
+      "usage-alerts",
+      "color-coded-quotas",
+      "token-aggregation",
+      "multi-timeframe",
+      "transcript-parsing"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-23T16:55:11Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-23T19:20:26.242Z"
+  },
+  {
+    "id": "dustinJ15/claude-context-widget",
+    "name": "claude-context-widget",
+    "author": "dustinJ15",
+    "repoURL": "https://github.com/dustinJ15/claude-context-widget",
+    "description": "A tiny always-on-top desktop widget + terminal statusline showing each live Claude Code chat's context size, color-coded by token count.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "PowerShell",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "context-monitoring",
+      "color-coded-bands",
+      "live-chats",
+      "zero-config",
+      "terminal-statusline",
+      "wpf-widget"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-23T16:40:06Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-23T19:20:26.242Z"
+  },
+  {
+    "id": "flobernd/claude-statusline",
+    "name": "claude-statusline",
+    "author": "flobernd",
+    "repoURL": "https://github.com/flobernd/claude-statusline",
+    "description": "Cross-platform statusline for Claude Code CLI.",
+    "category": "Statusline",
+    "platforms": [
+      "web"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "context-usage",
+      "token-metrics",
+      "prompt-cache-stats",
+      "usage-limits",
+      "subagent-tasks",
+      "git-integration",
+      "multi-window-tracking"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-23T16:29:56Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-23T19:20:26.242Z"
+  },
+  {
+    "id": "taranchuLa/runcat-custom-metrics",
+    "name": "runcat-custom-metrics",
+    "author": "taranchuLa",
+    "repoURL": "https://github.com/taranchuLa/runcat-custom-metrics",
+    "description": "RunCat Neo custom metrics: Claude Code usage, GitHub PRs, and GPU temperature/usage cards for macOS",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "context-usage",
+      "rate-limit-alerts",
+      "menubar-widget",
+      "gpu-monitoring",
+      "github-prs"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-23T15:49:32Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-23T19:20:26.242Z"
+  },
+  {
+    "id": "ckpsantos/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "ckpsantos",
+    "repoURL": "https://github.com/ckpsantos/claude-code-statusline",
+    "description": "Status line de duas linhas para o Claude Code: contexto, limites de uso, tokens, custo, git e PR — adaptando-se à largura do terminal",
+    "category": "Statusline",
+    "platforms": [
+      "web"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "context-usage",
+      "rate-limits",
+      "token-count",
+      "cost-tracking",
+      "git-integration",
+      "responsive-layout"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-23T14:17:24Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-23T19:20:26.242Z"
+  },
+  {
+    "id": "mondherbm/cc-meter-bar",
+    "name": "cc-meter-bar",
+    "author": "mondherbm",
+    "repoURL": "https://github.com/mondherbm/cc-meter-bar",
+    "description": "Claude Code status line: context window, session, weekly and Fable rate limits read from the same endpoint /usage calls, plus billing-cycle spend computed from local transcripts. macOS only.",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "OAuth Token",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "context-window-display",
+      "rate-limit-tracking",
+      "billing-cycle-spend",
+      "session-cost",
+      "live-api-fetch",
+      "cache-fallback",
+      "multi-model-pricing"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-23T16:13:05Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-23T19:20:26.242Z"
+  },
+  {
+    "id": "marblecake88/claude-limits-gachi-soundboard",
+    "name": "claude-limits-gachi-soundboard",
+    "author": "marblecake88",
+    "repoURL": "https://github.com/marblecake88/claude-limits-gachi-soundboard",
+    "description": "Claude Code usage limits in the macOS menu bar. Wakes Claude overnight for a fresh window by morning. Plus a gachi soundboard.",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "claude-code-limits",
+      "5-hour-window-tracking",
+      "weekly-quota-display",
+      "keep-alive-automation",
+      "spend-in-dollars",
+      "gachi-soundboard"
+    ],
+    "builtWithClaude": null,
+    "stars": 4,
+    "lastCommitDate": "2026-07-23T18:24:02Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-23T19:20:26.242Z"
   }
 ]
