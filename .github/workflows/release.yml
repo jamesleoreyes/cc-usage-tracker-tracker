@@ -47,10 +47,30 @@ jobs:
           rm "$RUNNER_TEMP/cert.p12"
           echo "KEYCHAIN_PATH=$KEYCHAIN_PATH" >> "$GITHUB_ENV"
 
+          # Apple's Developer ID intermediate CA: a .p12 exported from Keychain
+          # Access carries only the leaf + key, and without the full chain the
+          # identity is invalid ("no identity found") on a bare runner.
+          curl -fsSL -o "$RUNNER_TEMP/DeveloperIDG2CA.cer" \
+            https://www.apple.com/certificateauthority/DeveloperIDG2CA.cer \
+            && security import "$RUNNER_TEMP/DeveloperIDG2CA.cer" -k "$KEYCHAIN_PATH" \
+            || echo "warning: could not fetch/import Developer ID intermediate (may already be present)"
+
+          # Auto-detect the identity from the imported cert rather than trusting
+          # a hand-typed secret to match it (Apple issues certs under the legal
+          # name, e.g. "JAMES LEONIDAS REYES", not the account display name).
+          IDENTITY=$(security find-identity -v -p codesigning "$KEYCHAIN_PATH" \
+            | awk -F'"' '/Developer ID Application/ {print $2; exit}')
+          if [ -z "$IDENTITY" ]; then
+            echo "::error::No valid Developer ID Application identity in the imported keychain."
+            echo "Identities present (unfiltered):"
+            security find-identity -p codesigning "$KEYCHAIN_PATH"
+            exit 1
+          fi
+          echo "Signing as: $IDENTITY"
+          echo "SIGN_IDENTITY=$IDENTITY" >> "$GITHUB_ENV"
+
       - name: Build, sign, and package
-        env:
-          MACOS_SIGN_IDENTITY: ${{ secrets.MACOS_SIGN_IDENTITY }}
-        run: make dmg VERSION="$VERSION" SIGN_IDENTITY="$MACOS_SIGN_IDENTITY"
+        run: make dmg VERSION="$VERSION" SIGN_IDENTITY="$SIGN_IDENTITY"
 
       - name: Notarize and staple
         env:
