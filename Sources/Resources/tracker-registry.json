@@ -121572,5 +121572,304 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-07-22T19:21:51.674Z"
+  },
+  {
+    "id": "eusoukauecarvalho/claude-usage-monitor-mac",
+    "name": "claude-usage-monitor-mac",
+    "author": "eusoukauecarvalho",
+    "repoURL": "https://github.com/eusoukauecarvalho/claude-usage-monitor-mac",
+    "description": "macOS menu bar app showing your Claude session/weekly usage in real time — same data as /usage",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "session-quota-monitor",
+      "weekly-quota-monitor",
+      "per-model-quotas",
+      "smart-alerts",
+      "progress-bars",
+      "keychain-auth",
+      "rate-limit-handling",
+      "auto-start"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-23T01:00:59Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-23T02:48:33.842Z"
+  },
+  {
+    "id": "gustavodower/claude-usage-stick-overlay",
+    "name": "claude-usage-stick-overlay",
+    "author": "gustavodower",
+    "repoURL": "https://github.com/gustavodower/claude-usage-stick-overlay",
+    "description": "Desktop overlay for Claude Code session usage — 25/50/75 alerts, burn-rate forecast, 4 views, multi-monitor. PC port of benevid/claude-usage-stick-SVGL.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "OAuth Token",
+      "Traffic Capture",
+      "Session Key"
+    ],
+    "features": [
+      "session-usage-percent",
+      "burn-rate-forecast",
+      "25-50-75-alerts",
+      "multi-monitor",
+      "4-views",
+      "tray-icon",
+      "mascot-alerts"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-22T22:10:44Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-23T02:48:33.843Z"
+  },
+  {
+    "id": "5Donghwan/claude-usage-overlay",
+    "name": "claude-usage-overlay",
+    "author": "5Donghwan",
+    "repoURL": "https://github.com/5Donghwan/claude-usage-overlay",
+    "description": "Floats live 5h/7d Claude subscription usage bars over the Claude desktop app's chat input — unofficial, not affiliated with Anthropic",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "5h-7d-usage-bars",
+      "claude-app-overlay",
+      "accessibility-api",
+      "plan-usage-history",
+      "real-time-tracking",
+      "auto-positioning",
+      "tunable-config"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-23T01:16:24Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-23T02:48:33.843Z"
+  },
+  {
+    "id": "KSilvagnoli/KS_AI_HeartbeatMonitor",
+    "name": "KS_AI_HeartbeatMonitor",
+    "author": "KSilvagnoli",
+    "repoURL": "https://github.com/KSilvagnoli/KS_AI_HeartbeatMonitor",
+    "description": "AI Usage Widget for tracking how much usage you have remaining in your Claude Code/Codex/Deepseek Accounts. Meant for personal use.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "Unknown",
+    "authMethod": [],
+    "features": [
+      "usage-tracking",
+      "multi-provider",
+      "remaining-quota",
+      "claude-code-support"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-22T23:40:52Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-23T02:48:33.843Z"
+  },
+  {
+    "id": "AllissonOliveira/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "AllissonOliveira",
+    "repoURL": "https://github.com/AllissonOliveira/claude-code-statusline",
+    "description": "Status line responsiva e elegante para o Claude Code — layout adaptável imune a locale, gradiente de esforço animado, contexto, limites 5h/7d, tokens e custo. Bash + jq.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Session Cookie"
+    ],
+    "features": [
+      "rate-limit-display",
+      "context-window-tracking",
+      "token-counter",
+      "cost-calculator",
+      "effort-indicator",
+      "responsive-layout",
+      "animated-gradient"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-23T00:12:50Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-23T02:48:33.843Z"
+  },
+  {
+    "id": "agarzon/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "agarzon",
+    "repoURL": "https://github.com/agarzon/claude-code-statusline",
+    "description": "My custom status line for Claude Code showing model, tokens, rate limits, and git info in real-time. for starship and fish, multiplatform support.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "model-display",
+      "token-tracking",
+      "rate-limit-monitoring",
+      "git-integration",
+      "real-time-updates"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-22T21:38:33Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-23T02:48:33.843Z"
+  },
+  {
+    "id": "pjetly/AgentUsageBar",
+    "name": "AgentUsageBar",
+    "author": "pjetly",
+    "repoURL": "https://github.com/pjetly/AgentUsageBar",
+    "description": "macOS menu-bar app for Codex + Claude Code usage: token totals, real rate-limit windows, and reset times",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "token-totals",
+      "rate-limit-windows",
+      "usage-percentage",
+      "multi-provider",
+      "session-history",
+      "monthly-targets"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-22T21:01:04Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-23T02:48:33.843Z"
+  },
+  {
+    "id": "matsumoto-akio/rimlight",
+    "name": "rimlight",
+    "author": "matsumoto-akio",
+    "repoURL": "https://github.com/matsumoto-akio/rimlight",
+    "description": "Rimlight - a macOS menu bar app that notifies Claude Code / Codex status via a glowing screen edge",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Unknown",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "real-time-status-display",
+      "activity-history",
+      "multi-tool-monitoring",
+      "local-only-hooks"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-23T02:21:56Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-23T02:48:33.843Z"
+  },
+  {
+    "id": "mgks/AIMonitor",
+    "name": "AIMonitor",
+    "author": "mgks",
+    "repoURL": "https://github.com/mgks/AIMonitor",
+    "description": "Native macOS menu bar app for monitoring AI usage, quotas and provider status.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "API Key",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "multi-provider-support",
+      "quota-alerts",
+      "auto-refresh",
+      "menu-bar-widget",
+      "usage-percentage-display",
+      "regional-endpoints",
+      "credential-storage"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-22T19:51:27Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-23T02:48:33.843Z"
+  },
+  {
+    "id": "VexCrux/ClaudeMeter.Expansion",
+    "name": "ClaudeMeter.Expansion",
+    "author": "VexCrux",
+    "repoURL": "https://github.com/VexCrux/ClaudeMeter.Expansion",
+    "description": "🧿Real-time token tracker for Claude AI. Monitor usage, subscription period & model limits directly in your browser. Extension for Chrome, Edge & Brave.",
+    "category": "Browser Extension",
+    "platforms": [
+      "chromium",
+      "firefox"
+    ],
+    "language": "Unknown",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "token-progress-bar",
+      "message-limits",
+      "period-display",
+      "real-time-stats",
+      "model-detection",
+      "customizable-colors",
+      "compact-mode"
+    ],
+    "builtWithClaude": null,
+    "stars": 1,
+    "lastCommitDate": "2026-07-22T07:53:31Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-23T02:48:33.843Z"
   }
 ]

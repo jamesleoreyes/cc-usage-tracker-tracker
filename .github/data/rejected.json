@@ -94,5 +94,17 @@
     "reason": "This is a collection of Claude Code skills/agent tools for productivity (calendar, focus planning, note-taking, Notion automation), not a Claude usage tracker—it does not display, measure, or report Claude usage metrics.",
     "confidence": 0.95,
     "rejectedAt": "2026-07-22T19:21:51.674Z"
+  },
+  {
+    "id": "syfssb/nemuri",
+    "reason": "Nemuri is a keep-awake utility that detects Claude Code/Codex activity state but does not display, measure, or report Claude usage metrics as a substantial feature—its core purpose is power management, not usage tracking.",
+    "confidence": 0.92,
+    "rejectedAt": "2026-07-23T02:48:20.087Z"
+  },
+  {
+    "id": "twoTimesAgnew/polyclaude",
+    "reason": "PolyClaude is an account switcher/manager that enables switching between Claude credentials, not a usage tracker that displays, measures, or reports Claude token consumption, cost, or quotas.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-23T02:48:22.979Z"
   }
 ]
