@@ -4,6 +4,12 @@ struct AboutView: View {
     let trackerCount: Int
     @Environment(\.dismiss) private var dismiss
 
+    // "dev" when running as a bare executable (`swift run`), where there is
+    // no Info.plist; real builds get the version stamped by the Makefile.
+    private var appVersion: String {
+        Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "dev"
+    }
+
     var body: some View {
         VStack(spacing: 16) {
             Text("CC Usage Tracker Tracker")
@@ -22,7 +28,7 @@ struct AboutView: View {
                 .frame(width: 200)
 
             VStack(spacing: 4) {
-                Text("Version 1.0.0")
+                Text("Version \(appVersion)")
                     .font(.caption)
                     .foregroundStyle(.secondary)
                 Text("Currently tracking: \(trackerCount) projects")

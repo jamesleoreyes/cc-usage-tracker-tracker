@@ -8,11 +8,9 @@ A native macOS status bar app that discovers, catalogs, and monitors every open-
 
 Download the latest `.dmg` from [Releases](../../releases), open it, and drag **CC Usage Tracker Tracker** to your Applications folder.
 
-Since the app isn't notarized with an Apple Developer ID, macOS may block it on first launch. To fix this, run once after installing:
+Releases are signed with a Developer ID and notarized by Apple — no Gatekeeper warnings, no terminal incantations. The app updates itself via [Sparkle](https://sparkle-project.org): you'll get a "new version available" prompt when a release ships, or check manually from the menu bar icon's right-click menu.
 
-```bash
-xattr -cr /Applications/CCUsageTrackerTracker.app
-```
+> Upgrading from v1.2.0 or earlier? Those builds predate the updater — download the new `.dmg` manually this one last time.
 
 The app lives in your menu bar (no Dock icon). Look for the number.
 
@@ -59,9 +57,18 @@ make dmg
 make run
 ```
 
-The `.app` lands in `build/CCUsageTrackerTracker.app` and the `.dmg` in `build/`.
+The `.app` lands in `build/CCUsageTrackerTracker.app` and the `.dmg` in `build/`. Local builds are ad-hoc signed (fine for your own machine); auto-update stays dormant outside real releases.
 
-For development, `swift build && swift run` works but notifications will be disabled (they require a real `.app` bundle).
+For development, `swift build && swift run` works but auto-update is disabled (it requires a real `.app` bundle).
+
+## Cutting a Release (maintainer)
+
+```bash
+git tag v1.3.0
+git push origin v1.3.0
+```
+
+That's the whole process. The [Release workflow](.github/workflows/release.yml) builds the app with the tag's version stamped in, signs it with the Developer ID certificate, notarizes the `.dmg` with Apple, publishes the GitHub release, and regenerates the Sparkle `appcast.xml` on `main` — at which point every installed copy learns about the update.
 
 ## FAQ
 
