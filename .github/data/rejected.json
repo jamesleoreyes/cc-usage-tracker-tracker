@@ -112,5 +112,11 @@
     "reason": "This is a Claude Code statusline plugin that displays ads and tracks impressions for payment, but does not measure or report Claude usage (tokens, costs, rate limits) as a feature.",
     "confidence": 0.85,
     "rejectedAt": "2026-07-23T08:32:30.031Z"
+  },
+  {
+    "id": "MaksymZhytnikov/EyeSaver",
+    "reason": "EyeSaver is a health/wellness app that reminds users to take eye breaks and includes Claude Code awareness, but does not display, measure, or report Claude usage—it merely pauses break notifications while Claude Code generates.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-23T14:03:16.261Z"
   }
 ]
