@@ -121873,5 +121873,254 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-07-23T02:48:33.843Z"
+  },
+  {
+    "id": "GuilhermeRozenblat/claude-usage-monitor-mac",
+    "name": "claude-usage-monitor-mac",
+    "author": "GuilhermeRozenblat",
+    "repoURL": "https://github.com/GuilhermeRozenblat/claude-usage-monitor-mac",
+    "description": "Monitor de limites do Claude Code na barra de menus do macOS",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "usage-percentages",
+      "rate-limit-monitoring",
+      "context-tracking",
+      "reset-timers",
+      "session-details",
+      "usage-history",
+      "notification-alerts",
+      "multi-language"
+    ],
+    "builtWithClaude": null,
+    "stars": 2,
+    "lastCommitDate": "2026-07-23T05:37:34Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-23T08:32:37.165Z"
+  },
+  {
+    "id": "OwenZhao9/claude-usage-widget",
+    "name": "claude-usage-widget",
+    "author": "OwenZhao9",
+    "repoURL": "https://github.com/OwenZhao9/claude-usage-widget",
+    "description": "macOS 置顶毛玻璃浮窗，实时显示 Claude 订阅额度（会话/全模型周/Fable 周），悬停展开带重置倒计时",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "real-time-usage-display",
+      "session-quota-tracking",
+      "weekly-quota-tracking",
+      "reset-countdown",
+      "floating-window",
+      "color-threshold-alerts"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-23T08:18:53Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-23T08:32:37.165Z"
+  },
+  {
+    "id": "anscofla/ai-usage-menubar",
+    "name": "ai-usage-menubar",
+    "author": "anscofla",
+    "repoURL": "https://github.com/anscofla/ai-usage-menubar",
+    "description": "macOS menu bar app showing Claude usage limits at a glance (session/weekly/model %)",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "session-limit-display",
+      "weekly-limit-display",
+      "model-limit-display",
+      "auto-refresh",
+      "keychain-integration",
+      "reset-countdown"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-23T07:24:50Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-23T08:32:37.165Z"
+  },
+  {
+    "id": "Kyuhan1230/ai-usage-monitor",
+    "name": "ai-usage-monitor",
+    "author": "Kyuhan1230",
+    "repoURL": "https://github.com/Kyuhan1230/ai-usage-monitor",
+    "description": "A local Windows tray app that predicts when your Codex CLI and Claude Code usage limits will run out.",
+    "category": "Electron/Desktop",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "API Key"
+    ],
+    "features": [
+      "quota-forecasting",
+      "usage-spike-detection",
+      "exhaustion-alerts",
+      "cost-estimates",
+      "model-recommendations",
+      "local-processing",
+      "multi-provider"
+    ],
+    "builtWithClaude": null,
+    "stars": 2,
+    "lastCommitDate": "2026-07-23T08:04:39Z",
+    "openIssues": 3,
+    "archived": false,
+    "lastFetched": "2026-07-23T08:32:37.165Z"
+  },
+  {
+    "id": "svcrashh/ClaudeMeter-MacOS",
+    "name": "ClaudeMeter-MacOS",
+    "author": "svcrashh",
+    "repoURL": "https://github.com/svcrashh/ClaudeMeter-MacOS",
+    "description": "macOS menu-bar app + floating widget for your Claude Code usage (5-hour session & weekly), live from the same source Claude shows.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "live-usage-display",
+      "session-tracking",
+      "weekly-limits",
+      "floating-widget",
+      "menu-bar-app",
+      "cost-estimation",
+      "burn-rate",
+      "offline-fallback"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-23T04:29:26Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-23T08:32:37.165Z"
+  },
+  {
+    "id": "minhbi245/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "minhbi245",
+    "repoURL": "https://github.com/minhbi245/claude-code-statusline",
+    "description": "Three-line Claude Code status line: model + context size, git branch, context-window bar, 5h/weekly rate-limit bars",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Browser Cookie Auto-detect",
+      "OAuth Token"
+    ],
+    "features": [
+      "context-window-bar",
+      "rate-limit-bars",
+      "model-display",
+      "effort-level",
+      "extended-thinking",
+      "fast-mode",
+      "weekly-usage",
+      "cache"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-23T08:22:59Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-23T08:32:37.165Z"
+  },
+  {
+    "id": "KUCHITAKE/ccsw",
+    "name": "ccsw",
+    "author": "KUCHITAKE",
+    "repoURL": "https://github.com/KUCHITAKE/ccsw",
+    "description": "Switch between logged-in Claude Code accounts, with per-account rate-limit usage",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "multi-account-switching",
+      "rate-limit-display",
+      "token-refresh",
+      "usage-endpoint",
+      "tui-interface",
+      "profile-snapshots"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-23T05:18:32Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-23T08:32:37.165Z"
+  },
+  {
+    "id": "851-labs/tokenmaxxing",
+    "name": "tokenmaxxing",
+    "author": "851-labs",
+    "repoURL": "https://github.com/851-labs/tokenmaxxing",
+    "description": "A local CLI, built on ccusage, that syncs your token usage with everyone else.",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "API Key",
+      "Session Key"
+    ],
+    "features": [
+      "token-usage-tracking",
+      "leaderboard",
+      "multi-agent-support",
+      "public-profiles",
+      "daily-aggregates",
+      "automatic-syncing",
+      "cross-device-sync"
+    ],
+    "builtWithClaude": null,
+    "stars": 59,
+    "lastCommitDate": "2026-07-23T05:41:09Z",
+    "openIssues": 7,
+    "archived": false,
+    "lastFetched": "2026-07-23T08:32:37.165Z"
   }
 ]

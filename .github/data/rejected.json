@@ -106,5 +106,11 @@
     "reason": "PolyClaude is an account switcher/manager that enables switching between Claude credentials, not a usage tracker that displays, measures, or reports Claude token consumption, cost, or quotas.",
     "confidence": 0.95,
     "rejectedAt": "2026-07-23T02:48:22.979Z"
+  },
+  {
+    "id": "PinnacleDynamics/platita-client",
+    "reason": "This is a Claude Code statusline plugin that displays ads and tracks impressions for payment, but does not measure or report Claude usage (tokens, costs, rate limits) as a feature.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-07-23T08:32:30.031Z"
   }
 ]
