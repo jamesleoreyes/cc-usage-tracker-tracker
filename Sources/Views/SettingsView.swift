@@ -1,9 +1,18 @@
-import SwiftUI
+import AppKit
 import ServiceManagement
+import Sparkle
+import SwiftUI
 
 struct SettingsView: View {
     @Bindable var appState: AppState
     @Environment(\.dismiss) private var dismiss
+    @State private var autoCheckForUpdates = false
+
+    // The updater lives on the app delegate; nil under `swift run`
+    // (bare executable, updater never started).
+    private var updater: SPUUpdater? {
+        (NSApp.delegate as? AppDelegate)?.updaterController.updater
+    }
 
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
@@ -21,6 +30,14 @@ struct SettingsView: View {
                     Toggle("Launch at login", isOn: $appState.settings.launchAtLogin)
                         .onChange(of: appState.settings.launchAtLogin) { _, newValue in
                             setLaunchAtLogin(newValue)
+                        }
+                    Toggle("Automatically check for updates", isOn: $autoCheckForUpdates)
+                        .onChange(of: autoCheckForUpdates) { _, newValue in
+                            updater?.automaticallyChecksForUpdates = newValue
+                        }
+                        .disabled(updater == nil)
+                        .onAppear {
+                            autoCheckForUpdates = updater?.automaticallyChecksForUpdates ?? false
                         }
                 }
                 .padding(4)
@@ -43,7 +60,7 @@ struct SettingsView: View {
             Spacer()
         }
         .padding(20)
-        .frame(width: 340, height: 240)
+        .frame(width: 340, height: 270)
     }
 
     private func setLaunchAtLogin(_ enabled: Bool) {

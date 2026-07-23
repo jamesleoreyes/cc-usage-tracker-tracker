@@ -1,4 +1,5 @@
 import AppKit
+import Sparkle
 
 @MainActor
 final class AppDelegate: NSObject, NSApplicationDelegate {
@@ -6,8 +7,22 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
     let appState = AppState()
     private var refreshTimer: Timer?
 
+    // Started only when running from a real .app bundle (see below), so
+    // `swift run` dev builds neither crash nor show Sparkle errors.
+    let updaterController = SPUStandardUpdaterController(
+        startingUpdater: false,
+        updaterDelegate: nil,
+        userDriverDelegate: nil
+    )
+
     func applicationDidFinishLaunching(_ notification: Notification) {
         NSApp.setActivationPolicy(.accessory)
+
+        // A bare `swift run` executable has no Info.plist, so no feed URL —
+        // Sparkle stays dormant and the menu item disables itself.
+        if Bundle.main.object(forInfoDictionaryKey: "SUFeedURL") != nil {
+            updaterController.startUpdater()
+        }
 
         // Load bundled registry immediately (instant, offline)
         do {
@@ -22,9 +37,13 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
             print("Failed to load registry: \(error)")
         }
 
-        statusBarController = StatusBarController(appState: appState, onRefresh: { [weak self] in
-            self?.refreshFromRemote()
-        })
+        statusBarController = StatusBarController(
+            appState: appState,
+            updaterController: updaterController,
+            onRefresh: { [weak self] in
+                self?.refreshFromRemote()
+            }
+        )
 
         // Fetch latest registry from GitHub
         refreshFromRemote()

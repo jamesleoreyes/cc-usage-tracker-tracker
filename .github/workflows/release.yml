@@ -1,0 +1,125 @@
+name: Release
+
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: write
+
+# Own group, NOT registry-writes: notarization can take many minutes and must
+# not block the registry automations. The appcast push below races them safely
+# — it touches a different file, so the retry-rebase always applies cleanly.
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: macos-latest
+    env:
+      REPO_URL: https://github.com/jamesleoreyes/cc-usage-tracker-tracker
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Derive version from tag
+        run: echo "VERSION=${GITHUB_REF_NAME#v}" >> "$GITHUB_ENV"
+
+      - name: Run tests
+        run: swift test
+
+      - name: Import signing certificate into temp keychain
+        env:
+          MACOS_CERTIFICATE_P12: ${{ secrets.MACOS_CERTIFICATE_P12 }}
+          MACOS_CERTIFICATE_PASSWORD: ${{ secrets.MACOS_CERTIFICATE_PASSWORD }}
+        run: |
+          KEYCHAIN_PASSWORD=$(uuidgen)
+          KEYCHAIN_PATH="$RUNNER_TEMP/release.keychain-db"
+          echo "$MACOS_CERTIFICATE_P12" | base64 --decode > "$RUNNER_TEMP/cert.p12"
+          security create-keychain -p "$KEYCHAIN_PASSWORD" "$KEYCHAIN_PATH"
+          security set-keychain-settings -lut 21600 "$KEYCHAIN_PATH"
+          security unlock-keychain -p "$KEYCHAIN_PASSWORD" "$KEYCHAIN_PATH"
+          security import "$RUNNER_TEMP/cert.p12" -k "$KEYCHAIN_PATH" \
+            -P "$MACOS_CERTIFICATE_PASSWORD" -T /usr/bin/codesign
+          security set-key-partition-list -S apple-tool:,apple: \
+            -s -k "$KEYCHAIN_PASSWORD" "$KEYCHAIN_PATH" > /dev/null
+          security list-keychains -d user -s "$KEYCHAIN_PATH" login.keychain-db
+          rm "$RUNNER_TEMP/cert.p12"
+          echo "KEYCHAIN_PATH=$KEYCHAIN_PATH" >> "$GITHUB_ENV"
+
+      - name: Build, sign, and package
+        env:
+          MACOS_SIGN_IDENTITY: ${{ secrets.MACOS_SIGN_IDENTITY }}
+        run: make dmg VERSION="$VERSION" SIGN_IDENTITY="$MACOS_SIGN_IDENTITY"
+
+      - name: Notarize and staple
+        env:
+          AC_API_KEY_ID: ${{ secrets.AC_API_KEY_ID }}
+          AC_API_ISSUER_ID: ${{ secrets.AC_API_ISSUER_ID }}
+          AC_API_KEY_P8: ${{ secrets.AC_API_KEY_P8 }}
+        run: |
+          echo "$AC_API_KEY_P8" > "$RUNNER_TEMP/AuthKey.p8"
+          xcrun notarytool submit "build/CCUsageTrackerTracker-$VERSION.dmg" \
+            --key "$RUNNER_TEMP/AuthKey.p8" \
+            --key-id "$AC_API_KEY_ID" \
+            --issuer "$AC_API_ISSUER_ID" \
+            --wait
+          rm "$RUNNER_TEMP/AuthKey.p8"
+          xcrun stapler staple "build/CCUsageTrackerTracker-$VERSION.dmg"
+
+      # Release first, appcast second: the appcast must never point at an
+      # asset URL that doesn't exist yet.
+      - name: Create GitHub release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" \
+            "build/CCUsageTrackerTracker-$VERSION.dmg" \
+            --title "$GITHUB_REF_NAME" \
+            --generate-notes \
+            --verify-tag
+
+      # Single-item appcast, regenerated every release. generate_appcast prunes
+      # feed items whose archives aren't on disk, and --download-url-prefix is
+      # global while GitHub asset URLs embed the tag — so a growing multi-item
+      # feed is not possible here. Sparkle only needs the newest version;
+      # release history lives on the GitHub releases page.
+      - name: Generate appcast
+        env:
+          SPARKLE_ED_PRIVATE_KEY: ${{ secrets.SPARKLE_ED_PRIVATE_KEY }}
+        run: |
+          GENERATE_APPCAST=$(find .build/artifacts -name generate_appcast -type f -perm +111 | head -1)
+          [ -n "$GENERATE_APPCAST" ] || { echo "generate_appcast not found in .build/artifacts"; exit 1; }
+          mkdir -p build/appcast-work
+          cp "build/CCUsageTrackerTracker-$VERSION.dmg" build/appcast-work/
+          echo "$SPARKLE_ED_PRIVATE_KEY" | "$GENERATE_APPCAST" \
+            --ed-key-file - \
+            --download-url-prefix "$REPO_URL/releases/download/$GITHUB_REF_NAME/" \
+            --link "$REPO_URL" \
+            --full-release-notes-url "$REPO_URL/releases" \
+            --maximum-deltas 0 \
+            -o build/appcast.xml \
+            build/appcast-work
+
+      # build/ is gitignored, so the generated appcast survives the switch from
+      # the tag checkout to main.
+      - name: Publish appcast to main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git fetch origin main
+          git switch -C main origin/main
+          cp build/appcast.xml appcast.xml
+          git add appcast.xml
+          git commit -m "Publish appcast for $GITHUB_REF_NAME" || { echo "Appcast unchanged"; exit 0; }
+          for i in 1 2 3; do
+            if git push origin main; then exit 0; fi
+            git pull --rebase origin main || { git rebase --abort; exit 1; }
+            sleep 10
+          done
+          exit 1
+
+      - name: Delete temp keychain
+        if: always()
+        run: |
+          if [ -n "$KEYCHAIN_PATH" ]; then security delete-keychain "$KEYCHAIN_PATH" || true; fi

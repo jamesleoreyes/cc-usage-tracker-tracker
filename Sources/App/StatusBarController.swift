@@ -1,4 +1,5 @@
 import AppKit
+import Sparkle
 import SwiftUI
 
 @MainActor
@@ -6,11 +7,17 @@ final class StatusBarController {
     private let statusItem: NSStatusItem
     private let popover: NSPopover
     private let appState: AppState
+    private let updaterController: SPUStandardUpdaterController
     private let onRefresh: () -> Void
     private var aboutWindow: NSWindow?
 
-    init(appState: AppState, onRefresh: @escaping () -> Void) {
+    init(
+        appState: AppState,
+        updaterController: SPUStandardUpdaterController,
+        onRefresh: @escaping () -> Void
+    ) {
         self.appState = appState
+        self.updaterController = updaterController
         self.onRefresh = onRefresh
         statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
         popover = NSPopover()
@@ -72,6 +79,16 @@ final class StatusBarController {
         for item in menu.items {
             item.target = self
         }
+
+        // Sparkle-owned item (target must NOT be self — it validates itself
+        // via canCheckForUpdates, disabling when the updater isn't running).
+        let updateItem = NSMenuItem(
+            title: "Check for Updates…",
+            action: #selector(SPUStandardUpdaterController.checkForUpdates(_:)),
+            keyEquivalent: ""
+        )
+        updateItem.target = updaterController
+        menu.insertItem(updateItem, at: 2)
 
         statusItem.menu = menu
         statusItem.button?.performClick(nil)

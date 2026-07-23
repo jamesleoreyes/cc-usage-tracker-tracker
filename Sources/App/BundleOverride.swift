@@ -16,15 +16,10 @@ extension Foundation.Bundle {
             }
         }
 
-        // 2. Bundle root (where SPM's default accessor looks)
+        // 2. Bundle root — where SPM's default accessor looks; also covers
+        //    `swift run`, where bundleURL is the .build/<config>/ directory.
         let mainPath = Bundle.main.bundleURL.appendingPathComponent(bundleName + ".bundle").path
         if let bundle = Bundle(path: mainPath) {
-            return bundle
-        }
-
-        // 3. Build directory fallback (swift run / development)
-        let buildPath = Bundle.main.bundleURL.appendingPathComponent(bundleName + ".bundle").path
-        if let bundle = Bundle(path: buildPath) {
             return bundle
         }
 

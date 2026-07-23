@@ -1,6 +1,21 @@
 APP_NAME = CCUsageTrackerTracker
 BUNDLE_ID = com.jamesleoreyes.cc-usage-tracker-tracker
-VERSION = 1.2.0
+
+# Stamped into the built bundle (CFBundleShortVersionString AND CFBundleVersion —
+# Sparkle compares the latter). The release workflow passes the tag's version;
+# local dev builds are fine as 0.0.0.
+VERSION ?= 0.0.0
+
+# "-" = ad-hoc signing (local dev). The release workflow passes the real thing:
+#   make dmg SIGN_IDENTITY="Developer ID Application: James Reyes (TEAMID)"
+# Hardened runtime always (notarization requires it; harmless ad-hoc).
+# --timestamp only with a real identity — ad-hoc signatures can't be timestamped.
+SIGN_IDENTITY ?= -
+ifeq ($(SIGN_IDENTITY),-)
+SIGN_FLAGS = -o runtime
+else
+SIGN_FLAGS = -o runtime --timestamp
+endif
 
 BUILD_DIR = .build/release
 APP_BUNDLE = build/$(APP_NAME).app
@@ -9,8 +24,10 @@ DMG_DIR = build/dmg
 
 BINARY = $(BUILD_DIR)/$(APP_NAME)
 RESOURCE_BUNDLE = $(BUILD_DIR)/$(APP_NAME)_$(APP_NAME).bundle
+FRAMEWORKS_DIR = $(APP_BUNDLE)/Contents/Frameworks
+SPARKLE_B = $(FRAMEWORKS_DIR)/Sparkle.framework/Versions/B
 
-.PHONY: all build app dmg clean run release bump
+.PHONY: all build app dmg clean run
 
 all: dmg
 
@@ -23,6 +40,7 @@ app: build
 	@rm -rf $(APP_BUNDLE)
 	@mkdir -p $(APP_BUNDLE)/Contents/MacOS
 	@mkdir -p $(APP_BUNDLE)/Contents/Resources
+	@mkdir -p $(FRAMEWORKS_DIR)
 
 	# Binary
 	cp $(BINARY) $(APP_BUNDLE)/Contents/MacOS/
@@ -33,13 +51,32 @@ app: build
 	# SPM resource bundle — inside Contents/Resources/ for valid bundle structure
 	cp -R $(RESOURCE_BUNDLE) $(APP_BUNDLE)/Contents/Resources/
 
+	# Sparkle.framework — SwiftPM copies it next to the binary; fall back to
+	# digging it out of .build/artifacts if that layout ever changes.
+	@if [ -d "$(BUILD_DIR)/Sparkle.framework" ]; then \
+		cp -R "$(BUILD_DIR)/Sparkle.framework" "$(FRAMEWORKS_DIR)/"; \
+	else \
+		SRC=$$(find .build/artifacts -type d -name "Sparkle.framework" | head -1); \
+		[ -n "$$SRC" ] || { echo "error: Sparkle.framework not found under .build — run swift build first"; exit 1; }; \
+		cp -R "$$SRC" "$(FRAMEWORKS_DIR)/"; \
+	fi
+
 	# PkgInfo
-	echo -n "APPL????" > $(APP_BUNDLE)/Contents/PkgInfo
+	printf 'APPL????' > $(APP_BUNDLE)/Contents/PkgInfo
 
-	# Ad-hoc code sign
-	codesign --force --deep --sign - $(APP_BUNDLE)
+	# Version stamping — the bundle, not the repo file, carries the release version
+	plutil -replace CFBundleShortVersionString -string "$(VERSION)" $(APP_BUNDLE)/Contents/Info.plist
+	plutil -replace CFBundleVersion -string "$(VERSION)" $(APP_BUNDLE)/Contents/Info.plist
 
-	@echo "Built $(APP_BUNDLE)"
+	# Sign inside-out, per Sparkle's non-Xcode docs. Never --deep.
+	codesign -f -s "$(SIGN_IDENTITY)" $(SIGN_FLAGS) "$(SPARKLE_B)/XPCServices/Installer.xpc"
+	codesign -f -s "$(SIGN_IDENTITY)" $(SIGN_FLAGS) --preserve-metadata=entitlements "$(SPARKLE_B)/XPCServices/Downloader.xpc"
+	codesign -f -s "$(SIGN_IDENTITY)" $(SIGN_FLAGS) "$(SPARKLE_B)/Autoupdate"
+	codesign -f -s "$(SIGN_IDENTITY)" $(SIGN_FLAGS) "$(SPARKLE_B)/Updater.app"
+	codesign -f -s "$(SIGN_IDENTITY)" $(SIGN_FLAGS) "$(FRAMEWORKS_DIR)/Sparkle.framework"
+	codesign -f -s "$(SIGN_IDENTITY)" $(SIGN_FLAGS) "$(APP_BUNDLE)"
+
+	@echo "Built $(APP_BUNDLE) (version $(VERSION), identity: $(SIGN_IDENTITY))"
 
 # --- Package into a .dmg ---
 dmg: app
@@ -54,29 +91,16 @@ dmg: app
 		-ov -format UDZO \
 		build/$(DMG_NAME)
 
+	@if [ "$(SIGN_IDENTITY)" != "-" ]; then \
+		codesign -f -s "$(SIGN_IDENTITY)" --timestamp build/$(DMG_NAME); \
+	fi
+
 	@rm -rf $(DMG_DIR)
 	@echo "Created build/$(DMG_NAME)"
 
 # --- Dev: build and run the .app directly ---
 run: app
 	open $(APP_BUNDLE)
-
-# --- Bump version, build DMG, and create GitHub release ---
-# Usage: make release V=1.2.0
-release:
-ifndef V
-	$(error Usage: make release V=1.2.0)
-endif
-	@echo "Bumping version to $(V)..."
-	sed -i '' 's/^VERSION = .*/VERSION = $(V)/' Makefile
-	plutil -replace CFBundleShortVersionString -string "$(V)" Resources/Info.plist
-	$(MAKE) dmg VERSION=$(V)
-	git add Makefile Resources/Info.plist
-	git commit -m "Bump version to $(V)"
-	gh release create v$(V) build/$(APP_NAME)-$(V).dmg \
-		--title "v$(V)" \
-		--generate-notes
-	@echo "Released v$(V)"
 
 # --- Clean ---
 clean:
