@@ -122628,5 +122628,218 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-07-24T02:43:57.916Z"
+  },
+  {
+    "id": "tkjacob/token-bar-windows",
+    "name": "token-bar-windows",
+    "author": "tkjacob",
+    "repoURL": "https://github.com/tkjacob/token-bar-windows",
+    "description": "A lightweight Windows system tray app for monitoring Codex and Claude usage limits.",
+    "category": "Statusline",
+    "platforms": [
+      "windows"
+    ],
+    "language": "C#",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "codex-limits",
+      "claude-limits",
+      "system-tray",
+      "rate-limit-display",
+      "refresh-on-demand",
+      "windows-startup"
+    ],
+    "builtWithClaude": null,
+    "stars": 1,
+    "lastCommitDate": "2026-07-24T05:23:43Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-24T08:29:26.596Z"
+  },
+  {
+    "id": "Allakulyyev/AI-Window-Monitor",
+    "name": "AI-Window-Monitor",
+    "author": "Allakulyyev",
+    "repoURL": "https://github.com/Allakulyyev/AI-Window-Monitor",
+    "description": "Monitor open VS Code windows, Claude Code and Codex activity, usage limits, and subscription status in one compact panel.",
+    "category": "VS Code Extension",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "claude-code-monitoring",
+      "codex-monitoring",
+      "usage-limits",
+      "session-tracking",
+      "account-status",
+      "window-switching",
+      "real-time-status"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-24T07:58:47Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-24T08:29:26.597Z"
+  },
+  {
+    "id": "PeterPanSwift/UsageWidget",
+    "name": "UsageWidget",
+    "author": "PeterPanSwift",
+    "repoURL": "https://github.com/PeterPanSwift/UsageWidget",
+    "description": "浮動在 Mac 桌面的 Claude Code / Codex 用量小工具（SwiftUI，零 token 成本查詢）",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "claude-code-usage",
+      "codex-usage",
+      "real-time-monitoring",
+      "floating-widget",
+      "zero-token-queries",
+      "rate-limit-display",
+      "multi-language"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-24T07:49:02Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-24T08:29:26.597Z"
+  },
+  {
+    "id": "KjunLee/claude-statusline",
+    "name": "claude-statusline",
+    "author": "KjunLee",
+    "repoURL": "https://github.com/KjunLee/claude-statusline",
+    "description": "Claude Code 상태줄 커스터마이즈 — 2줄 레이아웃, 사용량 프로그레스 바, Fable 주간 사용량, 색 프리셋 전환(slc)",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "context-usage-display",
+      "weekly-quotas",
+      "five-hour-limits",
+      "seven-day-limits",
+      "progress-bars",
+      "color-presets",
+      "fable-usage"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-24T08:20:49Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-24T08:29:26.597Z"
+  },
+  {
+    "id": "cnjackven/claude-statusline",
+    "name": "claude-statusline",
+    "author": "cnjackven",
+    "repoURL": "https://github.com/cnjackven/claude-statusline",
+    "description": "A configurable, multilingual Claude Code statusline plugin with a virtual pet",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "context-usage-bar",
+      "cost-tracking",
+      "rate-limit-display",
+      "git-status",
+      "virtual-pet",
+      "multilingual",
+      "session-duration"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-24T08:07:05Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-24T08:29:26.597Z"
+  },
+  {
+    "id": "HCLEMINI/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "HCLEMINI",
+    "repoURL": "https://github.com/HCLEMINI/claude-code-statusline",
+    "description": "Claude Code 中文 LLM 状态栏(GLM/Kimi/DeepSeek 费用+余额+缓存命中) + 飞书通知 hooks(阶段性停止 vs 完全结束)",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "API Key",
+      "Session Key"
+    ],
+    "features": [
+      "cost-tracking",
+      "context-usage",
+      "cache-hit-rate",
+      "multi-provider",
+      "balance-display",
+      "feishu-hooks",
+      "background-task-detection"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-24T05:39:37Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-24T08:29:26.597Z"
+  },
+  {
+    "id": "MagnasiePro/claude-footprint",
+    "name": "claude-footprint",
+    "author": "MagnasiePro",
+    "repoURL": "https://github.com/MagnasiePro/claude-footprint",
+    "description": "Suivi de consommation Claude Code + estimation de l'empreinte environnementale (CO2/énergie/eau) — app menu-bar macOS",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "carbon-footprint-tracking",
+      "token-counting",
+      "energy-estimation",
+      "water-impact",
+      "cost-tracking",
+      "multi-timeframe-analytics",
+      "region-selector",
+      "model-breakdown"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-24T08:19:14Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-24T08:29:26.597Z"
   }
 ]
