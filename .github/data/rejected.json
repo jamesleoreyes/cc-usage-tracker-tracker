@@ -142,5 +142,17 @@
     "reason": "This is a Claude Code plugin for automatically resuming sessions after rate limits reset, not a tracker that displays or measures Claude usage as a feature.",
     "confidence": 0.95,
     "rejectedAt": "2026-07-24T13:47:25.458Z"
+  },
+  {
+    "id": "jeancarlo-javier/daily-status",
+    "reason": "This is a Claude Code workflow statusline that displays session phase (Plan/Exec/Verify/Done) but does not track or measure Claude usage metrics like tokens, cost, or rate limits as a primary feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-24T19:26:47.177Z"
+  },
+  {
+    "id": "taufiqxr/NightOwl",
+    "reason": "NightOwl is a keep-awake utility with server monitoring and a Claude Code session switcher feature, but usage measurement/reporting is not a substantial feature — it only displays open sessions for quick navigation, not track Claude usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-24T19:26:51.210Z"
   }
 ]

@@ -123013,5 +123013,332 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-07-24T13:47:30.716Z"
+  },
+  {
+    "id": "GooddyLife/claude-usage-monitor-plus",
+    "name": "claude-usage-monitor-plus",
+    "author": "GooddyLife",
+    "repoURL": "https://github.com/GooddyLife/claude-usage-monitor-plus",
+    "description": "Windows tray app for Claude usage — rate limits, real token cost (USD/BRL), RTK savings, and per-quota alerts. Open-source fork of usage-monitor-for-claude (MIT).",
+    "category": "Electron/Desktop",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "rate-limit-display",
+      "token-cost-calculation",
+      "rtk-savings",
+      "per-quota-alerts",
+      "multi-account",
+      "theme-support",
+      "session-tracking"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-24T19:22:23Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-24T19:27:02.351Z"
+  },
+  {
+    "id": "jpuritz/Claudar",
+    "name": "Claudar",
+    "author": "jpuritz",
+    "repoURL": "https://github.com/jpuritz/Claudar",
+    "description": "macOS menu bar app and desktop widget for monitoring Claude usage limits",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie",
+      "Session Key",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "menu-bar-icon",
+      "desktop-widget",
+      "usage-window",
+      "service-status",
+      "threshold-alerts",
+      "reset-countdowns",
+      "global-shortcut",
+      "no-prompt-mode"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-24T18:23:33Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-24T19:27:02.351Z"
+  },
+  {
+    "id": "shanmukhkalasamudram/claude-usage-bar",
+    "name": "claude-usage-bar",
+    "author": "shanmukhkalasamudram",
+    "repoURL": "https://github.com/shanmukhkalasamudram/claude-usage-bar",
+    "description": "A native macOS menu bar app that shows your Claude session & weekly limit usage at a glance — live from your own account, no extra login, no token cost.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "session-limits",
+      "weekly-limits",
+      "opus-quota",
+      "real-time-reset",
+      "menubar-color-coded",
+      "keychain-auth",
+      "zero-config",
+      "token-analytics"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-24T16:27:37Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-24T19:27:02.351Z"
+  },
+  {
+    "id": "omarqra/claude-status-chip",
+    "name": "claude-status-chip",
+    "author": "omarqra",
+    "repoURL": "https://github.com/omarqra/claude-status-chip",
+    "description": "VSCode extension: always-visible status chip in the Claude Code panel (model, live git branch, context usage, effort, thinking, cost). Patches the webview and re-applies itself after every auto-update. 330+ installs on Open VSX.",
+    "category": "VS Code Extension",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "JavaScript",
+    "authMethod": [],
+    "features": [
+      "context-usage-display",
+      "cost-tracking",
+      "model-indicator",
+      "effort-level",
+      "thinking-indicator",
+      "git-branch-display",
+      "live-updates",
+      "preferences"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-24T18:00:16Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-24T19:27:02.351Z"
+  },
+  {
+    "id": "polymorphisma/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "polymorphisma",
+    "repoURL": "https://github.com/polymorphisma/claude-code-statusline",
+    "description": "Compact, dependency-free status line for Claude Code — 1M-context-aware usage, plan rate limits with reset countdowns, model + effort. Stdlib Python, no ccusage.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "Python",
+    "authMethod": [],
+    "features": [
+      "context-usage-display",
+      "rate-limit-tracking",
+      "reset-countdowns",
+      "model-info",
+      "effort-level",
+      "zero-dependencies"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-24T17:26:56Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-24T19:27:02.351Z"
+  },
+  {
+    "id": "Eakkapoom-Name/statusline-in-nutshell",
+    "name": "statusline-in-nutshell",
+    "author": "Eakkapoom-Name",
+    "repoURL": "https://github.com/Eakkapoom-Name/statusline-in-nutshell",
+    "description": "Toggleable Claude Code status line: model/context, cost windows, rate limits. Installable as plugin or via npx skills add.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "status-line-display",
+      "cost-tracking",
+      "rate-limit-tracking",
+      "context-usage",
+      "session-windows",
+      "multi-window-cost",
+      "emoji-mode"
+    ],
+    "builtWithClaude": null,
+    "stars": 1,
+    "lastCommitDate": "2026-07-24T15:49:33Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-24T19:27:02.351Z"
+  },
+  {
+    "id": "lars4261working/claude-statusline",
+    "name": "claude-statusline",
+    "author": "lars4261working",
+    "repoURL": "https://github.com/lars4261working/claude-statusline",
+    "description": "Claude Code 自訂狀態列:context 使用率、token 用量、距離自動壓縮、花費與額度",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "context-usage-display",
+      "token-tracking",
+      "cost-estimation",
+      "rate-limit-display",
+      "auto-compact-warning",
+      "session-duration",
+      "progress-visualization"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-24T15:32:54Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-24T19:27:02.351Z"
+  },
+  {
+    "id": "dromsak/claude-statusline",
+    "name": "claude-statusline",
+    "author": "dromsak",
+    "repoURL": "https://github.com/dromsak/claude-statusline",
+    "description": "A pace-aware two-line statusline for Claude Code: model, context, effort, git stats, and 5h/7d quota bars with burn-rate pace. Bash + jq, no Node.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "quota-bars",
+      "burn-rate-pace",
+      "context-window",
+      "5h-7d-windows",
+      "git-stats",
+      "model-info",
+      "zero-subprocesses"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-24T15:30:03Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-24T19:27:02.351Z"
+  },
+  {
+    "id": "Ea12421/ai-quota-app",
+    "name": "ai-quota-app",
+    "author": "Ea12421",
+    "repoURL": "https://github.com/Ea12421/ai-quota-app",
+    "description": "macOS menu bar usage dashboard for Claude Code and Codex",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "HTML",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "claude-code-tracking",
+      "codex-tracking",
+      "quota-monitoring",
+      "burn-down-forecast",
+      "cost-breakdown",
+      "5h-7d-limits",
+      "menu-bar-dashboard"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-24T14:43:57Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-24T19:27:02.351Z"
+  },
+  {
+    "id": "kongvictor/cliproxy-usage-statusline",
+    "name": "cliproxy-usage-statusline",
+    "author": "kongvictor",
+    "repoURL": "https://github.com/kongvictor/cliproxy-usage-statusline",
+    "description": "customization of claude-hud",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "OAuth Token",
+      "API Key"
+    ],
+    "features": [
+      "multi-provider",
+      "usage-display",
+      "context-bar",
+      "token-limits",
+      "adaptive-ui",
+      "budget-alerts"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-24T17:55:59Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-24T19:27:02.351Z"
+  },
+  {
+    "id": "Vek-tech-pro/claude-token-tracker",
+    "name": "claude-token-tracker",
+    "author": "Vek-tech-pro",
+    "repoURL": "https://github.com/Vek-tech-pro/claude-token-tracker",
+    "description": "This is a digital visual tracker for claude token usage",
+    "category": "Web Dashboard",
+    "platforms": [
+      "web"
+    ],
+    "language": "TypeScript",
+    "authMethod": [],
+    "features": [
+      "token-tracking",
+      "visual-display"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-24T15:20:30Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-24T19:27:02.351Z"
   }
 ]
