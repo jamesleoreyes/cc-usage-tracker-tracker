@@ -122447,5 +122447,185 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-07-23T19:20:26.242Z"
+  },
+  {
+    "id": "bestler/claude-menubar",
+    "name": "claude-menubar",
+    "author": "bestler",
+    "repoURL": "https://github.com/bestler/claude-menubar",
+    "description": "Lightweight macOS menu-bar monitor for Claude usage (via ccusage)",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "session-cost",
+      "token-tracker",
+      "burn-rate",
+      "time-to-reset",
+      "live-updates",
+      "menu-bar-integration",
+      "multi-plan-support"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-23T22:30:26Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-24T02:43:57.916Z"
+  },
+  {
+    "id": "zeuzmakessoftware/tinys",
+    "name": "tinys",
+    "author": "zeuzmakessoftware",
+    "repoURL": "https://github.com/zeuzmakessoftware/tinys",
+    "description": "Tibo Is Not Your Savior — macOS menu bar tracker for Codex/ChatGPT Pro usage, reset credits, and Claude Code activity",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "codex-usage-tracking",
+      "claude-code-activity",
+      "burn-rate-alerts",
+      "reset-credits",
+      "multi-provider-view"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-24T02:27:34Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-24T02:43:57.916Z"
+  },
+  {
+    "id": "mohitkale/ai-tools-usage-tracker",
+    "name": "ai-tools-usage-tracker",
+    "author": "mohitkale",
+    "repoURL": "https://github.com/mohitkale/ai-tools-usage-tracker",
+    "description": "Local-first desktop widget for tracking usage, quotas and reset times across Cursor, Codex, Claude Code, Copilot CLI, Devin and Antigravity. No telemetry.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Browser Cookie Auto-detect",
+      "JSONL Log Parsing",
+      "API Key"
+    ],
+    "features": [
+      "multi-provider-tracking",
+      "claude-code-support",
+      "usage-quotas",
+      "reset-timers",
+      "local-first",
+      "privacy-focused",
+      "compact-mode",
+      "offline-demo"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-23T21:14:55Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-24T02:43:57.916Z"
+  },
+  {
+    "id": "Danvegamo/claude-code-kit",
+    "name": "claude-code-kit",
+    "author": "Danvegamo",
+    "repoURL": "https://github.com/Danvegamo/claude-code-kit",
+    "description": "Config portable de Claude Code: skill /conti (handoff entre chats) + statusline exhaustiva + integración con caveman. Sin infra privada.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "context-handoff",
+      "usage-statusline",
+      "token-tracking",
+      "cache-monitoring",
+      "cost-estimation",
+      "compression-integration"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-23T20:19:00Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-24T02:43:57.916Z"
+  },
+  {
+    "id": "yash1195/ai-meter",
+    "name": "ai-meter",
+    "author": "yash1195",
+    "repoURL": "https://github.com/yash1195/ai-meter",
+    "description": "Local macOS menu-bar dashboard for Codex and Claude Code usage, energy, and water estimates.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "codex-claude-tracking",
+      "menu-bar-dashboard",
+      "token-usage",
+      "energy-estimates",
+      "water-estimates",
+      "multi-period-charts",
+      "provider-breakdown"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-24T01:54:46Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-24T02:43:57.916Z"
+  },
+  {
+    "id": "jacklindun/claude_statusline",
+    "name": "claude_statusline",
+    "author": "jacklindun",
+    "repoURL": "https://github.com/jacklindun/claude_statusline",
+    "description": "一个用于显示claude状态的小工具",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "real-time-stats",
+      "token-tracking",
+      "cost-tracking",
+      "cache-hit-rate",
+      "quota-monitoring",
+      "multi-model-support",
+      "emoji-indicators"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-24T02:27:16Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-24T02:43:57.916Z"
   }
 ]
