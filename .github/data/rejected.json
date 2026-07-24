@@ -136,5 +136,11 @@
     "reason": "This is a supervisor/launcher app for Even Realities glasses with Claude Code, not a usage tracker—it controls the server on/off and manages pairing, not measures or reports Claude usage, tokens, or cost.",
     "confidence": 0.95,
     "rejectedAt": "2026-07-23T19:20:26.242Z"
+  },
+  {
+    "id": "RootInit/Claudimator",
+    "reason": "This is a Claude Code plugin for automatically resuming sessions after rate limits reset, not a tracker that displays or measures Claude usage as a feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-24T13:47:25.458Z"
   }
 ]

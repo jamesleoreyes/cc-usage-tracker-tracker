@@ -122854,5 +122854,162 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-07-24T08:29:26.597Z"
+  },
+  {
+    "id": "baoweiwei12/cc-quota-widget",
+    "name": "cc-quota-widget",
+    "author": "baoweiwei12",
+    "repoURL": "https://github.com/baoweiwei12/cc-quota-widget",
+    "description": "Floating desktop widget showing live Claude Code usage limits (5-hour + weekly windows)",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows",
+      "macos"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "OAuth Token",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "live-usage-limits",
+      "5-hour-window",
+      "weekly-quota",
+      "gauge-layouts",
+      "local-cost-stats",
+      "theme-switcher",
+      "tray-integration",
+      "token-management"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-24T12:10:32Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-24T13:47:30.716Z"
+  },
+  {
+    "id": "aek676/claude-statusline",
+    "name": "claude-statusline",
+    "author": "aek676",
+    "repoURL": "https://github.com/aek676/claude-statusline",
+    "description": "Custom Claude Code status line: animated mood robot + model, effort, context and session usage",
+    "category": "Claude Code Plugin",
+    "platforms": [],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "live-model-display",
+      "effort-level-tracking",
+      "context-usage-bar",
+      "session-rate-limits",
+      "animated-mood-robot",
+      "nerd-font-glyphs"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-24T12:07:00Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-24T13:47:30.716Z"
+  },
+  {
+    "id": "drpwchen/claude-pacer",
+    "name": "claude-pacer",
+    "author": "drpwchen",
+    "repoURL": "https://github.com/drpwchen/claude-pacer",
+    "description": "Statusline + budget guard + pacing verdict for Claude Code usage limits — the statusline is for you, the guard is for Claude, the verdict is for your agents",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "usage-window-tracking",
+      "budget-guard",
+      "context-window-monitor",
+      "pacing-verdict",
+      "rate-limit-alerts",
+      "multi-session-naming",
+      "responsive-display"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-24T11:44:30Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-24T13:47:30.716Z"
+  },
+  {
+    "id": "pratikaman/claude-usage-statusline",
+    "name": "claude-usage-statusline",
+    "author": "pratikaman",
+    "repoURL": "https://github.com/pratikaman/claude-usage-statusline",
+    "description": "Claude rate-limit usage (5-hour session + weekly windows) in the Claude Code status line",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "OAuth Token",
+      "Session Cookie"
+    ],
+    "features": [
+      "rate-limit-display",
+      "5h-session-window",
+      "weekly-window",
+      "model-scoped-limits",
+      "color-coded-segments",
+      "usage-bar",
+      "api-fallback",
+      "background-refresh"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-24T09:45:03Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-24T13:47:30.716Z"
+  },
+  {
+    "id": "ogprotege/vigil",
+    "name": "vigil",
+    "author": "ogprotege",
+    "repoURL": "https://github.com/ogprotege/vigil",
+    "description": "Reliable AI usage monitor — Claude & ChatGPT/Codex limits on your iPhone, Mac menu bar, and terminal. On-device only, no servers.",
+    "category": "Mobile",
+    "platforms": [
+      "ios",
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "Session Key",
+      "API Key",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "claude-tracking",
+      "chatgpt-tracking",
+      "multi-provider",
+      "model-specific-caps",
+      "widget-support",
+      "keychain-storage",
+      "usage-alerts",
+      "rate-limit-display"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-24T13:16:18Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-24T13:47:30.716Z"
   }
 ]
