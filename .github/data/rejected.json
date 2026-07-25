@@ -160,5 +160,17 @@
     "reason": "This is a health/productivity reminder add-in for Claude Code that tracks sitting time, not Claude usage (tokens, costs, quotas, or sessions); it does not display or report Claude consumption metrics.",
     "confidence": 0.95,
     "rejectedAt": "2026-07-25T02:42:34.627Z"
+  },
+  {
+    "id": "xyzs996/free-llm-api",
+    "reason": "This is a free LLM API aggregator and status page that catalogs providers and their rate limits, not a Claude usage tracker—it monitors provider availability and free tier specs, not Claude token/cost consumption.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-25T13:28:17.893Z"
+  },
+  {
+    "id": "cloideacorp/whip-for-claude",
+    "reason": "This is a productivity tool for interrupting slow CLI processes with humor, not a usage tracker for Claude or any other service.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-25T13:28:19.965Z"
   }
 ]

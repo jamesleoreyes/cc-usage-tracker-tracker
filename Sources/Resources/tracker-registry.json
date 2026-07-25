@@ -123966,5 +123966,256 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-07-25T08:08:16.546Z"
+  },
+  {
+    "id": "katyani-clave-ai/ai-usage-bar",
+    "name": "ai-usage-bar",
+    "author": "katyani-clave-ai",
+    "repoURL": "https://github.com/katyani-clave-ai/ai-usage-bar",
+    "description": "macOS menu-bar indicator for Codex + Claude usage limits",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "codex-tracking",
+      "claude-tracking",
+      "usage-alerts",
+      "rate-limit-monitoring",
+      "menu-bar-display",
+      "local-only",
+      "threshold-notifications"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-25T13:22:01Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-25T13:28:29.168Z"
+  },
+  {
+    "id": "ngonhattri/cc-usage-dashboard",
+    "name": "cc-usage-dashboard",
+    "author": "ngonhattri",
+    "repoURL": "https://github.com/ngonhattri/cc-usage-dashboard",
+    "description": "Local, private dashboard to monitor Claude Code usage — tokens, cost, productivity, attribution and live 5-hour/weekly limits (JSONL + OpenTelemetry).",
+    "category": "Web Dashboard",
+    "platforms": [
+      "web"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "OpenTelemetry"
+    ],
+    "features": [
+      "token-tracking",
+      "cost-attribution",
+      "plan-utilization",
+      "productivity-metrics",
+      "real-time-websocket",
+      "csv-json-export",
+      "activity-calendar",
+      "multi-repo-breakdown"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-25T09:28:22Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-25T13:28:29.168Z"
+  },
+  {
+    "id": "neilmanfredit/GenerativeAI-usage-Counter",
+    "name": "GenerativeAI-usage-Counter",
+    "author": "neilmanfredit",
+    "repoURL": "https://github.com/neilmanfredit/GenerativeAI-usage-Counter",
+    "description": "Lightweight, unified, platform-agnostic usage and cost tracking statusline engine for Claude Code and Gemini CLI, featuring board-ready executive cognitive allocation dashboards.",
+    "category": "Statusline",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "claude-code-integration",
+      "gemini-cli-integration",
+      "unified-tracking",
+      "context-window-display",
+      "rate-limit-monitoring",
+      "cost-tracking",
+      "executive-dashboard",
+      "git-status-overlay"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-25T09:50:02Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-25T13:28:29.168Z"
+  },
+  {
+    "id": "GridFlowTech/claude-statusline",
+    "name": "claude-statusline",
+    "author": "GridFlowTech",
+    "repoURL": "https://github.com/GridFlowTech/claude-statusline",
+    "description": "Dependency-free Node status line for Claude Code. Context runway, rate-limit pace arrows with projected exhaustion, session-cumulative tokens read from the transcript, a persistent day/week/month cost ledger, and git state from a single subprocess. Ships a subagent panel renderer too. Windows, macOS, Linux.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "OpenTelemetry"
+    ],
+    "features": [
+      "context-runway",
+      "rate-limit-pace",
+      "cost-ledger",
+      "multi-window",
+      "session-cumulative-tokens",
+      "git-state",
+      "subagent-panel"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-25T13:21:12Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-25T13:28:29.168Z"
+  },
+  {
+    "id": "Isangi74/statuslineclaude",
+    "name": "statuslineclaude",
+    "author": "Isangi74",
+    "repoURL": "https://github.com/Isangi74/statuslineclaude",
+    "description": "Custom statusLine command for Claude Code",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "OpenTelemetry"
+    ],
+    "features": [
+      "context-usage",
+      "token-counts",
+      "session-cost",
+      "rate-limit-windows",
+      "responsive-layout",
+      "color-coded-alerts"
+    ],
+    "builtWithClaude": null,
+    "stars": 1,
+    "lastCommitDate": "2026-07-25T09:33:01Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-25T13:28:29.168Z"
+  },
+  {
+    "id": "jschoes1994/claude-task-monitor",
+    "name": "claude-task-monitor",
+    "author": "jschoes1994",
+    "repoURL": "https://github.com/jschoes1994/claude-task-monitor",
+    "description": "Menu-bar app showing live status of your Claude Code & Cowork sessions — working / needs input / done. macOS + Windows.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos",
+      "windows"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Traffic Capture"
+    ],
+    "features": [
+      "session-status-live",
+      "working-needs-input-done",
+      "background-agents",
+      "claude-code-monitoring",
+      "cowork-sessions",
+      "click-to-focus",
+      "menu-bar-app",
+      "floating-panel"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-25T11:38:32Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-25T13:28:29.168Z"
+  },
+  {
+    "id": "davidbudac/session-stats-menubar",
+    "name": "session-stats-menubar",
+    "author": "davidbudac",
+    "repoURL": "https://github.com/davidbudac/session-stats-menubar",
+    "description": "macOS menu bar app: today's Claude Code token usage, per model. Companion to the session-stats skill.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "menu-bar-display",
+      "token-usage-tracking",
+      "cost-breakdown",
+      "per-model-stats",
+      "cache-hit-rate",
+      "subagent-tracking",
+      "multi-session-view"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-25T10:40:13Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-25T13:28:29.168Z"
+  },
+  {
+    "id": "castdrian/codemon",
+    "name": "codemon",
+    "author": "castdrian",
+    "repoURL": "https://github.com/castdrian/codemon",
+    "description": "Menu bar app that tracks your Claude.ai usage",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "live-usage-display",
+      "session-tracking",
+      "weekly-usage",
+      "credit-usage",
+      "menu-bar-widget",
+      "floating-widget",
+      "global-shortcut",
+      "auto-updates"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-25T13:20:27Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-25T13:28:29.168Z"
   }
 ]
