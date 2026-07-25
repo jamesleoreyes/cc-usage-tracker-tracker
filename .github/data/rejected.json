@@ -154,5 +154,11 @@
     "reason": "NightOwl is a keep-awake utility with server monitoring and a Claude Code session switcher feature, but usage measurement/reporting is not a substantial feature — it only displays open sessions for quick navigation, not track Claude usage metrics.",
     "confidence": 0.95,
     "rejectedAt": "2026-07-24T19:26:51.210Z"
+  },
+  {
+    "id": "inesaranab/claude-code-move-reminder",
+    "reason": "This is a health/productivity reminder add-in for Claude Code that tracks sitting time, not Claude usage (tokens, costs, quotas, or sessions); it does not display or report Claude consumption metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-25T02:42:34.627Z"
   }
 ]
