@@ -123707,5 +123707,264 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-07-25T02:42:40.734Z"
+  },
+  {
+    "id": "chaoyupeng/claude-usage",
+    "name": "claude-usage",
+    "author": "chaoyupeng",
+    "repoURL": "https://github.com/chaoyupeng/claude-usage",
+    "description": "A macOS menu bar app that shows your Claude usage at a glance",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "rate-limit-display",
+      "token-stats",
+      "usage-history-chart",
+      "per-model-breakdown",
+      "cost-estimates",
+      "menu-bar-icon",
+      "offline-token-parsing"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-07-25T08:01:15Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-25T08:08:16.545Z"
+  },
+  {
+    "id": "davidshi96/claude-usage-bar",
+    "name": "claude-usage-bar",
+    "author": "davidshi96",
+    "repoURL": "https://github.com/davidshi96/claude-usage-bar",
+    "description": "macOS menu bar app for Claude Code usage, 5h window keep-alive, and one-click project launches",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "usage-display",
+      "keep-alive-window",
+      "5h-subscription-reset",
+      "project-launcher",
+      "session-percentage",
+      "weekly-window-tracking"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-25T03:02:09Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-25T08:08:16.545Z"
+  },
+  {
+    "id": "phucthinhvn122/local-token-monitor",
+    "name": "local-token-monitor",
+    "author": "phucthinhvn122",
+    "repoURL": "https://github.com/phucthinhvn122/local-token-monitor",
+    "description": "Privacy-first local token usage dashboard for Codex and Claude Code",
+    "category": "Web Dashboard",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "API Key"
+    ],
+    "features": [
+      "multi-provider",
+      "token-breakdown",
+      "session-tracking",
+      "privacy-first",
+      "demo-mode",
+      "project-linking",
+      "usage-export",
+      "rate-limits"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-25T05:42:41Z",
+    "openIssues": 8,
+    "archived": false,
+    "lastFetched": "2026-07-25T08:08:16.545Z"
+  },
+  {
+    "id": "hdavid/MyWidgets",
+    "name": "MyWidgets",
+    "author": "hdavid",
+    "repoURL": "https://github.com/hdavid/MyWidgets",
+    "description": "macOS desktop widgets: configurable Grafana metrics, Windguru forecast, webcams, Claude Code usage",
+    "category": "macOS Native",
+    "platforms": [
+      "macos",
+      "ios"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "claude-code-usage",
+      "keychain-integration",
+      "hourly-quota",
+      "weekly-quota",
+      "fable-quota"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-25T07:06:50Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-25T08:08:16.546Z"
+  },
+  {
+    "id": "kefimoto/claude-awesome-status",
+    "name": "claude-awesome-status",
+    "author": "kefimoto",
+    "repoURL": "https://github.com/kefimoto/claude-awesome-status",
+    "description": "A boxed, live-updating statusline for Claude Code",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Traffic Capture"
+    ],
+    "features": [
+      "usage-badges",
+      "rate-limit-display",
+      "context-tracking",
+      "model-info",
+      "system-load",
+      "git-integration",
+      "boxed-statusline",
+      "configurable"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-25T07:55:36Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-25T08:08:16.546Z"
+  },
+  {
+    "id": "KonstantinRoehrl/cc-statusline",
+    "name": "cc-statusline",
+    "author": "KonstantinRoehrl",
+    "repoURL": "https://github.com/KonstantinRoehrl/cc-statusline",
+    "description": "A 4-line ANSI dashboard statusline for Claude Code, distributed as an auto-updating plugin.",
+    "category": "Claude Code Plugin",
+    "platforms": [],
+    "language": "HTML",
+    "authMethod": [],
+    "features": [
+      "context-window-meter",
+      "rate-limit-meter",
+      "cache-hit-rate",
+      "session-diff",
+      "multi-meter-dashboard",
+      "gradient-health-colors"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-25T07:41:52Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-25T08:08:16.546Z"
+  },
+  {
+    "id": "Leehyunbin0131/claude-statusline",
+    "name": "claude-statusline",
+    "author": "Leehyunbin0131",
+    "repoURL": "https://github.com/Leehyunbin0131/claude-statusline",
+    "description": "A minimal two-line status line for Claude Code — no emoji, one accent colour",
+    "category": "Claude Code Plugin",
+    "platforms": [],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "context-usage-display",
+      "rate-limit-tracking",
+      "minimal-statusline",
+      "token-counting"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-25T03:49:54Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-25T08:08:16.546Z"
+  },
+  {
+    "id": "kerryhatcher/ferrisbar",
+    "name": "ferrisbar",
+    "author": "kerryhatcher",
+    "repoURL": "https://github.com/kerryhatcher/ferrisbar",
+    "description": "A Claude Code statusline renderer in Rust — model, active task, directory, and a context gauge that warns before auto-compaction",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Rust",
+    "authMethod": [],
+    "features": [
+      "context-gauge",
+      "auto-compaction-warning",
+      "current-task-display",
+      "multi-model-support",
+      "escalating-urgency"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-25T05:02:38Z",
+    "openIssues": 3,
+    "archived": false,
+    "lastFetched": "2026-07-25T08:08:16.546Z"
+  },
+  {
+    "id": "varuntamada118/ai-usage-tracker-extension",
+    "name": "ai-usage-tracker-extension",
+    "author": "varuntamada118",
+    "repoURL": "https://github.com/varuntamada118/ai-usage-tracker-extension",
+    "description": "AI Usage & Token Tracker is a Chrome/Brave browser extension that sits in your toolbar and shows you a real-time circular gauge of how much of your AI quota you've used — for Claude, ChatGPT, and Gemini — all in a sleek, dark, minimalist popup",
+    "category": "Browser Extension",
+    "platforms": [
+      "chromium"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Browser Cookie Auto-detect",
+      "Traffic Capture"
+    ],
+    "features": [
+      "real-time-usage",
+      "multi-provider",
+      "circular-gauge",
+      "quota-reset-countdown",
+      "dark-theme",
+      "chrome-brave"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-25T05:11:11Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-25T08:08:16.546Z"
   }
 ]
