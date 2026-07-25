@@ -124220,5 +124220,220 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-07-25T13:28:29.168Z"
+  },
+  {
+    "id": "tedwardd/tmux-claude-monitor",
+    "name": "tmux-claude-monitor",
+    "author": "tedwardd",
+    "repoURL": "https://github.com/tedwardd/tmux-claude-monitor",
+    "description": "Claude Usage Monitor for tmux",
+    "category": "Tmux Plugin",
+    "platforms": [
+      "linux"
+    ],
+    "language": "Go",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "session-utilization",
+      "weekly-utilization",
+      "overage-tracking",
+      "systemd-daemon",
+      "sleep-detection",
+      "cache-local"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-25T15:17:53Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-25T19:08:46.877Z"
+  },
+  {
+    "id": "ai798-Lab/MacPulse",
+    "name": "MacPulse",
+    "author": "ai798-Lab",
+    "repoURL": "https://github.com/ai798-Lab/MacPulse",
+    "description": "Native macOS menu bar monitor for system health, Claude Code & Codex usage, cost estimates, quotas, and local-first tools.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "OAuth Token"
+    ],
+    "features": [
+      "claude-usage-tracking",
+      "quota-monitoring",
+      "cost-estimates",
+      "token-composition",
+      "system-health-monitor",
+      "menu-bar-widget",
+      "local-first-privacy",
+      "trend-analytics"
+    ],
+    "builtWithClaude": null,
+    "stars": 6,
+    "lastCommitDate": "2026-07-25T13:45:52Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-25T19:08:46.877Z"
+  },
+  {
+    "id": "andoodle/yet-another-usage-tracker",
+    "name": "yet-another-usage-tracker",
+    "author": "andoodle",
+    "repoURL": "https://github.com/andoodle/yet-another-usage-tracker",
+    "description": "Yet Another Usage Tracker — local, zero-dependency weekly Claude Code usage pacing dashboard built from your own transcripts.",
+    "category": "Web Dashboard",
+    "platforms": [
+      "macos",
+      "web"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "weekly-usage-pacing",
+      "claude-code-transcripts",
+      "local-no-api",
+      "fable-cap-metering",
+      "burn-rate-alerts",
+      "calibration-from-usage",
+      "typescript"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-25T16:49:46Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-25T19:08:46.877Z"
+  },
+  {
+    "id": "anthonybo/headroom",
+    "name": "headroom",
+    "author": "anthonybo",
+    "repoURL": "https://github.com/anthonybo/headroom",
+    "description": "A single-binary statusline for Claude Code: model, effort, context, spend and rate-limit headroom",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "rate-limit-bars",
+      "context-meter",
+      "daily-spend",
+      "effort-tracking",
+      "model-aware",
+      "claude-code-integration"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-25T17:02:35Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-25T19:08:46.877Z"
+  },
+  {
+    "id": "nandorszentpeteri/claude-statusline",
+    "name": "claude-statusline",
+    "author": "nandorszentpeteri",
+    "repoURL": "https://github.com/nandorszentpeteri/claude-statusline",
+    "description": "Custom status line for Claude Code",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "context-usage-display",
+      "cost-tracking",
+      "rate-limit-display",
+      "color-coded-progress",
+      "git-integration",
+      "working-directory"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-25T14:59:59Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-25T19:08:46.877Z"
+  },
+  {
+    "id": "alp82/claude-statusline",
+    "name": "claude-statusline",
+    "author": "alp82",
+    "repoURL": "https://github.com/alp82/claude-statusline",
+    "description": "One bash script for the Claude Code statusline: dir, branch, model, context window, and 5h / 7d / Fable rate-limit bars.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "Traffic Capture"
+    ],
+    "features": [
+      "rate-limit-bars",
+      "context-window",
+      "model-display",
+      "5h-7d-windows",
+      "fable-quota",
+      "git-integration"
+    ],
+    "builtWithClaude": true,
+    "stars": 2,
+    "lastCommitDate": "2026-07-25T14:55:18Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-25T19:08:46.877Z"
+  },
+  {
+    "id": "svenedik/cli-usage-bar",
+    "name": "cli-usage-bar",
+    "author": "svenedik",
+    "repoURL": "https://github.com/svenedik/cli-usage-bar",
+    "description": "macOS menu bar app for live Claude Code + Codex CLI usage (reads local transcripts, no login)",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "OAuth Token",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "live-usage-display",
+      "5h-and-weekly-windows",
+      "smart-alerts",
+      "multi-provider",
+      "source-transparency",
+      "api-first-claude",
+      "local-fallback"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-25T18:50:14Z",
+    "openIssues": 1,
+    "archived": false,
+    "lastFetched": "2026-07-25T19:08:46.877Z"
   }
 ]

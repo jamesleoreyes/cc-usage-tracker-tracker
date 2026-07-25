@@ -172,5 +172,17 @@
     "reason": "This is a productivity tool for interrupting slow CLI processes with humor, not a usage tracker for Claude or any other service.",
     "confidence": 0.95,
     "rejectedAt": "2026-07-25T13:28:19.965Z"
+  },
+  {
+    "id": "sxl1993/SpeakCC",
+    "reason": "SpeakCC is a voice input interface for Claude Code, not a usage tracker; it measures neither tokens, cost, rate limits, nor any Claude usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-25T19:08:44.898Z"
+  },
+  {
+    "id": "devy294/claude-plugin-statusline",
+    "reason": "Title suggests a statusline plugin for Claude, but without a README or commit evidence, the purpose is unclear; likely a placeholder or stub project with insufficient evidence that usage tracking is a substantial feature.",
+    "confidence": 0.7,
+    "rejectedAt": "2026-07-25T19:08:46.877Z"
   }
 ]
