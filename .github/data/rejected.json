@@ -184,5 +184,23 @@
     "reason": "Title suggests a statusline plugin for Claude, but without a README or commit evidence, the purpose is unclear; likely a placeholder or stub project with insufficient evidence that usage tracking is a substantial feature.",
     "confidence": 0.7,
     "rejectedAt": "2026-07-25T19:08:46.877Z"
+  },
+  {
+    "id": "jeancarlo-javier/claude-status-bar",
+    "reason": "This is a Claude Code status line that displays workflow phase and session metadata, but does not track or measure Claude usage (tokens, cost, rate limits) as a primary feature—it only incidentally shows session cost as one optional segment among many, and lacks a usage-measurement or reporting capability.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-26T02:50:49.451Z"
+  },
+  {
+    "id": "butvinm/cc-grammar-coach",
+    "reason": "This is an English learning tool with grammar feedback in Claude Code's statusline, not a Claude usage tracker; it does not measure or report Claude API usage, tokens, costs, or quotas.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-07-26T02:50:51.848Z"
+  },
+  {
+    "id": "eibrahim/agenttower",
+    "reason": "agenttower is a session monitor for local AI coding agents (Claude Code, Codex, Hermes) that aggregates their state in a menu bar — it tracks agent status and user attention needs, not Claude API usage metrics like tokens or costs.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-07-26T02:51:09.091Z"
   }
 ]

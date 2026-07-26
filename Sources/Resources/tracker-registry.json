@@ -124438,5 +124438,232 @@
     "openIssues": 1,
     "archived": false,
     "lastFetched": "2026-07-25T19:08:46.877Z"
+  },
+  {
+    "id": "abhaymettu/claude-usage-swiftbar",
+    "name": "claude-usage-swiftbar",
+    "author": "abhaymettu",
+    "repoURL": "https://github.com/abhaymettu/claude-usage-swiftbar",
+    "description": "Claude Code session and weekly usage limits in the macOS menu bar, via SwiftBar",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "session-limits",
+      "weekly-limits",
+      "live-countdown",
+      "per-model-windows",
+      "extra-credits",
+      "menu-bar-display"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-26T01:05:17Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-26T02:51:11.677Z"
+  },
+  {
+    "id": "T0vich/pulse",
+    "name": "pulse",
+    "author": "T0vich",
+    "repoURL": "https://github.com/T0vich/pulse",
+    "description": "Self-hosted, zero-token monitor for Claude Code usage and limits — Telegram Mini App, PWA and bot that only read local transcripts",
+    "category": "Web Dashboard",
+    "platforms": [
+      "web",
+      "ios"
+    ],
+    "language": "Unknown",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "zero-token-monitoring",
+      "telegram-mini-app",
+      "pwa",
+      "self-hosted",
+      "limit-alerts",
+      "session-tracking",
+      "token-usage",
+      "passive-collection"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-25T22:08:06Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-26T02:51:11.677Z"
+  },
+  {
+    "id": "b2bvic/agent-monitor",
+    "name": "agent-monitor",
+    "author": "b2bvic",
+    "repoURL": "https://github.com/b2bvic/agent-monitor",
+    "description": "Track running Claude Code processes and session token usage. Markdown dashboard output.",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "process-tracking",
+      "token-usage",
+      "markdown-dashboard",
+      "session-counts"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-25T20:37:58Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-26T02:51:11.677Z"
+  },
+  {
+    "id": "jagp/claude-dashboard",
+    "name": "claude-dashboard",
+    "author": "jagp",
+    "repoURL": "https://github.com/jagp/claude-dashboard",
+    "description": "Turns Claude Code's statusline from a reporting tool into a dashboard capable of taking action",
+    "category": "Web Dashboard",
+    "platforms": [
+      "web"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "usage-dashboard",
+      "actionable-insights",
+      "real-time-monitoring"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-26T00:06:03Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-26T02:51:11.677Z"
+  },
+  {
+    "id": "juarezvg/statusline-up-future",
+    "name": "statusline-up-future",
+    "author": "juarezvg",
+    "repoURL": "https://github.com/juarezvg/statusline-up-future",
+    "description": "Painel de status em duas linhas para o Claude Code: modelo, esforço, branch git, barra de contexto, custo e limites de uso. Node.js puro, multiplataforma, sem dependências.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "JavaScript",
+    "authMethod": [],
+    "features": [
+      "context-window-display",
+      "cost-tracking",
+      "rate-limit-display",
+      "model-info",
+      "effort-level",
+      "session-tracking"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-25T21:13:07Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-26T02:51:11.677Z"
+  },
+  {
+    "id": "PHPCraftdream/cc-arch-hands",
+    "name": "cc-arch-hands",
+    "author": "PHPCraftdream",
+    "repoURL": "https://github.com/PHPCraftdream/cc-arch-hands",
+    "description": "Installer for Claude Code per-model commands, agents and skills",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Traffic Capture"
+    ],
+    "features": [
+      "usage-percentage-display",
+      "context-quota-tracking",
+      "token-counting",
+      "cache-aware-accounting",
+      "statusline-rendering",
+      "effort-codes",
+      "5h-weekly-quotas",
+      "per-turn-stamping"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-07-25T20:39:25Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-26T02:51:11.677Z"
+  },
+  {
+    "id": "cebarks/paddington",
+    "name": "paddington",
+    "author": "cebarks",
+    "repoURL": "https://github.com/cebarks/paddington",
+    "description": "A fast, minimal status line renderer for Claude Code, written in Rust.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Rust",
+    "authMethod": [],
+    "features": [
+      "context-window-usage",
+      "session-cost",
+      "duration-tracking",
+      "git-integration",
+      "multi-line-status"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-25T23:34:36Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-26T02:51:11.677Z"
+  },
+  {
+    "id": "jhaanurag/waybar-codexbar",
+    "name": "waybar-codexbar",
+    "author": "jhaanurag",
+    "repoURL": "https://github.com/jhaanurag/waybar-codexbar",
+    "description": "Waybar custom module for CodexBar (Claude/Codex/Cursor usage) on Hyprland/Linux",
+    "category": "Waybar Module",
+    "platforms": [
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "claude-usage",
+      "quota-display",
+      "multi-provider",
+      "session-percentage",
+      "tooltip-summary"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-25T20:47:57Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-26T02:51:11.677Z"
   }
 ]
