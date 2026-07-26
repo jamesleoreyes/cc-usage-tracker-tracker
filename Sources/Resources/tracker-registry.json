@@ -124669,5 +124669,240 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-07-26T02:51:11.677Z"
+  },
+  {
+    "id": "lminhao575-debug/esp32-claude-usage",
+    "name": "esp32-claude-usage",
+    "author": "lminhao575-debug",
+    "repoURL": "https://github.com/lminhao575-debug/esp32-claude-usage",
+    "description": "Claude Code usage monitor on ESP32-S3 1.47\" LCD — Mac server reads Keychain OAuth token, ESP32 draws usage bars",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "macos"
+    ],
+    "language": "C++",
+    "authMethod": [
+      "Session Key",
+      "Session Key"
+    ],
+    "features": [
+      "real-time-usage-bars",
+      "session-window-quota",
+      "weekly-quota",
+      "model-scoped-limits",
+      "pac-man-animation",
+      "esp32-display"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-07-26T04:14:51Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-26T08:28:01.352Z"
+  },
+  {
+    "id": "FACEDAWG-INC/token-widget",
+    "name": "token-widget",
+    "author": "FACEDAWG-INC",
+    "repoURL": "https://github.com/FACEDAWG-INC/token-widget",
+    "description": "Floating desktop widget estimating Claude Code token usage on Windows.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "PowerShell",
+    "authMethod": [],
+    "features": [
+      "token-usage-estimates",
+      "floating-widget",
+      "claude-code-focused"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-26T07:50:03Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-26T08:28:01.352Z"
+  },
+  {
+    "id": "ex3lite/claude-configurator",
+    "name": "claude-configurator",
+    "author": "ex3lite",
+    "repoURL": "https://github.com/ex3lite/claude-configurator",
+    "description": "Local control center for Claude Code: model routing, scoped settings and an allowance-aware statusline.",
+    "category": "Terminal UI",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Go",
+    "authMethod": [],
+    "features": [
+      "model-routing",
+      "scoped-settings",
+      "allowance-aware-statusline",
+      "context-display",
+      "rate-limit-tracking"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-26T08:23:23Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-26T08:28:01.352Z"
+  },
+  {
+    "id": "chyiiiiiiiiiiii/agent-quota",
+    "name": "agent-quota",
+    "author": "chyiiiiiiiiiiii",
+    "repoURL": "https://github.com/chyiiiiiiiiiiii/agent-quota",
+    "description": "See how much Claude Code / Codex subscription quota you have left, in your status bar",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Traffic Capture",
+      "OpenTelemetry"
+    ],
+    "features": [
+      "quota-display",
+      "rate-limit-alerts",
+      "weekly-reset-tracking",
+      "context-window-status",
+      "session-cost-tracking",
+      "dashboard",
+      "burn-rate-tracking"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-26T08:01:54Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-26T08:28:01.352Z"
+  },
+  {
+    "id": "4shw1nS/claude-handoff-guard",
+    "name": "claude-handoff-guard",
+    "author": "4shw1nS",
+    "repoURL": "https://github.com/4shw1nS/claude-handoff-guard",
+    "description": "Auto-generate a resume-anywhere HANDOFF.md for long Claude Code sessions — watches context + usage, kicks in at 70%, with a status-line ticker.",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "context-window-monitoring",
+      "usage-threshold-alerts",
+      "handoff-generation",
+      "session-resume",
+      "statusline-display",
+      "debounced-regeneration"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-26T05:51:55Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-26T08:28:01.352Z"
+  },
+  {
+    "id": "braxhughes/claude-statusline",
+    "name": "claude-statusline",
+    "author": "braxhughes",
+    "repoURL": "https://github.com/braxhughes/claude-statusline",
+    "description": "A Claude Code status line that tells you WHEN TO SWITCH accounts — before you hit a wall mid-task, not after.",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "rate-limit-warnings",
+      "account-switching-advice",
+      "usage-pool-display",
+      "context-usage",
+      "multi-account-support",
+      "claude-pro-max"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-26T03:53:16Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-26T08:28:01.352Z"
+  },
+  {
+    "id": "heistkit/ccusage-interface",
+    "name": "ccusage-interface",
+    "author": "heistkit",
+    "repoURL": "https://github.com/heistkit/ccusage-interface",
+    "description": "You can see your Claude usage stats. This is completely free, but you will need to link your ccusage in order to activate this (requires Claude account). This also shows API usage from your Claude.ai account.",
+    "category": "Web Dashboard",
+    "platforms": [
+      "web"
+    ],
+    "language": "HTML",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "cost-estimation",
+      "token-breakdown",
+      "hourly-heatmap",
+      "daily-streaks",
+      "multi-model-wallet",
+      "cache-pricing",
+      "session-stats",
+      "dark-mode"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-07-26T08:15:30Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-26T08:28:01.352Z"
+  },
+  {
+    "id": "kennethkoontz/hud",
+    "name": "hud",
+    "author": "kennethkoontz",
+    "repoURL": "https://github.com/kennethkoontz/hud",
+    "description": "Personal usage dashboard: Claude quota across accounts, GitHub activity, and machine stats",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Session Key",
+      "Session Key",
+      "Browser Cookie Auto-detect",
+      "OAuth Token"
+    ],
+    "features": [
+      "multi-account-claude",
+      "session-quota",
+      "weekly-quota",
+      "github-activity",
+      "machine-stats"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-26T07:13:09Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-26T08:28:01.352Z"
   }
 ]

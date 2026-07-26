@@ -202,5 +202,17 @@
     "reason": "agenttower is a session monitor for local AI coding agents (Claude Code, Codex, Hermes) that aggregates their state in a menu bar — it tracks agent status and user attention needs, not Claude API usage metrics like tokens or costs.",
     "confidence": 0.85,
     "rejectedAt": "2026-07-26T02:51:09.091Z"
+  },
+  {
+    "id": "taufiqxr/McAwake",
+    "reason": "McAwake is a menu bar app for keeping MacBooks awake with clamshell mode and server monitoring; while it includes a Claude Code session switcher as a secondary feature, usage tracking is not a substantial purpose of the application.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-07-26T08:27:51.884Z"
+  },
+  {
+    "id": "noah/claudaco-font",
+    "reason": "This is a font patcher tool designed to add Claude Code symbols to Monaco, not a usage tracker; it has no features for displaying, measuring, or reporting Claude usage metrics.",
+    "confidence": 0.98,
+    "rejectedAt": "2026-07-26T08:27:57.859Z"
   }
 ]
