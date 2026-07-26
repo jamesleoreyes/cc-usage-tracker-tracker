@@ -232,5 +232,11 @@
     "reason": "This is a theme and statusline UI package for the pi coding environment, not a Claude usage tracker; it provides visual styling and a statusline component but does not display, measure, or report Claude usage metrics.",
     "confidence": 0.95,
     "rejectedAt": "2026-07-26T13:24:30.815Z"
+  },
+  {
+    "id": "estevam5s/saas-secure-auth",
+    "reason": "This is a Claude Code skill for securing SaaS login/signup flows with anti-bot and rate-limiting features, not a Claude usage tracker—it does not display, measure, or report Claude usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-26T19:12:40.325Z"
   }
 ]
