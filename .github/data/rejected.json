@@ -214,5 +214,23 @@
     "reason": "This is a font patcher tool designed to add Claude Code symbols to Monaco, not a usage tracker; it has no features for displaying, measuring, or reporting Claude usage metrics.",
     "confidence": 0.98,
     "rejectedAt": "2026-07-26T08:27:57.859Z"
+  },
+  {
+    "id": "PeterSR/claude-code-weaverbird",
+    "reason": "weaverbird is a statusline multiplexer and provider framework for Claude Code, enabling composition of multiple provider programs, but it does not itself display or measure Claude usage—it is infrastructure for aggregating data from other providers like bloodhound and usage-gov that do track usage.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-26T13:24:22.037Z"
+  },
+  {
+    "id": "Rektoooooo/StayAwake",
+    "reason": "StayAwake is a utility that monitors Claude Code activity to control Mac sleep state, but does not display, measure, or report Claude usage (tokens, cost, quotas, sessions) as a feature—it uses Claude Code events as input signals for power management only.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-26T13:24:28.381Z"
+  },
+  {
+    "id": "whosydd/pi-ui-catppuccin",
+    "reason": "This is a theme and statusline UI package for the pi coding environment, not a Claude usage tracker; it provides visual styling and a statusline component but does not display, measure, or report Claude usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-26T13:24:30.815Z"
   }
 ]

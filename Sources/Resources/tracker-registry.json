@@ -124904,5 +124904,218 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-07-26T08:28:01.352Z"
+  },
+  {
+    "id": "neuro-ng/enterprise-ai-usage",
+    "name": "enterprise-ai-usage",
+    "author": "neuro-ng",
+    "repoURL": "https://github.com/neuro-ng/enterprise-ai-usage",
+    "description": "enterprise claude usage tracker based from jonis100/claude-quota-tracker",
+    "category": "Web Dashboard",
+    "platforms": [
+      "web"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "usage-tracking",
+      "enterprise-dashboard",
+      "multi-account"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-26T08:31:28Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-26T13:24:37.596Z"
+  },
+  {
+    "id": "billmac-hub/claude-usage-widget",
+    "name": "claude-usage-widget",
+    "author": "billmac-hub",
+    "repoURL": "https://github.com/billmac-hub/claude-usage-widget",
+    "description": "Claude Code 사용량 데스크톱 위젯 (Windows)",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "session-usage",
+      "weekly-usage",
+      "model-limits",
+      "credit-tracking",
+      "usage-alerts",
+      "tray-widget",
+      "auto-refresh"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-26T11:02:03Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-26T13:24:37.596Z"
+  },
+  {
+    "id": "90ms/tokeni-bar",
+    "name": "tokeni-bar",
+    "author": "90ms",
+    "repoURL": "https://github.com/90ms/tokeni-bar",
+    "description": "Privacy-conscious macOS menu bar monitor for Codex, Claude Code, and Grok usage",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "JSONL Log Parsing",
+      "Session Cookie"
+    ],
+    "features": [
+      "token-tracking",
+      "quota-monitoring",
+      "cost-estimation",
+      "multi-provider",
+      "bytebot-gamification",
+      "usage-history",
+      "threshold-alerts",
+      "menu-bar-display"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-26T11:06:39Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-26T13:24:37.596Z"
+  },
+  {
+    "id": "Bumblebiber/o9k-statusline",
+    "name": "o9k-statusline",
+    "author": "Bumblebiber",
+    "repoURL": "https://github.com/Bumblebiber/o9k-statusline",
+    "description": "Multi-host statusline for coding CLIs — model, context, limits, git and memory segments for Claude Code, Cursor and Hermes.",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "JavaScript",
+    "authMethod": [],
+    "features": [
+      "multi-host-statusline",
+      "model-display",
+      "context-window-fill",
+      "rate-limits-segment",
+      "provider-api",
+      "git-integration"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-26T12:30:14Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-26T13:24:37.596Z"
+  },
+  {
+    "id": "cyperx84/ccstatus",
+    "name": "ccstatus",
+    "author": "cyperx84",
+    "repoURL": "https://github.com/cyperx84/ccstatus",
+    "description": "Fast Claude Code status line in Go — rate-limit windows with pace projection, context, git, worktree, PR. No deps, ~1.8ms.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Go",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "rate-limit-windows",
+      "pace-projection",
+      "context-window",
+      "five-hour-quota",
+      "seven-day-quota",
+      "git-integration",
+      "cost-tracking"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-26T11:12:58Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-26T13:24:37.596Z"
+  },
+  {
+    "id": "victorhqc/filbert",
+    "name": "filbert",
+    "author": "victorhqc",
+    "repoURL": "https://github.com/victorhqc/filbert",
+    "description": "Native macOS menu bar app for tracking AI usage, quotas, token budgets, and spending across providers.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "multi-provider",
+      "token-budgets",
+      "quota-tracking",
+      "spending-analytics",
+      "menu-bar",
+      "keychain-storage",
+      "no-telemetry"
+    ],
+    "builtWithClaude": null,
+    "stars": 1,
+    "lastCommitDate": "2026-07-26T11:35:43Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-26T13:24:37.596Z"
+  },
+  {
+    "id": "kukapu/ai-usebar",
+    "name": "ai-usebar",
+    "author": "kukapu",
+    "repoURL": "https://github.com/kukapu/ai-usebar",
+    "description": "Waybar widget for AI subscription usage (Claude, ChatGPT, Z.AI, Cursor, Grok) — bash + curl + jq",
+    "category": "Waybar Module",
+    "platforms": [
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "OAuth Token",
+      "API Key",
+      "Session Key",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "multi-vendor",
+      "oauth-passthrough",
+      "tui-panel",
+      "hover-tooltip",
+      "scroll-cycle",
+      "auto-refresh",
+      "cache-clear"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-26T12:55:15Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-26T13:24:37.596Z"
   }
 ]
