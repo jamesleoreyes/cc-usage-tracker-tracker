@@ -238,5 +238,17 @@
     "reason": "This is a Claude Code skill for securing SaaS login/signup flows with anti-bot and rate-limiting features, not a Claude usage tracker—it does not display, measure, or report Claude usage metrics.",
     "confidence": 0.95,
     "rejectedAt": "2026-07-26T19:12:40.325Z"
+  },
+  {
+    "id": "shaneomac1337/dotclaude",
+    "reason": "This is a curated Claude Code setup/dotfile collection with a statusline that displays context and cost, but it is not a usage tracker—it has no dashboard, API integration, or persistent usage measurement across sessions; it is configuration and tooling for Claude Code itself.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-27T09:54:18.255Z"
+  },
+  {
+    "id": "SleighMaster99/ClaudeCodeStudio",
+    "reason": "This is a configuration management and editor tool for Claude Code settings and statusline display, not a usage tracker; it lacks any feature to measure, display, or report Claude token usage, costs, or quotas.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-27T09:54:21.932Z"
   }
 ]
