@@ -126174,5 +126174,140 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-07-27T09:54:55.056Z"
+  },
+  {
+    "id": "jihoo-o/claude-usage-widget",
+    "name": "claude-usage-widget",
+    "author": "jihoo-o",
+    "repoURL": "https://github.com/jihoo-o/claude-usage-widget",
+    "description": "iPhone Home Screen widget (via Scriptable) showing your Claude.ai session/weekly usage",
+    "category": "Mobile",
+    "platforms": [
+      "ios"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "session-usage",
+      "weekly-limits",
+      "home-screen-widget"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-27T13:37:55Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-27T14:36:21.559Z"
+  },
+  {
+    "id": "dylblake/bubble-for-claude",
+    "name": "bubble-for-claude",
+    "author": "dylblake",
+    "repoURL": "https://github.com/dylblake/bubble-for-claude",
+    "description": "A lightweight macOS menu bar app that shows your Claude usage with a simple conversation icon and 10-bar usage indicator.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Unknown",
+    "authMethod": [],
+    "features": [
+      "menu-bar-display",
+      "usage-indicator"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-27T14:04:00Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-27T14:36:21.559Z"
+  },
+  {
+    "id": "TheGnarCo/claude-statusline",
+    "name": "claude-statusline",
+    "author": "TheGnarCo",
+    "repoURL": "https://github.com/TheGnarCo/claude-statusline",
+    "description": "The Gnar Company's Claude Code statusline + subagent statusline (bash, git + jq). Single-script, portable drop-in.",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "context-window-display",
+      "rate-limit-tracking",
+      "cost-breakdown",
+      "token-counts",
+      "burn-rate-projection",
+      "7-day-window",
+      "git-integration"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-27T13:25:08Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-27T14:36:21.559Z"
+  },
+  {
+    "id": "yauyauyauhen/claude-code-profiles",
+    "name": "claude-code-profiles",
+    "author": "yauyauyauhen",
+    "repoURL": "https://github.com/yauyauyauhen/claude-code-profiles",
+    "description": "Terminal Claude Code setup: work from multiple accounts, switch between them instantly (even mid-conversation), with a statusline showing account, usage, and git state.",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "multi-account",
+      "statusline-display",
+      "usage-display",
+      "context-tracking",
+      "cost-tracking",
+      "account-switching",
+      "weekly-usage-quota",
+      "git-integration"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-27T10:37:22Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-27T14:36:21.559Z"
+  },
+  {
+    "id": "Leehyunbin0131/stone-warm-theme",
+    "name": "stone-warm-theme",
+    "author": "Leehyunbin0131",
+    "repoURL": "https://github.com/Leehyunbin0131/stone-warm-theme",
+    "description": "A minimal two-line status line for Claude Code — no emoji, one accent colour",
+    "category": "Statusline",
+    "platforms": [
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "context-usage",
+      "rate-limit-tracking",
+      "model-display",
+      "effort-level"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-27T09:53:29Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-27T14:36:21.559Z"
   }
 ]
