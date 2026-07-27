@@ -126312,5 +126312,200 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-07-27T14:36:21.559Z"
+  },
+  {
+    "id": "iambean/codex-usage-monitor",
+    "name": "codex-usage-monitor",
+    "author": "iambean",
+    "repoURL": "https://github.com/iambean/codex-usage-monitor",
+    "description": "原生 macOS 菜单栏 AI 用量监控工具，支持 Codex、Claude Code、Kimi、MiniMax、DeepSeek 和 Qoder。",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Browser Cookie Auto-detect",
+      "API Key",
+      "Session Key"
+    ],
+    "features": [
+      "multi-provider",
+      "menubar-display",
+      "auto-detect-local",
+      "keychain-storage",
+      "refresh-optimization",
+      "codex-support",
+      "claude-code-support"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-27T19:19:09Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-27T19:28:57.019Z"
+  },
+  {
+    "id": "SnailEngineering/local-ai-usage-tracker",
+    "name": "local-ai-usage-tracker",
+    "author": "SnailEngineering",
+    "repoURL": "https://github.com/SnailEngineering/local-ai-usage-tracker",
+    "description": "Local, permanent history of Claude Code and ChatGPT (Codex) usage with a theoretical-cost dashboard. No dependencies, no server.",
+    "category": "Web Dashboard",
+    "platforms": [
+      "macos",
+      "web"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "token-cost-dashboard",
+      "claude-code-history",
+      "chatgpt-codex-support",
+      "local-archiving",
+      "no-dependencies",
+      "launchd-scheduling",
+      "live-refresh-server"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-27T17:20:13Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-27T19:28:57.019Z"
+  },
+  {
+    "id": "ahmetozrahat/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "ahmetozrahat",
+    "repoURL": "https://github.com/ahmetozrahat/claude-code-statusline",
+    "description": "A minimal, single-line status bar for Claude Code",
+    "category": "Statusline",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "context-usage-gauge",
+      "cost-tracking",
+      "session-duration",
+      "model-display",
+      "effort-level"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-27T18:26:40Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-27T19:28:57.019Z"
+  },
+  {
+    "id": "sxyrxyy/claude-signal-deck-statusline",
+    "name": "claude-signal-deck-statusline",
+    "author": "sxyrxyy",
+    "repoURL": "https://github.com/sxyrxyy/claude-signal-deck-statusline",
+    "description": "A status line for Claude Code. Purple and pink, one line, no chrome.",
+    "category": "Statusline",
+    "platforms": [
+      "web"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "context-window-display",
+      "rate-limit-tracking",
+      "cost-tracking",
+      "session-stats",
+      "git-integration",
+      "model-info"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-27T17:55:35Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-27T19:28:57.019Z"
+  },
+  {
+    "id": "jnelken/my-claude-tools",
+    "name": "my-claude-tools",
+    "author": "jnelken",
+    "repoURL": "https://github.com/jnelken/my-claude-tools",
+    "description": "Personal Claude Code skills, hooks, automations, and statusline — symlink-install via ./install.sh",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "token-usage-summaries",
+      "slack-integration",
+      "context-usage-bars",
+      "cost-tracking",
+      "session-time",
+      "statusline-display"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-07-27T17:14:06Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-27T19:28:57.020Z"
+  },
+  {
+    "id": "AyeKarimba/TerminalNavigator",
+    "name": "TerminalNavigator",
+    "author": "AyeKarimba",
+    "repoURL": "https://github.com/AyeKarimba/TerminalNavigator",
+    "description": "macOS menu bar app that tracks which Claude Code sessions are waiting on you, and jumps to the right Terminal tab",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [],
+    "features": [
+      "claude-code-sessions",
+      "menu-bar-display",
+      "tab-navigator",
+      "wait-time-tracking",
+      "session-state-color-coding"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-27T19:26:21Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-27T19:28:57.020Z"
+  },
+  {
+    "id": "agent-habilis/agent-statusline",
+    "name": "agent-statusline",
+    "author": "agent-habilis",
+    "repoURL": "https://github.com/agent-habilis/agent-statusline",
+    "description": "Powerline-style statuslines for Claude Code, Cursor Agent CLI, and pi.",
+    "category": "Statusline",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "TypeScript",
+    "authMethod": [],
+    "features": [
+      "rate-limits",
+      "context-tracking",
+      "model-display",
+      "session-tokens",
+      "multi-agent-support"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-22T18:17:50Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-27T19:28:57.020Z"
   }
 ]

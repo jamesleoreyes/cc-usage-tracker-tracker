@@ -250,5 +250,23 @@
     "reason": "This is a configuration management and editor tool for Claude Code settings and statusline display, not a usage tracker; it lacks any feature to measure, display, or report Claude token usage, costs, or quotas.",
     "confidence": 0.95,
     "rejectedAt": "2026-07-27T09:54:21.932Z"
+  },
+  {
+    "id": "Cognifer-Labs/cogwait",
+    "reason": "Cogwait is a monetization platform for Claude Code statusline placements and ad serving, not a Claude usage tracker—it measures ad impressions, not token/cost usage.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-07-27T19:28:40.288Z"
+  },
+  {
+    "id": "jmamundin/machine-bootstrap",
+    "reason": "This is a setup/bootstrap script that installs multiple tools including Claude Code, but it does not display, measure, or report Claude usage—it only configures the development environment.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-27T19:28:43.329Z"
+  },
+  {
+    "id": "fedeglan/ClaudeCodeOptimizer",
+    "reason": "This is a Claude Code plugin for optimizing configuration and reducing context/token waste, not for tracking or measuring Claude usage itself; it audits environment efficiency but does not display or report usage metrics as a primary feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-27T19:28:51.543Z"
   }
 ]
