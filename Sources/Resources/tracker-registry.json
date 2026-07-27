@@ -125535,5 +125535,191 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-07-26T19:12:50.667Z"
+  },
+  {
+    "id": "DarkHenos/vscode-claude-limits",
+    "name": "vscode-claude-limits",
+    "author": "DarkHenos",
+    "repoURL": "https://github.com/DarkHenos/vscode-claude-limits",
+    "description": "Claude usage monitor + encrypted secret vault for Claude Code, in VS Code. Claude uses your keys without ever seeing them.",
+    "category": "VS Code Extension",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "OAuth Token",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "usage-monitor",
+      "quota-tracking",
+      "session-alerts",
+      "encrypted-vault",
+      "threshold-alerts",
+      "status-bar",
+      "multi-window-sync"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-26T21:23:26Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-27T02:58:44.579Z"
+  },
+  {
+    "id": "bounce12340/ai-usage-monitor",
+    "name": "ai-usage-monitor",
+    "author": "bounce12340",
+    "repoURL": "https://github.com/bounce12340/ai-usage-monitor",
+    "description": "Always-on-top desktop widget showing your real Claude Code & Codex usage quotas (5-hour / weekly windows) live on screen. Windows, PySide6.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "OAuth Token",
+      "JSONL Log Parsing",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "claude-code-quotas",
+      "5h-session-window",
+      "weekly-caps",
+      "token-counting",
+      "cost-estimates",
+      "mini-bar-mode",
+      "color-warnings",
+      "ollama-support"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-27T02:48:58Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-27T02:58:44.580Z"
+  },
+  {
+    "id": "MatiasPC/Cadence",
+    "name": "Cadence",
+    "author": "MatiasPC",
+    "repoURL": "https://github.com/MatiasPC/Cadence",
+    "description": "A minimal macOS menu-bar monitor for your Claude Code usage — live spend, burn rate, model split & real plan-limit bars.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "Session Key"
+    ],
+    "features": [
+      "menu-bar-display",
+      "live-spend",
+      "burn-rate",
+      "model-split",
+      "plan-limit-bars",
+      "daily-tracking",
+      "all-time-cost"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-07-26T22:46:34Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-27T02:58:44.580Z"
+  },
+  {
+    "id": "Sicari1/digimon",
+    "name": "digimon",
+    "author": "Sicari1",
+    "repoURL": "https://github.com/Sicari1/digimon",
+    "description": "Claude Code 디지몬 상태창 스크립트 및 자료 (statusLine 교체 전 백업)",
+    "category": "Terminal UI",
+    "platforms": [
+      "linux",
+      "windows"
+    ],
+    "language": "HTML",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "API Key"
+    ],
+    "features": [
+      "token-growth-pet",
+      "multi-account",
+      "rate-limit-display",
+      "mini-games",
+      "statusline-integration",
+      "evolution-mechanics"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-27T02:39:49Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-27T02:58:44.580Z"
+  },
+  {
+    "id": "hiscc/CCSwitcher",
+    "name": "CCSwitcher",
+    "author": "hiscc",
+    "repoURL": "https://github.com/hiscc/CCSwitcher",
+    "description": "macOS menu bar app to securely switch between multiple Claude Code accounts — keychain-based credentials, auto-switch on usage threshold, silent token refresh",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "Session Key"
+    ],
+    "features": [
+      "multi-account",
+      "usage-monitoring",
+      "auto-switch",
+      "token-refresh",
+      "keychain-storage",
+      "cost-tracking",
+      "privacy-masking"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-27T02:50:54Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-27T02:58:44.580Z"
+  },
+  {
+    "id": "bijoulabs/gauge",
+    "name": "gauge",
+    "author": "bijoulabs",
+    "repoURL": "https://github.com/bijoulabs/gauge",
+    "description": "A tiny gauge for your Claude usage: the 5h and 7d rate-limit windows, for your terminal or waybar.",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "linux"
+    ],
+    "language": "Zig",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "rate-limit-windows",
+      "usage-percentage",
+      "waybar-module",
+      "terminal-display",
+      "local-cache",
+      "status-bar"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-27T01:22:30Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-27T02:58:44.580Z"
   }
 ]
