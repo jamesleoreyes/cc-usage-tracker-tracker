@@ -268,5 +268,11 @@
     "reason": "This is a Claude Code plugin for optimizing configuration and reducing context/token waste, not for tracking or measuring Claude usage itself; it audits environment efficiency but does not display or report usage metrics as a primary feature.",
     "confidence": 0.95,
     "rejectedAt": "2026-07-27T19:28:51.543Z"
+  },
+  {
+    "id": "zwhitner3/cockpit-for-claude-code",
+    "reason": "This is a session manager and interface for Claude Code running on remote servers, not a usage tracker; it displays session status and state, not Claude usage metrics like tokens, cost, or quotas.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-07-28T02:35:09.869Z"
   }
 ]

@@ -126507,5 +126507,234 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-07-27T19:28:57.020Z"
+  },
+  {
+    "id": "aidanashby/claude-usage-widget",
+    "name": "claude-usage-widget",
+    "author": "aidanashby",
+    "repoURL": "https://github.com/aidanashby/claude-usage-widget",
+    "description": "Always-on-top Windows widget showing Claude session and weekly usage limits as two thin bars",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "always-on-top-widget",
+      "session-usage-bars",
+      "weekly-usage-bars",
+      "oauth-token-auth",
+      "credential-manager-support",
+      "live-polling",
+      "startup-autorun"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-28T00:07:01Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-28T02:35:09.870Z"
+  },
+  {
+    "id": "quei22/claudex-usage-ring",
+    "name": "claudex-usage-ring",
+    "author": "quei22",
+    "repoURL": "https://github.com/quei22/claudex-usage-ring",
+    "description": "Native macOS menu-bar app for Claude Code and Codex usage limits",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "menu-bar-display",
+      "usage-rings",
+      "claude-code-support",
+      "codex-support",
+      "multi-provider",
+      "reset-times",
+      "launch-at-login"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-28T00:51:14Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-28T02:35:09.870Z"
+  },
+  {
+    "id": "hong8300/cc-usage-monitor",
+    "name": "cc-usage-monitor",
+    "author": "hong8300",
+    "repoURL": "https://github.com/hong8300/cc-usage-monitor",
+    "description": "Claude Code の使用量（5時間枠・週次枠）をメニューバーで常時確認する macOS 常駐アプリ。statusLine ブリッジ + ローカル JSONL 集計、完全ローカル動作。",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "session-window-display",
+      "weekly-quota-tracking",
+      "cost-estimation",
+      "threshold-alerts",
+      "mini-window",
+      "model-breakdown",
+      "7-day-chart"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-28T01:50:26Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-28T02:35:09.870Z"
+  },
+  {
+    "id": "amarashi/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "amarashi",
+    "repoURL": "https://github.com/amarashi/claude-code-statusline",
+    "description": "Context-window meter for Claude Code: tokens used / capacity / percentage in your status line",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "PowerShell",
+    "authMethod": [],
+    "features": [
+      "context-window-meter",
+      "token-usage",
+      "capacity-display",
+      "color-coded-alerts",
+      "real-time-updates"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-28T01:40:50Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-28T02:35:09.870Z"
+  },
+  {
+    "id": "sineui/minimal-claude-code-hud",
+    "name": "minimal-claude-code-hud",
+    "author": "sineui",
+    "repoURL": "https://github.com/sineui/minimal-claude-code-hud",
+    "description": "Minimal single-file statusline for Claude Code",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Session Cookie"
+    ],
+    "features": [
+      "session-limits",
+      "weekly-quotas",
+      "context-usage",
+      "cost-tracking",
+      "rate-limiting",
+      "burn-rate-indicator",
+      "multi-model-tracking",
+      "effort-level"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-28T00:27:38Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-28T02:35:09.870Z"
+  },
+  {
+    "id": "RadosavAntonio/claude-code-setup",
+    "name": "claude-code-setup",
+    "author": "RadosavAntonio",
+    "repoURL": "https://github.com/RadosavAntonio/claude-code-setup",
+    "description": "One-command installer for my Claude Code config: hooks, slash commands, skills, statusline, and global rules",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "rate-limit-statusline",
+      "context-window-display",
+      "token-optimization",
+      "cost-awareness",
+      "session-transcript-search",
+      "verification-hooks"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-07-27T21:40:10Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-28T02:35:09.870Z"
+  },
+  {
+    "id": "canyolal/Agent-Monitor",
+    "name": "Agent-Monitor",
+    "author": "canyolal",
+    "repoURL": "https://github.com/canyolal/Agent-Monitor",
+    "description": "Menu bar monitoring app to keep track of Claude Code sessions",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [],
+    "features": [
+      "claude-code-monitoring",
+      "menu-bar-app",
+      "session-tracking"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-27T21:22:29Z",
+    "openIssues": 3,
+    "archived": false,
+    "lastFetched": "2026-07-28T02:35:09.870Z"
+  },
+  {
+    "id": "jayintheday/peeksy",
+    "name": "peeksy",
+    "author": "jayintheday",
+    "repoURL": "https://github.com/jayintheday/peeksy",
+    "description": "A macOS menu bar app that shows which Claude Code session is waiting on you — as a pill beside the notch. Hover to peek, click a row to jump to that terminal tab.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [],
+    "features": [
+      "claude-code-sessions",
+      "session-status-display",
+      "menubar-pill",
+      "notch-integration",
+      "session-state-colors",
+      "terminal-tab-jump",
+      "multi-session-monitoring"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-27T20:11:15Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-28T02:35:09.870Z"
   }
 ]
