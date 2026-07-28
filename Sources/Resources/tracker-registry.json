@@ -126744,5 +126744,208 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-07-28T02:35:09.870Z"
+  },
+  {
+    "id": "adrien976/claude-usage-bar",
+    "name": "claude-usage-bar",
+    "author": "adrien976",
+    "repoURL": "https://github.com/adrien976/claude-usage-bar",
+    "description": "Claude usage limits (5h session, weekly, per-model) live in your macOS menu bar — auto-refreshing OAuth, never disconnects",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "session-limits",
+      "weekly-quotas",
+      "per-model-tracking",
+      "auto-refresh",
+      "menubar-display",
+      "offline-cache",
+      "color-coded-alerts"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-28T06:55:42Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-28T08:36:02.045Z"
+  },
+  {
+    "id": "iambean/AI-usage-monitor",
+    "name": "AI-usage-monitor",
+    "author": "iambean",
+    "repoURL": "https://github.com/iambean/AI-usage-monitor",
+    "description": "原生 macOS 菜单栏 AI 用量监控工具，支持 Codex、Claude Code、Kimi、MiniMax、DeepSeek 和 Qoder。",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "API Key",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "multi-provider",
+      "quota-display",
+      "usage-windows",
+      "menubar-app",
+      "automatic-discovery",
+      "keychain-storage",
+      "low-power-mode-aware",
+      "local-diagnostics"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-28T07:33:05Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-28T08:36:02.045Z"
+  },
+  {
+    "id": "muhammadsqlan/UsageScout",
+    "name": "UsageScout",
+    "author": "muhammadsqlan",
+    "repoURL": "https://github.com/muhammadsqlan/UsageScout",
+    "description": "Native, local-first Codex and Claude Code usage monitor for macOS and Windows",
+    "category": "macOS Native",
+    "platforms": [
+      "macos",
+      "windows"
+    ],
+    "language": "Unknown",
+    "authMethod": [],
+    "features": [
+      "local-first",
+      "multi-provider",
+      "usage-monitoring"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-28T03:11:26Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-28T08:36:02.045Z"
+  },
+  {
+    "id": "Nope-im-not-pro/claude-code-token-guard",
+    "name": "claude-code-token-guard",
+    "author": "Nope-im-not-pro",
+    "repoURL": "https://github.com/Nope-im-not-pro/claude-code-token-guard",
+    "description": "Claude Code skill that tracks session and weekly token usage from claude.ai/settings/usage via a local HTTP daemon, gates new work phases at configurable thresholds (finish_only / wait_reset / full_stop), and resumes automatically after the session limit resets.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "session-token-tracking",
+      "weekly-usage-tracking",
+      "threshold-gating",
+      "automatic-resume",
+      "usage-percentage-reporting"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-28T08:24:47Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-28T08:36:02.045Z"
+  },
+  {
+    "id": "hakhamsolution/claude-status-line",
+    "name": "claude-status-line",
+    "author": "hakhamsolution",
+    "repoURL": "https://github.com/hakhamsolution/claude-status-line",
+    "description": "Multi-line status line for Claude Code on macOS — model, context, cost, rate limits, FX rates, next calendar event",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Session Cookie",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "context-usage",
+      "cost-tracking",
+      "rate-limit-monitoring",
+      "exchange-rates",
+      "calendar-integration",
+      "multi-line-display"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-28T07:56:56Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-28T08:36:02.045Z"
+  },
+  {
+    "id": "korakod-dev/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "korakod-dev",
+    "repoURL": "https://github.com/korakod-dev/claude-code-statusline",
+    "description": "A Claude Code status line that reports subscription usage honestly — stale readings are marked, rolled-over windows are not",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "rate-limit-display",
+      "quota-windows",
+      "staleness-detection",
+      "color-coding",
+      "5h-7d-windows"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-28T03:08:48Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-28T08:36:02.045Z"
+  },
+  {
+    "id": "chrisadvs/UsageBar",
+    "name": "UsageBar",
+    "author": "chrisadvs",
+    "repoURL": "https://github.com/chrisadvs/UsageBar",
+    "description": "Menu bar usage tracker for Claude, Gemini, and other AI tools.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "multi-account-tabs",
+      "quota-warnings",
+      "color-coded-limits",
+      "background-polling",
+      "native-notifications",
+      "activity-log"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-28T03:26:55Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-28T08:36:02.045Z"
   }
 ]
