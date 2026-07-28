@@ -274,5 +274,17 @@
     "reason": "This is a session manager and interface for Claude Code running on remote servers, not a usage tracker; it displays session status and state, not Claude usage metrics like tokens, cost, or quotas.",
     "confidence": 0.85,
     "rejectedAt": "2026-07-28T02:35:09.869Z"
+  },
+  {
+    "id": "Umarzakwan7070/MY-AI-ENGINEER-FULL-STACK-PRODUCTION",
+    "reason": "This is a Claude Code skill for orchestrating production reviews and engineering judgment, not a usage tracker; it does not display, measure, or report Claude usage.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-28T14:09:08.178Z"
+  },
+  {
+    "id": "lukasmalkmus/ClaudeOmator",
+    "reason": "ClaudeOmator is a workflow automation tool for running Claude Code on autopilot, not a usage tracker; it does not display, measure, or report Claude usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-28T14:09:11.819Z"
   }
 ]
