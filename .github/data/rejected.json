@@ -286,5 +286,11 @@
     "reason": "ClaudeOmator is a workflow automation tool for running Claude Code on autopilot, not a usage tracker; it does not display, measure, or report Claude usage metrics.",
     "confidence": 0.95,
     "rejectedAt": "2026-07-28T14:09:11.819Z"
+  },
+  {
+    "id": "pattarapongsinpat/claudeorchestrate",
+    "reason": "This is a Claude Code pipeline tool that delegates work to DeepSeek to conserve Claude rate limits, but it does not display, measure, or report Claude usage as a feature—it only routes requests to other models.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-28T19:26:21.781Z"
   }
 ]
