@@ -298,5 +298,17 @@
     "reason": "This is a Claude Code plugin that measures cognitive load in replies and displays turn ETAs, but does not track Claude usage (tokens, costs, rate limits, sessions); it's a UX enhancement for response handling, not a usage tracker.",
     "confidence": 0.95,
     "rejectedAt": "2026-07-29T02:41:17.716Z"
+  },
+  {
+    "id": "kanketsu-jp/claude-ccd",
+    "reason": "This is an account switcher and pooler with auto-switching on rate limits, but does not display or measure Claude usage (tokens, cost, sessions) as a feature—it only manages which account is active.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-29T08:42:35.599Z"
+  },
+  {
+    "id": "yawning5/claude-statusline",
+    "reason": "Repository is named claude-statusline but lacks README, clear commits, and traceable evidence of Claude usage tracking features.",
+    "confidence": 0.4,
+    "rejectedAt": "2026-07-29T08:42:43.375Z"
   }
 ]
