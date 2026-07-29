@@ -128384,5 +128384,333 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-07-29T14:12:16.764Z"
+  },
+  {
+    "id": "Defacedz/claude-usage-widget",
+    "name": "claude-usage-widget",
+    "author": "Defacedz",
+    "repoURL": "https://github.com/Defacedz/claude-usage-widget",
+    "description": "Tiny always-on-top gauge showing your Claude usage limits on Windows",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "C#",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "session-limits",
+      "weekly-usage",
+      "countdown-timer",
+      "fullscreen-hiding",
+      "multi-language",
+      "stale-data-indicator",
+      "opacity-control"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-29T15:39:55Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-29T19:18:31.201Z"
+  },
+  {
+    "id": "yumedzi/context-usage-monitor",
+    "name": "context-usage-monitor",
+    "author": "yumedzi",
+    "repoURL": "https://github.com/yumedzi/context-usage-monitor",
+    "description": "Status bar extension for VS Code: correct context-window %, cache hit rate, and cost from local Claude Code transcripts. Not affiliated with Anthropic.",
+    "category": "VS Code Extension",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "context-window-usage",
+      "cache-hit-rate",
+      "token-cost",
+      "rate-limit-gauges",
+      "offline-pricing",
+      "monthly-tracking",
+      "per-turn-analysis"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-29T18:27:11Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-29T19:18:31.202Z"
+  },
+  {
+    "id": "Gabriel-Dalton/claude-statusline-tokens",
+    "name": "claude-statusline-tokens",
+    "author": "Gabriel-Dalton",
+    "repoURL": "https://github.com/Gabriel-Dalton/claude-statusline-tokens",
+    "description": "Claude Code status line for Windows: token totals, API-rate cost, and rate-limit reset countdowns on the 5h and 7d windows. One PowerShell file, no dependencies.",
+    "category": "Statusline",
+    "platforms": [
+      "windows"
+    ],
+    "language": "PowerShell",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "token-counts",
+      "cost-tracking",
+      "rate-limit-countdown",
+      "multi-account",
+      "context-fill-percent",
+      "color-coded-headroom",
+      "session-burst",
+      "dashboard"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-29T18:38:27Z",
+    "openIssues": 22,
+    "archived": false,
+    "lastFetched": "2026-07-29T19:18:31.202Z"
+  },
+  {
+    "id": "baigong-ai/cc-planbar",
+    "name": "cc-planbar",
+    "author": "baigong-ai",
+    "repoURL": "https://github.com/baigong-ai/cc-planbar",
+    "description": " Claude Code statusline widget showing coding-plan quota for third-party providers (Kimi, Zhipu GLM) — context %, 5h/weekly limits   with reset times, color-coded thresholds",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "quota-monitoring",
+      "context-usage",
+      "third-party-providers",
+      "color-coded-thresholds",
+      "reset-timers",
+      "multi-provider"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-07-29T18:16:39Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-29T19:18:31.202Z"
+  },
+  {
+    "id": "zlemon317/cc-statusline",
+    "name": "cc-statusline",
+    "author": "zlemon317",
+    "repoURL": "https://github.com/zlemon317/cc-statusline",
+    "description": "A custom status line for Claude Code — shows model name, context usage, session duration, CPU utilization, repo name, git branch, and code change stats at a glance.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "context-usage-display",
+      "model-name",
+      "session-duration",
+      "cpu-utilization",
+      "git-integration",
+      "code-stats",
+      "switchable-themes"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-07-29T15:35:18Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-29T19:18:31.202Z"
+  },
+  {
+    "id": "williamcaban/liteline",
+    "name": "liteline",
+    "author": "williamcaban",
+    "repoURL": "https://github.com/williamcaban/liteline",
+    "description": "minimalistic custom status line for claude code",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "JavaScript",
+    "authMethod": [],
+    "features": [
+      "session-cost",
+      "monthly-spend",
+      "context-window",
+      "token-counts",
+      "rate-limits",
+      "compaction-tracking",
+      "local-cache"
+    ],
+    "builtWithClaude": null,
+    "stars": 1,
+    "lastCommitDate": "2026-07-29T18:05:52Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-29T19:18:31.202Z"
+  },
+  {
+    "id": "DBR77Red/context-window-live-visualization",
+    "name": "context-window-live-visualization",
+    "author": "DBR77Red",
+    "repoURL": "https://github.com/DBR77Red/context-window-live-visualization",
+    "description": "Zero-dependency Claude Code status line: context window, 5h and weekly rate limits at a glance",
+    "category": "Statusline",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "context-window-display",
+      "rate-limit-tracking",
+      "session-info",
+      "git-integration",
+      "colorblind-themes"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-29T16:18:36Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-29T19:18:31.202Z"
+  },
+  {
+    "id": "gmr/claude-status",
+    "name": "claude-status",
+    "author": "gmr",
+    "repoURL": "https://github.com/gmr/claude-status",
+    "description": "macOS Menu Bar + Desktop Widget for Claude Code Session Monitoring",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Traffic Capture"
+    ],
+    "features": [
+      "session-monitoring",
+      "real-time-status",
+      "usage-analytics",
+      "multi-session",
+      "desktop-widgets",
+      "session-naming",
+      "terminal-ide-support"
+    ],
+    "builtWithClaude": true,
+    "stars": 55,
+    "lastCommitDate": "2026-07-29T17:36:58Z",
+    "openIssues": 3,
+    "archived": false,
+    "lastFetched": "2026-07-29T19:18:31.202Z"
+  },
+  {
+    "id": "tomarai85/claudebar",
+    "name": "claudebar",
+    "author": "tomarai85",
+    "repoURL": "https://github.com/tomarai85/claudebar",
+    "description": "A build of steipete/CodexBar with multi-account switching for Claude Code, driven from the menu bar.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "multi-account-switching",
+      "token-tracking",
+      "provider-limits",
+      "reset-countdowns",
+      "menubar-display"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-29T16:04:12Z",
+    "openIssues": 1,
+    "archived": false,
+    "lastFetched": "2026-07-29T19:18:31.202Z"
+  },
+  {
+    "id": "thoford75/agent-usage",
+    "name": "agent-usage",
+    "author": "thoford75",
+    "repoURL": "https://github.com/thoford75/agent-usage",
+    "description": "macOS menu bar app — traffic-light usage indicators for Copilot, Cursor, Codex, Kimi, and Claude",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie",
+      "Session Key",
+      "JSONL Log Parsing",
+      "API Key",
+      "Traffic Capture",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "multi-provider",
+      "rate-limit-alerts",
+      "traffic-light-ui",
+      "session-tracking",
+      "quota-windows",
+      "auto-refresh",
+      "keychain-integration",
+      "offline-creds"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-29T19:09:15Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-29T19:18:31.202Z"
+  },
+  {
+    "id": "yaooop-tech/CodexUsageHUD",
+    "name": "CodexUsageHUD",
+    "author": "yaooop-tech",
+    "repoURL": "https://github.com/yaooop-tech/CodexUsageHUD",
+    "description": "A native macOS HUD for Codex, Claude, and Kimi usage windows and activity.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "Session Cookie"
+    ],
+    "features": [
+      "usage-dashboard",
+      "activity-monitoring",
+      "multi-provider",
+      "reset-tracking",
+      "token-history",
+      "task-activity"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-29T16:26:14Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-29T19:18:31.202Z"
   }
 ]
