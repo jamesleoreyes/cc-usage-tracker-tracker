@@ -127647,5 +127647,243 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-07-28T19:26:32.392Z"
+  },
+  {
+    "id": "thegr8snarfle/claude-usage-widget",
+    "name": "claude-usage-widget",
+    "author": "thegr8snarfle",
+    "repoURL": "https://github.com/thegr8snarfle/claude-usage-widget",
+    "description": "Basic macOS toolbar widget to track Claude Code usage.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "session-gauge",
+      "live-countdown",
+      "usage-alerts",
+      "daily-cost-chart",
+      "per-model-breakdown",
+      "weekly-limits",
+      "notification-toasts",
+      "multi-plan-support"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-07-29T00:55:22Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-29T02:41:27.396Z"
+  },
+  {
+    "id": "MiesnerJacob/claude-usage-line",
+    "name": "claude-usage-line",
+    "author": "MiesnerJacob",
+    "repoURL": "https://github.com/MiesnerJacob/claude-usage-line",
+    "description": "Claude Code status line for rate limits, context, model, and git branch. Reads the numbers Claude Code already provides, so no token or API call for the common case. Worktree-aware, colour-coded bars.",
+    "category": "Statusline",
+    "platforms": [
+      "web"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "rate-limits",
+      "context-window",
+      "model-display",
+      "per-model-limits",
+      "worktree-aware",
+      "colour-coded-bars"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-28T21:18:03Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-29T02:41:27.396Z"
+  },
+  {
+    "id": "bolduck91/oriel",
+    "name": "oriel",
+    "author": "bolduck91",
+    "repoURL": "https://github.com/bolduck91/oriel",
+    "description": "An always-on-top Windows widget for Claude Code rate-limit usage. Reads only what Claude Code pushes to your statusline - no credentials, no API polling.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "C#",
+    "authMethod": [
+      "Traffic Capture",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "rate-limit-display",
+      "always-on-top",
+      "live-usage-windows",
+      "multi-skin-support",
+      "statusline-integration",
+      "pro-max-accounts"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-29T00:59:31Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-29T02:41:27.396Z"
+  },
+  {
+    "id": "hephaestus-workers/cc-statusline",
+    "name": "cc-statusline",
+    "author": "hephaestus-workers",
+    "repoURL": "https://github.com/hephaestus-workers/cc-statusline",
+    "description": "Claude Code statusline with multi-account display support (fork of kamranahmedse/claude-statusline)",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "OAuth Token",
+      "API Key"
+    ],
+    "features": [
+      "multi-account-display",
+      "rate-limit-tracking",
+      "context-usage",
+      "current-model",
+      "git-branch-info"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-29T01:45:55Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-29T02:41:27.396Z"
+  },
+  {
+    "id": "jigneshbhavani/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "jigneshbhavani",
+    "repoURL": "https://github.com/jigneshbhavani/claude-code-statusline",
+    "description": "A self-contained, dependency-light custom status line for Claude Code (repo, worktree, branch, ahead/behind, model, context %).",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [],
+    "features": [
+      "context-usage-percentage",
+      "model-display",
+      "git-integration",
+      "zero-dependencies",
+      "real-time-context"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-28T20:33:30Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-29T02:41:27.396Z"
+  },
+  {
+    "id": "S-Nakamur-a/ccsessions",
+    "name": "ccsessions",
+    "author": "S-Nakamur-a",
+    "repoURL": "https://github.com/S-Nakamur-a/ccsessions",
+    "description": "Claude Code の走行中セッションを macOS のメニューバーに生き物の群れとして表示する常駐オーバーレイ / A macOS menu bar overlay that shows your live Claude Code sessions as a flock of creatures",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "live-session-display",
+      "status-visualization",
+      "creature-animations",
+      "error-detection",
+      "agent-tracking",
+      "customizable-faces",
+      "menu-bar-placement",
+      "dock-placement"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-29T00:05:22Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-29T02:41:27.396Z"
+  },
+  {
+    "id": "urda/forged-statusline",
+    "name": "forged-statusline",
+    "author": "urda",
+    "repoURL": "https://github.com/urda/forged-statusline",
+    "description": "Urda's Forged Status Line",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "context-gauge",
+      "rate-limit-display",
+      "5h-quota-gauge",
+      "7d-quota-gauge",
+      "model-display",
+      "thinking-state-toggle"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-29T00:09:59Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-29T02:41:27.396Z"
+  },
+  {
+    "id": "taka-avantgarde/ai-usage-barometer",
+    "name": "ai-usage-barometer",
+    "author": "taka-avantgarde",
+    "repoURL": "https://github.com/taka-avantgarde/ai-usage-barometer",
+    "description": "One coloured macOS menu-bar gauge for Claude and Codex usage, with per-service settings.",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "claude-usage",
+      "codex-usage",
+      "menu-bar-gauge",
+      "per-service-settings",
+      "reset-time-display",
+      "refresh-interval-control"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-29T02:38:58Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-29T02:41:27.396Z"
   }
 ]

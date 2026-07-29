@@ -292,5 +292,11 @@
     "reason": "This is a Claude Code pipeline tool that delegates work to DeepSeek to conserve Claude rate limits, but it does not display, measure, or report Claude usage as a feature—it only routes requests to other models.",
     "confidence": 0.95,
     "rejectedAt": "2026-07-28T19:26:21.781Z"
+  },
+  {
+    "id": "jinda-li/low-cognitive-load",
+    "reason": "This is a Claude Code plugin that measures cognitive load in replies and displays turn ETAs, but does not track Claude usage (tokens, costs, rate limits, sessions); it's a UX enhancement for response handling, not a usage tracker.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-29T02:41:17.716Z"
   }
 ]
