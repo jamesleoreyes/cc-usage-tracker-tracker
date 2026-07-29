@@ -310,5 +310,23 @@
     "reason": "Repository is named claude-statusline but lacks README, clear commits, and traceable evidence of Claude usage tracking features.",
     "confidence": 0.4,
     "rejectedAt": "2026-07-29T08:42:43.375Z"
+  },
+  {
+    "id": "YH-Seo/statusline-builder",
+    "reason": "This is a builder tool for Claude Code statuslines, not a tracker—it generates scripts that display Claude usage fields but does not itself measure or report usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-29T14:11:59.195Z"
+  },
+  {
+    "id": "kwakseongjae/portato",
+    "reason": "Portato is a port monitoring and management app that attributes ports to AI agents (Claude Code, Codex, Cursor) but does not track or measure Claude usage metrics—it's a developer tool for managing localhost servers spawned by agents, not a usage tracker.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-29T14:12:09.631Z"
+  },
+  {
+    "id": "JackWu0429/grok-hud",
+    "reason": "This is a Grok (xAI) usage tracker, not a Claude usage tracker; it displays Grok credits and context but does not track Claude usage as its primary function.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-29T14:12:16.764Z"
   }
 ]

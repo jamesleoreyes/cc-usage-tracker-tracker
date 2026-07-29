@@ -128166,5 +128166,219 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-07-29T08:42:43.375Z"
+  },
+  {
+    "id": "pettersonPadilha/claude-usage-monitor",
+    "name": "claude-usage-monitor",
+    "author": "pettersonPadilha",
+    "repoURL": "https://github.com/pettersonPadilha/claude-usage-monitor",
+    "description": "Card flutuante para Linux que acompanha os limites de sessão (5h) e semanais do Claude Code, com ritmo de consumo e projeção de quando acaba. GTK 3 + Python, sem dependências extras.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "linux"
+    ],
+    "language": "Unknown",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "session-limit-tracking",
+      "burn-rate-calculation",
+      "weekly-window-projection",
+      "floating-widget",
+      "auto-renewal-detection",
+      "deficit-tracking"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-29T14:09:05Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-29T14:12:16.764Z"
+  },
+  {
+    "id": "DarkHenos/claude-monitor-vault",
+    "name": "claude-monitor-vault",
+    "author": "DarkHenos",
+    "repoURL": "https://github.com/DarkHenos/claude-monitor-vault",
+    "description": "Claude Monitor & Vault — Claude usage monitor and encrypted secret vault for Claude Code, in VS Code. Claude uses your keys without ever seeing them.",
+    "category": "VS Code Extension",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "OAuth Token",
+      "Session Key",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "usage-monitoring",
+      "token-limits",
+      "burn-rate-alerts",
+      "secret-vault",
+      "encrypted-storage",
+      "quota-tracking",
+      "multi-window-cache",
+      "threshold-alerts"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-29T11:09:43Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-29T14:12:16.764Z"
+  },
+  {
+    "id": "JorgeRosbel/claude-usage-widget",
+    "name": "claude-usage-widget",
+    "author": "JorgeRosbel",
+    "repoURL": "https://github.com/JorgeRosbel/claude-usage-widget",
+    "description": "Tray widget for Linux and Windows showing your Claude Code plan, 5-hour session usage, weekly limits and reset countdowns, with native notifications.",
+    "category": "Statusline",
+    "platforms": [
+      "linux",
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "session-usage",
+      "weekly-limits",
+      "reset-countdowns",
+      "native-notifications",
+      "tray-icon",
+      "usage-dashboard"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-29T13:36:44Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-29T14:12:16.764Z"
+  },
+  {
+    "id": "subnsub-tools/subnsub-monitor",
+    "name": "subnsub-monitor",
+    "author": "subnsub-tools",
+    "repoURL": "https://github.com/subnsub-tools/subnsub-monitor",
+    "description": "AI coding quota + machine health for boxes you can't reach. Outbound-push agent, no inbound port. Reads Codex from disk, Claude Code via its usage endpoint — credentials never leave the machine.",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "linux",
+      "macos"
+    ],
+    "language": "Go",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "claude-quota-monitor",
+      "codex-quota-monitor",
+      "machine-health",
+      "outbound-push-agent",
+      "firewall-friendly"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-29T12:16:32Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-29T14:12:16.764Z"
+  },
+  {
+    "id": "dklima/claude-snowball-statusline",
+    "name": "claude-snowball-statusline",
+    "author": "dklima",
+    "repoURL": "https://github.com/dklima/claude-snowball-statusline",
+    "description": "Message 50 costs 6x message 1. A Claude Code statusline that makes the snowball visible.",
+    "category": "Statusline",
+    "platforms": [
+      "web"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "context-cost-visualization",
+      "snowball-effect-detection",
+      "phase-tracking",
+      "acceleration-monitoring",
+      "prompt-cache-awareness",
+      "session-state-persistence"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-29T13:56:59Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-29T14:12:16.764Z"
+  },
+  {
+    "id": "KaushikSaurabh/resume-claude",
+    "name": "resume-claude",
+    "author": "KaushikSaurabh",
+    "repoURL": "https://github.com/KaushikSaurabh/resume-claude",
+    "description": "Automatically pause and resume Claude Code when you hit the 5-hour or weekly rate limit — live usage status line, hold-guard, and no-keystroke same-session auto-resume.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "language": "PowerShell",
+    "authMethod": [
+      "Traffic Capture",
+      "JSONL Log Parsing",
+      "OpenTelemetry"
+    ],
+    "features": [
+      "live-usage-statusline",
+      "rate-limit-tracking",
+      "5h-weekly-limits",
+      "burn-rate",
+      "context-used",
+      "session-cost",
+      "auto-resume",
+      "hold-guard"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-29T12:26:19Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-29T14:12:16.764Z"
+  },
+  {
+    "id": "WhiteHyun/Quotari",
+    "name": "Quotari",
+    "author": "WhiteHyun",
+    "repoURL": "https://github.com/WhiteHyun/Quotari",
+    "description": "macOS menu-bar app for Claude Code and Codex usage, remaining quota, reset times, and estimated local cost",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "Session Key"
+    ],
+    "features": [
+      "claude-code-tracking",
+      "codex-tracking",
+      "quota-display",
+      "cost-estimation",
+      "multi-account",
+      "credential-refresh",
+      "notifications"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-29T09:05:45Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-29T14:12:16.764Z"
   }
 ]
