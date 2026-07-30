@@ -128712,5 +128712,245 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-07-29T19:18:31.202Z"
+  },
+  {
+    "id": "jonmgee/claude-usage-widget",
+    "name": "claude-usage-widget",
+    "author": "jonmgee",
+    "repoURL": "https://github.com/jonmgee/claude-usage-widget",
+    "description": "Floating macOS widget for live Claude plan usage — auto-ping window scheduling, ECG heartbeat monitor, 5 skins (LCARS, Bugatti, CRT, scribble, Enigma)",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "live-usage-display",
+      "session-countdown",
+      "weekly-quota",
+      "auto-ping-scheduler",
+      "heartbeat-monitor",
+      "multi-skin-themes",
+      "floating-widget",
+      "always-on-top"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-29T21:34:44Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-30T02:28:12.620Z"
+  },
+  {
+    "id": "DolphinDream/vscode-claude-usage-hud",
+    "name": "vscode-claude-usage-hud",
+    "author": "DolphinDream",
+    "repoURL": "https://github.com/DolphinDream/vscode-claude-usage-hud",
+    "description": "Claude Usage HUD, a VS Code extension: always-visible Claude Code usage windows (5h, 7d, per-model) and the active model in the status bar, a floating HUD, and a panel. Standalone, no setup.",
+    "category": "VS Code Extension",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "usage-windows",
+      "5h-7d-tracking",
+      "per-model-breakdown",
+      "floating-hud",
+      "panel-dashboard",
+      "active-model-display",
+      "session-tracking",
+      "rate-limit-alerts"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-30T01:57:49Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-30T02:28:12.620Z"
+  },
+  {
+    "id": "emcodeio/claude-statusline",
+    "name": "claude-statusline",
+    "author": "emcodeio",
+    "repoURL": "https://github.com/emcodeio/claude-statusline",
+    "description": "Three-row Claude Code statusline: context + rate-limit gauges with pace projection, and an API-overflow cost ledger",
+    "category": "Claude Code Plugin",
+    "platforms": [],
+    "language": "Shell",
+    "authMethod": [
+      "Traffic Capture"
+    ],
+    "features": [
+      "context-window-gauge",
+      "rate-limit-projection",
+      "pace-verdict",
+      "cost-ledger",
+      "cache-hit-rate",
+      "session-tracking",
+      "api-overflow-billing"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-30T00:43:17Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-30T02:28:12.620Z"
+  },
+  {
+    "id": "ai4pastor/claude-statusline",
+    "name": "claude-statusline",
+    "author": "ai4pastor",
+    "repoURL": "https://github.com/ai4pastor/claude-statusline",
+    "description": "Claude Code 상태줄 — 의존성 없이 bash+jq 만으로. 목회자·강의 수강생용 한국어 배포판",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "API Key",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "claude-usage-display",
+      "bash-native",
+      "dependency-free",
+      "korean-localized"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-29T23:15:10Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-30T02:28:12.620Z"
+  },
+  {
+    "id": "Angledsugar/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "Angledsugar",
+    "repoURL": "https://github.com/Angledsugar/claude-code-statusline",
+    "description": "Four-line Claude Code statusline: cwd, model, reasoning effort, and rate-limit usage with reset times",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "rate-limit-display",
+      "reasoning-effort-display",
+      "multi-window-quota",
+      "model-scoped-limits",
+      "cache-staleness-indicator",
+      "timezone-aware-reset-times"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-29T22:12:42Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-30T02:28:12.620Z"
+  },
+  {
+    "id": "adidshaft/limitbar",
+    "name": "limitbar",
+    "author": "adidshaft",
+    "repoURL": "https://github.com/adidshaft/limitbar",
+    "description": "macOS menu bar app showing your remaining Claude Code and Codex rate limits — local credentials only",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "claude-code-limits",
+      "codex-limits",
+      "rate-limit-display",
+      "menu-bar-widget",
+      "local-credentials",
+      "auto-refresh"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-30T00:38:44Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-30T02:28:12.621Z"
+  },
+  {
+    "id": "jimprivate/aiq",
+    "name": "aiq",
+    "author": "jimprivate",
+    "repoURL": "https://github.com/jimprivate/aiq",
+    "description": "Your real AI quotas, one local dashboard. Claude Code, Codex, and Antigravity rate-limit windows from the providers' own usage APIs. Zero dependencies, localhost only.",
+    "category": "Web Dashboard",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux",
+      "web"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "OAuth Token",
+      "API Key"
+    ],
+    "features": [
+      "multi-provider-quotas",
+      "rate-limit-windows",
+      "cost-tracking",
+      "burn-rate-alerts",
+      "native-notifications",
+      "local-only",
+      "multi-account"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-30T00:29:04Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-30T02:28:12.621Z"
+  },
+  {
+    "id": "Freespirits/hachiko-usage",
+    "name": "hachiko-usage",
+    "author": "Freespirits",
+    "repoURL": "https://github.com/Freespirits/hachiko-usage",
+    "description": "A cute desktop pet with a live Claude token usage meter - session & weekly rate limits in a thought cloud above your Windows taskbar. Free, open source, one-press install.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "claude-token-usage",
+      "session-rate-limits",
+      "weekly-rate-limits",
+      "desktop-pet",
+      "taskbar-widget",
+      "ghost-mode"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-07-30T00:32:57Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-30T02:28:12.621Z"
   }
 ]
