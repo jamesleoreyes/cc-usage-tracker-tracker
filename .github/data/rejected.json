@@ -346,5 +346,17 @@
     "reason": "Agent Awake is a sleep-prevention utility for Claude Code sessions, not a usage tracker—it monitors session state for workflow control, not usage metrics like tokens or costs.",
     "confidence": 0.95,
     "rejectedAt": "2026-07-30T14:04:34.766Z"
+  },
+  {
+    "id": "inematds/skillmanager3x",
+    "reason": "These are Claude Code skills for session management and memory tracking, not a usage tracker—they help organize context and handoffs within Claude sessions, not measure or display Claude API usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-30T19:28:26.219Z"
+  },
+  {
+    "id": "levibmackay/air",
+    "reason": "AIR is a load balancer and router for AI coding agents that switches between providers on failure/rate-limit, but does not display, measure, or report Claude usage as a feature—it orchestrates execution without a usage dashboard.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-30T19:28:46.427Z"
   }
 ]
