@@ -8,11 +8,13 @@ VERSION ?= 0.0.0
 
 # "-" = ad-hoc signing (local dev). The release workflow passes the real thing:
 #   make dmg SIGN_IDENTITY="Developer ID Application: James Reyes (TEAMID)"
-# Hardened runtime always (notarization requires it; harmless ad-hoc).
-# --timestamp only with a real identity — ad-hoc signatures can't be timestamped.
+# Hardened runtime (-o runtime) ONLY with a real identity: it enables library
+# validation, which requires the embedded Sparkle.framework to carry the same
+# Team ID as the app — true for Developer ID builds, impossible for ad-hoc
+# (teamless) ones, which crash at launch with "different Team IDs".
 SIGN_IDENTITY ?= -
 ifeq ($(SIGN_IDENTITY),-)
-SIGN_FLAGS = -o runtime
+SIGN_FLAGS =
 else
 SIGN_FLAGS = -o runtime --timestamp
 endif
@@ -68,6 +70,14 @@ app: build
 	plutil -replace CFBundleShortVersionString -string "$(VERSION)" $(APP_BUNDLE)/Contents/Info.plist
 	plutil -replace CFBundleVersion -string "$(VERSION)" $(APP_BUNDLE)/Contents/Info.plist
 
+	# Dev builds (version 0.0.0) get Sparkle disconnected: without SUFeedURL the
+	# updater stays dormant, so a local build never offers to "update" itself to
+	# whatever the public appcast currently says.
+	@if [ "$(VERSION)" = "0.0.0" ]; then \
+		plutil -remove SUFeedURL $(APP_BUNDLE)/Contents/Info.plist; \
+		echo "Dev build: Sparkle feed removed (updater dormant)"; \
+	fi
+
 	# Sign inside-out, per Sparkle's non-Xcode docs. Never --deep.
 	codesign -f -s "$(SIGN_IDENTITY)" $(SIGN_FLAGS) "$(SPARKLE_B)/XPCServices/Installer.xpc"
 	codesign -f -s "$(SIGN_IDENTITY)" $(SIGN_FLAGS) --preserve-metadata=entitlements "$(SPARKLE_B)/XPCServices/Downloader.xpc"
@@ -99,8 +109,11 @@ dmg: app
 	@echo "Created build/$(DMG_NAME)"
 
 # --- Dev: build and run the .app directly ---
+# -n forces a new instance: without it, if the installed copy (same bundle ID)
+# is already running, `open` silently activates that one and the dev build
+# never launches.
 run: app
-	open $(APP_BUNDLE)
+	open -n $(APP_BUNDLE)
 
 # --- Clean ---
 clean:

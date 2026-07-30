@@ -2,82 +2,104 @@ import SwiftUI
 
 struct TrackerRowView: View {
     let project: TrackerProject
+    let isExpanded: Bool
+    @State private var isHovered = false
 
     var body: some View {
-        HStack(alignment: .top, spacing: 10) {
-            // Stars
-            VStack {
-                Text(starText)
-                    .font(.system(.body, design: .monospaced, weight: .semibold))
-                    .foregroundStyle(.secondary)
+        HStack(alignment: .center, spacing: 10) {
+            // Stars column — the default sort key, so it leads.
+            VStack(spacing: 1) {
+                Text(project.stars.map { $0.starAbbreviated } ?? "—")
+                    .font(.system(.callout, weight: .semibold))
+                    .monospacedDigit()
                 Image(systemName: "star.fill")
-                    .font(.caption2)
-                    .foregroundStyle(.yellow)
+                    .font(.system(size: 7))
+                    .foregroundStyle(.yellow.opacity(0.8))
             }
             .frame(width: 44)
 
-            // Main content
             VStack(alignment: .leading, spacing: 3) {
-                HStack(alignment: .firstTextBaseline) {
+                HStack(spacing: 5) {
                     Text(project.name)
                         .font(.system(.body, weight: .semibold))
                         .lineLimit(1)
 
-                    Spacer()
-
-                    Text(project.health.symbol)
-                        .font(.caption)
+                    if project.builtWithClaude == true {
+                        Image(systemName: "sparkle")
+                            .font(.system(size: 9, weight: .semibold))
+                            .foregroundStyle(Theme.claude)
+                            .help("Built with Claude")
+                    }
                 }
 
-                HStack(spacing: 6) {
+                HStack(spacing: 5) {
                     Text(project.author)
-                        .font(.caption)
-                        .foregroundStyle(.secondary)
-
+                        .lineLimit(1)
                     Text("·")
                         .foregroundStyle(.quaternary)
+                    Text(project.category.shortName)
 
-                    Text(project.category.rawValue)
-                        .font(.caption)
-                        .foregroundStyle(.secondary)
-                }
-
-                HStack(spacing: 6) {
                     if !project.language.isEmpty && project.language != "Unknown" {
-                        Text(project.language)
-                            .font(.caption2)
-                            .padding(.horizontal, 5)
-                            .padding(.vertical, 1)
-                            .background(.tertiary.opacity(0.3))
-                            .clipShape(Capsule())
-                    }
-
-                    if let lastCommit = project.lastCommitDate {
-                        Text("Last commit: \(lastCommit.relativeDescription)")
-                            .font(.caption2)
-                            .foregroundStyle(.secondary)
+                        Text("·")
+                            .foregroundStyle(.quaternary)
+                        HStack(spacing: 4) {
+                            Circle()
+                                .fill(Theme.languageColor(project.language))
+                                .frame(width: 7, height: 7)
+                            Text(project.language)
+                        }
                     }
                 }
+                .font(.caption)
+                .foregroundStyle(.secondary)
             }
 
-            // GitHub link
-            Link(destination: project.repoURL) {
-                Image(systemName: "arrow.up.right.square")
-                    .font(.caption)
-                    .foregroundStyle(.secondary)
+            Spacer(minLength: 4)
+
+            if let lastCommit = project.lastCommitDate {
+                Text(lastCommit.relativeDescription)
+                    .font(.caption2)
+                    .foregroundStyle(.tertiary)
+                    .monospacedDigit()
+            }
+
+            healthIndicator
+
+            if isHovered || isExpanded {
+                Link(destination: project.repoURL) {
+                    Image(systemName: "arrow.up.right")
+                        .font(.system(size: 10, weight: .semibold))
+                        .foregroundStyle(.secondary)
+                        .frame(width: 20, height: 20)
+                        .background(.quaternary.opacity(0.6), in: Circle())
+                }
+                .help("Open on GitHub")
+            } else {
+                // Reserve the space so rows don't jiggle on hover.
+                Color.clear.frame(width: 20, height: 20)
             }
         }
-        .padding(.vertical, 6)
-        .padding(.horizontal, 10)
+        .padding(.vertical, 7)
+        .padding(.horizontal, 12)
         .contentShape(Rectangle())
+        .background(
+            (isHovered || isExpanded) ? Color.primary.opacity(0.05) : Color.clear
+        )
+        .onHover { isHovered = $0 }
     }
 
-    private var starText: String {
-        guard let stars = project.stars else { return "—" }
-        if stars >= 1000 {
-            return String(format: "%.1fk", Double(stars) / 1000.0)
+    @ViewBuilder
+    private var healthIndicator: some View {
+        if project.health == .dead {
+            Text("💀")
+                .font(.caption)
+                .help(project.health.label)
+        } else {
+            Circle()
+                .fill(project.health.color)
+                .frame(width: 8, height: 8)
+                .help(project.health.label)
         }
-        return "\(stars)"
     }
 }
 

@@ -4,90 +4,86 @@ struct TrackerDetailView: View {
     let project: TrackerProject
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 8) {
-            // Full description
+        VStack(alignment: .leading, spacing: 10) {
             Text(project.description)
-                .font(.caption)
+                .font(.callout)
                 .foregroundStyle(.secondary)
+                .fixedSize(horizontal: false, vertical: true)
 
-            // Features
             if !project.features.isEmpty {
                 FlowLayout(spacing: 4) {
                     ForEach(project.features, id: \.self) { feature in
                         Text(feature)
                             .font(.caption2)
-                            .padding(.horizontal, 6)
+                            .padding(.horizontal, 7)
                             .padding(.vertical, 2)
-                            .background(Color.accentColor.opacity(0.1))
-                            .clipShape(Capsule())
+                            .background(Color.accentColor.opacity(0.12), in: Capsule())
+                            .foregroundStyle(Color.accentColor)
                     }
                 }
             }
 
-            // Auth methods
-            HStack(spacing: 4) {
-                Text("Auth:")
-                    .font(.caption2)
-                    .foregroundStyle(.secondary)
-                ForEach(project.authMethod.filter { $0 != .unknown }, id: \.self) { method in
-                    Text(method.rawValue)
-                        .font(.caption2)
-                        .padding(.horizontal, 5)
-                        .padding(.vertical, 1)
-                        .background(Color.orange.opacity(0.1))
-                        .clipShape(Capsule())
+            VStack(alignment: .leading, spacing: 5) {
+                let platforms = project.platforms.filter { $0 != .unknown }
+                if !platforms.isEmpty {
+                    detailLine(
+                        symbol: "macwindow",
+                        text: platforms.map(\.rawValue).joined(separator: ", ")
+                    )
+                }
+
+                let auth = project.authMethod.filter { $0 != .unknown }
+                if !auth.isEmpty {
+                    detailLine(symbol: "key.horizontal", text: auth.map(\.rawValue).joined(separator: ", "))
+                }
+
+                HStack(spacing: 12) {
+                    if let issues = project.openIssues {
+                        detailLine(symbol: "exclamationmark.circle", text: "\(issues) open issues")
+                    }
+                    if let release = project.latestRelease {
+                        detailLine(symbol: "tag", text: release)
+                    }
                 }
             }
 
-            // Metadata row
-            HStack(spacing: 12) {
-                if let issues = project.openIssues {
-                    Label("\(issues) issues", systemImage: "exclamationmark.circle")
-                        .font(.caption2)
-                        .foregroundStyle(.secondary)
+            HStack(spacing: 8) {
+                Link(destination: project.repoURL) {
+                    Label("Open on GitHub", systemImage: "arrow.up.right")
+                        .font(.caption)
                 }
-
-                if let release = project.latestRelease {
-                    Label(release, systemImage: "tag")
-                        .font(.caption2)
-                        .foregroundStyle(.secondary)
-                }
+                .buttonStyle(.bordered)
+                .controlSize(.small)
 
                 if project.builtWithClaude == true {
-                    Text("Built with Claude")
-                        .font(.caption2)
+                    Label("Built with Claude", systemImage: "sparkle")
+                        .font(.caption)
                         .fontWeight(.medium)
-                        .padding(.horizontal, 6)
-                        .padding(.vertical, 2)
-                        .background(Color.purple.opacity(0.15))
-                        .clipShape(Capsule())
+                        .padding(.horizontal, 8)
+                        .padding(.vertical, 3)
+                        .background(Theme.claude.opacity(0.15), in: Capsule())
+                        .foregroundStyle(Theme.claude)
                 }
-            }
 
-            // Platforms
-            HStack(spacing: 4) {
-                Text("Platforms:")
-                    .font(.caption2)
-                    .foregroundStyle(.secondary)
-                ForEach(project.platforms.filter { $0 != .unknown }, id: \.self) { platform in
-                    Text(platform.rawValue)
-                        .font(.caption2)
-                        .foregroundStyle(.secondary)
-                }
+                Spacer()
             }
-
-            // Open in GitHub button
-            Button {
-                NSWorkspace.shared.open(project.repoURL)
-            } label: {
-                Label("Open in GitHub", systemImage: "arrow.up.right.square")
-                    .font(.caption)
-            }
-            .buttonStyle(.bordered)
         }
-        .padding(.leading, 54)
-        .padding(.trailing, 10)
+        .padding(12)
+        .background(Color.primary.opacity(0.04), in: RoundedRectangle(cornerRadius: 10))
+        .padding(.horizontal, 12)
         .padding(.bottom, 8)
+    }
+
+    private func detailLine(symbol: String, text: String) -> some View {
+        HStack(spacing: 5) {
+            Image(systemName: symbol)
+                .font(.system(size: 10))
+                .foregroundStyle(.tertiary)
+                .frame(width: 13)
+            Text(text)
+                .font(.caption)
+                .foregroundStyle(.secondary)
+        }
     }
 }
 

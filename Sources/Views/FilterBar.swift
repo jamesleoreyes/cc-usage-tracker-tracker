@@ -4,11 +4,10 @@ struct FilterBar: View {
     @Bindable var appState: AppState
 
     var body: some View {
-        VStack(spacing: 8) {
-            // Category pills
+        HStack(spacing: 8) {
             ScrollView(.horizontal, showsIndicators: false) {
-                HStack(spacing: 6) {
-                    CategoryPill(
+                HStack(spacing: 5) {
+                    CategoryChip(
                         title: "All",
                         count: appState.projects.count,
                         isSelected: appState.selectedCategory == nil
@@ -17,7 +16,7 @@ struct FilterBar: View {
                     }
 
                     ForEach(appState.categoryCounts, id: \.0) { category, count in
-                        CategoryPill(
+                        CategoryChip(
                             title: category.shortName,
                             count: count,
                             isSelected: appState.selectedCategory == category
@@ -29,38 +28,41 @@ struct FilterBar: View {
                 .padding(.horizontal, 16)
             }
 
-            // Sort controls
-            HStack(spacing: 4) {
-                Text("Sort:")
-                    .font(.caption)
-                    .foregroundStyle(.secondary)
-
+            // Sort lives in a compact menu instead of a whole row of buttons.
+            Menu {
                 ForEach(SortOrder.allCases, id: \.self) { order in
                     Button {
                         appState.sortOrder = order
                     } label: {
-                        Text(order.rawValue)
-                            .font(.caption)
-                            .padding(.horizontal, 8)
-                            .padding(.vertical, 3)
-                            .background(
-                                appState.sortOrder == order
-                                    ? Color.accentColor.opacity(0.2)
-                                    : Color.clear
-                            )
-                            .clipShape(RoundedRectangle(cornerRadius: 4))
+                        if appState.sortOrder == order {
+                            Label(order.rawValue, systemImage: "checkmark")
+                        } else {
+                            Text(order.rawValue)
+                        }
                     }
-                    .buttonStyle(.plain)
                 }
-
-                Spacer()
+            } label: {
+                HStack(spacing: 3) {
+                    Image(systemName: "arrow.up.arrow.down")
+                        .font(.system(size: 9, weight: .semibold))
+                    Text(appState.sortOrder.rawValue)
+                        .font(.caption)
+                }
+                .foregroundStyle(.secondary)
+                .padding(.horizontal, 8)
+                .padding(.vertical, 5)
+                .background(.quaternary.opacity(0.5), in: Capsule())
             }
-            .padding(.horizontal, 16)
+            .menuStyle(.borderlessButton)
+            .menuIndicator(.hidden)
+            .fixedSize()
+            .padding(.trailing, 16)
+            .help("Sort order")
         }
     }
 }
 
-struct CategoryPill: View {
+struct CategoryChip: View {
     let title: String
     let count: Int
     let isSelected: Bool
@@ -68,16 +70,21 @@ struct CategoryPill: View {
 
     var body: some View {
         Button(action: action) {
-            HStack(spacing: 3) {
+            HStack(spacing: 4) {
                 Text(title)
-                Text("\(count)")
-                    .foregroundStyle(.secondary)
+                    .fontWeight(isSelected ? .semibold : .regular)
+                Text(count.starAbbreviated)
+                    .foregroundStyle(isSelected ? Color.white.opacity(0.75) : Color.secondary)
+                    .monospacedDigit()
             }
             .font(.caption)
-            .padding(.horizontal, 10)
+            .padding(.horizontal, 9)
             .padding(.vertical, 5)
-            .background(isSelected ? Color.accentColor.opacity(0.2) : Color.secondary.opacity(0.1))
-            .clipShape(Capsule())
+            .background(
+                isSelected ? AnyShapeStyle(Color.accentColor) : AnyShapeStyle(.quaternary.opacity(0.5)),
+                in: Capsule()
+            )
+            .foregroundStyle(isSelected ? .white : .primary)
         }
         .buttonStyle(.plain)
     }
