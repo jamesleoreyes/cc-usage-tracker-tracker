@@ -334,5 +334,17 @@
     "reason": "This project displays multi-agent task status (Codex, Claude Code, Kimi Code) on keyboard LEDs rather than measuring Claude API usage or costs, so it does not qualify as a usage tracker despite being built with Claude.",
     "confidence": 0.95,
     "rejectedAt": "2026-07-30T08:28:58.410Z"
+  },
+  {
+    "id": "liao96312/claude-deepseek-balance",
+    "reason": "This plugin displays DeepSeek API balance, not Claude usage, so it does not qualify for the Claude usage tracker registry despite being a Claude Code plugin.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-30T14:04:05.087Z"
+  },
+  {
+    "id": "rk1000000/Agent-Awake",
+    "reason": "Agent Awake is a sleep-prevention utility for Claude Code sessions, not a usage tracker—it monitors session state for workflow control, not usage metrics like tokens or costs.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-30T14:04:34.766Z"
   }
 ]
