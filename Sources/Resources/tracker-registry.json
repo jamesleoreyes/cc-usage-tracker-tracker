@@ -128957,5 +128957,455 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-07-30T02:28:12.621Z"
+  },
+  {
+    "id": "JeremiahFD/UsageApp",
+    "name": "UsageApp",
+    "author": "JeremiahFD",
+    "repoURL": "https://github.com/JeremiahFD/UsageApp",
+    "description": "Free, privacy-first Codex + Claude usage monitor for the Windows taskbar tray. Beta; Android APK in development.",
+    "category": "Electron/Desktop",
+    "platforms": [
+      "windows",
+      "android"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "OpenTelemetry",
+      "JSONL Log Parsing",
+      "Traffic Capture"
+    ],
+    "features": [
+      "live-quota-display",
+      "token-graphs",
+      "custom-thresholds",
+      "multi-provider",
+      "taskbar-icon",
+      "resizable-dashboard",
+      "date-range-filters"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-30T07:20:26Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-30T08:29:13.056Z"
+  },
+  {
+    "id": "kvachikk/claude-usage-to-bookmark",
+    "name": "claude-usage-to-bookmark",
+    "author": "kvachikk",
+    "repoURL": "https://github.com/kvachikk/claude-usage-to-bookmark",
+    "description": "This extension allow to see Claude limits in browser bookmarks bar",
+    "category": "Browser Extension",
+    "platforms": [
+      "firefox"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "usage-limits-display",
+      "bookmark-toolbar",
+      "five-hour-quota",
+      "seven-day-quota",
+      "opus-tracking"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-30T08:04:14Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-30T08:29:13.057Z"
+  },
+  {
+    "id": "mwxxhdb/cinnamon-claude-usage-bar",
+    "name": "cinnamon-claude-usage-bar",
+    "author": "mwxxhdb",
+    "repoURL": "https://github.com/mwxxhdb/cinnamon-claude-usage-bar",
+    "description": "Linux Mint (Cinnamon) panel applet that shows your Claude Code usage as two horizontal bars",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "linux"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Traffic Capture"
+    ],
+    "features": [
+      "5h-session-tracking",
+      "weekly-quota-tracking",
+      "work-hours-paced",
+      "visual-burn-rate",
+      "configurable-refresh",
+      "tooltip-stats"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-30T07:44:41Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-30T08:29:13.057Z"
+  },
+  {
+    "id": "VV1Git/claudemeter",
+    "name": "claudemeter",
+    "author": "VV1Git",
+    "repoURL": "https://github.com/VV1Git/claudemeter",
+    "description": "macOS menu bar app for Claude usage limits: live 5-hour and weekly percentages, a burn rate measured from real polls, and where each window lands at its reset.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "rate-limit-display",
+      "burn-rate-projection",
+      "5h-window-tracking",
+      "weekly-window-tracking",
+      "session-summaries",
+      "token-breakdown",
+      "cache-hit-ratio",
+      "cost-equivalent"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-30T05:40:18Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-30T08:29:13.057Z"
+  },
+  {
+    "id": "shubhsaxena2020/ai-tools-monitor",
+    "name": "ai-tools-monitor",
+    "author": "shubhsaxena2020",
+    "repoURL": "https://github.com/shubhsaxena2020/ai-tools-monitor",
+    "description": "Windows 11 tray app: live status and real usage data for Claude Code, Codex CLI, Hermes, OpenCode, and Antigravity",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "C#",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Traffic Capture",
+      "API Key"
+    ],
+    "features": [
+      "claude-code-tracking",
+      "multi-tool-status",
+      "live-quota-display",
+      "tray-icon",
+      "local-db-parsing",
+      "graceful-fallback"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-30T08:18:30Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-30T08:29:13.057Z"
+  },
+  {
+    "id": "banyudu/token-wise",
+    "name": "token-wise",
+    "author": "banyudu",
+    "repoURL": "https://github.com/banyudu/token-wise",
+    "description": "A native macOS app for tracking Claude Code and Codex token usage, costs, cache efficiency, and session history.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "token-usage-tracking",
+      "cost-analysis",
+      "cache-efficiency",
+      "session-history",
+      "local-processing",
+      "no-telemetry"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-07-30T08:06:18Z",
+    "openIssues": 2,
+    "archived": false,
+    "lastFetched": "2026-07-30T08:29:13.057Z"
+  },
+  {
+    "id": "IrtizaRashid/Token-Counter",
+    "name": "Token-Counter",
+    "author": "IrtizaRashid",
+    "repoURL": "https://github.com/IrtizaRashid/Token-Counter",
+    "description": "Token Counter — local web UI for tracking model token usage and estimated cost across Claude Code and Codex CLI.",
+    "category": "Web Dashboard",
+    "platforms": [
+      "web"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "token-tracking",
+      "cost-estimation",
+      "daily-breakdowns",
+      "multi-model-support",
+      "local-storage",
+      "cache-metrics"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-30T05:33:44Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-30T08:29:13.057Z"
+  },
+  {
+    "id": "littlehsun/claude-statusline",
+    "name": "claude-statusline",
+    "author": "littlehsun",
+    "repoURL": "https://github.com/littlehsun/claude-statusline",
+    "description": "A lightweight, zero-cost, and 100% accurate rate limit statusline for Claude Code",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "rate-limit-display",
+      "context-usage",
+      "5h-7d-limits",
+      "git-status",
+      "progress-bars",
+      "dual-platform"
+    ],
+    "builtWithClaude": true,
+    "stars": 2,
+    "lastCommitDate": "2026-07-30T07:26:10Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-30T08:29:13.057Z"
+  },
+  {
+    "id": "KakkoiDev/tmux-claude-code-effort-menu",
+    "name": "tmux-claude-code-effort-menu",
+    "author": "KakkoiDev",
+    "repoURL": "https://github.com/KakkoiDev/tmux-claude-code-effort-menu",
+    "description": "tmux popup menu for switching Claude Code effort levels, plus a model/effort statusline badge. Gates levels the current model does not support.",
+    "category": "Tmux Plugin",
+    "platforms": [
+      "tmux"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "effort-level-switcher",
+      "model-statusline-badge",
+      "capability-gating",
+      "session-isolation"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-30T03:50:46Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-30T08:29:13.057Z"
+  },
+  {
+    "id": "littlehsun/claude-rate-indicator",
+    "name": "claude-rate-indicator",
+    "author": "littlehsun",
+    "repoURL": "https://github.com/littlehsun/claude-rate-indicator",
+    "description": "Claude Code rate-limit indicator for the Ubuntu GNOME top bar",
+    "category": "Statusline",
+    "platforms": [
+      "linux"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Traffic Capture"
+    ],
+    "features": [
+      "rate-limit-display",
+      "usage-breakdown",
+      "multi-window-tracking",
+      "color-coded-alerts",
+      "auto-refresh",
+      "gnome-integration"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-30T02:34:09Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-30T08:29:13.057Z"
+  },
+  {
+    "id": "himynameisben/your-turn",
+    "name": "your-turn",
+    "author": "himynameisben",
+    "repoURL": "https://github.com/himynameisben/your-turn",
+    "description": "An inbox for your Claude Code sessions — macOS menu bar app that shows which session is waiting for you and what's next",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Traffic Capture"
+    ],
+    "features": [
+      "session-inbox",
+      "menu-bar-badge",
+      "multi-session-tracking",
+      "jump-to-window",
+      "project-grouping",
+      "local-only",
+      "star-archive"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-30T08:25:46Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-30T08:29:13.057Z"
+  },
+  {
+    "id": "theblackflagger/BlackFlare",
+    "name": "BlackFlare",
+    "author": "theblackflagger",
+    "repoURL": "https://github.com/theblackflagger/BlackFlare",
+    "description": "BlackFlare - A native macOS menu bar app for Claude Code and Codex. Keep your Mac awake during long runs, get pinged when a session finishes or needs you, switch your defaults from the menu, and watch plan usage — all on-device.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Unknown",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "usage-display",
+      "session-notifications",
+      "mac-sleep-control",
+      "model-switcher",
+      "multi-provider",
+      "slack-telegram-alerts",
+      "usage-threshold-alerts",
+      "default-manager"
+    ],
+    "builtWithClaude": null,
+    "stars": 9,
+    "lastCommitDate": "2026-07-30T03:47:11Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-30T08:29:13.057Z"
+  },
+  {
+    "id": "MateoGreil/cco2usage",
+    "name": "cco2usage",
+    "author": "MateoGreil",
+    "repoURL": "https://github.com/MateoGreil/cco2usage",
+    "description": "Estimate the CO₂ emissions of your coding-agent LLM usage (Claude Code, Codex, Cursor…). 100% offline Go CLI that wraps ccusage.",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "Go",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "co2-emissions-estimation",
+      "ccusage-wrapper",
+      "offline-analysis",
+      "model-tier-mapping",
+      "grid-carbon-intensity",
+      "multi-region-presets",
+      "json-output"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-30T07:31:23Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-30T08:29:13.057Z"
+  },
+  {
+    "id": "Satal/claude-o-meter",
+    "name": "claude-o-meter",
+    "author": "Satal",
+    "repoURL": "https://github.com/Satal/claude-o-meter",
+    "description": "A Stream Deck key that shows your live Claude usage as concentric rings, and opens the usage page when you press it.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "OAuth Token",
+      "Session Key"
+    ],
+    "features": [
+      "usage-visualization",
+      "rate-limit-display",
+      "session-quotas",
+      "multi-ring-indicators",
+      "threshold-alerts",
+      "auto-refresh"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-30T07:56:39Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-30T08:29:13.057Z"
+  },
+  {
+    "id": "wdetcetera/fulcrum-grok-meter",
+    "name": "fulcrum-grok-meter",
+    "author": "wdetcetera",
+    "repoURL": "https://github.com/wdetcetera/fulcrum-grok-meter",
+    "description": "Live Grok CLI usage meter — real plan quota (% used + weekly reset + tier) and session context consumption, from Grok's own local logs. A Claude-Code-compatible Grok plugin.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "plan-quota-tracking",
+      "session-context-tracking",
+      "statusline-integration",
+      "tmux-support",
+      "zsh-support",
+      "real-time-refresh",
+      "no-auth-required"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-30T04:52:50Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-30T08:29:13.057Z"
   }
 ]

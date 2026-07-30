@@ -328,5 +328,11 @@
     "reason": "This is a Grok (xAI) usage tracker, not a Claude usage tracker; it displays Grok credits and context but does not track Claude usage as its primary function.",
     "confidence": 0.95,
     "rejectedAt": "2026-07-29T14:12:16.764Z"
+  },
+  {
+    "id": "alvis-HaoH/agent-kick75-status-lights",
+    "reason": "This project displays multi-agent task status (Codex, Claude Code, Kimi Code) on keyboard LEDs rather than measuring Claude API usage or costs, so it does not qualify as a usage tracker despite being built with Claude.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-30T08:28:58.410Z"
   }
 ]
