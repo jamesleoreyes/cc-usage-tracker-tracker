@@ -129857,5 +129857,213 @@
     "openIssues": 1,
     "archived": false,
     "lastFetched": "2026-07-31T02:52:26.973Z"
+  },
+  {
+    "id": "Michael-she/claudeUsageTracker",
+    "name": "claudeUsageTracker",
+    "author": "Michael-she",
+    "repoURL": "https://github.com/Michael-she/claudeUsageTracker",
+    "description": "A tiny tracker to monitor claude usage",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "live-usage-overlay",
+      "5h-7d-limits",
+      "reset-countdown",
+      "system-tray-icon",
+      "amavadata-integration",
+      "multi-monitor-support"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-31T04:48:29Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-31T08:51:19.000Z"
+  },
+  {
+    "id": "macward/ClaudeUsageBar",
+    "name": "ClaudeUsageBar",
+    "author": "macward",
+    "repoURL": "https://github.com/macward/ClaudeUsageBar",
+    "description": "Monitor de consumo de Claude Code en la menu bar de macOS. Herramienta no oficial, no afiliada a Anthropic.",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "Session Key",
+      "Session Key",
+      "Session Key",
+      "Session Key",
+      "Session Key",
+      "Session Key",
+      "Session Key",
+      "Session Key",
+      "Session Key",
+      "Session Key",
+      "Session Key",
+      "Session Key",
+      "Session Key",
+      "Session Key",
+      "Session Key",
+      "Session Key",
+      "Session Key",
+      "Session Key",
+      "Session Key",
+      "Session Key",
+      "Session Key",
+      "Session Key"
+    ],
+    "features": [
+      "menu-bar-display",
+      "claude-code-usage",
+      "rate-limit-tracking",
+      "hourly-window-tracking",
+      "weekly-window-tracking",
+      "per-model-limits",
+      "keychain-integration"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-31T05:03:14Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-31T08:51:19.001Z"
+  },
+  {
+    "id": "Javis603/token-monitor",
+    "name": "token-monitor",
+    "author": "Javis603",
+    "repoURL": "https://github.com/Javis603/token-monitor",
+    "description": "Local-first desktop widget for tracking token usage, costs, and limits across 28+ AI coding tools—including Claude Code, Codex, Cursor, OpenCode, and OpenClaw—with multi-device sync.",
+    "category": "Electron/Desktop",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "API Key"
+    ],
+    "features": [
+      "multi-tool-tracking",
+      "token-usage-display",
+      "cost-breakdown",
+      "multi-device-sync",
+      "historical-trends",
+      "real-time-dashboard",
+      "28-plus-tools",
+      "session-details"
+    ],
+    "builtWithClaude": null,
+    "stars": 1060,
+    "lastCommitDate": "2026-07-31T08:37:02Z",
+    "openIssues": 38,
+    "archived": false,
+    "lastFetched": "2026-07-31T08:51:19.001Z"
+  },
+  {
+    "id": "haebomlab/clawd-statusline",
+    "name": "clawd-statusline",
+    "author": "haebomlab",
+    "repoURL": "https://github.com/haebomlab/clawd-statusline",
+    "description": "Claude Code 상태줄 올인원: Clawd 픽셀 마스코트 + 사용량 모니터링 + 반응형 레이아웃",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "clawd-mascot",
+      "context-gauge",
+      "token-monitor",
+      "session-timer",
+      "rolling-window-quota",
+      "weekly-quota",
+      "responsive-layout"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-31T08:39:08Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-31T08:51:19.001Z"
+  },
+  {
+    "id": "HusnainRazaGhaffar/claude-code-multibar",
+    "name": "claude-code-multibar",
+    "author": "HusnainRazaGhaffar",
+    "repoURL": "https://github.com/HusnainRazaGhaffar/claude-code-multibar",
+    "description": "Multi-bar bash statusline for Claude Code: context, session, weekly, promo-model, and extra-usage bars",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "OAuth Token",
+      "Session Key",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "context-window-bar",
+      "multi-provider-usage",
+      "session-cost",
+      "rate-limit-tracking",
+      "weekly-limits",
+      "model-detection"
+    ],
+    "builtWithClaude": true,
+    "stars": 2,
+    "lastCommitDate": "2026-07-31T07:12:10Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-31T08:51:19.001Z"
+  },
+  {
+    "id": "redlasha/usage-statusbar",
+    "name": "usage-statusbar",
+    "author": "redlasha",
+    "repoURL": "https://github.com/redlasha/usage-statusbar",
+    "description": "Claude Code statusline",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "OAuth Token",
+      "Session Cookie"
+    ],
+    "features": [
+      "context-usage-display",
+      "quota-tracking",
+      "5h-rolling-block",
+      "reset-countdown",
+      "multi-account",
+      "keychain-integration",
+      "cache-per-account"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-31T06:55:32Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-31T08:51:19.001Z"
   }
 ]
