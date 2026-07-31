@@ -382,5 +382,17 @@
     "reason": "This is an English learning coach that uses Claude for text analysis and breakdown, not a usage tracker—it does not display, measure, or report Claude usage metrics as a feature.",
     "confidence": 0.95,
     "rejectedAt": "2026-07-31T14:09:10.461Z"
+  },
+  {
+    "id": "hesreallyhim/ultracode-workflows",
+    "reason": "This is a workflow orchestration framework and plugin for Claude Code with live progress display, but does not track or report Claude usage (tokens, costs, quotas) as a feature — it is an orchestration tool, not a usage tracker.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-31T19:27:00.509Z"
+  },
+  {
+    "id": "AyeKarimba/ClaudeBar",
+    "reason": "ClaudeBar monitors Claude Code session states and terminal tabs rather than measuring Claude usage metrics like tokens, costs, or API quotas, so it does not qualify as a usage tracker despite being Claude-aware developer tooling.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-31T19:27:07.081Z"
   }
 ]
