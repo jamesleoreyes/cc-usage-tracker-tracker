@@ -364,5 +364,23 @@
     "reason": "This is a portable Claude Code configuration snapshot and installer—it exports settings, skills, and hooks but does not measure, display, or report Claude usage metrics; it is a setup/configuration tool, not a usage tracker.",
     "confidence": 0.95,
     "rejectedAt": "2026-07-31T02:52:12.877Z"
+  },
+  {
+    "id": "stefanoamorelli/claude-status-statusline",
+    "reason": "This project displays Claude service status in the statusline, not Claude usage metrics, so it does not qualify as a usage tracker.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-31T14:08:53.104Z"
+  },
+  {
+    "id": "bygelo/splaude",
+    "reason": "splaude is a dictation tool that uses Claude Code's speech endpoint but does not display, measure, or report Claude usage metrics as a feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-31T14:09:00.078Z"
+  },
+  {
+    "id": "Defiabell/screen-coach",
+    "reason": "This is an English learning coach that uses Claude for text analysis and breakdown, not a usage tracker—it does not display, measure, or report Claude usage metrics as a feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-31T14:09:10.461Z"
   }
 ]

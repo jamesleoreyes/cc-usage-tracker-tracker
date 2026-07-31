@@ -130066,5 +130066,296 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-07-31T08:51:19.001Z"
+  },
+  {
+    "id": "mikagosz/TokenTime",
+    "name": "TokenTime",
+    "author": "mikagosz",
+    "repoURL": "https://github.com/mikagosz/TokenTime",
+    "description": "macOS menu bar app that tracks when your Claude usage windows reset — multiple accounts, live countdowns, synced across your Macs via iCloud Drive. No network calls, no API.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [],
+    "features": [
+      "multi-account",
+      "live-countdowns",
+      "icloud-sync",
+      "menu-bar-display",
+      "reset-tracking",
+      "no-api-calls"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-31T13:53:40Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-31T14:09:21.363Z"
+  },
+  {
+    "id": "kchernev/claude-code-monitor",
+    "name": "claude-code-monitor",
+    "author": "kchernev",
+    "repoURL": "https://github.com/kchernev/claude-code-monitor",
+    "description": "Claude Code Monitor is a real-time dashboard for tracking Claude Code sessions, agents, and background tasks—showing what they’re doing, their status, activity, and resource/token usage in one place.",
+    "category": "Web Dashboard",
+    "platforms": [
+      "web"
+    ],
+    "language": "Unknown",
+    "authMethod": [],
+    "features": [
+      "real-time-sessions",
+      "token-usage",
+      "activity-monitoring",
+      "resource-tracking",
+      "agent-tracking"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-31T11:45:07Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-31T14:09:21.363Z"
+  },
+  {
+    "id": "chocolatechipscookiecrumbles/AgentUsageMonitor",
+    "name": "AgentUsageMonitor",
+    "author": "chocolatechipscookiecrumbles",
+    "repoURL": "https://github.com/chocolatechipscookiecrumbles/AgentUsageMonitor",
+    "description": "macOS menu-bar monitor for Codex and Claude Code quota windows and local token activity.",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "claude-code-quota",
+      "codex-quota",
+      "menu-bar-display",
+      "token-monitor",
+      "quota-alerts",
+      "reset-countdowns",
+      "privacy-first"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-07-31T11:01:55Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-31T14:09:21.363Z"
+  },
+  {
+    "id": "silverdolphin863/claude-code-meter",
+    "name": "claude-code-meter",
+    "author": "silverdolphin863",
+    "repoURL": "https://github.com/silverdolphin863/claude-code-meter",
+    "description": "Tray widget showing Claude Code and Codex rate-limit usage and burn pace. Windows, local-only, MIT.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "OAuth Token",
+      "JSONL Log Parsing",
+      "JSONL Log Parsing",
+      "JSONL Log Parsing",
+      "JSONL Log Parsing",
+      "JSONL Log Parsing",
+      "JSONL Log Parsing",
+      "JSONL Log Parsing",
+      "JSONL Log Parsing",
+      "JSONL Log Parsing",
+      "JSONL Log Parsing",
+      "JSONL Log Parsing",
+      "JSONL Log Parsing",
+      "JSONL Log Parsing",
+      "JSONL Log Parsing",
+      "JSONL Log Parsing",
+      "JSONL Log Parsing",
+      "JSONL Log Parsing",
+      "JSONL Log Parsing",
+      "JSONL Log Parsing",
+      "JSONL Log Parsing",
+      "JSONL Log Parsing",
+      "JSONL Log Parsing",
+      "JSONL Log Parsing",
+      "JSONL Log Parsing",
+      "JSONL Log Parsing",
+      "JSONL Log Parsing",
+      "JSONL Log Parsing",
+      "JSONL Log Parsing",
+      "JSONL Log Parsing",
+      "JSONL Log Parsing",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "rate-limit-burn",
+      "burn-pace",
+      "multi-limit-windows",
+      "codex-tracking",
+      "claude-code-tracking",
+      "local-only",
+      "tray-widget",
+      "reset-countdown"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-31T12:35:21Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-31T14:09:21.363Z"
+  },
+  {
+    "id": "ludovicm67/ClaudeBar",
+    "name": "ClaudeBar",
+    "author": "ludovicm67",
+    "repoURL": "https://github.com/ludovicm67/ClaudeBar",
+    "description": "macOS menu bar app for Claude Code: usage at a glance, and which sessions are waiting on you",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Session Key",
+      "Traffic Capture"
+    ],
+    "features": [
+      "burn-rate-alerts",
+      "daily-weekly-stats",
+      "per-model-split",
+      "live-sessions",
+      "window-focus",
+      "usage-notifications"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-31T13:53:50Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-31T14:09:21.363Z"
+  },
+  {
+    "id": "iamroyce007/windowsill",
+    "name": "windowsill",
+    "author": "iamroyce007",
+    "repoURL": "https://github.com/iamroyce007/windowsill",
+    "description": "Live countdown of your Claude 5-hour usage window, in the macOS menu bar and Windows taskbar. Auto-opens the next window when it resets.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos",
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "OAuth Token",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "five-hour-window-countdown",
+      "auto-re-arm",
+      "menu-bar-display",
+      "taskbar-display",
+      "oauth-endpoint",
+      "statusline-hook"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-31T13:54:41Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-31T14:09:21.363Z"
+  },
+  {
+    "id": "iwan-uschka/claude-stats",
+    "name": "claude-stats",
+    "author": "iwan-uschka",
+    "repoURL": "https://github.com/iwan-uschka/claude-stats",
+    "description": "Lightweight macOS menu bar utility that tracks your Claude token usage in real time.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Unknown",
+    "authMethod": [],
+    "features": [
+      "real-time-tracking",
+      "token-counting",
+      "menu-bar-display"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-31T11:16:53Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-31T14:09:21.363Z"
+  },
+  {
+    "id": "Vydyam/claude-token-tracker",
+    "name": "claude-token-tracker",
+    "author": "Vydyam",
+    "repoURL": "https://github.com/Vydyam/claude-token-tracker",
+    "description": "Browser extension to track cloud token usage in real-time",
+    "category": "Browser Extension",
+    "platforms": [
+      "web",
+      "chromium",
+      "firefox"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "real-time-tracking",
+      "token-usage",
+      "cloud-token-analytics"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-31T13:59:41Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-31T14:09:21.363Z"
+  },
+  {
+    "id": "Bilal-Bjo/tokiburn-ai-usage",
+    "name": "tokiburn-ai-usage",
+    "author": "Bilal-Bjo",
+    "repoURL": "https://github.com/Bilal-Bjo/tokiburn-ai-usage",
+    "description": "Native macOS dashboard for private, local AI coding-agent usage",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Traffic Capture"
+    ],
+    "features": [
+      "cost-estimation",
+      "provider-mix",
+      "daily-activity",
+      "trailing-year",
+      "dark-mode",
+      "local-first",
+      "privacy-focused"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-31T12:39:53Z",
+    "openIssues": 1,
+    "archived": false,
+    "lastFetched": "2026-07-31T14:09:21.363Z"
   }
 ]
