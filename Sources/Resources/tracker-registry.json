@@ -129669,5 +129669,187 @@
     "openIssues": 1,
     "archived": false,
     "lastFetched": "2026-07-30T14:04:34.766Z"
+  },
+  {
+    "id": "andres311/claude-usage-bar",
+    "name": "claude-usage-bar",
+    "author": "andres311",
+    "repoURL": "https://github.com/andres311/claude-usage-bar",
+    "description": "macOS menu bar app showing Claude Code usage (5-hour session, weekly and per-model limits, extra-usage credits) plus how many Claude Code agents are running locally. Swift, no dependencies.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "session-limit-display",
+      "weekly-limit-tracking",
+      "per-model-limits",
+      "agent-activity-monitor",
+      "extra-usage-credits",
+      "memory-tracking"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-31T02:42:20Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-31T02:52:26.973Z"
+  },
+  {
+    "id": "itchy-kingdom684/hachiko-usage",
+    "name": "hachiko-usage",
+    "author": "itchy-kingdom684",
+    "repoURL": "https://github.com/itchy-kingdom684/hachiko-usage",
+    "description": "Monitor your Claude Code session and weekly usage limits with a desktop companion that sits on your taskbar.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Unknown",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "session-usage-tracking",
+      "weekly-rate-limits",
+      "desktop-pet-ui",
+      "real-time-updates",
+      "usage-alerts"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-30T20:42:58Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-31T02:52:26.973Z"
+  },
+  {
+    "id": "avenoxai/avenoxstatusline",
+    "name": "avenoxstatusline",
+    "author": "avenoxai",
+    "repoURL": "https://github.com/avenoxai/avenoxstatusline",
+    "description": "Two-line Claude Code status line with a state-driven ASCII pet. 132 lines of bash, no npm.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Traffic Capture"
+    ],
+    "features": [
+      "context-usage",
+      "rate-limit-tracking",
+      "session-monitoring",
+      "animated-pet",
+      "effort-indicator",
+      "contextual-alerts"
+    ],
+    "builtWithClaude": null,
+    "stars": 4,
+    "lastCommitDate": "2026-07-30T21:43:26Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-31T02:52:26.973Z"
+  },
+  {
+    "id": "Siriko404/claude-scribe",
+    "name": "claude-scribe",
+    "author": "Siriko404",
+    "repoURL": "https://github.com/Siriko404/claude-scribe",
+    "description": "Stronghold Crusader's scribe as a desktop advisor panel for Claude Code: his face tracks your 7-day rate limit, he animates on session events, answers in the old tongue, and you can pelt him with a tomato",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "rate-limit-tracking",
+      "5-hour-limit",
+      "7-day-limit",
+      "session-events",
+      "always-on-top",
+      "coin-visualization",
+      "persona-responses",
+      "gamified-display"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-31T02:38:55Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-31T02:52:26.973Z"
+  },
+  {
+    "id": "devunis/usagebar",
+    "name": "usagebar",
+    "author": "devunis",
+    "repoURL": "https://github.com/devunis/usagebar",
+    "description": "Native macOS menu bar app for OpenAI, Claude, and Gemini API usage",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key",
+      "JSONL Log Parsing",
+      "OAuth Token"
+    ],
+    "features": [
+      "multi-provider",
+      "rate-limit-display",
+      "quota-tracking",
+      "configurable-refresh",
+      "plan-details"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-31T02:50:17Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-07-31T02:52:26.973Z"
+  },
+  {
+    "id": "Sabeekhann/cc-token-meter",
+    "name": "cc-token-meter",
+    "author": "Sabeekhann",
+    "repoURL": "https://github.com/Sabeekhann/cc-token-meter",
+    "description": "Local-only CLI + dashboard for Claude Code token usage, cost estimates, and waste-reduction tips. 100% local, no telemetry.",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "token-usage",
+      "cost-estimates",
+      "per-project-breakdown",
+      "budget-caps",
+      "waste-reduction-tips",
+      "live-dashboard",
+      "json-export",
+      "offline"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-30T21:42:35Z",
+    "openIssues": 1,
+    "archived": false,
+    "lastFetched": "2026-07-31T02:52:26.973Z"
   }
 ]

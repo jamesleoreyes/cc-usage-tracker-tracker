@@ -358,5 +358,11 @@
     "reason": "AIR is a load balancer and router for AI coding agents that switches between providers on failure/rate-limit, but does not display, measure, or report Claude usage as a feature—it orchestrates execution without a usage dashboard.",
     "confidence": 0.95,
     "rejectedAt": "2026-07-30T19:28:46.427Z"
+  },
+  {
+    "id": "vtion001/claude-setup",
+    "reason": "This is a portable Claude Code configuration snapshot and installer—it exports settings, skills, and hooks but does not measure, display, or report Claude usage metrics; it is a setup/configuration tool, not a usage tracker.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-07-31T02:52:12.877Z"
   }
 ]
