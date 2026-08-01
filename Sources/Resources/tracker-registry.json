@@ -131227,5 +131227,308 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-01T13:22:40.099Z"
+  },
+  {
+    "id": "arshitP/claude-usage-limit-handoff",
+    "name": "claude-usage-limit-handoff",
+    "author": "arshitP",
+    "repoURL": "https://github.com/arshitP/claude-usage-limit-handoff",
+    "description": "Claude Code skill: monitors session/weekly/context usage, warns at 90%, auto-creates a structured handoff at 95% so work survives usage limits",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Python",
+    "authMethod": [],
+    "features": [
+      "session-usage-monitor",
+      "weekly-usage-monitor",
+      "context-window-usage",
+      "threshold-alerts",
+      "structured-handoff",
+      "auto-recovery"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-01T16:22:33Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-01T19:09:44.290Z"
+  },
+  {
+    "id": "tousif101/meter",
+    "name": "meter",
+    "author": "tousif101",
+    "repoURL": "https://github.com/tousif101/meter",
+    "description": "Local-first menu bar usage monitor for Claude Code & Codex — realtime burn rate and time-to-limit",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "realtime-burn-rate",
+      "time-to-limit",
+      "menu-bar-display",
+      "multi-provider",
+      "session-parsing",
+      "cost-usd-tracking",
+      "5hour-billing-blocks",
+      "local-first"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-01T18:33:48Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-01T19:09:44.290Z"
+  },
+  {
+    "id": "ychsieh95/claude-codex-usage-companion",
+    "name": "claude-codex-usage-companion",
+    "author": "ychsieh95",
+    "repoURL": "https://github.com/ychsieh95/claude-codex-usage-companion",
+    "description": "A local, open-source usage monitor for Claude Code and Codex on Linux.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "linux"
+    ],
+    "language": "C#",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "claude-usage-display",
+      "codex-usage-display",
+      "always-on-top-overlay",
+      "cli-scriptable",
+      "multi-language",
+      "settings-window",
+      "system-tray",
+      "usage-logging"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-01T13:38:01Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-01T19:09:44.290Z"
+  },
+  {
+    "id": "noluyorAbi/cockpit-claude",
+    "name": "cockpit-claude",
+    "author": "noluyorAbi",
+    "repoURL": "https://github.com/noluyorAbi/cockpit-claude",
+    "description": "A four-line statusline for Claude Code: usable context, burn rate, rate-limit pace projection, cross-session pool.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "context-window-tracking",
+      "burn-rate-alerts",
+      "rate-limit-projection",
+      "multi-session-pool",
+      "cost-monitoring",
+      "usable-context",
+      "git-integration",
+      "configurable-segments"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-01T17:42:35Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-01T19:09:44.290Z"
+  },
+  {
+    "id": "raghnallp-hub/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "raghnallp-hub",
+    "repoURL": "https://github.com/raghnallp-hub/claude-code-statusline",
+    "description": "Cross-platform Python statusline for Claude Code: model, context %, cost, rate limits, git status, voice mode, and directory info",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Session Cookie",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "context-usage-percentage",
+      "cost-tracking",
+      "rate-limit-display",
+      "voice-mode-indicator",
+      "git-integration",
+      "color-coded-thresholds"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-01T16:16:04Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-01T19:09:44.290Z"
+  },
+  {
+    "id": "mikulgohil/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "mikulgohil",
+    "repoURL": "https://github.com/mikulgohil/claude-code-statusline",
+    "description": "Fast, information-dense two-line status line for Claude Code: model, effort, context usage, token counts, cache-hit rate, git state, and rate-limit windows with reset countdowns and burn-rate forecast.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "claude-code-native",
+      "context-usage",
+      "token-counts",
+      "rate-limit-tracking",
+      "burn-rate-forecast",
+      "cache-hit-rate",
+      "two-line-display",
+      "git-integration"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-01T13:48:02Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-01T19:09:44.290Z"
+  },
+  {
+    "id": "alexseymer/sluice",
+    "name": "sluice",
+    "author": "alexseymer",
+    "repoURL": "https://github.com/alexseymer/sluice",
+    "description": "Privacy-first orchestrator that paces AI coding CLI work (Claude Code, Codex, Cursor, Agy) across the day to stay under rate limits — plans via chat, tracks work as Git issues.",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "Unknown",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "rate-limit-pacing",
+      "multi-provider",
+      "work-scheduling",
+      "git-issue-integration",
+      "async-notifications"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-01T16:52:18Z",
+    "openIssues": 1,
+    "archived": false,
+    "lastFetched": "2026-08-01T19:09:44.290Z"
+  },
+  {
+    "id": "kirillyar/claude_limit_box",
+    "name": "claude_limit_box",
+    "author": "kirillyar",
+    "repoURL": "https://github.com/kirillyar/claude_limit_box",
+    "description": "Claude Code rate-limit usage on an ESP32 screen",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "rate-limit-display",
+      "5-hour-window",
+      "7-day-window",
+      "reset-countdown",
+      "esp32-hardware",
+      "local-network",
+      "statusline-integration"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-01T15:29:19Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-01T19:09:44.290Z"
+  },
+  {
+    "id": "rafahsilvestre/ClaudeStatus",
+    "name": "ClaudeStatus",
+    "author": "rafahsilvestre",
+    "repoURL": "https://github.com/rafahsilvestre/ClaudeStatus",
+    "description": "Monitor de menu bar do Claude Code para macOS 13+ — uso do plano, custo, tokens e sessoes travadas. Sem servidor, sem daemon, sem dependencias.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "menu-bar-monitor",
+      "token-usage",
+      "cost-tracking",
+      "rate-limits",
+      "no-server",
+      "local-only",
+      "keychain-secure",
+      "jsonl-parsing"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-01T17:08:35Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-01T19:09:44.290Z"
+  },
+  {
+    "id": "bnbliss/tokenly",
+    "name": "tokenly",
+    "author": "bnbliss",
+    "repoURL": "https://github.com/bnbliss/tokenly",
+    "description": "macOS menu bar app to monitor your Claude API usage",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "monitor-claude-usage",
+      "menu-bar-app"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-01T16:20:45Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-01T19:09:44.290Z"
   }
 ]
