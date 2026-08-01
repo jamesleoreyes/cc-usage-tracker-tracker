@@ -130699,5 +130699,215 @@
     "openIssues": 1,
     "archived": false,
     "lastFetched": "2026-07-31T19:27:14.631Z"
+  },
+  {
+    "id": "wacomapua/claude-usage-macos",
+    "name": "claude-usage-macos",
+    "author": "wacomapua",
+    "repoURL": "https://github.com/wacomapua/claude-usage-macos",
+    "description": "widget for macOS that tracks Claude usage",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "multi-account",
+      "session-limits",
+      "weekly-limits",
+      "per-model-limits",
+      "extra-spend-tracking",
+      "live-usage-api",
+      "transcript-parsing",
+      "hourly-burn-history"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-01T02:37:04Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-01T02:51:01.350Z"
+  },
+  {
+    "id": "andrewjhahm/claude-usage-monitor",
+    "name": "claude-usage-monitor",
+    "author": "andrewjhahm",
+    "repoURL": "https://github.com/andrewjhahm/claude-usage-monitor",
+    "description": "Chrome extension that surfaces Claude plan limits, credit balances, and burn-rate projections in the browser toolbar.",
+    "category": "Browser Extension",
+    "platforms": [
+      "chromium"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "session-window-tracking",
+      "weekly-limit-display",
+      "credit-balance-monitoring",
+      "burn-rate-projections",
+      "fable5-tracking",
+      "local-history-snapshots",
+      "desktop-notifications",
+      "pace-alerts"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-31T22:38:28Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-01T02:51:01.350Z"
+  },
+  {
+    "id": "junaiddshaukat/tkntracker",
+    "name": "tkntracker",
+    "author": "junaiddshaukat",
+    "repoURL": "https://github.com/junaiddshaukat/tkntracker",
+    "description": "Local-first AI token usage tracker for Claude Code, Codex, Cursor, Grok, OpenCode & 20+ agents. One command: tkntracker web",
+    "category": "Web Dashboard",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux",
+      "web"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Traffic Capture",
+      "API Key"
+    ],
+    "features": [
+      "multi-provider-tracker",
+      "local-first",
+      "token-deduplication",
+      "cost-estimation",
+      "24-tools-supported",
+      "cli-reports",
+      "sqlite-storage",
+      "privacy-first"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-01T00:07:18Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-01T02:51:01.350Z"
+  },
+  {
+    "id": "ashcornette/claudius",
+    "name": "claudius",
+    "author": "ashcornette",
+    "repoURL": "https://github.com/ashcornette/claudius",
+    "description": "Mac menu bar app that tracks Claude Code CLI usage — tokens, costs, and energy impact.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "token-tracking",
+      "cost-estimation",
+      "energy-impact",
+      "threshold-alerts",
+      "live-updates",
+      "multi-token-breakdown"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-31T21:54:21Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-01T02:51:01.350Z"
+  },
+  {
+    "id": "h2appy/cc-statusline",
+    "name": "cc-statusline",
+    "author": "h2appy",
+    "repoURL": "https://github.com/h2appy/cc-statusline",
+    "description": "Displays Claude Code's real-time status in the status bar and enables auto-continue.",
+    "category": "Statusline",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Unknown",
+    "authMethod": [],
+    "features": [
+      "real-time-status",
+      "auto-continue"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-01T02:26:28Z",
+    "openIssues": 1,
+    "archived": false,
+    "lastFetched": "2026-08-01T02:51:01.350Z"
+  },
+  {
+    "id": "capitulinojr/claude-statusline",
+    "name": "claude-statusline",
+    "author": "capitulinojr",
+    "repoURL": "https://github.com/capitulinojr/claude-statusline",
+    "description": "Two-line status line for Claude Code. Colour comes from pace, not raw value. One file, stdlib only.",
+    "category": "Statusline",
+    "platforms": [
+      "web"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "usage-display",
+      "token-tracking",
+      "quota-monitoring",
+      "session-tracking",
+      "context-monitor",
+      "burn-rate-visualization",
+      "5h-window",
+      "weekly-quota"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-31T22:55:04Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-01T02:51:01.350Z"
+  },
+  {
+    "id": "Shubhamgupta2612/claude-fleet",
+    "name": "claude-fleet",
+    "author": "Shubhamgupta2612",
+    "repoURL": "https://github.com/Shubhamgupta2612/claude-fleet",
+    "description": "macOS menu bar app that shows your Claude Code sessions (local + remote over SSH), grouped by repo, so you can see which one is waiting on you",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "claude-code-sessions",
+      "menu-bar-display",
+      "ssh-remote-monitoring",
+      "permission-prompts",
+      "repo-grouping",
+      "activity-states"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-07-31T23:40:47Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-01T02:51:01.350Z"
   }
 ]
