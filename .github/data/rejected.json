@@ -394,5 +394,17 @@
     "reason": "ClaudeBar monitors Claude Code session states and terminal tabs rather than measuring Claude usage metrics like tokens, costs, or API quotas, so it does not qualify as a usage tracker despite being Claude-aware developer tooling.",
     "confidence": 0.95,
     "rejectedAt": "2026-07-31T19:27:07.081Z"
+  },
+  {
+    "id": "SebastienGosa/retriever-client",
+    "reason": "Retriever is an affiliate cashback service with Claude Code integration points (statusline, hooks), not a Claude usage tracker—it monitors purchases and offers, not Claude tokens or costs.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-01T13:22:37.537Z"
+  },
+  {
+    "id": "a0s/claude-retrier",
+    "reason": "This is a rate-limit recovery wrapper that auto-resumes Claude sessions, but does not display, measure, or report usage as a feature—it only detects and bypasses limits.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-01T13:22:40.099Z"
   }
 ]

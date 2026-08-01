@@ -131102,5 +131102,127 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-01T08:22:35.442Z"
+  },
+  {
+    "id": "thijstijsma/llm-usage-monitor",
+    "name": "llm-usage-monitor",
+    "author": "thijstijsma",
+    "repoURL": "https://github.com/thijstijsma/llm-usage-monitor",
+    "description": "A lightweight Windows tray app for monitoring Claude Code and Codex usage",
+    "category": "Statusline",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "OAuth Token",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "pace-bars",
+      "5h-7d-windows",
+      "claude-code-codex",
+      "taskbar-widget",
+      "wsl-support",
+      "multi-monitor"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-01T13:18:11Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-01T13:22:40.099Z"
+  },
+  {
+    "id": "dotexocz/ai-usage",
+    "name": "ai-usage",
+    "author": "dotexocz",
+    "repoURL": "https://github.com/dotexocz/ai-usage",
+    "description": "Native macOS menu bar app for tracking Claude / Claude Code usage — official limits, local stats, cost estimates, and native widgets. Not affiliated with Anthropic.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "Traffic Capture",
+      "JSONL Log Parsing",
+      "API Key"
+    ],
+    "features": [
+      "usage-dashboard",
+      "token-tracking",
+      "cost-estimates",
+      "rate-limit-monitoring",
+      "native-widgets",
+      "cache-efficiency",
+      "multi-model-stats",
+      "threshold-alerts"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-01T13:19:05Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-01T13:22:40.099Z"
+  },
+  {
+    "id": "int128/cca-usage-action",
+    "name": "cca-usage-action",
+    "author": "int128",
+    "repoURL": "https://github.com/int128/cca-usage-action",
+    "description": "Track claude-code-action usage in GitHub project",
+    "category": "Raycast Extension",
+    "platforms": [
+      "web"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "API Key",
+      "Session Key"
+    ],
+    "features": [
+      "claude-code-action-track",
+      "cumulative-cost",
+      "cumulative-calls",
+      "last-called-date",
+      "cost-usd",
+      "call-count"
+    ],
+    "builtWithClaude": null,
+    "stars": 1,
+    "lastCommitDate": "2026-08-01T13:02:23Z",
+    "openIssues": 2,
+    "archived": false,
+    "lastFetched": "2026-08-01T13:22:40.099Z"
+  },
+  {
+    "id": "Gui-Gou/claude-statusline-burnrate",
+    "name": "claude-statusline-burnrate",
+    "author": "Gui-Gou",
+    "repoURL": "https://github.com/Gui-Gou/claude-statusline-burnrate",
+    "description": "Stop opening /usage — a Claude Code status line that does the weekly-limit math: today's share, sustainable burn rate, sleep-aware pacing. Pure bash + jq.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "burn-rate-calculation",
+      "sleep-aware-pacing",
+      "weekly-limit-math",
+      "statusline-integration",
+      "real-time-rates"
+    ],
+    "builtWithClaude": true,
+    "stars": 4,
+    "lastCommitDate": "2026-08-01T10:01:26Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-01T13:22:40.099Z"
   }
 ]
