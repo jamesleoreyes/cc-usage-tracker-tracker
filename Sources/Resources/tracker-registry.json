@@ -130918,5 +130918,189 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-01T02:51:01.350Z"
+  },
+  {
+    "id": "ipokmon/claude-usage-widget",
+    "name": "claude-usage-widget",
+    "author": "ipokmon",
+    "repoURL": "https://github.com/ipokmon/claude-usage-widget",
+    "description": "MacOS Wdiget to show Claude code usage",
+    "category": "Übersicht Widget",
+    "platforms": [
+      "macos"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Session Cookie",
+      "Session Cookie"
+    ],
+    "features": [
+      "claude-usage-display",
+      "animated-character",
+      "rate-limit-monitoring",
+      "multi-metric-tracking",
+      "local-cache",
+      "manual-fallback",
+      "launchd-polling"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-01T05:39:38Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-01T08:22:35.442Z"
+  },
+  {
+    "id": "xorica27/ClaudePulse",
+    "name": "ClaudePulse",
+    "author": "xorica27",
+    "repoURL": "https://github.com/xorica27/ClaudePulse",
+    "description": "ClaudePulse is a macOS menu bar app for watching Claude usage locally",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Browser Cookie Auto-detect",
+      "Session Key",
+      "OpenTelemetry"
+    ],
+    "features": [
+      "menu-bar-display",
+      "local-usage-endpoint",
+      "5h-and-weekly-windows",
+      "reset-time",
+      "plan-label",
+      "diagnostics",
+      "notifications",
+      "multi-language"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-01T04:40:22Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-01T08:22:35.442Z"
+  },
+  {
+    "id": "santhoshunt/claudecode-radar",
+    "name": "claudecode-radar",
+    "author": "santhoshunt",
+    "repoURL": "https://github.com/santhoshunt/claudecode-radar",
+    "description": "Local dashboard for Claude Code sessions on Windows. See what's running now, resume lost terminal sessions, search every transcript, track token usage. Pure JDK, zero dependencies, loopback-only.",
+    "category": "Web Dashboard",
+    "platforms": [
+      "windows",
+      "web"
+    ],
+    "language": "Java",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "session-browser",
+      "transcript-search",
+      "token-stats",
+      "live-status",
+      "resume-commands",
+      "activity-strip",
+      "multi-surface-view"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-01T05:56:32Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-01T08:22:35.442Z"
+  },
+  {
+    "id": "khanhnguyendev/cc-statusline",
+    "name": "cc-statusline",
+    "author": "khanhnguyendev",
+    "repoURL": "https://github.com/khanhnguyendev/cc-statusline",
+    "description": "Two-line Claude Code statusline: context, cost, burn rate, 5h block and weekly quota progress bars",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "macos"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "OAuth Token"
+    ],
+    "features": [
+      "context-progress-bar",
+      "cost-display",
+      "burn-rate-hourly",
+      "daily-cost-tracking",
+      "weekly-quota-progress",
+      "5h-block-timer",
+      "session-cost"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-01T04:56:01Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-01T08:22:35.442Z"
+  },
+  {
+    "id": "softwiredau/claude-statusline",
+    "name": "claude-statusline",
+    "author": "softwiredau",
+    "repoURL": "https://github.com/softwiredau/claude-statusline",
+    "description": "Claude Code status line: context usage, cost, rate limits, and plan-progress ticker.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "context-usage-bar",
+      "cost-tracking",
+      "rate-limit-display",
+      "plan-progress-ticker",
+      "effort-level",
+      "multi-segment-display"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-01T04:24:15Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-01T08:22:35.442Z"
+  },
+  {
+    "id": "Gui-Gou/claude-quota-cat",
+    "name": "claude-quota-cat",
+    "author": "Gui-Gou",
+    "repoURL": "https://github.com/Gui-Gou/claude-quota-cat",
+    "description": "A Claude Code status line with a cat that panics as you burn your weekly limit. Pure bash+jq, real rate_limits data, sleep-aware pacing.",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "weekly-quota-display",
+      "burn-rate-tracking",
+      "context-window-usage",
+      "5h-rate-limit",
+      "sleep-aware-pacing",
+      "animated-cat-ui",
+      "real-time-status"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-01T07:54:11Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-01T08:22:35.442Z"
   }
 ]
