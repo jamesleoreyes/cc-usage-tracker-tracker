@@ -131894,5 +131894,210 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-02T08:25:52.347Z"
+  },
+  {
+    "id": "norbertgodany/ng-claude-statusline",
+    "name": "ng-claude-statusline",
+    "author": "norbertgodany",
+    "repoURL": "https://github.com/norbertgodany/ng-claude-statusline",
+    "description": "Claude Code status line for PowerShell: context usage, 5h/7d rate-limit budgets with countdowns, and git state",
+    "category": "Statusline",
+    "platforms": [
+      "windows"
+    ],
+    "language": "PowerShell",
+    "authMethod": [
+      "OpenTelemetry"
+    ],
+    "features": [
+      "context-usage-display",
+      "rate-limit-budgets",
+      "countdown-timers",
+      "5h-7d-windows",
+      "git-state",
+      "ansi-coloring"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-02T12:02:45Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-02T13:22:55.253Z"
+  },
+  {
+    "id": "braxhughes/claude-pool",
+    "name": "claude-pool",
+    "author": "braxhughes",
+    "repoURL": "https://github.com/braxhughes/claude-pool",
+    "description": "A Claude Code status line that tells you WHEN TO SWITCH accounts — before you hit a wall mid-task, not after.",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "rate-limit-alerts",
+      "multi-account-detection",
+      "usage-pool-warnings",
+      "account-switching-advice",
+      "5h-pool-tracking",
+      "weekly-quota-display"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-02T10:45:54Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-02T13:22:55.253Z"
+  },
+  {
+    "id": "riccardo-enr/claude-statusline",
+    "name": "claude-statusline",
+    "author": "riccardo-enr",
+    "repoURL": "https://github.com/riccardo-enr/claude-statusline",
+    "description": "Minimal Claude Code status line: context remaining and model, in one bash script",
+    "category": "Statusline",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "OpenTelemetry"
+    ],
+    "features": [
+      "context-remaining",
+      "model-display",
+      "burn-rate-alerts"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-02T09:16:11Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-02T13:22:55.253Z"
+  },
+  {
+    "id": "vickipetrova/headroom",
+    "name": "headroom",
+    "author": "vickipetrova",
+    "repoURL": "https://github.com/vickipetrova/headroom",
+    "description": "Claude Code usage in your macOS menu bar — session %, weekly %, reset times",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "session-usage-percent",
+      "weekly-usage-percent",
+      "reset-time-countdown",
+      "model-limits",
+      "configurable-refresh"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-02T13:13:09Z",
+    "openIssues": 6,
+    "archived": false,
+    "lastFetched": "2026-08-02T13:22:55.253Z"
+  },
+  {
+    "id": "Fvulcan/DevLimit",
+    "name": "DevLimit",
+    "author": "Fvulcan",
+    "repoURL": "https://github.com/Fvulcan/DevLimit",
+    "description": "    macOS menu bar app that displays remaining Codex and Claude Code usage limits",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "claude-code-limits",
+      "codex-limits",
+      "session-window",
+      "weekly-window",
+      "menu-bar-display",
+      "hover-details",
+      "multi-language",
+      "customizable-ui"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-02T13:06:42Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-02T13:22:55.253Z"
+  },
+  {
+    "id": "yutat23/usagebat",
+    "name": "usagebat",
+    "author": "yutat23",
+    "repoURL": "https://github.com/yutat23/usagebat",
+    "description": "Claude Code and Codex usage limits in your menu bar",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "windows"
+    ],
+    "language": "Go",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "claude-and-codex",
+      "rate-limit-display",
+      "battery-indicator",
+      "multiple-profiles",
+      "tray-menu",
+      "reset-times"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-02T10:44:28Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-02T13:22:55.253Z"
+  },
+  {
+    "id": "ka-takahashi-dev/claude-code-usage-guard",
+    "name": "claude-code-usage-guard",
+    "author": "ka-takahashi-dev",
+    "repoURL": "https://github.com/ka-takahashi-dev/claude-code-usage-guard",
+    "description": "Stop Claude Code before it burns your last few percent of subscription quota, then auto-resume the exact session in the same live terminal when the limit resets.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "OpenTelemetry"
+    ],
+    "features": [
+      "rate-limit-blocking",
+      "auto-resume",
+      "quota-guard",
+      "multi-platform",
+      "event-driven-timer",
+      "same-terminal-resume"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-02T10:20:16Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-02T13:22:55.253Z"
   }
 ]
