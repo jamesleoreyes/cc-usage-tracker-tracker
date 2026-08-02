@@ -418,5 +418,11 @@
     "reason": "This is a configuration tool and visual builder for Claude Code features (statusline, settings), not a usage tracker—it generates Claude Code configs but does not display, measure, or report Claude usage metrics.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-02T02:50:03.459Z"
+  },
+  {
+    "id": "twjohnwu/phosphorflux",
+    "reason": "phosphorflux is a statusline renderer for Claude Code that displays visual themes but does not measure, track, or report Claude usage metrics like tokens, costs, or rate limits.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-02T19:11:44.230Z"
   }
 ]

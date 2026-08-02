@@ -132107,5 +132107,307 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-02T13:22:55.253Z"
+  },
+  {
+    "id": "ocodista/claude-usage",
+    "name": "claude-usage",
+    "author": "ocodista",
+    "repoURL": "https://github.com/ocodista/claude-usage",
+    "description": "A live dashboard that reads Claude Code’s local files, tracks token usage by project and session, and estimates what you would pay using API pricing.",
+    "category": "Web Dashboard",
+    "platforms": [
+      "macos",
+      "web"
+    ],
+    "language": "HTML",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "token-usage-tracking",
+      "cost-estimation",
+      "session-aggregation",
+      "project-breakdown",
+      "activity-analytics",
+      "cache-savings",
+      "live-updates",
+      "menu-bar-companion"
+    ],
+    "builtWithClaude": null,
+    "stars": 22,
+    "lastCommitDate": "2026-08-02T17:24:52Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-02T19:11:58.239Z"
+  },
+  {
+    "id": "dxny-aep/claude-limits",
+    "name": "claude-limits",
+    "author": "dxny-aep",
+    "repoURL": "https://github.com/dxny-aep/claude-limits",
+    "description": "Live Claude usage limits in your macOS menu bar — 5-hour and weekly, covering Claude chat, Cowork and Claude Code. No internet, no API keys, reads only local files.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "menu-bar-display",
+      "floating-pill",
+      "rate-limit-alerts",
+      "multi-account",
+      "offline-mode",
+      "token-accounting"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-02T18:29:11Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-02T19:11:58.239Z"
+  },
+  {
+    "id": "JackViewLand/claude-usage-bar",
+    "name": "claude-usage-bar",
+    "author": "JackViewLand",
+    "repoURL": "https://github.com/JackViewLand/claude-usage-bar",
+    "description": "mac 資訊欄顯示 claude usage bar",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "OAuth Token",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "usage-percentage",
+      "rate-limit-display",
+      "multi-account",
+      "color-coded-alerts",
+      "keychain-auth",
+      "desktop-cli-support"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-02T13:59:06Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-02T19:11:58.239Z"
+  },
+  {
+    "id": "chieeeeno/claude-statusline",
+    "name": "claude-statusline",
+    "author": "chieeeeno",
+    "repoURL": "https://github.com/chieeeeno/claude-statusline",
+    "description": "A fast, dependency-free status line for Claude Code. Shows context, rate limits, and cost. Renders in Python - no Node at render time.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Python",
+    "authMethod": [],
+    "features": [
+      "context-usage-bars",
+      "rate-limit-windows",
+      "cost-tracking",
+      "model-display",
+      "dependency-free"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-02T16:51:40Z",
+    "openIssues": 1,
+    "archived": false,
+    "lastFetched": "2026-08-02T19:11:58.239Z"
+  },
+  {
+    "id": "jcsuen/claude-limits-statusline",
+    "name": "claude-limits-statusline",
+    "author": "jcsuen",
+    "repoURL": "https://github.com/jcsuen/claude-limits-statusline",
+    "description": "Claude Code statusline showing your real 5-hour and weekly usage limits — live, colored, four styles",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "real-time-limits",
+      "5-hour-window",
+      "weekly-quota",
+      "context-window",
+      "color-alerts",
+      "four-styles"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-02T15:44:50Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-02T19:11:58.239Z"
+  },
+  {
+    "id": "letungq/claude-usage-gadget",
+    "name": "claude-usage-gadget",
+    "author": "letungq",
+    "repoURL": "https://github.com/letungq/claude-usage-gadget",
+    "description": "Gadget taskbar Windows 11 hien % usage limit cua Claude Code (cua so 5 gio va 7 ngay), lay so lieu qua cau noi statusLine",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "API Key",
+      "OAuth Token",
+      "Session Key"
+    ],
+    "features": [
+      "usage-display",
+      "5h-7d-windows",
+      "rate-limit-tracking",
+      "taskbar-overlay",
+      "statusline-integration",
+      "visual-alerts",
+      "reset-countdown"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-02T14:06:29Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-02T19:11:58.239Z"
+  },
+  {
+    "id": "ThinkVelta/agent-tracker",
+    "name": "agent-tracker",
+    "author": "ThinkVelta",
+    "repoURL": "https://github.com/ThinkVelta/agent-tracker",
+    "description": "Know which AI coding session needs you, without hunting through terminals. A macOS menu bar app for Claude Code and Codex.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "claude-code-tracking",
+      "codex-tracking",
+      "session-state-display",
+      "click-to-focus",
+      "per-dot-filtering",
+      "menubar-icon",
+      "multi-agent"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-02T15:33:04Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-02T19:11:58.239Z"
+  },
+  {
+    "id": "yuduanliao-pixel/ai-usage",
+    "name": "ai-usage",
+    "author": "yuduanliao-pixel",
+    "repoURL": "https://github.com/yuduanliao-pixel/ai-usage",
+    "description": "Zero-network macOS menu bar app tracking Codex & Claude quota — reads only local files, never calls provider APIs. 零網路的 Codex/Claude 額度追蹤選單列 app",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "codex-tracking",
+      "claude-quota-monitoring",
+      "zero-network",
+      "menubar-app",
+      "widgets",
+      "read-only",
+      "local-files"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-02T15:28:39Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-02T19:11:58.239Z"
+  },
+  {
+    "id": "tbobm/dont-burn-it-all",
+    "name": "dont-burn-it-all",
+    "author": "tbobm",
+    "repoURL": "https://github.com/tbobm/dont-burn-it-all",
+    "description": "CLI + Claude Code plugin that spends your Claude Code subscription 5-hour quota on real parallel work, stopping at a threshold. Metered against the real Anthropic usage endpoint.",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "web"
+    ],
+    "language": "Go",
+    "authMethod": [
+      "API Key",
+      "Session Key",
+      "OAuth Token"
+    ],
+    "features": [
+      "quota-monitoring",
+      "parallel-sessions",
+      "usage-metering",
+      "claude-code-plugin",
+      "burn-rate-alerts",
+      "subscription-safety",
+      "cost-guards"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-02T18:45:21Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-02T19:11:58.239Z"
+  },
+  {
+    "id": "artzeeker/zeek-meter",
+    "name": "zeek-meter",
+    "author": "artzeeker",
+    "repoURL": "https://github.com/artzeeker/zeek-meter",
+    "description": "A lightweight Windows tray app that shows your Claude subscription usage (session and weekly limits) via a tray icon and an optional draggable overlay.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "C#",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "session-usage-display",
+      "weekly-limit-tracking",
+      "tray-icon",
+      "draggable-overlay",
+      "color-coded-indicators",
+      "pace-tracking",
+      "configurable-colors"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-02T18:22:08Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-02T19:11:58.239Z"
   }
 ]
