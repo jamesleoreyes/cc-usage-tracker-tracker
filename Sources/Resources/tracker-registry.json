@@ -131687,5 +131687,211 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-02T02:50:12.721Z"
+  },
+  {
+    "id": "chanyutl-dev01/claude-usage-pal-desktop",
+    "name": "claude-usage-pal-desktop",
+    "author": "chanyutl-dev01",
+    "repoURL": "https://github.com/chanyutl-dev01/claude-usage-pal-desktop",
+    "description": "🐾 Lightweight desktop pet & real-time Claude AI / Claude Code usage rate-limit monitor. Built with Tauri v2, React & TypeScript for Windows.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "real-time-rate-limit-monitoring",
+      "floating-desktop-pet",
+      "5-hour-window-tracking",
+      "weekly-reset-tracking",
+      "shy-mode",
+      "customizable-polling",
+      "ultra-lightweight"
+    ],
+    "builtWithClaude": true,
+    "stars": 2,
+    "lastCommitDate": "2026-08-02T07:36:16Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-02T08:25:52.347Z"
+  },
+  {
+    "id": "ceksparov/ClaudeLimitBar",
+    "name": "ClaudeLimitBar",
+    "author": "ceksparov",
+    "repoURL": "https://github.com/ceksparov/ClaudeLimitBar",
+    "description": "Menu bar app that shows your Claude usage limits (session + weekly) at a glance on macOS.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key",
+      "Browser Cookie Auto-detect",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "session-usage",
+      "weekly-limits",
+      "menu-bar-display",
+      "claude-signin"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-02T08:22:35Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-02T08:25:52.347Z"
+  },
+  {
+    "id": "centraltowerlabs/claude-usage-indicator",
+    "name": "claude-usage-indicator",
+    "author": "centraltowerlabs",
+    "repoURL": "https://github.com/centraltowerlabs/claude-usage-indicator",
+    "description": "GNOME Shell extension showing your Claude subscription (Pro/Max) session and weekly quota usage in the top bar",
+    "category": "Mobile",
+    "platforms": [
+      "linux"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "session-quota-display",
+      "weekly-quota-display",
+      "color-coded-utilization",
+      "model-scoped-limits",
+      "gnome-shell-extension",
+      "stale-state-handling"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-02T07:37:45Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-02T08:25:52.347Z"
+  },
+  {
+    "id": "bonelifer/claude-monitor",
+    "name": "claude-monitor",
+    "author": "bonelifer",
+    "repoURL": "https://github.com/bonelifer/claude-monitor",
+    "description": "Token-free Claude Code Pro/Max usage monitor: tracks rate limits, predicts exhaustion, alerts via Apprise",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "rate-limit-tracking",
+      "burn-rate-prediction",
+      "multi-channel-alerts",
+      "zero-token-cost",
+      "context-window-monitoring",
+      "cooldown-persistence",
+      "docker-deployment",
+      "systemd-service"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-02T05:18:16Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-02T08:25:52.347Z"
+  },
+  {
+    "id": "RogerReed/agentlens",
+    "name": "agentlens",
+    "author": "RogerReed",
+    "repoURL": "https://github.com/RogerReed/agentlens",
+    "description": "Agentic AI monitoring and observability — OTEL traces and local log files from Copilot, Claude Code, Codex, and OpenCode. Token usage, cost, summaries, and efficiency insights. VS Code extension, npx, and Docker.",
+    "category": "VS Code Extension",
+    "platforms": [
+      "vscode",
+      "web"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "OpenTelemetry",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "token-usage",
+      "cost-estimation",
+      "otel-traces",
+      "session-monitoring",
+      "malfunction-detection",
+      "multi-agent",
+      "local-log-ingestion",
+      "efficiency-insights"
+    ],
+    "builtWithClaude": true,
+    "stars": 8,
+    "lastCommitDate": "2026-08-02T04:48:21Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-02T08:25:52.347Z"
+  },
+  {
+    "id": "jason-c-dev/claude-code-status",
+    "name": "claude-code-status",
+    "author": "jason-c-dev",
+    "repoURL": "https://github.com/jason-c-dev/claude-code-status",
+    "description": "A colorful bash status line for Claude Code: path, model + context size, git status, and a color-coded context usage bar",
+    "category": "Claude Code Plugin",
+    "platforms": [],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "context-usage-bar",
+      "cost-display",
+      "model-info",
+      "git-status"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-02T05:12:26Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-02T08:25:52.347Z"
+  },
+  {
+    "id": "terasaki-8910/claude-monitor-pro",
+    "name": "claude-monitor-pro",
+    "author": "terasaki-8910",
+    "repoURL": "https://github.com/terasaki-8910/claude-monitor-pro",
+    "description": "macOS menu bar app for monitoring Claude.ai Pro usage limits",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "session-limit-monitoring",
+      "weekly-limit-tracking",
+      "fable-model-limit",
+      "real-time-usage",
+      "menu-bar-display",
+      "cookie-auth"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-02T07:17:54Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-02T08:25:52.347Z"
   }
 ]
