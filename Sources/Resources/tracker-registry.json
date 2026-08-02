@@ -131530,5 +131530,154 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-01T19:09:44.290Z"
+  },
+  {
+    "id": "Raminshiraz/claude_usage_monitor_extension",
+    "name": "claude_usage_monitor_extension",
+    "author": "Raminshiraz",
+    "repoURL": "https://github.com/Raminshiraz/claude_usage_monitor_extension",
+    "description": "Browser extension to monitor your Claude.ai usage limits, session windows, and weekly caps at a glance",
+    "category": "Browser Extension",
+    "platforms": [
+      "web",
+      "chromium"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "toolbar-badge",
+      "session-window-tracking",
+      "weekly-usage-breakdown",
+      "usage-credits",
+      "threshold-alerts",
+      "auto-refresh",
+      "multi-model-limits"
+    ],
+    "builtWithClaude": null,
+    "stars": 1,
+    "lastCommitDate": "2026-08-01T20:44:13Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-02T02:50:12.721Z"
+  },
+  {
+    "id": "andersonzeroone/ClaudeUsageBar",
+    "name": "ClaudeUsageBar",
+    "author": "andersonzeroone",
+    "repoURL": "https://github.com/andersonzeroone/ClaudeUsageBar",
+    "description": "Native macOS menu bar app showing your logged-in Claude account and 5h/weekly usage.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "5h-session-limit",
+      "7d-weekly-limit",
+      "account-identity",
+      "menu-bar-gauge",
+      "auto-refresh",
+      "portuguese-localization"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-02T02:38:20Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-02T02:50:12.721Z"
+  },
+  {
+    "id": "mreza0100/limit-dashboard",
+    "name": "limit-dashboard",
+    "author": "mreza0100",
+    "repoURL": "https://github.com/mreza0100/limit-dashboard",
+    "description": "Native macOS dashboard for AI subscription limits — Claude/Claude Code usage windows across multiple accounts, OpenAI Codex (ChatGPT) rate limits, and Google Vertex AI token spend. Live reset countdowns, local usage history. SwiftUI, local-only, no analytics.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie",
+      "Browser Cookie Auto-detect",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "multi-account-claude",
+      "rate-limit-tracking",
+      "usage-history-charts",
+      "live-reset-countdowns",
+      "claude-code-limits",
+      "local-only",
+      "chatgpt-codex-quota",
+      "vertex-ai-spend"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-02T01:10:49Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-02T02:50:12.721Z"
+  },
+  {
+    "id": "jpbarbosa/awakebar",
+    "name": "awakebar",
+    "author": "jpbarbosa",
+    "repoURL": "https://github.com/jpbarbosa/awakebar",
+    "description": "macOS menu bar app showing whether something is keeping your Mac awake, with Claude Code hook awareness",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "Session Key"
+    ],
+    "features": [
+      "plan-usage-display",
+      "claude-code-hooks",
+      "session-tracking",
+      "notification-alerts",
+      "idle-detection",
+      "mac-sleep-assertion",
+      "multi-session-aware",
+      "per-model-quotas"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-01T22:50:10Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-02T02:50:12.721Z"
+  },
+  {
+    "id": "cdpjenkins/claude-statusline-rust",
+    "name": "claude-statusline-rust",
+    "author": "cdpjenkins",
+    "repoURL": "https://github.com/cdpjenkins/claude-statusline-rust",
+    "description": "A Claude statusline in Rust.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Rust",
+    "authMethod": [],
+    "features": [
+      "claude-usage-display"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-01T20:37:09Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-02T02:50:12.721Z"
   }
 ]

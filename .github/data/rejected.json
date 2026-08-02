@@ -412,5 +412,11 @@
     "reason": "This is a custom statusline for Claude Code but does not display or measure Claude usage metrics like tokens, costs, or quotas.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-01T19:09:16.389Z"
+  },
+  {
+    "id": "Qutaiba-Khader/claude-code-helper",
+    "reason": "This is a configuration tool and visual builder for Claude Code features (statusline, settings), not a usage tracker—it generates Claude Code configs but does not display, measure, or report Claude usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-02T02:50:03.459Z"
   }
 ]
