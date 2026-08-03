@@ -132954,5 +132954,148 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-03T09:47:36.648Z"
+  },
+  {
+    "id": "nexusgen4561/claude-usage-bar",
+    "name": "claude-usage-bar",
+    "author": "nexusgen4561",
+    "repoURL": "https://github.com/nexusgen4561/claude-usage-bar",
+    "description": "macOS menu bar widget for Claude usage limits — session and weekly percentages with live reset countdowns",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "Session Key"
+    ],
+    "features": [
+      "session-limit-display",
+      "weekly-limit-display",
+      "live-reset-countdown",
+      "color-coded-meter",
+      "menu-bar-widget",
+      "multi-window-support"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-03T14:37:57Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-03T14:40:54.000Z"
+  },
+  {
+    "id": "madisonicus/cc-statusgrid",
+    "name": "cc-statusgrid",
+    "author": "madisonicus",
+    "repoURL": "https://github.com/madisonicus/cc-statusgrid",
+    "description": "A grid-aligned status line for Claude Code — shared column layout, rate-limit pacing projection, and terminal-width-aware justification. Single file, no dependencies.",
+    "category": "Statusline",
+    "platforms": [
+      "web"
+    ],
+    "language": "Python",
+    "authMethod": [],
+    "features": [
+      "rate-limit-pacing",
+      "context-window-display",
+      "session-cost",
+      "grid-layout",
+      "multi-limit-projection"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-03T11:35:11Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-03T14:40:54.000Z"
+  },
+  {
+    "id": "MasonChow/pi-hub",
+    "name": "pi-hub",
+    "author": "MasonChow",
+    "repoURL": "https://github.com/MasonChow/pi-hub",
+    "description": "Pi coding agent 扩展包集合：HUD statusline、F1 主题模型进站顾问、Claude Code rules 兼容",
+    "category": "Claude Code Plugin",
+    "platforms": [],
+    "language": "TypeScript",
+    "authMethod": [],
+    "features": [
+      "statusline-hud",
+      "context-water-level",
+      "token-usage-display",
+      "cache-hit-rate",
+      "subagent-cost-tracking"
+    ],
+    "builtWithClaude": null,
+    "stars": 1,
+    "lastCommitDate": "2026-08-03T09:55:04Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-03T14:40:54.000Z"
+  },
+  {
+    "id": "jeremiahC/ai-usage-reporter",
+    "name": "ai-usage-reporter",
+    "author": "jeremiahC",
+    "repoURL": "https://github.com/jeremiahC/ai-usage-reporter",
+    "description": "Claude Code weekly usage reporter: reads local ccusage data, reports on tokens/cost/tool mix, posts to a team webhook",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Session Key"
+    ],
+    "features": [
+      "weekly-reports",
+      "token-cost-breakdown",
+      "tool-attribution",
+      "team-webhook",
+      "model-mix-analysis",
+      "trend-alerts",
+      "multi-user-aggregation"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-03T09:52:26Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-03T14:40:54.000Z"
+  },
+  {
+    "id": "Abhay-Sastha-S/rtk-meter",
+    "name": "rtk-meter",
+    "author": "Abhay-Sastha-S",
+    "repoURL": "https://github.com/Abhay-Sastha-S/rtk-meter",
+    "description": "A thin tmux side pane for rtk token savings, Claude session/weekly usage, and Claude Code status. Bash, no dependencies.",
+    "category": "Tmux Plugin",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "live-token-savings",
+      "session-usage",
+      "weekly-usage",
+      "rate-limit-countdowns",
+      "claude-code-status",
+      "rtk-integration",
+      "no-dependencies"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-03T12:19:28Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-03T14:40:54.000Z"
   }
 ]
