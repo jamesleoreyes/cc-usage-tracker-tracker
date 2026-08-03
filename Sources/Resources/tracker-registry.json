@@ -133102,5 +133102,243 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-03T14:40:54.000Z"
+  },
+  {
+    "id": "AMKhaan/claude-usage-atlas",
+    "name": "claude-usage-atlas",
+    "author": "AMKhaan",
+    "repoURL": "https://github.com/AMKhaan/claude-usage-atlas",
+    "description": "Open-source, git-based token usage tracker for Claude Code teams — see usage by developer and by project. No server, no SaaS account, no shared secrets.",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "token-usage-tracking",
+      "developer-breakdown",
+      "project-breakdown",
+      "git-based",
+      "zero-dependencies",
+      "csv-export",
+      "scheduled-collection",
+      "no-server"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-03T18:37:42Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-03T19:39:05.982Z"
+  },
+  {
+    "id": "kelpikz/ClaudeMonitor",
+    "name": "ClaudeMonitor",
+    "author": "kelpikz",
+    "repoURL": "https://github.com/kelpikz/ClaudeMonitor",
+    "description": "A lightweight Windows system-tray app, where you can monitor your Claude usage from the taskbar",
+    "category": "Statusline",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "5-hour-window",
+      "7-day-window",
+      "reset-times",
+      "tray-icon-color-status",
+      "live-limits",
+      "portable-exe"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-08-03T19:08:37Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-03T19:39:05.982Z"
+  },
+  {
+    "id": "dxkjuanjuan/Claude-Code-Manager-",
+    "name": "Claude-Code-Manager-",
+    "author": "dxkjuanjuan",
+    "repoURL": "https://github.com/dxkjuanjuan/Claude-Code-Manager-",
+    "description": "🎛️ One-stop visual management tool for Claude Code — bulk project grouping, quick launch, 70+ built-in commands & skills one-click copy, real-time token/context usage monitoring with trend analysis. Stop fighting CLI, start visualizing.",
+    "category": "Electron/Desktop",
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "language": "JavaScript",
+    "authMethod": [],
+    "features": [
+      "token-monitoring",
+      "context-usage",
+      "trend-analysis",
+      "project-grouping",
+      "command-palette",
+      "bulk-operations"
+    ],
+    "builtWithClaude": true,
+    "stars": 3,
+    "lastCommitDate": "2026-08-03T15:48:27Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-03T19:39:05.982Z"
+  },
+  {
+    "id": "CheersLoveDani/claude-pane-statusline",
+    "name": "claude-pane-statusline",
+    "author": "CheersLoveDani",
+    "repoURL": "https://github.com/CheersLoveDani/claude-pane-statusline",
+    "description": "Statusline for parallel Claude Code panes: live task labels (Haiku-summarized), working/waiting indicator, claimed-issue chip",
+    "category": "Statusline",
+    "platforms": [
+      "web"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "context-usage-gauge",
+      "rate-limit-alerts",
+      "task-labels",
+      "pane-status-indicator",
+      "haiku-summarization",
+      "issue-tracking",
+      "multi-session"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-03T15:22:05Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-03T19:39:05.982Z"
+  },
+  {
+    "id": "pauldx/ai-statusline",
+    "name": "ai-statusline",
+    "author": "pauldx",
+    "repoURL": "https://github.com/pauldx/ai-statusline",
+    "description": "Portable two-line Claude Code statusline with gathon token-savings badge",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "context-window-meter",
+      "token-counts",
+      "rate-limit-tracking",
+      "session-cost",
+      "cost-tracking",
+      "7-day-usage-quota"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-03T15:15:34Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-03T19:39:05.982Z"
+  },
+  {
+    "id": "Aayushstha03/byte",
+    "name": "byte",
+    "author": "Aayushstha03",
+    "repoURL": "https://github.com/Aayushstha03/byte",
+    "description": "A small creature that lives in your Claude Code status line.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "context-window-display",
+      "activity-monitoring",
+      "mood-states",
+      "status-line-integration",
+      "idle-detection",
+      "wellness-reminders"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-03T15:39:58Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-03T19:39:05.982Z"
+  },
+  {
+    "id": "nicholasbishopkiv/SuperFabric",
+    "name": "SuperFabric",
+    "author": "nicholasbishopkiv",
+    "repoURL": "https://github.com/nicholasbishopkiv/SuperFabric",
+    "description": "Self-hosted 3D orchestrator for multi-account Claude Code agent teams: rooms as departments, a factory message bus, an orchestrator agent, and per-subscription rate-limit monitoring.",
+    "category": "Web Dashboard",
+    "platforms": [
+      "web"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "multi-account",
+      "rate-limit-monitoring",
+      "multi-agent-orchestration",
+      "usage-per-account",
+      "agent-supervision",
+      "approval-workflow"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-08-03T18:40:26Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-03T19:39:05.982Z"
+  },
+  {
+    "id": "devsamiko/Vigil",
+    "name": "Vigil",
+    "author": "devsamiko",
+    "repoURL": "https://github.com/devsamiko/Vigil",
+    "description": "Keep your Mac awake and auto-continue Claude Code — from the menu bar.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "usage-at-glance",
+      "auto-continue-sessions",
+      "keep-awake",
+      "reset-countdown",
+      "lid-closed-mode",
+      "local-first"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-03T17:37:29Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-03T19:39:05.982Z"
   }
 ]

@@ -448,5 +448,23 @@
     "reason": "This is a Claude Code permission-prompt handler for the macOS menu bar, not a usage tracker—it manages tool execution approvals rather than displaying, measuring, or reporting Claude usage metrics.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-03T09:47:27.368Z"
+  },
+  {
+    "id": "hyamie/claude-code-starter-kit",
+    "reason": "This is a session management and context-preservation tool for Claude Code, not a usage tracker—it displays context size warnings but does not measure or report token usage, costs, or rate limits as its primary feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-03T19:38:43.175Z"
+  },
+  {
+    "id": "lgscvb/topology-loop",
+    "reason": "This is a multi-agent orchestrator with rate-limit failover and account pooling, not a usage tracker—it dispatches work across accounts to work around limits but does not display, measure, or report Claude usage as a feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-03T19:38:56.772Z"
+  },
+  {
+    "id": "JoJoAtkinson/lichbook",
+    "reason": "Lichbook is a power-management tool for keeping Macs awake during Claude Code sessions, not a Claude usage tracker; it displays no metrics, tokens, costs, or usage data.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-03T19:39:05.982Z"
   }
 ]
