@@ -132409,5 +132409,309 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-02T19:11:58.239Z"
+  },
+  {
+    "id": "zaclm/claude-usage-tracker",
+    "name": "claude-usage-tracker",
+    "author": "zaclm",
+    "repoURL": "https://github.com/zaclm/claude-usage-tracker",
+    "description": "Chrome extension showing your real Claude.ai usage limits, reset times, and warnings before you hit the cap. Works with Free, Pro, Max and Team plans.",
+    "category": "Browser Extension",
+    "platforms": [
+      "chromium"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "usage-percentage-badge",
+      "usage-limits",
+      "reset-timers",
+      "desktop-notifications",
+      "multi-plan-support",
+      "all-devices-sync",
+      "zero-setup"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-08-02T21:00:35Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-03T02:51:48.728Z"
+  },
+  {
+    "id": "MarkRWatts/ClaudeUsageMonitor",
+    "name": "ClaudeUsageMonitor",
+    "author": "MarkRWatts",
+    "repoURL": "https://github.com/MarkRWatts/ClaudeUsageMonitor",
+    "description": "macOS Taskbar app to show Claude session usage.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "session-usage-display",
+      "weekly-limit-tracking",
+      "credits-monitoring",
+      "menu-bar-ring-gauge",
+      "keychain-auth"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-02T20:13:44Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-03T02:51:48.728Z"
+  },
+  {
+    "id": "fixcik/ccmetr",
+    "name": "ccmetr",
+    "author": "fixcik",
+    "repoURL": "https://github.com/fixcik/ccmetr",
+    "description": "Claude usage limits in the macOS menu bar",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie",
+      "Session Key",
+      "Browser Cookie Auto-detect",
+      "API Key"
+    ],
+    "features": [
+      "menu-bar-display",
+      "usage-quotas",
+      "token-reading",
+      "7-day-chart",
+      "launch-at-login",
+      "usage-alerts",
+      "privacy-focused"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-02T21:56:30Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-03T02:51:48.728Z"
+  },
+  {
+    "id": "seoulpro/tallyburn",
+    "name": "tallyburn",
+    "author": "seoulpro",
+    "repoURL": "https://github.com/seoulpro/tallyburn",
+    "description": "Local-first AI token usage monitor for Codex, Claude Code, Gemini CLI, Copilot CLI, Qwen Code, and local models",
+    "category": "macOS Native",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "OpenTelemetry",
+      "Traffic Capture",
+      "OpenTelemetry"
+    ],
+    "features": [
+      "token-usage-monitor",
+      "multi-provider",
+      "live-rate-graph",
+      "rolling-windows",
+      "quota-display",
+      "local-first",
+      "terminal-ui",
+      "menu-bar"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-02T21:11:01Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-03T02:51:48.728Z"
+  },
+  {
+    "id": "DokaDev/omc-lens",
+    "name": "omc-lens",
+    "author": "DokaDev",
+    "repoURL": "https://github.com/DokaDev/omc-lens",
+    "description": "A visually enhanced Claude Code statusline with Nerd Font icons and 256-colour gradient bars, powered by OMC data modules.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "OAuth Token",
+      "Session Key"
+    ],
+    "features": [
+      "token-display",
+      "cost-tracking",
+      "rate-limit-gauges",
+      "context-compression-alerts",
+      "cache-hit-metrics",
+      "model-identity"
+    ],
+    "builtWithClaude": null,
+    "stars": 2,
+    "lastCommitDate": "2026-08-03T02:39:53Z",
+    "openIssues": 1,
+    "archived": false,
+    "lastFetched": "2026-08-03T02:51:48.728Z"
+  },
+  {
+    "id": "STRML/cc-ds4",
+    "name": "cc-ds4",
+    "author": "STRML",
+    "repoURL": "https://github.com/STRML/cc-ds4",
+    "description": "Run DeepSeek V4 in Claude Code without breaking your Anthropic setup: isolated profiles, ZDR routing, and a status line that reports what you actually spent.",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "multi-provider-routing",
+      "cost-tracking",
+      "context-usage",
+      "session-isolation",
+      "zero-data-retention",
+      "prompt-caching"
+    ],
+    "builtWithClaude": null,
+    "stars": 1,
+    "lastCommitDate": "2026-08-03T02:10:04Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-03T02:51:48.728Z"
+  },
+  {
+    "id": "matsu7874/token-indicator",
+    "name": "token-indicator",
+    "author": "matsu7874",
+    "repoURL": "https://github.com/matsu7874/token-indicator",
+    "description": "macOS menu bar app showing Claude Code / Codex rate-limit usage",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "Session Cookie",
+      "API Key"
+    ],
+    "features": [
+      "claude-code-ratelimit",
+      "codex-ratelimit",
+      "menubar-display",
+      "usage-log",
+      "cycle-analytics",
+      "rate-limit-alerts"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-03T00:30:54Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-03T02:51:48.728Z"
+  },
+  {
+    "id": "rasulfal7902/rasulfal7902.github.io",
+    "name": "rasulfal7902.github.io",
+    "author": "rasulfal7902",
+    "repoURL": "https://github.com/rasulfal7902/rasulfal7902.github.io",
+    "description": "Track your Claude Code rate limits and burn rate directly in your terminal using a lightweight Bash script.",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "web"
+    ],
+    "language": "TypeScript",
+    "authMethod": [],
+    "features": [
+      "rate-limit-tracking",
+      "burn-rate-calculation",
+      "terminal-display"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-02T20:42:20Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-03T02:51:48.728Z"
+  },
+  {
+    "id": "rasulfal7902/claude-statusline-burnrate",
+    "name": "claude-statusline-burnrate",
+    "author": "rasulfal7902",
+    "repoURL": "https://github.com/rasulfal7902/claude-statusline-burnrate",
+    "description": "Display real-time Claude rate limit usage and burn rate directly in your shell using bash and jq.",
+    "category": "Statusline",
+    "platforms": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "rate-limit-tracking",
+      "burn-rate-calculation",
+      "daily-pacing",
+      "sleep-aware-limits",
+      "terminal-statusline",
+      "local-only"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-02T20:40:03Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-03T02:51:48.728Z"
+  },
+  {
+    "id": "obra/agentic-usage-meter",
+    "name": "agentic-usage-meter",
+    "author": "obra",
+    "repoURL": "https://github.com/obra/agentic-usage-meter",
+    "description": "macOS menu-bar meter for coding-agent subscription quotas",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "Session Cookie",
+      "API Key",
+      "Session Key",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "multi-account",
+      "quota-windows",
+      "reset-times",
+      "collapsible-sections",
+      "menu-bar-widget",
+      "provider-agnostic"
+    ],
+    "builtWithClaude": null,
+    "stars": 1,
+    "lastCommitDate": "2026-08-03T02:47:05Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-03T02:51:48.728Z"
   }
 ]

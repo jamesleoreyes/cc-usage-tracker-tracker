@@ -424,5 +424,23 @@
     "reason": "phosphorflux is a statusline renderer for Claude Code that displays visual themes but does not measure, track, or report Claude usage metrics like tokens, costs, or rate limits.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-02T19:11:44.230Z"
+  },
+  {
+    "id": "HAR5HA-7663/My_Claude_Setup",
+    "reason": "This is a personal dotfiles/setup export for Claude Code with no usage tracking or measurement features — it exports configuration, skills, agents, and MCP servers but does not display, measure, or report Claude usage.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-03T02:51:28.206Z"
+  },
+  {
+    "id": "schenkei-code/telegram-unleashed",
+    "reason": "This is a Telegram bot plugin for Claude Code that enables agent interaction via Telegram, but it does not display, measure, or report Claude usage metrics as a feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-03T02:51:34.431Z"
+  },
+  {
+    "id": "mertisci/thinkingcaps",
+    "reason": "ThinkingCaps is a visual indicator that shows when Claude Code is thinking, not a usage tracker—it does not measure, display, or report tokens, costs, rate limits, quotas, or sessions.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-03T02:51:42.434Z"
   }
 ]
