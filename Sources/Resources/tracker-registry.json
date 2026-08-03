@@ -132717,5 +132717,242 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-03T02:51:48.728Z"
+  },
+  {
+    "id": "NoamElyasim/claude-usage-overlay",
+    "name": "claude-usage-overlay",
+    "author": "NoamElyasim",
+    "repoURL": "https://github.com/NoamElyasim/claude-usage-overlay",
+    "description": "Always-on-top glass bar showing Claude usage limits and Claude Code session status",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux",
+      "android",
+      "ios",
+      "web",
+      "chromium",
+      "firefox",
+      "vscode",
+      "neovim",
+      "raycast",
+      "tmux",
+      "chromium",
+      "firefox",
+      "vscode",
+      "neovim",
+      "raycast",
+      "windows",
+      "linux",
+      "android",
+      "ios",
+      "web"
+    ],
+    "language": "HTML",
+    "authMethod": [
+      "Browser Cookie Auto-detect",
+      "Session Key"
+    ],
+    "features": [
+      " us age -dis pl ay",
+      " cl au de -cod e-sta tu s",
+      " alw ays -on -to p",
+      " gl ass mo rph is m",
+      " mul ti -mo ni to r",
+      " po ll ing",
+      "per si st en t- si gn- in",
+      " per -mac hi ne- set ti ng s"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-03T08:07:24Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-03T09:47:36.647Z"
+  },
+  {
+    "id": "exhaleride/TokenFlame",
+    "name": "TokenFlame",
+    "author": "exhaleride",
+    "repoURL": "https://github.com/exhaleride/TokenFlame",
+    "description": "🔥 macOS menu bar monitor for Claude Code token burn — with a burning comic character and live usage limits",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "live-burn-rate",
+      "session-limits",
+      "menu-bar-glyph",
+      "usage-breakdown",
+      "customizable-character",
+      "local-transcripts",
+      "offline-estimates",
+      "visual-indicators"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-03T09:27:37Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-03T09:47:36.648Z"
+  },
+  {
+    "id": "Silver556/llm-cost-tracker-windows",
+    "name": "llm-cost-tracker-windows",
+    "author": "Silver556",
+    "repoURL": "https://github.com/Silver556/llm-cost-tracker-windows",
+    "description": "Windows dashboard for Claude Code token cost and usage. Reads your local session logs, prices them against Anthropic's public API rates. No server, no account, nothing leaves your machine.",
+    "category": "Web Dashboard",
+    "platforms": [
+      "windows",
+      "web"
+    ],
+    "language": "HTML",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "cost-estimation",
+      "token-counting",
+      "calendar-heatmap",
+      "session-tracking",
+      "project-filtering",
+      "model-breakdown",
+      "offline-mode",
+      "period-comparison"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-03T04:30:42Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-03T09:47:36.648Z"
+  },
+  {
+    "id": "john-cornell/claude-statusline",
+    "name": "claude-statusline",
+    "author": "john-cornell",
+    "repoURL": "https://github.com/john-cornell/claude-statusline",
+    "description": "Custom status line script for Claude Code",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Session Key",
+      "Traffic Capture"
+    ],
+    "features": [
+      "context-usage-bar",
+      "token-tracking",
+      "rate-limit-monitoring",
+      "cost-estimation",
+      "burn-rate-projection"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-03T07:04:53Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-03T09:47:36.648Z"
+  },
+  {
+    "id": "blkpark/dipstick",
+    "name": "dipstick",
+    "author": "blkpark",
+    "repoURL": "https://github.com/blkpark/dipstick",
+    "description": "How much is left on your AI coding subscriptions — Claude Code, Codex and Antigravity in one macOS menu bar. Reads without spending any.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "OAuth Token",
+      "API Key",
+      "Session Key",
+      "Traffic Capture"
+    ],
+    "features": [
+      "multi-account",
+      "rate-limit-display",
+      "quota-windows",
+      "time-to-recovery",
+      "burn-rate-history",
+      "menu-bar-app",
+      "web-ui",
+      "cli"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-03T09:20:03Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-03T09:47:36.648Z"
+  },
+  {
+    "id": "lucas-barake/usagebar",
+    "name": "usagebar",
+    "author": "lucas-barake",
+    "repoURL": "https://github.com/lucas-barake/usagebar",
+    "description": "macOS menu bar app showing your Claude Code and Codex usage limits",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Browser Cookie Auto-detect",
+      "API Key"
+    ],
+    "features": [
+      "burn-rate-tracking",
+      "multiple-providers",
+      "menu-bar-display",
+      "rate-limit-alerts",
+      "multi-window-tracking"
+    ],
+    "builtWithClaude": null,
+    "stars": 1,
+    "lastCommitDate": "2026-08-03T06:10:54Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-03T09:47:36.648Z"
+  },
+  {
+    "id": "gyetiskin/howmanytokens",
+    "name": "howmanytokens",
+    "author": "gyetiskin",
+    "repoURL": "https://github.com/gyetiskin/howmanytokens",
+    "description": "macOS menu bar app showing Claude and Gemini usage allowance. Reads local files only; never displays a number it does not know.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "claude-usage",
+      "gemini-usage",
+      "menu-bar-app",
+      "usage-allowance",
+      "five-hour-window",
+      "weekly-window"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-03T07:37:57Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-03T09:47:36.648Z"
   }
 ]

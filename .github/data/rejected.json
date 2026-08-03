@@ -442,5 +442,11 @@
     "reason": "ThinkingCaps is a visual indicator that shows when Claude Code is thinking, not a usage tracker—it does not measure, display, or report tokens, costs, rate limits, quotas, or sessions.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-03T02:51:42.434Z"
+  },
+  {
+    "id": "zhenweiding-dev/Claudenext",
+    "reason": "This is a Claude Code permission-prompt handler for the macOS menu bar, not a usage tracker—it manages tool execution approvals rather than displaying, measuring, or reporting Claude usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-03T09:47:27.368Z"
   }
 ]
