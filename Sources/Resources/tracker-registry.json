@@ -133340,5 +133340,243 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-03T19:39:05.982Z"
+  },
+  {
+    "id": "SirBepy/windows_taskbar_widgets",
+    "name": "windows_taskbar_widgets",
+    "author": "SirBepy",
+    "repoURL": "https://github.com/SirBepy/windows_taskbar_widgets",
+    "description": "Widget host for the Windows 11 taskbar: system stats, Claude usage, and pomodoro tiles with hover flyouts",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Session Cookie"
+    ],
+    "features": [
+      "claude-usage-dials",
+      "multi-account",
+      "read-only-conductor",
+      "system-stats",
+      "taskbar-widget",
+      "hover-flyouts",
+      "always-visible-tile"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-03T22:00:35Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-04T02:35:07.451Z"
+  },
+  {
+    "id": "jameslee9506/llm-monitor",
+    "name": "llm-monitor",
+    "author": "jameslee9506",
+    "repoURL": "https://github.com/jameslee9506/llm-monitor",
+    "description": "One-shot terminal dashboard for local Claude Code & Codex accounts — usage, rate limits, plan, auth expiry",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Session Key",
+      "API Key"
+    ],
+    "features": [
+      "multi-account",
+      "usage-dashboard",
+      "rate-limits",
+      "auth-expiry",
+      "token-refresh",
+      "concurrent-check"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-04T00:58:19Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-04T02:35:07.451Z"
+  },
+  {
+    "id": "vladimirgamalyan/usage-meter",
+    "name": "usage-meter",
+    "author": "vladimirgamalyan",
+    "repoURL": "https://github.com/vladimirgamalyan/usage-meter",
+    "description": "Native Windows monitor for Claude Code / Codex / Antigravity rate-limit usage",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "Session Key",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "claude-code-monitoring",
+      "codex-tracking",
+      "antigravity-tracking",
+      "rate-limit-windows",
+      "live-countdowns",
+      "multi-provider",
+      "system-theme-aware",
+      "proxy-support"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-08-04T00:35:55Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-04T02:35:07.451Z"
+  },
+  {
+    "id": "luanlopez/ai-usage-lens",
+    "name": "ai-usage-lens",
+    "author": "luanlopez",
+    "repoURL": "https://github.com/luanlopez/ai-usage-lens",
+    "description": "Local, privacy-first CLI for tracking token usage, estimated costs and session history across Claude Code, Codex and other AI coding tools.",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "token-counting",
+      "cost-estimation",
+      "multi-provider",
+      "session-history",
+      "local-sqlite",
+      "privacy-first",
+      "import-export",
+      "multilingual"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-03T22:07:58Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-04T02:35:07.451Z"
+  },
+  {
+    "id": "huaxueye/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "huaxueye",
+    "repoURL": "https://github.com/huaxueye/claude-code-statusline",
+    "description": "A custom Claude Code statusline: multi-period token usage, cache hit-rate & cost.",
+    "category": "Claude Code Plugin",
+    "platforms": [],
+    "language": "Python",
+    "authMethod": [],
+    "features": [
+      "multi-period-tokens",
+      "cache-hit-rate",
+      "cost-estimation",
+      "session-stats",
+      "context-window-bar",
+      "tool-loop-detection"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-08-04T01:20:09Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-04T02:35:07.451Z"
+  },
+  {
+    "id": "FeliPrado31/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "FeliPrado31",
+    "repoURL": "https://github.com/FeliPrado31/claude-code-statusline",
+    "description": "Single-binary Go rewrite of the Claude Code statusline — real tests, one-command install, no jq/awk dependency.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Go",
+    "authMethod": [
+      "Traffic Capture"
+    ],
+    "features": [
+      "context-window-usage",
+      "rate-limit-display",
+      "cost-tracking",
+      "5h-and-7d-windows",
+      "effort-level",
+      "git-branch-aware"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-04T00:39:36Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-04T02:35:07.451Z"
+  },
+  {
+    "id": "alvi75/ALVI-Skills",
+    "name": "ALVI-Skills",
+    "author": "alvi75",
+    "repoURL": "https://github.com/alvi75/ALVI-Skills",
+    "description": "A Claude Code skill toolchain: adversarial multi-agent review (llm-council) and a status bar with rate-limit meters (claude-statusline).",
+    "category": "Claude Code Plugin",
+    "platforms": [],
+    "language": "PowerShell",
+    "authMethod": [],
+    "features": [
+      "rate-limit-meters",
+      "context-usage",
+      "adversarial-review",
+      "multi-agent"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-04T00:39:19Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-04T02:35:07.452Z"
+  },
+  {
+    "id": "tpatrouillat/tokease",
+    "name": "tokease",
+    "author": "tpatrouillat",
+    "repoURL": "https://github.com/tpatrouillat/tokease",
+    "description": "macOS menu bar app showing your remaining Claude 5-hour and weekly usage limits. No token read, 100% local.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Traffic Capture"
+    ],
+    "features": [
+      "5h-limit-ring",
+      "weekly-limit-ring",
+      "reset-countdowns",
+      "alert-thresholds",
+      "menu-bar-display",
+      "no-token-read",
+      "local-only",
+      "status-freshness"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-08-03T21:06:01Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-04T02:35:07.452Z"
   }
 ]

@@ -466,5 +466,11 @@
     "reason": "Lichbook is a power-management tool for keeping Macs awake during Claude Code sessions, not a Claude usage tracker; it displays no metrics, tokens, costs, or usage data.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-03T19:39:05.982Z"
+  },
+  {
+    "id": "victorbenazzi/claude-switcher",
+    "reason": "This is a backend switcher for Claude Code that lets you toggle between Anthropic, DeepSeek, and Kimi providers—it manages credentials and configuration, not Claude usage measurement or reporting.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-04T02:35:03.680Z"
   }
 ]
