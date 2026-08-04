@@ -478,5 +478,23 @@
     "reason": "This is a personal Claude Code setup collection with custom skills and configuration, not a usage tracker; the commit evidence confirms it was built with Claude.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-04T08:38:02.003Z"
+  },
+  {
+    "id": "Eflarus/claude-dotfiles",
+    "reason": "This is a dotfiles/configuration collection for Claude Code with custom agents, skills, and an RFC workflow—not a usage tracker, despite mentioning context usage in the statusline.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-04T14:13:18.930Z"
+  },
+  {
+    "id": "app-brew/claude-nanny",
+    "reason": "This is a Claude Code session monitor/HUD that displays running session statuses, not a usage tracker measuring tokens, costs, or resource consumption.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-04T14:13:33.415Z"
+  },
+  {
+    "id": "mdrzn/claude-screenshot-uploader",
+    "reason": "This is a screenshot uploader utility for remote Claude Code sessions with no usage tracking, measurement, or reporting features; it facilitates Claude Code workflow but does not display or measure Claude usage.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-04T14:13:36.649Z"
   }
 ]

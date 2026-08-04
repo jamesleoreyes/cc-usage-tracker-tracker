@@ -133853,5 +133853,237 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-04T08:38:26.637Z"
+  },
+  {
+    "id": "horned-specialization130/claude-usage-pal-desktop",
+    "name": "claude-usage-pal-desktop",
+    "author": "horned-specialization130",
+    "repoURL": "https://github.com/horned-specialization130/claude-usage-pal-desktop",
+    "description": "Monitor Claude AI usage limits in real-time with a floating desktop pet companion.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "real-time-monitoring",
+      "rate-limit-alerts",
+      "desktop-pet",
+      "usage-display",
+      "lightweight",
+      "customizable"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-04T10:10:46Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-04T14:13:40.764Z"
+  },
+  {
+    "id": "sunnixx/claude-usage-bar",
+    "name": "claude-usage-bar",
+    "author": "sunnixx",
+    "repoURL": "https://github.com/sunnixx/claude-usage-bar",
+    "description": "A macOS menu bar readout of your Claude subscription usage",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "session-window-display",
+      "weekly-window",
+      "per-model-scopes",
+      "one-minute-polling"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-04T14:02:39Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-04T14:13:40.764Z"
+  },
+  {
+    "id": "aleksander-dytko/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "aleksander-dytko",
+    "repoURL": "https://github.com/aleksander-dytko/claude-code-statusline",
+    "description": "Enhanced status line for Claude Code - model, git, context window, session cost, and live usage limits in one bash script",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "session-limits",
+      "token-usage",
+      "cost-tracking",
+      "context-window",
+      "rate-limits",
+      "git-integration",
+      "color-coding",
+      "live-usage"
+    ],
+    "builtWithClaude": true,
+    "stars": 7,
+    "lastCommitDate": "2026-08-04T14:04:03Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-04T14:13:40.764Z"
+  },
+  {
+    "id": "lucasyhzhu-debug/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "lucasyhzhu-debug",
+    "repoURL": "https://github.com/lucasyhzhu-debug/claude-code-statusline",
+    "description": "Four-line Claude Code status line: context window usage, 5h/7d limit windows with pace markers, git state and cache stats. Pure Node, no dependencies.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "context-window-display",
+      "5h-7d-usage-windows",
+      "pace-markers",
+      "cost-tracking",
+      "cache-stats",
+      "git-integration"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-04T10:03:59Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-04T14:13:40.764Z"
+  },
+  {
+    "id": "horned-specialization130/horned-specialization130.github.io",
+    "name": "horned-specialization130.github.io",
+    "author": "horned-specialization130",
+    "repoURL": "https://github.com/horned-specialization130/horned-specialization130.github.io",
+    "description": "A lightweight floating desktop pet companion and real-time rate-limit monitor for Claude AI & Claude Code.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "web"
+    ],
+    "language": "HTML",
+    "authMethod": [],
+    "features": [
+      "rate-limit-monitor",
+      "real-time-tracking",
+      "floating-pet",
+      "desktop-companion"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-04T10:13:13Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-04T14:13:40.764Z"
+  },
+  {
+    "id": "InfinityScripter/claude-mcp-bar",
+    "name": "claude-mcp-bar",
+    "author": "InfinityScripter",
+    "repoURL": "https://github.com/InfinityScripter/claude-mcp-bar",
+    "description": "macOS menu bar indicator for Claude Code: MCP server health, per-tool switches, context usage and rate limits",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "mcp-server-health",
+      "context-usage",
+      "rate-limit-monitoring",
+      "per-tool-toggles",
+      "session-tracking"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-04T09:03:14Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-04T14:13:40.764Z"
+  },
+  {
+    "id": "lordkerwin/claude-session-bar",
+    "name": "claude-session-bar",
+    "author": "lordkerwin",
+    "repoURL": "https://github.com/lordkerwin/claude-session-bar",
+    "description": "macOS menu bar app showing your running Claude Code sessions — busy or idle, usage limits, and click-to-focus the terminal",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "session-monitoring",
+      "usage-limits",
+      "menu-bar-display",
+      "busy-idle-status",
+      "reset-countdowns",
+      "multi-session-tracking"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-04T14:02:28Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-04T14:13:40.764Z"
+  },
+  {
+    "id": "pionion-ai/quotabar",
+    "name": "quotabar",
+    "author": "pionion-ai",
+    "repoURL": "https://github.com/pionion-ai/quotabar",
+    "description": "macOS menu bar gauges for AI coding subscription usage — Claude Code, Codex, Gemini (unofficial)",
+    "category": "macOS Native",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "multi-provider-support",
+      "rate-limit-windows",
+      "token-estimation",
+      "api-spend-tracking",
+      "json-output",
+      "alert-thresholds",
+      "menubar-gauges",
+      "cost-headroom"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-04T11:01:48Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-04T14:13:40.764Z"
   }
 ]
