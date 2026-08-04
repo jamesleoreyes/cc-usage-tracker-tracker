@@ -133586,5 +133586,271 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-04T02:35:07.452Z"
+  },
+  {
+    "id": "SuperMido/claude-usage-menubar",
+    "name": "claude-usage-menubar",
+    "author": "SuperMido",
+    "repoURL": "https://github.com/SuperMido/claude-usage-menubar",
+    "description": "Claude Code usage in your terminal status line and macOS menu bar: model, effort, session cost, context use, and both rate limits with reset countdowns",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "session-cost",
+      "rate-limit-countdown",
+      "context-usage",
+      "multi-session-aggregation",
+      "menubar-display",
+      "effort-indicator"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-04T08:01:24Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-04T08:38:26.637Z"
+  },
+  {
+    "id": "techjoec/my-claude-statusline",
+    "name": "my-claude-statusline",
+    "author": "techjoec",
+    "repoURL": "https://github.com/techjoec/my-claude-statusline",
+    "description": "Single-line Claude Code status line with a shared /proc collector — one sampler for N sessions, ~25ms per repaint, no blocking.",
+    "category": "Statusline",
+    "platforms": [
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "live-load-monitoring",
+      "multi-session-sampler",
+      "claude-process-counter",
+      "disk-utilization",
+      "cpu-memory-tracking",
+      "low-latency-rendering"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-04T05:58:13Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-04T08:38:26.637Z"
+  },
+  {
+    "id": "devbyanuwat/claude-statusline",
+    "name": "claude-statusline",
+    "author": "devbyanuwat",
+    "repoURL": "https://github.com/devbyanuwat/claude-statusline",
+    "description": "Multi-line Claude Code status line: context, rate limits, per-model weekly quota, Codex budget, host stats",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "context-usage",
+      "rate-limit-display",
+      "weekly-quota",
+      "model-budgets",
+      "codex-integration",
+      "host-stats",
+      "multi-account",
+      "responsive-layout"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-04T04:07:47Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-04T08:38:26.637Z"
+  },
+  {
+    "id": "gamma2653/GammaPluginTk",
+    "name": "GammaPluginTk",
+    "author": "gamma2653",
+    "repoURL": "https://github.com/gamma2653/GammaPluginTk",
+    "description": "Claude Code plugin marketplace: a per-language format-on-edit hook, and a two-line statusline with git working-tree status, context tokens, and rate-limit bars",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "Python",
+    "authMethod": [],
+    "features": [
+      "statusline-display",
+      "context-tokens",
+      "rate-limit-bars",
+      "spend-tracking",
+      "git-status",
+      "format-hooks"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-04T03:04:03Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-04T08:38:26.637Z"
+  },
+  {
+    "id": "jnelken/claude-tools",
+    "name": "claude-tools",
+    "author": "jnelken",
+    "repoURL": "https://github.com/jnelken/claude-tools",
+    "description": "Personal Claude Code skills, hooks, automations, and statusline — symlink-install via ./install.sh",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "statusline-display",
+      "usage-tracking",
+      "token-counters",
+      "cost-reporting",
+      "daily-summaries",
+      "multi-account"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-08-04T02:31:05Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-04T08:38:26.637Z"
+  },
+  {
+    "id": "TonPC64/ai-desktop-widgets",
+    "name": "ai-desktop-widgets",
+    "author": "TonPC64",
+    "repoURL": "https://github.com/TonPC64/ai-desktop-widgets",
+    "description": "🧠 Always-on AI burn rate on your desktop — token bars, quota clocks, and a desk pet that knows when you're vibing with Claude.",
+    "category": "Übersicht Widget",
+    "platforms": [
+      "macos"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Session Cookie",
+      "OAuth Token"
+    ],
+    "features": [
+      "claude-code-tracking",
+      "github-copilot-tracking",
+      "codex-tracking",
+      "token-bars",
+      "quota-clocks",
+      "24h-activity",
+      "multi-provider",
+      "desk-pet"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-04T06:38:15Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-04T08:38:26.637Z"
+  },
+  {
+    "id": "karanb192/hindcast",
+    "name": "hindcast",
+    "author": "karanb192",
+    "repoURL": "https://github.com/karanb192/hindcast",
+    "description": "Browse, search & replay every Claude Code session on your Mac. Local-first session viewer, timeline scrubber & cost tracker (ccusage alternative).",
+    "category": "Electron/Desktop",
+    "platforms": [
+      "macos"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Session Key",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "session-browsing",
+      "transcript-viewer",
+      "token-tracking",
+      "cost-ledger",
+      "full-text-search",
+      "timeline-scrubber",
+      "model-breakdown",
+      "multi-date-filters"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-04T03:28:43Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-04T08:38:26.637Z"
+  },
+  {
+    "id": "lancekrogers/nvim-token-counter",
+    "name": "nvim-token-counter",
+    "author": "lancekrogers",
+    "repoURL": "https://github.com/lancekrogers/nvim-token-counter",
+    "description": "Neovim plugin: real-time LLM token counts in your status line. Supports Claude, GPT, Llama, DeepSeek & Qwen. Async, non-blocking, powered by tcount.",
+    "category": "Neovim Plugin",
+    "platforms": [
+      "neovim"
+    ],
+    "language": "Lua",
+    "authMethod": [],
+    "features": [
+      "claude-tokens",
+      "gpt-tokens",
+      "llama-tokens",
+      "deepseek-tokens",
+      "qwen-tokens",
+      "multi-model-support",
+      "status-line-display",
+      "async-tokenization"
+    ],
+    "builtWithClaude": null,
+    "stars": 3,
+    "lastCommitDate": "2026-08-04T04:42:01Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-04T08:38:26.637Z"
+  },
+  {
+    "id": "stingch/ClaudeMeter",
+    "name": "ClaudeMeter",
+    "author": "stingch",
+    "repoURL": "https://github.com/stingch/ClaudeMeter",
+    "description": "Real-time Claude AI usage monitor on ESP32 display via BLE (Bluetooth Low Energy)",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows",
+      "macos"
+    ],
+    "language": "C++",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "real-time-usage",
+      "hardware-display",
+      "ble-bridge",
+      "5h-session-limits",
+      "7d-weekly-limits"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-04T07:32:07Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-04T08:38:26.637Z"
   }
 ]

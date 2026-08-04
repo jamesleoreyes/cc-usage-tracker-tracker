@@ -472,5 +472,11 @@
     "reason": "This is a backend switcher for Claude Code that lets you toggle between Anthropic, DeepSeek, and Kimi providers—it manages credentials and configuration, not Claude usage measurement or reporting.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-04T02:35:03.680Z"
+  },
+  {
+    "id": "bcneal666/.claude",
+    "reason": "This is a personal Claude Code setup collection with custom skills and configuration, not a usage tracker; the commit evidence confirms it was built with Claude.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-04T08:38:02.003Z"
   }
 ]
