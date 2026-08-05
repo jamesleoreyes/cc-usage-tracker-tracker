@@ -496,5 +496,17 @@
     "reason": "This is a screenshot uploader utility for remote Claude Code sessions with no usage tracking, measurement, or reporting features; it facilitates Claude Code workflow but does not display or measure Claude usage.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-04T14:13:36.649Z"
+  },
+  {
+    "id": "diegoponce/claude-pokechi",
+    "reason": "This is a gamified status line plugin that displays a Pokémon character evolving based on Claude Code activity, not a usage tracker—it does not measure, display, or report Claude token usage, costs, rate limits, or quotas.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-05T02:34:07.582Z"
+  },
+  {
+    "id": "levimackay/air",
+    "reason": "AIR is a load balancer and orchestrator for AI coding agents that routes between providers on failure/rate-limit, but does not display, measure, or report Claude usage as a substantial feature—it is a provider router, not a usage tracker.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-05T02:34:10.886Z"
   }
 ]

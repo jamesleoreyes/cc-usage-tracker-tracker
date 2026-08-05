@@ -134462,5 +134462,331 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-04T19:39:30.899Z"
+  },
+  {
+    "id": "shabaraba/claude-usage.wezterm",
+    "name": "claude-usage.wezterm",
+    "author": "shabaraba",
+    "repoURL": "https://github.com/shabaraba/claude-usage.wezterm",
+    "description": "WezTerm plugin: show Claude Code's /usage session & weekly limits in the tab bar (macOS-friendly, subscription auth)",
+    "category": "Terminal UI",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Lua",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "usage-display",
+      "session-limits",
+      "weekly-limits",
+      "progress-bars",
+      "color-alerts",
+      "wezterm-integration",
+      "subscription-auth",
+      "background-refresh"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-05T00:57:14Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-05T02:34:17.424Z"
+  },
+  {
+    "id": "andrewdonheiser/price-check",
+    "name": "price-check",
+    "author": "andrewdonheiser",
+    "repoURL": "https://github.com/andrewdonheiser/price-check",
+    "description": "Claude Code token usage and cost tracker with per-model breakdown, dynamic pricing, and status line integration",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "per-model-breakdown",
+      "dynamic-pricing",
+      "daily-summary",
+      "session-drill-down",
+      "project-aggregation",
+      "subagent-tracking",
+      "status-line-integration",
+      "markdown-export"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-05T00:38:03Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-05T02:34:17.424Z"
+  },
+  {
+    "id": "NicL9923/ai-usage-widget",
+    "name": "ai-usage-widget",
+    "author": "NicL9923",
+    "repoURL": "https://github.com/NicL9923/ai-usage-widget",
+    "description": "KDE Plasma panel widget showing live Claude Code and Codex subscription usage limits",
+    "category": "Waybar Module",
+    "platforms": [
+      "linux"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "live-usage-display",
+      "multi-provider",
+      "rate-limit-windows",
+      "subscription-tracking",
+      "cli-helper",
+      "cache-based"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-05T02:15:54Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-05T02:34:17.424Z"
+  },
+  {
+    "id": "lobel-dev/claude-code-health",
+    "name": "claude-code-health",
+    "author": "lobel-dev",
+    "repoURL": "https://github.com/lobel-dev/claude-code-health",
+    "description": "A Claude Code statusline that shows both agentic and model health",
+    "category": "Claude Code Plugin",
+    "platforms": [],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "context-window-tracking",
+      "usage-limits",
+      "child-agent-monitoring",
+      "session-health",
+      "agentic-warnings",
+      "compact-guidance"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-05T01:30:55Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-05T02:34:17.425Z"
+  },
+  {
+    "id": "mrtacojr/claude-vitals",
+    "name": "claude-vitals",
+    "author": "mrtacojr",
+    "repoURL": "https://github.com/mrtacojr/claude-vitals",
+    "description": "Statusline para Claude Code: modelo y ventana de contexto en tu terminal",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Session Key",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "claude-code-integration",
+      "context-usage-display",
+      "session-cost-tracking",
+      "multi-session-monitoring",
+      "activity-status-indicator",
+      "tri-audit-tracking",
+      "ai-health-checks"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-05T01:22:20Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-05T02:34:17.425Z"
+  },
+  {
+    "id": "Drizzy07x/Simple-statusline",
+    "name": "Simple-statusline",
+    "author": "Drizzy07x",
+    "repoURL": "https://github.com/Drizzy07x/Simple-statusline",
+    "description": "Three-line status line for Claude Code on Windows. PowerShell 7 and git only, no jq and no Node.",
+    "category": "Statusline",
+    "platforms": [
+      "windows"
+    ],
+    "language": "PowerShell",
+    "authMethod": [],
+    "features": [
+      "context-usage-display",
+      "token-accounting",
+      "cache-hit-tracking",
+      "cost-tracking",
+      "rate-limit-display",
+      "multi-line-widget",
+      "effort-level",
+      "session-timer"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-05T00:59:10Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-05T02:34:17.425Z"
+  },
+  {
+    "id": "nishilbhave/claude-jq-statusline",
+    "name": "claude-jq-statusline",
+    "author": "nishilbhave",
+    "repoURL": "https://github.com/nishilbhave/claude-jq-statusline",
+    "description": "Zero-dependency responsive status line for Claude Code — one sh+jq command, no Node, no config file",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "token-usage",
+      "rate-limit-display",
+      "context-window-gauge",
+      "session-cost",
+      "rate-limit-gauges",
+      "responsive-statusline"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-04T20:59:58Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-05T02:34:17.425Z"
+  },
+  {
+    "id": "Eales/claude-code-cockpit",
+    "name": "claude-code-cockpit",
+    "author": "Eales",
+    "repoURL": "https://github.com/Eales/claude-code-cockpit",
+    "description": "Plugin do Claude Code: statusline z limitami 5h/7d i stanem gita + auto-wznawianie sesji po odnowieniu limitu",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "language": "JavaScript",
+    "authMethod": [],
+    "features": [
+      "rate-limit-display",
+      "5h-7d-limits",
+      "session-resume",
+      "git-state",
+      "statusline",
+      "cost-tracking",
+      "context-usage"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-04T20:50:32Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-05T02:34:17.425Z"
+  },
+  {
+    "id": "yuseferi/claude-token-statusbar",
+    "name": "claude-token-statusbar",
+    "author": "yuseferi",
+    "repoURL": "https://github.com/yuseferi/claude-token-statusbar",
+    "description": "Reactive token & cost status line for the Claude Code TUI",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "cumulative-session-totals",
+      "cost-tracking",
+      "cache-read-write-breakdown",
+      "fast-transcript-caching",
+      "one-command-install"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-04T23:26:19Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-05T02:34:17.425Z"
+  },
+  {
+    "id": "AnywaySolutionsSro/claudemeter",
+    "name": "claudemeter",
+    "author": "AnywaySolutionsSro",
+    "repoURL": "https://github.com/AnywaySolutionsSro/claudemeter",
+    "description": "macOS menu-bar app showing your Claude subscription usage — % remaining, reset countdown, burn rate, per-session token usage, and auto-resume after quota refills",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "live-usage-display",
+      "burn-rate-alerts",
+      "session-quotas",
+      "reset-countdown",
+      "multi-window-tracking",
+      "notifications",
+      "usage-history",
+      "hotkey-toggle"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-04T20:12:58Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-05T02:34:17.425Z"
+  },
+  {
+    "id": "msfrox/waybar-control-center",
+    "name": "waybar-control-center",
+    "author": "msfrox",
+    "repoURL": "https://github.com/msfrox/waybar-control-center",
+    "description": "Waybar modules and Quickshell popups for Hyprland — audio mixer, Claude usage dial, control centre, calendar.",
+    "category": "Waybar Module",
+    "platforms": [
+      "linux"
+    ],
+    "language": "QML",
+    "authMethod": [],
+    "features": [
+      "usage-dial",
+      "7-day-window",
+      "5-hour-session",
+      "color-theming"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-05T02:14:59Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-05T02:34:17.425Z"
   }
 ]
