@@ -135030,5 +135030,242 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-05T08:37:54.202Z"
+  },
+  {
+    "id": "vasfal/claude-usage",
+    "name": "claude-usage",
+    "author": "vasfal",
+    "repoURL": "https://github.com/vasfal/claude-usage",
+    "description": "macOS menu bar app for Claude usage limits — 5-hour and 7-day windows, reset times, pace forecast, and live Claude Code session count.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "Session Key"
+    ],
+    "features": [
+      "5h-7d-windows",
+      "reset-times",
+      "pace-forecast",
+      "live-sessions",
+      "burn-rate-warning",
+      "menu-bar-icon",
+      "keychain-integration"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-05T14:01:50Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-05T14:10:49.762Z"
+  },
+  {
+    "id": "NoamElyasim/Claude-usage-limits-bar",
+    "name": "Claude-usage-limits-bar",
+    "author": "NoamElyasim",
+    "repoURL": "https://github.com/NoamElyasim/Claude-usage-limits-bar",
+    "description": "Always-on-top glass bar showing Claude usage limits and Claude Code session status",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Session Key",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "usage-monitoring",
+      "rate-limit-tracking",
+      "claude-code-status",
+      "glass-ui",
+      "multi-monitor",
+      "reset-countdown"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-05T09:34:37Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-05T14:10:49.762Z"
+  },
+  {
+    "id": "daniel-p-allen/SimpleBar",
+    "name": "SimpleBar",
+    "author": "daniel-p-allen",
+    "repoURL": "https://github.com/daniel-p-allen/SimpleBar",
+    "description": "Visual usage monitor for Claude Code — a macOS HUD showing how much of your 5-hour session limit is left, as a circular gauge that drains as you use it, with colour bands and threshold beeps. Reads Claude Code's statusLine output from a local file: no API keys, no network calls, nothing leaves your machine.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "5-hour-session-gauge",
+      "circular-drain-visualization",
+      "color-thresholds",
+      "threshold-alerts",
+      "translucent-hud",
+      "terminal-claude-code-integration",
+      "file-watch-updates",
+      "window-pinning"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-05T12:55:15Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-05T14:10:49.762Z"
+  },
+  {
+    "id": "QuietFlare/Tokenburnrate",
+    "name": "Tokenburnrate",
+    "author": "QuietFlare",
+    "repoURL": "https://github.com/QuietFlare/Tokenburnrate",
+    "description": "A macOS desktop widget for Claude Code usage. Three wheels show your session and weekly limits with exact reset times, taken from Claude Code's own usage data — not estimates. Plus a live token-burn graph and a ranking of which sessions ate the most tokens today. Every other tracker lives in the menu bar; this one sits on your desktop.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Traffic Capture"
+    ],
+    "features": [
+      "usage-wheels",
+      "session-limits",
+      "token-burn-graph",
+      "top-sessions-ranking",
+      "smart-model-suggestions",
+      "desktop-widget",
+      "real-time-refresh"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-05T13:16:07Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-05T14:10:49.762Z"
+  },
+  {
+    "id": "jorgesm/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "jorgesm",
+    "repoURL": "https://github.com/jorgesm/claude-code-statusline",
+    "description": "Compact, color-coded status line for Claude Code showing model, context usage, rate limits, and session duration",
+    "category": "Claude Code Plugin",
+    "platforms": [],
+    "language": "Shell",
+    "authMethod": [
+      "OpenTelemetry"
+    ],
+    "features": [
+      "context-usage-bar",
+      "rate-limit-display",
+      "session-duration",
+      "model-name",
+      "git-branch",
+      "color-coded-status"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-05T11:18:35Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-05T14:10:49.762Z"
+  },
+  {
+    "id": "TristanShz/claude-workflow",
+    "name": "claude-workflow",
+    "author": "TristanShz",
+    "repoURL": "https://github.com/TristanShz/claude-workflow",
+    "description": "Parallel Claude Code sessions in tmux — git worktree commands, a status line, and a clickable macOS notification hook",
+    "category": "Tmux Plugin",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "rate-limit-display",
+      "cost-tracking",
+      "context-window-display",
+      "parallel-sessions",
+      "git-worktree-integration",
+      "statusline-widget",
+      "notifications"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-05T09:31:22Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-05T14:10:49.762Z"
+  },
+  {
+    "id": "JokerFuFu/ccusage-daily",
+    "name": "ccusage-daily",
+    "author": "JokerFuFu",
+    "repoURL": "https://github.com/JokerFuFu/ccusage-daily",
+    "description": "macOS 菜单栏 App:显示 Claude Code + Codex 每日 token 用量(柱状图/套餐限额/周环比/配额预警/彩蛋)",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "daily-token-display",
+      "menu-bar-app",
+      "multi-source-breakdown",
+      "quota-alerts",
+      "milestone-celebrations",
+      "multi-machine-stats"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-07-30T03:47:50Z",
+    "openIssues": 1,
+    "archived": false,
+    "lastFetched": "2026-08-05T14:10:49.762Z"
+  },
+  {
+    "id": "wallace921029/statusline",
+    "name": "statusline",
+    "author": "wallace921029",
+    "repoURL": "https://github.com/wallace921029/statusline",
+    "description": "statusline config for Gemin, Claude and ...",
+    "category": "Statusline",
+    "platforms": [
+      "web"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "real-time-metrics",
+      "claude-code-support",
+      "gemini-support",
+      "context-usage",
+      "rate-limits"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-05T10:17:25Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-05T14:10:49.762Z"
   }
 ]
