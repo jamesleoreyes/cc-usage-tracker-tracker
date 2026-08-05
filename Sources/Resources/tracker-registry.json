@@ -134790,5 +134790,243 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-05T02:34:17.425Z"
+  },
+  {
+    "id": "ajillepalli/headroom",
+    "name": "headroom",
+    "author": "ajillepalli",
+    "repoURL": "https://github.com/ajillepalli/headroom",
+    "description": "Usage-limit awareness for Claude Code and Codex: captures rate-limit readings from both tools and warns the model before it runs into a 5-hour or weekly limit",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Traffic Capture"
+    ],
+    "features": [
+      "rate-limit-warnings",
+      "usage-headroom",
+      "multi-provider",
+      "prompt-hook-integration",
+      "rolling-limits",
+      "codex-support"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-05T08:25:49Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-05T08:37:54.202Z"
+  },
+  {
+    "id": "bartleby/claude-statusline",
+    "name": "claude-statusline",
+    "author": "bartleby",
+    "repoURL": "https://github.com/bartleby/claude-statusline",
+    "description": "Custom statusline for Claude Code CLI with 18 themes, rate limits, context tracking and ASCII Claude avatar",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "rate-limit-tracking",
+      "context-usage",
+      "cost-tracking",
+      "21-themes",
+      "git-info",
+      "token-alerts"
+    ],
+    "builtWithClaude": true,
+    "stars": 25,
+    "lastCommitDate": "2026-08-05T08:19:03Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-05T08:37:54.202Z"
+  },
+  {
+    "id": "oshomadesse/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "oshomadesse",
+    "repoURL": "https://github.com/oshomadesse/claude-code-statusline",
+    "description": "Claude Code のステータスライン。モデル名・利用枠(5h/7d)・会話の使用量を画面下に常時表示する（macOS）",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "usage-display",
+      "quota-tracking",
+      "context-usage",
+      "model-name",
+      "rate-limit-alerts"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-05T07:50:14Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-05T08:37:54.202Z"
+  },
+  {
+    "id": "malenitaa/usage",
+    "name": "usage",
+    "author": "malenitaa",
+    "repoURL": "https://github.com/malenitaa/usage",
+    "description": "Ícono de barra de menú para macOS que muestra tu cupo/rate limit de Claude Code (ventanas de 5h y 7 días) — app gratuita, offline y sin telemetría",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "rate-limit-monitor",
+      "quota-tracking",
+      "5h-7d-windows",
+      "traffic-light-status",
+      "menubar-icon",
+      "offline-first"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-05T07:16:31Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-05T08:37:54.202Z"
+  },
+  {
+    "id": "kamihork/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "kamihork",
+    "repoURL": "https://github.com/kamihork/claude-code-statusline",
+    "description": "Claude Code statusline with rate-limit usage bars (5h/7d) — model, cwd, git branch, context usage",
+    "category": "Statusline",
+    "platforms": [
+      "web"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "rate-limit-bars",
+      "5h-7d-windows",
+      "context-usage",
+      "model-display",
+      "git-branch",
+      "time-to-reset"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-08-05T05:43:19Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-05T08:37:54.202Z"
+  },
+  {
+    "id": "ventusff/claude-model-guard",
+    "name": "claude-model-guard",
+    "author": "ventusff",
+    "repoURL": "https://github.com/ventusff/claude-model-guard",
+    "description": "🚨 Claude Code statusline plugin that catches silent model downgrades — theme-proof full-width alarm for model / effort / thinking / rate-limit pressure",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "model-downgrade-detection",
+      "rate-limit-monitoring",
+      "reasoning-effort-tracking",
+      "extended-thinking-alerts",
+      "multi-account-support",
+      "context-usage-display",
+      "truecolor-statusline"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-08-05T03:41:04Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-05T08:37:54.202Z"
+  },
+  {
+    "id": "yulingchen08/Tankful",
+    "name": "Tankful",
+    "author": "yulingchen08",
+    "repoURL": "https://github.com/yulingchen08/Tankful",
+    "description": "Menu-bar quota monitor for Codex CLI and Claude Code. Reads local files only — no network, no credentials.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Session Key"
+    ],
+    "features": [
+      "quota-monitor",
+      "rate-limits",
+      "menu-bar",
+      "local-files-only",
+      "codex-cli",
+      "claude-code",
+      "zero-network",
+      "official-metrics"
+    ],
+    "builtWithClaude": null,
+    "stars": 1,
+    "lastCommitDate": "2026-08-05T07:59:56Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-05T08:37:54.202Z"
+  },
+  {
+    "id": "amirahosbr/bui-notch",
+    "name": "bui-notch",
+    "author": "amirahosbr",
+    "repoURL": "https://github.com/amirahosbr/bui-notch",
+    "description": "A Dynamic Island for the Mac notch — a panel that hugs the notch, showing Claude usage, GitHub activity, live coding sessions and to-dos, and opening itself when an agent needs you.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "OAuth Token",
+      "Session Cookie",
+      "Session Cookie"
+    ],
+    "features": [
+      "claude-usage-display",
+      "session-limits",
+      "weekly-quotas",
+      "attention-alerts",
+      "github-integration",
+      "todo-tracking",
+      "live-sessions"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-05T05:38:50Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-05T08:37:54.202Z"
   }
 ]

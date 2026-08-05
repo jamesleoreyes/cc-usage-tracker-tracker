@@ -508,5 +508,17 @@
     "reason": "AIR is a load balancer and orchestrator for AI coding agents that routes between providers on failure/rate-limit, but does not display, measure, or report Claude usage as a substantial feature—it is a provider router, not a usage tracker.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-05T02:34:10.886Z"
+  },
+  {
+    "id": "ozgurersil/ai-handoff",
+    "reason": "This is a Claude Code skill for saving session context before rate limits hit, not a usage tracker—it does not display, measure, or report Claude usage metrics as a feature, only enables continuity across sessions.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-05T08:37:43.326Z"
+  },
+  {
+    "id": "guycoful/azure-ai-pipeline-skill",
+    "reason": "This is a Claude Code Skill for building Azure document pipelines; it documents failures and best practices but does not measure, display, or report Claude usage as a feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-05T08:37:46.480Z"
   }
 ]
