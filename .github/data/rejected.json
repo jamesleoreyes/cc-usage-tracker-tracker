@@ -520,5 +520,17 @@
     "reason": "This is a Claude Code Skill for building Azure document pipelines; it documents failures and best practices but does not measure, display, or report Claude usage as a feature.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-05T08:37:46.480Z"
+  },
+  {
+    "id": "radkode/claude-statusline",
+    "reason": "This is a statusline *for* Claude Code that displays usage metrics (context %, rate-limit windows) as a visual component, not a tracker that measures and reports Claude usage across sessions or projects—it renders live metrics within a single session only.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-05T19:37:24.017Z"
+  },
+  {
+    "id": "Yusuf-EROGLU/ChatBrain",
+    "reason": "ChatBrain is a session browser and manager for Claude Code, not a usage tracker—it displays session metadata and history but does not measure, report, or track Claude usage metrics like tokens, costs, or rate limits.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-05T19:37:51.516Z"
   }
 ]

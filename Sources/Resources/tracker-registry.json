@@ -135270,5 +135270,338 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-05T14:10:49.762Z"
+  },
+  {
+    "id": "FaisalXL/claude-usage-tool",
+    "name": "claude-usage-tool",
+    "author": "FaisalXL",
+    "repoURL": "https://github.com/FaisalXL/claude-usage-tool",
+    "description": "zero config cc skill to track AI usage",
+    "category": "Claude Code Plugin",
+    "platforms": [],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "token-tracking",
+      "rate-limit-detection",
+      "usage-verification",
+      "burst-detection",
+      "purposeful-use-signal",
+      "tampering-detection",
+      "zero-config"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-05T19:32:47Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-05T19:37:54.803Z"
+  },
+  {
+    "id": "JunseopYoon/ClaudeUsageWidget",
+    "name": "ClaudeUsageWidget",
+    "author": "JunseopYoon",
+    "repoURL": "https://github.com/JunseopYoon/ClaudeUsageWidget",
+    "description": "Claude Usage Widget",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "PowerShell",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "session-usage-limits",
+      "weekly-usage-limits",
+      "tray-icon-status",
+      "local-token-tracking",
+      "cost-estimation",
+      "refresh-automation",
+      "tooltip-details",
+      "startup-integration"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-05T14:40:58Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-05T19:37:54.803Z"
+  },
+  {
+    "id": "mickosav/claude-usage",
+    "name": "claude-usage",
+    "author": "mickosav",
+    "repoURL": "https://github.com/mickosav/claude-usage",
+    "description": "macOS menu bar app that mirrors the claude.ai usage page: session and weekly limits with reset times",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "menu-bar-display",
+      "session-limit-tracking",
+      "weekly-limit-tracking",
+      "refresh-panel",
+      "reset-time-display"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-05T18:20:32Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-05T19:37:54.803Z"
+  },
+  {
+    "id": "splunk/token-meter",
+    "name": "token-meter",
+    "author": "splunk",
+    "repoURL": "https://github.com/splunk/token-meter",
+    "description": "Get insights into token usage for Claude code and Codex sessions with a dashboard and menu bar widget for mac",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "JSONL Log Parsing",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "live-session-tracking",
+      "cost-estimation",
+      "multi-provider-support",
+      "dashboard",
+      "menu-bar-widget",
+      "token-analytics",
+      "budget-management",
+      "tool-tracking"
+    ],
+    "builtWithClaude": null,
+    "stars": 18,
+    "lastCommitDate": "2026-08-05T16:16:52Z",
+    "openIssues": 9,
+    "archived": false,
+    "lastFetched": "2026-08-05T19:37:54.804Z"
+  },
+  {
+    "id": "Flow-Ryan-Hack/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "Flow-Ryan-Hack",
+    "repoURL": "https://github.com/Flow-Ryan-Hack/claude-code-statusline",
+    "description": "A Claude Code status line that shows what a conversation actually costs: absolute tokens, cache hit rate, and rate-limit headroom.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "token-accounting",
+      "cache-hit-rate",
+      "rate-limit-headroom",
+      "cost-display",
+      "context-composition",
+      "absolute-tokens"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-05T18:36:35Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-05T19:37:54.804Z"
+  },
+  {
+    "id": "br9704/ccline",
+    "name": "ccline",
+    "author": "br9704",
+    "repoURL": "https://github.com/br9704/ccline",
+    "description": "A fail-soft toolkit for Claude Code: statusline, hooks, slash commands and output styles. Zero runtime dependencies.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "TypeScript",
+    "authMethod": [],
+    "features": [
+      "context-remaining",
+      "token-counter",
+      "cost-tracking",
+      "session-duration",
+      "git-integration",
+      "configurable-segments",
+      "fail-soft-rendering"
+    ],
+    "builtWithClaude": null,
+    "stars": 1,
+    "lastCommitDate": "2026-08-05T18:30:13Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-05T19:37:54.804Z"
+  },
+  {
+    "id": "gati3478/cship-osaka-jade",
+    "name": "cship-osaka-jade",
+    "author": "gati3478",
+    "repoURL": "https://github.com/gati3478/cship-osaka-jade",
+    "description": "Osaka Jade themed 4-line Claude Code statusline for cship + Starship",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "claude-code-statusline",
+      "token-usage-display",
+      "cost-tracking",
+      "context-window-bar",
+      "burn-rate-windows",
+      "per-model-metrics"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-05T17:16:39Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-05T19:37:54.804Z"
+  },
+  {
+    "id": "kevincrabbe99/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "kevincrabbe99",
+    "repoURL": "https://github.com/kevincrabbe99/claude-code-statusline",
+    "description": "An icon-rich, single-line status line for Claude Code",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "context-window-usage",
+      "session-cost",
+      "token-display",
+      "git-integration",
+      "model-display",
+      "session-duration"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-05T15:25:53Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-05T19:37:54.804Z"
+  },
+  {
+    "id": "taras-mrtn/ccbar",
+    "name": "ccbar",
+    "author": "taras-mrtn",
+    "repoURL": "https://github.com/taras-mrtn/ccbar",
+    "description": "Configurable status line for Claude Code — usage limits, context window, git info, and themes in one bar.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "OAuth Token",
+      "Session Cookie"
+    ],
+    "features": [
+      "session-usage",
+      "weekly-usage",
+      "context-window",
+      "progress-bars",
+      "configurable-themes",
+      "git-info",
+      "model-display"
+    ],
+    "builtWithClaude": true,
+    "stars": 6,
+    "lastCommitDate": "2026-08-05T19:07:58Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-05T19:37:54.804Z"
+  },
+  {
+    "id": "M16Ali/claude-guard",
+    "name": "claude-guard",
+    "author": "M16Ali",
+    "repoURL": "https://github.com/M16Ali/claude-guard",
+    "description": "Pre-emptively pause Claude Code before hitting 5h/7d Pro/Max rate limits, auto-resume on reset, and grind an idle-research queue during low-usage windows.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Session Key"
+    ],
+    "features": [
+      "rate-limit-preemption",
+      "auto-resume-on-reset",
+      "idle-research-queue",
+      "usage-monitoring",
+      "statusline-integration",
+      "5h-7d-window-tracking",
+      "project-level-overrides",
+      "slash-commands"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-05T14:23:48Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-05T19:37:54.804Z"
+  },
+  {
+    "id": "MrKaminskiy/UsageTracker",
+    "name": "UsageTracker",
+    "author": "MrKaminskiy",
+    "repoURL": "https://github.com/MrKaminskiy/UsageTracker",
+    "description": "macOS menu bar app that tracks your AI service usage at a glance — Claude, Cursor, Codex, OpenAI, ElevenLabs, OpenRouter and more. See session limits, costs, and quotas without opening a browser.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Browser Cookie Auto-detect",
+      "API Key"
+    ],
+    "features": [
+      "multi-provider",
+      "session-limits",
+      "cost-estimates",
+      "usage-insights",
+      "rate-limits",
+      "menu-bar-display"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-05T15:16:26Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-05T19:37:54.804Z"
   }
 ]
