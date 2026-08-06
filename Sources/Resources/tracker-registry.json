@@ -135606,5 +135606,207 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-05T19:37:54.804Z"
+  },
+  {
+    "id": "eungwang1/claude-usage-monitor",
+    "name": "claude-usage-monitor",
+    "author": "eungwang1",
+    "repoURL": "https://github.com/eungwang1/claude-usage-monitor",
+    "description": "macOS 메뉴바에서 여러 Claude 구독 계정의 사용량 한도(5시간/주간)를 추적하고 Claude Code 계정을 전환합니다",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "multi-account",
+      "usage-limits",
+      "session-tracking",
+      "account-switching",
+      "keychain-storage",
+      "auto-refresh",
+      "polling"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-06T02:01:17Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-06T02:36:40.026Z"
+  },
+  {
+    "id": "ileonemil/MenuClaude",
+    "name": "MenuClaude",
+    "author": "ileonemil",
+    "repoURL": "https://github.com/ileonemil/MenuClaude",
+    "description": "Claude usage in your macOS menu bar: session and weekly limits, live reset countdown, threshold alerts. Native Swift, no dependencies.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "Session Key"
+    ],
+    "features": [
+      "session-limits",
+      "weekly-limits",
+      "threshold-alerts",
+      "live-countdown",
+      "multi-quota-display",
+      "ring-visualization"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-05T23:34:29Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-06T02:36:40.027Z"
+  },
+  {
+    "id": "udoschmitz/claude-usage",
+    "name": "claude-usage",
+    "author": "udoschmitz",
+    "repoURL": "https://github.com/udoschmitz/claude-usage",
+    "description": "macOS menu bar app showing Claude usage limits for multiple accounts",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "multi-account",
+      "usage-limits",
+      "session-and-weekly-quotas",
+      "color-severity-indicators",
+      "floating-detail-window",
+      "usage-history-recording"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-05T21:53:38Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-06T02:36:40.027Z"
+  },
+  {
+    "id": "lrashhcad-hub/ClaudeTeamUsage",
+    "name": "ClaudeTeamUsage",
+    "author": "lrashhcad-hub",
+    "repoURL": "https://github.com/lrashhcad-hub/ClaudeTeamUsage",
+    "description": "Shared-account Claude usage (5h/7d + reset times) in the Claude Code status line",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Traffic Capture"
+    ],
+    "features": [
+      "shared-account-usage",
+      "rate-limit-display",
+      "reset-timers",
+      "team-pool-monitoring",
+      "status-line-widget",
+      "configurable-alerts"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-05T23:59:02Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-06T02:36:40.027Z"
+  },
+  {
+    "id": "lakofsth/claude-code-experience-kit",
+    "name": "claude-code-experience-kit",
+    "author": "lakofsth",
+    "repoURL": "https://github.com/lakofsth/claude-code-experience-kit",
+    "description": "Harness-level customizations for Claude Code: give the agent live sight of its own context fill, quota window, burn rate, clock, and serving model — plus statusline gauges, usage-window anchors, standing pushes, and two precision guard hooks.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "context-fill-gauge",
+      "quota-display",
+      "burn-rate-calc",
+      "usage-window-anchors",
+      "statusline-integration",
+      "agent-context-injection",
+      "live-clock-heartbeat"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-05T21:47:03Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-06T02:36:40.027Z"
+  },
+  {
+    "id": "ulas96/tmux-agent-tracker",
+    "name": "tmux-agent-tracker",
+    "author": "ulas96",
+    "repoURL": "https://github.com/ulas96/tmux-agent-tracker",
+    "description": "Track every running Claude Code agent from your tmux status line — who is waiting, who is done, and jump straight to them",
+    "category": "Tmux Plugin",
+    "platforms": [
+      "tmux"
+    ],
+    "language": "Lua",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Traffic Capture"
+    ],
+    "features": [
+      "claude-code-tracking",
+      "codex-cli-tracking",
+      "agent-status-display",
+      "pane-jumping",
+      "session-monitoring"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-06T01:05:36Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-06T02:36:40.027Z"
+  },
+  {
+    "id": "turbokazax/uma-status-line",
+    "name": "uma-status-line",
+    "author": "turbokazax",
+    "repoURL": "https://github.com/turbokazax/uma-status-line",
+    "description": "Animated Umamusume mascot status line for Claude Code — model, cwd, Git branch, context bar, and Braille/pixel-art sprites",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Python",
+    "authMethod": [],
+    "features": [
+      "context-usage-display",
+      "model-info",
+      "git-branch",
+      "animated-mascot",
+      "session-tracking",
+      "working-idle-state"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-05T21:07:11Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-06T02:36:40.027Z"
   }
 ]
