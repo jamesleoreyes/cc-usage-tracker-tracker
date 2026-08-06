@@ -135809,5 +135809,268 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-06T02:36:40.027Z"
+  },
+  {
+    "id": "udoschmitz/shannons-tab",
+    "name": "shannons-tab",
+    "author": "udoschmitz",
+    "repoURL": "https://github.com/udoschmitz/shannons-tab",
+    "description": "Shannon’s Tab — a macOS menu bar app showing your Claude usage limits for multiple accounts",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "multi-account",
+      "usage-percentages",
+      "session-limits",
+      "week-limits",
+      "color-alerts",
+      "floating-detail-window"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-06T08:15:15Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-06T08:37:52.412Z"
+  },
+  {
+    "id": "kevrez/cc-better-statusline",
+    "name": "cc-better-statusline",
+    "author": "kevrez",
+    "repoURL": "https://github.com/kevrez/cc-better-statusline",
+    "description": "A Claude Code status line with live context, usage tracking, and pretty animations.",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "context-usage-display",
+      "session-usage-percent",
+      "weekly-usage-percent",
+      "cost-tracking",
+      "reset-countdowns",
+      "animated-spinner",
+      "truecolor-gradient"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-06T02:50:44Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-06T08:37:52.412Z"
+  },
+  {
+    "id": "DamianPala/hazline",
+    "name": "hazline",
+    "author": "DamianPala",
+    "repoURL": "https://github.com/DamianPala/hazline",
+    "description": "Fast, configurable statusline for Claude Code — written in Rust",
+    "category": "Statusline",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Unknown",
+    "authMethod": [],
+    "features": [
+      "fast-rendering",
+      "configurable"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-06T07:07:28Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-06T08:37:52.412Z"
+  },
+  {
+    "id": "chpark-ML/claude-statusline",
+    "name": "claude-statusline",
+    "author": "chpark-ML",
+    "repoURL": "https://github.com/chpark-ML/claude-statusline",
+    "description": "Claude Code status line: context, 5-hour and weekly usage gauges from native session data",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "rate-limit-gauges",
+      "context-window-display",
+      "5-hour-quota",
+      "weekly-quota",
+      "token-breakdown",
+      "effort-level",
+      "account-info",
+      "clock-bars"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-06T07:04:22Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-06T08:37:52.412Z"
+  },
+  {
+    "id": "aucentiq/maxima",
+    "name": "maxima",
+    "author": "aucentiq",
+    "repoURL": "https://github.com/aucentiq/maxima",
+    "description": "A tiny native macOS menu bar app that shows your Claude Code usage limits at a glance.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "usage-limits",
+      "progress-bars",
+      "notifications",
+      "weekly-quotas",
+      "session-tracking",
+      "refresh-on-demand"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-06T07:59:39Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-06T08:37:52.412Z"
+  },
+  {
+    "id": "HamTheMeat/roostly",
+    "name": "roostly",
+    "author": "HamTheMeat",
+    "repoURL": "https://github.com/HamTheMeat/roostly",
+    "description": "Three little creatures in your macOS menu bar showing what Claude Code, Codex, and Gemini Spark are doing.",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Traffic Capture"
+    ],
+    "features": [
+      "claude-code-status",
+      "multi-provider",
+      "menubar-display",
+      "activity-detection",
+      "session-monitoring"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-06T07:36:30Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-06T08:37:52.412Z"
+  },
+  {
+    "id": "keli-wen/token-history",
+    "name": "token-history",
+    "author": "keli-wen",
+    "repoURL": "https://github.com/keli-wen/token-history",
+    "description": "Token usage is the next contribution graph — snapshot yours to git daily, show it anywhere as self-updating SVG charts & badges. Claude Code + Codex, more to come.",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "token-history-snapshots",
+      "svg-charts-and-badges",
+      "daily-tracking",
+      "multi-provider-merge",
+      "github-profile-integration",
+      "agent-setup-automated",
+      "zero-dependencies",
+      "self-updating-badges"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-08-06T06:44:18Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-06T08:37:52.412Z"
+  },
+  {
+    "id": "nawazish2/tokenbar",
+    "name": "tokenbar",
+    "author": "nawazish2",
+    "repoURL": "https://github.com/nawazish2/tokenbar",
+    "description": "Free open-source macOS menu bar app for Claude, Codex, Cursor, and Grok usage quotas",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "multi-provider-metrics",
+      "menu-bar-gauge",
+      "liquid-glass-ui",
+      "auto-refresh",
+      "credential-reuse",
+      "no-telemetry"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-06T07:36:13Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-06T08:37:52.412Z"
+  },
+  {
+    "id": "SergioChan/token-meter",
+    "name": "token-meter",
+    "author": "SergioChan",
+    "repoURL": "https://github.com/SergioChan/token-meter",
+    "description": "A live, session-aware token usage meter for Codex and Claude Code Desktop.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Traffic Capture",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "live-token-meter",
+      "session-aware",
+      "rolling-hour-usage",
+      "rate-alerts",
+      "context-occupancy",
+      "anomaly-detection",
+      "multi-agent-tracking"
+    ],
+    "builtWithClaude": null,
+    "stars": 3,
+    "lastCommitDate": "2026-08-06T04:32:20Z",
+    "openIssues": 1,
+    "archived": false,
+    "lastFetched": "2026-08-06T08:37:52.412Z"
   }
 ]
