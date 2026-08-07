@@ -136782,5 +136782,120 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-07T07:17:42.851Z"
+  },
+  {
+    "id": "MONKE2525E/TokenBurn",
+    "name": "TokenBurn",
+    "author": "MONKE2525E",
+    "repoURL": "https://github.com/MONKE2525E/TokenBurn",
+    "description": "Open-source AI usage monitor for Windows. Track Claude Code, Codex, Antigravity, and more from your taskbar.",
+    "category": "Statusline",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Unknown",
+    "authMethod": [],
+    "features": [
+      "claude-code-tracking",
+      "multi-provider-support",
+      "taskbar-integration",
+      "usage-monitoring"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-07T07:57:38Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-07T13:05:00.617Z"
+  },
+  {
+    "id": "Xiao0219/cc-statusline",
+    "name": "cc-statusline",
+    "author": "Xiao0219",
+    "repoURL": "https://github.com/Xiao0219/cc-statusline",
+    "description": " Claude Code 零依赖单行状态栏：缓存命中率、总 token、花费与上下文进度条，支持第三方 API / 代理模型配置",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "cache-hit-rate",
+      "token-counts",
+      "cost-tracking",
+      "context-progress",
+      "multi-provider",
+      "auto-refresh"
+    ],
+    "builtWithClaude": null,
+    "stars": 1,
+    "lastCommitDate": "2026-08-07T11:17:46Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-07T13:05:00.618Z"
+  },
+  {
+    "id": "brian-huanggg/minimal-claude-statusline",
+    "name": "minimal-claude-statusline",
+    "author": "brian-huanggg",
+    "repoURL": "https://github.com/brian-huanggg/minimal-claude-statusline",
+    "description": "👾 Minimal status line on Claude Code",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "rate-limit-display",
+      "context-usage-tracking",
+      "5h-window-breakdown",
+      "7d-window-breakdown",
+      "model-display",
+      "effort-indicator",
+      "responsive-layout",
+      "cache-fallback"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-07T06:13:30Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-07T13:05:00.618Z"
+  },
+  {
+    "id": "nawazish2/cuprim",
+    "name": "cuprim",
+    "author": "nawazish2",
+    "repoURL": "https://github.com/nawazish2/cuprim",
+    "description": "Free open-source macOS menu bar app for Claude, Codex, Cursor, and Grok usage quotas",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Browser Cookie Auto-detect",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "multi-provider",
+      "menu-bar",
+      "local-only",
+      "quota-display",
+      "no-telemetry",
+      "apple-silicon"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-07T11:23:11Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-07T13:05:00.618Z"
   }
 ]
