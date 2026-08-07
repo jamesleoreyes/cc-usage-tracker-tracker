@@ -562,5 +562,11 @@
     "reason": "Gust is a memory management tool for AI dev tools including Claude Code, not a Claude usage tracker; it monitors RAM and process health, not tokens, costs, or API usage metrics.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-07T00:01:54.557Z"
+  },
+  {
+    "id": "KabeerThockchom/wezterm-claude-kit",
+    "reason": "This is a WezTerm configuration and terminal setup toolkit with a live HUD statusline that displays Claude Code session info, but it does not measure, display, or report Claude usage metrics (tokens, cost, context consumed, rate limits) as a feature—it only shows the model name and remaining context as UI chrome.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-07T03:13:01.163Z"
   }
 ]

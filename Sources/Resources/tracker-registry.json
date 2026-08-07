@@ -136393,5 +136393,149 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-06T14:11:45.959Z"
+  },
+  {
+    "id": "infightingproportionalrepresentation352/infightingproportionalrepresentation352.github.io",
+    "name": "infightingproportionalrepresentation352.github.io",
+    "author": "infightingproportionalrepresentation352",
+    "repoURL": "https://github.com/infightingproportionalrepresentation352/infightingproportionalrepresentation352.github.io",
+    "description": "Track Claude Code usage from your macOS menu bar — watch session limits, weekly usage, and estimated costs in real time.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "HTML",
+    "authMethod": [],
+    "features": [
+      "session-limits",
+      "weekly-usage",
+      "estimated-costs",
+      "real-time-monitoring"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-07T00:19:17Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-07T03:13:04.606Z"
+  },
+  {
+    "id": "snfrct/ai-usage-widget",
+    "name": "ai-usage-widget",
+    "author": "snfrct",
+    "repoURL": "https://github.com/snfrct/ai-usage-widget",
+    "description": "Menu-bar-free desktop widget showing live usage quota for Claude Code, Codex, and Cursor",
+    "category": "macOS Native",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "OAuth Token",
+      "Session Key",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "claude-code-quota",
+      "codex-quota",
+      "cursor-quota",
+      "live-usage-polling",
+      "desktop-widget",
+      "multi-provider"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-07T03:07:57Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-07T03:13:04.606Z"
+  },
+  {
+    "id": "osomahong/claude-code-eta",
+    "name": "claude-code-eta",
+    "author": "osomahong",
+    "repoURL": "https://github.com/osomahong/claude-code-eta",
+    "description": "Statusline for Claude Code showing progress and estimated time remaining, learned from your own session history. Korean and English.",
+    "category": "Claude Code Plugin",
+    "platforms": [],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "progress-bar",
+      "eta-estimation",
+      "session-history",
+      "call-count-tracking",
+      "multi-language"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-07T02:14:35Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-07T03:13:04.606Z"
+  },
+  {
+    "id": "ajillepalli/quotagauge",
+    "name": "quotagauge",
+    "author": "ajillepalli",
+    "repoURL": "https://github.com/ajillepalli/quotagauge",
+    "description": "Usage-limit awareness for Claude Code and Codex: captures rate-limit readings from both tools and warns the model before it runs into a 5-hour or weekly limit",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Traffic Capture"
+    ],
+    "features": [
+      "rate-limit-warnings",
+      "multi-provider",
+      "usage-bounds",
+      "prompt-hooks",
+      "rolling-windows",
+      "zero-dependencies"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-07T01:15:18Z",
+    "openIssues": 6,
+    "archived": false,
+    "lastFetched": "2026-08-07T03:13:04.606Z"
+  },
+  {
+    "id": "adamXbot/ClaudeWatch",
+    "name": "ClaudeWatch",
+    "author": "adamXbot",
+    "repoURL": "https://github.com/adamXbot/ClaudeWatch",
+    "description": "Menu-bar history of the system-touching actions Claude Code runs — see what the AI does on your machine, with links back to the issuing thread.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "menu-bar-display",
+      "claude-code-actions",
+      "session-history",
+      "system-command-tracking",
+      "file-write-monitoring",
+      "network-request-logging"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-07T01:51:20Z",
+    "openIssues": 2,
+    "archived": false,
+    "lastFetched": "2026-08-07T03:13:04.606Z"
   }
 ]
