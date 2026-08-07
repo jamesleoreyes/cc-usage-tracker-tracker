@@ -532,5 +532,35 @@
     "reason": "ChatBrain is a session browser and manager for Claude Code, not a usage tracker—it displays session metadata and history but does not measure, report, or track Claude usage metrics like tokens, costs, or rate limits.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-05T19:37:51.516Z"
+  },
+  {
+    "id": "nullhex-io/greebo-setup",
+    "reason": "This is a shareable Claude Code configuration repo for hooks and workflow patterns, not a usage tracker—it does not display, measure, or report Claude usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-07T00:01:31.479Z"
+  },
+  {
+    "id": "TevanB/claude-buddy",
+    "reason": "claude-buddy is a cosmetic status line companion for Claude Code that displays branch state and session identity, not a usage tracker—it monitors git hygiene and workspace context, not Claude token consumption, cost, or API usage.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-07T00:01:38.416Z"
+  },
+  {
+    "id": "jsleetw/claude-status-line",
+    "reason": "This is a Claude Code status-line plugin that displays the active model and git branch status, but does not measure, display, or report Claude usage metrics like tokens, cost, or context consumed—it only shows which model is active.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-07T00:01:41.316Z"
+  },
+  {
+    "id": "sethwebster/claudes",
+    "reason": "This is an account profile manager and launcher utility with no usage tracking, measurement, or reporting features — it isolates multiple Claude accounts but does not display tokens, costs, sessions, or any usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-07T00:01:47.931Z"
+  },
+  {
+    "id": "michaelparker33/gust",
+    "reason": "Gust is a memory management tool for AI dev tools including Claude Code, not a Claude usage tracker; it monitors RAM and process health, not tokens, costs, or API usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-07T00:01:54.557Z"
   }
 ]
