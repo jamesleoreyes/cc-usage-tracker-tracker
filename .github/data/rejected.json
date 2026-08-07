@@ -574,5 +574,17 @@
     "reason": "AgentBorder displays agent activity status (working/waiting/done/error) visually via window borders, but does not track or measure Claude usage metrics like tokens, cost, or rate limits, making it a status monitor rather than a usage tracker.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-07T07:17:38.775Z"
+  },
+  {
+    "id": "TevanB/parallel-harness-pets",
+    "reason": "This is a git worktree status line pet display with branch hygiene tracking, not a Claude usage tracker—it decorates terminal sessions with creatures and renders branch state but does not measure, display, or report Claude tokens, costs, or usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-07T18:58:42.717Z"
+  },
+  {
+    "id": "noisyneighborstudio/claudes",
+    "reason": "This is an account manager and profile switcher for multiple Claude instances with session rotation and usage-aware routing (--best flag), but it does not display, measure, or report Claude usage as a substantial feature—it only queries server-side usage data to pick accounts, not to track or visualize consumption.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-07T18:58:50.744Z"
   }
 ]
