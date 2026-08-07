@@ -568,5 +568,11 @@
     "reason": "This is a WezTerm configuration and terminal setup toolkit with a live HUD statusline that displays Claude Code session info, but it does not measure, display, or report Claude usage metrics (tokens, cost, context consumed, rate limits) as a feature—it only shows the model name and remaining context as UI chrome.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-07T03:13:01.163Z"
+  },
+  {
+    "id": "Having-Liu/AgentBorder",
+    "reason": "AgentBorder displays agent activity status (working/waiting/done/error) visually via window borders, but does not track or measure Claude usage metrics like tokens, cost, or rate limits, making it a status monitor rather than a usage tracker.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-07T07:17:38.775Z"
   }
 ]
