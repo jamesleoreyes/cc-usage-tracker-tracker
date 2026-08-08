@@ -137276,5 +137276,204 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-07T18:58:54.209Z"
+  },
+  {
+    "id": "JairoTorregrosa/claude-statusline",
+    "name": "claude-statusline",
+    "author": "JairoTorregrosa",
+    "repoURL": "https://github.com/JairoTorregrosa/claude-statusline",
+    "description": "Fast Rust statusline for Claude Code — payload-first, cached git, ~10ms renders",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "context-window-display",
+      "rate-limit-tracking",
+      "cost-tracking",
+      "model-display",
+      "session-management",
+      "git-integration",
+      "mcp-servers",
+      "skills-inventory"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-08T01:37:18Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-08T01:41:30.569Z"
+  },
+  {
+    "id": "artzeeker/zeek-meter-statusline",
+    "name": "zeek-meter-statusline",
+    "author": "artzeeker",
+    "repoURL": "https://github.com/artzeeker/zeek-meter-statusline",
+    "description": "Zero-runtime-dependency, pace-aware status line for Claude Code: model, git branch, context window, and 5h/7d rate-limit bars with a mood face",
+    "category": "Statusline",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Rust",
+    "authMethod": [],
+    "features": [
+      "context-window-tracking",
+      "rate-limit-bars",
+      "5h-7d-windows",
+      "pace-aware",
+      "git-integration",
+      "mood-indicator",
+      "nerd-font-icons"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-07T22:02:53Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-08T01:41:30.569Z"
+  },
+  {
+    "id": "webframp/claude-code-status",
+    "name": "claude-code-status",
+    "author": "webframp",
+    "repoURL": "https://github.com/webframp/claude-code-status",
+    "description": "Self-contained Claude Code statusLine: context-token budget, git branch, rate limits, permission mode, optional swamp workflow status. No third-party dependency.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "context-token-budget",
+      "rate-limit-display",
+      "session-tracking",
+      "git-branch-info",
+      "model-display",
+      "permission-mode-indicator",
+      "swamp-integration",
+      "multi-session-colors"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-07T21:02:14Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-08T01:41:30.569Z"
+  },
+  {
+    "id": "federico-jarach/ai-control-center",
+    "name": "ai-control-center",
+    "author": "federico-jarach",
+    "repoURL": "https://github.com/federico-jarach/ai-control-center",
+    "description": "macOS menu bar app that tracks all your open AI sessions — Claude, ChatGPT, Gemini, Grok, Perplexity, Claude Code",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "multi-provider-tracking",
+      "claude-code-integration",
+      "session-management",
+      "resume-notes",
+      "local-only",
+      "browser-tab-detection"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-08-07T23:27:48Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-08T01:41:30.569Z"
+  },
+  {
+    "id": "austinrhermann/guzzler",
+    "name": "guzzler",
+    "author": "austinrhermann",
+    "repoURL": "https://github.com/austinrhermann/guzzler",
+    "description": "Menu bar app that shows your Claude Code token usage as water consumed",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "claude-code-tokens",
+      "water-consumption-estimate",
+      "menu-bar-display",
+      "14-day-sparkline",
+      "lifetime-ledger",
+      "cli-json",
+      "glass-jug-notifications",
+      "configurable-presets"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-07T20:01:56Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-08T01:41:30.569Z"
+  },
+  {
+    "id": "ericviana/zellij-ai-stats",
+    "name": "zellij-ai-stats",
+    "author": "ericviana",
+    "repoURL": "https://github.com/ericviana/zellij-ai-stats",
+    "description": "Zellij plugin showing Claude Code and Codex quota usage in a themed powerline bar.",
+    "category": "Tmux Plugin",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "claude-quota-display",
+      "codex-quota-display",
+      "agent-monitoring",
+      "powerline-themed",
+      "rate-limit-caching"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-07T22:00:17Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-08T01:41:30.569Z"
+  },
+  {
+    "id": "daniel-barros/ClaudeUsageBar",
+    "name": "ClaudeUsageBar",
+    "author": "daniel-barros",
+    "repoURL": "https://github.com/daniel-barros/ClaudeUsageBar",
+    "description": "Track your Claude.ai usage right from your Mac menu bar",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Unknown",
+    "authMethod": [],
+    "features": [
+      "usage-tracking",
+      "menu-bar-display"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-08T01:21:52Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-08T01:41:30.569Z"
   }
 ]
