@@ -137483,5 +137483,159 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-08T01:41:30.569Z"
+  },
+  {
+    "id": "timothynice/ClaudeUsage",
+    "name": "ClaudeUsage",
+    "author": "timothynice",
+    "repoURL": "https://github.com/timothynice/ClaudeUsage",
+    "description": "UsageRing: macOS menu bar usage tracker for Claude Code",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Browser Cookie Auto-detect",
+      "OAuth Token"
+    ],
+    "features": [
+      "menu-bar-ring",
+      "5-hour-window",
+      "weekly-limits",
+      "per-model-tracking",
+      "usage-credits",
+      "keychain-integration",
+      "auto-refresh"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-08T04:42:59Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-08T06:54:29.614Z"
+  },
+  {
+    "id": "rene-d/ClaudeUsage",
+    "name": "ClaudeUsage",
+    "author": "rene-d",
+    "repoURL": "https://github.com/rene-d/ClaudeUsage",
+    "description": "macOS only — Claude Code subscription quotas: a CLI report and a menu bar app with two stacked gauges",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "quota-tracking",
+      "session-window",
+      "weekly-limits",
+      "menu-bar-app",
+      "rate-limit-backoff",
+      "localization",
+      "keychain-integration"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-08T05:33:41Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-08T06:54:29.614Z"
+  },
+  {
+    "id": "chadalanlester/claude-web",
+    "name": "claude-web",
+    "author": "chadalanlester",
+    "repoURL": "https://github.com/chadalanlester/claude-web",
+    "description": "A brutalist dark-mode web UI for Claude Code — terminal-style chat with session management, conversation history, and token usage tracking. Streams real claude CLI output over WebSocket. One-command Mac installer included.",
+    "category": "Web Dashboard",
+    "platforms": [
+      "macos",
+      "web"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "Session Key",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "token-usage-tracking",
+      "session-management",
+      "conversation-history",
+      "multi-session",
+      "stream-real-time",
+      "tool-call-blocks",
+      "daily-stats",
+      "auto-start-login"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-08T03:30:10Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-08T06:54:29.614Z"
+  },
+  {
+    "id": "galvaowesley/claude-cli-usage-indicator",
+    "name": "claude-cli-usage-indicator",
+    "author": "galvaowesley",
+    "repoURL": "https://github.com/galvaowesley/claude-cli-usage-indicator",
+    "description": "Configurable, cross-platform (Linux/macOS) status line for Claude Code: model, effort, context, rate limits, git branch, CPU/RAM.",
+    "category": "Statusline",
+    "platforms": [
+      "linux",
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "model-display",
+      "effort-level",
+      "context-window",
+      "rate-limit-alerts",
+      "git-integration",
+      "system-metrics",
+      "configurable-ui"
+    ],
+    "builtWithClaude": null,
+    "stars": 1,
+    "lastCommitDate": "2026-08-08T03:10:48Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-08T06:54:29.614Z"
+  },
+  {
+    "id": "imai-design/claude-usage-meter",
+    "name": "claude-usage-meter",
+    "author": "imai-design",
+    "repoURL": "https://github.com/imai-design/claude-usage-meter",
+    "description": "Claude Codeの残り枠をMacのメニューバーに常時表示。今日あと何%使えるか・週末着地予測・危険度が上がった瞬間だけ通知",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Browser Cookie Auto-detect",
+      "OAuth Token"
+    ],
+    "features": [
+      "weekly-usage-display",
+      "daily-budget-calculation",
+      "overflow-projection",
+      "danger-level-alerts",
+      "menubar-widget",
+      "risk-escalation-notifications"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-08T04:17:59Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-08T06:54:29.614Z"
   }
 ]
