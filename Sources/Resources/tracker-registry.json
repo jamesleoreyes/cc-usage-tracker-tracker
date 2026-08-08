@@ -137637,5 +137637,126 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-08T06:54:29.614Z"
+  },
+  {
+    "id": "iajaydandge/claude-usage-plugin",
+    "name": "claude-usage-plugin",
+    "author": "iajaydandge",
+    "repoURL": "https://github.com/iajaydandge/claude-usage-plugin",
+    "description": "Per-user token, cost, and session tracking for Claude Code — built for teams that share a single Claude account.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "per-user-tracking",
+      "token-cost-reporting",
+      "session-tracking",
+      "team-multi-account",
+      "self-hosted-dashboard",
+      "role-based-visibility",
+      "local-first-queue"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-08T07:06:56Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-08T12:49:51.356Z"
+  },
+  {
+    "id": "onecoded/claude-usage-monitor",
+    "name": "claude-usage-monitor",
+    "author": "onecoded",
+    "repoURL": "https://github.com/onecoded/claude-usage-monitor",
+    "description": "Monitor Claude Code weekly usage against a prorated daily budget. Toast alerts + desktop widget for Windows.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "weekly-budget-tracking",
+      "daily-thresholds",
+      "toast-alerts",
+      "desktop-widget",
+      "prorated-allowance",
+      "event-driven"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-08T11:35:25Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-08T12:49:51.356Z"
+  },
+  {
+    "id": "hulryung/claude-rate-monitor",
+    "name": "claude-rate-monitor",
+    "author": "hulryung",
+    "repoURL": "https://github.com/hulryung/claude-rate-monitor",
+    "description": "Native macOS WidgetKit widget for monitoring Claude Code rate limits",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "local-log-reading",
+      "rate-limit-monitoring",
+      "cost-tracking",
+      "per-project-breakdown",
+      "hotkey-hud",
+      "menu-bar-widget",
+      "self-calibrating-windows",
+      "official-quota-sync"
+    ],
+    "builtWithClaude": null,
+    "stars": 3,
+    "lastCommitDate": "2026-08-08T12:27:20Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-08T12:49:51.356Z"
+  },
+  {
+    "id": "AlmazKo/EpiScope",
+    "name": "EpiScope",
+    "author": "AlmazKo",
+    "repoURL": "https://github.com/AlmazKo/EpiScope",
+    "description": "Menu-bar monitor for Claude Code, Codex and Claude Desktop agent sessions on macOS — permission alerts, tokens, cost and local AI insights",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "token-tracking",
+      "cost-analysis",
+      "permission-alerts",
+      "session-monitoring",
+      "spend-timeline",
+      "full-text-search",
+      "ai-insights",
+      "multi-session-dashboard"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-08T12:23:47Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-08T12:49:51.356Z"
   }
 ]
