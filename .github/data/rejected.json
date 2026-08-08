@@ -586,5 +586,11 @@
     "reason": "This is an account manager and profile switcher for multiple Claude instances with session rotation and usage-aware routing (--best flag), but it does not display, measure, or report Claude usage as a substantial feature—it only queries server-side usage data to pick accounts, not to track or visualize consumption.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-07T18:58:50.744Z"
+  },
+  {
+    "id": "juanquiservin/trueloop",
+    "reason": "TRUELOOP is an orchestration framework for Claude Code that manages agentic workflows and handles rate limits, but does not display, measure, or report Claude usage metrics as a substantial feature.",
+    "confidence": 0.92,
+    "rejectedAt": "2026-08-08T18:38:54.840Z"
   }
 ]

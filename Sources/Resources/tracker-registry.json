@@ -137765,5 +137765,148 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-08T12:49:51.356Z"
+  },
+  {
+    "id": "Vitashka2001/ai-limit-bar",
+    "name": "ai-limit-bar",
+    "author": "Vitashka2001",
+    "repoURL": "https://github.com/Vitashka2001/ai-limit-bar",
+    "description": "Native macOS menu bar tracker for Codex and Claude usage limits",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "menu-bar-display",
+      "quota-monitoring",
+      "codex-support",
+      "account-switching",
+      "multi-language",
+      "freshness-indicators"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-08T18:30:49Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-08T18:39:01.849Z"
+  },
+  {
+    "id": "logically-happy/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "logically-happy",
+    "repoURL": "https://github.com/logically-happy/claude-code-statusline",
+    "description": "Rich main + subagent status lines for Claude Code, with live model pricing",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Python",
+    "authMethod": [],
+    "features": [
+      "live-token-usage",
+      "session-cost",
+      "context-window-tracking",
+      "model-pricing",
+      "subagent-monitoring",
+      "prompt-cache-age"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-08T14:25:56Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-08T18:39:01.849Z"
+  },
+  {
+    "id": "berniecz/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "berniecz",
+    "repoURL": "https://github.com/berniecz/claude-code-statusline",
+    "description": "Claude Code status line showing subscription rate limits (5h / weekly) alongside context usage — no network calls, no credentials",
+    "category": "Claude Code Plugin",
+    "platforms": [],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "subscription-rate-limits",
+      "context-window",
+      "reset-countdown",
+      "modeleffort-tracking",
+      "no-credentials"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-08T14:20:37Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-08T18:39:01.849Z"
+  },
+  {
+    "id": "celadorastudios/claude-o-meter",
+    "name": "claude-o-meter",
+    "author": "celadorastudios",
+    "repoURL": "https://github.com/celadorastudios/claude-o-meter",
+    "description": "macOS menu-bar Claude Code cost tracker",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "cost-breakdown",
+      "budget-alerts",
+      "30-day-chart",
+      "per-project-tracking",
+      "spend-trends",
+      "cache-analytics",
+      "local-only"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-08T17:26:58Z",
+    "openIssues": 3,
+    "archived": false,
+    "lastFetched": "2026-08-08T18:39:01.849Z"
+  },
+  {
+    "id": "Ri4Chaard/quota-tracker",
+    "name": "quota-tracker",
+    "author": "Ri4Chaard",
+    "repoURL": "https://github.com/Ri4Chaard/quota-tracker",
+    "description": "macOS menu bar app showing Claude quota usage and reset times",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "quota-display",
+      "reset-countdown",
+      "visual-ring-meter",
+      "menu-bar-app",
+      "status-line-integration",
+      "direct-api-access",
+      "multi-source",
+      "colour-alerts"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-08T14:13:30Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-08T18:39:01.849Z"
   }
 ]
