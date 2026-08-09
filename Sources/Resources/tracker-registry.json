@@ -138088,5 +138088,68 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-09T01:47:11.599Z"
+  },
+  {
+    "id": "romarioZ1000/claude-usage-plasmoid",
+    "name": "claude-usage-plasmoid",
+    "author": "romarioZ1000",
+    "repoURL": "https://github.com/romarioZ1000/claude-usage-plasmoid",
+    "description": "KDE Plasma 6 widget: Claude subscription usage limits as CPU-monitor-style bars with reset countdowns",
+    "category": "Übersicht Widget",
+    "platforms": [
+      "linux"
+    ],
+    "language": "QML",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "usage-bars",
+      "session-limits",
+      "weekly-limits",
+      "model-limits",
+      "reset-countdown",
+      "color-coded",
+      "hover-tooltip",
+      "refresh-button"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-09T06:11:04Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-09T06:57:51.584Z"
+  },
+  {
+    "id": "charistas/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "charistas",
+    "repoURL": "https://github.com/charistas/claude-code-statusline",
+    "description": "Beautiful Claude Code statusline with context tracking, cost monitoring, git integration, and traffic-light warnings",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "API Key"
+    ],
+    "features": [
+      "context-tracking",
+      "cost-monitoring",
+      "git-integration",
+      "traffic-light-warnings",
+      "session-daily-weekly-monthly-yearly",
+      "concurrent-safety",
+      "pricing-tables"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-09T05:22:51Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-09T06:57:51.584Z"
   }
 ]
