@@ -592,5 +592,11 @@
     "reason": "TRUELOOP is an orchestration framework for Claude Code that manages agentic workflows and handles rate limits, but does not display, measure, or report Claude usage metrics as a substantial feature.",
     "confidence": 0.92,
     "rejectedAt": "2026-08-08T18:38:54.840Z"
+  },
+  {
+    "id": "azandabot/selecta",
+    "reason": "selecta is a music player integration for Claude Code that displays currently playing music in the status line, but it does not track, measure, or report Claude usage (tokens, cost, rate limits, quotas) as a feature.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-08-09T01:47:00.103Z"
   }
 ]

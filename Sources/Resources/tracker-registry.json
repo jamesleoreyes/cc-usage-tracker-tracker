@@ -137909,5 +137909,181 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-08T18:39:01.849Z"
+  },
+  {
+    "id": "hrxshxx/claude-usage",
+    "name": "claude-usage",
+    "author": "hrxshxx",
+    "repoURL": "https://github.com/hrxshxx/claude-usage",
+    "description": "macOS menu bar and desktop app for tracking Claude usage — live limit windows plus local token stats",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Browser Cookie Auto-detect",
+      "Session Cookie"
+    ],
+    "features": [
+      "menu-bar-display",
+      "live-rate-limits",
+      "local-token-stats",
+      "widget-kit",
+      "daily-breakdown"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-09T00:53:43Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-09T01:47:11.599Z"
+  },
+  {
+    "id": "ashishreddy2411/ClaudeUsageTracker",
+    "name": "ClaudeUsageTracker",
+    "author": "ashishreddy2411",
+    "repoURL": "https://github.com/ashishreddy2411/ClaudeUsageTracker",
+    "description": "Native macOS menu bar app showing Claude session and weekly usage bars. Read-only, opt-in Claude Code Keychain integration.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "session-usage-bar",
+      "weekly-usage-bar",
+      "read-only-keychain",
+      "refresh-interval",
+      "alert-config"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-09T00:14:41Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-09T01:47:11.599Z"
+  },
+  {
+    "id": "Gaalbu/ai-usage-widget",
+    "name": "ai-usage-widget",
+    "author": "Gaalbu",
+    "repoURL": "https://github.com/Gaalbu/ai-usage-widget",
+    "description": "Quiet GNOME desktop widget for Claude Code and Codex usage limits",
+    "category": "Übersicht Widget",
+    "platforms": [
+      "linux"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "OAuth Token",
+      "JSONL Log Parsing",
+      "Session Key"
+    ],
+    "features": [
+      "claude-usage-display",
+      "codex-usage-display",
+      "utilization-windows",
+      "rate-limit-tracking",
+      "offline-fallback",
+      "five-minute-refresh"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-08T20:26:33Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-09T01:47:11.599Z"
+  },
+  {
+    "id": "keigoly/claude-statusline",
+    "name": "claude-statusline",
+    "author": "keigoly",
+    "repoURL": "https://github.com/keigoly/claude-statusline",
+    "description": "Claude Code の多段ステータスライン。コンテキスト/モデル/プラン枠に加え、OpenRouter の外注経路と残額を表示する。",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Session Key",
+      "API Key"
+    ],
+    "features": [
+      "context-usage-display",
+      "model-tracking",
+      "openrouter-balance",
+      "rate-limit-status",
+      "effort-level-display",
+      "color-coded-alerts"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-08T21:05:14Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-09T01:47:11.599Z"
+  },
+  {
+    "id": "dprovder/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "dprovder",
+    "repoURL": "https://github.com/dprovder/claude-code-statusline",
+    "description": "Responsive, color-vision-friendly status line for Claude Code — adapts to terminal width, no emoji, no patched fonts",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "context-window-bar",
+      "session-cost",
+      "rate-limit-usage",
+      "code-velocity",
+      "colorblind-safe",
+      "responsive-layout"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-08T19:31:54Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-09T01:47:11.599Z"
+  },
+  {
+    "id": "DailyXplorer/Usage-Bar",
+    "name": "Usage-Bar",
+    "author": "DailyXplorer",
+    "repoURL": "https://github.com/DailyXplorer/Usage-Bar",
+    "description": "MacOS menu bar app showing your Codex (ChatGPT) and Claude Code usage limits at a glance",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "Session Cookie"
+    ],
+    "features": [
+      "claude-usage-display",
+      "codex-usage-display",
+      "menu-bar-app",
+      "percentage-remaining",
+      "reset-countdown",
+      "multi-provider",
+      "auto-refresh"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-08T21:33:16Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-09T01:47:11.599Z"
   }
 ]
