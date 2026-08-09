@@ -598,5 +598,11 @@
     "reason": "selecta is a music player integration for Claude Code that displays currently playing music in the status line, but it does not track, measure, or report Claude usage (tokens, cost, rate limits, quotas) as a feature.",
     "confidence": 0.85,
     "rejectedAt": "2026-08-09T01:47:00.103Z"
+  },
+  {
+    "id": "zzunaid/coo-coo",
+    "reason": "CooCoo is a notification companion for Claude Code that alerts on state changes, but does not measure, display, or report Claude usage metrics (tokens, cost, rate limits) as a feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-09T12:51:50.313Z"
   }
 ]

@@ -138152,5 +138152,91 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-09T06:57:51.584Z"
+  },
+  {
+    "id": "LucaAmerio/claude-usage-monitor",
+    "name": "claude-usage-monitor",
+    "author": "LucaAmerio",
+    "repoURL": "https://github.com/LucaAmerio/claude-usage-monitor",
+    "description": "Claude Code skills that track your rolling 5-hour usage budget, keep OAuth tokens fresh, and pause/resume long sessions before you run out of room.",
+    "category": "Claude Code Plugin",
+    "platforms": [],
+    "language": "Shell",
+    "authMethod": [
+      "OAuth Token",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "rolling-5-hour-budget",
+      "token-renewal",
+      "session-pause-resume",
+      "budget-monitoring",
+      "oauth-expiry-detection"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-09T12:16:23Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-09T12:51:53.273Z"
+  },
+  {
+    "id": "EthanMcDonnell/claude-usage-bar",
+    "name": "claude-usage-bar",
+    "author": "EthanMcDonnell",
+    "repoURL": "https://github.com/EthanMcDonnell/claude-usage-bar",
+    "description": "Scripts for `~/.claude/scripts`",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "context-usage-display",
+      "cost-tracking",
+      "weekly-pacing",
+      "status-bar-integration",
+      "model-info",
+      "rolling-7-day-usage"
+    ],
+    "builtWithClaude": null,
+    "stars": 20,
+    "lastCommitDate": "2026-08-09T07:14:40Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-09T12:51:53.273Z"
+  },
+  {
+    "id": "RainGiving/ai-battery",
+    "name": "ai-battery",
+    "author": "RainGiving",
+    "repoURL": "https://github.com/RainGiving/ai-battery",
+    "description": "Menu bar monitor for Claude and Codex usage on macOS",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Session Cookie",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "multi-account",
+      "usage-windows",
+      "menu-bar-monitor",
+      "claude-codex-support",
+      "manual-refresh",
+      "claude-desktop-sync"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-09T08:46:15Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-09T12:51:53.273Z"
   }
 ]
