@@ -604,5 +604,11 @@
     "reason": "CooCoo is a notification companion for Claude Code that alerts on state changes, but does not measure, display, or report Claude usage metrics (tokens, cost, rate limits) as a feature.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-09T12:51:50.313Z"
+  },
+  {
+    "id": "freellms/awesome-freellm-apis",
+    "reason": "This is a curated directory and comparison tool for free LLM APIs across multiple providers, not a Claude usage tracker—it helps users find and configure free alternatives to Claude but does not display, measure, or report Claude usage.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-09T18:41:53.856Z"
   }
 ]
