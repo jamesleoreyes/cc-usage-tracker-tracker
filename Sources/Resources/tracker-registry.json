@@ -138554,5 +138554,254 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-09T18:42:00.777Z"
+  },
+  {
+    "id": "cascone26/claude-usage-tracker",
+    "name": "claude-usage-tracker",
+    "author": "cascone26",
+    "repoURL": "https://github.com/cascone26/claude-usage-tracker",
+    "description": "Zero-dependency Node.js CLI for tracking Claude Code weekly token usage and pacing it against a subscription budget.",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "JSONL Log Parsing",
+      "JSONL Log Parsing",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "weekly-budget-tracking",
+      "weighted-token-pacing",
+      "per-model-breakdown",
+      "claude-code-stats-cache",
+      "manual-session-logging",
+      "pace-forecasting",
+      "file-size-estimation"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-09T21:45:09Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-10T01:50:57.896Z"
+  },
+  {
+    "id": "5carl/claude-usage-budget",
+    "name": "claude-usage-budget",
+    "author": "5carl",
+    "repoURL": "https://github.com/5carl/claude-usage-budget",
+    "description": "Claude Code hooks: subscription rate-limit meters in the status bar + a usage-budget line injected into the model's context so Claude sizes work to remaining quota",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "rate-limit-meters",
+      "session-window-tracking",
+      "weekly-cap-display",
+      "context-injection",
+      "multi-account",
+      "soft-fallback",
+      "oauth-cache"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-09T22:36:10Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-10T01:50:57.896Z"
+  },
+  {
+    "id": "pengfeng/leet-agent-tracker",
+    "name": "leet-agent-tracker",
+    "author": "pengfeng",
+    "repoURL": "https://github.com/pengfeng/leet-agent-tracker",
+    "description": "Local-first warehouse and analytics dashboard to analyze coding harness usage like Claude Code, Codex, and OpenCode — track costs, tokens, prompts, tool activity, traces, and subscription usage.",
+    "category": "Web Dashboard",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows",
+      "web"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "JSONL Log Parsing",
+      "API Key"
+    ],
+    "features": [
+      "cost-analytics",
+      "token-tracking",
+      "prompt-attribution",
+      "project-summaries",
+      "session-replay",
+      "subscription-billing",
+      "local-first-warehouse"
+    ],
+    "builtWithClaude": true,
+    "stars": 2,
+    "lastCommitDate": "2026-08-10T01:14:20Z",
+    "openIssues": 4,
+    "archived": false,
+    "lastFetched": "2026-08-10T01:50:57.896Z"
+  },
+  {
+    "id": "Totes-MickGOATs/claude-statusline",
+    "name": "claude-statusline",
+    "author": "Totes-MickGOATs",
+    "repoURL": "https://github.com/Totes-MickGOATs/claude-statusline",
+    "description": "A dense multi-row status line for Claude Code — context headroom, cache hit rate, spend, rate-limit burn-down, per-model weekly windows, a cross-account roster, and live subagent rows. macOS, Linux, Windows.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "context-headroom",
+      "cache-hit-rate",
+      "spend-tracking",
+      "rate-limit-burn-down",
+      "multi-account-roster",
+      "subagent-monitoring",
+      "token-rate-sparklines"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-10T00:26:57Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-10T01:50:57.896Z"
+  },
+  {
+    "id": "jnelken/ai-tools",
+    "name": "ai-tools",
+    "author": "jnelken",
+    "repoURL": "https://github.com/jnelken/ai-tools",
+    "description": "Personal Claude Code skills, hooks, automations, and statusline — symlink-install via ./install.sh",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "context-usage-bars",
+      "cost-tracking",
+      "session-time",
+      "momentum-color-gradient",
+      "daily-token-summaries",
+      "multi-skill-framework"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-08-10T00:09:26Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-10T01:50:57.896Z"
+  },
+  {
+    "id": "yagnikaryan/watermark",
+    "name": "watermark",
+    "author": "yagnikaryan",
+    "repoURL": "https://github.com/yagnikaryan/watermark",
+    "description": "A Claude Code statusline that shows your token spend as a volume of water you can picture. The number is a range, and every coefficient shows its source.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Unknown",
+    "authMethod": [],
+    "features": [
+      "token-spend-visualization",
+      "water-volume-metaphor",
+      "cost-range-estimation",
+      "source-attribution"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-10T00:22:05Z",
+    "openIssues": 1,
+    "archived": false,
+    "lastFetched": "2026-08-10T01:50:57.896Z"
+  },
+  {
+    "id": "MarioPayan/aimeter",
+    "name": "aimeter",
+    "author": "MarioPayan",
+    "repoURL": "https://github.com/MarioPayan/aimeter",
+    "description": "AI coding-tool usage, where you already look — a Claude Code statusline segment for your rate limits, context window and reset countdowns. One binary, ~2ms, no daemon.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "OAuth Token",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "claude-code-rate-limits",
+      "context-window",
+      "reset-countdowns",
+      "statusline-segment",
+      "minimal-overhead"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-09T23:13:02Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-10T01:50:57.896Z"
+  },
+  {
+    "id": "Mr-Bombadil/Claude-of-The-Rings",
+    "name": "Claude-of-The-Rings",
+    "author": "Mr-Bombadil",
+    "repoURL": "https://github.com/Mr-Bombadil/Claude-of-The-Rings",
+    "description": "Shareable pieces of my Claude Code setup: status line, .NET pre-commit gate, subagents and skills.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "session-usage-display",
+      "weekly-rate-limit",
+      "reset-countdown",
+      "effort-indicator",
+      "thinking-state",
+      "model-selector"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-09T20:42:06Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-10T01:50:57.896Z"
   }
 ]

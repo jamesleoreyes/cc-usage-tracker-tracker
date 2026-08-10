@@ -610,5 +610,23 @@
     "reason": "This is a curated directory and comparison tool for free LLM APIs across multiple providers, not a Claude usage tracker—it helps users find and configure free alternatives to Claude but does not display, measure, or report Claude usage.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-09T18:41:53.856Z"
+  },
+  {
+    "id": "gesmith0606/claude-config-public",
+    "reason": "This is a personal Claude Code configuration repository with skills, agents, and statusline display—not a usage tracker; it manages Claude capabilities but does not measure, display, or report Claude usage (tokens, costs, rate limits) as a feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-10T01:50:42.816Z"
+  },
+  {
+    "id": "LuGuBo/Synapse-Engine",
+    "reason": "Synapse Engine is a rate-limit harness and governance framework for AI agents, not a usage tracker; it protects against rate limits but does not display or measure Claude usage as a primary feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-10T01:50:54.789Z"
+  },
+  {
+    "id": "umzcio/SwarmBar",
+    "reason": "SwarmBar monitors the status and state of multiple coding agents (Claude Code, Codex, etc.) but does not display, measure, or report Claude usage metrics (tokens, costs, rate limits); it is a session manager and approval interface for concurrent agents, not a usage tracker.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-08-10T01:50:57.896Z"
   }
 ]
