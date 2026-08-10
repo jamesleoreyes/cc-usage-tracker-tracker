@@ -634,5 +634,17 @@
     "reason": "This is a configuration and enforcement system for Claude Code with a statusline component that displays context usage, but the primary purpose is to implement hard guards and constraints rather than track Claude usage metrics—it's a dotfiles safety harness, not a usage tracker.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-10T13:09:17.906Z"
+  },
+  {
+    "id": "daviddunec/claude-code-starter-kit",
+    "reason": "This is a starter kit and configuration helper for Claude Code itself, not a usage tracker; while it includes a statusline component, the primary purpose is onboarding and setup, not measuring or reporting Claude usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-10T18:58:52.064Z"
+  },
+  {
+    "id": "Yassin-Younis/claude-overtime",
+    "reason": "Claude Overtime is a power-management utility for keeping Macs awake during agent runs, not a Claude usage tracker — it monitors processes and system sleep state, not tokens, costs, or usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-10T18:59:02.490Z"
   }
 ]

@@ -139106,5 +139106,126 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-10T13:09:29.923Z"
+  },
+  {
+    "id": "chareechard/claude-context-bar",
+    "name": "claude-context-bar",
+    "author": "chareechard",
+    "repoURL": "https://github.com/chareechard/claude-context-bar",
+    "description": "A dependency-free Claude Code status line: context window, token counts, and 5h/7d rate limits with reset countdowns.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "context-window-bar",
+      "token-counts",
+      "rate-limit-reset-countdown",
+      "5h-7d-limits",
+      "configurable-segments",
+      "zero-dependencies"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-10T14:12:01Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-10T18:59:09.782Z"
+  },
+  {
+    "id": "LipiTechnology/claude-code-statusbar",
+    "name": "claude-code-statusbar",
+    "author": "LipiTechnology",
+    "repoURL": "https://github.com/LipiTechnology/claude-code-statusbar",
+    "description": "Claude code status bar - rate limits, context visibility, Model name, Account, and Branch",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "rate-limit-display",
+      "context-usage-visibility",
+      "multi-line-status-bar",
+      "account-org-display",
+      "model-name-display",
+      "thinking-style-indicator"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-10T15:25:20Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-10T18:59:09.782Z"
+  },
+  {
+    "id": "sohaibgv/tokenforest",
+    "name": "tokenforest",
+    "author": "sohaibgv",
+    "repoURL": "https://github.com/sohaibgv/tokenforest",
+    "description": "Idle woodcutting game in your menu bar, played by your Claude Code token usage",
+    "category": "macOS Native",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Traffic Capture"
+    ],
+    "features": [
+      "idle-game",
+      "menu-bar-app",
+      "token-counting",
+      "multi-session",
+      "budget-tracking",
+      "cosmetics",
+      "progression-system"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-10T17:22:33Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-10T18:59:09.782Z"
+  },
+  {
+    "id": "OkamiOps/OkTally",
+    "name": "OkTally",
+    "author": "OkamiOps",
+    "repoURL": "https://github.com/OkamiOps/OkTally",
+    "description": "Every AI coding subscription quota in your macOS menu bar — Claude Code, Codex, Cursor, OpenRouter & more, with alerts before you hit the limit.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "API Key",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "claude-code-quota",
+      "multi-provider",
+      "threshold-alerts",
+      "menu-bar-display",
+      "session-import"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-10T15:48:25Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-10T18:59:09.782Z"
   }
 ]
