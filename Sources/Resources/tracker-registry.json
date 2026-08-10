@@ -138803,5 +138803,179 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-10T01:50:57.896Z"
+  },
+  {
+    "id": "houyyjj/claude-usage-monitor",
+    "name": "claude-usage-monitor",
+    "author": "houyyjj",
+    "repoURL": "https://github.com/houyyjj/claude-usage-monitor",
+    "description": "Local Claude Code CLI usage monitor — TUI and WSLg desktop widget showing rate-limit % and today's token usage. 本機用的 Claude Code CLI 用量監控工具，透過終端機 TUI 與 WSLg 桌面小工具顯示額度百分比與今日 token 用量。",
+    "category": "Terminal UI",
+    "platforms": [
+      "linux",
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "rate-limit-monitoring",
+      "token-usage-tracking",
+      "tui-interface",
+      "gui-widget",
+      "per-project-stats",
+      "prompt-cache-reporting"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-10T07:06:54Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-10T07:43:02.350Z"
+  },
+  {
+    "id": "luismaf/climax",
+    "name": "climax",
+    "author": "luismaf",
+    "repoURL": "https://github.com/luismaf/climax",
+    "description": "Claude Code quota guard: JSON statusLine hook + auto-resume over herdr",
+    "category": "Claude Code Plugin",
+    "platforms": [],
+    "language": "Rust",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "quota-monitoring",
+      "rate-limit-alerts",
+      "auto-resume",
+      "delegation",
+      "herdr-integration",
+      "window-tracking"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-10T05:24:40Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-10T07:43:02.350Z"
+  },
+  {
+    "id": "MarioPayan/AImeter",
+    "name": "AImeter",
+    "author": "MarioPayan",
+    "repoURL": "https://github.com/MarioPayan/AImeter",
+    "description": "AI coding-tool usage, where you already look — a Claude Code statusline segment for your rate limits, context window and reset countdowns. One binary, ~2ms, no daemon.",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "rate-limits",
+      "context-window",
+      "reset-countdowns",
+      "low-latency",
+      "no-daemon"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-10T04:27:23Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-10T07:43:02.350Z"
+  },
+  {
+    "id": "chazdanieal/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "chazdanieal",
+    "repoURL": "https://github.com/chazdanieal/claude-code-statusline",
+    "description": "Zero-dependency Claude Code status line showing model, reasoning effort, and live context-window usage that matches /context.",
+    "category": "Statusline",
+    "platforms": [
+      "web"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Traffic Capture"
+    ],
+    "features": [
+      "live-context-usage",
+      "model-display",
+      "reasoning-effort",
+      "responsive-layout",
+      "zero-deps",
+      "color-bars"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-10T03:24:41Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-10T07:43:02.350Z"
+  },
+  {
+    "id": "John-Chine/aistats",
+    "name": "aistats",
+    "author": "John-Chine",
+    "repoURL": "https://github.com/John-Chine/aistats",
+    "description": "Claude Code usage menu bar app for macOS",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "token-usage-display",
+      "menu-bar-widget",
+      "real-time-refresh",
+      "model-breakdown",
+      "cache-tokens",
+      "tool-usage-ranking"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-10T07:10:42Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-10T07:43:02.350Z"
+  },
+  {
+    "id": "cloveric/ai-usage-menu",
+    "name": "ai-usage-menu",
+    "author": "cloveric",
+    "repoURL": "https://github.com/cloveric/ai-usage-menu",
+    "description": "Native macOS menu bar usage tracker for Codex, Claude, Kimi, and Fable 5, with real system vibrancy and privacy-first local data access.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Browser Cookie Auto-detect",
+      "OAuth Token"
+    ],
+    "features": [
+      "multi-provider",
+      "menu-bar-display",
+      "weekly-and-5h-quotas",
+      "auto-refresh",
+      "privacy-first",
+      "local-caching",
+      "network-fallback"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-10T05:41:35Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-10T07:43:02.350Z"
   }
 ]
