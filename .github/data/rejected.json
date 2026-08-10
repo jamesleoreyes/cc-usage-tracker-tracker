@@ -628,5 +628,11 @@
     "reason": "SwarmBar monitors the status and state of multiple coding agents (Claude Code, Codex, etc.) but does not display, measure, or report Claude usage metrics (tokens, costs, rate limits); it is a session manager and approval interface for concurrent agents, not a usage tracker.",
     "confidence": 0.85,
     "rejectedAt": "2026-08-10T01:50:57.896Z"
+  },
+  {
+    "id": "NihilDigit/cc-dot-files",
+    "reason": "This is a configuration and enforcement system for Claude Code with a statusline component that displays context usage, but the primary purpose is to implement hard guards and constraints rather than track Claude usage metrics—it's a dotfiles safety harness, not a usage tracker.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-10T13:09:17.906Z"
   }
 ]

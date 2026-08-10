@@ -138979,5 +138979,129 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-10T07:43:02.350Z"
+  },
+  {
+    "id": "imdizmo/usage",
+    "name": "usage",
+    "author": "imdizmo",
+    "repoURL": "https://github.com/imdizmo/usage",
+    "description": "Live Claude Code 5h and weekly usage limits on your Linux desktop — Plasma 6 applet + system tray widget",
+    "category": "Waybar Module",
+    "platforms": [
+      "linux"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "OAuth Token",
+      "API Key"
+    ],
+    "features": [
+      "live-usage-display",
+      "5h-limit-tracking",
+      "weekly-limit-tracking",
+      "reset-countdowns",
+      "plasma-applet",
+      "system-tray-widget",
+      "rate-limit-polling",
+      "oauth-auto-detect"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-10T10:30:36Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-10T13:09:29.922Z"
+  },
+  {
+    "id": "Halven08/agent-quota",
+    "name": "agent-quota",
+    "author": "Halven08",
+    "repoURL": "https://github.com/Halven08/agent-quota",
+    "description": "Local-first CLI and Rust library for Codex and Claude Code quota, rate-limit windows, multi-account profiles, and JSON status. Cross-platform, no telemetry.",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "Session Cookie",
+      "Session Cookie"
+    ],
+    "features": [
+      "multi-account",
+      "quota-monitoring",
+      "rate-limit-tracking",
+      "json-output",
+      "local-first",
+      "ndjson-export"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-10T13:06:48Z",
+    "openIssues": 2,
+    "archived": false,
+    "lastFetched": "2026-08-10T13:09:29.923Z"
+  },
+  {
+    "id": "araltiparmak/ccjuice",
+    "name": "ccjuice",
+    "author": "araltiparmak",
+    "repoURL": "https://github.com/araltiparmak/ccjuice",
+    "description": "macOS menu bar app showing your remaining Claude Code usage — session and weekly limits next to the clock",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "Session Key"
+    ],
+    "features": [
+      "session-limit-tracking",
+      "weekly-limit-tracking",
+      "burn-rate-projection",
+      "color-warnings",
+      "low-usage-notifications",
+      "reset-countdowns",
+      "opus-quota-support"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-10T11:24:36Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-10T13:09:29.923Z"
+  },
+  {
+    "id": "poshpaws/claudething",
+    "name": "claudething",
+    "author": "poshpaws",
+    "repoURL": "https://github.com/poshpaws/claudething",
+    "description": "A macOS menu bar app that shows your agent usage at a glance and will also remind you when you're hitting certain configurable limits. ",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Browser Cookie Auto-detect",
+      "Session Key"
+    ],
+    "features": [
+      "multi-provider-usage",
+      "session-limits",
+      "spend-estimates",
+      "rate-window-tracking",
+      "menu-bar-display"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-10T09:16:53Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-10T13:09:29.923Z"
   }
 ]
