@@ -646,5 +646,17 @@
     "reason": "Claude Overtime is a power-management utility for keeping Macs awake during agent runs, not a Claude usage tracker — it monitors processes and system sleep state, not tokens, costs, or usage metrics.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-10T18:59:02.490Z"
+  },
+  {
+    "id": "sqrt121/claude",
+    "reason": "This is a personal Claude Code skill/asset collection with a statusline component that displays context usage, but it does not display, measure, or report Claude API usage (tokens, cost, rate limits) as a substantial feature—it tracks context state and provides routing logic instead.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-08-11T13:06:22.336Z"
+  },
+  {
+    "id": "SiddhuShkya/flyrank-capstone-metering-billing",
+    "reason": "This is a generic metering and billing backend service for SaaS that handles usage tracking, quotas, and Stripe payments—but does not display or measure Claude usage specifically as a substantial feature; it is a reusable platform for any service provider, not a Claude-specific tracker.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-11T13:06:45.607Z"
   }
 ]

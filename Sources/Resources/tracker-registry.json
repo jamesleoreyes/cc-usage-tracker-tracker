@@ -139642,5 +139642,231 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-11T07:08:53.524Z"
+  },
+  {
+    "id": "roypadina/ClaudeMonitor",
+    "name": "ClaudeMonitor",
+    "author": "roypadina",
+    "repoURL": "https://github.com/roypadina/ClaudeMonitor",
+    "description": "macOS menubar monitor for Claude Code usage limits across multiple accounts — session/weekly/Fable windows, extra-usage spend, desktop + ntfy + toast alerts",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "Session Cookie"
+    ],
+    "features": [
+      "multi-account",
+      "session-limit-tracking",
+      "weekly-limits",
+      "spend-tracking",
+      "pacing-estimates",
+      "desktop-alerts",
+      "ntfy-integration",
+      "custom-thresholds"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-11T12:29:16Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-11T13:06:51.598Z"
+  },
+  {
+    "id": "WeiChun0723/ai-usage-monitor",
+    "name": "ai-usage-monitor",
+    "author": "WeiChun0723",
+    "repoURL": "https://github.com/WeiChun0723/ai-usage-monitor",
+    "description": "Floating Windows widget for monitoring Codex, Claude Code, and GitHub Copilot usage.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "PowerShell",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "claude-tracking",
+      "copilot-tracking",
+      "codex-tracking",
+      "request-counts",
+      "daily-quotas",
+      "floating-widget"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-11T07:25:28Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-11T13:06:51.598Z"
+  },
+  {
+    "id": "webkubor/usage-statusline",
+    "name": "usage-statusline",
+    "author": "webkubor",
+    "repoURL": "https://github.com/webkubor/usage-statusline",
+    "description": "Claude Code status line: session cost, context usage, and 5h/7d rate-limit usage at a glance.",
+    "category": "Statusline",
+    "platforms": [],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Traffic Capture"
+    ],
+    "features": [
+      "session-cost",
+      "context-window-usage",
+      "rate-limit-tracking",
+      "5h-window",
+      "7d-window",
+      "color-coding",
+      "no-dependencies"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-11T12:10:23Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-11T13:06:51.598Z"
+  },
+  {
+    "id": "Qeridoo/statusline-builder",
+    "name": "statusline-builder",
+    "author": "Qeridoo",
+    "repoURL": "https://github.com/Qeridoo/statusline-builder",
+    "description": "Compose a Claude Code status line in the browser, export a dependency-free Node script. No jq.",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "web"
+    ],
+    "language": "JavaScript",
+    "authMethod": [],
+    "features": [
+      "statusline-composer",
+      "export-script",
+      "claude-code-integration",
+      "dependency-free",
+      "browser-based",
+      "config-persistence"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-11T11:19:31Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-11T13:06:51.598Z"
+  },
+  {
+    "id": "olegperegudov/camel",
+    "name": "camel",
+    "author": "olegperegudov",
+    "repoURL": "https://github.com/olegperegudov/camel",
+    "description": "Your Claude Code usage limits, always in the menu bar — two gauges for the 5-hour and 7-day windows, no clicks needed.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "windows"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "5h-rate-limit-gauge",
+      "7d-rate-limit-gauge",
+      "menubar-display",
+      "no-auth-required",
+      "local-file-reading",
+      "private"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-11T10:28:09Z",
+    "openIssues": 3,
+    "archived": false,
+    "lastFetched": "2026-08-11T13:06:51.598Z"
+  },
+  {
+    "id": "joaovictorlongo/claude-code-status-line",
+    "name": "claude-code-status-line",
+    "author": "joaovictorlongo",
+    "repoURL": "https://github.com/joaovictorlongo/claude-code-status-line",
+    "description": "Claude Code Status Line — Context & Quota Tracker",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "context-window-usage",
+      "rate-limit-quota",
+      "session-duration",
+      "git-status",
+      "color-coded-alerts"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-11T12:42:31Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-11T13:06:51.598Z"
+  },
+  {
+    "id": "dbhelix11-oss/TokenMeter",
+    "name": "TokenMeter",
+    "author": "dbhelix11-oss",
+    "repoURL": "https://github.com/dbhelix11-oss/TokenMeter",
+    "description": "Always-on-top desktop overlay showing your Claude usage (5-hour session % weekly %, and API account balance, with reset countdowns) without needing to open a browser tab.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "linux"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Browser Cookie Auto-detect",
+      "API Key"
+    ],
+    "features": [
+      "session-rate-limits",
+      "weekly-quotas",
+      "api-credits",
+      "reset-countdowns",
+      "always-on-top"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-10T19:42:09Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-11T13:06:51.598Z"
+  },
+  {
+    "id": "neelesh118-web/claude-supertools-privacy",
+    "name": "claude-supertools-privacy",
+    "author": "neelesh118-web",
+    "repoURL": "https://github.com/neelesh118-web/claude-supertools-privacy",
+    "description": "Privacy policy for the Claude Supertools — Token Tracker Chrome extension",
+    "category": "Browser Extension",
+    "platforms": [
+      "chromium"
+    ],
+    "language": "HTML",
+    "authMethod": [],
+    "features": [
+      "token-tracking",
+      "chrome-extension"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-11T10:44:36Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-11T13:06:51.598Z"
   }
 ]
