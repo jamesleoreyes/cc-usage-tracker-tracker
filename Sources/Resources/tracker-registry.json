@@ -139525,5 +139525,121 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-11T01:47:26.649Z"
+  },
+  {
+    "id": "sevenuphome/ClaudeUsage",
+    "name": "ClaudeUsage",
+    "author": "sevenuphome",
+    "repoURL": "https://github.com/sevenuphome/ClaudeUsage",
+    "description": "macOS menu bar app + desktop widget for Claude Code rate-limit usage",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "menu-bar-display",
+      "rate-limit-tracking",
+      "usage-buckets",
+      "desktop-widget",
+      "oauth-token-keychain"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-11T03:41:51Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-11T07:08:53.524Z"
+  },
+  {
+    "id": "abdian/widget-usageClaude",
+    "name": "widget-usageClaude",
+    "author": "abdian",
+    "repoURL": "https://github.com/abdian/widget-usageClaude",
+    "description": "Floating widget showing your Claude Code usage — 5-hour and weekly limits with live reset countdowns. Windows & macOS.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows",
+      "macos"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "session-window",
+      "weekly-limit",
+      "reset-countdown",
+      "live-meters",
+      "keychain-auth",
+      "token-polling"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-11T07:03:32Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-11T07:08:53.524Z"
+  },
+  {
+    "id": "eldenjh/claude-usage-hud",
+    "name": "claude-usage-hud",
+    "author": "eldenjh",
+    "repoURL": "https://github.com/eldenjh/claude-usage-hud",
+    "description": "Statusline HUD for Claude Code: context usage, plan rate limits (5h/weekly/per-model), and live session cost. Zero tokens.",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "OAuth Token",
+      "JSONL Log Parsing",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "context-usage",
+      "rate-limit-tracking",
+      "per-model-caps",
+      "session-cost",
+      "budget-gates",
+      "spend-alerts"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-11T04:09:26Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-11T07:08:53.524Z"
+  },
+  {
+    "id": "politekashif/StatusLine",
+    "name": "StatusLine",
+    "author": "politekashif",
+    "repoURL": "https://github.com/politekashif/StatusLine",
+    "description": "Claude Agents Status Line",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "context-usage-display",
+      "burn-rate-tracking",
+      "cost-tracking",
+      "rate-limit-monitoring",
+      "cache-hit-ratio",
+      "session-tracking"
+    ],
+    "builtWithClaude": null,
+    "stars": 1,
+    "lastCommitDate": "2026-08-11T07:01:51Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-11T07:08:53.524Z"
   }
 ]
