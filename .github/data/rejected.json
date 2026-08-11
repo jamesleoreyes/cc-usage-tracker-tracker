@@ -658,5 +658,11 @@
     "reason": "This is a generic metering and billing backend service for SaaS that handles usage tracking, quotas, and Stripe payments—but does not display or measure Claude usage specifically as a substantial feature; it is a reusable platform for any service provider, not a Claude-specific tracker.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-11T13:06:45.607Z"
+  },
+  {
+    "id": "TevvvB/parallel-harness-pets",
+    "reason": "This project displays git worktree health and branch status through decorative creatures in a statusline, not Claude usage metrics—it is a developer tool for terminal pets, not a Claude/Claude Code usage tracker.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-11T19:03:15.129Z"
   }
 ]

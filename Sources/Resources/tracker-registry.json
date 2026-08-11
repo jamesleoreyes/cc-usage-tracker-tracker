@@ -139869,5 +139869,456 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-11T13:06:51.598Z"
+  },
+  {
+    "id": "sunny-trip-ninja/claude-usage-mac",
+    "name": "claude-usage-mac",
+    "author": "sunny-trip-ninja",
+    "repoURL": "https://github.com/sunny-trip-ninja/claude-usage-mac",
+    "description": "This mac application is to monitor claude usage via a simple click on the toolbar icon, ez usage monitoring",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Browser Cookie Auto-detect",
+      "API Key",
+      "Session Key"
+    ],
+    "features": [
+      "session-utilization",
+      "weekly-limits",
+      "multi-account",
+      "enterprise-analytics",
+      "token-activity"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-11T18:15:44Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-11T19:04:01.504Z"
+  },
+  {
+    "id": "Nuwisam/claude-usage-monitor",
+    "name": "claude-usage-monitor",
+    "author": "Nuwisam",
+    "repoURL": "https://github.com/Nuwisam/claude-usage-monitor",
+    "description": "Your Claude usage limits on a small USB display next to the monitor — every account, every machine, always current. Web UI and history included.",
+    "category": "Web Dashboard",
+    "platforms": [
+      "web",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "API Key",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "usage-monitor",
+      "rate-limits",
+      "session-tracking",
+      "weekly-windows",
+      "usb-display",
+      "multi-account",
+      "history-charts",
+      "claude-code-integration"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-11T14:34:12Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-11T19:04:01.504Z"
+  },
+  {
+    "id": "babakarto/CodexBar-Linux",
+    "name": "CodexBar-Linux",
+    "author": "babakarto",
+    "repoURL": "https://github.com/babakarto/CodexBar-Linux",
+    "description": "System tray monitor for Claude Code & OpenAI Codex usage — Linux version",
+    "category": "Statusline",
+    "platforms": [
+      "linux"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "API Key",
+      "OAuth Token",
+      "Browser Cookie Auto-detect",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "real-time-usage",
+      "session-tracking",
+      "cost-tracking",
+      "weekly-quotas",
+      "reset-countdowns",
+      "multi-provider",
+      "system-tray",
+      "auto-refresh"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-11T14:23:31Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-11T19:04:01.504Z"
+  },
+  {
+    "id": "rhan1/crewline",
+    "name": "crewline",
+    "author": "rhan1",
+    "repoURL": "https://github.com/rhan1/crewline",
+    "description": "crewline — multi-model orchestration for Claude Code: a live statusline for Claude/Codex/Gemini, budget-aware dispatch, and a burn-rate advisor that widens fan-out when 5h budget would otherwise expire unused",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "multi-model-dispatch",
+      "rate-limit-display",
+      "budget-tracking",
+      "burn-rate-advisor",
+      "cross-session-reconciliation",
+      "statusline",
+      "slash-commands"
+    ],
+    "builtWithClaude": true,
+    "stars": 2,
+    "lastCommitDate": "2026-08-11T17:53:39Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-11T19:04:01.504Z"
+  },
+  {
+    "id": "domvie/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "domvie",
+    "repoURL": "https://github.com/domvie/claude-code-statusline",
+    "description": "A pretty statusline for claude code showing current model and usage stats ",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "context-window-display",
+      "rate-limit-progress",
+      "model-display",
+      "color-coded-bars",
+      "session-usage"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-11T17:38:53Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-11T19:04:01.504Z"
+  },
+  {
+    "id": "aliyar/claude-statusline",
+    "name": "claude-statusline",
+    "author": "aliyar",
+    "repoURL": "https://github.com/aliyar/claude-statusline",
+    "description": "Built for my own daily use. A Claude Code statusline showing context, session, weekly and per-model usage limits",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "session-limits",
+      "weekly-limits",
+      "per-model-limits",
+      "context-window",
+      "visual-alerts",
+      "configurable-thresholds"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-11T17:35:28Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-11T19:04:01.504Z"
+  },
+  {
+    "id": "K-Planky/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "K-Planky",
+    "repoURL": "https://github.com/K-Planky/claude-code-statusline",
+    "description": "A quiet, text-only status line for Claude Code: model, repo, context and rate-limit windows in one ambient gray, so a threshold crossing is the only lit thing on the row.",
+    "category": "Statusline",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "context-window-display",
+      "rate-limit-tracking",
+      "quota-monitoring",
+      "model-display",
+      "branch-status",
+      "ambient-alerts"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-11T17:33:04Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-11T19:04:01.504Z"
+  },
+  {
+    "id": "oroddlokken/ccreport",
+    "name": "ccreport",
+    "author": "oroddlokken",
+    "repoURL": "https://github.com/oroddlokken/ccreport",
+    "description": "Statusline, token usage and cost reporting for Claude Code",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "token-usage-reporting",
+      "cost-calculation",
+      "quota-dashboard",
+      "statusline-display",
+      "session-tracking",
+      "daily-monthly-reports",
+      "rate-limit-history",
+      "multi-project-grouping"
+    ],
+    "builtWithClaude": null,
+    "stars": 1,
+    "lastCommitDate": "2026-08-11T17:16:36Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-11T19:04:01.504Z"
+  },
+  {
+    "id": "7KiLL/xp-quest",
+    "name": "xp-quest",
+    "author": "7KiLL",
+    "repoURL": "https://github.com/7KiLL/xp-quest",
+    "description": "🗡️ EXP farming for Claude Code — levels, streaks, statusline XP bar. RPG progression for ADHD brains.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "Python",
+    "authMethod": [],
+    "features": [
+      "xp-progression",
+      "level-system",
+      "daily-streaks",
+      "statusline-display",
+      "achievements",
+      "anti-farming"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-11T15:16:26Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-11T19:04:01.504Z"
+  },
+  {
+    "id": "mlosavio/claude-code-monitor",
+    "name": "claude-code-monitor",
+    "author": "mlosavio",
+    "repoURL": "https://github.com/mlosavio/claude-code-monitor",
+    "description": "Tempo, costo e messaggi delle sessioni Claude Code: CLI, interfaccia grafica e segmento per la statusline. Solo libreria standard, nessuna dipendenza.",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "cost-breakdown",
+      "token-tracking",
+      "session-analytics",
+      "rate-limit-monitoring",
+      "gui-dashboard",
+      "statusline-segment",
+      "project-filtering",
+      "export-markdown"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-11T14:20:16Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-11T19:04:01.504Z"
+  },
+  {
+    "id": "APGPHP/ashoka-vatika",
+    "name": "ashoka-vatika",
+    "author": "APGPHP",
+    "repoURL": "https://github.com/APGPHP/ashoka-vatika",
+    "description": "Personal Claude Code layer: switchable study modes (JEE, research, paper-solving, PYQ) with a mode-aware neon statusline. Windows + Linux.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "windows",
+      "linux"
+    ],
+    "language": "JavaScript",
+    "authMethod": [],
+    "features": [
+      "mode-aware-statusline",
+      "context-display",
+      "claude-code-overlay",
+      "study-modes",
+      "neon-statusline",
+      "obsidian-vault-integration"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-11T13:55:05Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-11T19:04:01.504Z"
+  },
+  {
+    "id": "omjogani/usagely",
+    "name": "usagely",
+    "author": "omjogani",
+    "repoURL": "https://github.com/omjogani/usagely",
+    "description": "Claude Code usage limits in your Linux system tray. Reads them from the status line hook, never touches your credentials, never makes an API call.",
+    "category": "Statusline",
+    "platforms": [
+      "linux"
+    ],
+    "language": "Go",
+    "authMethod": [
+      "Traffic Capture"
+    ],
+    "features": [
+      "rate-limit-display",
+      "system-tray",
+      "no-credentials",
+      "statusline-hook",
+      "countdown-timers"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-11T18:57:42Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-11T19:04:01.504Z"
+  },
+  {
+    "id": "kenjichristopherv-del/claude-usage",
+    "name": "claude-usage",
+    "author": "kenjichristopherv-del",
+    "repoURL": "https://github.com/kenjichristopherv-del/claude-usage",
+    "description": "Real Claude plan limits (5h session, weekly, per-model) in the macOS menubar and Claude Code status line — not just estimated token cost.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "real-time-limits",
+      "session-window-tracking",
+      "weekly-quota-tracking",
+      "model-scoped-limits",
+      "menubar-widget",
+      "status-line-integration",
+      "cache-optimization",
+      "burn-rate"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-11T16:35:58Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-11T19:04:01.504Z"
+  },
+  {
+    "id": "caellinus-ship-it/claude-limits",
+    "name": "claude-limits",
+    "author": "caellinus-ship-it",
+    "repoURL": "https://github.com/caellinus-ship-it/claude-limits",
+    "description": "macOS menu bar usage meter for Claude. Shows your 5-hour session percentage next to the clock; click for the full breakdown.",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "session-percentage",
+      "weekly-limits",
+      "token-counts",
+      "cost-estimates",
+      "reset-timers",
+      "multi-model-breakdown"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-11T15:35:02Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-11T19:04:01.504Z"
+  },
+  {
+    "id": "lspnzz/ai-usage-island",
+    "name": "ai-usage-island",
+    "author": "lspnzz",
+    "repoURL": "https://github.com/lspnzz/ai-usage-island",
+    "description": "macOS menu-bar app for AI usage and limits: live Claude & Codex windows, a local usage-history heatmap, and configurable LiteLLM budget bars",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "JSONL Log Parsing",
+      "API Key"
+    ],
+    "features": [
+      "claude-limits",
+      "codex-limits",
+      "token-history",
+      "heatmap",
+      "budget-bars",
+      "multi-provider"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-11T13:48:25Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-11T19:04:01.504Z"
   }
 ]
