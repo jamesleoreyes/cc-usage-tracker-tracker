@@ -140570,5 +140570,163 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-12T01:59:19.521Z"
+  },
+  {
+    "id": "nanazakura/yasb-claude-usage",
+    "name": "yasb-claude-usage",
+    "author": "nanazakura",
+    "repoURL": "https://github.com/nanazakura/yasb-claude-usage",
+    "description": "Claude Code API usage widget for YASB (Yet Another Status Bar)",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "OAuth Token",
+      "Session Key"
+    ],
+    "features": [
+      "claude-code-api",
+      "5-hour-limit",
+      "7-day-limit",
+      "per-model-limits",
+      "usage-percentage",
+      "time-to-reset",
+      "tooltip-display",
+      "2-min-cache"
+    ],
+    "builtWithClaude": true,
+    "stars": 2,
+    "lastCommitDate": "2026-08-12T02:15:33Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-12T07:25:52.164Z"
+  },
+  {
+    "id": "paulogst16-del/claude-usage-widget",
+    "name": "claude-usage-widget",
+    "author": "paulogst16-del",
+    "repoURL": "https://github.com/paulogst16-del/claude-usage-widget",
+    "description": "📊 Native macOS menu-bar widget showing live Claude usage limits (5h session, weekly all-models & Sonnet) — SwiftUI + AppKit",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "live-usage-display",
+      "session-limits",
+      "weekly-quotas",
+      "color-coded-gauges",
+      "auto-refresh",
+      "desktop-widget",
+      "keychain-integration"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-11T20:57:32Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-12T07:25:52.164Z"
+  },
+  {
+    "id": "Benzenp/zen-cost-statusline",
+    "name": "zen-cost-statusline",
+    "author": "Benzenp",
+    "repoURL": "https://github.com/Benzenp/zen-cost-statusline",
+    "description": "Claude Code status line with live cost, budgets, and per-model usage reports",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "real-time-cost-display",
+      "session-budgets",
+      "per-model-breakdown",
+      "daily-spending-limit",
+      "cache-hit-rate",
+      "multi-window-tracking",
+      "usage-report",
+      "transcription-parsing"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-12T07:13:14Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-12T07:25:52.164Z"
+  },
+  {
+    "id": "TheRichardW/session-burn-meter",
+    "name": "session-burn-meter",
+    "author": "TheRichardW",
+    "repoURL": "https://github.com/TheRichardW/session-burn-meter",
+    "description": "Status line + Stop hook for Claude Code that warns when a session has grown expensive enough to restart",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "session-burn-alerts",
+      "context-tracking",
+      "rate-limit-monitoring",
+      "cost-display",
+      "turn-counting",
+      "statusline-widget"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-12T06:17:09Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-12T07:25:52.164Z"
+  },
+  {
+    "id": "icspin/claude-usage-hud",
+    "name": "claude-usage-hud",
+    "author": "icspin",
+    "repoURL": "https://github.com/icspin/claude-usage-hud",
+    "description": "Translucent always-on-top overlay showing live Claude Code token usage and cost - per session, model, day, and 5-hour rate-limit window. 100% local.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "OAuth Token",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "live-token-usage",
+      "per-model-costs",
+      "rate-limit-tracking",
+      "session-breakdown",
+      "context-fill-display",
+      "5h-window-aggregation",
+      "configurable-pricing",
+      "pinned-overlay"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-12T04:30:59Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-12T07:25:52.164Z"
   }
 ]
