@@ -664,5 +664,11 @@
     "reason": "This project displays git worktree health and branch status through decorative creatures in a statusline, not Claude usage metrics—it is a developer tool for terminal pets, not a Claude/Claude Code usage tracker.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-11T19:03:15.129Z"
+  },
+  {
+    "id": "PerfectoWeb/Vigil",
+    "reason": "Vigil is a power management utility that monitors Claude Code activity to prevent Mac sleep during agent runs, but does not display, measure, or report Claude usage metrics as a substantial feature—it only detects activity state for sleep control purposes.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-12T01:59:19.520Z"
   }
 ]

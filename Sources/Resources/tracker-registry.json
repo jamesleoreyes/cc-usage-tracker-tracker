@@ -140324,5 +140324,245 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-11T19:04:01.504Z"
+  },
+  {
+    "id": "gupta-kush/Claude-Usage-Monitor",
+    "name": "Claude-Usage-Monitor",
+    "author": "gupta-kush",
+    "repoURL": "https://github.com/gupta-kush/Claude-Usage-Monitor",
+    "description": "Windows taskbar widget to monitor Claude usage. Specifically for Enterprise Subscriptions with individual monthly quotas.",
+    "category": "Statusline",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "OAuth Token",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "monthly-quota-tracking",
+      "enterprise-spend-monitoring",
+      "taskbar-widget",
+      "auto-refresh-tokens"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-11T22:20:24Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-12T01:59:19.520Z"
+  },
+  {
+    "id": "saviolopes018/ai-usage",
+    "name": "ai-usage",
+    "author": "saviolopes018",
+    "repoURL": "https://github.com/saviolopes018/ai-usage",
+    "description": "Monitor local para acompanhar o consumo de Codex e Claude Code pelo celular, sem enviar tokens ou credenciais dos providers para serviços externos.",
+    "category": "Mobile",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "API Key",
+      "Session Key",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "claude-usage",
+      "codex-usage",
+      "rate-limit-monitoring",
+      "real-time-updates",
+      "local-monitoring",
+      "multi-device",
+      "widgets",
+      "alerts"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-12T00:54:14Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-12T01:59:19.521Z"
+  },
+  {
+    "id": "mubashirjamali101/tikr",
+    "name": "tikr",
+    "author": "mubashirjamali101",
+    "repoURL": "https://github.com/mubashirjamali101/tikr",
+    "description": "Track AI coding tool token usage (Claude Code, Codex, Copilot CLI). Local, encrypted, append-only.",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "multi-tool-tracking",
+      "token-accounting",
+      "cost-estimation",
+      "interactive-dashboard",
+      "local-encryption",
+      "append-only-logs",
+      "trend-visualization",
+      "rate-limit-alerts"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-12T00:16:18Z",
+    "openIssues": 2,
+    "archived": false,
+    "lastFetched": "2026-08-12T01:59:19.521Z"
+  },
+  {
+    "id": "nidelson/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "nidelson",
+    "repoURL": "https://github.com/nidelson/claude-code-statusline",
+    "description": "Claude Code Statusline",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "rate-forecast",
+      "multi-widget",
+      "cost-tracking",
+      "token-velocity",
+      "burn-rate-prediction",
+      "branch-context",
+      "git-integration",
+      "semantic-colors"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-08-12T01:14:56Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-12T01:59:19.521Z"
+  },
+  {
+    "id": "beelapranay/cc-statusline",
+    "name": "cc-statusline",
+    "author": "beelapranay",
+    "repoURL": "https://github.com/beelapranay/cc-statusline",
+    "description": "Zero-dependency Claude Code statusline in Python — model, cwd, git branch, context window usage bar, 5-hour and 7-day rate limit windows, and session cost on two compact lines.",
+    "category": "Claude Code Plugin",
+    "platforms": [],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "context-window-bar",
+      "rate-limit-tracking",
+      "session-cost-display",
+      "5h-quota",
+      "7d-quota",
+      "git-branch",
+      "model-display"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-12T00:51:44Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-12T01:59:19.521Z"
+  },
+  {
+    "id": "khou/agent-statusline",
+    "name": "agent-statusline",
+    "author": "khou",
+    "repoURL": "https://github.com/khou/agent-statusline",
+    "description": "One status line for Claude Code, Codex, and Cursor: project, model, branch or worktree, context use, rate limits, and session cost.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "multi-agent-support",
+      "context-usage-display",
+      "rate-limit-monitoring",
+      "session-cost",
+      "branch-tracking",
+      "reasoning-effort"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-12T00:25:43Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-12T01:59:19.521Z"
+  },
+  {
+    "id": "Gakshith/Headroom",
+    "name": "Headroom",
+    "author": "Gakshith",
+    "repoURL": "https://github.com/Gakshith/Headroom",
+    "description": "How much AI you have left — every agent, every account, in your macOS menu bar. Quota, weekly + daily limits, multi-account and burn-rate forecasting for Claude Code, Codex, Cursor and any provider you can describe in JSON.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "API Key",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "multi-account",
+      "burn-rate-forecasting",
+      "quota-display",
+      "weekly-daily-limits",
+      "threshold-alerts",
+      "provider-manifest-engine"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-12T01:51:31Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-12T01:59:19.521Z"
+  },
+  {
+    "id": "ManasVardhan/cc-status",
+    "name": "cc-status",
+    "author": "ManasVardhan",
+    "repoURL": "https://github.com/ManasVardhan/cc-status",
+    "description": "macOS menu bar indicator showing which Claude Code sessions are waiting on you",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [],
+    "features": [
+      "multi-session-monitor",
+      "permission-prompts",
+      "notification-alerts",
+      "statusline-integration",
+      "focus-detection",
+      "grace-period",
+      "decay-window"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-12T00:46:35Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-12T01:59:19.521Z"
   }
 ]
