@@ -688,5 +688,11 @@
     "reason": "Let It Brew monitors Claude Code and Codex agent sessions to manage Mac sleep state, but does not display, measure, or report Claude usage metrics (tokens, costs, quotas) as a feature — it only observes work lifecycle for power management.",
     "confidence": 0.85,
     "rejectedAt": "2026-08-13T07:28:15.455Z"
+  },
+  {
+    "id": "PerfectoWeb/Belay",
+    "reason": "Belay is a power-management utility that monitors Claude Code activity to control Mac sleep; it does not display, measure, or report Claude usage metrics as a feature—it only detects whether Claude Code is running to manage system sleep state.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-13T13:12:38.268Z"
   }
 ]
