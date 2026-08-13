@@ -676,5 +676,17 @@
     "reason": "This is a learning tool that displays ambient knowledge cards in Claude Code's statusline, not a Claude usage tracker—it measures learning progress, not token/cost/rate-limit metrics.",
     "confidence": 0.92,
     "rejectedAt": "2026-08-13T02:01:25.193Z"
+  },
+  {
+    "id": "msinclair-sudo/claude-code-setup",
+    "reason": "This is a Claude Code environment setup/installer project, not a usage tracker; it configures skills, hooks, and an Obsidian MCP server but does not display, measure, or report Claude usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-13T07:28:08.744Z"
+  },
+  {
+    "id": "ruban-24/letitbrew",
+    "reason": "Let It Brew monitors Claude Code and Codex agent sessions to manage Mac sleep state, but does not display, measure, or report Claude usage metrics (tokens, costs, quotas) as a feature — it only observes work lifecycle for power management.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-08-13T07:28:15.455Z"
   }
 ]

@@ -141546,5 +141546,157 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-13T02:01:31.087Z"
+  },
+  {
+    "id": "arnjitt/claude-usage-tracker-lite",
+    "name": "claude-usage-tracker-lite",
+    "author": "arnjitt",
+    "repoURL": "https://github.com/arnjitt/claude-usage-tracker-lite",
+    "description": "a lightweight tracker for claude",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "macos",
+      "windows"
+    ],
+    "language": "HTML",
+    "authMethod": [
+      "OAuth Token",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "session-limits",
+      "weekly-quota",
+      "model-specific-tracking",
+      "extra-credits-display",
+      "usage-endpoint-sync",
+      "error-states",
+      "refresh-ticker"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-13T05:19:30Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-13T07:28:22.058Z"
+  },
+  {
+    "id": "jonobri/cc-statusline",
+    "name": "cc-statusline",
+    "author": "jonobri",
+    "repoURL": "https://github.com/jonobri/cc-statusline",
+    "description": "Status line for Claude Code, built off METRICC.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "burn-rate-alerts",
+      "usage-history",
+      "multi-window-tracking",
+      "context-window-display",
+      "quota-visualization",
+      "pace-coloring"
+    ],
+    "builtWithClaude": null,
+    "stars": 2,
+    "lastCommitDate": "2026-08-13T06:03:52Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-13T07:28:22.058Z"
+  },
+  {
+    "id": "AlanY1an/decaf",
+    "name": "decaf",
+    "author": "AlanY1an",
+    "repoURL": "https://github.com/AlanY1an/decaf",
+    "description": "Keeps your Mac awake only while Claude Code is working, and lets it sleep when the agent is waiting on you. A menu bar app for macOS.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "token-usage-display",
+      "rate-limit-tracking",
+      "claude-code-detection",
+      "menu-bar-app",
+      "power-management",
+      "session-monitoring"
+    ],
+    "builtWithClaude": null,
+    "stars": 3,
+    "lastCommitDate": "2026-08-13T06:18:22Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-13T07:28:22.058Z"
+  },
+  {
+    "id": "iTofu/claude-hud-usage-feeder",
+    "name": "claude-hud-usage-feeder",
+    "author": "iTofu",
+    "repoURL": "https://github.com/iTofu/claude-hud-usage-feeder",
+    "description": "Show your per-model weekly quota (Fable) in the claude-hud statusline",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "API Key",
+      "Session Key",
+      "Session Cookie"
+    ],
+    "features": [
+      "per-model-quota",
+      "weekly-limit-display",
+      "real-time-refresh",
+      "hook-driven-updates",
+      "multi-source-polling"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-13T06:59:03Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-13T07:28:22.058Z"
+  },
+  {
+    "id": "Joe-Bao/ccusage-desktop",
+    "name": "ccusage-desktop",
+    "author": "Joe-Bao",
+    "repoURL": "https://github.com/Joe-Bao/ccusage-desktop",
+    "description": "A Windows desktop dashboard for ccusage - visualize AI coding token usage, costs, models, tools, projects, and Codex sessions.",
+    "category": "Electron/Desktop",
+    "platforms": [
+      "windows"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "token-usage-dashboard",
+      "cost-estimation",
+      "model-distribution",
+      "tool-breakdown",
+      "session-tracking",
+      "date-range-analytics",
+      "local-first",
+      "cache-management"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-13T00:10:55Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-13T07:28:22.058Z"
   }
 ]
