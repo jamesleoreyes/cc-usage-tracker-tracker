@@ -141390,5 +141390,158 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-12T19:03:42.025Z"
+  },
+  {
+    "id": "rvalenciano/claude-usage-monitor",
+    "name": "claude-usage-monitor",
+    "author": "rvalenciano",
+    "repoURL": "https://github.com/rvalenciano/claude-usage-monitor",
+    "description": "A tracker for Claude daily usage",
+    "category": "Web Dashboard",
+    "platforms": [
+      "macos",
+      "linux",
+      "web"
+    ],
+    "language": "HTML",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "daily-budget-alerts",
+      "weekly-hard-limit",
+      "cost-by-day-chart",
+      "cost-by-week-chart",
+      "sortable-sessions-table",
+      "filterable-sessions",
+      "session-detail-view",
+      "zero-dependencies"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-12T21:47:57Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-13T02:01:31.087Z"
+  },
+  {
+    "id": "burnett-madoc-corp/claude-usage-menubar",
+    "name": "claude-usage-menubar",
+    "author": "burnett-madoc-corp",
+    "repoURL": "https://github.com/burnett-madoc-corp/claude-usage-menubar",
+    "description": "macOS menu bar app showing live Claude Code, Codex, and OpenRouter usage — quota windows, per-session token stats, and context-window pressure",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie",
+      "JSONL Log Parsing",
+      "API Key"
+    ],
+    "features": [
+      "quota-windows",
+      "per-session-token-stats",
+      "context-window-pressure",
+      "multi-provider",
+      "rate-limit-display",
+      "menu-bar-title",
+      "live-sessions"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-12T21:43:38Z",
+    "openIssues": 2,
+    "archived": false,
+    "lastFetched": "2026-08-13T02:01:31.087Z"
+  },
+  {
+    "id": "holiam-kr/cc-usage-hud",
+    "name": "cc-usage-hud",
+    "author": "holiam-kr",
+    "repoURL": "https://github.com/holiam-kr/cc-usage-hud",
+    "description": "Statusline HUD for Claude Code: rate-limit usage with reset times, context window, session cost, and active skill badges",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "rate-limit-display",
+      "context-window-usage",
+      "session-cost",
+      "skill-badges",
+      "color-coded-thresholds",
+      "reset-timers"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-13T01:04:29Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-13T02:01:31.087Z"
+  },
+  {
+    "id": "googxi1310328414-afk/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "googxi1310328414-afk",
+    "repoURL": "https://github.com/googxi1310328414-afk/claude-code-statusline",
+    "description": "Claude Code 信息密集型彩色状态栏：脚本 + 让 AI 一键复刻的完整指导（AI-GUIDE.md）",
+    "category": "Statusline",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "context-usage",
+      "token-trends",
+      "cost-tracking",
+      "rate-limits",
+      "subagent-monitoring",
+      "dynamic-coloring",
+      "session-tracking"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-13T00:32:32Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-13T02:01:31.087Z"
+  },
+  {
+    "id": "seanahn/ai-meter",
+    "name": "ai-meter",
+    "author": "seanahn",
+    "repoURL": "https://github.com/seanahn/ai-meter",
+    "description": "Claude subscription usage gauge in the VS Code status bar",
+    "category": "VS Code Extension",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Session Key",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "subscription-quotas",
+      "session-limit-gauge",
+      "rate-limit-alerts",
+      "live-polling",
+      "multi-tier-tracking"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-12T22:09:52Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-13T02:01:31.087Z"
   }
 ]

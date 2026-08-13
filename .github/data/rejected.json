@@ -670,5 +670,11 @@
     "reason": "Vigil is a power management utility that monitors Claude Code activity to prevent Mac sleep during agent runs, but does not display, measure, or report Claude usage metrics as a substantial feature—it only detects activity state for sleep control purposes.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-12T01:59:19.520Z"
+  },
+  {
+    "id": "gabrieljosefson-creator/microlearn-terminal",
+    "reason": "This is a learning tool that displays ambient knowledge cards in Claude Code's statusline, not a Claude usage tracker—it measures learning progress, not token/cost/rate-limit metrics.",
+    "confidence": 0.92,
+    "rejectedAt": "2026-08-13T02:01:25.193Z"
   }
 ]
