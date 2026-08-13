@@ -694,5 +694,11 @@
     "reason": "Belay is a power-management utility that monitors Claude Code activity to control Mac sleep; it does not display, measure, or report Claude usage metrics as a feature—it only detects whether Claude Code is running to manage system sleep state.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-13T13:12:38.268Z"
+  },
+  {
+    "id": "FlorisVeldhuizen/claude-menubar",
+    "reason": "This is a Claude Code session manager and permission prompt controller, not a usage tracker—it monitors active sessions and intercepts permission decisions but does not display, measure, or report Claude usage metrics like tokens, costs, or quotas.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-13T19:04:24.480Z"
   }
 ]

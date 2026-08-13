@@ -142035,5 +142035,270 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-13T13:12:46.747Z"
+  },
+  {
+    "id": "sinhashubham28-byte/claude-usage-widget",
+    "name": "claude-usage-widget",
+    "author": "sinhashubham28-byte",
+    "repoURL": "https://github.com/sinhashubham28-byte/claude-usage-widget",
+    "description": "A small always-on-top panel showing your Claude Pro/Max usage (session, weekly, credits) for macOS and Windows",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "macos",
+      "windows"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "session-usage",
+      "weekly-usage",
+      "credits-tracking",
+      "always-on-top",
+      "multi-account"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-13T18:09:36Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-13T19:04:40.179Z"
+  },
+  {
+    "id": "jtchiu/session-lens",
+    "name": "session-lens",
+    "author": "jtchiu",
+    "repoURL": "https://github.com/jtchiu/session-lens",
+    "description": "Free local-only macOS menu-bar usage monitor for OpenCode, Claude Code, and Codex",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Session Key",
+      "Traffic Capture",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "multi-provider-tracking",
+      "quota-windows",
+      "cost-estimation",
+      "local-history",
+      "notifications",
+      "menu-bar-summary"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-13T14:52:22Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-13T19:04:40.179Z"
+  },
+  {
+    "id": "ethanldfoster/cc-usage-menu",
+    "name": "cc-usage-menu",
+    "author": "ethanldfoster",
+    "repoURL": "https://github.com/ethanldfoster/cc-usage-menu",
+    "description": "Little menubar widget to track Claude Code usage in your current session",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Unknown",
+    "authMethod": [],
+    "features": [
+      "session-usage-tracking",
+      "menubar-widget"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-13T14:51:45Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-13T19:04:40.179Z"
+  },
+  {
+    "id": "serhiileniv/ctxline",
+    "name": "ctxline",
+    "author": "serhiileniv",
+    "repoURL": "https://github.com/serhiileniv/ctxline",
+    "description": "Model and context size in your Claude Code status line. Nothing else.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Rust",
+    "authMethod": [],
+    "features": [
+      "context-usage-display",
+      "token-counting",
+      "pressure-alerts",
+      "status-line"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-13T18:26:12Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-13T19:04:40.179Z"
+  },
+  {
+    "id": "palamim/usagent",
+    "name": "usagent",
+    "author": "palamim",
+    "repoURL": "https://github.com/palamim/usagent",
+    "description": "macOS menu bar app showing Claude subscription usage (5-hour + weekly limits) at a glance",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "5-hour-rolling-window",
+      "weekly-cap",
+      "menu-bar-display",
+      "keychain-integration",
+      "rate-limit-tracking",
+      "percent-used",
+      "time-to-reset"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-13T18:20:08Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-13T19:04:40.179Z"
+  },
+  {
+    "id": "prime-radiant-inc/agentic-usage-meter",
+    "name": "agentic-usage-meter",
+    "author": "prime-radiant-inc",
+    "repoURL": "https://github.com/prime-radiant-inc/agentic-usage-meter",
+    "description": "macOS menu-bar meter for coding-agent subscription quotas",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "API Key",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "multi-account",
+      "quota-windows",
+      "subscription-balance",
+      "menu-bar-display",
+      "multi-provider"
+    ],
+    "builtWithClaude": null,
+    "stars": 25,
+    "lastCommitDate": "2026-08-13T17:44:30Z",
+    "openIssues": 2,
+    "archived": false,
+    "lastFetched": "2026-08-13T19:04:40.179Z"
+  },
+  {
+    "id": "jjosten/agent-usage-macos",
+    "name": "agent-usage-macos",
+    "author": "jjosten",
+    "repoURL": "https://github.com/jjosten/agent-usage-macos",
+    "description": "Native macOS menu bar app for Claude and Codex subscription limits",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "claude-usage",
+      "codex-usage",
+      "subscription-limits",
+      "weekly-reset-countdown",
+      "model-scoped-limits",
+      "menu-bar-display",
+      "auto-refresh",
+      "demo-mode"
+    ],
+    "builtWithClaude": null,
+    "stars": 1,
+    "lastCommitDate": "2026-08-13T13:49:23Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-13T19:04:40.179Z"
+  },
+  {
+    "id": "ba0918/ccusage-ledger",
+    "name": "ccusage-ledger",
+    "author": "ba0918",
+    "repoURL": "https://github.com/ba0918/ccusage-ledger",
+    "description": "Agent CLI usage dashboard: visualize cost, tokens, and cache hit rates from ccusage data",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "cost-breakdown",
+      "token-tracking",
+      "cache-hit-rates",
+      "daily-monthly-yearly",
+      "multi-model-comparison",
+      "agent-analytics",
+      "html-export",
+      "language-toggle"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-13T17:21:45Z",
+    "openIssues": 3,
+    "archived": false,
+    "lastFetched": "2026-08-13T19:04:40.179Z"
+  },
+  {
+    "id": "TheSalaty/tripmeter",
+    "name": "tripmeter",
+    "author": "TheSalaty",
+    "repoURL": "https://github.com/TheSalaty/tripmeter",
+    "description": "Tripmeter — a GNOME Shell extension for Claude Code and OpenAI Codex: usage limits and resets, plus what the same traffic would have cost at API rates, per model, per skill, per subagent and per MCP tool",
+    "category": "Übersicht Widget",
+    "platforms": [
+      "linux"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "Browser Cookie Auto-detect",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "claude-code-usage",
+      "codex-usage",
+      "limits-and-resets",
+      "cost-breakdown",
+      "per-model-cost",
+      "per-skill-cost",
+      "prompt-caching-savings",
+      "multi-window-tracking"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-08-13T14:50:00Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-13T19:04:40.179Z"
   }
 ]
