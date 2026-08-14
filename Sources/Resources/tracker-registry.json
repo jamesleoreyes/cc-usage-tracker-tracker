@@ -142714,5 +142714,171 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-14T07:25:37.559Z"
+  },
+  {
+    "id": "cyKim0115/claude-usage-widget",
+    "name": "claude-usage-widget",
+    "author": "cyKim0115",
+    "repoURL": "https://github.com/cyKim0115/claude-usage-widget",
+    "description": "Claude Code 사용 한도를 보여주는 Windows 바탕화면 위젯 (Tauri 2)",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "Session Key",
+      "JSONL Log Parsing",
+      "API Key"
+    ],
+    "features": [
+      "usage-limits-display",
+      "progress-bar",
+      "multi-limit-tracking",
+      "plan-detection",
+      "auto-polling",
+      "session-management",
+      "system-tray-integration",
+      "boot-autorun"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-14T09:08:19Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-14T13:07:25.303Z"
+  },
+  {
+    "id": "Toast1zz/ToastMonitor",
+    "name": "ToastMonitor",
+    "author": "Toast1zz",
+    "repoURL": "https://github.com/Toast1zz/ToastMonitor",
+    "description": "Native macOS menu-bar AI usage monitor. Aggregates token usage from Claude Code, Codex, OpenCode, Hermes, Oh My Pi, DeepSeek Harness and OpenRouter — zero third-party dependencies.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Browser Cookie Auto-detect",
+      "API Key",
+      "Session Key",
+      "JSONL Log Parsing",
+      "Traffic Capture",
+      "OAuth Token"
+    ],
+    "features": [
+      "multi-source-aggregation",
+      "menu-bar-widget",
+      "token-usage-display",
+      "cost-estimation",
+      "quota-tracking",
+      "privacy-first",
+      "local-sqlite",
+      "cross-provider"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-14T09:17:46Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-14T13:07:25.303Z"
+  },
+  {
+    "id": "adrrr/tarmac",
+    "name": "tarmac",
+    "author": "adrrr",
+    "repoURL": "https://github.com/adrrr/tarmac",
+    "description": "Fleet observability for Claude Code — one table for every session you have running. Reads documented surfaces only, never an internal format.",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Traffic Capture",
+      "API Key",
+      "API Key"
+    ],
+    "features": [
+      "context-window-tracking",
+      "cost-tracking",
+      "session-monitoring",
+      "fleet-observability",
+      "statusline-integration",
+      "web-dashboard",
+      "zero-dependencies",
+      "documented-surfaces-only"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-14T12:56:06Z",
+    "openIssues": 10,
+    "archived": false,
+    "lastFetched": "2026-08-14T13:07:25.303Z"
+  },
+  {
+    "id": "mikolajpochec/cws",
+    "name": "cws",
+    "author": "mikolajpochec",
+    "repoURL": "https://github.com/mikolajpochec/cws",
+    "description": "Fast, portable multi-account switcher for Claude Code — per-workspace configs, colors, auto-generated themes, and a live status line.",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "multi-account-switcher",
+      "workspace-isolation",
+      "live-status-line",
+      "context-window-tracking",
+      "cost-display",
+      "rate-limit-display",
+      "auto-theme-generation",
+      "directory-auto-bind"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-14T13:05:29Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-14T13:07:25.303Z"
+  },
+  {
+    "id": "bryankwandou/tokenwatt",
+    "name": "tokenwatt",
+    "author": "bryankwandou",
+    "repoURL": "https://github.com/bryankwandou/tokenwatt",
+    "description": "A personal meter for AI coding-agent token usage. Reads Claude Code and Codex logs, prices them at published API rates, publishes one page.",
+    "category": "Web Dashboard",
+    "platforms": [
+      "web"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "claude-code-logs",
+      "codex-logs",
+      "token-aggregation",
+      "cost-analysis",
+      "nightly-collector",
+      "multi-machine-sync",
+      "manual-entries",
+      "pricing-rates"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-14T10:35:57Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-14T13:07:25.303Z"
   }
 ]
