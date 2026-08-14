@@ -700,5 +700,11 @@
     "reason": "This is a Claude Code session manager and permission prompt controller, not a usage tracker—it monitors active sessions and intercepts permission decisions but does not display, measure, or report Claude usage metrics like tokens, costs, or quotas.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-13T19:04:24.480Z"
+  },
+  {
+    "id": "adammatthewsteinberger/claudeloop",
+    "reason": "claudeloop is a Claude Code session runner and CLI that manages rate limits and credits, but does not display, measure, or report Claude usage (tokens, costs, quotas) as a substantial feature — it is an orchestrator, not a usage tracker.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-14T01:59:00.695Z"
   }
 ]
