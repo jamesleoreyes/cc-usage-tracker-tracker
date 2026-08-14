@@ -712,5 +712,29 @@
     "reason": "This is a personal Claude Code plugin marketplace with workflow skills and statusline functionality, not a usage tracker—it manages Claude Code plugins and workflows but does not display, measure, or report Claude usage metrics.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-14T07:25:37.558Z"
+  },
+  {
+    "id": "rays23/continuum",
+    "reason": "This is a session manager and auto-resume tool for Claude Code rate limits, not a usage tracker—it monitors and resumes sessions but does not display, measure, or report Claude usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-14T18:55:34.529Z"
+  },
+  {
+    "id": "karthiknitt/smart_resume",
+    "reason": "This project automates Claude Code session resumption after rate limits but does not display, measure, or report Claude usage metrics as a feature — it only detects and manages rate-limit events.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-14T18:55:38.082Z"
+  },
+  {
+    "id": "AssafShalin/claude-remote-bar",
+    "reason": "This is a macOS menu bar app for supervising Claude Code remote-control servers, not a usage tracker—it manages server instances and sessions but does not display, measure, or report Claude usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-14T18:55:44.884Z"
+  },
+  {
+    "id": "wulinsquarelikui/grok-hud",
+    "reason": "This is a Grok (xAI) usage tracker, not a Claude tracker, so it does not qualify for the Claude usage tracker registry despite sharing the same pattern and purpose as claude-hud.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-14T18:55:48.048Z"
   }
 ]

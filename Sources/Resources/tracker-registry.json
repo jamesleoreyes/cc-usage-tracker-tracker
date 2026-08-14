@@ -142888,5 +142888,214 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-14T13:07:25.303Z"
+  },
+  {
+    "id": "rsogo/claude-usage-menubar",
+    "name": "claude-usage-menubar",
+    "author": "rsogo",
+    "repoURL": "https://github.com/rsogo/claude-usage-menubar",
+    "description": "Show Claude Code's remaining 5-hour session time and token usage in the macOS menu bar (via SwiftBar + ccusage)",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "session-timer",
+      "token-usage",
+      "menubar-display",
+      "local-parsing"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-14T15:17:05Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-14T18:55:48.048Z"
+  },
+  {
+    "id": "GlebYaltchik/streamdeck-claude-monitor",
+    "name": "streamdeck-claude-monitor",
+    "author": "GlebYaltchik",
+    "repoURL": "https://github.com/GlebYaltchik/streamdeck-claude-monitor",
+    "description": "Stream Deck plugin for Claude Code: session state, context and usage monitoring, approve/deny from a key",
+    "category": "Raycast Extension",
+    "platforms": [
+      "web"
+    ],
+    "language": "Unknown",
+    "authMethod": [
+      "OpenTelemetry"
+    ],
+    "features": [
+      "session-monitoring",
+      "context-window-tracking",
+      "usage-windows",
+      "approval-deny-workflow",
+      "multi-session",
+      "wsl2-support"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-14T17:05:24Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-14T18:55:48.049Z"
+  },
+  {
+    "id": "EricBriscoe/token-widget",
+    "name": "token-widget",
+    "author": "EricBriscoe",
+    "repoURL": "https://github.com/EricBriscoe/token-widget",
+    "description": "macOS desktop widget charting LLM token usage and cost from local Claude Code transcripts",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "token-tracking",
+      "cost-analysis",
+      "cache-aware-pricing",
+      "weekly-monthly-quarterly-yearly-views",
+      "widget-display",
+      "local-transcript-parsing",
+      "multi-model-support",
+      "price-feed-integration"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-14T17:47:10Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-14T18:55:48.049Z"
+  },
+  {
+    "id": "The-Good-Project-Team/Maxx",
+    "name": "Maxx",
+    "author": "The-Good-Project-Team",
+    "repoURL": "https://github.com/The-Good-Project-Team/Maxx",
+    "description": "A Claude Code status line that paces your tokens so you never run out — shows session + weekly limits before you hit them. Zero egress.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web",
+      "vscode"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "token-counter",
+      "session-limiter",
+      "weekly-budget-pacing",
+      "multi-machine-dashboard",
+      "rate-limit-alerts",
+      "cost-per-model",
+      "context-size-warning",
+      "cache-hit-tracking"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-14T18:06:38Z",
+    "openIssues": 2,
+    "archived": false,
+    "lastFetched": "2026-08-14T18:55:48.049Z"
+  },
+  {
+    "id": "Mahmutakin99/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "Mahmutakin99",
+    "repoURL": "https://github.com/Mahmutakin99/claude-code-statusline",
+    "description": "A single-file bash statusline for Claude Code: dir, git branch, model, context %, cost, and rate-limit usage.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "context-window-usage",
+      "session-cost",
+      "rate-limit-tracking",
+      "active-model-display",
+      "git-integration",
+      "color-coded-alerts"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-14T13:42:03Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-14T18:55:48.049Z"
+  },
+  {
+    "id": "gshearer/dccstatusline",
+    "name": "dccstatusline",
+    "author": "gshearer",
+    "repoURL": "https://github.com/gshearer/dccstatusline",
+    "description": "Doc's Claude Code Status Line — pure C, zero dependencies, ~250 microseconds.",
+    "category": "Statusline",
+    "platforms": [
+      "linux",
+      "macos"
+    ],
+    "language": "C",
+    "authMethod": [],
+    "features": [
+      "context-window-tracking",
+      "rate-limit-windows",
+      "model-info",
+      "git-branch",
+      "cwd-display",
+      "ansi-colors",
+      "zero-dependencies"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-14T18:46:54Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-14T18:55:48.049Z"
+  },
+  {
+    "id": "axelhamil/claude-window",
+    "name": "claude-window",
+    "author": "axelhamil",
+    "repoURL": "https://github.com/axelhamil/claude-window",
+    "description": "Pin your Claude Code 5-hour rate-limit window to a fixed hour. Reads the real reset timestamp from the API response headers instead of guessing with a cron.",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "rate-limit-tracking",
+      "window-anchoring",
+      "5h-rolling-window",
+      "utilization-display",
+      "daemon-service",
+      "cross-platform"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-14T14:34:50Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-14T18:55:48.049Z"
   }
 ]
