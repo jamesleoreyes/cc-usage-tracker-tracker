@@ -142653,5 +142653,63 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-14T01:59:17.032Z"
+  },
+  {
+    "id": "atakesho/claude-codex-usage-monitor",
+    "name": "claude-codex-usage-monitor",
+    "author": "atakesho",
+    "repoURL": "https://github.com/atakesho/claude-codex-usage-monitor",
+    "description": "Always-on-top Windows widget showing Claude Code and Codex usage limits next to CPU/GPU/memory load. English + Japanese.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "API Key"
+    ],
+    "features": [
+      "claude-code-limits",
+      "codex-limits",
+      "5hr-rolling-window",
+      "7day-rolling-window",
+      "system-monitor-integration",
+      "token-costs",
+      "multi-language-ui"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-14T05:53:26Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-14T07:25:37.559Z"
+  },
+  {
+    "id": "ulisestame/Enhanced-Experience-Claude-Code",
+    "name": "Enhanced-Experience-Claude-Code",
+    "author": "ulisestame",
+    "repoURL": "https://github.com/ulisestame/Enhanced-Experience-Claude-Code",
+    "description": "A portable configuration layer for Claude Code — sound notifications for every event and a status line showing model, cost, rate limits, and context usage. One-command install.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "sound-notifications",
+      "status-line",
+      "cost-display",
+      "rate-limits",
+      "context-usage",
+      "session-tracking"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-14T03:16:45Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-14T07:25:37.559Z"
   }
 ]

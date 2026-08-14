@@ -706,5 +706,11 @@
     "reason": "claudeloop is a Claude Code session runner and CLI that manages rate limits and credits, but does not display, measure, or report Claude usage (tokens, costs, quotas) as a substantial feature — it is an orchestrator, not a usage tracker.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-14T01:59:00.695Z"
+  },
+  {
+    "id": "byh3071-cpu/yohan-agent-kit",
+    "reason": "This is a personal Claude Code plugin marketplace with workflow skills and statusline functionality, not a usage tracker—it manages Claude Code plugins and workflows but does not display, measure, or report Claude usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-14T07:25:37.558Z"
   }
 ]
