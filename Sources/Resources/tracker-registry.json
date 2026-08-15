@@ -143097,5 +143097,150 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-14T18:55:48.049Z"
+  },
+  {
+    "id": "simoneb/claude-usage-widget",
+    "name": "claude-usage-widget",
+    "author": "simoneb",
+    "repoURL": "https://github.com/simoneb/claude-usage-widget",
+    "description": "A Windows desktop panel and taskbar badge showing your Claude subscription limit usage, across multiple accounts. No credential scraping — it asks the Claude Code CLI.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "C#",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "multi-account",
+      "taskbar-integration",
+      "usage-display",
+      "rate-limit-tracking",
+      "session-window-reset-times",
+      "tray-widget"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-08-15T00:18:40Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-15T01:15:51.966Z"
+  },
+  {
+    "id": "Second-Nature-Computing/poppgpu",
+    "name": "poppgpu",
+    "author": "Second-Nature-Computing",
+    "repoURL": "https://github.com/Second-Nature-Computing/poppgpu",
+    "description": "A terminal flower that lives in your Claude Code statusline and reacts to GPU, system, and Claude session state.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Traffic Capture",
+      "OpenTelemetry"
+    ],
+    "features": [
+      "context-window-monitoring",
+      "token-cost-display",
+      "rate-limit-tracking",
+      "gpu-metrics",
+      "system-state-integration",
+      "achievements-tracking",
+      "interactive-statusline",
+      "multi-variant-dashboards"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-14T23:20:18Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-15T01:15:51.966Z"
+  },
+  {
+    "id": "seancvr/custom-statusline",
+    "name": "custom-statusline",
+    "author": "seancvr",
+    "repoURL": "https://github.com/seancvr/custom-statusline",
+    "description": "Custom status line script for Claude Code",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "context-window-display",
+      "token-usage-percentage",
+      "model-indicator",
+      "design-mode-toggle"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-14T20:35:13Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-15T01:15:51.966Z"
+  },
+  {
+    "id": "sleep/claude-statusbar",
+    "name": "claude-statusbar",
+    "author": "sleep",
+    "repoURL": "https://github.com/sleep/claude-statusbar",
+    "description": "Portable Claude Code status line HUD plugin",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "context-remaining-bar",
+      "session-api-cost",
+      "rate-limit-meters",
+      "model-display",
+      "git-branch",
+      "session-duration"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-14T18:53:49Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-15T01:15:51.966Z"
+  },
+  {
+    "id": "serhiileniv/clwidget",
+    "name": "clwidget",
+    "author": "serhiileniv",
+    "repoURL": "https://github.com/serhiileniv/clwidget",
+    "description": "macOS menu-bar meter for Claude subscription limits. Reads Claude Code's local usage cache; no API calls, no credential access.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Session Key"
+    ],
+    "features": [
+      "claude-rate-limits",
+      "rolling-window-meter",
+      "menu-bar-app",
+      "local-cache-reader",
+      "usage-display"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-14T20:37:01Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-15T01:15:51.966Z"
   }
 ]

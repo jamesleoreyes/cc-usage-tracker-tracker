@@ -736,5 +736,11 @@
     "reason": "This is a Grok (xAI) usage tracker, not a Claude tracker, so it does not qualify for the Claude usage tracker registry despite sharing the same pattern and purpose as claude-hud.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-14T18:55:48.048Z"
+  },
+  {
+    "id": "intframe/usage-recover",
+    "reason": "This is a recovery tool that reconstructs Claude usage history from public leaderboard data, not a tracker that actively measures or displays ongoing Claude usage.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-15T01:15:51.966Z"
   }
 ]
