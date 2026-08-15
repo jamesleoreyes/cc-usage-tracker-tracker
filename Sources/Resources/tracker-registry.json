@@ -143245,5 +143245,66 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-15T01:15:51.966Z"
+  },
+  {
+    "id": "Parms221/claude-usage-widget",
+    "name": "claude-usage-widget",
+    "author": "Parms221",
+    "repoURL": "https://github.com/Parms221/claude-usage-widget",
+    "description": "Native Windows 11 taskbar widget showing your Claude plan usage live - 5h session window, weekly limit and per-model breakdown. Pure Go, no CGo.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Go",
+    "authMethod": [
+      "OAuth Token",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "session-window-tracking",
+      "weekly-limit-tracking",
+      "per-model-breakdown",
+      "activity-chart",
+      "taskbar-widget",
+      "live-status"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-08-15T03:25:58Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-15T06:38:42.006Z"
+  },
+  {
+    "id": "levi-qiao/herdr-agent-quota",
+    "name": "herdr-agent-quota",
+    "author": "levi-qiao",
+    "repoURL": "https://github.com/levi-qiao/herdr-agent-quota",
+    "description": "Live Claude Code, Codex, Grok, and Agy quotas in Herdr: provider names, 5-hour/weekly remaining percentages, cached values, and color-coded sidebar warnings.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "multi-provider-quotas",
+      "five-hour-window",
+      "weekly-window",
+      "sidebar-display",
+      "real-time-refresh",
+      "percentage-remaining",
+      "cached-values"
+    ],
+    "builtWithClaude": null,
+    "stars": 1,
+    "lastCommitDate": "2026-08-15T06:28:05Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-15T06:38:42.006Z"
   }
 ]
