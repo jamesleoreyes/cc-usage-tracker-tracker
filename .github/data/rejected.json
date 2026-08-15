@@ -742,5 +742,17 @@
     "reason": "This is a recovery tool that reconstructs Claude usage history from public leaderboard data, not a tracker that actively measures or displays ongoing Claude usage.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-15T01:15:51.966Z"
+  },
+  {
+    "id": "gdabas/statusline-studio",
+    "reason": "This is a design tool for building Claude Code statuslines, not a tracker that displays or measures Claude usage; it simulates data points for prototyping but does not measure real Claude consumption.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-15T18:30:25.337Z"
+  },
+  {
+    "id": "pr3m/claude-code-roam",
+    "reason": "This is a Claude Code plugin for managing laptop sleep and mobile-mode workflows with optional constrained command approval, not a usage tracker—it does not display, measure, or report Claude token usage, costs, or sessions as a feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-15T18:30:28.490Z"
   }
 ]

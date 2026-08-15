@@ -143529,5 +143529,73 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-15T12:38:24.766Z"
+  },
+  {
+    "id": "SRX9/UsageAtlas",
+    "name": "UsageAtlas",
+    "author": "SRX9",
+    "repoURL": "https://github.com/SRX9/UsageAtlas",
+    "description": "Track all your AI coding usage and limits, Claude Code, Codex, Cursor, OpenCode and more. One picture. ",
+    "category": "Electron/Desktop",
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "OAuth Token",
+      "API Key",
+      "Session Cookie"
+    ],
+    "features": [
+      "multi-provider-tracking",
+      "quota-display",
+      "cost-analytics",
+      "hourly-activity",
+      "usage-alerts",
+      "90-day-history",
+      "local-first",
+      "system-tray"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-08-15T12:39:46Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-15T18:30:32.728Z"
+  },
+  {
+    "id": "khuzlinar-tech/claude-plugboard",
+    "name": "claude-plugboard",
+    "author": "khuzlinar-tech",
+    "repoURL": "https://github.com/khuzlinar-tech/claude-plugboard",
+    "description": "Claude Plugboard — switch between multiple Claude accounts on Windows and see the plan, limits and usage of each one. Unofficial, not affiliated with Anthropic.",
+    "category": "Electron/Desktop",
+    "platforms": [
+      "windows"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Session Key",
+      "Browser Cookie Auto-detect",
+      "API Key"
+    ],
+    "features": [
+      "multi-account-switcher",
+      "rate-limit-display",
+      "usage-dashboard",
+      "token-tracking",
+      "claude-code-metrics",
+      "tray-icon",
+      "status-line",
+      "pace-indicator"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-15T17:17:25Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-15T18:30:32.728Z"
   }
 ]
