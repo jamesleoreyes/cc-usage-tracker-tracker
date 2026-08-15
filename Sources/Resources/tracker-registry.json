@@ -143308,5 +143308,220 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-15T06:38:42.006Z"
+  },
+  {
+    "id": "simoneb/agent-usage",
+    "name": "agent-usage",
+    "author": "simoneb",
+    "repoURL": "https://github.com/simoneb/agent-usage",
+    "description": "Claude Code and Codex subscription limits, at a glance: a Windows desktop panel and taskbar badge, plus a CLI for macOS and Linux status bars. No credential scraping - it reads the tools you already installed.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "language": "C#",
+    "authMethod": [],
+    "features": [
+      "claude-code-limits",
+      "codex-limits",
+      "multi-account",
+      "cli-statusline",
+      "taskbar-badge",
+      "local-credential-free",
+      "json-output",
+      "xbar-waybar-integration"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-08-15T12:29:34Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-15T12:38:24.766Z"
+  },
+  {
+    "id": "arunendapally/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "arunendapally",
+    "repoURL": "https://github.com/arunendapally/claude-code-statusline",
+    "description": "A two-line status line for Claude Code: model, folder, git state and open PR on one line; context usage, cost, elapsed time and rate limit on the other. No dependencies.",
+    "category": "Statusline",
+    "platforms": [
+      "web"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Traffic Capture"
+    ],
+    "features": [
+      "context-usage-bar",
+      "cost-tracking",
+      "rate-limit-display",
+      "elapsed-time",
+      "reasoning-effort",
+      "model-info",
+      "git-state"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-15T08:24:21Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-15T12:38:24.766Z"
+  },
+  {
+    "id": "HaiderAli3D/catline",
+    "name": "catline",
+    "author": "HaiderAli3D",
+    "repoURL": "https://github.com/HaiderAli3D/catline",
+    "description": "A Claude Code status line with a cat in it. It paces, blinks, naps, and panics when your context window fills up.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "OpenTelemetry"
+    ],
+    "features": [
+      "context-window-monitoring",
+      "cost-tracking",
+      "session-metrics",
+      "animated-ui",
+      "rate-limit-alerts",
+      "token-counting"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-08-15T09:33:20Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-15T12:38:24.766Z"
+  },
+  {
+    "id": "nowoandi/claude-context-meter",
+    "name": "claude-context-meter",
+    "author": "nowoandi",
+    "repoURL": "https://github.com/nowoandi/claude-context-meter",
+    "description": "Always-on-top Windows widget showing context fill per running Claude chat (Claude Code and Cowork), plus token totals for the rate-limit windows.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "PowerShell",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "context-window-monitoring",
+      "token-counting",
+      "rate-limit-tracking",
+      "multi-surface-support",
+      "session-tracking",
+      "localization",
+      "autostart"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-15T08:40:35Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-15T12:38:24.766Z"
+  },
+  {
+    "id": "Cloudo/cburn",
+    "name": "cburn",
+    "author": "Cloudo",
+    "repoURL": "https://github.com/Cloudo/cburn",
+    "description": "Local token-burn speedometer for Claude Code: watches every session on your machine, shows real-time burn rate and cost, and suggests hourly optimizations. Dashboard, menu-bar app and Telegram alerts, all on localhost - no transcript ever leaves the machine.",
+    "category": "Web Dashboard",
+    "platforms": [
+      "macos",
+      "web"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "OpenTelemetry"
+    ],
+    "features": [
+      "real-time-burn-rate",
+      "token-spend-tracking",
+      "cost-monitoring",
+      "hourly-optimizations",
+      "menu-bar-app",
+      "telegram-alerts",
+      "multi-session-tracking",
+      "local-dashboard"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-15T12:29:50Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-15T12:38:24.766Z"
+  },
+  {
+    "id": "romaniker/QuotaBar",
+    "name": "QuotaBar",
+    "author": "romaniker",
+    "repoURL": "https://github.com/romaniker/QuotaBar",
+    "description": "macOS menu bar app showing your AI usage quota (Claude via Claude Code). Builds from source.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "quota-display",
+      "menu-bar-integration",
+      "token-expiration-detection",
+      "usage-notifications",
+      "multi-provider-architecture",
+      "usage-metrics"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-15T10:51:14Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-15T12:38:24.766Z"
+  },
+  {
+    "id": "bygama/hud",
+    "name": "hud",
+    "author": "bygama",
+    "repoURL": "https://github.com/bygama/hud",
+    "description": "Zero-dependency Node.js statusline for Claude Code — shows model, 5h/weekly rate-limit usage, session time, and context window from stdin.",
+    "category": "Statusline",
+    "platforms": [
+      "web"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "OAuth Token",
+      "Session Key",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "rate-limit-display",
+      "context-window-monitor",
+      "multi-account",
+      "session-tracker",
+      "token-usage",
+      "zero-dependencies"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-13T09:11:11Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-15T12:38:24.766Z"
   }
 ]
