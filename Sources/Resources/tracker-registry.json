@@ -143996,5 +143996,96 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-16T06:40:59.684Z"
+  },
+  {
+    "id": "Coldcomplex1/claude-usage-bar",
+    "name": "claude-usage-bar",
+    "author": "Coldcomplex1",
+    "repoURL": "https://github.com/Coldcomplex1/claude-usage-bar",
+    "description": "Claude Usage Bar Privacy Policy",
+    "category": "Browser Extension",
+    "platforms": [
+      "chromium"
+    ],
+    "language": "HTML",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "session-limit-display",
+      "weekly-limit-display",
+      "opus-allowance-tracking",
+      "color-coded-bars",
+      "reset-countdown",
+      "multi-account",
+      "background-refresh",
+      "local-storage-only"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-08-16T05:00:13Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-16T12:39:56.178Z"
+  },
+  {
+    "id": "cheonjaeung/claude-statusline",
+    "name": "claude-statusline",
+    "author": "cheonjaeung",
+    "repoURL": "https://github.com/cheonjaeung/claude-statusline",
+    "description": "My personal statusline script for Claude Code.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "context-window-usage",
+      "rate-limit-display",
+      "token-tracking",
+      "5h-7d-reset-timers",
+      "daily-monthly-totals",
+      "model-effort-indicator"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-16T10:52:13Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-16T12:39:56.178Z"
+  },
+  {
+    "id": "avihut/coding-agent-usage-tracker",
+    "name": "coding-agent-usage-tracker",
+    "author": "avihut",
+    "repoURL": "https://github.com/avihut/coding-agent-usage-tracker",
+    "description": "Personal macOS menu bar app showing Claude plan usage limits, burn estimates, and local per-model token/cost analytics",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "usage-meters",
+      "burn-rate-estimate",
+      "local-token-analytics",
+      "cost-estimation",
+      "activity-heatmap",
+      "per-model-breakdown",
+      "adaptive-polling",
+      "session-tracking"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-08-16T12:13:20Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-16T12:39:56.178Z"
   }
 ]

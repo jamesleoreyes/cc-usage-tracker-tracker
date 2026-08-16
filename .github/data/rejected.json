@@ -760,5 +760,11 @@
     "reason": "This is a personal Claude Code configuration and setup repository with statusline-command output, but the statusline shows generic session metrics (token %, cost) not Claude-specific usage tracking as a primary feature; it's fundamentally a dotfiles/setup collection for delegating work across models.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-16T01:19:59.510Z"
+  },
+  {
+    "id": "kshitij-arora/claude-model-shifter",
+    "reason": "This is a model-switcher utility for Claude Code, not a usage tracker—it controls which model runs in active sessions but does not display, measure, or report Claude token usage, costs, rate limits, or consumption metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-16T12:39:52.727Z"
   }
 ]
