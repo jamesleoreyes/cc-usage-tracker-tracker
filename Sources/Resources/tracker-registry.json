@@ -144089,5 +144089,281 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-16T12:39:56.178Z"
+  },
+  {
+    "id": "RameshXT/claude-usage",
+    "name": "claude-usage",
+    "author": "RameshXT",
+    "repoURL": "https://github.com/RameshXT/claude-usage",
+    "description": "Monitor your Claude Code usage and limits directly from your browser.",
+    "category": "Browser Extension",
+    "platforms": [
+      "chromium",
+      "firefox"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "usage-monitoring",
+      "rate-limit-tracking",
+      "claude-code-focus"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-16T14:44:30Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-16T18:30:09.466Z"
+  },
+  {
+    "id": "jonmgee/claude-usage-monitor-widget",
+    "name": "claude-usage-monitor-widget",
+    "author": "jonmgee",
+    "repoURL": "https://github.com/jonmgee/claude-usage-monitor-widget",
+    "description": "Schedule your Claude 5-hour windows so they start before you do — plus a floating live usage display, auto model step-down, and 12 skins (macOS + Windows)",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "macos",
+      "windows"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "auto-ping-scheduler",
+      "live-usage-display",
+      "auto-model-step-down",
+      "multi-skin-themes",
+      "session-window-tracking",
+      "usage-percentage-alerts"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-16T13:06:47Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-16T18:30:09.466Z"
+  },
+  {
+    "id": "echoulen/claude-usage-widget",
+    "name": "claude-usage-widget",
+    "author": "echoulen",
+    "repoURL": "https://github.com/echoulen/claude-usage-widget",
+    "description": "macOS menu-bar app and desktop widget showing Claude subscription quota usage",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "quota-display",
+      "rolling-windows",
+      "menu-bar-widget",
+      "desktop-widget",
+      "rate-limit-alerts"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-16T15:50:42Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-16T18:30:09.466Z"
+  },
+  {
+    "id": "harries233/claude-code-context-monitor",
+    "name": "claude-code-context-monitor",
+    "author": "harries233",
+    "repoURL": "https://github.com/harries233/claude-code-context-monitor",
+    "description": "VS Code extension to monitor Claude Code context usage",
+    "category": "VS Code Extension",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "context-monitor",
+      "health-scoring",
+      "token-analytics",
+      "session-management",
+      "usage-alerts",
+      "dashboard-webview",
+      "auto-detection",
+      "token-breakdown"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-16T15:15:34Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-16T18:30:09.466Z"
+  },
+  {
+    "id": "Mathews-Tom/metermaid",
+    "name": "metermaid",
+    "author": "Mathews-Tom",
+    "repoURL": "https://github.com/Mathews-Tom/metermaid",
+    "description": "Background usage tracker for Claude Code and Codex CLI sessions",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "claude-code-tracking",
+      "codex-cli-tracking",
+      "background-watcher",
+      "hmac-anonymization",
+      "sqlite-storage",
+      "multi-agent-support",
+      "legacy-import"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-16T18:26:23Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-16T18:30:09.466Z"
+  },
+  {
+    "id": "EnlightenK/ai-coding-usage-tracker",
+    "name": "ai-coding-usage-tracker",
+    "author": "EnlightenK",
+    "repoURL": "https://github.com/EnlightenK/ai-coding-usage-tracker",
+    "description": "Track quotas, usage and subscription state for AI coding plans (MiniMax, GLM, Claude Code, Codex)",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "API Key",
+      "OAuth Token",
+      "Session Key"
+    ],
+    "features": [
+      "multi-plan-tracking",
+      "quota-windows",
+      "daily-usage",
+      "subscription-state",
+      "timezone-aware",
+      "caching",
+      "json-export"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-16T13:46:46Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-16T18:30:09.466Z"
+  },
+  {
+    "id": "OverStyleFR/omarchy-agents",
+    "name": "omarchy-agents",
+    "author": "OverStyleFR",
+    "repoURL": "https://github.com/OverStyleFR/omarchy-agents",
+    "description": "Omarchy bar widget — Claude Code, Codex, Fireworks and OpenCode usage with rate-limit meters, per-day token history and optional cross-machine aggregation.",
+    "category": "Statusline",
+    "platforms": [
+      "linux"
+    ],
+    "language": "QML",
+    "authMethod": [
+      "OAuth Token",
+      "API Key",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "multi-provider",
+      "rate-limit-display",
+      "token-history",
+      "cross-device-sync",
+      "usage-notifications",
+      "prepaid-balance",
+      "model-breakdown"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-16T15:02:32Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-16T18:30:09.466Z"
+  },
+  {
+    "id": "fredhead88/dope-status",
+    "name": "dope-status",
+    "author": "fredhead88",
+    "repoURL": "https://github.com/fredhead88/dope-status",
+    "description": "A Claude Code status line: context usage, both rate limits with time until they reset, and session cost.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "OpenTelemetry"
+    ],
+    "features": [
+      "context-window-tracking",
+      "rate-limit-countdown",
+      "session-cost-display",
+      "5h-window",
+      "7d-window",
+      "color-coded-usage",
+      "real-time-refresh"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-16T14:27:48Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-16T18:30:09.466Z"
+  },
+  {
+    "id": "simpleisrael/claude-monitor",
+    "name": "claude-monitor",
+    "author": "simpleisrael",
+    "repoURL": "https://github.com/simpleisrael/claude-monitor",
+    "description": "Realtime Claude Code context monitor with idle auto-compact, dashboard, menubar, and real rate-limit tracking. Zero dependencies.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Browser Cookie Auto-detect",
+      "API Key"
+    ],
+    "features": [
+      "realtime-context-monitor",
+      "idle-auto-compact",
+      "rate-limit-tracking",
+      "dashboard",
+      "menubar-widget",
+      "burn-rate-sparklines",
+      "telegram-alerts",
+      "webhook-alerts"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-16T18:15:43Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-16T18:30:09.466Z"
   }
 ]
