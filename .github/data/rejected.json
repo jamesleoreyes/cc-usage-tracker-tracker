@@ -754,5 +754,11 @@
     "reason": "This is a Claude Code plugin for managing laptop sleep and mobile-mode workflows with optional constrained command approval, not a usage tracker—it does not display, measure, or report Claude token usage, costs, or sessions as a feature.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-15T18:30:28.490Z"
+  },
+  {
+    "id": "rtb-12/beast-claude-setup",
+    "reason": "This is a personal Claude Code configuration and setup repository with statusline-command output, but the statusline shows generic session metrics (token %, cost) not Claude-specific usage tracking as a primary feature; it's fundamentally a dotfiles/setup collection for delegating work across models.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-16T01:19:59.510Z"
   }
 ]
