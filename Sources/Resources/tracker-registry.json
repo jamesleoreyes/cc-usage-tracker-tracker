@@ -143900,5 +143900,99 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-16T01:20:08.963Z"
+  },
+  {
+    "id": "Shirokkawa/TokenPulse",
+    "name": "TokenPulse",
+    "author": "Shirokkawa",
+    "repoURL": "https://github.com/Shirokkawa/TokenPulse",
+    "description": "本地优先的 AI Token 监控桌面小组件，追踪 Claude Code、Codex、Cursor 等工具的 Token、成本、额度和使用趋势。Local-first AI Token monitoring desktop widget for tracking Claude Code, Codex, Cursor usage, costs, quotas, and trends.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "token-counting",
+      "cost-tracking",
+      "multi-provider",
+      "session-aggregation",
+      "budget-alerts",
+      "project-attribution",
+      "local-proxy",
+      "csv-export"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-16T02:56:01Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-16T06:40:59.683Z"
+  },
+  {
+    "id": "sunnixx/headroom",
+    "name": "headroom",
+    "author": "sunnixx",
+    "repoURL": "https://github.com/sunnixx/headroom",
+    "description": "Menu bar readout of your Claude Code and ChatGPT Codex usage — how much headroom is left before a limit cuts off work mid-task. Read-only, silent, macOS/Linux/Windows.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "multi-provider",
+      "rate-limit-alerts",
+      "headroom-percentage",
+      "session-window-tracking",
+      "credential-file-parsing",
+      "silent-polling",
+      "keychain-integration"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-08-16T06:30:40Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-16T06:40:59.684Z"
+  },
+  {
+    "id": "kevinRForshey/GnomeShellClaudeMeter",
+    "name": "GnomeShellClaudeMeter",
+    "author": "kevinRForshey",
+    "repoURL": "https://github.com/kevinRForshey/GnomeShellClaudeMeter",
+    "description": "GNOME Shell extension showing Claude Code 5-hour and 7-day usage limits in the top panel",
+    "category": "Übersicht Widget",
+    "platforms": [
+      "linux"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "OAuth Token",
+      "Session Key"
+    ],
+    "features": [
+      "session-limits",
+      "weekly-limits",
+      "per-model-caps",
+      "auto-refresh",
+      "color-coded-alerts",
+      "panel-display"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-16T03:37:19Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-16T06:40:59.684Z"
   }
 ]
