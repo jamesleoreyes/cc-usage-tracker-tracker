@@ -145119,5 +145119,211 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-17T12:44:54.718Z"
+  },
+  {
+    "id": "cloudx99/claude-usage-monitor",
+    "name": "claude-usage-monitor",
+    "author": "cloudx99",
+    "repoURL": "https://github.com/cloudx99/claude-usage-monitor",
+    "description": "Floating always-on-top panel showing 5h session and 7d weekly usage across every signed-in Claude account",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "multi-account",
+      "5h-session-usage",
+      "7d-weekly-usage",
+      "real-time-polling",
+      "live-token-refresh",
+      "persistent-settings"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-17T17:17:22Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-17T18:40:49.360Z"
+  },
+  {
+    "id": "BelieveItsreal/ClaudeUsageMonitor",
+    "name": "ClaudeUsageMonitor",
+    "author": "BelieveItsreal",
+    "repoURL": "https://github.com/BelieveItsreal/ClaudeUsageMonitor",
+    "description": "Intellij Plugin to monitor your claude subscription usage.",
+    "category": "VS Code Extension",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Kotlin",
+    "authMethod": [
+      "OAuth Token",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "session-usage-bar",
+      "weekly-usage-bar",
+      "auto-refresh",
+      "claude-code-plan-display",
+      "countdown-timers"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-17T14:40:18Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-17T18:40:49.360Z"
+  },
+  {
+    "id": "cgabrielbg7/claude-usagement",
+    "name": "claude-usagement",
+    "author": "cgabrielbg7",
+    "repoURL": "https://github.com/cgabrielbg7/claude-usagement",
+    "description": "Always-on-top Windows desktop widget showing your Claude plan usage (5-hour limit, weekly usage, extra credits) in real time.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "HTML",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "5-hour-limit-display",
+      "weekly-usage-tracking",
+      "extra-credits-display",
+      "real-time-refresh",
+      "always-on-top",
+      "dark-light-theme",
+      "auto-reset-timer"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-17T14:39:16Z",
+    "openIssues": 1,
+    "archived": false,
+    "lastFetched": "2026-08-17T18:40:49.360Z"
+  },
+  {
+    "id": "diegoSbrandao/capy-usage-monitor",
+    "name": "capy-usage-monitor",
+    "author": "diegoSbrandao",
+    "repoURL": "https://github.com/diegoSbrandao/capy-usage-monitor",
+    "description": "Widget desktop que monitora uso do Claude Code localmente, com mascote capivara propria",
+    "category": "Electron/Desktop",
+    "platforms": [
+      "windows"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "OAuth Token",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "token-usage-display",
+      "claude-code-monitoring",
+      "session-tracking",
+      "weekly-quotas",
+      "contextual-alerts",
+      "daily-median-tracking",
+      "excel-export",
+      "compact-mode"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-16T18:24:07Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-17T18:40:49.360Z"
+  },
+  {
+    "id": "philippgerger/claude-statusline",
+    "name": "claude-statusline",
+    "author": "philippgerger",
+    "repoURL": "https://github.com/philippgerger/claude-statusline",
+    "description": "Compact Claude Code statusline: per-terminal session name + context, model & cost (built on ccusage)",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "session-naming",
+      "context-display",
+      "cost-tracking",
+      "model-selection",
+      "burn-rate",
+      "per-terminal-stats"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-17T16:32:46Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-17T18:40:49.360Z"
+  },
+  {
+    "id": "ivangong24/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "ivangong24",
+    "repoURL": "https://github.com/ivangong24/claude-code-statusline",
+    "description": "A fast, dependency-free status line for Claude Code: context window gauge, git state, rate limits and cost",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Python",
+    "authMethod": [],
+    "features": [
+      "context-window-gauge",
+      "cost-estimation",
+      "rate-limit-monitor",
+      "git-state",
+      "daily-ledger",
+      "session-totals"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-17T16:28:51Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-17T18:40:49.360Z"
+  },
+  {
+    "id": "josephlopes/clx",
+    "name": "clx",
+    "author": "josephlopes",
+    "repoURL": "https://github.com/josephlopes/clx",
+    "description": "Visibilidade de múltiplas sessões do Claude Code no tmux — statusline e dashboard TUI alimentados por hooks",
+    "category": "Tmux Plugin",
+    "platforms": [
+      "tmux"
+    ],
+    "language": "Unknown",
+    "authMethod": [],
+    "features": [
+      "multi-session-visibility",
+      "claude-code-integration",
+      "statusline-display",
+      "tui-dashboard",
+      "hook-based-reporting"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-17T14:26:37Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-17T18:40:49.360Z"
   }
 ]
