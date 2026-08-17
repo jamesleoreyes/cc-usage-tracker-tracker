@@ -144465,5 +144465,318 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-17T01:17:16.303Z"
+  },
+  {
+    "id": "ylanjewar/claude_windows_widget",
+    "name": "claude_windows_widget",
+    "author": "ylanjewar",
+    "repoURL": "https://github.com/ylanjewar/claude_windows_widget",
+    "description": "Widget to keep track of Claude usage",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Unknown",
+    "authMethod": [],
+    "features": [
+      "usage-tracking"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-17T06:24:38Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-17T06:57:09.489Z"
+  },
+  {
+    "id": "farhans-codes/ai_limit_status",
+    "name": "ai_limit_status",
+    "author": "farhans-codes",
+    "repoURL": "https://github.com/farhans-codes/ai_limit_status",
+    "description": "Open-source Flutter menu bar and system tray monitor for Codex and Claude usage limits.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos",
+      "windows"
+    ],
+    "language": "Dart",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "claude-usage",
+      "codex-usage",
+      "menu-bar-display",
+      "notifications",
+      "multi-provider",
+      "usage-windows",
+      "rate-limit-alerts"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-17T06:27:00Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-17T06:57:09.489Z"
+  },
+  {
+    "id": "psb140306-cloud/claude-usage-widget",
+    "name": "claude-usage-widget",
+    "author": "psb140306-cloud",
+    "repoURL": "https://github.com/psb140306-cloud/claude-usage-widget",
+    "description": "Claude Code 구독 사용량(5시간 세션·주간 한도)을 상시 표시하는 Windows 11 트레이 + 플로팅 위젯. 사용 이력이 로컬에 남아 1년까지 조회됩니다.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "session-tracking",
+      "weekly-quota-tracking",
+      "real-time-display",
+      "local-history",
+      "usage-alerts",
+      "reset-countdown",
+      "24h-chart",
+      "customizable-ui"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-17T06:18:04Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-17T06:57:09.489Z"
+  },
+  {
+    "id": "Cwooper/claude-usage-widget",
+    "name": "claude-usage-widget",
+    "author": "Cwooper",
+    "repoURL": "https://github.com/Cwooper/claude-usage-widget",
+    "description": "Plasma 6 widget showing Claude Code subscription limits as pace-aware ring gauges, plus the week's model mix",
+    "category": "Waybar Module",
+    "platforms": [
+      "linux"
+    ],
+    "language": "QML",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "pace-aware-gauges",
+      "weekly-model-split",
+      "token-breakdown",
+      "session-limits",
+      "consumption-countdown"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-17T01:58:25Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-17T06:57:09.489Z"
+  },
+  {
+    "id": "TheGuyDangerous/Claudamangala",
+    "name": "Claudamangala",
+    "author": "TheGuyDangerous",
+    "repoURL": "https://github.com/TheGuyDangerous/Claudamangala",
+    "description": "Native macOS menu-bar app for managing Claude Code OAuth accounts in Firebase — switch Keychain sessions, refresh tokens, and track usage limits.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "Session Key"
+    ],
+    "features": [
+      "account-switching",
+      "token-refresh",
+      "keychain-integration",
+      "usage-limits",
+      "multi-account",
+      "firestore-sync"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-17T02:43:49Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-17T06:57:09.489Z"
+  },
+  {
+    "id": "bshah0625/claude-toolkit",
+    "name": "claude-toolkit",
+    "author": "bshah0625",
+    "repoURL": "https://github.com/bshah0625/claude-toolkit",
+    "description": "Tools I use to enhance Claude Code, starting with a two-line statusline.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "context-usage",
+      "session-tracking",
+      "plan-quota",
+      "model-display"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-17T05:56:14Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-17T06:57:09.489Z"
+  },
+  {
+    "id": "shiersa/outcrop",
+    "name": "outcrop",
+    "author": "shiersa",
+    "repoURL": "https://github.com/shiersa/outcrop",
+    "description": "给 tmux 里的 Claude Code 加三层可见性：状态图标、pane 目录与标题、按 provider 分派的 statusline",
+    "category": "Tmux Plugin",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "statusline-display",
+      "pane-status-icons",
+      "claude-code-integration",
+      "cost-tracking",
+      "token-counting",
+      "multi-provider-support"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-17T05:11:21Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-17T06:57:09.489Z"
+  },
+  {
+    "id": "kgowru/token-energy-cost",
+    "name": "token-energy-cost",
+    "author": "kgowru",
+    "repoURL": "https://github.com/kgowru/token-energy-cost",
+    "description": "AgentSpend — a macOS menu bar app showing what your Claude Code usage costs in dollars and estimated energy",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "token-cost-breakdown",
+      "live-energy-estimation",
+      "session-analytics",
+      "savings-recommendations",
+      "model-comparison",
+      "daily-averages",
+      "per-project-tracking"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-17T03:10:51Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-17T06:57:09.489Z"
+  },
+  {
+    "id": "Upgwades/claude-cost-statusline",
+    "name": "claude-cost-statusline",
+    "author": "Upgwades",
+    "repoURL": "https://github.com/Upgwades/claude-cost-statusline",
+    "description": "Extremely bare bones, meant as a quick dirty means to keep track of my tab and help me know when I should /compact.",
+    "category": "Claude Code Plugin",
+    "platforms": [],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "per-prompt-cost",
+      "session-cost",
+      "usd-display",
+      "statusline-badge"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-17T05:29:02Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-17T06:57:09.489Z"
+  },
+  {
+    "id": "quangyendn/UsagePaceCC",
+    "name": "UsagePaceCC",
+    "author": "quangyendn",
+    "repoURL": "https://github.com/quangyendn/UsagePaceCC",
+    "description": "UsagePaceCC — a macOS menu-bar monitor for Claude and Codex usage limits. MIT fork of f-is-h/Usage4Claude.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "real-time-monitoring",
+      "multi-limit-support",
+      "multi-account-management",
+      "codex-support",
+      "usage-notifications",
+      "smart-colors"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-17T06:07:19Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-17T06:57:09.489Z"
+  },
+  {
+    "id": "xiaochen26wyl/Usage-Pulse",
+    "name": "Usage-Pulse",
+    "author": "xiaochen26wyl",
+    "repoURL": "https://github.com/xiaochen26wyl/Usage-Pulse",
+    "description": "Cross-platform tray app to monitor Cursor and Claude quota usage with LINE alerts",
+    "category": "Electron/Desktop",
+    "platforms": [
+      "macos",
+      "windows"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "Session Key",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "cursor-quota-monitoring",
+      "claude-quota-monitoring",
+      "desktop-notifications",
+      "low-balance-alerts",
+      "quota-reset-reminders",
+      "configurable-check-interval",
+      "multi-account"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-17T06:26:46Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-17T06:57:09.489Z"
   }
 ]
