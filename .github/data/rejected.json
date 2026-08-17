@@ -778,5 +778,11 @@
     "reason": "This is a Prime Agent extension package that adds Claude compatibility features and integrations, but does not display, measure, or report Claude usage as a substantial feature—it provides compatibility layers and tooling instead.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-17T01:17:13.121Z"
+  },
+  {
+    "id": "bjulius/claude-5min-workout",
+    "reason": "This is a Claude Code plugin that installs productivity enhancements and integrations, not a usage tracker; while it bundles claude-hud for status display, the project's core purpose is teaching and setup, not measuring Claude usage.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-17T12:44:32.178Z"
   }
 ]

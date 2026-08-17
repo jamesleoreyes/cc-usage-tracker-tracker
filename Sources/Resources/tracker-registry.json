@@ -144780,5 +144780,342 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-17T06:57:09.489Z"
+  },
+  {
+    "id": "Peterboroughplumbers/claude-usage-dashboard",
+    "name": "claude-usage-dashboard",
+    "author": "Peterboroughplumbers",
+    "repoURL": "https://github.com/Peterboroughplumbers/claude-usage-dashboard",
+    "description": "Windows desktop widget showing usage of multiple Claude accounts",
+    "category": "Electron/Desktop",
+    "platforms": [
+      "windows"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "multi-account",
+      "usage-display",
+      "real-time-refresh",
+      "recommended-account",
+      "rate-limit-alerts",
+      "claude-code-integration",
+      "auto-refresh",
+      "taskbar-widget"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-17T09:57:34Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-17T12:44:54.718Z"
+  },
+  {
+    "id": "gnaneshwar456/claude-usage-widget",
+    "name": "claude-usage-widget",
+    "author": "gnaneshwar456",
+    "repoURL": "https://github.com/gnaneshwar456/claude-usage-widget",
+    "description": "Get a glipse of out Claude usage limits directly on chrome bookmarks bar. ",
+    "category": "Browser Extension",
+    "platforms": [
+      "chromium"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "usage-display",
+      "bookmarks-bar-widget",
+      "floating-window",
+      "usage-meter",
+      "5h-rolling-window",
+      "7d-cap"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-17T09:44:41Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-17T12:44:54.718Z"
+  },
+  {
+    "id": "halcyon0917/claude-limit-widget-win",
+    "name": "claude-limit-widget-win",
+    "author": "halcyon0917",
+    "repoURL": "https://github.com/halcyon0917/claude-limit-widget-win",
+    "description": "A Windows 11 taskbar widget for your Claude usage limits, with a pixel-art Clawd who gets busier as you burn through them.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "C#",
+    "authMethod": [
+      "OAuth Token",
+      "Session Key",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "usage-bars",
+      "limit-tracking",
+      "reset-countdowns",
+      "taskbar-widget",
+      "multi-window",
+      "animated-mascot"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-17T08:58:39Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-17T12:44:54.718Z"
+  },
+  {
+    "id": "S1MS4/claude-usage-pulse",
+    "name": "claude-usage-pulse",
+    "author": "S1MS4",
+    "repoURL": "https://github.com/S1MS4/claude-usage-pulse",
+    "description": "See when your Claude usage limit resets, in the VS Code status bar and Explorer. Independent, no telemetry.",
+    "category": "VS Code Extension",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "countdown-timer",
+      "reset-alerts",
+      "multi-limit-display",
+      "status-bar",
+      "explorer-panel",
+      "offline-support",
+      "rate-limit-awareness"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-17T11:59:45Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-17T12:44:54.718Z"
+  },
+  {
+    "id": "jash90/claude-reset-bar",
+    "name": "claude-reset-bar",
+    "author": "jash90",
+    "repoURL": "https://github.com/jash90/claude-reset-bar",
+    "description": "Claude usage limits in your menu bar / system tray, with a notification the moment a limit resets — macOS, Windows, Linux",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "Go",
+    "authMethod": [
+      "Browser Cookie Auto-detect",
+      "Session Key",
+      "OAuth Token"
+    ],
+    "features": [
+      "multi-account",
+      "reset-notifications",
+      "usage-gauges",
+      "rate-limit-display",
+      "per-model-caps",
+      "menu-bar",
+      "system-tray",
+      "localization"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-17T10:38:11Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-17T12:44:54.718Z"
+  },
+  {
+    "id": "b1tweiser/claude-code-lualine",
+    "name": "claude-code-lualine",
+    "author": "b1tweiser",
+    "repoURL": "https://github.com/b1tweiser/claude-code-lualine",
+    "description": "Lualine-style powerline statusline for Claude Code: rate-limit batteries, context %, session tokens and cost",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "rate-limit-display",
+      "context-percentage",
+      "session-tokens",
+      "cost-calculation",
+      "battery-meters",
+      "weekly-limits"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-17T12:34:00Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-17T12:44:54.718Z"
+  },
+  {
+    "id": "sainteye/claude-bestiary",
+    "name": "claude-bestiary",
+    "author": "sainteye",
+    "repoURL": "https://github.com/sainteye/claude-bestiary",
+    "description": "A Claude Code status line that gives every project its own pixel creature — plus git state, deploy progress, service health and token usage. Local Python, no dependencies, ~55ms per redraw.",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [],
+    "features": [
+      "token-usage-tracking",
+      "context-quota-display",
+      "multi-window-session-tracking",
+      "deploy-progress",
+      "service-health",
+      "backlog-tracking",
+      "git-state"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-17T07:53:43Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-17T12:44:54.718Z"
+  },
+  {
+    "id": "CarGod/warp-claude-state-bar",
+    "name": "warp-claude-state-bar",
+    "author": "CarGod",
+    "repoURL": "https://github.com/CarGod/warp-claude-state-bar",
+    "description": "Status line + hooks for Claude Code in the Warp terminal: live 5h/7d quota, multi-repo git summary under a parent folder, and tab status that waits for subagents to actually finish.",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "claude-quota-display",
+      "5h-7d-usage",
+      "multi-repo-git-summary",
+      "subagent-tracking",
+      "warp-terminal-integration"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-17T07:42:06Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-17T12:44:54.718Z"
+  },
+  {
+    "id": "coreline-ai/agent-quota-monitor",
+    "name": "agent-quota-monitor",
+    "author": "coreline-ai",
+    "repoURL": "https://github.com/coreline-ai/agent-quota-monitor",
+    "description": "Claude Code·Codex·Grok·Gemini·Z.ai GLM의 quota와 reset을 한곳에서 확인하는 로컬 우선 macOS 메뉴 막대 앱 | Local-first macOS menu bar app for monitoring AI coding-agent quotas and reset windows",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key",
+      "Session Key",
+      "API Key",
+      "JSONL Log Parsing",
+      "Session Key"
+    ],
+    "features": [
+      "multi-provider-quotas",
+      "reset-windows",
+      "menu-bar-app",
+      "local-first",
+      "quota-visualization",
+      "live-status-beacon",
+      "history-trends",
+      "provider-adapter"
+    ],
+    "builtWithClaude": null,
+    "stars": 1,
+    "lastCommitDate": "2026-08-17T12:25:19Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-17T12:44:54.718Z"
+  },
+  {
+    "id": "mk0bayashi/claude-code-usage-notify",
+    "name": "claude-code-usage-notify",
+    "author": "mk0bayashi",
+    "repoURL": "https://github.com/mk0bayashi/claude-code-usage-notify",
+    "description": "Claude Code のトークン使用量を毎時の macOS 通知とメニューバーに表示する / Hourly macOS notification and menu bar item for Claude Code token usage",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "menubar-display",
+      "hourly-notifications",
+      "token-accounting",
+      "cost-estimation",
+      "multi-account",
+      "cache-analysis",
+      "per-model-breakdown",
+      "launchd-integration"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-17T09:36:28Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-17T12:44:54.718Z"
+  },
+  {
+    "id": "zEhmsy/fluxa",
+    "name": "fluxa",
+    "author": "zEhmsy",
+    "repoURL": "https://github.com/zEhmsy/fluxa",
+    "description": "Essential macOS system controls one click away in your menu bar — plus live Claude & Codex quota tracking with usage charts. Swift + SwiftUI, zero dependencies.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key",
+      "JSONL Log Parsing",
+      "API Key"
+    ],
+    "features": [
+      "live-claude-quota",
+      "live-codex-quota",
+      "usage-charts",
+      "contribution-grid",
+      "menubar-display",
+      "multi-agent-tracking",
+      "system-controls"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-17T10:33:52Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-17T12:44:54.718Z"
   }
 ]
