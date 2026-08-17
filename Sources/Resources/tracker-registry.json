@@ -144367,5 +144367,102 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-16T18:30:09.466Z"
+  },
+  {
+    "id": "rylgyl/agent-tracker",
+    "name": "agent-tracker",
+    "author": "rylgyl",
+    "repoURL": "https://github.com/rylgyl/agent-tracker",
+    "description": "macOS menu bar app that tracks Claude Code and Codex usage at a glance",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "JSONL Log Parsing",
+      "Session Key"
+    ],
+    "features": [
+      "claude-code-tracking",
+      "codex-tracking",
+      "session-limits",
+      "weekly-quotas",
+      "tokens-by-day",
+      "tokens-by-model",
+      "menu-bar-display",
+      "automatic-refresh"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-17T00:08:52Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-17T01:17:16.303Z"
+  },
+  {
+    "id": "axelhamil/ccwatermelon",
+    "name": "ccwatermelon",
+    "author": "axelhamil",
+    "repoURL": "https://github.com/axelhamil/ccwatermelon",
+    "description": "A fast, configurable Claude Code statusline. Green rind while there's room left, red flesh when there isn't. Zero network on the render path.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "context-gauge",
+      "rate-limit-tracking",
+      "burn-rate-alerts",
+      "cost-display",
+      "cache-hit-rate",
+      "quota-countdown",
+      "multi-line-dashboard",
+      "config-per-project"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-16T22:47:19Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-17T01:17:16.303Z"
+  },
+  {
+    "id": "KeganHollern/waybar-ai-usage",
+    "name": "waybar-ai-usage",
+    "author": "KeganHollern",
+    "repoURL": "https://github.com/KeganHollern/waybar-ai-usage",
+    "description": "Waybar modules showing remaining weekly quota for your AI coding subscriptions (Codex, Claude, Grok, Gemini, Z.AI)",
+    "category": "Waybar Module",
+    "platforms": [
+      "linux"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "API Key",
+      "OAuth Token",
+      "Session Cookie"
+    ],
+    "features": [
+      "multi-provider",
+      "quota-display",
+      "gradient-coloring",
+      "tooltip-limits",
+      "cache-system",
+      "reset-time"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-17T00:37:09Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-17T01:17:16.303Z"
   }
 ]

@@ -766,5 +766,17 @@
     "reason": "This is a model-switcher utility for Claude Code, not a usage tracker—it controls which model runs in active sessions but does not display, measure, or report Claude token usage, costs, rate limits, or consumption metrics.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-16T12:39:52.727Z"
+  },
+  {
+    "id": "MadsLangkilde/remote-claude",
+    "reason": "This is a remote control interface for Claude Code with voice capability, not a usage tracker; it does not display, measure, or report Claude API usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-17T01:17:10.208Z"
+  },
+  {
+    "id": "coseto6125/eywa-plugin",
+    "reason": "This is a Prime Agent extension package that adds Claude compatibility features and integrations, but does not display, measure, or report Claude usage as a substantial feature—it provides compatibility layers and tooling instead.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-17T01:17:13.121Z"
   }
 ]
