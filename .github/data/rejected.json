@@ -784,5 +784,11 @@
     "reason": "This is a Claude Code plugin that installs productivity enhancements and integrations, not a usage tracker; while it bundles claude-hud for status display, the project's core purpose is teaching and setup, not measuring Claude usage.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-17T12:44:32.178Z"
+  },
+  {
+    "id": "rowansail/lanes",
+    "reason": "Lanes is an account switcher/manager for Claude Code with no usage measurement or reporting—it tracks which account is active but not Claude usage metrics, tokens, costs, or sessions.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-18T01:14:55.253Z"
   }
 ]

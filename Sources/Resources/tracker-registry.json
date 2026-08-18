@@ -145330,5 +145330,293 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-17T18:40:49.360Z"
+  },
+  {
+    "id": "gaborvidovics76/ClaudeUsageMonitor",
+    "name": "ClaudeUsageMonitor",
+    "author": "gaborvidovics76",
+    "repoURL": "https://github.com/gaborvidovics76/ClaudeUsageMonitor",
+    "description": "Always-on-top desktop panel for Windows 11 showing your Claude subscription usage live - 5-hour window and weekly limit, burn rate, and end-of-week projection. Works offline from the local log, or signs in to claude.ai for all devices. 12 languages.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "OAuth Token"
+    ],
+    "features": [
+      "5-hour-window-tracking",
+      "weekly-quota-tracking",
+      "burn-rate-alerts",
+      "pace-warnings",
+      "end-of-week-projection",
+      "multi-device-sync",
+      "history-charts",
+      "12-language-support"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-17T22:09:33Z",
+    "openIssues": 3,
+    "archived": false,
+    "lastFetched": "2026-08-18T01:14:59.384Z"
+  },
+  {
+    "id": "adamstambouli/raycast-claude-usage",
+    "name": "raycast-claude-usage",
+    "author": "adamstambouli",
+    "repoURL": "https://github.com/adamstambouli/raycast-claude-usage",
+    "description": "macOS Raycast menu-bar extension for claude.ai rate-limit windows, credit spend, and a monthly pace bar",
+    "category": "Raycast Extension",
+    "platforms": [
+      "macos"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "Browser Cookie Auto-detect",
+      "Session Key"
+    ],
+    "features": [
+      "rate-limit-windows",
+      "credit-spend",
+      "pace-bar",
+      "monthly-projection",
+      "working-day-pacing",
+      "menu-bar-display",
+      "refresh-on-demand",
+      "keychain-secure"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-17T21:25:27Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-18T01:14:59.384Z"
+  },
+  {
+    "id": "kalaylienes/fluxdock",
+    "name": "fluxdock",
+    "author": "kalaylienes",
+    "repoURL": "https://github.com/kalaylienes/fluxdock",
+    "description": "Windows widget for monitoring Claude Code and Codex CLI usage. Floating above the taskbar or pinned into it, with both the five hour and weekly limit windows.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "OAuth Token",
+      "Traffic Capture",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "multi-account",
+      "burn-rate-alerts",
+      "rate-limit-windows",
+      "token-breakdown",
+      "polling-endpoint",
+      "local-transcripts"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-17T22:13:56Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-18T01:14:59.384Z"
+  },
+  {
+    "id": "kristijankopacevic/vscode-agentswitch",
+    "name": "vscode-agentswitch",
+    "author": "kristijankopacevic",
+    "repoURL": "https://github.com/kristijankopacevic/vscode-agentswitch",
+    "description": "Switch accounts for Codex and Claude Code (extension + CLI) and track usage, cost, and rate limits",
+    "category": "VS Code Extension",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "Session Key",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "account-switching",
+      "usage-tracking",
+      "cost-estimation",
+      "rate-limit-windows",
+      "per-project-breakdown",
+      "multi-provider"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-17T18:48:26Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-18T01:14:59.384Z"
+  },
+  {
+    "id": "Belkins/belkins-usage-bar",
+    "name": "belkins-usage-bar",
+    "author": "Belkins",
+    "repoURL": "https://github.com/Belkins/belkins-usage-bar",
+    "description": "macOS menu bar widget: live quota bars and notional cost for Claude Code and Codex, computed locally.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "API Key"
+    ],
+    "features": [
+      "quota-bars",
+      "cost-tracking",
+      "multi-account",
+      "auto-switch",
+      "reset-timers",
+      "burn-rate-alerts",
+      "local-parsing",
+      "no-telemetry"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-17T22:58:59Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-18T01:14:59.384Z"
+  },
+  {
+    "id": "strayer/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "strayer",
+    "repoURL": "https://github.com/strayer/claude-code-statusline",
+    "description": "Fast, dependency-free Go statusline for Claude Code — context usage, git status, rate limits, and session metrics",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Go",
+    "authMethod": [
+      "Session Key",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "context-usage",
+      "rate-limits",
+      "session-metrics",
+      "git-status",
+      "fast-mode",
+      "cost-tracking",
+      "quota-display",
+      "reasoning-effort"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-17T23:06:59Z",
+    "openIssues": 1,
+    "archived": false,
+    "lastFetched": "2026-08-18T01:14:59.384Z"
+  },
+  {
+    "id": "dobrdigital/CLAUDE-STATBAR",
+    "name": "CLAUDE-STATBAR",
+    "author": "dobrdigital",
+    "repoURL": "https://github.com/dobrdigital/CLAUDE-STATBAR",
+    "description": "Statusline for Claude Code that shows your real OpenRouter spend — discounted price, live balance, daily usage, honest context. Built at REAILISM.DEV",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "live-balance",
+      "daily-spend",
+      "real-pricing",
+      "token-audit",
+      "cache-tracking",
+      "context-limits",
+      "multi-model"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-08-17T22:25:24Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-18T01:14:59.384Z"
+  },
+  {
+    "id": "SACRVM/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "SACRVM",
+    "repoURL": "https://github.com/SACRVM/claude-code-statusline",
+    "description": "A Claude Code status line with real Anthropic usage % (5h + 7d), context bar, git branch, model. Catppuccin Mocha, no jq dependency.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "OAuth Token",
+      "Session Cookie"
+    ],
+    "features": [
+      "real-anthropic-usage",
+      "5h-7d-limits",
+      "context-window-bar",
+      "reset-countdown",
+      "catppuccin-mocha",
+      "git-integration"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-17T20:18:43Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-18T01:14:59.384Z"
+  },
+  {
+    "id": "JewhurstEngineering/ai-meter",
+    "name": "ai-meter",
+    "author": "JewhurstEngineering",
+    "repoURL": "https://github.com/JewhurstEngineering/ai-meter",
+    "description": "A local-first usage meter for Cursor, Claude Code, and Codex. Glance at included pools, rolling windows, spend, and on-demand without opening each dashboard.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos",
+      "ios"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key",
+      "Session Key",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "multi-account",
+      "menu-bar-display",
+      "rolling-windows",
+      "spend-tracking",
+      "included-pools",
+      "ios-widgets",
+      "apple-watch-complication"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-18T01:11:25Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-18T01:14:59.384Z"
   }
 ]
