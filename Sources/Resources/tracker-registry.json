@@ -145821,5 +145821,181 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-18T06:44:09.207Z"
+  },
+  {
+    "id": "yohaku-lab/claude-usage-menubar",
+    "name": "claude-usage-menubar",
+    "author": "yohaku-lab",
+    "repoURL": "https://github.com/yohaku-lab/claude-usage-menubar",
+    "description": "Show Claude Code usage in your macOS menu bar via the official Messages API rate-limit headers (no browser cookies needed)",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "5h-session-quota",
+      "7d-weekly-quota",
+      "rate-limit-headers",
+      "menubar-display",
+      "keychain-storage",
+      "minimal-overhead"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-18T12:10:27Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-18T12:47:09.720Z"
+  },
+  {
+    "id": "jlueschow/claude-token-tracker",
+    "name": "claude-token-tracker",
+    "author": "jlueschow",
+    "repoURL": "https://github.com/jlueschow/claude-token-tracker",
+    "description": "macOS menu bar app for tracking local Claude Code / Claudian token usage and quota",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Session Cookie"
+    ],
+    "features": [
+      "menu-bar-display",
+      "quota-tracking",
+      "token-usage-history",
+      "html-reports",
+      "cost-calculator",
+      "usage-charts",
+      "daily-weekly-monthly-aggregation",
+      "autostart"
+    ],
+    "builtWithClaude": null,
+    "stars": 1,
+    "lastCommitDate": "2026-08-18T12:32:15Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-18T12:47:09.720Z"
+  },
+  {
+    "id": "fuadnafiz98/claude-statusline",
+    "name": "claude-statusline",
+    "author": "fuadnafiz98",
+    "repoURL": "https://github.com/fuadnafiz98/claude-statusline",
+    "description": "Accurate, fast status line for Claude Code: real context-window usage, rate limits, ~12ms renders.",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Unknown",
+    "authMethod": [],
+    "features": [
+      "context-window-tracking",
+      "rate-limit-display",
+      "visual-threshold-alerts",
+      "low-latency-rendering",
+      "nerd-font-glyphs",
+      "week-limit-tracking",
+      "session-reset-countdown"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-18T12:45:00Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-18T12:47:09.720Z"
+  },
+  {
+    "id": "Akeem92/cc-statusline",
+    "name": "cc-statusline",
+    "author": "Akeem92",
+    "repoURL": "https://github.com/Akeem92/cc-statusline",
+    "description": "Project for show claude code consommation directly on line&",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "context-usage-display",
+      "rate-limit-countdown",
+      "cost-tracking",
+      "model-info",
+      "effort-level",
+      "token-cache-visibility",
+      "responsive-narrow-terminals",
+      "git-integration"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-18T11:20:54Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-18T12:47:09.720Z"
+  },
+  {
+    "id": "Hsing24/claude-statusline",
+    "name": "claude-statusline",
+    "author": "Hsing24",
+    "repoURL": "https://github.com/Hsing24/claude-statusline",
+    "description": "純 bash 的 Claude Code statusline，三行顯示工作環境、token 用量與額度（powerline / truecolor / Nerd Font）",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Browser Cookie Auto-detect",
+      "OAuth Token"
+    ],
+    "features": [
+      "token-usage-display",
+      "context-tracking",
+      "rate-limit-quotas",
+      "cost-calculation",
+      "progress-bars",
+      "fable-quota"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-18T11:01:59Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-18T12:47:09.720Z"
+  },
+  {
+    "id": "ZununN/claude-code-dual-progress",
+    "name": "claude-code-dual-progress",
+    "author": "ZununN",
+    "repoURL": "https://github.com/ZununN/claude-code-dual-progress",
+    "description": "Two-line status line for Claude Code: a context-window bar and a live task-progress bar with ETA, driven by TodoWrite.",
+    "category": "Claude Code Plugin",
+    "platforms": [],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "context-window-display",
+      "progress-tracking",
+      "eta-estimation",
+      "task-monitoring",
+      "session-aware"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-18T12:04:38Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-18T12:47:09.721Z"
   }
 ]
