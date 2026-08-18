@@ -796,5 +796,23 @@
     "reason": "This is a statusline engine for Claude Code that displays session metadata (context, cost, quota) but is itself a plugin/tool rather than a usage tracker—it renders whatever Claude Code sends, not a tracker collecting and analyzing usage data.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-18T06:43:59.233Z"
+  },
+  {
+    "id": "Valentino-Moreno/claude-code-pace-guard",
+    "reason": "Loomina is a writing pace and productivity tracker for macOS that monitors local typing activity, not Claude API usage; despite repository name mentioning 'Claude Code Usage Tracker', the README describes only keystroke/writing metrics with no mention of Claude tokens, costs, or API consumption.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-18T18:39:24.864Z"
+  },
+  {
+    "id": "ogamaniuk/statusline-beep",
+    "reason": "This is a Claude Code plugin that plays notification beeps for session events, not a usage tracker—it lacks any display, measurement, or reporting of Claude tokens, costs, or usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-18T18:39:30.172Z"
+  },
+  {
+    "id": "neurocod/llm-loop",
+    "reason": "llm-loop is an orchestrator and work-queue runner for unattended Claude/Codex execution with no usage tracking or measurement display as a core feature; it manages quota awareness reactively but does not display or report usage metrics or costs.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-18T18:39:35.416Z"
   }
 ]

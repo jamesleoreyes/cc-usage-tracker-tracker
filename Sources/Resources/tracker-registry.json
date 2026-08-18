@@ -145999,5 +145999,429 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-18T12:47:09.721Z"
+  },
+  {
+    "id": "d-esposito/claude-usage-tracker",
+    "name": "claude-usage-tracker",
+    "author": "d-esposito",
+    "repoURL": "https://github.com/d-esposito/claude-usage-tracker",
+    "description": "A certificate-free native macOS desktop tile for Claude usage limits",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "Session Cookie"
+    ],
+    "features": [
+      "session-limits",
+      "weekly-limits",
+      "model-specific-limits",
+      "auto-refresh",
+      "drag-to-position",
+      "launch-at-login"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-18T16:24:21Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-18T18:39:56.239Z"
+  },
+  {
+    "id": "mkbros/claude-quest-companion",
+    "name": "claude-quest-companion",
+    "author": "mkbros",
+    "repoURL": "https://github.com/mkbros/claude-quest-companion",
+    "description": "Claude Usage Pal Desktop 2026: Real-Time AI Limit Monitor & Productivity Companion",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "language": "HTML",
+    "authMethod": [
+      "API Key",
+      "Traffic Capture",
+      "API Key"
+    ],
+    "features": [
+      "real-time-monitoring",
+      "rate-limit-alerts",
+      "predictive-limits",
+      "cost-projection",
+      "request-forensics",
+      "multi-biome-themes",
+      "dark-mode"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-18T18:25:10Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-18T18:39:56.239Z"
+  },
+  {
+    "id": "codeXbkX/Claude-Usage-Bar",
+    "name": "Claude-Usage-Bar",
+    "author": "codeXbkX",
+    "repoURL": "https://github.com/codeXbkX/Claude-Usage-Bar",
+    "description": "Browser extension that shows token count, cache timer, and native session/weekly usage bars on claude.ai.",
+    "category": "Browser Extension",
+    "platforms": [
+      "chromium",
+      "firefox",
+      "web"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "token-count",
+      "cache-timer",
+      "session-usage-bar",
+      "weekly-usage-bar",
+      "context-progress",
+      "unrounded-utilization"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-18T13:11:42Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-18T18:39:56.239Z"
+  },
+  {
+    "id": "NotGamerBlade1/usage-telemetry-watchtower",
+    "name": "usage-telemetry-watchtower",
+    "author": "NotGamerBlade1",
+    "repoURL": "https://github.com/NotGamerBlade1/usage-telemetry-watchtower",
+    "description": "Claude Code Cost Monitor 2026: Track Spend, Context, and Quota Limits",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "HTML",
+    "authMethod": [],
+    "features": [
+      "session-spend-tracking",
+      "context-window-visualization",
+      "rolling-quota-alerts",
+      "hybrid-billing-support",
+      "token-velocity-monitoring",
+      "zero-dependency",
+      "single-file-implementation"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-18T18:31:13Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-18T18:39:56.239Z"
+  },
+  {
+    "id": "SwagatSD03/rate-sentry",
+    "name": "rate-sentry",
+    "author": "SwagatSD03",
+    "repoURL": "https://github.com/SwagatSD03/rate-sentry",
+    "description": "Rate Tray 2026: Claude Code & Codex Token Usage Monitor for Windows Desktop",
+    "category": "Statusline",
+    "platforms": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "language": "HTML",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "claude-code-monitoring",
+      "codex-monitoring",
+      "burn-rate-forecasting",
+      "multi-agent-aggregation",
+      "historical-savings-ledger",
+      "color-coded-alerts",
+      "local-processing"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-18T18:31:06Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-18T18:39:56.239Z"
+  },
+  {
+    "id": "bagrjagr/claude-code-ambient-gauge",
+    "name": "claude-code-ambient-gauge",
+    "author": "bagrjagr",
+    "repoURL": "https://github.com/bagrjagr/claude-code-ambient-gauge",
+    "description": "Claude Code Token Tracker 2026: Real-Time Usage Monitor Widget for Windows Desktop",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "HTML",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "ambient-orb",
+      "real-time-monitoring",
+      "usage-alerts",
+      "historical-drift",
+      "multilingual",
+      "zero-telemetry",
+      "low-footprint",
+      "plugin-hooks"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-18T18:23:56Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-18T18:39:56.239Z"
+  },
+  {
+    "id": "ShashankKarpal/claude-tokens",
+    "name": "claude-tokens",
+    "author": "ShashankKarpal",
+    "repoURL": "https://github.com/ShashankKarpal/claude-tokens",
+    "description": "Übersicht widget showing daily Claude Code token usage with input/output/cache breakdown and approximate API-equivalent cost.",
+    "category": "Übersicht Widget",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "token-breakdown",
+      "cache-metrics",
+      "cost-equivalent",
+      "refresh-configurable",
+      "no-auth-required"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-18T15:21:03Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-18T18:39:56.239Z"
+  },
+  {
+    "id": "virajp/claude-status",
+    "name": "claude-status",
+    "author": "virajp",
+    "repoURL": "https://github.com/virajp/claude-status",
+    "description": "Statusline for Claude Code",
+    "category": "Statusline",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Unknown",
+    "authMethod": [],
+    "features": [
+      "claude-code-integration"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-18T13:44:49Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-18T18:39:56.239Z"
+  },
+  {
+    "id": "JBGfr/claude-watchdog",
+    "name": "claude-watchdog",
+    "author": "JBGfr",
+    "repoURL": "https://github.com/JBGfr/claude-watchdog",
+    "description": "Supervisor daemon for Claude Code sessions: detects why work stopped (usage limit, rate limit, network, crash, context limit) and resumes what it may resume. No tmux, no keystroke injection, Python stdlib only.",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "linux"
+    ],
+    "language": "Unknown",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "API Key"
+    ],
+    "features": [
+      "session-monitoring",
+      "rate-limit-detection",
+      "usage-limit-detection",
+      "context-limit-detection",
+      "auto-resume",
+      "crash-recovery"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-18T18:37:10Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-18T18:39:56.239Z"
+  },
+  {
+    "id": "austinatividad/tacho",
+    "name": "tacho",
+    "author": "austinatividad",
+    "repoURL": "https://github.com/austinatividad/tacho",
+    "description": "Native macOS desktop widget and Notch HUD for Claude Code, Antigravity, and Codex CLI rate limits.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "claude-code-quotas",
+      "session-monitoring",
+      "notch-hud",
+      "dynamic-island",
+      "4-layout-modes",
+      "multi-provider"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-18T16:02:53Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-18T18:39:56.239Z"
+  },
+  {
+    "id": "samirpokharel/omarchy-claude-sessions",
+    "name": "omarchy-claude-sessions",
+    "author": "samirpokharel",
+    "repoURL": "https://github.com/samirpokharel/omarchy-claude-sessions",
+    "description": "Every running Claude Code session in one Omarchy bar readout: which are working, which are waiting on you, and the rate limits behind them.",
+    "category": "Übersicht Widget",
+    "platforms": [
+      "linux"
+    ],
+    "language": "QML",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "session-monitoring",
+      "rate-limit-display",
+      "context-usage",
+      "multi-account",
+      "token-counts",
+      "status-visual"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-18T13:25:50Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-18T18:39:56.239Z"
+  },
+  {
+    "id": "muemadennis/claude-code-command-center",
+    "name": "claude-code-command-center",
+    "author": "muemadennis",
+    "repoURL": "https://github.com/muemadennis/claude-code-command-center",
+    "description": "Claude Code Live Dashboard 2026: Track Costs, Tokens & Git Branch Status",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "HTML",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "real-time-cost-tracking",
+      "token-monitoring",
+      "rate-limit-alerts",
+      "context-window-utilization",
+      "git-branch-awareness",
+      "session-duration",
+      "live-usage-events"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-18T18:22:46Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-18T18:39:56.239Z"
+  },
+  {
+    "id": "Fie345/orbital-usage-gauges",
+    "name": "orbital-usage-gauges",
+    "author": "Fie345",
+    "repoURL": "https://github.com/Fie345/orbital-usage-gauges",
+    "description": "macOS AI Coding Usage Meter 2026: Track Claude, Codex & Antigravity with Live Liquid Gauges",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "HTML",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "liquid-gauges",
+      "multi-agent",
+      "real-time-metrics",
+      "menubar",
+      "token-tracking",
+      "gpu-accelerated",
+      "predictive-forecasting",
+      "rate-limit-monitoring"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-18T18:30:14Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-18T18:39:56.239Z"
+  },
+  {
+    "id": "arundidauli/infinity-token-tracker",
+    "name": "infinity-token-tracker",
+    "author": "arundidauli",
+    "repoURL": "https://github.com/arundidauli/infinity-token-tracker",
+    "description": "Local-first analytics tool to track AI coding spend and token costs across Claude Code, Cursor, Copilot, Gemini & 36+ tools.",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux",
+      "web"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "multi-provider-tracking",
+      "token-cost-analytics",
+      "local-first",
+      "cli-tui",
+      "web-dashboard",
+      "desktop-app",
+      "context-optimization",
+      "budget-audits"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-18T15:49:48Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-18T18:39:56.239Z"
   }
 ]
