@@ -145619,5 +145619,207 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-18T01:14:59.384Z"
+  },
+  {
+    "id": "synok522-del/AIUsageBar",
+    "name": "AIUsageBar",
+    "author": "synok522-del",
+    "repoURL": "https://github.com/synok522-del/AIUsageBar",
+    "description": "A beautiful macOS menu bar app to monitor ChatGPT and Claude usage in real time.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "real-time-usage-monitoring",
+      "multi-provider-support",
+      "menu-bar-display",
+      "quota-tracking",
+      "low-usage-alerts",
+      "keychain-storage"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-18T06:00:33Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-18T06:44:09.207Z"
+  },
+  {
+    "id": "littleji/claude-usage-monitor",
+    "name": "claude-usage-monitor",
+    "author": "littleji",
+    "repoURL": "https://github.com/littleji/claude-usage-monitor",
+    "description": "another claude-usage-monitor for traffic monitor as TrafficMonitor plugin",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "C++",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "five-hour-usage",
+      "seven-day-usage",
+      "quota-percentage",
+      "reset-countdown",
+      "color-thresholds",
+      "progress-bar",
+      "tooltip-details"
+    ],
+    "builtWithClaude": null,
+    "stars": 1,
+    "lastCommitDate": "2026-08-18T04:22:45Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-18T06:44:09.207Z"
+  },
+  {
+    "id": "klyhyeon/claude-usage-mini",
+    "name": "claude-usage-mini",
+    "author": "klyhyeon",
+    "repoURL": "https://github.com/klyhyeon/claude-usage-mini",
+    "description": "Minimal macOS menu bar app for Claude AI usage limits — SwiftUI, no Xcode required",
+    "category": "macOS Native",
+    "platforms": [
+      "macos",
+      "windows"
+    ],
+    "language": "C#",
+    "authMethod": [
+      "Session Cookie",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "real-time-usage",
+      "session-limits",
+      "weekly-limits",
+      "per-model-fable",
+      "statusline-integration",
+      "launch-at-login",
+      "privacy-first"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-18T05:40:33Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-18T06:44:09.207Z"
+  },
+  {
+    "id": "kristijankopacevic/optiflow-mcp",
+    "name": "optiflow-mcp",
+    "author": "kristijankopacevic",
+    "repoURL": "https://github.com/kristijankopacevic/optiflow-mcp",
+    "description": "Orchestration layer combining token-optimizer-mcp and headroom under one Claude Code plugin, plus chop-style Bash interception, transcript analytics, a statusline context meter, session-handoff checkpoints, and TOON conversion.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "JavaScript",
+    "authMethod": [],
+    "features": [
+      "token-optimization",
+      "transcript-analytics",
+      "statusline-meter",
+      "session-handoff",
+      "payload-compression"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-18T05:06:19Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-18T06:44:09.207Z"
+  },
+  {
+    "id": "dev-2nan/dapperline",
+    "name": "dapperline",
+    "author": "dev-2nan",
+    "repoURL": "https://github.com/dev-2nan/dapperline",
+    "description": "A posh-git style status line for Claude Code, with context window and rate-limit usage.",
+    "category": "Claude Code Plugin",
+    "platforms": [],
+    "language": "JavaScript",
+    "authMethod": [],
+    "features": [
+      "context-window-display",
+      "rate-limit-monitoring",
+      "quota-tracking",
+      "git-status",
+      "multi-quota-rows",
+      "color-blind-friendly",
+      "real-time-updates"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-08-18T06:15:55Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-18T06:44:09.207Z"
+  },
+  {
+    "id": "sh4r11f/tokenmeter",
+    "name": "tokenmeter",
+    "author": "sh4r11f",
+    "repoURL": "https://github.com/sh4r11f/tokenmeter",
+    "description": "Menu bar app showing Claude Code rate-limit usage",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Traffic Capture"
+    ],
+    "features": [
+      "menu-bar-app",
+      "claude-code-rate-limits",
+      "five-hour-window",
+      "seven-day-window",
+      "json-hook",
+      "local-only"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-18T02:43:18Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-18T06:44:09.207Z"
+  },
+  {
+    "id": "baldwinsung/SimpleClaudeMenuBar",
+    "name": "SimpleClaudeMenuBar",
+    "author": "baldwinsung",
+    "repoURL": "https://github.com/baldwinsung/SimpleClaudeMenuBar",
+    "description": "A tiny macOS menu bar app that shows your current Claude Code session usage and when it resets.",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Traffic Capture"
+    ],
+    "features": [
+      "session-usage-tracking",
+      "weekly-usage-gauge",
+      "reset-countdown",
+      "colored-usage-alerts",
+      "configurable-refresh",
+      "launch-at-login"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-18T02:17:22Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-18T06:44:09.207Z"
   }
 ]

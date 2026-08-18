@@ -790,5 +790,11 @@
     "reason": "Lanes is an account switcher/manager for Claude Code with no usage measurement or reporting—it tracks which account is active but not Claude usage metrics, tokens, costs, or sessions.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-18T01:14:55.253Z"
+  },
+  {
+    "id": "williamzujkowski/statuslines",
+    "reason": "This is a statusline engine for Claude Code that displays session metadata (context, cost, quota) but is itself a plugin/tool rather than a usage tracker—it renders whatever Claude Code sends, not a tracker collecting and analyzing usage data.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-18T06:43:59.233Z"
   }
 ]
