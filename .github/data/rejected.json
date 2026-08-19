@@ -820,5 +820,17 @@
     "reason": "This is a statusline renderer for coding agents (Claude Code and pi) that displays agent state, not a Claude usage tracker—it does not measure, display, or report Claude tokens, costs, rate limits, or usage metrics.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-19T01:16:07.473Z"
+  },
+  {
+    "id": "MagicLex/languageme",
+    "reason": "This is a Claude Code productivity/learning tool that monitors language-immersion ratios in Claude replies, but does not track Claude usage metrics (tokens, costs, rate limits, quotas, or sessions) as a substantial feature.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-08-19T12:48:09.320Z"
+  },
+  {
+    "id": "faborsky/meta-ads-app",
+    "reason": "This is a Meta Ads management CLI tool built for orchestration by Claude Code agents, not a Claude usage tracker; it does not display or measure Claude/Claude Code metrics as a feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-19T12:48:22.411Z"
   }
 ]
