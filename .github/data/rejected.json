@@ -814,5 +814,11 @@
     "reason": "llm-loop is an orchestrator and work-queue runner for unattended Claude/Codex execution with no usage tracking or measurement display as a core feature; it manages quota awareness reactively but does not display or report usage metrics or costs.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-18T18:39:35.416Z"
+  },
+  {
+    "id": "joegoldin/agent-statusline",
+    "reason": "This is a statusline renderer for coding agents (Claude Code and pi) that displays agent state, not a Claude usage tracker—it does not measure, display, or report Claude tokens, costs, rate limits, or usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-19T01:16:07.473Z"
   }
 ]

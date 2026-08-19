@@ -146427,5 +146427,282 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-18T18:39:56.239Z"
+  },
+  {
+    "id": "ClawClawOne/ClaudeTray",
+    "name": "ClaudeTray",
+    "author": "ClawClawOne",
+    "repoURL": "https://github.com/ClawClawOne/ClaudeTray",
+    "description": "Your Claude usage in the macOS menu bar — 5-hour, weekly and per-model quotas. Native SwiftUI, zero dependencies.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key",
+      "OAuth Token"
+    ],
+    "features": [
+      "quota-progress-bars",
+      "5-hour-window",
+      "weekly-window",
+      "per-model-quotas",
+      "color-alerts",
+      "menubar-display",
+      "notifications"
+    ],
+    "builtWithClaude": null,
+    "stars": 1,
+    "lastCommitDate": "2026-08-18T22:15:34Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-19T01:16:25.944Z"
+  },
+  {
+    "id": "chuchy4ever/AIPulse",
+    "name": "AIPulse",
+    "author": "chuchy4ever",
+    "repoURL": "https://github.com/chuchy4ever/AIPulse",
+    "description": "macOS menu bar app for tracking AI coding agent usage — Claude Code and Codex quotas, token history and service status, all from local data.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "real-time-usage-tracking",
+      "quota-alerts",
+      "usage-patterns-graphs",
+      "service-status",
+      "multi-language",
+      "configurable-refresh"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-18T22:28:17Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-19T01:16:25.944Z"
+  },
+  {
+    "id": "Luzivog/tokscope",
+    "name": "tokscope",
+    "author": "Luzivog",
+    "repoURL": "https://github.com/Luzivog/tokscope",
+    "description": "Local-first Linux desktop app for tracking Claude Code and Codex usage limits, token usage, estimated costs, and models.",
+    "category": "macOS Native",
+    "platforms": [
+      "linux"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "token-usage-tracking",
+      "cost-estimation",
+      "usage-limits",
+      "models",
+      "local-first",
+      "usage-trends"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-18T21:45:06Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-19T01:16:25.944Z"
+  },
+  {
+    "id": "jimjkelly/claude-statusline",
+    "name": "claude-statusline",
+    "author": "jimjkelly",
+    "repoURL": "https://github.com/jimjkelly/claude-statusline",
+    "description": "Claude Code statusline showing session and weekly rate-limit usage",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "session-rate-limit",
+      "weekly-rate-limit",
+      "context-window",
+      "pace-tracking",
+      "cost-display",
+      "color-coded-alerts"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-18T23:48:53Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-19T01:16:25.944Z"
+  },
+  {
+    "id": "OFCode-dev/agentline",
+    "name": "agentline",
+    "author": "OFCode-dev",
+    "repoURL": "https://github.com/OFCode-dev/agentline",
+    "description": "Zero-dependency Claude Code statusline: cost, context %, rate limits, git branch, MCP servers, system health.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "session-cost",
+      "context-window",
+      "rate-limits",
+      "git-branch",
+      "mcp-servers",
+      "system-health",
+      "word-counter",
+      "agent-tracker"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-18T23:27:11Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-19T01:16:25.944Z"
+  },
+  {
+    "id": "Instafill/statusline",
+    "name": "statusline",
+    "author": "Instafill",
+    "repoURL": "https://github.com/Instafill/statusline",
+    "description": "Turn your Claude Code sessions into a record of the professional work you actually did — local-first, no file contents, no tool output.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "macos",
+      "windows"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "session-tracking",
+      "semantic-classification",
+      "team-mode",
+      "egress-logging",
+      "local-first",
+      "claude-code-hooks"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-18T20:32:37Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-19T01:16:25.944Z"
+  },
+  {
+    "id": "mklapper/claude-statusline",
+    "name": "claude-statusline",
+    "author": "mklapper",
+    "repoURL": "https://github.com/mklapper/claude-statusline",
+    "description": "A two-line status line for Claude Code: model, effort, permission mode, detailed git state, context and usage. Bash + jq, all local.",
+    "category": "Statusline",
+    "platforms": [
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "context-window-display",
+      "rate-limit-tracking",
+      "usage-percentage",
+      "reset-countdown",
+      "git-integration",
+      "permission-mode",
+      "model-display"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-18T04:34:52Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-19T01:16:25.944Z"
+  },
+  {
+    "id": "Ulpio/ClaudeTokenCounter",
+    "name": "ClaudeTokenCounter",
+    "author": "Ulpio",
+    "repoURL": "https://github.com/Ulpio/ClaudeTokenCounter",
+    "description": "App de menu bar para macOS que mostra o consumo do seu plano Claude Code ao vivo — e sempre diz de onde o número veio.",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "live-usage-display",
+      "rate-limit-windows",
+      "weekly-breakdown",
+      "api-equivalent-pricing",
+      "plan-roi-calculation",
+      "multi-source-fallback",
+      "timestamp-transparency",
+      "local-privacy"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-18T22:22:49Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-19T01:16:25.944Z"
+  },
+  {
+    "id": "danilych/cosmic-applet-claude-usage",
+    "name": "cosmic-applet-claude-usage",
+    "author": "danilych",
+    "repoURL": "https://github.com/danilych/cosmic-applet-claude-usage",
+    "description": "Applet for Linux with Cosmic GUI for expand claude usage display",
+    "category": "Waybar Module",
+    "platforms": [
+      "linux"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "OAuth Token",
+      "Session Key",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "session-limits",
+      "token-counting",
+      "cost-estimation",
+      "real-time-meters",
+      "multi-day-history",
+      "local-transcript-parsing",
+      "cosmic-panel-applet"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-18T22:17:01Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-19T01:16:25.944Z"
   }
 ]
