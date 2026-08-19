@@ -146704,5 +146704,194 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-19T01:16:25.944Z"
+  },
+  {
+    "id": "gklab/ClaudeBar",
+    "name": "ClaudeBar",
+    "author": "gklab",
+    "repoURL": "https://github.com/gklab/ClaudeBar",
+    "description": "macOS menu bar app for monitoring Claude Code usage, rate limits, and costs",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "Session Cookie",
+      "JSONL Log Parsing",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "real-time-monitoring",
+      "rate-limit-windows",
+      "token-breakdown",
+      "cost-tracking",
+      "multi-model-support",
+      "daily-history",
+      "offline-estimation",
+      "disk-cache"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-19T06:08:02Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-19T06:44:28.359Z"
+  },
+  {
+    "id": "wuruoye/TokenBar",
+    "name": "TokenBar",
+    "author": "wuruoye",
+    "repoURL": "https://github.com/wuruoye/TokenBar",
+    "description": "Native macOS menu bar app for monitoring Codex, Claude Code, and Grok Build quotas, token usage, costs, sessions, and privacy-redacted multi-device activity.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Browser Cookie Auto-detect",
+      "Traffic Capture",
+      "Session Key"
+    ],
+    "features": [
+      "multi-provider",
+      "quota-tracking",
+      "token-cost",
+      "session-history",
+      "activity-drilldown",
+      "device-sync",
+      "fast-mode-badges",
+      "multi-model"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-19T03:12:43Z",
+    "openIssues": 1,
+    "archived": false,
+    "lastFetched": "2026-08-19T06:44:28.360Z"
+  },
+  {
+    "id": "frodo4fingers/claude-code-governor",
+    "name": "claude-code-governor",
+    "author": "frodo4fingers",
+    "repoURL": "https://github.com/frodo4fingers/claude-code-governor",
+    "description": "before running once again in your token limit, either show it blank or set a limit for yourself. this plugin sits right in the status line.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "rate-limit-display",
+      "usage-cap-enforcement",
+      "token-counter",
+      "window-reset-timer",
+      "auto-stop-at-cap",
+      "shared-account-guard"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-19T06:38:43Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-19T06:44:28.360Z"
+  },
+  {
+    "id": "kgowru/agent-spend",
+    "name": "agent-spend",
+    "author": "kgowru",
+    "repoURL": "https://github.com/kgowru/agent-spend",
+    "description": "AgentSpend — a macOS menu bar app showing what your Claude Code usage costs in dollars and estimated energy",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Traffic Capture"
+    ],
+    "features": [
+      "cost-tracking",
+      "energy-estimation",
+      "local-logs",
+      "menu-bar-display",
+      "session-analytics",
+      "daily-breakdown"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-19T04:56:12Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-19T06:44:28.360Z"
+  },
+  {
+    "id": "Houdz94/token-coach-desktop",
+    "name": "token-coach-desktop",
+    "author": "Houdz94",
+    "repoURL": "https://github.com/Houdz94/token-coach-desktop",
+    "description": "Menu bar app for token-coach: a colored dot for whether your Claude Code / Codex sessions are wasting tokens, with a live card showing exactly what to do about it.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "token-waste-detection",
+      "session-analysis",
+      "status-indicator",
+      "detailed-findings",
+      "session-archival",
+      "periodic-refresh"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-19T04:17:58Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-19T06:44:28.360Z"
+  },
+  {
+    "id": "maximilianfalco/headroom",
+    "name": "headroom",
+    "author": "maximilianfalco",
+    "repoURL": "https://github.com/maximilianfalco/headroom",
+    "description": "macOS menu bar app and widget for Claude plan limits, token usage, and cost",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "plan-limits",
+      "token-usage",
+      "cost-tracking",
+      "menu-bar",
+      "widgets",
+      "rate-limit-alerts",
+      "multi-limit-tracking"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-19T06:40:42Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-19T06:44:28.360Z"
   }
 ]
