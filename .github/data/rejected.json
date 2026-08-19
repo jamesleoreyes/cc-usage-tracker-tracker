@@ -832,5 +832,23 @@
     "reason": "This is a Meta Ads management CLI tool built for orchestration by Claude Code agents, not a Claude usage tracker; it does not display or measure Claude/Claude Code metrics as a feature.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-19T12:48:22.411Z"
+  },
+  {
+    "id": "CrossStar/research-loop",
+    "reason": "Research Loop is a governance and experiment-lifecycle framework for Claude Code agents, not a usage tracker; it manages research work modes and checkpoints but does not display, measure, or report Claude token/cost/quota usage.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-08-19T18:36:41.524Z"
+  },
+  {
+    "id": "IAZENT/HuntX",
+    "reason": "HuntX is a security testing MCP server that provides Claude Code with bug-bounty tools; it does not display, measure, or report Claude usage as a feature—it is a tool provider, not a usage tracker.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-19T18:36:44.147Z"
+  },
+  {
+    "id": "fardavide/granita",
+    "reason": "Granita is a code review tool for Claude Code worktrees, not a usage tracker—it displays diffs and manages worktrees but does not measure or report Claude API usage, tokens, costs, or rate limits.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-19T18:36:47.025Z"
   }
 ]

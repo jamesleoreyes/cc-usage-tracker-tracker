@@ -147226,5 +147226,219 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-19T12:48:31.071Z"
+  },
+  {
+    "id": "sternryan/pace",
+    "name": "pace",
+    "author": "sternryan",
+    "repoURL": "https://github.com/sternryan/pace",
+    "description": "Menu bar Claude usage/pace indicator for macOS",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "burn-rate-alerts",
+      "session-tracking",
+      "weekly-limits",
+      "pace-vs-window",
+      "dropdown-details",
+      "local-only",
+      "wkwebview-scraper"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-19T18:00:40Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-19T18:36:50.040Z"
+  },
+  {
+    "id": "CaporalChefHina/claude-usage-statusline",
+    "name": "claude-usage-statusline",
+    "author": "CaporalChefHina",
+    "repoURL": "https://github.com/CaporalChefHina/claude-usage-statusline",
+    "description": "Claude Code status line showing your 5-hour and 7-day usage limits as progress bars. Zero dependencies, single file.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "JavaScript",
+    "authMethod": [],
+    "features": [
+      "5h-window-display",
+      "7d-window-display",
+      "usage-percentage-bars",
+      "reset-countdown",
+      "cost-tracking",
+      "context-window-bar",
+      "configurable-segments"
+    ],
+    "builtWithClaude": null,
+    "stars": 1,
+    "lastCommitDate": "2026-08-19T13:46:31Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-19T18:36:50.040Z"
+  },
+  {
+    "id": "Tcityjohn/claude-code-limit-tracker",
+    "name": "claude-code-limit-tracker",
+    "author": "Tcityjohn",
+    "repoURL": "https://github.com/Tcityjohn/claude-code-limit-tracker",
+    "description": "Track Claude Code API usage limits",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Session Cookie"
+    ],
+    "features": [
+      "real-time-quota-monitoring",
+      "multi-tier-support",
+      "model-specific-limits",
+      "git-integration",
+      "cross-project-tracking",
+      "5-hour-cycle-alerts",
+      "weekly-hour-tracking"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-19T12:56:08Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-19T18:36:50.040Z"
+  },
+  {
+    "id": "Okura66/widget-usages",
+    "name": "widget-usages",
+    "author": "Okura66",
+    "repoURL": "https://github.com/Okura66/widget-usages",
+    "description": "A compact Windows 11 widget for Codex and Claude Code usage limits.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "C#",
+    "authMethod": [
+      "API Key",
+      "Session Cookie"
+    ],
+    "features": [
+      "codex-usage",
+      "claude-code-usage",
+      "rate-limits",
+      "oauth-token",
+      "local-storage",
+      "multi-theme",
+      "no-telemetry"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-19T17:35:34Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-19T18:36:50.040Z"
+  },
+  {
+    "id": "decebal/claude-statusline",
+    "name": "claude-statusline",
+    "author": "decebal",
+    "repoURL": "https://github.com/decebal/claude-statusline",
+    "description": "Fast, never-blank Claude Code status line in Rust: powerline segments for model, git, context %, cost + burn rate + today's spend",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "OpenTelemetry"
+    ],
+    "features": [
+      "context-usage-display",
+      "cost-tracking",
+      "burn-rate-alerts",
+      "daily-spend-totals",
+      "rate-limit-monitoring",
+      "session-metrics"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-19T17:34:36Z",
+    "openIssues": 1,
+    "archived": false,
+    "lastFetched": "2026-08-19T18:36:50.040Z"
+  },
+  {
+    "id": "xqsit94/cc-statusline",
+    "name": "cc-statusline",
+    "author": "xqsit94",
+    "repoURL": "https://github.com/xqsit94/cc-statusline",
+    "description": "Fast, single-binary status line for Claude Code — context usage, cost, rate limits, and git state at a glance. No Node, no Python, no network.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Go",
+    "authMethod": [],
+    "features": [
+      "context-usage-display",
+      "cost-tracking",
+      "rate-limit-monitoring",
+      "session-duration",
+      "git-integration",
+      "configurable-segments",
+      "gradient-bar-visualization",
+      "offline-rendering"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-19T14:58:45Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-19T18:36:50.040Z"
+  },
+  {
+    "id": "sjh9714/herdr-fleece",
+    "name": "herdr-fleece",
+    "author": "sjh9714",
+    "repoURL": "https://github.com/sjh9714/herdr-fleece",
+    "description": "Know when your herd is fleecing you. Live tokens, dollars and burn rate for every herdr pane, one screen. herdr 实时成本与燃烧速率控制台.",
+    "category": "Terminal UI",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Traffic Capture"
+    ],
+    "features": [
+      "live-burn-rate",
+      "multi-agent-tracking",
+      "cost-tracking",
+      "token-counting",
+      "herdr-integration",
+      "json-export",
+      "leak-detection"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-19T16:47:53Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-19T18:36:50.040Z"
   }
 ]
