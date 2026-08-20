@@ -868,5 +868,23 @@
     "reason": "DevBar is a system resource monitor that groups memory usage by developer tools (including Claude Code) but does not display, measure, or report Claude API usage, tokens, cost, or quotas—it monitors local process memory only.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-20T01:15:51.734Z"
+  },
+  {
+    "id": "ygolde/cgm-statusline",
+    "reason": "This is a Claude Code statusline plugin that displays real-time glucose data from Dexcom CGM, not Claude usage metrics; it was built with Claude as evidenced by commit trailers.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-20T12:51:17.478Z"
+  },
+  {
+    "id": "kartikjagdale/vocabline",
+    "reason": "Vocabline is a vocabulary learning tool that displays Dutch words in a Claude Code status line, but does not measure, display, or report Claude usage metrics—it is a language-learning skill, not a usage tracker.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-20T12:51:21.326Z"
+  },
+  {
+    "id": "shamrai-nikita/claude-say",
+    "reason": "This is a Claude Code accessibility tool that plays responses aloud, not a usage tracker—it displays no metrics, costs, tokens, or usage data.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-20T12:51:27.645Z"
   }
 ]
