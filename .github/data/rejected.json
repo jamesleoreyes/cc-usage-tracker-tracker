@@ -886,5 +886,11 @@
     "reason": "This is a Claude Code accessibility tool that plays responses aloud, not a usage tracker—it displays no metrics, costs, tokens, or usage data.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-20T12:51:27.645Z"
+  },
+  {
+    "id": "ProximoBinks/terminal-manager",
+    "reason": "This is a session manager for Claude Code and Grok that monitors RAM and provides process control, but it does not display, measure, or report Claude API usage (tokens, cost, rate limits, quotas) as a feature—it manages running processes and their transcripts, not usage analytics.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-08-20T18:40:37.091Z"
   }
 ]
