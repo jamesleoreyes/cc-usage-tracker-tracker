@@ -147443,5 +147443,112 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-19T18:36:50.040Z"
+  },
+  {
+    "id": "gittinbusy/BurnrateActivity",
+    "name": "BurnrateActivity",
+    "author": "gittinbusy",
+    "repoURL": "https://github.com/gittinbusy/BurnrateActivity",
+    "description": "Claude usage tracker for macOS menu bar",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "session-limits",
+      "burn-rate-tracking",
+      "weekly-quotas",
+      "activity-heatmap",
+      "local-privacy",
+      "token-metrics"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-19T20:28:25Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-20T01:15:51.734Z"
+  },
+  {
+    "id": "JeanLescutMuller/statusline",
+    "name": "statusline",
+    "author": "JeanLescutMuller",
+    "repoURL": "https://github.com/JeanLescutMuller/statusline",
+    "description": "Custom hand-written status line for Claude Code, zero external dependencies.",
+    "category": "Statusline",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "claude-code-integration",
+      "zero-dependencies"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-19T21:41:58Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-20T01:15:51.734Z"
+  },
+  {
+    "id": "DougieWougie/claude-statusline",
+    "name": "claude-statusline",
+    "author": "DougieWougie",
+    "repoURL": "https://github.com/DougieWougie/claude-statusline",
+    "description": "Colour-coded context-usage statusline for Claude Code, with install/uninstall scripts",
+    "category": "Statusline",
+    "platforms": [
+      "web"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "context-usage-display",
+      "color-coded-thresholds",
+      "session-cost",
+      "elapsed-duration",
+      "git-integration"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-19T18:48:05Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-20T01:15:51.734Z"
+  },
+  {
+    "id": "Adam-Langley/ClaudeRings",
+    "name": "ClaudeRings",
+    "author": "Adam-Langley",
+    "repoURL": "https://github.com/Adam-Langley/ClaudeRings",
+    "description": "macOS menu bar app showing Claude Code session and weekly usage as concentric Apple Health-style rings",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "session-window-ring",
+      "weekly-usage-ring",
+      "model-scoped-limits",
+      "menu-bar-display",
+      "automatic-polling",
+      "launch-at-login"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-20T01:12:49Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-20T01:15:51.734Z"
   }
 ]

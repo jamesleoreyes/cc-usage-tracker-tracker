@@ -850,5 +850,23 @@
     "reason": "Granita is a code review tool for Claude Code worktrees, not a usage tracker—it displays diffs and manages worktrees but does not measure or report Claude API usage, tokens, costs, or rate limits.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-19T18:36:47.025Z"
+  },
+  {
+    "id": "alvinycheung/mute-toggle",
+    "reason": "This is a utility for toggling Claude Code TTS settings in environment variables, not a usage tracker; it displays no metrics about Claude token usage, costs, or rate limits.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-20T01:15:45.442Z"
+  },
+  {
+    "id": "waleedrizwan/claude-ram-guard",
+    "reason": "This is a resource-management utility for Claude Code sessions that pauses/resumes them based on RAM pressure; it does not display, measure, or report Claude usage metrics and thus does not qualify as a usage tracker.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-20T01:15:48.444Z"
+  },
+  {
+    "id": "0xcynyx/devbar",
+    "reason": "DevBar is a system resource monitor that groups memory usage by developer tools (including Claude Code) but does not display, measure, or report Claude API usage, tokens, cost, or quotas—it monitors local process memory only.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-20T01:15:51.734Z"
   }
 ]
