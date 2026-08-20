@@ -147554,5 +147554,180 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-20T01:15:51.734Z"
+  },
+  {
+    "id": "Kylittleman/ClaudeUsageTracker",
+    "name": "ClaudeUsageTracker",
+    "author": "Kylittleman",
+    "repoURL": "https://github.com/Kylittleman/ClaudeUsageTracker",
+    "description": "Windows system-tray app showing your live claude.ai usage (5h/7d/Opus limits) - a Windows equivalent of Usage4Claude and Claude-Usage-Tracker for macOS",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "C#",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "live-usage-display",
+      "5h-7d-limits",
+      "system-tray",
+      "usage-notifications",
+      "organization-selection",
+      "refresh-interval-config",
+      "persistent-overlay"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-20T06:31:47Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-20T06:47:07.081Z"
+  },
+  {
+    "id": "lightpointventures/claude-tab-tracking",
+    "name": "claude-tab-tracking",
+    "author": "lightpointventures",
+    "repoURL": "https://github.com/lightpointventures/claude-tab-tracking",
+    "description": "Real-time task tracking and conversation memory for Claude Code sessions",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "real-time-task-tracking",
+      "conversation-memory",
+      "multi-session-visibility",
+      "context-budget-control",
+      "backend-auto-detect",
+      "memo-extraction"
+    ],
+    "builtWithClaude": true,
+    "stars": 25,
+    "lastCommitDate": "2026-08-20T06:06:43Z",
+    "openIssues": 1,
+    "archived": false,
+    "lastFetched": "2026-08-20T06:47:07.082Z"
+  },
+  {
+    "id": "dsaltaren/claude-context-kit",
+    "name": "claude-context-kit",
+    "author": "dsaltaren",
+    "repoURL": "https://github.com/dsaltaren/claude-context-kit",
+    "description": "Hooks and a statusline that surface the real cost drivers of a long Claude Code session",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "context-window-tracking",
+      "cost-estimation",
+      "quota-alerts",
+      "session-monitoring",
+      "screenshot-deduplication",
+      "compaction-nudges",
+      "account-tracking"
+    ],
+    "builtWithClaude": null,
+    "stars": 1,
+    "lastCommitDate": "2026-08-20T06:03:59Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-20T06:47:07.082Z"
+  },
+  {
+    "id": "mbanderas/maestro-context-bar",
+    "name": "maestro-context-bar",
+    "author": "mbanderas",
+    "repoURL": "https://github.com/mbanderas/maestro-context-bar",
+    "description": "Maestro: Context Bar - a context-window progress bar for the Claude Code status line. Zero dependencies.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "JavaScript",
+    "authMethod": [],
+    "features": [
+      "context-window-progress-bar",
+      "token-counting",
+      "statusline-display",
+      "color-coded-warnings",
+      "zero-dependencies"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-08-20T02:44:37Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-20T06:47:07.082Z"
+  },
+  {
+    "id": "npclfg/subswitch",
+    "name": "subswitch",
+    "author": "npclfg",
+    "repoURL": "https://github.com/npclfg/subswitch",
+    "description": "Menu bar switcher for Claude Code and Codex sign-ins on a shared Mac",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "account-switcher",
+      "usage-display",
+      "multi-account",
+      "session-management"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-20T06:09:43Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-20T06:47:07.082Z"
+  },
+  {
+    "id": "stavrop/ai-usage-monitor",
+    "name": "ai-usage-monitor",
+    "author": "stavrop",
+    "repoURL": "https://github.com/stavrop/ai-usage-monitor",
+    "description": "Menu bar app showing your Claude and ChatGPT usage limits — unofficial",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "claude-usage-display",
+      "chatgpt-usage-display",
+      "rate-limit-breakdown",
+      "reset-countdown",
+      "multi-provider",
+      "90-percent-alerts",
+      "pay-as-you-go-credits"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-20T06:40:06Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-20T06:47:07.082Z"
   }
 ]
