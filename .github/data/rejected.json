@@ -910,5 +910,11 @@
     "reason": "This is a scheduler and job runner for Claude Code with run monitoring, but does not display, measure, or report Claude usage metrics (tokens, cost, rate limits, quotas) as a feature.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-21T01:19:44.356Z"
+  },
+  {
+    "id": "JC-kk/skillswitch",
+    "reason": "Skillswitch is a menu bar app for managing Claude Code skills and loaded agents to optimize context window usage, but it does not display, measure, or report Claude API usage, tokens, costs, or rate limits as a feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-21T18:37:57.715Z"
   }
 ]

@@ -149073,5 +149073,209 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-21T12:49:03.398Z"
+  },
+  {
+    "id": "didrikmunther/claude-usage",
+    "name": "claude-usage",
+    "author": "didrikmunther",
+    "repoURL": "https://github.com/didrikmunther/claude-usage",
+    "description": "Get an overview of your Claude and Codex usage in a native MacOS menubar widget",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Browser Cookie Auto-detect",
+      "OAuth Token"
+    ],
+    "features": [
+      "usage-dashboard",
+      "burn-rate-forecast",
+      "menu-bar-widget",
+      "5h-weekly-windows",
+      "history-graph",
+      "spike-markers",
+      "multi-provider"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-21T16:32:43Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-21T18:37:57.715Z"
+  },
+  {
+    "id": "felipearosr/ai-usage",
+    "name": "ai-usage",
+    "author": "felipearosr",
+    "repoURL": "https://github.com/felipearosr/ai-usage",
+    "description": "Lightweight cross-platform CLI for tracking AI coding subscription usage (Claude Code, Codex, OpenCode Go) across Linux and macOS machines.",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "linux",
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "cross-platform",
+      "lightweight",
+      "multi-provider",
+      "ai-coding-subscriptions"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-21T13:51:44Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-21T18:37:57.715Z"
+  },
+  {
+    "id": "corvardt/claude-glance",
+    "name": "claude-glance",
+    "author": "corvardt",
+    "repoURL": "https://github.com/corvardt/claude-glance",
+    "description": "A small, always-on desktop widget for Debian/GNOME that shows your Claude Code usage in real time: the rolling 5-hour window, weekly limits, cost, and burn rate. Local-first, zero network by default, no third-party dependencies.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "linux"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "OAuth Token"
+    ],
+    "features": [
+      "rate-limit-window",
+      "weekly-limits",
+      "token-cost",
+      "burn-rate",
+      "cache-hit-rate",
+      "thinking-tokens",
+      "project-split",
+      "sparkline"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-21T13:44:34Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-21T18:37:57.715Z"
+  },
+  {
+    "id": "AbdallaM-Ibrahim/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "AbdallaM-Ibrahim",
+    "repoURL": "https://github.com/AbdallaM-Ibrahim/claude-code-statusline",
+    "description": "Claude Code status line as a single compiled Go binary: no interpreter, no subprocesses, no network. 5.5x faster than the bun version it replaces.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "Go",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "claude-code-display",
+      "session-cost-tracking",
+      "burn-rate-alerts",
+      "context-pressure",
+      "rate-limit-windows",
+      "git-integration"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-21T17:22:04Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-21T18:37:57.715Z"
+  },
+  {
+    "id": "elmofromok/claude-statusline",
+    "name": "claude-statusline",
+    "author": "elmofromok",
+    "repoURL": "https://github.com/elmofromok/claude-statusline",
+    "description": "A Claude Code status line that shows absolute context tokens and warns when the model enters the dumb zone",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "context-tokens",
+      "smart-dumb-zones",
+      "session-cost",
+      "git-integration",
+      "window-fill-warning"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-21T16:55:09Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-21T18:37:57.715Z"
+  },
+  {
+    "id": "raphaelc0elh0/claude-statusline",
+    "name": "claude-statusline",
+    "author": "raphaelc0elh0",
+    "repoURL": "https://github.com/raphaelc0elh0/claude-statusline",
+    "description": "A two-line status line for Claude Code: context window usage and plan rate limits",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "OAuth Token",
+      "Session Cookie"
+    ],
+    "features": [
+      "context-window-display",
+      "rate-limit-tracking",
+      "color-coded-usage",
+      "session-duration"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-21T14:20:04Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-21T18:37:57.715Z"
+  },
+  {
+    "id": "changkun/ccstatus",
+    "name": "ccstatus",
+    "author": "changkun",
+    "repoURL": "https://github.com/changkun/ccstatus",
+    "description": "A Claude Code status line: current repo, cost spent, and budget left before the next refresh.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "cost-tracking",
+      "budget-windows",
+      "rate-limit-display",
+      "session-tracking",
+      "daily-totals",
+      "color-alerts",
+      "configurable-warnings"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-21T16:30:34Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-21T18:37:57.715Z"
   }
 ]
