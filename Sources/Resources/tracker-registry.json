@@ -148831,5 +148831,244 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-21T06:48:02.596Z"
+  },
+  {
+    "id": "jonax1337/claude-usage-tracker",
+    "name": "claude-usage-tracker",
+    "author": "jonax1337",
+    "repoURL": "https://github.com/jonax1337/claude-usage-tracker",
+    "description": "Local zero-dependency dashboard for Claude Code token usage, costs, plan limits, and pace predictions — with live updates and a picture-in-picture widget",
+    "category": "Web Dashboard",
+    "platforms": [
+      "web"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "OAuth Token",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "live-usage-analytics",
+      "token-costs",
+      "plan-limits",
+      "pace-predictions",
+      "real-time-updates",
+      "picture-in-picture-widget",
+      "dark-mode",
+      "zero-dependencies"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-21T07:50:08Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-21T12:49:03.397Z"
+  },
+  {
+    "id": "bbfly6/claude-usage-widget",
+    "name": "claude-usage-widget",
+    "author": "bbfly6",
+    "repoURL": "https://github.com/bbfly6/claude-usage-widget",
+    "description": "Claude Code 사용량 실시간 위젯 (Windows) — 비공식 도구, Anthropic과 무관 / Unofficial Claude Code usage widget, not affiliated with Anthropic",
+    "category": "Electron/Desktop",
+    "platforms": [
+      "windows"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "claude-code-usage",
+      "real-time-display",
+      "weekly-quota",
+      "model-limits",
+      "multi-window-modes",
+      "bilingual",
+      "auto-sync"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-21T10:31:55Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-21T12:49:03.398Z"
+  },
+  {
+    "id": "ansonliam/AIUsageMonitor",
+    "name": "AIUsageMonitor",
+    "author": "ansonliam",
+    "repoURL": "https://github.com/ansonliam/AIUsageMonitor",
+    "description": "A Windows WPF app for monitoring Claude Code and Codex usage limits, reset times, and quota status.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "C#",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "quota-display",
+      "reset-timers",
+      "multi-provider",
+      "usage-percentages",
+      "scheduled-refresh",
+      "hook-triggers",
+      "always-on-top-widget"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-21T08:12:10Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-21T12:49:03.398Z"
+  },
+  {
+    "id": "nghiatm-twendee/clawd-statusline",
+    "name": "clawd-statusline",
+    "author": "nghiatm-twendee",
+    "repoURL": "https://github.com/nghiatm-twendee/clawd-statusline",
+    "description": "A Claude Code status line with live usage bars and clawd, Claude Code's real mascot",
+    "category": "Statusline",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "live-usage-bars",
+      "5h-rate-limit",
+      "7d-rate-limit",
+      "context-window",
+      "animated-mascot"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-21T11:05:41Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-21T12:49:03.398Z"
+  },
+  {
+    "id": "l0ng-ai/claude-statusline",
+    "name": "claude-statusline",
+    "author": "l0ng-ai",
+    "repoURL": "https://github.com/l0ng-ai/claude-statusline",
+    "description": "A Claude Code statusline in one Zig file. No daemon, ~2ms per invocation, 12 themes and a configurable layout.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Zig",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "rate-limit-bars",
+      "cost-tracking",
+      "context-usage",
+      "session-duration",
+      "burn-rate-projection",
+      "multi-theme",
+      "configurable-layout"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-21T11:00:12Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-21T12:49:03.398Z"
+  },
+  {
+    "id": "freejerry/claude-cli-plugin-usage",
+    "name": "claude-cli-plugin-usage",
+    "author": "freejerry",
+    "repoURL": "https://github.com/freejerry/claude-cli-plugin-usage",
+    "description": "Powerline status line for the Claude Code CLI: model, git, context bar, rate-limit / cost, and a second line with session name and 5h/7d reset countdowns.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "rate-limit-tracking",
+      "context-usage-bar",
+      "reset-countdowns",
+      "cost-tracking",
+      "powerline-status",
+      "zero-dependencies"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-21T10:37:06Z",
+    "openIssues": 1,
+    "archived": false,
+    "lastFetched": "2026-08-21T12:49:03.398Z"
+  },
+  {
+    "id": "apipoj/DualMeter",
+    "name": "DualMeter",
+    "author": "apipoj",
+    "repoURL": "https://github.com/apipoj/DualMeter",
+    "description": "ESP32-C6 desk display for Claude Code and Codex usage limits",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "macos"
+    ],
+    "language": "C",
+    "authMethod": [
+      "Session Cookie",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "dual-provider-display",
+      "usage-rate-limits",
+      "esp32-hardware",
+      "bluetooth-sync",
+      "5h-7d-utilization"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-21T07:59:17Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-21T12:49:03.398Z"
+  },
+  {
+    "id": "EuanWebster/claude-usage-meter",
+    "name": "claude-usage-meter",
+    "author": "EuanWebster",
+    "repoURL": "https://github.com/EuanWebster/claude-usage-meter",
+    "description": "GNOME tray indicator for Claude Code usage: 5-hour block and 7-day spend, read from local transcripts",
+    "category": "Statusline",
+    "platforms": [
+      "linux"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "5-hour-block-tracking",
+      "7-day-rolling-spend",
+      "budget-alerts",
+      "rate-limit-detection",
+      "gnome-tray-indicator",
+      "no-api-key-required"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-21T07:55:52Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-21T12:49:03.398Z"
   }
 ]
