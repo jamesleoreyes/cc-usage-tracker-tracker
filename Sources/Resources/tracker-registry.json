@@ -148703,5 +148703,130 @@
     "openIssues": 1,
     "archived": false,
     "lastFetched": "2026-08-21T01:19:44.356Z"
+  },
+  {
+    "id": "Milletsoo/ai-usage-monitor",
+    "name": "ai-usage-monitor",
+    "author": "Milletsoo",
+    "repoURL": "https://github.com/Milletsoo/ai-usage-monitor",
+    "description": "📊 AI Coding 平台 Token 用量监控与费用看板 — 支持 Proma / Claude Code / JoyCode",
+    "category": "Web Dashboard",
+    "platforms": [
+      "web"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "API Key"
+    ],
+    "features": [
+      "claude-code-support",
+      "token-tracking",
+      "cost-calculation",
+      "multi-platform",
+      "time-filtering",
+      "visualization",
+      "model-pricing",
+      "session-aggregation"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-21T06:21:08Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-21T06:48:02.596Z"
+  },
+  {
+    "id": "sagiriiiiii/claude-status-lite",
+    "name": "claude-status-lite",
+    "author": "sagiriiiiii",
+    "repoURL": "https://github.com/sagiriiiiii/claude-status-lite",
+    "description": "Claude Code statusline: usage limits + stealth stock watch (A-share/HK/US, 2s refresh, pinyin-initial names). Pure bash + jq.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Traffic Capture"
+    ],
+    "features": [
+      "context-window-display",
+      "rate-limit-tracking",
+      "5h-reset-timer",
+      "7d-reset-timer",
+      "colored-severity",
+      "stock-watch"
+    ],
+    "builtWithClaude": null,
+    "stars": 3,
+    "lastCommitDate": "2026-08-21T02:24:01Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-21T06:48:02.596Z"
+  },
+  {
+    "id": "willdynan/claude-statusline",
+    "name": "claude-statusline",
+    "author": "willdynan",
+    "repoURL": "https://github.com/willdynan/claude-statusline",
+    "description": "Claude Code status line: model, rate-limit windows with reset countdowns, context, session cost (bash + PowerShell)",
+    "category": "Statusline",
+    "platforms": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "language": "PowerShell",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "rate-limit-display",
+      "context-window",
+      "session-cost",
+      "reset-countdowns",
+      "color-coded-alerts",
+      "multi-platform"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-21T01:43:12Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-21T06:48:02.596Z"
+  },
+  {
+    "id": "heznpc/QuotaPie",
+    "name": "QuotaPie",
+    "author": "heznpc",
+    "repoURL": "https://github.com/heznpc/QuotaPie",
+    "description": "macOS menu bar quota tracker for Claude Code and Codex: provider-truth reset tracking, personal burn-rate forecasting, and one honest decision in the menu bar.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "OAuth Token",
+      "Session Cookie",
+      "API Key"
+    ],
+    "features": [
+      "quota-tracking",
+      "burn-rate-forecast",
+      "multi-account",
+      "provider-reset-tracking",
+      "alert-system",
+      "oauth-collection",
+      "statusline-integration"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-21T05:56:15Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-21T06:48:02.596Z"
   }
 ]
