@@ -148450,5 +148450,253 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-20T18:40:37.092Z"
+  },
+  {
+    "id": "sablezoob/claude-limits-widget",
+    "name": "claude-limits-widget",
+    "author": "sablezoob",
+    "repoURL": "https://github.com/sablezoob/claude-limits-widget",
+    "description": "Always-on-top Windows widget showing Claude usage limits, exact reset times and a countdown. Tray icon, 5 languages, no admin rights.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "PowerShell",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "rate-limits-display",
+      "reset-countdown",
+      "per-model-limits",
+      "usage-percentage",
+      "tray-icon",
+      "5-languages",
+      "notifications"
+    ],
+    "builtWithClaude": null,
+    "stars": 1,
+    "lastCommitDate": "2026-08-20T22:48:56Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-21T01:19:44.356Z"
+  },
+  {
+    "id": "stronxyo/vibespan",
+    "name": "vibespan",
+    "author": "stronxyo",
+    "repoURL": "https://github.com/stronxyo/vibespan",
+    "description": "Always-on-top Claude usage gauge for Windows. Choose which limits to show, as numbers, bars or a screen-edge hairline - all from one right-click. Builds from source with the compiler already in Windows.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "C#",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "claude-usage-limits",
+      "configurable-metrics",
+      "live-feed-support",
+      "threshold-alerts",
+      "multi-theme-display",
+      "visual-styles",
+      "resize-adjustable",
+      "refresh-interval"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-20T22:22:41Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-21T01:19:44.356Z"
+  },
+  {
+    "id": "vishwako-9/ai-token-tracker",
+    "name": "ai-token-tracker",
+    "author": "vishwako-9",
+    "repoURL": "https://github.com/vishwako-9/ai-token-tracker",
+    "description": "Local-first CLI/TUI tracking AI coding token usage and cost across Claude Code, OpenCode, Codex, Gemini CLI, Antigravity, and Ollama",
+    "category": "Terminal UI",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "claude-code-tracking",
+      "multi-provider",
+      "token-usage",
+      "cost-tracking",
+      "daily-breakdown",
+      "weekly-breakdown",
+      "monthly-breakdown",
+      "web-dashboard"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-20T19:31:07Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-21T01:19:44.356Z"
+  },
+  {
+    "id": "SteveVitali/claude-readout",
+    "name": "claude-readout",
+    "author": "SteveVitali",
+    "repoURL": "https://github.com/SteveVitali/claude-readout",
+    "description": "A status line for Claude Code: context, cost, rate limits and git. Adapts to your font and terminal background, so it looks right without a Nerd Font.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Go",
+    "authMethod": [],
+    "features": [
+      "context-display",
+      "cost-tracking",
+      "rate-limit-display",
+      "git-status",
+      "terminal-detection",
+      "font-capability-detection"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-20T23:11:20Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-21T01:19:44.356Z"
+  },
+  {
+    "id": "q1343135559/ClaudeMeter",
+    "name": "ClaudeMeter",
+    "author": "q1343135559",
+    "repoURL": "https://github.com/q1343135559/ClaudeMeter",
+    "description": "Claude Code statusline showing context, 5-hour, weekly, and per-model (Fable) usage — local files only, no network, no credentials",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "context-usage",
+      "5-hour-window",
+      "weekly-window",
+      "per-model-quotas",
+      "fable-scoped-tracking",
+      "cost-estimate",
+      "git-branch",
+      "no-network"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-08-20T20:19:12Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-21T01:19:44.356Z"
+  },
+  {
+    "id": "SirjanSingh/claude-kit",
+    "name": "claude-kit",
+    "author": "SirjanSingh",
+    "repoURL": "https://github.com/SirjanSingh/claude-kit",
+    "description": "Claude Code skills, hooks and a usage-aware status line, built from friction found by mining real session transcripts.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "usage-aware-statusline",
+      "rate-limit-tracking",
+      "quota-display",
+      "real-plan-usage",
+      "color-coded-alerts",
+      "countdown-to-reset"
+    ],
+    "builtWithClaude": null,
+    "stars": 1,
+    "lastCommitDate": "2026-08-20T23:28:24Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-21T01:19:44.356Z"
+  },
+  {
+    "id": "Nitjsefnie-Harness-Commons/usage-query",
+    "name": "usage-query",
+    "author": "Nitjsefnie-Harness-Commons",
+    "repoURL": "https://github.com/Nitjsefnie-Harness-Commons/usage-query",
+    "description": "Rate-limit and quota utilization across Claude Code, Kimi and Codex accounts",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "OAuth Token",
+      "API Key",
+      "Session Key"
+    ],
+    "features": [
+      "multi-provider",
+      "rate-limit-tracking",
+      "quota-utilization",
+      "token-refresh",
+      "machine-readable-output",
+      "credential-file-support"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-20T21:46:22Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-21T01:19:44.356Z"
+  },
+  {
+    "id": "bebepewpew/quotabar",
+    "name": "quotabar",
+    "author": "bebepewpew",
+    "repoURL": "https://github.com/bebepewpew/quotabar",
+    "description": "Monitor AI coding CLI quotas (Codex, Claude Code, Gemini) from a native macOS menu-bar app or the cross-platform quotabar command on Linux.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "quota-monitoring",
+      "multi-provider",
+      "menu-bar-app",
+      "cli-command",
+      "threshold-alerts",
+      "waybar-output"
+    ],
+    "builtWithClaude": null,
+    "stars": 1,
+    "lastCommitDate": "2026-08-21T01:17:42Z",
+    "openIssues": 1,
+    "archived": false,
+    "lastFetched": "2026-08-21T01:19:44.356Z"
   }
 ]

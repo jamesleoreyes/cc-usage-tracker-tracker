@@ -892,5 +892,23 @@
     "reason": "This is a session manager for Claude Code and Grok that monitors RAM and provides process control, but it does not display, measure, or report Claude API usage (tokens, cost, rate limits, quotas) as a feature—it manages running processes and their transcripts, not usage analytics.",
     "confidence": 0.85,
     "rejectedAt": "2026-08-20T18:40:37.091Z"
+  },
+  {
+    "id": "m-esm/smart-subagents",
+    "reason": "This is a quota-aware subagent router that reads and dispatches based on live rate limits, but does not itself display or report usage as a user-facing feature; it optimizes routing using quota data internally.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-08-21T01:19:34.745Z"
+  },
+  {
+    "id": "JC-kk/ambit",
+    "reason": "Ambit is a menu bar control panel for managing Claude Code and Codex capabilities with no usage tracking or reporting features, making it an agent/skill manager rather than a usage tracker.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-21T01:19:41.206Z"
+  },
+  {
+    "id": "DiorditsPV/claude-cron-bar",
+    "reason": "This is a scheduler and job runner for Claude Code with run monitoring, but does not display, measure, or report Claude usage metrics (tokens, cost, rate limits, quotas) as a feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-21T01:19:44.356Z"
   }
 ]
