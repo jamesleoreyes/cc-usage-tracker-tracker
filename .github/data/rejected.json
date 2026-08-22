@@ -916,5 +916,17 @@
     "reason": "Skillswitch is a menu bar app for managing Claude Code skills and loaded agents to optimize context window usage, but it does not display, measure, or report Claude API usage, tokens, costs, or rate limits as a feature.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-21T18:37:57.715Z"
+  },
+  {
+    "id": "sergiivelykodnyi/claude-code-statusline",
+    "reason": "A statusline renderer for Claude Code that displays session information at a glance, but does not measure, report, or track Claude usage metrics like tokens, cost, or rate limits.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-08-22T01:15:09.134Z"
+  },
+  {
+    "id": "jcongaku/skillswitch",
+    "reason": "Skillswitch is a menu bar control panel for managing Claude Code and Codex agent capabilities (skills, MCP servers, subagents) without measuring or displaying Claude usage metrics, so it does not qualify as a usage tracker.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-22T01:15:24.973Z"
   }
 ]
