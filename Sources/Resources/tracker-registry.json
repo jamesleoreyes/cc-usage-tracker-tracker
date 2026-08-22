@@ -149552,5 +149552,94 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-22T01:15:30.742Z"
+  },
+  {
+    "id": "yadava5/kiln",
+    "name": "kiln",
+    "author": "yadava5",
+    "repoURL": "https://github.com/yadava5/kiln",
+    "description": "A kitty terminal built for long Claude Code sessions: contrast-audited warm-dark palette, real Oxford Ohio topography behind the text, and a statusline with a cat that hops across it while Claude works.",
+    "category": "Terminal UI",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [],
+    "features": [
+      "claude-code-statusline",
+      "token-counting",
+      "real-time-metrics",
+      "contrast-audit",
+      "animated-cat"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-22T05:33:47Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-22T06:40:56.514Z"
+  },
+  {
+    "id": "leo123-tto/api-usage-monitor",
+    "name": "api-usage-monitor",
+    "author": "leo123-tto",
+    "repoURL": "https://github.com/leo123-tto/api-usage-monitor",
+    "description": "Privacy-first macOS menu bar monitor for Claude, Codex, Grok, Cursor, and API usage.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "Session Cookie",
+      "API Key"
+    ],
+    "features": [
+      "multi-provider",
+      "subscription-limits",
+      "token-tracking",
+      "menu-bar",
+      "privacy-focused",
+      "relay-support",
+      "local-cache",
+      "keychain-integration"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-22T04:19:32Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-22T06:40:56.514Z"
+  },
+  {
+    "id": "zkm00323/vscode-cc-usage",
+    "name": "vscode-cc-usage",
+    "author": "zkm00323",
+    "repoURL": "https://github.com/zkm00323/vscode-cc-usage",
+    "description": "VS Code status bar meter for Claude Code token usage and equivalent cost. Local-only, zero dependencies.",
+    "category": "VS Code Extension",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "token-counting",
+      "cost-estimation",
+      "daily-aggregation",
+      "multi-model-breakdown",
+      "conversation-breakdown",
+      "local-only",
+      "honesty-fields"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-22T06:20:36Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-22T06:40:56.514Z"
   }
 ]

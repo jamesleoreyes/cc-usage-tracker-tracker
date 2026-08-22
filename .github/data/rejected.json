@@ -928,5 +928,11 @@
     "reason": "Skillswitch is a menu bar control panel for managing Claude Code and Codex agent capabilities (skills, MCP servers, subagents) without measuring or displaying Claude usage metrics, so it does not qualify as a usage tracker.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-22T01:15:24.973Z"
+  },
+  {
+    "id": "Kweiza/ccdaddy",
+    "reason": "ccdaddy manages multiple Claude Code accounts and auto-switches to avoid rate limits, but does not display, measure, or report Claude usage as a substantial feature—it is an account manager, not a usage tracker.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-08-22T06:40:50.526Z"
   }
 ]
