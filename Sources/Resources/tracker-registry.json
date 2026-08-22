@@ -149645,5 +149645,97 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-22T06:40:56.514Z"
+  },
+  {
+    "id": "aguirrerozzo/owl-claude-meter",
+    "name": "owl-claude-meter",
+    "author": "aguirrerozzo",
+    "repoURL": "https://github.com/aguirrerozzo/owl-claude-meter",
+    "description": "macOS menu bar app showing your real Claude usage limits — 5-hour window, weekly quota, per-model quotas and extra-usage spend, straight from Anthropic's servers.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "usage-display",
+      "quota-alerts",
+      "rate-limit-window",
+      "per-model-quotas",
+      "extra-usage-spend",
+      "multi-account"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-22T12:05:37Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-22T12:40:15.398Z"
+  },
+  {
+    "id": "MrTHROS/claude-monitor-mini",
+    "name": "claude-monitor-mini",
+    "author": "MrTHROS",
+    "repoURL": "https://github.com/MrTHROS/claude-monitor-mini",
+    "description": "Persistent Claude Code usage monitor via statusLine — wires claude-monitor into every session's status bar",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "rate-limit-monitor",
+      "burn-rate",
+      "cost-estimate",
+      "reset-timer",
+      "pace-indicator",
+      "statusline-integration"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-22T09:45:34Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-22T12:40:15.398Z"
+  },
+  {
+    "id": "ankit-arora-369/burn-o-meter",
+    "name": "burn-o-meter",
+    "author": "ankit-arora-369",
+    "repoURL": "https://github.com/ankit-arora-369/burn-o-meter",
+    "description": "An honest, local-first meter for AI coding-agent usage, cost and quota. Claude Code + Codex. No account, no telemetry, no network.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "token-usage",
+      "cost-tracking",
+      "cache-efficiency",
+      "rate-limit-tracking",
+      "multi-model-support",
+      "local-first",
+      "menubar",
+      "cli"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-22T12:29:49Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-22T12:40:15.398Z"
   }
 ]

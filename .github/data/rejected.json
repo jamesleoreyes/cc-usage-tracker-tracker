@@ -934,5 +934,11 @@
     "reason": "ccdaddy manages multiple Claude Code accounts and auto-switches to avoid rate limits, but does not display, measure, or report Claude usage as a substantial feature—it is an account manager, not a usage tracker.",
     "confidence": 0.85,
     "rejectedAt": "2026-08-22T06:40:50.526Z"
+  },
+  {
+    "id": "milan44i/claude-setup",
+    "reason": "This is a personal Claude Code workflow setup with hooks, statuslines, and memory discipline—not a usage tracker; it manages Claude's behavior and context, not measurement of tokens/costs/quotas.",
+    "confidence": 0.92,
+    "rejectedAt": "2026-08-22T12:40:11.577Z"
   }
 ]
