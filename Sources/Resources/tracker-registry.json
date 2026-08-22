@@ -149741,5 +149741,140 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-22T12:40:15.398Z"
+  },
+  {
+    "id": "izuchukwu/fablemeter",
+    "name": "fablemeter",
+    "author": "izuchukwu",
+    "repoURL": "https://github.com/izuchukwu/fablemeter",
+    "description": "macOS menu bar app tracking Claude usage windows across multiple accounts",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "multi-account",
+      "rate-limit-windows",
+      "headroom-gauge",
+      "menu-bar-app",
+      "fable-quota",
+      "5-hour-window",
+      "weekly-window"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-22T18:21:29Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-22T18:32:04.229Z"
+  },
+  {
+    "id": "kangallo/claude-usage-monitor",
+    "name": "claude-usage-monitor",
+    "author": "kangallo",
+    "repoURL": "https://github.com/kangallo/claude-usage-monitor",
+    "description": "Claude 사용량 모니터 안드로이드 앱 배포 채널 (릴리스와 업데이트 매니페스트만)",
+    "category": "Mobile",
+    "platforms": [
+      "android"
+    ],
+    "language": "Unknown",
+    "authMethod": [],
+    "features": [
+      "usage-monitoring"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-22T15:01:14Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-22T18:32:04.229Z"
+  },
+  {
+    "id": "justin-rhee/headroom",
+    "name": "headroom",
+    "author": "justin-rhee",
+    "repoURL": "https://github.com/justin-rhee/headroom",
+    "description": "Your Claude usage windows and OpenRouter spend, in the macOS menu bar.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Unknown",
+    "authMethod": [],
+    "features": [
+      "usage-windows",
+      "spend-tracking",
+      "openrouter-support",
+      "menu-bar-display"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-22T18:21:14Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-22T18:32:04.229Z"
+  },
+  {
+    "id": "amvid/claude-usage-menu-bar",
+    "name": "claude-usage-menu-bar",
+    "author": "amvid",
+    "repoURL": "https://github.com/amvid/claude-usage-menu-bar",
+    "description": "claude usage menu bar for macOS",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "subscription-limits",
+      "local-activity-parser",
+      "token-tracking",
+      "cost-estimates",
+      "rate-limit-aware",
+      "menu-bar-widget"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-22T16:30:03Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-22T18:32:04.229Z"
+  },
+  {
+    "id": "nixfred/infomarchy",
+    "name": "infomarchy",
+    "author": "nixfred",
+    "repoURL": "https://github.com/nixfred/infomarchy",
+    "description": "Omarchy plugin: your wallpaper becomes a live, clickable information desk — every running AI agent (Claude Code, Codex, Grok, Ollama), 7-day heatmap, rate limits, recent prompts, machine stats. Theme-driven.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "linux"
+    ],
+    "language": "QML",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "live-sessions",
+      "usage-limits",
+      "7-day-heatmap",
+      "multi-provider",
+      "machine-stats",
+      "rate-limit-alerts"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-22T15:03:54Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-22T18:32:04.229Z"
   }
 ]
