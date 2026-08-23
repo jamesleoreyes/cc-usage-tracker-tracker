@@ -150125,5 +150125,130 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-23T01:21:52.607Z"
+  },
+  {
+    "id": "TimERTy/agents-panel",
+    "name": "agents-panel",
+    "author": "TimERTy",
+    "repoURL": "https://github.com/TimERTy/agents-panel",
+    "description": "macOS menu bar app tracking usage across Claude Code, Codex, LiteLLM, and Fireworks — inspired by Omarchy's agents panel",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "API Key",
+      "Session Cookie"
+    ],
+    "features": [
+      "multi-agent-tracking",
+      "claude-code-integration",
+      "codex-support",
+      "litellm-proxy",
+      "fireworks-integration",
+      "token-usage-breakdown",
+      "session-percentage",
+      "menu-bar-display"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-23T01:30:05Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-23T06:41:53.383Z"
+  },
+  {
+    "id": "dilhanz/claude-statusline",
+    "name": "claude-statusline",
+    "author": "dilhanz",
+    "repoURL": "https://github.com/dilhanz/claude-statusline",
+    "description": "A status line for Claude Code — model, active task, dir@branch, context usage, rate limits, and cost. Zero dependencies.",
+    "category": "Statusline",
+    "platforms": [
+      "web"
+    ],
+    "language": "JavaScript",
+    "authMethod": [],
+    "features": [
+      "context-usage-display",
+      "rate-limit-tracking",
+      "cost-reporting",
+      "model-display",
+      "thinking-mode-indicator",
+      "git-integration",
+      "atomic-bridge"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-23T05:53:54Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-23T06:41:53.384Z"
+  },
+  {
+    "id": "asphoa/aimeter",
+    "name": "aimeter",
+    "author": "asphoa",
+    "repoURL": "https://github.com/asphoa/aimeter",
+    "description": "A macOS menu bar meter for AI service quotas — Claude Code, Codex, Antigravity, OpenRouter, DeepSeek and local inference, as stacked bars you can read at a glance",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "API Key",
+      "Session Cookie",
+      "JSONL Log Parsing",
+      "Traffic Capture"
+    ],
+    "features": [
+      "menu-bar-display",
+      "multi-service-tracker",
+      "stacked-bar-visualization",
+      "multi-account",
+      "live-quota-refresh",
+      "keystored-credentials"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-23T06:23:42Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-23T06:41:53.384Z"
+  },
+  {
+    "id": "Pixelpushin/claude-agent-watcher",
+    "name": "claude-agent-watcher",
+    "author": "Pixelpushin",
+    "repoURL": "https://github.com/Pixelpushin/claude-agent-watcher",
+    "description": "macOS menu bar app that watches Claude Code background sub-agent activity across every project on your machine",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "claude-code-agent-monitoring",
+      "live-state-indicators",
+      "rate-limit-detection",
+      "billing-error-alerts",
+      "auth-error-alerts",
+      "cross-project-visibility",
+      "menu-bar-app",
+      "status-notifications"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-23T05:51:29Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-23T06:41:53.384Z"
   }
 ]
