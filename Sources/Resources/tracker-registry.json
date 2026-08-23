@@ -150371,5 +150371,196 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-23T12:40:45.543Z"
+  },
+  {
+    "id": "4il228/Claude-Usage-Widget",
+    "name": "Claude-Usage-Widget",
+    "author": "4il228",
+    "repoURL": "https://github.com/4il228/Claude-Usage-Widget",
+    "description": "Simple Windows widget for Claude Code usage monitoring",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "C#",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "session-usage-ring",
+      "weekly-usage-ring",
+      "vpn-aware",
+      "system-tray-integration",
+      "auto-start",
+      "credential-watcher",
+      "smart-backoff"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-23T09:49:17Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-23T18:31:07.025Z"
+  },
+  {
+    "id": "irasychan/windows-claude-usage-widget",
+    "name": "windows-claude-usage-widget",
+    "author": "irasychan",
+    "repoURL": "https://github.com/irasychan/windows-claude-usage-widget",
+    "description": "Always-on-top Windows widget showing your current Claude usage limits",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "PowerShell",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "live-usage-display",
+      "session-window-tracking",
+      "weekly-quota-monitoring",
+      "rate-limit-handling",
+      "cached-fallback",
+      "health-indicator",
+      "always-on-top",
+      "auto-startup"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-23T18:08:13Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-23T18:31:07.025Z"
+  },
+  {
+    "id": "jxxyx-bloop/ai-observatory",
+    "name": "ai-observatory",
+    "author": "jxxyx-bloop",
+    "repoURL": "https://github.com/jxxyx-bloop/ai-observatory",
+    "description": "Local-first token usage & cost tracker that says what to change, not just what you spent. 15 checks, each priced. Claude Code, Codex, Kimi, Antigravity.",
+    "category": "Web Dashboard",
+    "platforms": [
+      "macos",
+      "web"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "token-usage",
+      "cost-tracking",
+      "multi-model-support",
+      "peak-pricing-detection",
+      "context-optimization",
+      "local-first",
+      "15-checks",
+      "actionable-insights"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-23T17:27:19Z",
+    "openIssues": 2,
+    "archived": false,
+    "lastFetched": "2026-08-23T18:31:07.025Z"
+  },
+  {
+    "id": "buyi1net/claude-line",
+    "name": "claude-line",
+    "author": "buyi1net",
+    "repoURL": "https://github.com/buyi1net/claude-line",
+    "description": "Lightweight Claude Code statusline with provider balance and subscription quota",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "API Key",
+      "OAuth Token",
+      "Session Key"
+    ],
+    "features": [
+      "token-usage",
+      "cost-tracking",
+      "balance-display",
+      "subscription-quota",
+      "multi-provider",
+      "cache-hit-rate",
+      "context-usage",
+      "execution-time"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-23T18:12:46Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-23T18:31:07.025Z"
+  },
+  {
+    "id": "David-Cohen974/usage-beacon",
+    "name": "usage-beacon",
+    "author": "David-Cohen974",
+    "repoURL": "https://github.com/David-Cohen974/usage-beacon",
+    "description": "Native macOS menu bar budget runway for Cursor, Claude, and extensible AI usage providers",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie",
+      "Browser Cookie Auto-detect",
+      "API Key"
+    ],
+    "features": [
+      "budget-runway",
+      "multi-account",
+      "menu-bar-extra",
+      "widgets",
+      "floating-hud",
+      "calendar-aware",
+      "cursor-claude-support",
+      "custom-endpoints"
+    ],
+    "builtWithClaude": null,
+    "stars": 1,
+    "lastCommitDate": "2026-08-23T15:10:59Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-23T18:31:07.025Z"
+  },
+  {
+    "id": "Iann29/ai-amage-usage",
+    "name": "ai-amage-usage",
+    "author": "Iann29",
+    "repoURL": "https://github.com/Iann29/ai-amage-usage",
+    "description": "Real-time Claude Code usage in Waybar: tokens, cost per model, and plan limit bars",
+    "category": "Waybar Module",
+    "platforms": [
+      "linux"
+    ],
+    "language": "Go",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "OAuth Token"
+    ],
+    "features": [
+      "real-time-tokens",
+      "cost-per-model",
+      "rate-limit-bars",
+      "multi-provider",
+      "claude-code-support",
+      "daily-chart",
+      "all-time-totals",
+      "per-harness-breakdown"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-23T18:14:15Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-23T18:31:07.025Z"
   }
 ]
