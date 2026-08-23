@@ -940,5 +940,17 @@
     "reason": "This is a personal Claude Code workflow setup with hooks, statuslines, and memory discipline—not a usage tracker; it manages Claude's behavior and context, not measurement of tokens/costs/quotas.",
     "confidence": 0.92,
     "rejectedAt": "2026-08-22T12:40:11.577Z"
+  },
+  {
+    "id": "koffenyren123/pacebar",
+    "reason": "PaceBar is a Claude Code plugin that tracks goal progress and work discipline, not Claude API usage/tokens/costs; it does not measure or report Claude consumption as a feature.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-08-23T01:21:30.089Z"
+  },
+  {
+    "id": "kgoedecke/alive-app",
+    "reason": "Alive is a utility that prevents Mac sleep during Claude Code sessions, but does not display, measure, or report Claude usage metrics—it only monitors processes.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-23T01:21:43.350Z"
   }
 ]

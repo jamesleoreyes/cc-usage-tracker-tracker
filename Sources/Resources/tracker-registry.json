@@ -149879,5 +149879,248 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-22T18:32:04.229Z"
+  },
+  {
+    "id": "viganogabriele/agent-usage-plus",
+    "name": "agent-usage-plus",
+    "author": "viganogabriele",
+    "repoURL": "https://github.com/viganogabriele/agent-usage-plus",
+    "description": "Omarchy bar widget: Claude Code, Codex, and Fireworks usage/limits",
+    "category": "Übersicht Widget",
+    "platforms": [
+      "macos"
+    ],
+    "language": "QML",
+    "authMethod": [
+      "OAuth Token",
+      "API Key"
+    ],
+    "features": [
+      "claude-usage",
+      "codex-usage",
+      "fireworks-usage",
+      "session-limits",
+      "weekly-limits",
+      "tokens-by-day",
+      "tokens-by-model"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-22T19:42:05Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-23T01:21:52.606Z"
+  },
+  {
+    "id": "corvardt/klepsydra",
+    "name": "klepsydra",
+    "author": "corvardt",
+    "repoURL": "https://github.com/corvardt/klepsydra",
+    "description": "A small, always-on desktop widget for Debian/GNOME that shows your Claude Code usage in real time: the rolling 5-hour window, weekly limits, cost, and burn rate. Local-first, zero network by default, no third-party dependencies.",
+    "category": "Übersicht Widget",
+    "platforms": [
+      "linux"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "API Key"
+    ],
+    "features": [
+      "5h-window-limit",
+      "weekly-quota",
+      "burn-rate",
+      "cost-compute",
+      "multi-theme",
+      "local-first"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-22T19:30:42Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-23T01:21:52.606Z"
+  },
+  {
+    "id": "TranDenyDFW/claude-code-context-capture",
+    "name": "claude-code-context-capture",
+    "author": "TranDenyDFW",
+    "repoURL": "https://github.com/TranDenyDFW/claude-code-context-capture",
+    "description": "Context window capture for Claude Code: transcript harvester, validated compaction mirror, status line sampler, and compaction hooks",
+    "category": "Web Dashboard",
+    "platforms": [
+      "web"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "context-window-monitoring",
+      "compaction-prediction",
+      "token-residency-tracking",
+      "session-analytics",
+      "waste-analysis",
+      "multi-model-segments"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-22T21:23:11Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-23T01:21:52.607Z"
+  },
+  {
+    "id": "UrionSisdi/Claude-Stats-Mac-Bar",
+    "name": "Claude-Stats-Mac-Bar",
+    "author": "UrionSisdi",
+    "repoURL": "https://github.com/UrionSisdi/Claude-Stats-Mac-Bar",
+    "description": "Menu bar stats for Claude Code: 5-hour and weekly limits, plus API-price cost",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "session-limits",
+      "weekly-cap",
+      "api-cost-calculation",
+      "per-model-windows",
+      "cache-tracking",
+      "multi-currency"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-22T22:42:22Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-23T01:21:52.607Z"
+  },
+  {
+    "id": "ericjregan/claude-ticker",
+    "name": "claude-ticker",
+    "author": "ericjregan",
+    "repoURL": "https://github.com/ericjregan/claude-ticker",
+    "description": "Claude Ticker — macOS menu bar app. Live status for every running Claude Code session: what is working, what is waiting on you, and how much context each has left.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "active-session-list",
+      "context-monitoring",
+      "session-status-display",
+      "waiting-indicator",
+      "menu-bar-widget"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-22T22:27:18Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-23T01:21:52.607Z"
+  },
+  {
+    "id": "ryanbarnett-2am/Juicage",
+    "name": "Juicage",
+    "author": "ryanbarnett-2am",
+    "repoURL": "https://github.com/ryanbarnett-2am/Juicage",
+    "description": "Unofficial macOS menu bar app showing how much claude.ai usage you have left — plus a live indicator for local Ollama / LM Studio models",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "claude-ai-usage",
+      "menu-bar-app",
+      "session-limits",
+      "weekly-caps",
+      "pace-forecast",
+      "ollama-monitor",
+      "lm-studio-monitor",
+      "pay-as-you-go"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-22T23:21:51Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-23T01:21:52.607Z"
+  },
+  {
+    "id": "CosmonautJones/ai-usage-overlays",
+    "name": "ai-usage-overlays",
+    "author": "CosmonautJones",
+    "repoURL": "https://github.com/CosmonautJones/ai-usage-overlays",
+    "description": "Always-on-top Windows HUDs showing live usage stats for Claude Code and Cursor IDE",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "PowerShell",
+    "authMethod": [
+      "Session Key",
+      "API Key"
+    ],
+    "features": [
+      "claude-code-stats",
+      "cursor-ide-stats",
+      "codex-stats",
+      "live-quotas",
+      "session-tracking",
+      "multi-provider",
+      "always-on-top",
+      "tray-app"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-22T22:26:50Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-23T01:21:52.607Z"
+  },
+  {
+    "id": "an80sPWNstar/Claude-O-Meter",
+    "name": "Claude-O-Meter",
+    "author": "an80sPWNstar",
+    "repoURL": "https://github.com/an80sPWNstar/Claude-O-Meter",
+    "description": "Desktop widget for Claude plan usage — session, weekly, and model-scoped limits with reset countdowns",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows",
+      "linux"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "session-limits",
+      "weekly-limits",
+      "per-model-limits",
+      "reset-countdowns",
+      "multi-account",
+      "system-tray",
+      "color-themes"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-22T23:33:49Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-23T01:21:52.607Z"
   }
 ]
