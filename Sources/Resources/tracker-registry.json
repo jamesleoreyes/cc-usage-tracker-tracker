@@ -150250,5 +150250,122 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-23T06:41:53.384Z"
+  },
+  {
+    "id": "koh110/limit-monitor",
+    "name": "limit-monitor",
+    "author": "koh110",
+    "repoURL": "https://github.com/koh110/limit-monitor",
+    "description": "Codex CLI and Claude Code usage limit monitoring hub",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "web"
+    ],
+    "language": "Unknown",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "usage-limits",
+      "rate-limit-monitoring"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-23T08:57:01Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-23T12:40:45.543Z"
+  },
+  {
+    "id": "hjkornn-phys/statusline-testkit",
+    "name": "statusline-testkit",
+    "author": "hjkornn-phys",
+    "repoURL": "https://github.com/hjkornn-phys/statusline-testkit",
+    "description": "A test harness for Claude Code status lines: fixtures that construct the null and absent states, a renderer, and a checker that fails a bar which blanks or leaks the word null.",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "claude-statusline",
+      "rate-limit-display",
+      "context-usage",
+      "session-cost",
+      "responsive-layout",
+      "test-harness",
+      "truncation-safety"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-23T09:32:11Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-23T12:40:45.543Z"
+  },
+  {
+    "id": "tammai/tammai-cc-status-line",
+    "name": "tammai-cc-status-line",
+    "author": "tammai",
+    "repoURL": "https://github.com/tammai/tammai-cc-status-line",
+    "description": "A Claude Code status line ported from the oh-my-posh default theme: path, git branch, model, effort, context used, and both rate-limit windows with reset times.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "context-window-tracking",
+      "rate-limit-display",
+      "model-display",
+      "effort-level",
+      "reset-timers",
+      "visual-gauges"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-23T10:39:44Z",
+    "openIssues": 1,
+    "archived": false,
+    "lastFetched": "2026-08-23T12:40:45.543Z"
+  },
+  {
+    "id": "dougrathbone/maxx-meter",
+    "name": "maxx-meter",
+    "author": "dougrathbone",
+    "repoURL": "https://github.com/dougrathbone/maxx-meter",
+    "description": "Token maxxing usage dashboard for Sonoff NSPanel — Cursor, Claude, Kimi",
+    "category": "Web Dashboard",
+    "platforms": [
+      "web"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "multi-provider-tracking",
+      "multi-user",
+      "multi-panel",
+      "mqtt-sensors",
+      "live-dashboard",
+      "home-assistant-addon"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-23T10:12:29Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-23T12:40:45.543Z"
   }
 ]

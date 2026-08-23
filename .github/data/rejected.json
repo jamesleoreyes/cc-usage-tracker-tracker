@@ -952,5 +952,17 @@
     "reason": "Alive is a utility that prevents Mac sleep during Claude Code sessions, but does not display, measure, or report Claude usage metrics—it only monitors processes.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-23T01:21:43.350Z"
+  },
+  {
+    "id": "johnfkoo951/cmux-tips",
+    "reason": "This is a guide for managing multiple Claude Code sessions in cmux, not a tracker that displays or measures Claude usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-23T12:40:33.734Z"
+  },
+  {
+    "id": "vplme/docker-sbx-claude",
+    "reason": "This is a Docker sandbox kit for Claude Code with custom statusline configuration and model defaults, but does not display or measure Claude usage metrics as a substantial feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-23T12:40:39.021Z"
   }
 ]
