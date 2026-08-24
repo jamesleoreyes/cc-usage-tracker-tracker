@@ -150875,5 +150875,183 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-24T01:19:29.985Z"
+  },
+  {
+    "id": "BRAINS-Certified/BRAINS-claude-usage-monitor",
+    "name": "BRAINS-claude-usage-monitor",
+    "author": "BRAINS-Certified",
+    "repoURL": "https://github.com/BRAINS-Certified/BRAINS-claude-usage-monitor",
+    "description": "VSCode extension that surfaces Claude Code token usage from local JSONL transcripts. Rolling 5h/7d windows, sparkline, billable-token weighting matched to Anthropic's pricing.",
+    "category": "VS Code Extension",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "rolling-5h-7d-windows",
+      "sparkline-charts",
+      "billable-token-weighting",
+      "burn-rate-alerts",
+      "model-mix-breakdown",
+      "multi-session-tracking",
+      "threshold-nudges",
+      "status-bar-display"
+    ],
+    "builtWithClaude": true,
+    "stars": 2,
+    "lastCommitDate": "2026-08-23T06:33:36Z",
+    "openIssues": 8,
+    "archived": false,
+    "lastFetched": "2026-08-24T07:00:03.243Z"
+  },
+  {
+    "id": "butterlatte-zhang/afkoi",
+    "name": "afkoi",
+    "author": "butterlatte-zhang",
+    "repoURL": "https://github.com/butterlatte-zhang/afkoi",
+    "description": "🎣 Your AI agents' working hours, turned into fishing. A playful usage tracker & global leaderboard for Claude Code / Codex / Gemini — desktop pet + zero-backend pond on GitHub Pages.",
+    "category": "Electron/Desktop",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "usage-tracker",
+      "desktop-pet",
+      "global-leaderboard",
+      "fishing-game",
+      "multi-agent",
+      "github-pages",
+      "activity-watcher",
+      "zero-backend"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-24T02:44:42Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-24T07:00:03.243Z"
+  },
+  {
+    "id": "shajanthanx/code-deck-releases",
+    "name": "code-deck-releases",
+    "author": "shajanthanx",
+    "repoURL": "https://github.com/shajanthanx/code-deck-releases",
+    "description": "Public release artifacts (installer + latest.yml) for the Claude Code Usage widget. Auto-update feed.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Unknown",
+    "authMethod": [],
+    "features": [
+      "auto-update-feed",
+      "usage-widget"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-24T06:58:28Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-24T07:00:03.243Z"
+  },
+  {
+    "id": "kittiratxkonner-boop/BankkitUsage",
+    "name": "BankkitUsage",
+    "author": "kittiratxkonner-boop",
+    "repoURL": "https://github.com/kittiratxkonner-boop/BankkitUsage",
+    "description": "Floating desktop widget showing Claude Code and Codex usage limits",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "claude-code-limits",
+      "codex-limits",
+      "multi-provider",
+      "floating-widget",
+      "refresh-control",
+      "tray-integration"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-23T19:32:03Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-24T07:00:03.243Z"
+  },
+  {
+    "id": "jonyfs/statusline",
+    "name": "statusline",
+    "author": "jonyfs",
+    "repoURL": "https://github.com/jonyfs/statusline",
+    "description": "Catppuccin Powerline statusline for Claude Code",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "context-window-display",
+      "rate-limit-alerts",
+      "git-integration",
+      "skill-tracking",
+      "powerline-statusline",
+      "multi-theme"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-24T05:30:06Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-24T07:00:03.243Z"
+  },
+  {
+    "id": "billwonghk/ai-subscription-usage",
+    "name": "ai-subscription-usage",
+    "author": "billwonghk",
+    "repoURL": "https://github.com/billwonghk/ai-subscription-usage",
+    "description": "Free, local menu-bar app that tells you if your ChatGPT/Claude/Gemini/Grok subscription is worth it — with DeepSeek cost comparison",
+    "category": "macOS Native",
+    "platforms": [
+      "macos",
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Traffic Capture"
+    ],
+    "features": [
+      "multi-provider-usage",
+      "token-metrics",
+      "cost-comparison",
+      "cache-tracking",
+      "deepseek-benchmark",
+      "subscription-roi",
+      "30-day-analytics",
+      "local-privacy"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-23T19:17:17Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-24T07:00:03.243Z"
   }
 ]
