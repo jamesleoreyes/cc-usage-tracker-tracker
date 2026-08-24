@@ -151053,5 +151053,119 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-24T07:00:03.243Z"
+  },
+  {
+    "id": "dragolea/agent-cli-kit",
+    "name": "agent-cli-kit",
+    "author": "dragolea",
+    "repoURL": "https://github.com/dragolea/agent-cli-kit",
+    "description": "Shared AI agent CLI setup — powerline-style statusline for Cursor CLI matching claude-powerline, shipped as a plugin marketplace for Cursor CLI and Claude Code",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "context-window-display",
+      "session-tracking",
+      "model-display",
+      "git-integration",
+      "duration-tracking",
+      "cursor-cli-integration"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-24T12:48:41Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-24T12:52:02.533Z"
+  },
+  {
+    "id": "huijoson/cc-token-statusline",
+    "name": "cc-token-statusline",
+    "author": "huijoson",
+    "repoURL": "https://github.com/huijoson/cc-token-statusline",
+    "description": "Portable Claude Code statusLine: context %, weekly rate-limit remaining, and per-conversation token usage. Zero dependencies.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "context-window-percentage",
+      "weekly-rate-limit-tracking",
+      "per-conversation-tokens",
+      "cache-tracking",
+      "zero-dependencies"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-24T09:33:09Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-24T12:52:02.533Z"
+  },
+  {
+    "id": "sachanayush47/vigil",
+    "name": "vigil",
+    "author": "sachanayush47",
+    "repoURL": "https://github.com/sachanayush47/vigil",
+    "description": "Every Claude Code session in your macOS menu bar - and which one is waiting on you. Status dots, sounds, blocked-session reminders, click-to-focus and per-session token cost.",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Traffic Capture"
+    ],
+    "features": [
+      "per-session-tokens",
+      "cost-breakdown",
+      "session-state-monitoring",
+      "blocked-session-alerts",
+      "menubar-display",
+      "terminal-focus"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-08-24T07:17:16Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-24T12:52:02.533Z"
+  },
+  {
+    "id": "Universumgames/Claude_Battery",
+    "name": "Claude_Battery",
+    "author": "Universumgames",
+    "repoURL": "https://github.com/Universumgames/Claude_Battery",
+    "description": "A macOS menu bar app showing your claude.ai Pro/Max usage as a battery icon.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "session-limit-tracking",
+      "weekly-limit-tracking",
+      "menubar-display",
+      "desktop-widget",
+      "auto-refresh"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-24T12:42:50Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-24T12:52:02.534Z"
   }
 ]

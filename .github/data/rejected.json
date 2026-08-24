@@ -970,5 +970,11 @@
     "reason": "This is a personal Claude Code configuration repository with custom rules, skills, and hooks for managing Claude Code projects, not a usage tracker—it contains no features to display, measure, or report Claude token usage, costs, or rate limits.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-23T18:31:00.156Z"
+  },
+  {
+    "id": "Luban-Labs/codex-watch",
+    "reason": "This is a Claude Code plugin that monitors codex background jobs and displays their status, but does not track Claude API usage (tokens, costs, quotas); it monitors execution state of code generation tasks instead.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-08-24T12:51:52.848Z"
   }
 ]
