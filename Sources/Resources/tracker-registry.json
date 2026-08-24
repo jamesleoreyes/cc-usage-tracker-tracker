@@ -151168,5 +151168,241 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-24T12:52:02.534Z"
+  },
+  {
+    "id": "schuyler/mcp-claude-usage",
+    "name": "mcp-claude-usage",
+    "author": "schuyler",
+    "repoURL": "https://github.com/schuyler/mcp-claude-usage",
+    "description": "MCP for tracking Claude subscription usage rate",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "burn-rate-alerts",
+      "quota-headroom",
+      "rate-limit-tracking",
+      "window-reset-timestamps",
+      "runway-projection",
+      "menu-bar-widget",
+      "mcp-server",
+      "adaptive-polling"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-24T17:36:58Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-24T18:41:24.623Z"
+  },
+  {
+    "id": "jgjake2/claude-usage-limit-monitor",
+    "name": "claude-usage-limit-monitor",
+    "author": "jgjake2",
+    "repoURL": "https://github.com/jgjake2/claude-usage-limit-monitor",
+    "description": "Usage-aware pause-and-resume for long-running Claude tasks.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "rate-limit-monitoring",
+      "pause-resume-checkpoints",
+      "usage-alerts",
+      "budget-gating",
+      "pre-tool-hook"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-24T17:21:34Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-24T18:41:24.623Z"
+  },
+  {
+    "id": "mstraa/claude-usage-systray",
+    "name": "claude-usage-systray",
+    "author": "mstraa",
+    "repoURL": "https://github.com/mstraa/claude-usage-systray",
+    "description": "macOS menu bar app showing Claude usage: 5-hour and weekly rate limits, reset times, and per-model breakdown",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "rate-limit-display",
+      "5h-window-tracking",
+      "weekly-usage-breakdown",
+      "per-model-breakdown",
+      "color-coded-alerts",
+      "reset-countdowns",
+      "menu-bar-integration",
+      "launch-at-login"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-24T14:26:48Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-24T18:41:24.623Z"
+  },
+  {
+    "id": "bugbenderx/cc-tray",
+    "name": "cc-tray",
+    "author": "bugbenderx",
+    "repoURL": "https://github.com/bugbenderx/cc-tray",
+    "description": "Claude Code usage limits in your Windows system tray - live percentage badge like a CPU monitor",
+    "category": "Statusline",
+    "platforms": [
+      "windows"
+    ],
+    "language": "C#",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "live-usage-badge",
+      "session-window-tracking",
+      "weekly-limits",
+      "color-coded-alerts",
+      "no-telemetry"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-24T17:33:36Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-24T18:41:24.624Z"
+  },
+  {
+    "id": "decebal/claude-healthline",
+    "name": "claude-healthline",
+    "author": "decebal",
+    "repoURL": "https://github.com/decebal/claude-healthline",
+    "description": "Never-blank Rust status line for Claude Code that tells you when your agent is going wrong: agent-health score, MCP servers needing attention, context %, live spend.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Rust",
+    "authMethod": [],
+    "features": [
+      "agent-health-score",
+      "context-usage",
+      "live-spend",
+      "burn-rate",
+      "mcp-servers",
+      "git-branch",
+      "multi-dimensional-health"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-08-24T16:02:45Z",
+    "openIssues": 1,
+    "archived": false,
+    "lastFetched": "2026-08-24T18:41:24.624Z"
+  },
+  {
+    "id": "kuangketongxue/cc-tool",
+    "name": "cc-tool",
+    "author": "kuangketongxue",
+    "repoURL": "https://github.com/kuangketongxue/cc-tool",
+    "description": "claude code有用的工具调用",
+    "category": "Statusline",
+    "platforms": [
+      "windows"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "context-window-display",
+      "token-usage-calculation",
+      "compression-detection",
+      "color-coded-warnings",
+      "completion-notifications",
+      "tts-alerts"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-24T15:18:10Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-24T18:41:24.624Z"
+  },
+  {
+    "id": "ppezzull/glm-claude-hud",
+    "name": "glm-claude-hud",
+    "author": "ppezzull",
+    "repoURL": "https://github.com/ppezzull/glm-claude-hud",
+    "description": "Show GLM Coding Plan (Z.ai/Zhipu) token usage in the claude-hud statusline for Claude Code",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "glm-quota-display",
+      "token-usage-bar",
+      "rate-limit-tracking",
+      "cache-fallback",
+      "multi-window-support"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-24T14:57:28Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-24T18:41:24.624Z"
+  },
+  {
+    "id": "raktimrajkalita/roost",
+    "name": "roost",
+    "author": "raktimrajkalita",
+    "repoURL": "https://github.com/raktimrajkalita/roost",
+    "description": "A native macOS menu-bar app that watches your Claude Code sessions from the notch. Chimes when a session finishes, click to jump to its terminal tab.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Traffic Capture"
+    ],
+    "features": [
+      "live-session-monitoring",
+      "completion-alerts",
+      "terminal-jump",
+      "per-session-mute",
+      "notch-ui",
+      "menu-bar-fallback"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-08-24T18:27:32Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-24T18:41:24.624Z"
   }
 ]

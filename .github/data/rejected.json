@@ -976,5 +976,11 @@
     "reason": "This is a Claude Code plugin that monitors codex background jobs and displays their status, but does not track Claude API usage (tokens, costs, quotas); it monitors execution state of code generation tasks instead.",
     "confidence": 0.85,
     "rejectedAt": "2026-08-24T12:51:52.848Z"
+  },
+  {
+    "id": "nvinnikov/claude-rc",
+    "reason": "This is a launcher/controller for Claude Code Remote Control sessions, not a usage tracker—it starts sessions and provides navigation but does not display, measure, or report Claude usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-24T18:41:24.623Z"
   }
 ]
