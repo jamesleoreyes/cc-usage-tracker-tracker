@@ -150564,5 +150564,312 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-23T18:31:07.025Z"
+  },
+  {
+    "id": "luisaugusto/UsageBar",
+    "name": "UsageBar",
+    "author": "luisaugusto",
+    "repoURL": "https://github.com/luisaugusto/UsageBar",
+    "description": "Local-only macOS menu bar utility showing remaining ChatGPT and Claude usage allowances",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "claude-usage-display",
+      "chatgpt-usage-display",
+      "rolling-window-tracking",
+      "notifications",
+      "multi-provider"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-23T23:24:13Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-24T01:19:29.984Z"
+  },
+  {
+    "id": "dev9414/claudedeck",
+    "name": "claudedeck",
+    "author": "dev9414",
+    "repoURL": "https://github.com/dev9414/claudedeck",
+    "description": "Mission control for your Claude Code accounts — a cross-platform desktop GUI for multi-account switching, live quota tracking, usage history and burn-rate forecasting.",
+    "category": "Electron/Desktop",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "Session Key",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "multi-account",
+      "quota-tracking",
+      "burn-rate-forecasting",
+      "auto-rotation",
+      "usage-history",
+      "dashboard",
+      "account-switcher",
+      "CLI-integration"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-23T23:18:38Z",
+    "openIssues": 3,
+    "archived": false,
+    "lastFetched": "2026-08-24T01:19:29.984Z"
+  },
+  {
+    "id": "moritouch/ai-usage",
+    "name": "ai-usage",
+    "author": "moritouch",
+    "repoURL": "https://github.com/moritouch/ai-usage",
+    "description": "macOS menu bar and widgets for Claude Code, Codex, and Grok usage.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "JSONL Log Parsing",
+      "Session Cookie"
+    ],
+    "features": [
+      "multi-provider-support",
+      "usage-quotas",
+      "reset-times",
+      "menu-bar-display",
+      "widgets",
+      "oauth-api",
+      "local-log-parsing"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-23T22:53:24Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-24T01:19:29.984Z"
+  },
+  {
+    "id": "navinkhondo/ai-usage-widgets",
+    "name": "ai-usage-widgets",
+    "author": "navinkhondo",
+    "repoURL": "https://github.com/navinkhondo/ai-usage-widgets",
+    "description": "macOS desktop widgets showing Claude Code, ChatGPT and Kimi subscription limits",
+    "category": "Übersicht Widget",
+    "platforms": [
+      "macos"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "API Key",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "claude-code-tracking",
+      "chatgpt-tracking",
+      "kimi-tracking",
+      "rate-limit-display",
+      "multi-provider",
+      "visual-rings",
+      "time-to-reset"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-23T19:23:37Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-24T01:19:29.984Z"
+  },
+  {
+    "id": "sl4ppy/claude-code-statuslines",
+    "name": "claude-code-statuslines",
+    "author": "sl4ppy",
+    "repoURL": "https://github.com/sl4ppy/claude-code-statuslines",
+    "description": "Status lines for Claude Code",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Python",
+    "authMethod": [],
+    "features": [
+      "rate-limit-display",
+      "token-spend",
+      "cache-efficiency",
+      "sparkline-trends",
+      "gradient-bars"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-23T23:49:19Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-24T01:19:29.984Z"
+  },
+  {
+    "id": "zaydek/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "zaydek",
+    "repoURL": "https://github.com/zaydek/claude-code-statusline",
+    "description": "Claude Code statusline: account, agent, and per-model weekly usage limits including Fable",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "per-model-weekly-limits",
+      "account-usage-display",
+      "agent-tracking",
+      "usage-bars",
+      "reset-countdown",
+      "multi-account-support"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-08-23T20:43:20Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-24T01:19:29.984Z"
+  },
+  {
+    "id": "katipally/status-line",
+    "name": "status-line",
+    "author": "katipally",
+    "repoURL": "https://github.com/katipally/status-line",
+    "description": "Claude Code status line: context bar, 5h\\/7d rate limits with reset countdowns, cache reads, output style, model, thinking effort",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "OpenTelemetry"
+    ],
+    "features": [
+      "context-window-display",
+      "5h-rate-limit",
+      "7d-rate-limit",
+      "cache-read-tokens",
+      "countdown-timers",
+      "thinking-effort",
+      "color-coded-alerts"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-23T22:41:28Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-24T01:19:29.985Z"
+  },
+  {
+    "id": "devopsinside/burn-o-meter",
+    "name": "burn-o-meter",
+    "author": "devopsinside",
+    "repoURL": "https://github.com/devopsinside/burn-o-meter",
+    "description": "See what your AI coding agents really cost — tokens, spend, cache efficiency and rate limits. Works with Claude Code and Codex, more coming. Runs entirely on your machine: no account, no telemetry, no network.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "token-usage",
+      "cost-tracking",
+      "cache-efficiency",
+      "rate-limits",
+      "multi-agent",
+      "multi-provider",
+      "menubar-app",
+      "cli"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-23T19:47:15Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-24T01:19:29.985Z"
+  },
+  {
+    "id": "VlV-515/claudio-bar-vlv",
+    "name": "claudio-bar-vlv",
+    "author": "VlV-515",
+    "repoURL": "https://github.com/VlV-515/claudio-bar-vlv",
+    "description": "Native macOS menu bar app for Claude Code usage-alert sounds — live session %, custom thresholds, sound/shell actions, EN/ES UI.",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "live-usage-percentage",
+      "custom-thresholds",
+      "sound-alerts",
+      "shell-actions",
+      "multi-language-ui",
+      "menubar-widget",
+      "session-tracking",
+      "test-alerts"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-23T18:52:05Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-24T01:19:29.985Z"
+  },
+  {
+    "id": "Viben69/BurnMeter",
+    "name": "BurnMeter",
+    "author": "Viben69",
+    "repoURL": "https://github.com/Viben69/BurnMeter",
+    "description": "A desktop money-meter for Claude Code: what your usage would cost at API rates, versus what your subscription costs.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "burn-rate-dashboard",
+      "cost-analysis",
+      "session-breakdown",
+      "floating-gauge",
+      "multiple-faces",
+      "limit-tracking",
+      "zero-telemetry",
+      "token-metrics"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-23T20:35:36Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-24T01:19:29.985Z"
   }
 ]
