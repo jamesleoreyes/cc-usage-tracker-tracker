@@ -151407,5 +151407,32 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-24T18:41:24.624Z"
+  },
+  {
+    "id": "vikiboy/analog-neon-statusline",
+    "name": "analog-neon-statusline",
+    "author": "vikiboy",
+    "repoURL": "https://github.com/vikiboy/analog-neon-statusline",
+    "description": "A two-row grid status line for Claude Code, with matching subagent panel rows.",
+    "category": "Statusline",
+    "platforms": [
+      "web"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "context-meter",
+      "session-cost",
+      "rate-limit-display",
+      "subagent-rows",
+      "responsive-layout",
+      "color-hierarchy"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-24T22:30:30Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-25T01:16:57.224Z"
   }
 ]
