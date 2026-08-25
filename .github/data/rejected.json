@@ -1000,5 +1000,11 @@
     "reason": "This is a multi-account manager and rate-limit wrapper that switches between accounts when limits are hit, but does not display, measure, or report Claude usage as a feature—it only detects and reacts to rate-limit messages for account failover.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-25T12:48:55.206Z"
+  },
+  {
+    "id": "JackJosephWright/claude-code-setup",
+    "reason": "This is a personal dotfiles/setup collection for Claude Code configuration and memory discipline, not a usage tracker; while it includes a statusline that displays context % and cost, the core purpose is engineering philosophy and memory management, not measuring or reporting Claude usage.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-25T18:40:31.854Z"
   }
 ]
