@@ -982,5 +982,23 @@
     "reason": "This is a launcher/controller for Claude Code Remote Control sessions, not a usage tracker—it starts sessions and provides navigation but does not display, measure, or report Claude usage metrics.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-24T18:41:24.623Z"
+  },
+  {
+    "id": "martinliworking-debug/claude-config-public",
+    "reason": "This is a Claude Code configuration setup with global instructions, skills, and hooks—not a usage tracker; it does not display, measure, or report Claude API usage as a feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-25T12:48:29.303Z"
+  },
+  {
+    "id": "lukislp/claude-queue-platform",
+    "reason": "This is a task queue orchestrator and scheduler for Claude, not a usage tracker—it dispatches and manages tasks but does not measure, display, or report Claude usage metrics as a primary feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-25T12:48:50.076Z"
+  },
+  {
+    "id": "richandpoor/claudex",
+    "reason": "This is a multi-account manager and rate-limit wrapper that switches between accounts when limits are hit, but does not display, measure, or report Claude usage as a feature—it only detects and reacts to rate-limit messages for account failover.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-25T12:48:55.206Z"
   }
 ]

@@ -151587,5 +151587,342 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-25T06:49:22.438Z"
+  },
+  {
+    "id": "sshykvlv/claude-usage-autopilot",
+    "name": "claude-usage-autopilot",
+    "author": "sshykvlv",
+    "repoURL": "https://github.com/sshykvlv/claude-usage-autopilot",
+    "description": "Claude usage tracker on autopilot — paces your Claude Code weekly limits and switches to eco-mode automatically",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "burn-rate-alerts",
+      "weekly-quota-pacing",
+      "autonomous-eco-mode",
+      "jsonl-history",
+      "in-session-notifications",
+      "grind-detector"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-25T12:40:13Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-25T12:49:06.468Z"
+  },
+  {
+    "id": "x-cmd-install/claude-usage",
+    "name": "claude-usage",
+    "author": "x-cmd-install",
+    "repoURL": "https://github.com/x-cmd-install/claude-usage",
+    "description": "  A local dashboard for tracking your Claude Code token usage, costs, and session history. Pro and Max subscribers get a progress bar. This gives you the full picture. ",
+    "category": "Web Dashboard",
+    "platforms": [
+      "web"
+    ],
+    "language": "Unknown",
+    "authMethod": [],
+    "features": [
+      "token-tracking",
+      "cost-calculation",
+      "session-history",
+      "usage-progress-bar"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-25T08:34:32Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-25T12:49:06.468Z"
+  },
+  {
+    "id": "x-cmd-install/ccstatusline",
+    "name": "ccstatusline",
+    "author": "x-cmd-install",
+    "repoURL": "https://github.com/x-cmd-install/ccstatusline",
+    "description": "  🚀 Beautiful highly customizable statusline for Claude Code CLI with powerline support, themes, and more. ",
+    "category": "Statusline",
+    "platforms": [
+      "web"
+    ],
+    "language": "Unknown",
+    "authMethod": [],
+    "features": [
+      "customizable-themes",
+      "powerline-support",
+      "cli-integration"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-25T10:30:40Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-25T12:49:06.468Z"
+  },
+  {
+    "id": "jagp/claude-tui-dashboard",
+    "name": "claude-tui-dashboard",
+    "author": "jagp",
+    "repoURL": "https://github.com/jagp/claude-tui-dashboard",
+    "description": "Turns Claude Code's statusline from a reporting tool into a dashboard capable of taking action",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "HTML",
+    "authMethod": [],
+    "features": [
+      "rate-limit-display",
+      "session-token-count",
+      "model-badge",
+      "effort-dial",
+      "clickable-links",
+      "statusline-dashboard"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-25T09:49:46Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-25T12:49:06.468Z"
+  },
+  {
+    "id": "PubesPattamapulchai/mha-statusline",
+    "name": "mha-statusline",
+    "author": "PubesPattamapulchai",
+    "repoURL": "https://github.com/PubesPattamapulchai/mha-statusline",
+    "description": "My Hero Academia themed Claude Code statusline — pure PowerShell, no node/npm/jq required",
+    "category": "Statusline",
+    "platforms": [
+      "windows"
+    ],
+    "language": "PowerShell",
+    "authMethod": [],
+    "features": [
+      "context-window-display",
+      "rate-limit-tracking",
+      "cost-tracking",
+      "session-stats",
+      "git-integration"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-25T09:21:47Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-25T12:49:06.468Z"
+  },
+  {
+    "id": "timsheu/claude-statusline",
+    "name": "claude-statusline",
+    "author": "timsheu",
+    "repoURL": "https://github.com/timsheu/claude-statusline",
+    "description": "A configurable Claude Code status line in plain bash — single file, no hooks, no Node.js",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "context-window-display",
+      "rate-limit-tracking",
+      "model-display",
+      "effort-level",
+      "git-branch-integration",
+      "configurable-layout",
+      "multi-row-display"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-25T07:16:02Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-25T12:49:06.468Z"
+  },
+  {
+    "id": "barnuri/harness-status-line",
+    "name": "harness-status-line",
+    "author": "barnuri",
+    "repoURL": "https://github.com/barnuri/harness-status-line",
+    "description": "Claude Code status line — cwd | model | context% | tokens | rate-limit stats",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "multi-harness-support",
+      "context-usage-display",
+      "rate-limit-stats",
+      "session-quota-tracking",
+      "multi-model"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-25T11:08:57Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-25T12:49:06.468Z"
+  },
+  {
+    "id": "Abhi902/headroom-plugin",
+    "name": "headroom-plugin",
+    "author": "Abhi902",
+    "repoURL": "https://github.com/Abhi902/headroom-plugin",
+    "description": "Claude Code plugin: status-line indicator for whether the headroom MCP compression is being used this session",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "context-compression-tracking",
+      "token-savings-display",
+      "real-time-status-badge",
+      "session-cost-calculation",
+      "all-time-totals",
+      "health-diagnostics",
+      "mcp-integration"
+    ],
+    "builtWithClaude": true,
+    "stars": 3,
+    "lastCommitDate": "2026-08-25T11:35:54Z",
+    "openIssues": 1,
+    "archived": false,
+    "lastFetched": "2026-08-25T12:49:06.468Z"
+  },
+  {
+    "id": "x-cmd-install/abtop",
+    "name": "abtop",
+    "author": "x-cmd-install",
+    "repoURL": "https://github.com/x-cmd-install/abtop",
+    "description": "  Like htop, but for AI coding agents. Monitor Claude    Code & Codex CLI sessions, tokens, context window,    rate limits, and ports in real-time. ",
+    "category": "Terminal UI",
+    "platforms": [
+      "linux",
+      "macos"
+    ],
+    "language": "Unknown",
+    "authMethod": [],
+    "features": [
+      "real-time-monitoring",
+      "token-tracking",
+      "context-window",
+      "rate-limits",
+      "sessions",
+      "ports"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-25T11:26:40Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-25T12:49:06.468Z"
+  },
+  {
+    "id": "getzenai/whatsmyusage",
+    "name": "whatsmyusage",
+    "author": "getzenai",
+    "repoURL": "https://github.com/getzenai/whatsmyusage",
+    "description": "WhatsMyUsage — macOS menu bar app showing the binding usage limit across your AI subscriptions (Claude, ChatGPT, Grok)",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "multi-account",
+      "multi-provider",
+      "limit-reset-times",
+      "achievements",
+      "keyboard-native",
+      "keychain-storage",
+      "color-coded-alerts"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-25T12:45:13Z",
+    "openIssues": 6,
+    "archived": false,
+    "lastFetched": "2026-08-25T12:49:06.468Z"
+  },
+  {
+    "id": "legitedeV/Usage4Claude-LINUX",
+    "name": "Usage4Claude-LINUX",
+    "author": "legitedeV",
+    "repoURL": "https://github.com/legitedeV/Usage4Claude-LINUX",
+    "description": "Linuksowy port Usage4Claude — zużycie limitów Claude w terminalu, waybar i trayu",
+    "category": "Waybar Module",
+    "platforms": [
+      "linux"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "claude-usage-display",
+      "session-monitoring",
+      "approval-workflow",
+      "ssh-remote-sessions",
+      "audit-logging",
+      "risk-classification",
+      "command-center-ui",
+      "tray-integration"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-25T11:12:37Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-25T12:49:06.468Z"
+  },
+  {
+    "id": "0110110101100001/token_tracker",
+    "name": "token_tracker",
+    "author": "0110110101100001",
+    "repoURL": "https://github.com/0110110101100001/token_tracker",
+    "description": "Track Claude's token usage",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "linux",
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Traffic Capture",
+      "Session Key"
+    ],
+    "features": [
+      "cost-tracking",
+      "always-on-top",
+      "account-limits",
+      "per-session-pricing",
+      "rate-limit-display",
+      "auto-refresh"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-22T10:48:40Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-25T12:49:06.468Z"
   }
 ]
