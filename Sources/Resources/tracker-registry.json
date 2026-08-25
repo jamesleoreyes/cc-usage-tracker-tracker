@@ -151437,5 +151437,153 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-25T01:16:57.224Z"
+  },
+  {
+    "id": "swguan325/mac-token-monitor",
+    "name": "mac-token-monitor",
+    "author": "swguan325",
+    "repoURL": "https://github.com/swguan325/mac-token-monitor",
+    "description": "macOS menu-bar widget showing Claude Code + OpenAI Codex CLI token usage and cost. Native Swift, zero dependencies, reads local logs only.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "dual-provider-tokens",
+      "cost-estimation",
+      "session-tracking",
+      "time-windows",
+      "cache-metrics",
+      "quota-display"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-25T03:36:16Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-25T06:49:22.438Z"
+  },
+  {
+    "id": "aljosaRakita/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "aljosaRakita",
+    "repoURL": "https://github.com/aljosaRakita/claude-code-statusline",
+    "description": "A two-row status line for Claude Code, plus the hooks that feed it. Session name, context bar, tokens, cost, git branch, and a date stamp in the chat. macOS and Linux.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "context-window-display",
+      "token-tracking",
+      "cost-tracking",
+      "session-names",
+      "git-integration",
+      "chat-timestamps"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-25T06:27:49Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-25T06:49:22.438Z"
+  },
+  {
+    "id": "Huynha1/claude-statusline",
+    "name": "claude-statusline",
+    "author": "Huynha1",
+    "repoURL": "https://github.com/Huynha1/claude-statusline",
+    "description": "A responsive Claude Code status line: model, context window, and plan rate limits as color-filling progress bars that reflow to your terminal width.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "context-window-display",
+      "rate-limit-tracking",
+      "token-count-display",
+      "progress-bars",
+      "live-model-switch",
+      "session-timer"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-25T05:24:26Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-25T06:49:22.438Z"
+  },
+  {
+    "id": "ale256/trafficlight",
+    "name": "trafficlight",
+    "author": "ale256",
+    "repoURL": "https://github.com/ale256/trafficlight",
+    "description": "One light per live agent session, in your macOS menu bar. Claude Code, Codex and Cursor — including Remote-SSH windows.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Objective-C",
+    "authMethod": [
+      "Traffic Capture"
+    ],
+    "features": [
+      "agent-session-monitoring",
+      "multi-provider-support",
+      "menu-bar-display",
+      "floating-panel",
+      "state-logging",
+      "local-only"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-25T03:54:01Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-25T06:49:22.438Z"
+  },
+  {
+    "id": "vprotti/usetokens",
+    "name": "usetokens",
+    "author": "vprotti",
+    "repoURL": "https://github.com/vprotti/usetokens",
+    "description": "Quanto do seu plano de IA ja foi, na barra de menus. ChatGPT e Claude, sem servidor e sem conta. · Your ChatGPT and Claude plan usage in the menu bar.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Browser Cookie Auto-detect",
+      "API Key"
+    ],
+    "features": [
+      "menubar-display",
+      "claude-usage",
+      "chatgpt-usage",
+      "rate-limit-alerts",
+      "multi-account",
+      "privacy-focused",
+      "zero-server",
+      "password-free"
+    ],
+    "builtWithClaude": null,
+    "stars": 1,
+    "lastCommitDate": "2026-08-25T02:43:08Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-25T06:49:22.438Z"
   }
 ]
