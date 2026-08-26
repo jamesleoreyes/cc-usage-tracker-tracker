@@ -152254,5 +152254,159 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-25T18:41:00.592Z"
+  },
+  {
+    "id": "LostCore/ai-bootstrap",
+    "name": "ai-bootstrap",
+    "author": "LostCore",
+    "repoURL": "https://github.com/LostCore/ai-bootstrap",
+    "description": "Personal bootstrap for a new machine: shared agent instructions, Claude Code statusline, and plugin setup, linked from the home directory.",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "statusline-display",
+      "context-usage",
+      "session-cost",
+      "rate-limits"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-25T22:10:35Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-26T01:19:54.398Z"
+  },
+  {
+    "id": "oshricohenme/claude_plugin_realistic_cost",
+    "name": "claude_plugin_realistic_cost",
+    "author": "oshricohenme",
+    "repoURL": "https://github.com/oshricohenme/claude_plugin_realistic_cost",
+    "description": "Estimate what a 100% human-driven engineering team would have cost to produce the work in an AI coding session — priced across eleven job functions, as a terminal receipt, status line, or exported report. Claude Code plugin, opencode plugin, and CLI.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "cost-estimation",
+      "realistic-pricing",
+      "session-analysis",
+      "multi-function-allocation",
+      "coordination-overhead",
+      "effort-calculation",
+      "pdf-export",
+      "ascii-receipt"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-25T19:44:54Z",
+    "openIssues": 3,
+    "archived": false,
+    "lastFetched": "2026-08-26T01:19:54.398Z"
+  },
+  {
+    "id": "Fru1tt/claude-capacity",
+    "name": "claude-capacity",
+    "author": "Fru1tt",
+    "repoURL": "https://github.com/Fru1tt/claude-capacity",
+    "description": "Quota-aware gating for unattended Claude Code: a status-line hook records your limits, an exit-code check keeps autonomous agents and cron jobs from launching into a spent window.",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "quota-gating",
+      "rate-limit-alerts",
+      "cron-job-protection",
+      "window-reset-tracking",
+      "exit-code-checks",
+      "multi-tier-limits",
+      "json-export"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-25T23:17:39Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-26T01:19:54.398Z"
+  },
+  {
+    "id": "WhistlerChoi/claude-codex-usage",
+    "name": "claude-codex-usage",
+    "author": "WhistlerChoi",
+    "repoURL": "https://github.com/WhistlerChoi/claude-codex-usage",
+    "description": "Always-visible Claude Code 5h/weekly usage — VSCode status bar, system tray (Go), and macOS menu bar (Swift)",
+    "category": "VS Code Extension",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux",
+      "vscode"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "claude-code-usage",
+      "weekly-quota",
+      "status-bar-display",
+      "multi-platform",
+      "real-time-refresh",
+      "alert-thresholds",
+      "model-display"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-26T01:08:17Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-26T01:19:54.398Z"
+  },
+  {
+    "id": "AlchemistChaos/ai-usage-meter",
+    "name": "ai-usage-meter",
+    "author": "AlchemistChaos",
+    "repoURL": "https://github.com/AlchemistChaos/ai-usage-meter",
+    "description": "AI usage meter for Claude and Codex",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "Session Key",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "claude-usage-display",
+      "codex-usage-display",
+      "rate-limit-tracking",
+      "multi-account",
+      "menu-bar-dashboard",
+      "reset-countdowns"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-26T00:20:44Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-26T01:19:54.398Z"
   }
 ]
