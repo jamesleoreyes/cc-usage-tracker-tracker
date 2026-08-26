@@ -1012,5 +1012,23 @@
     "reason": "This is a game launcher for Claude Code's statusline—it displays games playable within the statusline but does not track or report Claude usage metrics, tokens, costs, or quotas.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-26T12:53:27.822Z"
+  },
+  {
+    "id": "mochitablog0326-lgtm/cc-statusline-omikuji",
+    "reason": "This is a game launcher for Claude Code's status line, not a usage tracker—it displays games and fortunes, not Claude usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-26T19:48:03.508Z"
+  },
+  {
+    "id": "fikret/qwen-code-time-tracker",
+    "reason": "This is a port of claude-code-time-tracker adapted for Qwen Code (a different AI editor), not a Claude usage tracker, so it does not belong in a Claude tracker registry.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-26T19:48:06.565Z"
+  },
+  {
+    "id": "Globalmeta/claude-code-widget",
+    "reason": "This widget monitors Claude Code session states and activity but does not display, measure, or report Claude usage metrics (tokens, costs, rate limits); it is a session manager and status monitor, not a usage tracker.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-26T19:48:16.115Z"
   }
 ]
