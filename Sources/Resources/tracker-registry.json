@@ -152412,5 +152412,232 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-26T01:19:54.398Z"
+  },
+  {
+    "id": "nicholaspsmith/claude-usage-menubar",
+    "name": "claude-usage-menubar",
+    "author": "nicholaspsmith",
+    "repoURL": "https://github.com/nicholaspsmith/claude-usage-menubar",
+    "description": "macOS menu-bar app for Claude Code usage: plan limits (5-hour + weekly) from Anthropic's OAuth usage endpoint, token spend by day and model from local transcripts, and live session state. Built on StatusItemKit.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "Session Cookie"
+    ],
+    "features": [
+      "plan-limits",
+      "session-tracking",
+      "token-spend",
+      "daily-breakdown",
+      "visual-meter",
+      "weekly-window"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-26T03:48:50Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-26T06:51:46.522Z"
+  },
+  {
+    "id": "dhorens/ClaudeUsageBar",
+    "name": "ClaudeUsageBar",
+    "author": "dhorens",
+    "repoURL": "https://github.com/dhorens/ClaudeUsageBar",
+    "description": "A tiny macOS menu bar app that shows your Claude usage % without opening settings.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "menu-bar-display",
+      "usage-percentage",
+      "polling-timer",
+      "session-cookie-auth",
+      "multi-value-selection",
+      "adjustable-refresh-interval"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-26T02:05:05Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-26T06:51:46.522Z"
+  },
+  {
+    "id": "aforceskiddies/Claude-Statusline",
+    "name": "Claude-Statusline",
+    "author": "aforceskiddies",
+    "repoURL": "https://github.com/aforceskiddies/Claude-Statusline",
+    "description": "Status of Claude code CLI ",
+    "category": "Claude Code Plugin",
+    "platforms": [],
+    "language": "JavaScript",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "context-window-display",
+      "spend-tracking",
+      "model-info",
+      "session-duration",
+      "budget-alerts",
+      "openrouter-support",
+      "litellm-gateway"
+    ],
+    "builtWithClaude": null,
+    "stars": 1,
+    "lastCommitDate": "2026-08-26T06:46:51Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-26T06:51:46.523Z"
+  },
+  {
+    "id": "hedingerm/statuslines",
+    "name": "statuslines",
+    "author": "hedingerm",
+    "repoURL": "https://github.com/hedingerm/statuslines",
+    "description": "Install Claude Code status line templates with one command",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "JavaScript",
+    "authMethod": [],
+    "features": [
+      "status-line-templates",
+      "context-usage-display",
+      "cost-tracking",
+      "session-json-parser",
+      "interactive-installer"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-26T05:00:05Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-26T06:51:46.523Z"
+  },
+  {
+    "id": "ozzycodes2/cc-powerline",
+    "name": "cc-powerline",
+    "author": "ozzycodes2",
+    "repoURL": "https://github.com/ozzycodes2/cc-powerline",
+    "description": "Claude Code status line tailored for Powerline users",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "precise-cost-calculation",
+      "powerline-compatible",
+      "real-token-pricing",
+      "session-tracking",
+      "context-length-display",
+      "cache-hit-tracking"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-26T03:51:36Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-26T06:51:46.523Z"
+  },
+  {
+    "id": "waveblog/aibar",
+    "name": "aibar",
+    "author": "waveblog",
+    "repoURL": "https://github.com/waveblog/aibar",
+    "description": "macOS menu bar app for Claude Code, Codex, and Grok token usage, cost, and quota",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Unknown",
+    "authMethod": [],
+    "features": [
+      "token-usage",
+      "cost-tracking",
+      "quota-monitoring",
+      "multi-model"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-26T06:12:17Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-26T06:51:46.523Z"
+  },
+  {
+    "id": "daveycodez/dsh-plugin-usage-meter",
+    "name": "dsh-plugin-usage-meter",
+    "author": "daveycodez",
+    "repoURL": "https://github.com/daveycodez/dsh-plugin-usage-meter",
+    "description": "Subscription usage meter for the DeepSeek Harness composer: a ring beside the model selector showing your Claude plan limits",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "claude-usage-display",
+      "usage-ring-indicator",
+      "weekly-limits",
+      "rate-limit-alerts",
+      "plan-limits",
+      "usage-breakdown-panel"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-26T02:48:55Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-26T06:51:46.523Z"
+  },
+  {
+    "id": "nowheremanx/ditoo-claude-meter",
+    "name": "ditoo-claude-meter",
+    "author": "nowheremanx",
+    "repoURL": "https://github.com/nowheremanx/ditoo-claude-meter",
+    "description": "A 16×16 Bluetooth pixel pet that shows Claude Code's usage quota — and its mood (working / waiting / idle / asleep) — on a Divoom Ditoo Mic",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Session Key",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "claude-code-quota",
+      "5h-7d-usage",
+      "mood-status-ring-gauge",
+      "pixel-pet-display",
+      "divoom-hardware",
+      "bluetooth-statusline-integration"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-26T01:54:26Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-26T06:51:46.523Z"
   }
 ]
