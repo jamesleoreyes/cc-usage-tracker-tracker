@@ -1006,5 +1006,11 @@
     "reason": "This is a personal dotfiles/setup collection for Claude Code configuration and memory discipline, not a usage tracker; while it includes a statusline that displays context % and cost, the core purpose is engineering philosophy and memory management, not measuring or reporting Claude usage.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-25T18:40:31.854Z"
+  },
+  {
+    "id": "mochitablog0326-lgtm/cc-statusline-games",
+    "reason": "This is a game launcher for Claude Code's statusline—it displays games playable within the statusline but does not track or report Claude usage metrics, tokens, costs, or quotas.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-26T12:53:27.822Z"
   }
 ]
