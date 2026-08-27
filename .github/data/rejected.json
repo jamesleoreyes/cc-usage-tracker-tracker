@@ -1030,5 +1030,11 @@
     "reason": "This widget monitors Claude Code session states and activity but does not display, measure, or report Claude usage metrics (tokens, costs, rate limits); it is a session manager and status monitor, not a usage tracker.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-26T19:48:16.115Z"
+  },
+  {
+    "id": "arturoburigo/claude-profiles",
+    "reason": "This is a multi-account profile switcher and onboarding tool for Claude Code with statusline integration, but it does not display, measure, or report Claude usage (tokens, cost, rate limits, quotas) as a substantial feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-27T07:54:51.141Z"
   }
 ]
