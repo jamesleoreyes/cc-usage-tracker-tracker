@@ -1036,5 +1036,35 @@
     "reason": "This is a multi-account profile switcher and onboarding tool for Claude Code with statusline integration, but it does not display, measure, or report Claude usage (tokens, cost, rate limits, quotas) as a substantial feature.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-27T07:54:51.141Z"
+  },
+  {
+    "id": "powcai001/personal-plugins",
+    "reason": "This is a Claude Code plugin collection featuring a statusline, health reminder, and virtual pet—none of which display or report Claude usage as a substantial feature; the statusline shows context window usage as one segment among many, but usage tracking is not the project's purpose.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-27T21:54:31.979Z"
+  },
+  {
+    "id": "viktorinkov/simple-english-hook",
+    "reason": "This is a Claude Code hook that enforces writing rules; it does not display, measure, or report Claude usage (tokens, costs, quotas, etc.) and therefore does not qualify as a usage tracker.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-27T21:54:34.568Z"
+  },
+  {
+    "id": "abhibansal60/cyberdeck-setup",
+    "reason": "This is a Claude Code skill for setting up a developer environment with no Claude usage tracking or measurement features; it does not display, measure, or report Claude/Claude Code usage as a substantial feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-27T21:54:37.929Z"
+  },
+  {
+    "id": "yjones-coder/cc-seat",
+    "reason": "This is a Claude Code login swapper/rotator for managing rate limits across multiple seats, not a usage tracker—it does not display, measure, or report Claude usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-27T21:54:50.881Z"
+  },
+  {
+    "id": "iAlias/AutoRestartLLM",
+    "reason": "AutoRestartLLM is a Claude Code automation tool that detects and handles rate limits, but does not display, measure, or report Claude usage as a substantial feature—it only restarts sessions without providing usage analytics or dashboards.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-27T21:54:53.834Z"
   }
 ]
