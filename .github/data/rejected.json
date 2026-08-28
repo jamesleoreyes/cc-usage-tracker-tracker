@@ -1066,5 +1066,11 @@
     "reason": "AutoRestartLLM is a Claude Code automation tool that detects and handles rate limits, but does not display, measure, or report Claude usage as a substantial feature—it only restarts sessions without providing usage analytics or dashboards.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-27T21:54:53.834Z"
+  },
+  {
+    "id": "zzmicer/lingua",
+    "reason": "This is a language-learning spaced-repetition tool that displays cards in the status line during agent idle time, not a Claude usage tracker — it shows language vocabulary, not Claude token/cost metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-28T09:59:06.347Z"
   }
 ]
