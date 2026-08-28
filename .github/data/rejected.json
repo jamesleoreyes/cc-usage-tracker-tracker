@@ -1072,5 +1072,17 @@
     "reason": "This is a language-learning spaced-repetition tool that displays cards in the status line during agent idle time, not a Claude usage tracker — it shows language vocabulary, not Claude token/cost metrics.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-28T09:59:06.347Z"
+  },
+  {
+    "id": "bananasfromwork/claude-code-plugin",
+    "reason": "This is a Claude Code plugin that displays social media content in the statusline; it does not track, measure, or report Claude usage metrics and therefore does not qualify for the registry.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-28T21:48:05.978Z"
+  },
+  {
+    "id": "giginet/CCMissionControl",
+    "reason": "This is a session orchestrator and monitor for Claude Code in WezTerm that displays session count and status, but does not measure or report Claude API usage (tokens, cost, rate limits) as a substantial feature.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-08-28T21:48:21.770Z"
   }
 ]
