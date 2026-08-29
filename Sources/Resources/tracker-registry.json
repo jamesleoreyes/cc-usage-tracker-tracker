@@ -154624,5 +154624,283 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-29T12:31:47.583Z"
+  },
+  {
+    "id": "Raaay522/claude-usage-widget",
+    "name": "claude-usage-widget",
+    "author": "Raaay522",
+    "repoURL": "https://github.com/Raaay522/claude-usage-widget",
+    "description": "Claude Code 額度用量的 Windows 桌面小工具：常駐視窗與狀態列環形圖示，支援多台電腦共用帳號時的用量歸因",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "PowerShell",
+    "authMethod": [
+      "OAuth Token",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "multi-account-attribution",
+      "shared-quota-monitoring",
+      "status-bar-widget",
+      "ip-based-user-tracking",
+      "realtime-updates",
+      "multi-machine-pooling"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-29T20:30:09Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-29T20:31:57.226Z"
+  },
+  {
+    "id": "two-pizza/ClaudeUsageBar",
+    "name": "ClaudeUsageBar",
+    "author": "two-pizza",
+    "repoURL": "https://github.com/two-pizza/ClaudeUsageBar",
+    "description": "Индикатор лимитов Claude (usage) в строке меню macOS",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "usage-display",
+      "rate-limits",
+      "session-window",
+      "weekly-limits",
+      "menu-bar-status",
+      "auto-refresh"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-29T20:05:48Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-29T20:31:57.226Z"
+  },
+  {
+    "id": "Robernetes/claude-statusline",
+    "name": "claude-statusline",
+    "author": "Robernetes",
+    "repoURL": "https://github.com/Robernetes/claude-statusline",
+    "description": "Status line for Claude Code",
+    "category": "Statusline",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Unknown",
+    "authMethod": [],
+    "features": [
+      "claude-usage-display"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-29T18:38:35Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-29T20:31:57.226Z"
+  },
+  {
+    "id": "tasqrai/tasqr-statusline",
+    "name": "tasqr-statusline",
+    "author": "tasqrai",
+    "repoURL": "https://github.com/tasqrai/tasqr-statusline",
+    "description": "A Claude Code status line for people using Tasqr for intelligent task tracking.",
+    "category": "Statusline",
+    "platforms": [
+      "web"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "task-queue-display",
+      "context-usage",
+      "blocked-tasks",
+      "quota-monitoring",
+      "tasqr-integration",
+      "git-branch-display"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-29T17:35:30Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-29T20:31:57.227Z"
+  },
+  {
+    "id": "emgiezet/dumbline",
+    "name": "dumbline",
+    "author": "emgiezet",
+    "repoURL": "https://github.com/emgiezet/dumbline",
+    "description": "Claude Code status-line indicator: green SMART below 100k input tokens, red DUMB at or above. Built on Dex Horthy's Smart Zone / Dumb Zone framing and Chroma's Context Rot research.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "context-usage-display",
+      "token-counter",
+      "smart-zone-dumb-zone",
+      "statusline",
+      "context-window-monitor"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-29T15:49:36Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-29T20:31:57.227Z"
+  },
+  {
+    "id": "MikkoNumminen/claude-code-customization",
+    "name": "claude-code-customization",
+    "author": "MikkoNumminen",
+    "repoURL": "https://github.com/MikkoNumminen/claude-code-customization",
+    "description": "Sci-fi console bar for Claude Code: an animated project name pinned to the top of the Windows Terminal window, with a session-limit gauge beneath it.",
+    "category": "Statusline",
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "language": "JavaScript",
+    "authMethod": [],
+    "features": [
+      "session-limit-gauge",
+      "animated-ui",
+      "windows-terminal-integration",
+      "status-line-display"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-29T14:49:49Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-29T20:31:57.227Z"
+  },
+  {
+    "id": "justdan0227/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "justdan0227",
+    "repoURL": "https://github.com/justdan0227/claude-code-statusline",
+    "description": "A colorized status line for Claude Code. One file, no daemon, colors picked by name.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "colorized-status-display",
+      "model-name-rendering",
+      "context-usage-display",
+      "no-daemon",
+      "single-file"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-29T13:47:39Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-29T20:31:57.227Z"
+  },
+  {
+    "id": "alimkhair/claudash",
+    "name": "claudash",
+    "author": "alimkhair",
+    "repoURL": "https://github.com/alimkhair/claudash",
+    "description": "A cockpit status line for Claude Code — git, model, context, session, cost — with your own icons.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "status-line",
+      "context-window",
+      "token-count",
+      "session-cost",
+      "git-branch",
+      "model-display"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-29T19:47:05Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-29T20:31:57.227Z"
+  },
+  {
+    "id": "webteractive/token-usage",
+    "name": "token-usage",
+    "author": "webteractive",
+    "repoURL": "https://github.com/webteractive/token-usage",
+    "description": "macOS menu bar app for Claude Code and Codex quota usage",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "Session Key"
+    ],
+    "features": [
+      "claude-quota-tracking",
+      "codex-quota-tracking",
+      "5h-7d-windows",
+      "reset-countdowns",
+      "multi-provider",
+      "severity-indicators"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-29T14:56:48Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-29T20:31:57.227Z"
+  },
+  {
+    "id": "JeanLescutMuller/agent-statusline",
+    "name": "agent-statusline",
+    "author": "JeanLescutMuller",
+    "repoURL": "https://github.com/JeanLescutMuller/agent-statusline",
+    "description": "A tool for a consistent statusline experience across both Claude and Codex",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "claude-quotas",
+      "codex-quotas",
+      "multi-provider",
+      "lazy-cache",
+      "git-status"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-29T17:02:25Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-29T20:31:57.227Z"
   }
 ]

@@ -1090,5 +1090,17 @@
     "reason": "This is an account switcher/pooler that displays usage via live rate-limit checks, but usage display is not its substantial feature—the substantial feature is transparent multi-account overflow without thinking about which account owns config; it qualifies as a tracker only if rate-limit display were the primary purpose, which it is not.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-29T05:58:16.738Z"
+  },
+  {
+    "id": "paunescumihai/claude-task-manager",
+    "reason": "This is a task management system for Claude Code that queues prompts and displays them in a statusline, but does not measure, display, or report Claude usage metrics (tokens, costs, rate limits, etc.) as a feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-29T20:31:40.494Z"
+  },
+  {
+    "id": "abhibansal60/ai-workbench",
+    "reason": "This is a Claude Code skill for setting up a development environment with themed tools; it does not track or measure Claude usage as a substantial feature, despite including a context-usage status line element.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-29T20:31:51.742Z"
   }
 ]
