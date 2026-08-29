@@ -154465,5 +154465,157 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-29T05:58:23.437Z"
+  },
+  {
+    "id": "kofdarelli/ai-usage-plasmoid",
+    "name": "ai-usage-plasmoid",
+    "author": "kofdarelli",
+    "repoURL": "https://github.com/kofdarelli/ai-usage-plasmoid",
+    "description": "KDE Plasma 6 widget that shows Claude Code and Codex usage limits with liquid glass styling",
+    "category": "Übersicht Widget",
+    "platforms": [
+      "linux"
+    ],
+    "language": "QML",
+    "authMethod": [
+      "OAuth Token",
+      "API Key",
+      "Traffic Capture"
+    ],
+    "features": [
+      "claude-usage-rings",
+      "codex-usage-limits",
+      "reset-countdowns",
+      "offline-fallback",
+      "multi-service",
+      "liquid-glass-ui",
+      "cache-persistence"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-29T08:37:59Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-29T12:31:47.582Z"
+  },
+  {
+    "id": "displace-agency/tool-claude-statusline-enhanced",
+    "name": "tool-claude-statusline-enhanced",
+    "author": "displace-agency",
+    "repoURL": "https://github.com/displace-agency/tool-claude-statusline-enhanced",
+    "description": "Enhanced statusline for Claude Code with real-time token usage, costs, cache efficiency, and session metrics",
+    "category": "Statusline",
+    "platforms": [],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "token-usage",
+      "cost-tracking",
+      "rate-limit-display",
+      "cache-efficiency",
+      "session-metrics",
+      "context-window-tracking",
+      "multi-model-support"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-29T12:14:31Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-29T12:31:47.583Z"
+  },
+  {
+    "id": "AHMED-HOMISHAN/universal-ai-statusline",
+    "name": "universal-ai-statusline",
+    "author": "AHMED-HOMISHAN",
+    "repoURL": "https://github.com/AHMED-HOMISHAN/universal-ai-statusline",
+    "description": "Universal status line for Claude Code, OpenAI Codex CLI and Gemini CLI — model, context usage, tokens and git in one bar. ",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux",
+      "vscode"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Traffic Capture",
+      "API Key"
+    ],
+    "features": [
+      "multi-provider",
+      "token-usage",
+      "context-window",
+      "cost-tracking",
+      "rate-limits",
+      "session-duration",
+      "git-info",
+      "vs-code-extension"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-29T10:42:54Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-29T12:31:47.583Z"
+  },
+  {
+    "id": "Deckerda/context-gauge",
+    "name": "context-gauge",
+    "author": "Deckerda",
+    "repoURL": "https://github.com/Deckerda/context-gauge",
+    "description": "A live context-window gauge for the Claude Code status line — see how full your context is as you work.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "context-window-gauge",
+      "live-display",
+      "color-coded-fill",
+      "token-counter",
+      "session-duration",
+      "rate-limit-display"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-29T09:47:16Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-29T12:31:47.583Z"
+  },
+  {
+    "id": "huytranthanhtps/claude-code-statusline-kit",
+    "name": "claude-code-statusline-kit",
+    "author": "huytranthanhtps",
+    "repoURL": "https://github.com/huytranthanhtps/claude-code-statusline-kit",
+    "description": "Two-line Claude Code status line plus a destructive-command guard hook. One install flow for macOS, Linux and Windows.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "claude-usage-display",
+      "context-window-bar",
+      "rate-limit-tracking",
+      "model-display",
+      "git-integration",
+      "destructive-command-guard"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-29T06:00:40Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-29T12:31:47.583Z"
   }
 ]
