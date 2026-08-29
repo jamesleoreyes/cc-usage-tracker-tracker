@@ -154262,5 +154262,207 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-28T09:59:15.636Z"
+  },
+  {
+    "id": "Beacon-K/claude-usage-ring-mockup",
+    "name": "claude-usage-ring-mockup",
+    "author": "Beacon-K",
+    "repoURL": "https://github.com/Beacon-K/claude-usage-ring-mockup",
+    "description": "Mockup: title-bar usage ring for Claude desktop app",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "macos"
+    ],
+    "language": "HTML",
+    "authMethod": [],
+    "features": [
+      "usage-ring-display",
+      "title-bar-widget",
+      "visual-indicator"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-29T03:41:18Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-29T05:58:23.437Z"
+  },
+  {
+    "id": "nvmddev/limitpeek",
+    "name": "limitpeek",
+    "author": "nvmddev",
+    "repoURL": "https://github.com/nvmddev/limitpeek",
+    "description": "Claude usage limits in the macOS menu bar",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "menu-bar-display",
+      "usage-limits",
+      "5-hour-window",
+      "weekly-limits",
+      "usage-credits",
+      "multi-model-buckets",
+      "rate-limit-backoff",
+      "auto-polling"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-28T22:53:07Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-29T05:58:23.437Z"
+  },
+  {
+    "id": "Jarkius/Jarkius.github.io",
+    "name": "Jarkius.github.io",
+    "author": "Jarkius",
+    "repoURL": "https://github.com/Jarkius/Jarkius.github.io",
+    "description": "Jarkius's dev notes — starting with the Claude Code multi-line statusline dashboard",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "multi-line-display",
+      "shell-based",
+      "real-time-status"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-29T05:23:52Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-29T05:58:23.437Z"
+  },
+  {
+    "id": "aronmarden/claude-statusline-gauge",
+    "name": "claude-statusline-gauge",
+    "author": "aronmarden",
+    "repoURL": "https://github.com/aronmarden/claude-statusline-gauge",
+    "description": "Pace gauges for the Claude Code status line: not just how much of your 5h/7d window is used, but whether you are ahead of pace and where your current burn rate lands you.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "pace-gauge",
+      "burn-rate",
+      "token-history",
+      "window-projection",
+      "multi-model",
+      "cost-tracking"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-29T05:10:47Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-29T05:58:23.437Z"
+  },
+  {
+    "id": "astrosteveo/claude-statusline",
+    "name": "claude-statusline",
+    "author": "astrosteveo",
+    "repoURL": "https://github.com/astrosteveo/claude-statusline",
+    "description": "Two-line Claude Code status line: model, git and cost up top; context and rate-limit bars anchored right. Stdlib Python, TOML config.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "Python",
+    "authMethod": [],
+    "features": [
+      "context-usage-bars",
+      "rate-limit-windows",
+      "cost-tracking",
+      "git-state",
+      "burn-rate-projection",
+      "session-info"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-28T22:56:05Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-29T05:58:23.437Z"
+  },
+  {
+    "id": "Ashley223/QuotaMenuBar",
+    "name": "QuotaMenuBar",
+    "author": "Ashley223",
+    "repoURL": "https://github.com/Ashley223/QuotaMenuBar",
+    "description": "macOS menu bar app: Claude 5h/7d quota, Gemini quota, per-day Claude Code token usage",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie",
+      "JSONL Log Parsing",
+      "Traffic Capture"
+    ],
+    "features": [
+      "claude-quota-display",
+      "rolling-rate-limits",
+      "claude-code-daily-tokens",
+      "estimated-cost",
+      "gemini-quota",
+      "multi-account",
+      "menubar-statusline"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-29T05:43:23Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-29T05:58:23.437Z"
+  },
+  {
+    "id": "chinobustosdev/agent-orchestra",
+    "name": "agent-orchestra",
+    "author": "chinobustosdev",
+    "repoURL": "https://github.com/chinobustosdev/agent-orchestra",
+    "description": "Orquestador de agentes de IA multi-proveedor (Codex, Claude, Grok) para la terminal, con statusline de consumo de sesion",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "API Key",
+      "Session Cookie"
+    ],
+    "features": [
+      "multi-provider-orchestration",
+      "claude-consumption-display",
+      "statusline-integration",
+      "workflow-declarative",
+      "cost-quota-reporting",
+      "context-usage"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-29T03:09:54Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-29T05:58:23.437Z"
   }
 ]

@@ -1084,5 +1084,11 @@
     "reason": "This is a session orchestrator and monitor for Claude Code in WezTerm that displays session count and status, but does not measure or report Claude API usage (tokens, cost, rate limits) as a substantial feature.",
     "confidence": 0.85,
     "rejectedAt": "2026-08-28T21:48:21.770Z"
+  },
+  {
+    "id": "AaronBergman/claude-max-overflow",
+    "reason": "This is an account switcher/pooler that displays usage via live rate-limit checks, but usage display is not its substantial feature—the substantial feature is transparent multi-account overflow without thinking about which account owns config; it qualifies as a tracker only if rate-limit display were the primary purpose, which it is not.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-29T05:58:16.738Z"
   }
 ]
