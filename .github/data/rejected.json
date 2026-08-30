@@ -1102,5 +1102,23 @@
     "reason": "This is a Claude Code skill for setting up a development environment with themed tools; it does not track or measure Claude usage as a substantial feature, despite including a context-usage status line element.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-29T20:31:51.742Z"
+  },
+  {
+    "id": "Vic-41148/Claude-WebExtension-Launcher-Linux",
+    "reason": "This is an extension launcher/loader tool for Claude Desktop on Linux that facilitates loading web extensions (including usage trackers), but does not itself display, measure, or report Claude usage as a substantial feature.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-08-30T16:12:20.726Z"
+  },
+  {
+    "id": "jystervinou/claude-code-arcade",
+    "reason": "This is a playful arcade game renderer driven by Claude Code activity, not a usage tracker—it animates Claude's file operations and tool calls visually but does not measure, display, or report Claude token usage, costs, rate limits, or quotas.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-30T16:12:36.119Z"
+  },
+  {
+    "id": "lukelandis3-sketch/claude-and-prejudice",
+    "reason": "This is a reading plugin that displays books in Claude Code's status line; it does not track or measure Claude usage metrics, tokens, costs, or quotas.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-30T16:12:39.485Z"
   }
 ]

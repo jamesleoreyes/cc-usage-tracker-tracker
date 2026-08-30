@@ -155344,5 +155344,122 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-30T11:25:48.060Z"
+  },
+  {
+    "id": "jonax1337/ai-usage-tracker",
+    "name": "ai-usage-tracker",
+    "author": "jonax1337",
+    "repoURL": "https://github.com/jonax1337/ai-usage-tracker",
+    "description": "Local zero-dependency dashboard for Claude Code token usage, costs, plan limits, and pace predictions — with live updates and a picture-in-picture widget",
+    "category": "Web Dashboard",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux",
+      "web"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "OAuth Token",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "token-usage",
+      "cost-tracking",
+      "rate-limits",
+      "pace-predictions",
+      "multi-provider",
+      "live-updates",
+      "picture-in-picture-widget",
+      "cli-mode"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-30T16:01:47Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-30T16:12:39.485Z"
+  },
+  {
+    "id": "renatojfsantos/claude-statusline",
+    "name": "claude-statusline",
+    "author": "renatojfsantos",
+    "repoURL": "https://github.com/renatojfsantos/claude-statusline",
+    "description": "Status line de quatro linhas para o Claude Code: sessão, tempo, limites de uso e localização git",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "session-display",
+      "context-usage",
+      "cost-tracking",
+      "rate-limits",
+      "weekly-limits",
+      "git-status",
+      "colored-bars"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-30T14:45:41Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-30T16:12:39.485Z"
+  },
+  {
+    "id": "berk-karaal/cc-statusline-berk",
+    "name": "cc-statusline-berk",
+    "author": "berk-karaal",
+    "repoURL": "https://github.com/berk-karaal/cc-statusline-berk",
+    "description": "My Claude Code status line",
+    "category": "Claude Code Plugin",
+    "platforms": [],
+    "language": "TypeScript",
+    "authMethod": [],
+    "features": [
+      "context-usage-display",
+      "rate-limit-monitoring",
+      "model-indicator",
+      "git-integration",
+      "github-links"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-30T14:21:53Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-30T16:12:39.485Z"
+  },
+  {
+    "id": "Memnoc/agent-statusline",
+    "name": "agent-statusline",
+    "author": "Memnoc",
+    "repoURL": "https://github.com/Memnoc/agent-statusline",
+    "description": "Fully configurable statusline for Claude Code",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "context-usage-bar",
+      "rate-limit-display",
+      "cache-efficiency",
+      "session-cost",
+      "claude-model-display",
+      "configurable-themes",
+      "git-integration"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-08-30T13:37:47Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-30T16:12:39.485Z"
   }
 ]
