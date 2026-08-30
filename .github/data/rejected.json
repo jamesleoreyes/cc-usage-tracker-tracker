@@ -1120,5 +1120,11 @@
     "reason": "This is a reading plugin that displays books in Claude Code's status line; it does not track or measure Claude usage metrics, tokens, costs, or quotas.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-30T16:12:39.485Z"
+  },
+  {
+    "id": "limpidwei/cc-resume",
+    "reason": "This is a session-recovery automation tool that detects rate limits and auto-resumes Claude Code tabs—it monitors for rate-limit messages but does not display, measure, or report cumulative Claude usage as a feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-30T20:41:20.535Z"
   }
 ]

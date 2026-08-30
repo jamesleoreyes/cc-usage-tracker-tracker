@@ -155461,5 +155461,149 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-30T16:12:39.485Z"
+  },
+  {
+    "id": "yaakov-source/claude-usage-widget",
+    "name": "claude-usage-widget",
+    "author": "yaakov-source",
+    "repoURL": "https://github.com/yaakov-source/claude-usage-widget",
+    "description": "A macOS menu bar gauge for Claude plan usage limits. Single-file Objective-C, no dependencies.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Objective-C",
+    "authMethod": [
+      "OAuth Token",
+      "Session Cookie"
+    ],
+    "features": [
+      "menu-bar-gauge",
+      "usage-limits",
+      "progress-bars",
+      "refresh-control",
+      "rate-limit-aware",
+      "low-resource"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-30T18:47:50Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-30T20:41:20.535Z"
+  },
+  {
+    "id": "Dhinc1/claude-statusline",
+    "name": "claude-statusline",
+    "author": "Dhinc1",
+    "repoURL": "https://github.com/Dhinc1/claude-statusline",
+    "description": "custom status line for claude code ",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "context-usage-display",
+      "rate-limit-alerts",
+      "5h-window-tracking",
+      "weekly-quota-tracking",
+      "multi-machine-sync",
+      "model-info",
+      "effort-level"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-30T18:44:49Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-30T20:41:20.535Z"
+  },
+  {
+    "id": "qndls42/cc-status-lite",
+    "name": "cc-status-lite",
+    "author": "qndls42",
+    "repoURL": "https://github.com/qndls42/cc-status-lite",
+    "description": "Two-line Claude Code status line: context usage plus your 5-hour and weekly limits, each with the time it resets. macOS, Linux, Windows.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "PowerShell",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "context-usage-display",
+      "rate-limit-tracking",
+      "5h-limit-display",
+      "7d-limit-display",
+      "reset-time-countdown",
+      "multi-platform-statusline"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-30T16:42:34Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-30T20:41:20.535Z"
+  },
+  {
+    "id": "bilgihankose/agent-statusline",
+    "name": "agent-statusline",
+    "author": "bilgihankose",
+    "repoURL": "https://github.com/bilgihankose/agent-statusline",
+    "description": "One consistent status line across Claude Code, Antigravity agy, and Codex — project, model + reasoning effort, cost, and context-window fill. Plain sh, one file per agent.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "multi-agent-support",
+      "cost-tracking",
+      "context-window-display",
+      "reasoning-effort",
+      "session-state"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-30T16:38:02Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-30T20:41:20.535Z"
+  },
+  {
+    "id": "Atarit0/claude-code-limits-statusline",
+    "name": "claude-code-limits-statusline",
+    "author": "Atarit0",
+    "repoURL": "https://github.com/Atarit0/claude-code-limits-statusline",
+    "description": "Claude Code statusLine: 5h/7d rate-limit bars with reset countdown and time-elapsed marker",
+    "category": "Statusline",
+    "platforms": [],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "rate-limit-visualization",
+      "countdown-timer",
+      "burn-rate-indicator",
+      "claude-code-integration"
+    ],
+    "builtWithClaude": null,
+    "stars": 2,
+    "lastCommitDate": "2026-08-30T16:33:50Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-30T20:41:20.536Z"
   }
 ]
