@@ -154903,5 +154903,103 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-29T20:31:57.227Z"
+  },
+  {
+    "id": "edilsonvilarinho/usage-monitor",
+    "name": "usage-monitor",
+    "author": "edilsonvilarinho",
+    "repoURL": "https://github.com/edilsonvilarinho/usage-monitor",
+    "description": "Desktop app that shows usage, quotas and cost of every AI coding tool in one panel — Claude Code, Codex, MiniMax, DeepSeek, OpenCode and Kilo — with local session costs, history, forecasts and an optional self-hosted team view.",
+    "category": "Electron/Desktop",
+    "platforms": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "language": "Kotlin",
+    "authMethod": [
+      "API Key",
+      "Session Key",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "multi-provider-tracking",
+      "session-costs",
+      "usage-breakdown",
+      "burn-rate-alerts",
+      "history-forecast",
+      "team-view",
+      "quota-monitoring",
+      "pdf-export"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-30T02:04:27Z",
+    "openIssues": 1,
+    "archived": false,
+    "lastFetched": "2026-08-30T04:02:31.441Z"
+  },
+  {
+    "id": "anujg21/ai-token-economy",
+    "name": "ai-token-economy",
+    "author": "anujg21",
+    "repoURL": "https://github.com/anujg21/ai-token-economy",
+    "description": "Live, local statusline cost and token tracking for Claude Code and other AI coding harnesses",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Go",
+    "authMethod": [
+      "Traffic Capture",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "live-token-tracking",
+      "session-cost",
+      "cumulative-pool",
+      "context-window-bar",
+      "local-ledger",
+      "spend-ceiling-display",
+      "statusline-integration"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-30T02:07:40Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-30T04:02:31.441Z"
+  },
+  {
+    "id": "Eleaus-Hossain-Evan/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "Eleaus-Hossain-Evan",
+    "repoURL": "https://github.com/Eleaus-Hossain-Evan/claude-code-statusline",
+    "description": "A compact, icon-heavy two-line status line for Claude Code: directory, git branch, model and reasoning effort, plus usage windows and a context bar that turn red and blink as they fill.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "OpenTelemetry"
+    ],
+    "features": [
+      "usage-window-tracking",
+      "context-bar-display",
+      "rate-limit-monitoring",
+      "color-coded-alerts",
+      "blinking-threshold-warnings",
+      "session-tracking",
+      "weekly-usage"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-29T21:30:06Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-30T04:02:31.441Z"
   }
 ]
