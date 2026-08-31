@@ -1138,5 +1138,17 @@
     "reason": "This is a setup/bootstrap script for Claude Code environment configuration, not a usage tracker; it does not display, measure, or report Claude usage metrics.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-31T12:55:53.514Z"
+  },
+  {
+    "id": "thinkingtoo/cc-agent-names",
+    "reason": "This is a Claude Code plugin that assigns human names to sessions for better coordination and identity, but does not display, measure, or report Claude usage metrics like tokens, costs, or rate limits.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-31T22:35:30.431Z"
+  },
+  {
+    "id": "SEAD-ai/new-slang",
+    "reason": "This is a language-learning skill/plugin for Claude Code that displays vocabulary flashcards in the status line during work — it teaches languages, not tracks Claude usage, so it does not qualify for the registry.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-31T22:35:39.456Z"
   }
 ]
