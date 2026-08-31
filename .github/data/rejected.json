@@ -1132,5 +1132,11 @@
     "reason": "This project visualizes Claude Code's thinking/effort setting as a visual meter in the statusline, but does not track, measure, or report Claude usage metrics like tokens, cost, or rate limits—it is a UI enhancement for an existing Claude Code feature.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-31T04:07:54.768Z"
+  },
+  {
+    "id": "riecodes/rie-cc-setup",
+    "reason": "This is a setup/bootstrap script for Claude Code environment configuration, not a usage tracker; it does not display, measure, or report Claude usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-31T12:55:53.514Z"
   }
 ]
