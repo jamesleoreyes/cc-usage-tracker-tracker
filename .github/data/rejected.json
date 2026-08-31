@@ -1126,5 +1126,11 @@
     "reason": "This is a session-recovery automation tool that detects rate limits and auto-resumes Claude Code tabs—it monitors for rate-limit messages but does not display, measure, or report cumulative Claude usage as a feature.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-30T20:41:20.535Z"
+  },
+  {
+    "id": "ronaldw07/claude-thinking-visualizer",
+    "reason": "This project visualizes Claude Code's thinking/effort setting as a visual meter in the statusline, but does not track, measure, or report Claude usage metrics like tokens, cost, or rate limits—it is a UI enhancement for an existing Claude Code feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-08-31T04:07:54.768Z"
   }
 ]

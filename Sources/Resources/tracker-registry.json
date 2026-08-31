@@ -155611,5 +155611,242 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-08-30T20:41:20.536Z"
+  },
+  {
+    "id": "HosungJu/claude-usage-tracker",
+    "name": "claude-usage-tracker",
+    "author": "HosungJu",
+    "repoURL": "https://github.com/HosungJu/claude-usage-tracker",
+    "description": "Pixel Claude character that tells you your Claude usage before you ask — a desktop tray app for Linux. Reads the official Claude usage API and pops up at 50/70/90/100%.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "linux"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "usage-monitoring",
+      "multi-monitor-support",
+      "tray-integration",
+      "real-time-alerts",
+      "rate-limit-threshold-notifications",
+      "session-hooks",
+      "linux-only",
+      "configurable-thresholds"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-31T04:02:22Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-31T04:08:04.919Z"
+  },
+  {
+    "id": "neddyP/cc-usage-tracker",
+    "name": "cc-usage-tracker",
+    "author": "neddyP",
+    "repoURL": "https://github.com/neddyP/cc-usage-tracker",
+    "description": "a TUI element that tracks % of claude code subscription alocation, as well as dollar amount spent via API billing credits",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "subscription-usage-display",
+      "api-credit-meter",
+      "rolling-rate-limits",
+      "auto-billing-detection",
+      "session-baseline-tracking",
+      "color-graded-bars"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-31T01:23:07Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-31T04:08:04.919Z"
+  },
+  {
+    "id": "timsonau/usage-board",
+    "name": "usage-board",
+    "author": "timsonau",
+    "repoURL": "https://github.com/timsonau/usage-board",
+    "description": "Always-on-top Windows widget showing live Claude Code usage",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "live-usage-bars",
+      "mood-reactions",
+      "notification-alerts",
+      "always-on-top",
+      "reset-countdown",
+      "two-window-tracking"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-30T23:36:54Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-31T04:08:04.919Z"
+  },
+  {
+    "id": "Yassinekrn/claude-setup",
+    "name": "claude-setup",
+    "author": "Yassinekrn",
+    "repoURL": "https://github.com/Yassinekrn/claude-setup",
+    "description": "Personal Claude Code setup — orchestrator/subagent delegation policy, custom agents, and a colored PowerShell statusline (git branch, model+effort, tokens, cost, rate limits).",
+    "category": "Statusline",
+    "platforms": [
+      "windows"
+    ],
+    "language": "PowerShell",
+    "authMethod": [],
+    "features": [
+      "tokens-display",
+      "cost-tracking",
+      "rate-limit-alerts",
+      "context-window-percent",
+      "cache-tokens",
+      "prompt-count",
+      "session-duration",
+      "model-effort-indicator"
+    ],
+    "builtWithClaude": null,
+    "stars": 1,
+    "lastCommitDate": "2026-08-31T02:55:00Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-31T04:08:04.919Z"
+  },
+  {
+    "id": "arthurhzm/context-cockpit",
+    "name": "context-cockpit",
+    "author": "arthurhzm",
+    "repoURL": "https://github.com/arthurhzm/context-cockpit",
+    "description": "A context-window & weekly-rate-limit cockpit for Claude Code: statusline sensor + hooks that checkpoint to STATE.md before lossy auto-compaction and warn before you burn your weekly limit.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "JavaScript",
+    "authMethod": [],
+    "features": [
+      "context-window-monitoring",
+      "weekly-rate-limit-tracking",
+      "auto-compaction-prevention",
+      "state-checkpointing",
+      "threshold-alerts",
+      "statusline-sensor"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-31T02:08:05Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-31T04:08:04.919Z"
+  },
+  {
+    "id": "aione314159/open_agent_usage",
+    "name": "open_agent_usage",
+    "author": "aione314159",
+    "repoURL": "https://github.com/aione314159/open_agent_usage",
+    "description": "Claude Code, Codex, Gemini and Antigravity quota in the macOS menu bar, in a Dynamic Island strip that merges with the notch.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "multi-account-switching",
+      "claude-code-quota",
+      "dynamic-island-display",
+      "codex-gemini-antigravity",
+      "real-time-refresh",
+      "session-monitoring"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-31T04:04:58Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-31T04:08:04.919Z"
+  },
+  {
+    "id": "udoschmitz/gaugetab",
+    "name": "gaugetab",
+    "author": "udoschmitz",
+    "repoURL": "https://github.com/udoschmitz/gaugetab",
+    "description": "GaugeTab — a macOS menu bar app showing your Claude and ChatGPT usage limits for multiple accounts",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "session-limit-tracking",
+      "weekly-limit-tracking",
+      "multi-account",
+      "menu-bar-display",
+      "floating-detail-window",
+      "percentage-display",
+      "status-indicators",
+      "offline-caching"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-08-30T21:33:52Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-31T04:08:04.919Z"
+  },
+  {
+    "id": "mcgrof/waybar-ai-usage",
+    "name": "waybar-ai-usage",
+    "author": "mcgrof",
+    "repoURL": "https://github.com/mcgrof/waybar-ai-usage",
+    "description": "Claude and Codex usage limits as a Waybar custom module. A port of gnome-shell-extension-claude-usage.",
+    "category": "Waybar Module",
+    "platforms": [
+      "linux"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "OAuth Token",
+      "Traffic Capture"
+    ],
+    "features": [
+      "claude-usage-api",
+      "codex-rollout-parsing",
+      "rate-limit-windows",
+      "color-coded-alerts",
+      "auto-detect-credentials",
+      "caching-and-backoff",
+      "reset-countdowns"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-31T00:43:04Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-08-31T04:08:04.919Z"
   }
 ]
