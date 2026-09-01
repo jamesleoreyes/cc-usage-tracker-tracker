@@ -1174,5 +1174,23 @@
     "reason": "This is a session manager and lifecycle tool for Claude Code that monitors and controls running sessions, but does not display, measure, or report Claude usage metrics (tokens, costs, rate limits) as a feature.",
     "confidence": 0.85,
     "rejectedAt": "2026-09-01T16:12:04.631Z"
+  },
+  {
+    "id": "csinva/agent-progress",
+    "reason": "While this is a Claude Code plugin that displays progress information, it is not a Claude usage tracker—it monitors job progress (epochs, files, stages) rather than Claude token consumption, cost, or API usage.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-09-01T20:40:55.655Z"
+  },
+  {
+    "id": "Maykonn/claude-code-statusline",
+    "reason": "A statusline for Claude Code that displays status information, but lacks evidence of tracking or measuring Claude usage metrics like tokens, costs, or rate limits.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-09-01T20:40:57.304Z"
+  },
+  {
+    "id": "johnwangwyx/stele",
+    "reason": "Stele is a skill for managing agent memory across sessions and harnesses, not a Claude usage tracker; it enables resumption after rate limits but does not display, measure, or report usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-09-01T20:41:02.967Z"
   }
 ]

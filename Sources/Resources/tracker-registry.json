@@ -157110,5 +157110,217 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-09-01T16:12:07.166Z"
+  },
+  {
+    "id": "PLemery/claude-usage",
+    "name": "claude-usage",
+    "author": "PLemery",
+    "repoURL": "https://github.com/PLemery/claude-usage",
+    "description": "A macOS menu-bar app showing your live Claude usage",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "live-usage-display",
+      "rate-limit-tracking",
+      "token-cost-estimates",
+      "context-size-monitor",
+      "multi-project-tracking",
+      "keychain-integration"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-01T19:45:27Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-01T20:41:06.196Z"
+  },
+  {
+    "id": "abhaymettu/perch",
+    "name": "perch",
+    "author": "abhaymettu",
+    "repoURL": "https://github.com/abhaymettu/perch",
+    "description": "Everything running on your Mac, in one menu bar panel: Claude Code sessions, dev servers, LaunchAgents, cron, simulators and Claude usage limits.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "claude-usage-limits",
+      "session-tracking",
+      "dev-server-monitoring",
+      "launch-agent-monitor",
+      "simulator-tracking",
+      "menubar-app"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-01T17:26:49Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-01T20:41:06.196Z"
+  },
+  {
+    "id": "verkyyi/ccquota",
+    "name": "ccquota",
+    "author": "verkyyi",
+    "repoURL": "https://github.com/verkyyi/ccquota",
+    "description": "Cross-endpoint Claude Code usage monitor: exact account-wide limits, per-machine attribution, a live dashboard, and read-only MCP.",
+    "category": "Web Dashboard",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "Go",
+    "authMethod": [
+      "API Key",
+      "OAuth Token",
+      "Session Cookie",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "multi-endpoint-attribution",
+      "account-wide-limits",
+      "live-dashboard",
+      "mcp-server",
+      "cost-tracking",
+      "multi-subscription",
+      "per-user-tracking"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-01T20:32:43Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-01T20:41:06.196Z"
+  },
+  {
+    "id": "AUCB21/CC-Tracker",
+    "name": "CC-Tracker",
+    "author": "AUCB21",
+    "repoURL": "https://github.com/AUCB21/CC-Tracker",
+    "description": "Local middleware for Claude Code — tracks sessions, plans, tasks, prompts, tool usage and cost, with a full analytics dashboard. Next.js 16 + Supabase.",
+    "category": "Web Dashboard",
+    "platforms": [
+      "macos",
+      "web"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "claude-code-hooks",
+      "session-tracking",
+      "token-cost-analytics",
+      "task-management",
+      "real-time-feed",
+      "multi-project",
+      "tool-usage-breakdown",
+      "workflow-analytics"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-09-01T20:36:59Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-01T20:41:06.196Z"
+  },
+  {
+    "id": "5c077m4n/cursor-agent-statusline",
+    "name": "cursor-agent-statusline",
+    "author": "5c077m4n",
+    "repoURL": "https://github.com/5c077m4n/cursor-agent-statusline",
+    "description": "A minimal and functional statusline for Cursor (CLI) Agnet & Claude Code",
+    "category": "Statusline",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "language": "Go",
+    "authMethod": [],
+    "features": [
+      "cursor-cli-integration",
+      "minimal-statusline",
+      "auto-config"
+    ],
+    "builtWithClaude": null,
+    "stars": 2,
+    "lastCommitDate": "2026-09-01T20:04:29Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-01T20:41:06.196Z"
+  },
+  {
+    "id": "LyonMuller/claude-statusline",
+    "name": "claude-statusline",
+    "author": "LyonMuller",
+    "repoURL": "https://github.com/LyonMuller/claude-statusline",
+    "description": "Lightweight, dependency-free status line for Claude Code",
+    "category": "Statusline",
+    "platforms": [
+      "web"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "context-meter",
+      "cost-tracking",
+      "session-cost",
+      "context-usage-display"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-09-01T18:03:59Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-01T20:41:06.196Z"
+  },
+  {
+    "id": "vlondon/AgentUsage",
+    "name": "AgentUsage",
+    "author": "vlondon",
+    "repoURL": "https://github.com/vlondon/AgentUsage",
+    "description": "macOS menu-bar app showing how much allowance is left across your AI coding agents — Codex, Claude, Cursor, Devin, Grok and Antigravity",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "Session Cookie",
+      "Session Key",
+      "OpenTelemetry",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "multi-provider",
+      "allowance-display",
+      "rate-limit-tracking",
+      "menu-bar-app",
+      "credential-reuse",
+      "reset-time-estimate",
+      "percentage-remaining"
+    ],
+    "builtWithClaude": null,
+    "stars": 1,
+    "lastCommitDate": "2026-09-01T19:47:46Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-01T20:41:06.196Z"
   }
 ]
