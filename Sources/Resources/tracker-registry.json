@@ -156837,5 +156837,275 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-09-01T11:14:56.508Z"
+  },
+  {
+    "id": "yuemuqing-thu/claude-usage-widget",
+    "name": "claude-usage-widget",
+    "author": "yuemuqing-thu",
+    "repoURL": "https://github.com/yuemuqing-thu/claude-usage-widget",
+    "description": "Claude 用量桌面挂件 · 额度环 / 本地统计热力图 / 会跟着鼠标跑的像素猫",
+    "category": "Übersicht Widget",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Unknown",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "quota-display",
+      "usage-heatmap",
+      "pixel-art-pet",
+      "5h-session-quota",
+      "7d-weekly-quota",
+      "context-usage",
+      "14d-cost-chart"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-09-01T16:08:10Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-01T16:12:07.166Z"
+  },
+  {
+    "id": "yongha33/jjan-releases",
+    "name": "jjan-releases",
+    "author": "yongha33",
+    "repoURL": "https://github.com/yongha33/jjan-releases",
+    "description": "A macOS menu bar widget that shows your Claude usage as a filling beer glass",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Unknown",
+    "authMethod": [
+      "Browser Cookie Auto-detect",
+      "Session Cookie",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "usage-glass-visual",
+      "weekly-limits",
+      "reset-countdown",
+      "token-counts",
+      "cost-tracking",
+      "local-counting",
+      "premium-features",
+      "api-polling"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-09-01T12:00:06Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-01T16:12:07.166Z"
+  },
+  {
+    "id": "anyaachan/herdr-claude-usage",
+    "name": "herdr-claude-usage",
+    "author": "anyaachan",
+    "repoURL": "https://github.com/anyaachan/herdr-claude-usage",
+    "description": "Global Claude Code plan usage in Herdr: tab-bar summary + popup dashboard. statusLine-powered, multi-account aware.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Unknown",
+    "authMethod": [
+      "Session Key",
+      "OAuth Token"
+    ],
+    "features": [
+      "rate-limit-tracking",
+      "multi-account",
+      "per-model-windows",
+      "session-display",
+      "extra-usage-credits",
+      "tab-bar-summary",
+      "severity-coloring",
+      "popup-dashboard"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-09-01T15:36:49Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-01T16:12:07.166Z"
+  },
+  {
+    "id": "Narticleo/cc-statusline-share",
+    "name": "cc-statusline-share",
+    "author": "Narticleo",
+    "repoURL": "https://github.com/Narticleo/cc-statusline-share",
+    "description": "Claude Code gradient statusLine — usage bar script",
+    "category": "Claude Code Plugin",
+    "platforms": [],
+    "language": "Unknown",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "gradient-usage-bar",
+      "5-hour-rate-limit",
+      "context-window-display",
+      "model-effort-indicator"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-01T15:58:42Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-01T16:12:07.166Z"
+  },
+  {
+    "id": "eng1n88r/ccline",
+    "name": "ccline",
+    "author": "eng1n88r",
+    "repoURL": "https://github.com/eng1n88r/ccline",
+    "description": "Fast single-binary Rust statusline for Claude Code",
+    "category": "Statusline",
+    "platforms": [
+      "linux",
+      "macos"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "OAuth Token",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "context-usage",
+      "rate-limit-tracking",
+      "session-display",
+      "weekly-quota",
+      "5h-rate-limit",
+      "git-integration",
+      "fast-render"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-09-01T13:48:22Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-01T16:12:07.166Z"
+  },
+  {
+    "id": "falistos/cc-statusline",
+    "name": "cc-statusline",
+    "author": "falistos",
+    "repoURL": "https://github.com/falistos/cc-statusline",
+    "description": "Fast, configurable statusline for Claude Code (Rust)",
+    "category": "Statusline",
+    "platforms": [
+      "web"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Traffic Capture",
+      "Session Key"
+    ],
+    "features": [
+      "usage-windows",
+      "rate-limit-tracking",
+      "cost-display",
+      "prompt-cache-monitoring",
+      "context-tracking",
+      "git-integration",
+      "multi-module",
+      "configurable"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-01T13:41:28Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-01T16:12:07.166Z"
+  },
+  {
+    "id": "realkewal/claude-kit",
+    "name": "claude-kit",
+    "author": "realkewal",
+    "repoURL": "https://github.com/realkewal/claude-kit",
+    "description": "Claude Code plugins. Usage Statusline shows your session and weekly rate limits alongside context window usage as three aligned bars.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "session-rate-limits",
+      "weekly-rate-limits",
+      "context-window-usage",
+      "burn-rate-projection",
+      "reset-countdown",
+      "multi-bar-display",
+      "configurable-thresholds",
+      "light-theme-accessible"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-01T12:04:29Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-01T16:12:07.166Z"
+  },
+  {
+    "id": "niaguiar/claude-statusline",
+    "name": "claude-statusline",
+    "author": "niaguiar",
+    "repoURL": "https://github.com/niaguiar/claude-statusline",
+    "description": "Two-line status line for Claude Code: repo, branch, model, session cost, context usage and account usage windows",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "session-cost-tracking",
+      "context-window-display",
+      "usage-windows",
+      "rate-limit-alerts",
+      "weekly-quota",
+      "5-hour-window"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-09-01T11:31:47Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-01T16:12:07.166Z"
+  },
+  {
+    "id": "shorty456132/claude-terminal-statusline",
+    "name": "claude-terminal-statusline",
+    "author": "shorty456132",
+    "repoURL": "https://github.com/shorty456132/claude-terminal-statusline",
+    "description": "gives a nice printout of the usage in a terminal per session",
+    "category": "Statusline",
+    "platforms": [
+      "web"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "context-window-monitoring",
+      "token-counting",
+      "budget-alerts",
+      "colored-progress-bar",
+      "multi-model-support"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-09-01T14:33:50Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-01T16:12:07.166Z"
   }
 ]

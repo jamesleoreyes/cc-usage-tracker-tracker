@@ -1162,5 +1162,17 @@
     "reason": "This is a Claude Code plugin for diagnosing and fixing Telegram bot channel conflicts across multiple Claude sessions, not a Claude usage tracker—it monitors bot channel health and session ownership, not Claude tokens, costs, or usage metrics.",
     "confidence": 0.95,
     "rejectedAt": "2026-09-01T11:14:43.352Z"
+  },
+  {
+    "id": "Mrquinze/Goorgle",
+    "reason": "Goorgle is a Google search menu bar app for macOS with no Claude usage tracking or measurement features, despite being built with Claude Code assistance.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-09-01T16:12:01.754Z"
+  },
+  {
+    "id": "alexander-leitch/claude-systray",
+    "reason": "This is a session manager and lifecycle tool for Claude Code that monitors and controls running sessions, but does not display, measure, or report Claude usage metrics (tokens, costs, rate limits) as a feature.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-09-01T16:12:04.631Z"
   }
 ]
