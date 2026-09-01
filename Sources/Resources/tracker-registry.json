@@ -156713,5 +156713,124 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-09-01T03:56:26.512Z"
+  },
+  {
+    "id": "llirikkcoder/statusline-quota-bars",
+    "name": "statusline-quota-bars",
+    "author": "llirikkcoder",
+    "repoURL": "https://github.com/llirikkcoder/statusline-quota-bars",
+    "description": "3-bar quota widget for Claude Code statusline via Anthropic OAuth API — Session / Weekly / Fable",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "session-quota",
+      "weekly-quota",
+      "fable-quota",
+      "percent-display",
+      "reset-timer",
+      "cache-30s",
+      "keychain-integration"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-09-01T07:57:07Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-01T11:14:56.508Z"
+  },
+  {
+    "id": "apurwa/ghostty-tmux-claude-setup",
+    "name": "ghostty-tmux-claude-setup",
+    "author": "apurwa",
+    "repoURL": "https://github.com/apurwa/ghostty-tmux-claude-setup",
+    "description": "Reproducible Ghostty + tmux + Claude Code terminal setup: Shift+Enter newline, right-click tmux panes, and a maroon 4-line status line. One install script.",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "claude-usage-display",
+      "5h-7d-rolling-windows",
+      "session-cost-estimate",
+      "context-window-bar",
+      "model-selection-display"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-01T08:47:21Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-01T11:14:56.508Z"
+  },
+  {
+    "id": "mayerwin/Agent-Sentinel",
+    "name": "Agent-Sentinel",
+    "author": "mayerwin",
+    "repoURL": "https://github.com/mayerwin/Agent-Sentinel",
+    "description": "AI Cognitive Supervisor, Autonomous Resumption Engine & Rate Limit Sentinel for Claude Code Agents",
+    "category": "Web Dashboard",
+    "platforms": [
+      "web",
+      "windows"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Traffic Capture",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "rate-limit-monitoring",
+      "auto-continue",
+      "autonomous-resumption",
+      "cognitive-supervision",
+      "multi-agent-dashboard",
+      "quota-tracking",
+      "countdown-timers"
+    ],
+    "builtWithClaude": null,
+    "stars": 1,
+    "lastCommitDate": "2026-09-01T09:09:50Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-01T11:14:56.508Z"
+  },
+  {
+    "id": "ncr/omarchy-clusage",
+    "name": "omarchy-clusage",
+    "author": "ncr",
+    "repoURL": "https://github.com/ncr/omarchy-clusage",
+    "description": "Claude Code usage indicator for Waybar (Omarchy/Hyprland)",
+    "category": "Waybar Module",
+    "platforms": [
+      "linux",
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "OAuth Token",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "session-limit-tracking",
+      "weekly-quota-display",
+      "per-model-caps",
+      "rate-limit-alerts",
+      "countdown-timer",
+      "multi-platform"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-01T10:37:02Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-01T11:14:56.508Z"
   }
 ]
