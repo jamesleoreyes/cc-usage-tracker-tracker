@@ -156625,5 +156625,93 @@
     "openIssues": 1,
     "archived": false,
     "lastFetched": "2026-08-31T22:36:07.131Z"
+  },
+  {
+    "id": "fardeen-fhr/tokenflow",
+    "name": "tokenflow",
+    "author": "fardeen-fhr",
+    "repoURL": "https://github.com/fardeen-fhr/tokenflow",
+    "description": "Local-first Claude usage tracker and task queue.",
+    "category": "Browser Extension",
+    "platforms": [
+      "chromium"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "Browser Cookie Auto-detect",
+      "Traffic Capture"
+    ],
+    "features": [
+      "usage-tracking",
+      "rate-limit-monitoring",
+      "task-queue",
+      "desktop-notifications",
+      "privacy-first"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-09-01T01:39:41Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-01T03:56:26.512Z"
+  },
+  {
+    "id": "Band-of-Reeves/Metron",
+    "name": "Metron",
+    "author": "Band-of-Reeves",
+    "repoURL": "https://github.com/Band-of-Reeves/Metron",
+    "description": "macOS menu bar glances: Claude usage and cost, this machine, oMLX, KatechonOS",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "claude-usage-limits",
+      "session-rings",
+      "model-split",
+      "activity-heatmap",
+      "drivers-attribution",
+      "desktop-widgets",
+      "system-glances"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-01T00:07:05Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-01T03:56:26.512Z"
+  },
+  {
+    "id": "hskl18/token-bar",
+    "name": "token-bar",
+    "author": "hskl18",
+    "repoURL": "https://github.com/hskl18/token-bar",
+    "description": "Native macOS menu bar monitor for Claude Code and OpenAI Codex usage.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "claude-quota-monitor",
+      "codex-quota-monitor",
+      "menu-bar-display",
+      "token-estimates",
+      "capacity-weighting",
+      "stale-value-fallback"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-08-31T23:31:10Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-01T03:56:26.512Z"
   }
 ]

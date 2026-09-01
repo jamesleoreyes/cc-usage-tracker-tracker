@@ -1150,5 +1150,11 @@
     "reason": "This is a language-learning skill/plugin for Claude Code that displays vocabulary flashcards in the status line during work — it teaches languages, not tracks Claude usage, so it does not qualify for the registry.",
     "confidence": 0.95,
     "rejectedAt": "2026-08-31T22:35:39.456Z"
+  },
+  {
+    "id": "Bravim-Ketan-Purohit/statusline",
+    "reason": "This is a statusline designer and renderer for Claude Code, tmux, and web — not a Claude usage tracker; while it displays a model tile and cost tile, those are environmental signals in a general-purpose status line, not usage measurement/reporting.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-09-01T03:56:26.512Z"
   }
 ]
