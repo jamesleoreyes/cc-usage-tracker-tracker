@@ -157837,5 +157837,278 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-09-02T10:48:29.252Z"
+  },
+  {
+    "id": "TilbertBalaban/claude-usage-bar",
+    "name": "claude-usage-bar",
+    "author": "TilbertBalaban",
+    "repoURL": "https://github.com/TilbertBalaban/claude-usage-bar",
+    "description": "Claude Code limits and reset times in the macOS menu bar",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Session Key",
+      "OAuth Token"
+    ],
+    "features": [
+      "session-limit-tracking",
+      "7-day-limit-tracking",
+      "reset-countdown",
+      "visual-ring-gauges",
+      "rate-limit-alerts"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-09-02T11:55:58Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-02T16:06:43.620Z"
+  },
+  {
+    "id": "Cing-self/modelswap",
+    "name": "modelswap",
+    "author": "Cing-self",
+    "repoURL": "https://github.com/Cing-self/modelswap",
+    "description": "The Key & Model Console for AI Coding Agents — Claude Code / Codex / OpenCode / ZCode / Kimi / Grok, 10 agents total. Encrypted key vault + surgical config switching + usage monitoring. 本地优先，零常驻，本地功能永久免费。",
+    "category": "Web Dashboard",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows",
+      "web"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "usage-monitoring",
+      "multi-agent",
+      "key-vault",
+      "config-switching",
+      "subscription-balance",
+      "token-quota-alerts"
+    ],
+    "builtWithClaude": null,
+    "stars": 1,
+    "lastCommitDate": "2026-09-02T14:53:53Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-02T16:06:43.620Z"
+  },
+  {
+    "id": "ols29/oca-copilot",
+    "name": "oca-copilot",
+    "author": "ols29",
+    "repoURL": "https://github.com/ols29/oca-copilot",
+    "description": "Menu bar usage monitor for Claude Code, Codex and Gemini (macOS)",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "multi-provider-tracking",
+      "rate-limit-rings",
+      "burn-rate-visual",
+      "daily-cost-estimate",
+      "cli-launcher",
+      "peek-and-hover",
+      "no-cloud-sync"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-02T13:48:20Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-02T16:06:43.620Z"
+  },
+  {
+    "id": "AIgorrocha/ai-usage-widget",
+    "name": "ai-usage-widget",
+    "author": "AIgorrocha",
+    "repoURL": "https://github.com/AIgorrocha/ai-usage-widget",
+    "description": "Widget flutuante Windows: cota semanal de Claude Code, Codex, Grok Build e Kimi Code numa tela so, com veredito de plano (sobra/no ritmo/estoura)",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "multi-provider",
+      "weekly-quota",
+      "verdict-system",
+      "token-breakdown",
+      "12-week-history",
+      "zero-config",
+      "local-creds",
+      "autostart"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-02T15:20:32Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-02T16:06:43.620Z"
+  },
+  {
+    "id": "loucadgarbon/cc-cost",
+    "name": "cc-cost",
+    "author": "loucadgarbon",
+    "repoURL": "https://github.com/loucadgarbon/cc-cost",
+    "description": "Per-project cost monitor for Claude Code: budgets with warn/block hooks, statusline, handoff advisor, reports and MCP tools",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "OpenTelemetry",
+      "Traffic Capture"
+    ],
+    "features": [
+      "per-project-budgets",
+      "token-cost-tracking",
+      "statusline-integration",
+      "handoff-advisor",
+      "mcp-server",
+      "daily-reports"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-02T14:44:56Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-02T16:06:43.620Z"
+  },
+  {
+    "id": "ttiimmaahh/claude-code-hud",
+    "name": "claude-code-hud",
+    "author": "ttiimmaahh",
+    "repoURL": "https://github.com/ttiimmaahh/claude-code-hud",
+    "description": "A customizable statusline HUD for Claude Code — context, git, todos, in-flight tools, cost, and MCP/hook/rules counts",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "JavaScript",
+    "authMethod": [],
+    "features": [
+      "context-usage-bar",
+      "cost-tracking",
+      "git-state",
+      "active-todos",
+      "in-flight-tools",
+      "mcp-counts",
+      "customizable-themes",
+      "per-project-config"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-02T14:25:41Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-02T16:06:43.620Z"
+  },
+  {
+    "id": "SharminSirajudeen/loadline",
+    "name": "loadline",
+    "author": "SharminSirajudeen",
+    "repoURL": "https://github.com/SharminSirajudeen/loadline",
+    "description": "A Claude Code status line that shows how full your context actually is — with the correct window for 1M-context models. One shell script, no API key, no network.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "context-window-load",
+      "token-counter",
+      "status-line-display",
+      "model-detection",
+      "plimsoll-visual-indicator"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-09-02T14:43:58Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-02T16:06:43.620Z"
+  },
+  {
+    "id": "jonasporto/llm-usage-bar",
+    "name": "llm-usage-bar",
+    "author": "jonasporto",
+    "repoURL": "https://github.com/jonasporto/llm-usage-bar",
+    "description": "macOS menu bar gauge for Claude and Codex plan limits across multiple accounts. Unofficial.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "multi-account",
+      "usage-gauges",
+      "rate-limit-countdown",
+      "per-model-buckets",
+      "extra-usage-spend",
+      "menu-bar-display"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-09-02T13:20:17Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-02T16:06:43.620Z"
+  },
+  {
+    "id": "sljzdotcom/AI-Token-Meter",
+    "name": "AI-Token-Meter",
+    "author": "sljzdotcom",
+    "repoURL": "https://github.com/sljzdotcom/AI-Token-Meter",
+    "description": "Native macOS usage meter for Claude Code, OpenAI Codex, and DeepSeek",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie",
+      "API Key"
+    ],
+    "features": [
+      "claude-code-monitoring",
+      "multi-provider",
+      "menu-bar-display",
+      "usage-analytics",
+      "30-day-trends",
+      "quota-alerts",
+      "local-caching"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-09-02T14:32:36Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-02T16:06:43.620Z"
   }
 ]

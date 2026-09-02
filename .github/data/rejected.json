@@ -1204,5 +1204,23 @@
     "reason": "This is a Claude Code session manager and monitor for macOS that displays live session count and state, but does not track, measure, or report Claude usage metrics (tokens, costs, rate limits, quotas) as a substantial feature.",
     "confidence": 0.95,
     "rejectedAt": "2026-09-02T03:16:34.603Z"
+  },
+  {
+    "id": "agenticluke/rest-api-designer-plus",
+    "reason": "This is a Claude Code skill for REST API design guidance, not a usage tracker; it helps developers design APIs but does not measure, display, or report Claude usage.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-09-02T16:06:31.118Z"
+  },
+  {
+    "id": "oauramos/sketchybar-clawd",
+    "reason": "This is a Claude Code session monitor that displays state and activity in the macOS menu bar, but does not track usage metrics like tokens, costs, or rate limits — it only visualizes session status and agent counts.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-09-02T16:06:34.073Z"
+  },
+  {
+    "id": "eric-volz/AgentNotifier",
+    "reason": "AgentNotifier monitors Claude Code session state and alerts on blocking conditions, but does not display, measure, or report Claude usage metrics (tokens, cost, quotas) as a feature—it only notifies when sessions need attention.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-09-02T16:06:37.157Z"
   }
 ]
