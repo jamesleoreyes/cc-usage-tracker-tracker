@@ -157323,5 +157323,179 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-09-01T20:41:06.196Z"
+  },
+  {
+    "id": "kemalasliyuksek/ClaudeBar",
+    "name": "ClaudeBar",
+    "author": "kemalasliyuksek",
+    "repoURL": "https://github.com/kemalasliyuksek/ClaudeBar",
+    "description": "A native macOS menu bar app for monitoring Claude usage limits in real-time",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "real-time-monitoring",
+      "usage-limits",
+      "plan-display",
+      "notifications",
+      "multi-language"
+    ],
+    "builtWithClaude": true,
+    "stars": 10,
+    "lastCommitDate": "2026-09-01T22:58:06Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-02T03:16:37.515Z"
+  },
+  {
+    "id": "Alpine-Lakes-Digital/claude-statusline",
+    "name": "claude-statusline",
+    "author": "Alpine-Lakes-Digital",
+    "repoURL": "https://github.com/Alpine-Lakes-Digital/claude-statusline",
+    "description": "Three-line status line for the Claude Code CLI: cwd + git branch, account/model/context size, and colour-graded bars for context, 5-hour, and 7-day limits.",
+    "category": "Statusline",
+    "platforms": [
+      "web"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "context-usage-bars",
+      "rate-limit-tracking",
+      "5-hour-window",
+      "7-day-window",
+      "reasoning-effort",
+      "color-graded-alerts",
+      "git-branch-display"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-02T01:14:41Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-02T03:16:37.516Z"
+  },
+  {
+    "id": "ookla-ariel-ride/claude-code-statusline-ps",
+    "name": "claude-code-statusline-ps",
+    "author": "ookla-ariel-ride",
+    "repoURL": "https://github.com/ookla-ariel-ride/claude-code-statusline-ps",
+    "description": "Single-file PowerShell 7 status line for Claude Code on Windows: Nerd Font glyphs, context meter, cost, rate limits, git branch",
+    "category": "Statusline",
+    "platforms": [
+      "windows"
+    ],
+    "language": "PowerShell",
+    "authMethod": [],
+    "features": [
+      "context-meter",
+      "cost-tracking",
+      "rate-limit-display",
+      "git-branch",
+      "session-cost",
+      "mode-badges"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-01T23:28:50Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-02T03:16:37.516Z"
+  },
+  {
+    "id": "Internet-Marketing-Agentur/cc-statusline",
+    "name": "cc-statusline",
+    "author": "Internet-Marketing-Agentur",
+    "repoURL": "https://github.com/Internet-Marketing-Agentur/cc-statusline",
+    "description": "Erweiterte Statuszeile für Claude Code mit Context, Git-Info und Usage-Limits (5h/7d)",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "context-usage-display",
+      "rate-limit-tracking",
+      "5h-quota",
+      "7d-quota",
+      "git-integration",
+      "progress-bars",
+      "color-coded-alerts"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-09-01T21:56:38Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-02T03:16:37.516Z"
+  },
+  {
+    "id": "E9Herve/E9-StatusBarLine",
+    "name": "E9-StatusBarLine",
+    "author": "E9Herve",
+    "repoURL": "https://github.com/E9Herve/E9-StatusBarLine",
+    "description": "A custom, dense Claude Code status line: context usage, rate limits, cost, and git branch in one fixed-width line",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "context-usage-bar",
+      "rate-limit-tracking",
+      "cost-display",
+      "session-metadata",
+      "git-integration",
+      "color-escalation",
+      "token-limits"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-02T02:27:45Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-02T03:16:37.516Z"
+  },
+  {
+    "id": "eastonplace/claude-subscription-usage-meter",
+    "name": "claude-subscription-usage-meter",
+    "author": "eastonplace",
+    "repoURL": "https://github.com/eastonplace/claude-subscription-usage-meter",
+    "description": "macOS Electron dashboard + menubar widget for monitoring Claude API subscription usage (5H/7D rate limits, token costs, session history)",
+    "category": "Electron/Desktop",
+    "platforms": [
+      "macos"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "OAuth Token"
+    ],
+    "features": [
+      "rate-limit-monitoring",
+      "token-cost-tracking",
+      "session-history",
+      "menubar-widget",
+      "tool-usage-analytics",
+      "activity-heatmaps",
+      "multi-window-dashboard"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-09-01T16:14:51Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-02T03:16:37.516Z"
   }
 ]

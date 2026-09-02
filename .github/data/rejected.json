@@ -1192,5 +1192,17 @@
     "reason": "Stele is a skill for managing agent memory across sessions and harnesses, not a Claude usage tracker; it enables resumption after rate limits but does not display, measure, or report usage metrics.",
     "confidence": 0.95,
     "rejectedAt": "2026-09-01T20:41:02.967Z"
+  },
+  {
+    "id": "hannahstulberg/branchbar",
+    "reason": "BranchBar is a git/branch management tool built for Claude Code users, but does not display, measure, or report Claude usage as a feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-09-02T03:16:31.705Z"
+  },
+  {
+    "id": "alexanderleitch/claude-systray",
+    "reason": "This is a Claude Code session manager and monitor for macOS that displays live session count and state, but does not track, measure, or report Claude usage metrics (tokens, costs, rate limits, quotas) as a substantial feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-09-02T03:16:34.603Z"
   }
 ]
