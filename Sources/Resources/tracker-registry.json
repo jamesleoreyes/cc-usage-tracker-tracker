@@ -158115,5 +158115,219 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-09-02T16:06:43.620Z"
+  },
+  {
+    "id": "allfalldownquick/ai-limit-notifier",
+    "name": "ai-limit-notifier",
+    "author": "allfalldownquick",
+    "repoURL": "https://github.com/allfalldownquick/ai-limit-notifier",
+    "description": "Zero-context AI usage monitoring with scheduled Telegram notifications for Codex, Claude Code and more.",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "language": "Go",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "claude-code-monitoring",
+      "codex-monitoring",
+      "usage-percentage-tracking",
+      "telegram-notifications",
+      "reset-scheduling",
+      "weekly-pacing"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-09-02T20:05:27Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-02T20:38:17.413Z"
+  },
+  {
+    "id": "igormarcelmoreira/claude-stats-widget",
+    "name": "claude-stats-widget",
+    "author": "igormarcelmoreira",
+    "repoURL": "https://github.com/igormarcelmoreira/claude-stats-widget",
+    "description": "Always-on-top Windows widget for Claude Code: live agent status + real Anthropic usage bars",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "live-agent-status",
+      "usage-bars",
+      "real-anthropic-api",
+      "rate-limit-window",
+      "per-session-tracking",
+      "always-on-top",
+      "system-tray"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-02T16:33:22Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-02T20:38:17.414Z"
+  },
+  {
+    "id": "5c077m4n/cli-harness-statusline",
+    "name": "cli-harness-statusline",
+    "author": "5c077m4n",
+    "repoURL": "https://github.com/5c077m4n/cli-harness-statusline",
+    "description": "A minimal and functional statusline for Cursor (CLI) Agnet & Claude Code",
+    "category": "Statusline",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "language": "Go",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "context-usage-bar",
+      "token-counting",
+      "cost-tracking",
+      "cache-hit-ratio",
+      "rate-limit-display",
+      "session-display",
+      "multi-segment-config"
+    ],
+    "builtWithClaude": null,
+    "stars": 2,
+    "lastCommitDate": "2026-09-02T20:36:41Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-02T20:38:17.414Z"
+  },
+  {
+    "id": "VitorFOG/claude-readout",
+    "name": "claude-readout",
+    "author": "VitorFOG",
+    "repoURL": "https://github.com/VitorFOG/claude-readout",
+    "description": "A Nerd Font statusline for Claude Code — model, rate limits, per-model weekly quotas, context and git, in truecolor.",
+    "category": "Statusline",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "rate-limit-meters",
+      "weekly-quotas",
+      "context-usage",
+      "model-tracking",
+      "nerd-font-display",
+      "git-integration"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-02T19:04:23Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-02T20:38:17.414Z"
+  },
+  {
+    "id": "jinhuang712/claude-code-ssp",
+    "name": "claude-code-ssp",
+    "author": "jinhuang712",
+    "repoURL": "https://github.com/jinhuang712/claude-code-ssp",
+    "description": "Claude Code statusline configured from a localhost web UI — zone layout, widget registry, plugins",
+    "category": "Statusline",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "Traffic Capture"
+    ],
+    "features": [
+      "rate-limits",
+      "token-tracking",
+      "cost-tracking",
+      "context-windows",
+      "multi-zone-layout",
+      "widget-registry",
+      "user-plugins",
+      "theme-customization"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-02T17:38:34Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-02T20:38:17.414Z"
+  },
+  {
+    "id": "KwCCCC/claude-statusbar",
+    "name": "claude-statusbar",
+    "author": "KwCCCC",
+    "repoURL": "https://github.com/KwCCCC/claude-statusbar",
+    "description": "Compact statusline for Claude Code — OMC-style ctx/usage, agent tree, profile, skill label",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "OAuth Token",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "context-usage",
+      "rate-limit-tracking",
+      "agent-tree",
+      "session-management",
+      "workspace-info",
+      "git-integration",
+      "model-tier-display"
+    ],
+    "builtWithClaude": true,
+    "stars": 4,
+    "lastCommitDate": "2026-09-02T17:26:52Z",
+    "openIssues": 1,
+    "archived": false,
+    "lastFetched": "2026-09-02T20:38:17.414Z"
+  },
+  {
+    "id": "mathdevie/devie-ai-quota-tracker",
+    "name": "devie-ai-quota-tracker",
+    "author": "mathdevie",
+    "repoURL": "https://github.com/mathdevie/devie-ai-quota-tracker",
+    "description": "Dashboard + macOS menu bar for tracking AI subscription quotas in one place (Claude Code, Codex, Gemini CLI, GitHub Copilot, and Cursor). Supports multi-accounts, notifications, and session-timer start optimization.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "multi-account",
+      "quota-alerts",
+      "menu-bar",
+      "dashboard",
+      "rate-limits",
+      "session-timer",
+      "multi-provider"
+    ],
+    "builtWithClaude": null,
+    "stars": 5,
+    "lastCommitDate": "2026-09-02T20:14:27Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-02T20:38:17.414Z"
   }
 ]
