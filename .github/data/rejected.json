@@ -1240,5 +1240,23 @@
     "reason": "This is a CLI tool for managing ChatGPT Ads via OpenAI's API with Claude Code integration as a skill, but it does not display, measure, or report Claude usage as a feature—it orchestrates ad campaigns, not Claude consumption.",
     "confidence": 0.95,
     "rejectedAt": "2026-09-03T10:48:46.897Z"
+  },
+  {
+    "id": "AhmetSIRIM/claude-setup",
+    "reason": "This is a personal Claude Code configuration/setup repository that manages rules, skills, and hooks for Claude Code workflows, but does not display, measure, or report Claude usage metrics—it is a dotfiles collection for customizing Claude Code behavior, not a usage tracker.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-09-03T15:56:32.988Z"
+  },
+  {
+    "id": "stanaioan/macos-menu-bar-skill",
+    "reason": "This is a Claude Code skill/template for building menu bar apps, not a tracker of Claude usage itself.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-09-03T15:56:37.192Z"
+  },
+  {
+    "id": "felicdaddubious8891/felicdaddubious8891.github.io",
+    "reason": "This is a personal portfolio site with no usage tracking, measurement, or reporting features despite the repository description mentioning a token usage tracker for Claude Code and other AI tools—the README describes only a static portfolio with no Claude-related functionality whatsoever.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-09-03T15:56:43.409Z"
   }
 ]
