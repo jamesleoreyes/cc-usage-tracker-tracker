@@ -1222,5 +1222,23 @@
     "reason": "AgentNotifier monitors Claude Code session state and alerts on blocking conditions, but does not display, measure, or report Claude usage metrics (tokens, cost, quotas) as a feature—it only notifies when sessions need attention.",
     "confidence": 0.95,
     "rejectedAt": "2026-09-02T16:06:37.157Z"
+  },
+  {
+    "id": "sweatshop-ai/cc-agent-names",
+    "reason": "This project assigns human names to Claude Code sessions for better coordination and communication between parallel agents, but does not display, measure, or report Claude usage metrics like tokens, costs, or rate limits.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-09-03T10:48:33.802Z"
+  },
+  {
+    "id": "Aleph-Kim/ai-cli-setup",
+    "reason": "This is a personal dotfiles/setup collection for managing Claude Code rules, statuslines, and skills; it displays quota information in a statusline but does not measure or report Claude usage as a substantial feature—it is a configuration deployment tool, not a usage tracker.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-09-03T10:48:43.400Z"
+  },
+  {
+    "id": "faborsky/chatgpt-ads-app",
+    "reason": "This is a CLI tool for managing ChatGPT Ads via OpenAI's API with Claude Code integration as a skill, but it does not display, measure, or report Claude usage as a feature—it orchestrates ad campaigns, not Claude consumption.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-09-03T10:48:46.897Z"
   }
 ]

@@ -158414,5 +158414,307 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-09-03T03:18:53.200Z"
+  },
+  {
+    "id": "SunggaP/claude-usage-widget",
+    "name": "claude-usage-widget",
+    "author": "SunggaP",
+    "repoURL": "https://github.com/SunggaP/claude-usage-widget",
+    "description": "Always-on-top Windows desktop widget for Claude Pro/Max plan usage and today's Claude Code token usage & cost. English / Korean UI.",
+    "category": "Electron/Desktop",
+    "platforms": [
+      "windows"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Browser Cookie Auto-detect",
+      "Session Cookie"
+    ],
+    "features": [
+      "plan-usage-tracking",
+      "claude-code-tokens",
+      "cost-estimation",
+      "always-on-top-widget",
+      "chrome-extension-sync",
+      "multi-language-ui"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-03T09:17:59Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-03T10:48:57.035Z"
+  },
+  {
+    "id": "crizoz/vitals",
+    "name": "vitals",
+    "author": "crizoz",
+    "repoURL": "https://github.com/crizoz/vitals",
+    "description": "Native macOS menu bar app for your Mac's vitals and your real Claude usage limits. Swift, no Xcode, no dependencies.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "claude-session-limits",
+      "weekly-cap-tracking",
+      "model-scoped-limits",
+      "pace-marks",
+      "low-poll-fsevents",
+      "persistent-snapshots"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-03T05:17:03Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-03T10:48:57.035Z"
+  },
+  {
+    "id": "wangxiajun68/ClaudeBar",
+    "name": "ClaudeBar",
+    "author": "wangxiajun68",
+    "repoURL": "https://github.com/wangxiajun68/ClaudeBar",
+    "description": "macOS menu bar app for Claude Code, Cursor, and Codex: provider switching, session monitor, token usage.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Traffic Capture"
+    ],
+    "features": [
+      "token-usage-stats",
+      "session-monitoring",
+      "model-switching",
+      "menubar-popup",
+      "desktop-widget",
+      "local-proxy",
+      "multi-provider"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-09-03T09:34:31Z",
+    "openIssues": 2,
+    "archived": false,
+    "lastFetched": "2026-09-03T10:48:57.035Z"
+  },
+  {
+    "id": "extrei/token-vision",
+    "name": "token-vision",
+    "author": "extrei",
+    "repoURL": "https://github.com/extrei/token-vision",
+    "description": "Live token usage for Claude Code and Codex: CLI readers, per-session Codex tailer, and a macOS menu-bar widget",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "OAuth Token",
+      "Traffic Capture",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "live-token-display",
+      "claude-code-tracking",
+      "codex-tracking",
+      "session-monitoring",
+      "rate-limit-tracking",
+      "menu-bar-widget",
+      "terminal-ui",
+      "plan-limits"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-09-03T08:39:12Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-03T10:48:57.035Z"
+  },
+  {
+    "id": "tokmaxxing/claude-lb-usage",
+    "name": "claude-lb-usage",
+    "author": "tokmaxxing",
+    "repoURL": "https://github.com/tokmaxxing/claude-lb-usage",
+    "description": "Claude Code plugin and status line for per-key claude-lb usage",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "claude-lb-usage",
+      "statusline",
+      "per-key-limits",
+      "cost-tracking",
+      "token-counting",
+      "rate-limit-monitoring"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-09-03T09:34:51Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-03T10:48:57.035Z"
+  },
+  {
+    "id": "GKakalotto/statusline",
+    "name": "statusline",
+    "author": "GKakalotto",
+    "repoURL": "https://github.com/GKakalotto/statusline",
+    "description": "自定义 Claude Code 状态栏。",
+    "category": "Claude Code Plugin",
+    "platforms": [],
+    "language": "Python",
+    "authMethod": [],
+    "features": [
+      "context-usage-display",
+      "cost-tracking",
+      "progress-bars",
+      "color-coded-limits",
+      "git-integration",
+      "model-info"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-09-03T06:25:02Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-03T10:48:57.035Z"
+  },
+  {
+    "id": "TechSnazzy/claude-crt-statusline",
+    "name": "claude-crt-statusline",
+    "author": "TechSnazzy",
+    "repoURL": "https://github.com/TechSnazzy/claude-crt-statusline",
+    "description": "Retro CRT-terminal status line for Claude Code — amber context gauge, multi-colour token-mix bar, context-growth sparkline. Single zero-dependency Node script.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "JavaScript",
+    "authMethod": [],
+    "features": [
+      "usage-gauges",
+      "rate-limit-display",
+      "rolling-windows",
+      "multi-colour-alerts",
+      "retro-crt-styling",
+      "context-tracking"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-03T05:46:12Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-03T10:48:57.035Z"
+  },
+  {
+    "id": "adxd-og/usage-checker",
+    "name": "usage-checker",
+    "author": "adxd-og",
+    "repoURL": "https://github.com/adxd-og/usage-checker",
+    "description": "AI coding limits and agent status at a glance in the macOS menu bar (Claude Code, Codex, Gemini, Antigravity, Grok)",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "Session Cookie",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "multi-provider",
+      "session-windows",
+      "burn-rate-alerts",
+      "spending-dashboard",
+      "agent-status",
+      "cost-accounting",
+      "activity-heatmap",
+      "desktop-widgets"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-03T09:55:45Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-03T10:48:57.035Z"
+  },
+  {
+    "id": "laidick/aiusagebar",
+    "name": "aiusagebar",
+    "author": "laidick",
+    "repoURL": "https://github.com/laidick/aiusagebar",
+    "description": "macOS menu bar app: live Claude Code, Codex & Gemini (Antigravity) usage limits. Built on akitaonrails/ai-usagebar.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Browser Cookie Auto-detect",
+      "Session Key"
+    ],
+    "features": [
+      "claude-code-usage",
+      "openai-codex-usage",
+      "gemini-usage",
+      "multi-provider",
+      "menu-bar-widget",
+      "session-limits",
+      "weekly-limits",
+      "severity-gauge"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-03T08:12:04Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-03T10:48:57.035Z"
+  },
+  {
+    "id": "jpelayo/PlanMonitor",
+    "name": "PlanMonitor",
+    "author": "jpelayo",
+    "repoURL": "https://github.com/jpelayo/PlanMonitor",
+    "description": "A native macOS menu bar app that tracks your AI usage limits and spending in real time (for Claude, Codex/ChatGPT, Grok and OpenRouter) from one lightweight process.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie",
+      "API Key",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "claude-support",
+      "multi-provider",
+      "usage-limits",
+      "spending-tracking",
+      "session-time",
+      "menu-bar-integration",
+      "color-coded-gauges",
+      "configurable-refresh"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-09-03T06:27:53Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-03T10:48:57.035Z"
   }
 ]
