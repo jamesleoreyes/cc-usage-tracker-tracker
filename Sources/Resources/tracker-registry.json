@@ -158330,5 +158330,86 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-09-02T20:38:17.414Z"
+  },
+  {
+    "id": "Luis-lhgdf/claudecode-usage-widget",
+    "name": "claudecode-usage-widget",
+    "author": "Luis-lhgdf",
+    "repoURL": "https://github.com/Luis-lhgdf/claudecode-usage-widget",
+    "description": "Floating desktop widget for Claude Code usage limits on Windows — 5-hour session and weekly limit, always on top. No dependencies.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Traffic Capture"
+    ],
+    "features": [
+      "session-limits",
+      "weekly-limits",
+      "real-time-display",
+      "minimal-dependencies",
+      "system-tray-widget",
+      "customizable-themes",
+      "refresh-on-demand"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-03T00:51:27Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-03T03:18:53.200Z"
+  },
+  {
+    "id": "ratherlegit/environmental-impact-tracker",
+    "name": "environmental-impact-tracker",
+    "author": "ratherlegit",
+    "repoURL": "https://github.com/ratherlegit/environmental-impact-tracker",
+    "description": "A Claude Code skill that translates AI token usage into real-world environmental impact (energy, water) with relatable comparisons.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "Unknown",
+    "authMethod": [],
+    "features": [
+      "token-to-impact-conversion",
+      "environmental-metrics",
+      "subagent-tracking",
+      "cumulative-logging",
+      "model-comparison",
+      "auto-enforcement"
+    ],
+    "builtWithClaude": null,
+    "stars": 15,
+    "lastCommitDate": "2026-09-02T21:53:12Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-03T03:18:53.200Z"
+  },
+  {
+    "id": "ReubenBeeler/statusline",
+    "name": "statusline",
+    "author": "ReubenBeeler",
+    "repoURL": "https://github.com/ReubenBeeler/statusline",
+    "description": "Claude Code Status Line",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "claude-usage-display",
+      "statusline-integration"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-09-02T23:14:16Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-03T03:18:53.200Z"
   }
 ]
