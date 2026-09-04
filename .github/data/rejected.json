@@ -1282,5 +1282,17 @@
     "reason": "This is a reusable toolkit/configuration for Claude Code projects with TDD agents, skills, and a statusline—not a usage tracker; it displays developer workflow metadata (context %, effort, rate limits in statusline) but does not measure or report Claude usage as a core feature.",
     "confidence": 0.95,
     "rejectedAt": "2026-09-04T15:53:52.397Z"
+  },
+  {
+    "id": "ltfiend/dotclaude",
+    "reason": "This is a portable dotfiles/configuration management project for Claude Code, not a usage tracker — it manages settings, hooks, and skills but does not display, measure, or report Claude usage.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-09-04T20:23:54.231Z"
+  },
+  {
+    "id": "obrenoalvim/unblock",
+    "reason": "This is a Claude Code skill for web research with fallback chains, not a usage tracker—it does not display, measure, or report Claude usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-09-04T20:24:11.449Z"
   }
 ]
