@@ -159952,5 +159952,274 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-09-04T10:47:33.945Z"
+  },
+  {
+    "id": "roypadina/AgentsMonitor",
+    "name": "AgentsMonitor",
+    "author": "roypadina",
+    "repoURL": "https://github.com/roypadina/AgentsMonitor",
+    "description": "Watch your coding agents (Claude Code + Codex) usage limits from the macOS menu bar — before you hit them.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key",
+      "Session Cookie",
+      "API Key"
+    ],
+    "features": [
+      "usage-limits",
+      "multi-account",
+      "pacing-alerts",
+      "menu-bar-display",
+      "spend-tracking",
+      "severity-coloring",
+      "per-model-windows",
+      "burn-rate"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-09-04T13:14:11Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-04T15:54:06.688Z"
+  },
+  {
+    "id": "ghimireaacs/claude-meter",
+    "name": "claude-meter",
+    "author": "ghimireaacs",
+    "repoURL": "https://github.com/ghimireaacs/claude-meter",
+    "description": "Noctalia v5 bar widget + CLI showing Claude Code session (5h) and weekly usage, reset countdowns, and pace. Pure Python 3, no dependencies.",
+    "category": "Waybar Module",
+    "platforms": [
+      "linux"
+    ],
+    "language": "Luau",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "session-window-tracking",
+      "weekly-usage-limits",
+      "reset-countdowns",
+      "pace-tracking",
+      "zero-dependencies",
+      "noctalia-widget",
+      "waybar-integration",
+      "cache-with-ttl"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-09-04T13:31:40Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-04T15:54:06.688Z"
+  },
+  {
+    "id": "scubafly/claude-statusline-bars",
+    "name": "claude-statusline-bars",
+    "author": "scubafly",
+    "repoURL": "https://github.com/scubafly/claude-statusline-bars",
+    "description": "Claude Code statusline: model, context window and rate-limit bars with the percentage drawn inside the bar",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "context-window-display",
+      "rate-limit-bars",
+      "model-indicator",
+      "color-coded-fill",
+      "countdown-timers"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-04T15:44:17Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-04T15:54:06.688Z"
+  },
+  {
+    "id": "rebel-daekyeong/statusman",
+    "name": "statusman",
+    "author": "rebel-daekyeong",
+    "repoURL": "https://github.com/rebel-daekyeong/statusman",
+    "description": "A two-line Claude Code statusline",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "context-window-display",
+      "rate-limit-countdown",
+      "budget-gauge",
+      "model-scoped-caps",
+      "timed-windows",
+      "multi-account"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-04T14:25:31Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-04T15:54:06.688Z"
+  },
+  {
+    "id": "LiveLikeCounter/claude-usage",
+    "name": "claude-usage",
+    "author": "LiveLikeCounter",
+    "repoURL": "https://github.com/LiveLikeCounter/claude-usage",
+    "description": "Claude Code statusline: usage limits, context window, cache %, session info, git branch",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "Go",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "context-window-tracking",
+      "rate-limit-display",
+      "cache-hit-percentage",
+      "session-info",
+      "progress-bars",
+      "git-integration",
+      "color-coded-alerts"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-04T12:20:12Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-04T15:54:06.688Z"
+  },
+  {
+    "id": "damithdev/claude-code-hud",
+    "name": "claude-code-hud",
+    "author": "damithdev",
+    "repoURL": "https://github.com/damithdev/claude-code-hud",
+    "description": "A status line for Claude Code that answers one question: **what did that turn actually cost me, and how long can I keep this up?",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "windows"
+    ],
+    "language": "PowerShell",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "cost-weighted-tokens",
+      "burn-rate-alerts",
+      "context-utilization",
+      "budget-projection",
+      "session-tracking",
+      "token-accounting"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-09-04T14:37:39Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-04T15:54:06.688Z"
+  },
+  {
+    "id": "abruption/cc-usage-cli",
+    "name": "cc-usage-cli",
+    "author": "abruption",
+    "repoURL": "https://github.com/abruption/cc-usage-cli",
+    "description": "Real-time Claude Code subscription rate-limit dashboard — reads OAuth credentials locally, probes the Anthropic API for current 5h/7d utilization.",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "OAuth Token",
+      "Session Cookie"
+    ],
+    "features": [
+      "rate-limit-display",
+      "5h-7d-utilization",
+      "reset-timers",
+      "tier-detection",
+      "json-output",
+      "watch-mode"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-09-04T12:25:18Z",
+    "openIssues": 3,
+    "archived": false,
+    "lastFetched": "2026-09-04T15:54:06.688Z"
+  },
+  {
+    "id": "evbuildsnet/usage-bar",
+    "name": "usage-bar",
+    "author": "evbuildsnet",
+    "repoURL": "https://github.com/evbuildsnet/usage-bar",
+    "description": "Claude Code and Codex quota usage in your macOS menu bar, per profile (SwiftBar plugin)",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Session Key",
+      "API Key"
+    ],
+    "features": [
+      "multi-profile",
+      "claude-codex",
+      "quota-display",
+      "menu-bar",
+      "read-only"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-04T14:16:57Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-04T15:54:06.688Z"
+  },
+  {
+    "id": "i-mage/tmux-agentic-usage",
+    "name": "tmux-agentic-usage",
+    "author": "i-mage",
+    "repoURL": "https://github.com/i-mage/tmux-agentic-usage",
+    "description": "Tmux popup for your AI coding quotas: Claude/Codex session, weekly and model windows with reserve and on-pace projections, powered by CodexBar",
+    "category": "Tmux Plugin",
+    "platforms": [
+      "macos",
+      "tmux"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "session-quota",
+      "weekly-quota",
+      "burn-rate-projections",
+      "multi-provider",
+      "reserve-tracking",
+      "pace-forecasting"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-04T13:06:22Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-04T15:54:06.688Z"
   }
 ]

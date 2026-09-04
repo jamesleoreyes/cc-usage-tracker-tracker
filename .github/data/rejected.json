@@ -1270,5 +1270,17 @@
     "reason": "This is a personal dotfiles/config repository for Claude Code settings and custom skills, not a usage tracker—it manages Claude configuration and custom skill definitions without displaying or measuring Claude usage metrics.",
     "confidence": 0.95,
     "rejectedAt": "2026-09-04T03:16:39.881Z"
+  },
+  {
+    "id": "diegodiaz1256/claude-messaging",
+    "reason": "This is a Claude Code skill for inter-session messaging that does not display, measure, or report Claude usage; it's a utility for managing session communication.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-09-04T15:53:46.547Z"
+  },
+  {
+    "id": "pierrebelin/claude-code-toolkit",
+    "reason": "This is a reusable toolkit/configuration for Claude Code projects with TDD agents, skills, and a statusline—not a usage tracker; it displays developer workflow metadata (context %, effort, rate limits in statusline) but does not measure or report Claude usage as a core feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-09-04T15:53:52.397Z"
   }
 ]
