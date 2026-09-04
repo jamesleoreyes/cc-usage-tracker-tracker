@@ -159621,5 +159621,336 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-09-04T03:16:49.384Z"
+  },
+  {
+    "id": "brianharms/claude-rings",
+    "name": "claude-rings",
+    "author": "brianharms",
+    "repoURL": "https://github.com/brianharms/claude-rings",
+    "description": "Activity rings for your Claude usage limits, in the macOS menu bar. Free, open source, one-line install.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "activity-rings",
+      "menu-bar-display",
+      "session-limit",
+      "weekly-limit",
+      "model-limit",
+      "usage-percentages",
+      "launch-at-login"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-04T07:45:59Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-04T10:47:33.944Z"
+  },
+  {
+    "id": "husamettinulutas/oneprovider-maestro",
+    "name": "oneprovider-maestro",
+    "author": "husamettinulutas",
+    "repoURL": "https://github.com/husamettinulutas/oneprovider-maestro",
+    "description": "One extension to run OneProvider models everywhere: native Copilot Chat provider, Claude Code launcher/config manager, Codex CLI/IDE provider setup, and a live balance & usage dashboard with per-session cost tracking.",
+    "category": "VS Code Extension",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "live-balance-dashboard",
+      "per-session-cost-tracking",
+      "multi-provider-support",
+      "token-breakdown",
+      "request-log",
+      "model-catalog"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-04T09:43:14Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-04T10:47:33.945Z"
+  },
+  {
+    "id": "jeonyounghyun/ai-usage-widget",
+    "name": "ai-usage-widget",
+    "author": "jeonyounghyun",
+    "repoURL": "https://github.com/jeonyounghyun/ai-usage-widget",
+    "description": "Claude Code / Codex usage limits as an always-on-top pastel widget with a running pixel cat (Windows)",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "claude-usage-display",
+      "codex-usage-display",
+      "donut-gauges",
+      "reset-timer",
+      "model-specific-limits",
+      "usage-alerts",
+      "fullscreen-auto-hide",
+      "taskbar-mini-mode"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-04T08:52:15Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-04T10:47:33.945Z"
+  },
+  {
+    "id": "SebQuenet/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "SebQuenet",
+    "repoURL": "https://github.com/SebQuenet/claude-code-statusline",
+    "description": "Claude Code status line: context degradation, per-bucket token cost, and your session's share of the weekly window. Linux + macOS.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "context-degradation",
+      "token-cost-tracking",
+      "session-cost",
+      "weekly-quota",
+      "cache-bucket-breakdown",
+      "multi-session-ledger"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-04T08:16:01Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-04T10:47:33.945Z"
+  },
+  {
+    "id": "Yorihito/vscode-claude-statusline",
+    "name": "vscode-claude-statusline",
+    "author": "Yorihito",
+    "repoURL": "https://github.com/Yorihito/vscode-claude-statusline",
+    "description": "Mirrors the Claude Code status line into the VS Code status bar",
+    "category": "VS Code Extension",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "rate-limit-display",
+      "5h-7d-windows",
+      "cached-usage",
+      "stale-tracking"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-04T07:58:11Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-04T10:47:33.945Z"
+  },
+  {
+    "id": "poisons77/cc-pace",
+    "name": "cc-pace",
+    "author": "poisons77",
+    "repoURL": "https://github.com/poisons77/cc-pace",
+    "description": "Claude Code statusline: usage limits, burn pace, and depletion ETA. Zero dependencies.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Traffic Capture"
+    ],
+    "features": [
+      "rate-limit-tracking",
+      "burn-pace-calculation",
+      "eta-projection",
+      "multi-window-display",
+      "zero-dependencies",
+      "account-rotation-integration",
+      "git-integration"
+    ],
+    "builtWithClaude": null,
+    "stars": 1,
+    "lastCommitDate": "2026-09-04T07:23:44Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-04T10:47:33.945Z"
+  },
+  {
+    "id": "FlukRocker/claude-quota-planner",
+    "name": "claude-quota-planner",
+    "author": "FlukRocker",
+    "repoURL": "https://github.com/FlukRocker/claude-quota-planner",
+    "description": "Claude Code 5h/7d quota status line + an MCP server that plans work against what's left",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Session Key",
+      "API Key",
+      "OAuth Token"
+    ],
+    "features": [
+      "quota-tracking",
+      "5h-7d-window",
+      "burn-rate",
+      "spend-mode",
+      "mcp-server",
+      "task-planning",
+      "admin-api"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-04T07:38:43Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-04T10:47:33.945Z"
+  },
+  {
+    "id": "ulaskizilay/claude-statusline",
+    "name": "claude-statusline",
+    "author": "ulaskizilay",
+    "repoURL": "https://github.com/ulaskizilay/claude-statusline",
+    "description": "Custom two-line status line for Claude Code. Git status, context/rate-limit usage, cost, and PR info at a glance.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "JavaScript",
+    "authMethod": [],
+    "features": [
+      "context-usage-bar",
+      "rate-limit-alerts",
+      "cost-tracking",
+      "git-info",
+      "multi-line-display",
+      "subagent-monitoring"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-09-04T06:01:24Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-04T10:47:33.945Z"
+  },
+  {
+    "id": "abruption/cc-meter",
+    "name": "cc-meter",
+    "author": "abruption",
+    "repoURL": "https://github.com/abruption/cc-meter",
+    "description": "Real-time Claude Code subscription rate-limit dashboard — reads OAuth credentials locally, probes the Anthropic API for current 5h/7d utilization.",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "OAuth Token",
+      "Session Key",
+      "Traffic Capture"
+    ],
+    "features": [
+      "rate-limit-dashboard",
+      "5h-7d-utilization",
+      "reset-timers",
+      "subscription-tier-display",
+      "json-output",
+      "multi-platform"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-09-04T09:01:34Z",
+    "openIssues": 3,
+    "archived": false,
+    "lastFetched": "2026-09-04T10:47:33.945Z"
+  },
+  {
+    "id": "TilbertBalaban/claude-limits-bar",
+    "name": "claude-limits-bar",
+    "author": "TilbertBalaban",
+    "repoURL": "https://github.com/TilbertBalaban/claude-limits-bar",
+    "description": "Claude Code limits and reset times in the macOS menu bar",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "rate-limit-alerts",
+      "session-tracking",
+      "7-day-quota",
+      "reset-countdown",
+      "menu-bar-display",
+      "multi-limit-monitoring"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-09-04T10:45:58Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-04T10:47:33.945Z"
+  },
+  {
+    "id": "mavdotso/cctray",
+    "name": "cctray",
+    "author": "mavdotso",
+    "repoURL": "https://github.com/mavdotso/cctray",
+    "description": "A macOS menu bar app for Claude Code",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "usage-limits",
+      "session-monitoring",
+      "account-switcher",
+      "attention-notifications",
+      "hotkey-launcher",
+      "worktree-cleanup"
+    ],
+    "builtWithClaude": null,
+    "stars": 1,
+    "lastCommitDate": "2026-09-04T06:56:59Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-04T10:47:33.945Z"
   }
 ]
