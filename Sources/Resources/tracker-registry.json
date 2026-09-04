@@ -159375,5 +159375,244 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-09-03T20:37:40.395Z"
+  },
+  {
+    "id": "miltonhit/one-tap-claude-cockpit-4mac",
+    "name": "one-tap-claude-cockpit-4mac",
+    "author": "miltonhit",
+    "repoURL": "https://github.com/miltonhit/one-tap-claude-cockpit-4mac",
+    "description": "macOS menu bar widget showing Claude Code's 5-hour and 7-day usage limits with live reset countdowns",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Traffic Capture",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "5-hour-session-limits",
+      "7-day-week-limits",
+      "live-reset-countdowns",
+      "visual-percentage-warnings",
+      "menu-bar-widget",
+      "zero-network",
+      "native-swift"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-03T18:51:57Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-04T03:16:49.384Z"
+  },
+  {
+    "id": "DmitriyReshetnikov/claude-statusline",
+    "name": "claude-statusline",
+    "author": "DmitriyReshetnikov",
+    "repoURL": "https://github.com/DmitriyReshetnikov/claude-statusline",
+    "description": "One-line status line for Claude Code: context usage, project and branch, uncommitted files, model and effort, plus your 5-hour and weekly rate limits.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "language": "JavaScript",
+    "authMethod": [],
+    "features": [
+      "context-usage-display",
+      "rate-limit-tracking",
+      "5h-window-display",
+      "weekly-window-display",
+      "git-branch-display",
+      "uncommitted-files-count",
+      "model-display",
+      "effort-level-display"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-09-04T01:17:37Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-04T03:16:49.384Z"
+  },
+  {
+    "id": "astral303/handy-claude-code-statusline",
+    "name": "handy-claude-code-statusline",
+    "author": "astral303",
+    "repoURL": "https://github.com/astral303/handy-claude-code-statusline",
+    "description": "Warm-cache countdown: peace at 53 minutes, dread at 2. Plus per-model usage and the essentials. sh + PowerShell.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "PowerShell",
+    "authMethod": [
+      "API Key",
+      "Session Key"
+    ],
+    "features": [
+      "rate-limit-windows",
+      "context-usage",
+      "prompt-cache-countdown",
+      "per-model-weekly-window",
+      "effort-level",
+      "git-branch"
+    ],
+    "builtWithClaude": null,
+    "stars": 1,
+    "lastCommitDate": "2026-09-04T00:50:40Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-04T03:16:49.384Z"
+  },
+  {
+    "id": "Tongas/burnline",
+    "name": "burnline",
+    "author": "Tongas",
+    "repoURL": "https://github.com/Tongas/burnline",
+    "description": "Real spend, right in your status line. A Claude Code plugin showing session, per-project, and monthly cost — computed from Claude Code's own cost data, no external pricing recalculation.",
+    "category": "Claude Code Plugin",
+    "platforms": [],
+    "language": "JavaScript",
+    "authMethod": [],
+    "features": [
+      "session-cost",
+      "monthly-spend",
+      "per-project-tracking",
+      "cost-total-usd",
+      "statusline-display",
+      "spend-persistence",
+      "calendar-month-grouping",
+      "reset-command"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-03T23:53:22Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-04T03:16:49.384Z"
+  },
+  {
+    "id": "Rgavan/claude-cockpit",
+    "name": "claude-cockpit",
+    "author": "Rgavan",
+    "repoURL": "https://github.com/Rgavan/claude-cockpit",
+    "description": "A pixel-art instrument panel for the Claude Code status line",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "context-gauge",
+      "usage-fader",
+      "session-clock",
+      "animated-pet",
+      "git-integration",
+      "preset-system"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-04T00:55:38Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-04T03:16:49.384Z"
+  },
+  {
+    "id": "Polloinfilzato/pacekeeper",
+    "name": "pacekeeper",
+    "author": "Polloinfilzato",
+    "repoURL": "https://github.com/Polloinfilzato/pacekeeper",
+    "description": "A Claude Code status line that tells you whether you are ahead of or behind your pace.",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "pace-tracking",
+      "quota-burn-rate",
+      "multi-session-arbitration",
+      "cache-ttl-display",
+      "daily-balance",
+      "counter-reset-detection"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-09-03T20:55:47Z",
+    "openIssues": 1,
+    "archived": false,
+    "lastFetched": "2026-09-04T03:16:49.384Z"
+  },
+  {
+    "id": "organization-isnull/claude-statusline",
+    "name": "claude-statusline",
+    "author": "organization-isnull",
+    "repoURL": "https://github.com/organization-isnull/claude-statusline",
+    "description": "My claude statusline",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "OpenTelemetry"
+    ],
+    "features": [
+      "claude-usage-display",
+      "rate-limit-tracking",
+      "context-window-monitoring",
+      "multi-model-metrics",
+      "token-counter",
+      "effort-level-display",
+      "cache-aware-stats"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-04T02:33:29Z",
+    "openIssues": 4,
+    "archived": false,
+    "lastFetched": "2026-09-04T03:16:49.384Z"
+  },
+  {
+    "id": "chriswa/ai-spend-tracker",
+    "name": "ai-spend-tracker",
+    "author": "chriswa",
+    "repoURL": "https://github.com/chriswa/ai-spend-tracker",
+    "description": "macOS menu-bar app that charts per-provider AI coding-tool usage and spend (Claude, Codex, Cursor, Devin)",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie",
+      "API Key",
+      "Session Key"
+    ],
+    "features": [
+      "rate-limit-tracking",
+      "spend-budget",
+      "multi-provider",
+      "donut-visualization",
+      "reset-countdown",
+      "sparkline-rates"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-03T20:48:21Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-04T03:16:49.384Z"
   }
 ]

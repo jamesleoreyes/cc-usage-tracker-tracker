@@ -1264,5 +1264,11 @@
     "reason": "Project manages rate limits and account switching across Claude Code and other models, but does not display or report usage metrics as a substantial feature—it focuses on headroom monitoring and account management instead.",
     "confidence": 0.85,
     "rejectedAt": "2026-09-03T20:37:24.645Z"
+  },
+  {
+    "id": "QingqiShi/claude",
+    "reason": "This is a personal dotfiles/config repository for Claude Code settings and custom skills, not a usage tracker—it manages Claude configuration and custom skill definitions without displaying or measuring Claude usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-09-04T03:16:39.881Z"
   }
 ]
