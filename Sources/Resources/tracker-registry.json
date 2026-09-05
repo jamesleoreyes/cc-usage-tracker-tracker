@@ -161605,5 +161605,340 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-09-05T14:44:52.498Z"
+  },
+  {
+    "id": "LenaKremer98/usageTracker",
+    "name": "usageTracker",
+    "author": "LenaKremer98",
+    "repoURL": "https://github.com/LenaKremer98/usageTracker",
+    "description": "Claude usage tracker for Ubuntu taskbar",
+    "category": "Statusline",
+    "platforms": [
+      "linux"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "usage-display",
+      "5h-window",
+      "7d-window",
+      "rate-limit-alerts",
+      "tray-indicator"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-05T18:00:28Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-05T20:02:30.670Z"
+  },
+  {
+    "id": "elomid/tokenio",
+    "name": "tokenio",
+    "author": "elomid",
+    "repoURL": "https://github.com/elomid/tokenio",
+    "description": "Tiny macOS menu app to monitor Claude usage at a glance",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "session-usage-display",
+      "weekly-usage-breakdown",
+      "model-breakdown",
+      "rate-limit-alerts",
+      "menu-bar-icon",
+      "color-coded-bars"
+    ],
+    "builtWithClaude": true,
+    "stars": 10,
+    "lastCommitDate": "2026-09-05T18:29:03Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-05T20:02:30.670Z"
+  },
+  {
+    "id": "hsmloktar/geekmagic-ai-usage-monitor",
+    "name": "geekmagic-ai-usage-monitor",
+    "author": "hsmloktar",
+    "repoURL": "https://github.com/hsmloktar/geekmagic-ai-usage-monitor",
+    "description": "Display Codex and Claude usage limits on a GeekMagic SmallTV Ultra",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "linux",
+      "windows",
+      "macos"
+    ],
+    "language": "Unknown",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "usage-limits-display",
+      "codex-integration",
+      "geekmagic-smalltv-ultra"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-09-05T17:35:09Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-05T20:02:30.670Z"
+  },
+  {
+    "id": "Gr0mar/quotabar",
+    "name": "quotabar",
+    "author": "Gr0mar",
+    "repoURL": "https://github.com/Gr0mar/quotabar",
+    "description": "A macOS menu bar tracker for Claude Code usage: what is left of your 5-hour and weekly quota, when it will run out, and what the tokens would cost at API list prices",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "OAuth Token",
+      "JSONL Log Parsing",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "quota-tracking",
+      "cost-calculation",
+      "burn-rate-alerts",
+      "session-monitoring",
+      "project-breakdown",
+      "model-split",
+      "prompt-caching-stats"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-05T19:09:37Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-05T20:02:30.670Z"
+  },
+  {
+    "id": "trentzx/tokenpet",
+    "name": "tokenpet",
+    "author": "trentzx",
+    "repoURL": "https://github.com/trentzx/tokenpet",
+    "description": "A Windows system-tray virtual pet fed by the AI-coding tokens you already burn. Local-only usage tracker for Claude Code.",
+    "category": "Statusline",
+    "platforms": [
+      "windows"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Traffic Capture"
+    ],
+    "features": [
+      "claude-code-tokens",
+      "local-only",
+      "virtual-pet",
+      "rolling-windows",
+      "token-buckets",
+      "live-streaming"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-05T18:35:32Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-05T20:02:30.670Z"
+  },
+  {
+    "id": "ojasviyadav/ai-usage-rings",
+    "name": "ai-usage-rings",
+    "author": "ojasviyadav",
+    "repoURL": "https://github.com/ojasviyadav/ai-usage-rings",
+    "description": "Activity-style rings for Claude Code and Codex weekly usage limits: macOS menu bar, desktop widgets, paired iPhone. Local-only, zero model turns.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos",
+      "ios"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "claude-code-limits",
+      "codex-limits",
+      "menu-bar-rings",
+      "desktop-widgets",
+      "iphone-companion",
+      "activity-rings",
+      "weekly-budget",
+      "zero-model-turns"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-09-05T16:30:58Z",
+    "openIssues": 1,
+    "archived": false,
+    "lastFetched": "2026-09-05T20:02:30.670Z"
+  },
+  {
+    "id": "ghub-alex/claude-statusline",
+    "name": "claude-statusline",
+    "author": "ghub-alex",
+    "repoURL": "https://github.com/ghub-alex/claude-statusline",
+    "description": "A Claude Code status line showing model, working directory/git branch, context window usage, and Pro/Max plan rate limits",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Python",
+    "authMethod": [],
+    "features": [
+      "context-window-usage",
+      "rate-limit-display",
+      "pro-max-quotas",
+      "5h-7d-windows",
+      "git-branch-display",
+      "token-counter",
+      "color-coded-alerts"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-09-05T19:11:15Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-05T20:02:30.670Z"
+  },
+  {
+    "id": "itsdadelous/claude-code-hud",
+    "name": "claude-code-hud",
+    "author": "itsdadelous",
+    "repoURL": "https://github.com/itsdadelous/claude-code-hud",
+    "description": "A single-file Node.js HUD statusline for the Claude Code CLI — context sparkline, token burn-rate + ETA, session cost estimate, git branch, and 5-hour/weekly usage bars. Non-blocking, zero dependencies.",
+    "category": "Statusline",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "context-sparkline",
+      "burn-rate-eta",
+      "session-cost",
+      "rate-limit-bars",
+      "git-branch",
+      "zero-token-overhead",
+      "non-blocking"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-05T15:11:10Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-05T20:02:30.670Z"
+  },
+  {
+    "id": "nahwan-kim/token-jar",
+    "name": "token-jar",
+    "author": "nahwan-kim",
+    "repoURL": "https://github.com/nahwan-kim/token-jar",
+    "description": "Native macOS menu bar app for AI usage limits — Codex, Claude, Grok, Cursor, and Doubao.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "multi-provider",
+      "usage-limits",
+      "menu-bar",
+      "codex-support",
+      "claude-support",
+      "grok-support",
+      "cursor-support",
+      "doubao-support"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-09-05T18:11:44Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-05T20:02:30.670Z"
+  },
+  {
+    "id": "displace-agency/relaybar",
+    "name": "relaybar",
+    "author": "displace-agency",
+    "repoURL": "https://github.com/displace-agency/relaybar",
+    "description": "Claude and Codex weekly limits, reset countdowns, and token usage in your Mac menu bar. Free and open source.",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "weekly-limits",
+      "reset-countdowns",
+      "token-usage",
+      "multi-provider",
+      "session-history",
+      "cost-estimates",
+      "calendar-view"
+    ],
+    "builtWithClaude": null,
+    "stars": 1,
+    "lastCommitDate": "2026-09-05T16:06:06Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-05T20:02:30.670Z"
+  },
+  {
+    "id": "Kameleon21/tokenlens",
+    "name": "tokenlens",
+    "author": "Kameleon21",
+    "repoURL": "https://github.com/Kameleon21/tokenlens",
+    "description": "A fast terminal dashboard for coding-agent token usage and estimated costs, with date filters, cached reports, and exports.",
+    "category": "Terminal UI",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "Go",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "token-usage-display",
+      "cost-estimates",
+      "multi-agent-comparison",
+      "date-filtering",
+      "cached-reports",
+      "data-export",
+      "currency-conversion",
+      "demo-mode"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-09-05T18:57:59Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-05T20:02:30.671Z"
   }
 ]
