@@ -1294,5 +1294,17 @@
     "reason": "This is a Claude Code skill for web research with fallback chains, not a usage tracker—it does not display, measure, or report Claude usage metrics.",
     "confidence": 0.95,
     "rejectedAt": "2026-09-04T20:24:11.449Z"
+  },
+  {
+    "id": "flykit-cc/dsh-flykit",
+    "reason": "Project is a Claude Code TUI orchestration tool and status line for DeepSeek agents, not a Claude usage tracker or reporter.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-09-05T03:19:34.888Z"
+  },
+  {
+    "id": "karimbabasf/primer",
+    "reason": "Primer is a Claude-powered learning tool that invokes Claude Code to generate study guides, but does not display, measure, or report Claude usage (tokens, cost, rate limits, quotas) as a feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-09-05T03:19:44.612Z"
   }
 ]

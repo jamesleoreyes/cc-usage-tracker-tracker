@@ -160619,5 +160619,273 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-09-04T20:24:30.149Z"
+  },
+  {
+    "id": "TadFuji/claude-usage-monitor",
+    "name": "claude-usage-monitor",
+    "author": "TadFuji",
+    "repoURL": "https://github.com/TadFuji/claude-usage-monitor",
+    "description": "A macOS menu bar app that shows how much of your Claude Code usage quota is left. Unofficial.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "usage-quota-display",
+      "rate-limiting-alerts",
+      "multi-window-tracking",
+      "session-refresh",
+      "keychain-integration"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-05T00:44:29Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-05T03:20:08.158Z"
+  },
+  {
+    "id": "ikztnihc/cc-statusline",
+    "name": "cc-statusline",
+    "author": "ikztnihc",
+    "repoURL": "https://github.com/ikztnihc/cc-statusline",
+    "description": "Claude code statusline",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Traffic Capture",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "context-usage-bar",
+      "rate-limit-monitor",
+      "cache-expiry-tracking",
+      "model-display",
+      "effort-level-indicator",
+      "pr-link-integration",
+      "session-colors",
+      "auto-compact-alerts"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-05T01:25:28Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-05T03:20:08.158Z"
+  },
+  {
+    "id": "ironmoose/bifrost-statusline",
+    "name": "bifrost-statusline",
+    "author": "ironmoose",
+    "repoURL": "https://github.com/ironmoose/bifrost-statusline",
+    "description": "A synthwave session HUD for Claude Code: model, context, and 5h/7d usage windows in one gradient-gauge line. Zero dependencies.",
+    "category": "Statusline",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Python",
+    "authMethod": [],
+    "features": [
+      "context-window-gauge",
+      "5h-usage-window",
+      "7d-usage-window",
+      "synthwave-gradient",
+      "git-branch-display",
+      "zero-dependencies"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-09-04T20:53:43Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-05T03:20:08.158Z"
+  },
+  {
+    "id": "ryanhu22/claude-code-manager",
+    "name": "claude-code-manager",
+    "author": "ryanhu22",
+    "repoURL": "https://github.com/ryanhu22/claude-code-manager",
+    "description": "Several Claude Code and Codex subscriptions on one Mac: usage in the menu bar, and which account each project uses",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Session Cookie",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "usage-tracking",
+      "multi-account",
+      "menubar-display",
+      "quota-management",
+      "session-routing"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-05T03:10:40Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-05T03:20:08.158Z"
+  },
+  {
+    "id": "tim-zagirov/codecat",
+    "name": "codecat",
+    "author": "tim-zagirov",
+    "repoURL": "https://github.com/tim-zagirov/codecat",
+    "description": "A menu-bar cat that watches your Claude Code sessions, keeps the Mac awake while agents work, and waves a paw when one needs you.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [],
+    "features": [
+      "claude-code-sessions",
+      "real-time-tracking",
+      "menu-bar-display",
+      "session-jumping",
+      "power-management",
+      "closed-lid-mode",
+      "activity-summary"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-04T22:42:23Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-05T03:20:08.158Z"
+  },
+  {
+    "id": "arepodotbtc/usagebar",
+    "name": "usagebar",
+    "author": "arepodotbtc",
+    "repoURL": "https://github.com/arepodotbtc/usagebar",
+    "description": "macOS menu bar rings for Claude Code, Codex, and Grok Build plan usage",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "claude-code-usage",
+      "multi-provider",
+      "quota-rings",
+      "visual-alerts",
+      "5h-weekly-windows"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-04T21:52:22Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-05T03:20:08.158Z"
+  },
+  {
+    "id": "jannemecekAI/ai-usage-proof",
+    "name": "ai-usage-proof",
+    "author": "jannemecekAI",
+    "repoURL": "https://github.com/jannemecekAI/ai-usage-proof",
+    "description": "Forensic evidence: Claude Code stats-cache counter vs ccusage/Tokscale methodology, Codex verification, leaderboard submissions (anonymised)",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "API Key"
+    ],
+    "features": [
+      "usage-forensics",
+      "stats-extraction",
+      "leaderboard-verification",
+      "multi-provider-aggregation",
+      "transcript-analysis",
+      "token-accounting",
+      "audit-reports",
+      "budget-verification"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-04T23:46:34Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-05T03:20:08.158Z"
+  },
+  {
+    "id": "Roshudo/ClaudeUsage",
+    "name": "ClaudeUsage",
+    "author": "Roshudo",
+    "repoURL": "https://github.com/Roshudo/ClaudeUsage",
+    "description": "A lightweight Claude usage meter ",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "menu-bar-display",
+      "usage-limits",
+      "rate-limit-tracking",
+      "color-coded-warnings",
+      "detailed-popover",
+      "auto-refresh",
+      "dual-window-monitoring"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-09-04T22:34:47Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-05T03:20:08.158Z"
+  },
+  {
+    "id": "crowroser/SignalRGB-AI-Token-Tracker",
+    "name": "SignalRGB-AI-Token-Tracker",
+    "author": "crowroser",
+    "repoURL": "https://github.com/crowroser/SignalRGB-AI-Token-Tracker",
+    "description": "Real-time RGB LED visualizer for AI coding & LLM token quotas in SignalRGB (Antigravity, Claude, Cursor, Codex, Gemini, Copilot, Grok). Compatible with Free & Pro.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "API Key"
+    ],
+    "features": [
+      "real-time-visualization",
+      "multi-model-tracking",
+      "rgb-led-integration",
+      "quota-display",
+      "active-generation-detection",
+      "customizable-effects"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-09-04T22:19:33Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-05T03:20:08.158Z"
   }
 ]
