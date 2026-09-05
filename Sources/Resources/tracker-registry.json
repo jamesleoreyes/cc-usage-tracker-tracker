@@ -161313,5 +161313,285 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-09-05T10:05:58.964Z"
+  },
+  {
+    "id": "yahelhai/claude-usage-widget",
+    "name": "claude-usage-widget",
+    "author": "yahelhai",
+    "repoURL": "https://github.com/yahelhai/claude-usage-widget",
+    "description": "Always-on-top macOS widget showing live Claude quota usage",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "live-quota-display",
+      "always-on-top-widget",
+      "claude-visibility-detection",
+      "keychain-integration",
+      "rate-limit-backoff",
+      "auto-recovery",
+      "window-occlusion-aware",
+      "read-only-token"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-05T11:55:45Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-05T14:44:52.498Z"
+  },
+  {
+    "id": "extsvforest/codex-weekly-usage-indicator",
+    "name": "codex-weekly-usage-indicator",
+    "author": "extsvforest",
+    "repoURL": "https://github.com/extsvforest/codex-weekly-usage-indicator",
+    "description": "Unofficial Windows always-on-top widget for remaining Codex and Claude usage",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "C#",
+    "authMethod": [
+      "Traffic Capture",
+      "API Key"
+    ],
+    "features": [
+      "usage-display",
+      "multi-provider",
+      "rate-limit-tracking",
+      "always-on-top",
+      "hover-tooltips",
+      "local-caching"
+    ],
+    "builtWithClaude": null,
+    "stars": 5,
+    "lastCommitDate": "2026-09-05T00:50:33Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-05T14:44:52.498Z"
+  },
+  {
+    "id": "Eden-Sun/ClaudeCodeUsageWidget",
+    "name": "ClaudeCodeUsageWidget",
+    "author": "Eden-Sun",
+    "repoURL": "https://github.com/Eden-Sun/ClaudeCodeUsageWidget",
+    "description": "macOS menu bar app for monitoring Claude Code API usage",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "five-hour-window",
+      "weekly-cap",
+      "per-model-caps",
+      "multi-profile",
+      "menu-bar-display",
+      "color-coded-usage"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-05T11:30:45Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-05T14:44:52.498Z"
+  },
+  {
+    "id": "aetsr/claude-code-window-starter",
+    "name": "claude-code-window-starter",
+    "author": "aetsr",
+    "repoURL": "https://github.com/aetsr/claude-code-window-starter",
+    "description": "macOS app that pre-starts and schedules Claude Code's 5-hour usage window around your working hours, with 5h/weekly usage tracking and reset countdowns.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Session Cookie",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "5h-window-scheduling",
+      "usage-tracking",
+      "reset-countdowns",
+      "menu-bar-app",
+      "telegram-bot",
+      "weekly-quota-tracking",
+      "adaptive-replanning"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-05T14:00:58Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-05T14:44:52.498Z"
+  },
+  {
+    "id": "itsdadelous/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "itsdadelous",
+    "repoURL": "https://github.com/itsdadelous/claude-code-statusline",
+    "description": "Fast, token-aware status bar for the Claude Code CLI — live context window plus 5-hour and weekly usage bars with reset countdowns. Non-blocking, zero token cost.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "context-window-display",
+      "token-usage-bars",
+      "5-hour-usage",
+      "weekly-usage",
+      "reset-countdowns",
+      "color-graded-bars",
+      "zero-token-cost"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-05T14:42:55Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-05T14:44:52.498Z"
+  },
+  {
+    "id": "studiomistdev/claude-rate-limit-guard",
+    "name": "claude-rate-limit-guard",
+    "author": "studiomistdev",
+    "repoURL": "https://github.com/studiomistdev/claude-rate-limit-guard",
+    "description": "Protect Claude Code plan windows with local usage caching, warnings and approval-gated overrides.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "rate-limit-warnings",
+      "usage-caching",
+      "approval-gating",
+      "5h-7d-windows",
+      "local-only",
+      "grant-budgeting"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-09-05T12:20:38Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-05T14:44:52.498Z"
+  },
+  {
+    "id": "matrozov/claude-code-status-limits",
+    "name": "claude-code-status-limits",
+    "author": "matrozov",
+    "repoURL": "https://github.com/matrozov/claude-code-status-limits",
+    "description": "Real-time status bar for Claude Code showing context window usage and rate limit consumption. Displays color-coded bars for 5h/7d quotas and per-model limits (Sonnet, Opus) using Claude's own OAuth token.",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "context-window-usage",
+      "rate-limit-tracking",
+      "5h-quota",
+      "7d-quota",
+      "per-model-limits",
+      "color-coded-bars",
+      "session-badges"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-09-05T10:56:14Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-05T14:44:52.498Z"
+  },
+  {
+    "id": "Isolaryn/usage-monitor",
+    "name": "usage-monitor",
+    "author": "Isolaryn",
+    "repoURL": "https://github.com/Isolaryn/usage-monitor",
+    "description": "Compact macOS menu bar usage monitor for Codex and Claude, with an Apple Silicon Nix flake.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "Session Key"
+    ],
+    "features": [
+      "codex-support",
+      "claude-usage",
+      "menu-bar-display",
+      "percentage-tracking",
+      "5-hour-window",
+      "weekly-allowance",
+      "multi-provider",
+      "keychain-integration"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-09-05T12:49:29Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-05T14:44:52.498Z"
+  },
+  {
+    "id": "lodev09/tokenmenyu",
+    "name": "tokenmenyu",
+    "author": "lodev09",
+    "repoURL": "https://github.com/lodev09/tokenmenyu",
+    "description": "Track Claude and Codex usage limits from your macOS menu bar.",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "Session Key",
+      "API Key"
+    ],
+    "features": [
+      "menu-bar-display",
+      "claude-usage",
+      "codex-usage",
+      "session-limits",
+      "weekly-limits",
+      "per-model-limits",
+      "multi-provider",
+      "auto-refresh"
+    ],
+    "builtWithClaude": null,
+    "stars": 1,
+    "lastCommitDate": "2026-09-05T12:05:35Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-05T14:44:52.498Z"
   }
 ]
