@@ -161941,5 +161941,153 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-09-05T20:02:30.671Z"
+  },
+  {
+    "id": "Fanthall/claude-usage-widget",
+    "name": "claude-usage-widget",
+    "author": "Fanthall",
+    "repoURL": "https://github.com/Fanthall/claude-usage-widget",
+    "description": "Desktop widget for Claude Code usage limits — session/weekly windows, reset times, and how fresh the data actually is.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "session-usage-display",
+      "weekly-window-tracking",
+      "reset-time-alerts",
+      "data-freshness-indicator",
+      "rate-limit-detection",
+      "multi-view-layouts",
+      "exponential-backoff"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-05T21:48:50Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-06T03:19:37.956Z"
+  },
+  {
+    "id": "florianalber/claude-code-usage-publisher",
+    "name": "claude-code-usage-publisher",
+    "author": "florianalber",
+    "repoURL": "https://github.com/florianalber/claude-code-usage-publisher",
+    "description": "Publishes Claude Code plan usage (status line data) as a JSON feed for phone widgets",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "OAuth Token",
+      "Session Cookie"
+    ],
+    "features": [
+      "status-line-integration",
+      "phone-widget-sync",
+      "icloud-drive-sync",
+      "gist-publishing",
+      "launchd-watcher",
+      "multi-window-usage",
+      "real-time-sync"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-09-05T22:00:58Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-06T03:19:37.956Z"
+  },
+  {
+    "id": "MasonFlint44/claude-statuslines",
+    "name": "claude-statuslines",
+    "author": "MasonFlint44",
+    "repoURL": "https://github.com/MasonFlint44/claude-statuslines",
+    "description": "A Claude Code plugin marketplace for statuslines",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "Unknown",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "budget-tracking",
+      "spend-alerts",
+      "multi-plan-support",
+      "marketplace"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-06T03:01:16Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-06T03:19:37.956Z"
+  },
+  {
+    "id": "wmy2981/cc-statusline",
+    "name": "cc-statusline",
+    "author": "wmy2981",
+    "repoURL": "https://github.com/wmy2981/cc-statusline",
+    "description": "Claude Code statusline config.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Python",
+    "authMethod": [],
+    "features": [
+      "context-usage-bar",
+      "session-display",
+      "git-integration",
+      "model-indicator",
+      "cost-tracking"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-09-06T02:15:37Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-06T03:19:37.956Z"
+  },
+  {
+    "id": "ridelink0/claude-code-usage-limits",
+    "name": "claude-code-usage-limits",
+    "author": "ridelink0",
+    "repoURL": "https://github.com/ridelink0/claude-code-usage-limits",
+    "description": "Claude Code usage limits read by Claude, not shown to you: every reply opens with what fits in the remaining budget.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Session Cookie"
+    ],
+    "features": [
+      "budget-context-injection",
+      "turn-estimation",
+      "model-breakdown",
+      "project-breakdown",
+      "cache-analysis",
+      "effort-level-tracking",
+      "rate-limit-alerts",
+      "cost-per-turn"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-09-06T00:33:04Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-06T03:19:37.956Z"
   }
 ]
