@@ -171429,5 +171429,41 @@
     "openIssues": 1,
     "archived": false,
     "lastFetched": "2026-09-20T20:27:02.407Z"
+  },
+  {
+    "id": "lobabobloblaw/claude-usage-amp",
+    "name": "claude-usage-amp",
+    "author": "lobabobloblaw",
+    "repoURL": "https://github.com/lobabobloblaw/claude-usage-amp",
+    "description": "Tokenamp: a Winamp 2.x-style macOS monitor for Claude plan and token usage, with real classic .wsz skin support",
+    "category": "CLI/Terminal",
+    "platforms": [],
+    "language": "Python",
+    "authMethod": [],
+    "features": [],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-09-21T02:56:48Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-21T03:43:07.418Z"
+  },
+  {
+    "id": "akito8639/orbit-for-claude-code",
+    "name": "orbit-for-claude-code",
+    "author": "akito8639",
+    "repoURL": "https://github.com/akito8639/orbit-for-claude-code",
+    "description": "macOS menu bar app + widget for Claude Code usage limits (5h / weekly / per-model), pace marker, status and local sessions. Unofficial.",
+    "category": "macOS Native",
+    "platforms": [],
+    "language": "Swift",
+    "authMethod": [],
+    "features": [],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-09-21T02:17:49Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-09-21T03:43:07.418Z"
   }
 ]
