@@ -3,7 +3,7 @@
 // Discovers new Claude usage tracker repos on GitHub and adds them to the registry.
 // Runs as a GitHub Action on a schedule.
 
-import { readFileSync, writeFileSync } from "fs";
+import { appendFileSync, readFileSync, writeFileSync } from "fs";
 import { classifyRepo, gatherEvidence, DEFAULT_MODEL } from "./classify.mjs";
 
 const REGISTRY_PATH = "Sources/Resources/tracker-registry.json";
@@ -245,7 +245,10 @@ async function main() {
   const rejected = loadRejected();
   // Classifier-rejected repos are remembered so they aren't re-fetched and
   // re-classified every 6 hours for as long as they keep matching a search.
-  const knownIDs = new Set([...registry.map((p) => p.id), ...rejected.map((r) => r.id)]);
+  // IDs are compared lowercased: GitHub names are case-insensitive, and after a
+  // case-only rename (aimeter -> AImeter) search returns the new casing, which
+  // an exact match would re-add as a duplicate of the existing entry.
+  const knownIDs = new Set([...registry, ...rejected].map((p) => p.id.toLowerCase()));
   // Candidates already quarantined on the pending-review branch are known too:
   // the workflow re-applies them from that branch, so classifying them again
   // here would burn API calls and produce churn between runs.
@@ -253,7 +256,7 @@ async function main() {
   if (process.env.PENDING_REGISTRY) {
     try {
       const pending = JSON.parse(readFileSync(process.env.PENDING_REGISTRY, "utf-8"));
-      for (const p of pending) knownIDs.add(p.id);
+      for (const p of pending) knownIDs.add(p.id.toLowerCase());
       pendingCount = pending.length;
     } catch {
       // No pending file or unreadable — nothing quarantined.
@@ -270,9 +273,10 @@ async function main() {
     const repos = await searchRepos(query);
 
     for (const repo of repos) {
-      if (knownIDs.has(repo.full_name) || candidates.has(repo.full_name)) continue;
+      const key = repo.full_name.toLowerCase();
+      if (knownIDs.has(key) || candidates.has(key)) continue;
       if (isLikelyTracker(repo)) {
-        candidates.set(repo.full_name, repo);
+        candidates.set(key, repo);
       }
     }
 
@@ -298,6 +302,8 @@ async function main() {
     const deferred = candidates.size - toClassify.length;
     if (deferred > 0) console.log(`Classifying ${toClassify.length}, deferring ${deferred} to the next run`);
 
+    let failures = 0;
+    let firstFailure = null;
     for (const repo of toClassify) {
       let verdict = null;
       let evidence = { readme: null, claudeCommitEvidence: null };
@@ -305,7 +311,11 @@ async function main() {
         evidence = await gatherEvidence(repo.full_name, TOKEN);
         verdict = await classifyRepo(repo, evidence, { apiKey: ANTHROPIC_API_KEY, model: CLASSIFIER_MODEL });
       } catch (e) {
-        console.warn(`  ? ${repo.full_name}: classifier unavailable (${e.message.slice(0, 80)}), accepting heuristically`);
+        // This is the fail-open path — it must not throw on a non-Error value.
+        const message = e instanceof Error ? e.message : String(e);
+        console.warn(`  ? ${repo.full_name}: classifier unavailable (${message.slice(0, 200)}), accepting heuristically`);
+        failures++;
+        firstFailure ??= message;
         accepted.push({ repo, verdict: null });
         continue;
       }
@@ -322,6 +332,12 @@ async function main() {
           rejectedAt: new Date().toISOString(),
         });
       }
+    }
+    // An annotation puts this on the run's summary page — as a log line alone,
+    // a classifier outage that hit every run went unnoticed for five weeks.
+    if (failures > 0) {
+      const detail = firstFailure.replace(/%/g, "%25").replace(/\r?\n/g, " ");
+      console.log(`::warning title=Classifier unavailable::${failures}/${toClassify.length} candidates accepted without classification — ${detail}`);
     }
   } else {
     console.log("ANTHROPIC_API_KEY not set — accepting all candidates heuristically (no classification)");
@@ -357,7 +373,14 @@ async function main() {
   if (newlyRejected.length > 0) {
     writeFileSync(REJECTED_PATH, JSON.stringify([...rejected, ...newlyRejected], null, 2) + "\n");
   }
-  console.log(`\nRegistry updated: ${registry.length} projects (+${accepted.length}, rejected ${newlyRejected.length})`);
+  // The workflow's anomaly guard keys on accepts the classifier never vetted
+  // (no API key, or the API failing), not on batch size: vetted batches are
+  // capped at CLASSIFY_CAP and routinely exceed the guard's threshold.
+  const unvetted = accepted.filter((a) => a.verdict === null).length;
+  if (process.env.GITHUB_OUTPUT) appendFileSync(process.env.GITHUB_OUTPUT, `unvetted=${unvetted}\n`);
+  console.log(
+    `\nRegistry updated: ${registry.length} projects (+${accepted.length}, ${unvetted} unvetted, rejected ${newlyRejected.length})`
+  );
 }
 
 main().catch(console.error);

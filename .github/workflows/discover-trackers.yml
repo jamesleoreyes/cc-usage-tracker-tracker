@@ -18,15 +18,18 @@ jobs:
   discover:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
-          node-version: '20'
+          node-version: '24'
 
-      # Oversized batches get parked on the discovery/pending branch (one rolling
-      # PR) instead of main. Load what's parked there so this run neither
+      # Quarantined batches get parked on the discovery/pending branch (one
+      # rolling PR) instead of main. Load what's parked there so this run neither
       # re-classifies those candidates nor loses them when the branch is rebuilt.
+      # IDs compare lowercased (GitHub names are case-insensitive), so a parked
+      # candidate whose repo reached main under another casing drops out here
+      # instead of becoming a duplicate when the PR merges.
       - name: Load quarantined candidates
         id: pending
         run: |
@@ -34,8 +37,8 @@ jobs:
           if git fetch origin discovery/pending 2>/dev/null; then
             git show FETCH_HEAD:Sources/Resources/tracker-registry.json > /tmp/pending-branch-registry.json
             jq -s '
-              (.[0] | map(.id)) as $known
-              | .[1] | map(select(.id as $i | ($known | index($i)) | not))
+              (.[0] | map(.id | ascii_downcase)) as $known
+              | .[1] | map(select((.id | ascii_downcase) as $i | ($known | index($i)) | not))
             ' Sources/Resources/tracker-registry.json /tmp/pending-branch-registry.json > /tmp/pending.json
           fi
           COUNT=$(jq length /tmp/pending.json)
@@ -43,6 +46,7 @@ jobs:
           echo "Quarantine branch holds $COUNT pending candidate(s)"
 
       - name: Search GitHub for new trackers
+        id: discover
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # Optional: enables LLM classification of candidates. Without it,
@@ -51,12 +55,22 @@ jobs:
           PENDING_REGISTRY: /tmp/pending.json
         run: node .github/scripts/discover.mjs
 
+      # Anomaly guard: more than 15 accepts the classifier never vetted (no API
+      # key, or the API failing) means only the heuristic filter judged them,
+      # so the batch goes to a PR for human review instead of main. Vetted
+      # accepts don't count — the classifier reviewed each one, and they
+      # routinely exceed 15 per run, which kept parking good batches in the PR.
+      # Fails closed: a changed registry without a numeric `unvetted` output
+      # (discover.mjs died after writing it) is quarantined too.
       - name: Count new discoveries
         id: changes
+        env:
+          UNVETTED: ${{ steps.discover.outputs.unvetted }}
         run: |
           if git diff --quiet -- Sources/Resources/tracker-registry.json .github/data/rejected.json; then
             echo "dirty=false" >> "$GITHUB_OUTPUT"
             echo "count=0" >> "$GITHUB_OUTPUT"
+            echo "quarantine=false" >> "$GITHUB_OUTPUT"
             echo '[]' > /tmp/new-accepts.json
           else
             git show HEAD:Sources/Resources/tracker-registry.json > /tmp/before-registry.json
@@ -66,14 +80,19 @@ jobs:
             ' /tmp/before-registry.json Sources/Resources/tracker-registry.json > /tmp/new-accepts.json
             echo "dirty=true" >> "$GITHUB_OUTPUT"
             echo "count=$(jq length /tmp/new-accepts.json)" >> "$GITHUB_OUTPUT"
-            echo "Found $(jq length /tmp/new-accepts.json) new tracker(s)"
+            if ! [[ "$UNVETTED" =~ ^[0-9]+$ ]] || [ "$UNVETTED" -gt 15 ]; then
+              echo "quarantine=true" >> "$GITHUB_OUTPUT"
+            else
+              echo "quarantine=false" >> "$GITHUB_OUTPUT"
+            fi
+            echo "Found $(jq length /tmp/new-accepts.json) new tracker(s), ${UNVETTED:-unknown} unvetted"
           fi
 
       # Normal drip: commit straight to main. No PR, no review queue.
       # count == 0 with dirty == true means a rejects-only run — still worth
       # committing so rejected candidates aren't re-classified every 6 hours.
       - name: Commit to main
-        if: steps.changes.outputs.dirty == 'true' && steps.changes.outputs.count <= 15
+        if: steps.changes.outputs.dirty == 'true' && steps.changes.outputs.quarantine != 'true'
         env:
           NEW_COUNT: ${{ steps.changes.outputs.count }}
         run: |
@@ -94,9 +113,9 @@ jobs:
 
       # Anomaly path: rejects are memory, not part of the proposal — they land on
       # main immediately so pending candidates aren't re-classified while the
-      # oversized batch waits for review.
-      - name: Record rejects on main (oversized batch)
-        if: steps.changes.outputs.count > 15
+      # quarantined batch waits for review.
+      - name: Record rejects on main (quarantined batch)
+        if: steps.changes.outputs.quarantine == 'true'
         run: |
           if git diff --quiet -- .github/data/rejected.json; then
             echo "No new rejects this run"
@@ -106,7 +125,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add .github/data/rejected.json
           git commit -m "Record rejected discovery candidates"
-          # Drop the uncommitted oversized registry batch (it lives on in
+          # Drop the uncommitted quarantined registry batch (it lives on in
           # /tmp/new-accepts.json) so pull --rebase below starts clean.
           git checkout -- Sources/Resources/tracker-registry.json
           for i in 1 2 3; do
@@ -116,18 +135,18 @@ jobs:
           done
           exit 1
 
-      # Anomaly guard: a batch >15 usually means a search-filter regression, so
-      # it goes to a PR for human review instead of main. One *rolling* PR: the
-      # discovery/pending branch is rebuilt from current main every run (so it
-      # stays mergeable despite the 4-hourly metadata rewrites) and new oversized
-      # batches append to it instead of opening PR after PR.
+      # Batches the anomaly guard flags go to a PR for human review instead of
+      # main. One *rolling* PR: the discovery/pending branch is rebuilt from
+      # current main every run (so it stays mergeable despite the 4-hourly
+      # metadata rewrites) and new flagged batches append to it instead of
+      # opening PR after PR.
       - name: Sync quarantine PR
-        if: steps.changes.outputs.count > 15 || steps.pending.outputs.count > 0
+        if: steps.changes.outputs.quarantine == 'true' || steps.pending.outputs.count > 0
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NEW_COUNT: ${{ steps.changes.outputs.count }}
+          QUARANTINE: ${{ steps.changes.outputs.quarantine }}
         run: |
-          if [ "$NEW_COUNT" -gt 15 ]; then
+          if [ "$QUARANTINE" = "true" ]; then
             jq -s '
               .[0] as $pending | ($pending | map(.id)) as $ids
               | $pending + (.[1] | map(select(.id as $i | ($ids | index($i)) | not)))
@@ -156,7 +175,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add Sources/Resources/tracker-registry.json
-          git commit -m "Quarantine $TOTAL oversized-batch candidates for review"
+          git commit -m "Quarantine $TOTAL discovery candidates for review"
           git push --force origin discovery/pending
 
           TITLE="Review needed: $TOTAL quarantined discovery candidates"
@@ -170,9 +189,9 @@ jobs:
             --title "$TITLE" \
             --label "discovery" \
             --body "$(cat <<'EOF'
-          Automated discovery hit an unusually large batch (>15 accepts in a single run), which may indicate a search-query or filter regression — so these candidates are parked here for review instead of being committed to `main`.
+          Automated discovery accepted more than 15 candidates in a single run without LLM classification (no `ANTHROPIC_API_KEY`, or the Anthropic API failing — the run's "Classifier unavailable" annotation shows the error), so only the heuristic filter judged them. They are parked here for review instead of being committed to `main`.
 
-          This is a **rolling** PR: it is rebuilt on top of current `main` every discovery run (staying mergeable despite metadata rewrites), and any further oversized batches are appended here instead of opening new PRs. Normal-sized discoveries keep flowing straight to `main` in the meantime.
+          This is a **rolling** PR: it is rebuilt on top of current `main` every discovery run (staying mergeable despite metadata rewrites), and any further flagged batches are appended here instead of opening new PRs. Classifier-vetted discoveries keep flowing straight to `main` in the meantime.
 
           - **Merging** accepts every quarantined candidate.
           - **To reject some or all**, add them to `.github/data/rejected.json` on `main` (or ask Claude to review the batch) — anything not rejected will be re-discovered.
