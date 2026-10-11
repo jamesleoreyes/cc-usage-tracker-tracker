@@ -1312,5 +1312,17 @@
     "reason": "Show & Tell is a screenshot annotation tool for sending visual feedback to Claude Code, but it does not display, measure, or report Claude usage metrics—it is a communication helper, not a usage tracker.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-11T04:27:30.157Z"
+  },
+  {
+    "id": "huynl-96/claude-mods",
+    "reason": "This is a Claude Code mod for hiding UI elements during screen sharing, not a Claude usage tracker—it does not display, measure, or report Claude usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-11T12:15:46.868Z"
+  },
+  {
+    "id": "AyeKarimba/AgentSentinel",
+    "reason": "AgentSentinel is a multi-agent session monitor, not a Claude usage tracker—it displays agent session states and status but does not measure, display, or report Claude tokens, costs, rate limits, or quota usage.",
+    "confidence": 0.92,
+    "rejectedAt": "2026-10-11T12:16:01.812Z"
   }
 ]
