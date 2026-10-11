@@ -78517,26 +78517,6 @@
     "lastFetched": "2026-10-11T14:46:18.869Z"
   },
   {
-    "id": "Coldcomplex1/Claude-Usage-Bar",
-    "name": "Claude-Usage-Bar",
-    "author": "Coldcomplex1",
-    "repoURL": "https://github.com/Coldcomplex1/Claude-Usage-Bar",
-    "description": "Claude Usage Bar Privacy Policy",
-    "category": "Statusline",
-    "platforms": [
-      "macos"
-    ],
-    "language": "HTML",
-    "authMethod": [],
-    "features": [],
-    "builtWithClaude": null,
-    "stars": 1,
-    "lastCommitDate": "2026-10-03T02:17:14Z",
-    "openIssues": 0,
-    "archived": false,
-    "lastFetched": "2026-10-11T14:46:19.440Z"
-  },
-  {
     "id": "xicv/codexbar-hub",
     "name": "codexbar-hub",
     "author": "xicv",
@@ -98313,36 +98293,6 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-10-07T15:19:35.992Z"
-  },
-  {
-    "id": "zhoufanscut/VantageHud",
-    "name": "VantageHud",
-    "author": "zhoufanscut",
-    "repoURL": "https://github.com/zhoufanscut/VantageHud",
-    "description": "A small, self-contained statusline for Claude Code — shows the model, thinking effort, context, rate limits, and git at a glance.",
-    "category": "Statusline",
-    "platforms": [
-      "macos",
-      "linux"
-    ],
-    "language": "JavaScript",
-    "authMethod": [],
-    "features": [
-      "model-display",
-      "thinking-effort",
-      "context-percent",
-      "rate-limits",
-      "git-info",
-      "session-time",
-      "proxy-aware"
-    ],
-    "builtWithClaude": true,
-    "stars": 0,
-    "lastCommitDate": "2026-10-05T05:09:02Z",
-    "openIssues": 0,
-    "archived": false,
-    "lastFetched": "2026-10-07T15:19:35.451Z",
-    "latestRelease": "v0.6.0"
   },
   {
     "id": "warrendurling/claude-statusline",
@@ -138820,37 +138770,6 @@
     "lastFetched": "2026-10-09T15:07:52.487Z"
   },
   {
-    "id": "MarioPayan/aimeter",
-    "name": "aimeter",
-    "author": "MarioPayan",
-    "repoURL": "https://github.com/MarioPayan/aimeter",
-    "description": "AI coding-tool usage, where you already look — a Claude Code statusline segment for your rate limits, context window and reset countdowns. One binary, ~2ms, no daemon.",
-    "category": "Statusline",
-    "platforms": [
-      "macos",
-      "linux"
-    ],
-    "language": "Rust",
-    "authMethod": [
-      "OAuth Token",
-      "Browser Cookie Auto-detect"
-    ],
-    "features": [
-      "claude-code-rate-limits",
-      "context-window",
-      "reset-countdowns",
-      "statusline-segment",
-      "minimal-overhead"
-    ],
-    "builtWithClaude": true,
-    "stars": 3,
-    "lastCommitDate": "2026-09-21T16:55:38Z",
-    "openIssues": 0,
-    "archived": false,
-    "lastFetched": "2026-10-09T15:07:53.060Z",
-    "latestRelease": "v1.1.0"
-  },
-  {
     "id": "Mr-Bombadil/Claude-of-The-Rings",
     "name": "Claude-of-The-Rings",
     "author": "Mr-Bombadil",
@@ -148061,37 +147980,6 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-10-10T23:23:07.893Z"
-  },
-  {
-    "id": "heznpc/quotapie",
-    "name": "quotapie",
-    "author": "heznpc",
-    "repoURL": "https://github.com/heznpc/quotapie",
-    "description": "macOS menu bar quota tracker for Claude Code and Codex: provider-truth reset tracking, personal burn-rate forecasting, and one honest decision in the menu bar.",
-    "category": "macOS Native",
-    "platforms": [
-      "macos"
-    ],
-    "language": "TypeScript",
-    "authMethod": [
-      "Browser Cookie Auto-detect",
-      "API Key"
-    ],
-    "features": [
-      "quota-tracking",
-      "burn-rate-forecasting",
-      "multi-account",
-      "provider-reset-tracking",
-      "intelligent-alerting",
-      "status-line-collection",
-      "oauth-collection"
-    ],
-    "builtWithClaude": null,
-    "stars": 0,
-    "lastCommitDate": "2026-10-09T14:30:59Z",
-    "openIssues": 0,
-    "archived": false,
-    "lastFetched": "2026-10-10T23:23:08.489Z"
   },
   {
     "id": "husky-dev/husky-claude-stats",

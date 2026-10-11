@@ -163,7 +163,19 @@ async function anthropicRequest(body, apiKey, attempt = 0) {
     await new Promise((r) => setTimeout(r, delay));
     return anthropicRequest(body, apiKey, attempt + 1);
   }
-  if (!res.ok) throw new Error(`Anthropic API ${res.status}: ${(await res.text()).slice(0, 200)}`);
+  if (!res.ok) {
+    // Lead with the API's own explanation (e.g. "Your credit balance is too
+    // low…") — in the raw JSON envelope it sits past where callers truncate.
+    const text = await res.text();
+    let detail = text.slice(0, 200);
+    try {
+      const { error } = JSON.parse(text);
+      if (error?.message) detail = `${error.type}: ${error.message}`;
+    } catch {
+      // Not JSON (e.g. a proxy error page) — keep the raw excerpt.
+    }
+    throw new Error(`Anthropic API ${res.status}: ${detail}`);
+  }
   return res.json();
 }
 
