@@ -1306,5 +1306,11 @@
     "reason": "Primer is a Claude-powered learning tool that invokes Claude Code to generate study guides, but does not display, measure, or report Claude usage (tokens, cost, rate limits, quotas) as a feature.",
     "confidence": 0.95,
     "rejectedAt": "2026-09-05T03:19:44.612Z"
+  },
+  {
+    "id": "jonathan-oralart/show-and-tell",
+    "reason": "Show & Tell is a screenshot annotation tool for sending visual feedback to Claude Code, but it does not display, measure, or report Claude usage metrics—it is a communication helper, not a usage tracker.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-11T04:27:30.157Z"
   }
 ]

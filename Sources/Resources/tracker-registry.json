@@ -180757,5 +180757,298 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-10-10T12:02:44.556Z"
+  },
+  {
+    "id": "SanjayPG/claude-usage-tracker-windows",
+    "name": "claude-usage-tracker-windows",
+    "author": "SanjayPG",
+    "repoURL": "https://github.com/SanjayPG/claude-usage-tracker-windows",
+    "description": "Windows tray app that shows your Claude 5-hour and weekly usage. It reads the usage feed written by the Claude Code plugin, so it never touches your login.",
+    "category": "Statusline",
+    "platforms": [
+      "windows"
+    ],
+    "language": "C#",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "session-usage-display",
+      "weekly-usage-display",
+      "burn-rate-alerts",
+      "tray-icon",
+      "live-updates",
+      "claude-code-integration"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-10T22:59:48Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-11T04:27:40.295Z"
+  },
+  {
+    "id": "wshuai294/claude-usage-meter",
+    "name": "claude-usage-meter",
+    "author": "wshuai294",
+    "repoURL": "https://github.com/wshuai294/claude-usage-meter",
+    "description": "macOS menu bar app + desktop widget showing your Claude weekly usage limits",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "weekly-usage-limits",
+      "menu-bar-display",
+      "desktop-widget",
+      "per-model-breakdown",
+      "usage-history",
+      "refresh-timers",
+      "color-coded-alerts"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-10T23:47:05Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-11T04:27:40.296Z"
+  },
+  {
+    "id": "giribboy77-arch/claude-statusline",
+    "name": "claude-statusline",
+    "author": "giribboy77-arch",
+    "repoURL": "https://github.com/giribboy77-arch/claude-statusline",
+    "description": "Claude Code 커스텀 상태줄 (모델, effort, 컨텍스트, 캐시, 사용량 한도)",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "model-display",
+      "effort-level",
+      "context-usage",
+      "prompt-cache-timer",
+      "session-quota",
+      "weekly-quota",
+      "model-specific-limits",
+      "auto-wrap"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-11T04:25:30Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-11T04:27:40.296Z"
+  },
+  {
+    "id": "grishkadel35/rpg-statusline",
+    "name": "rpg-statusline",
+    "author": "grishkadel35",
+    "repoURL": "https://github.com/grishkadel35/rpg-statusline",
+    "description": "Retro 8-bit RPG status line for Claude Code — HP, gold, XP and subagent sparklines",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "context-window-tracking",
+      "token-sparklines",
+      "cost-display",
+      "subagent-monitoring",
+      "xp-level-system",
+      "rate-limit-alerts",
+      "hp-bar-ui"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-11T02:36:02Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-11T04:27:40.296Z"
+  },
+  {
+    "id": "C0nanT/conan-mods",
+    "name": "conan-mods",
+    "author": "C0nanT",
+    "repoURL": "https://github.com/C0nanT/conan-mods",
+    "description": "Claude Code plugin: guards for git, .env, secrets and rm, plus caveman mode, sounds and a status line.",
+    "category": "Claude Code Plugin",
+    "platforms": [],
+    "language": "TypeScript",
+    "authMethod": [],
+    "features": [
+      "status-line",
+      "rate-limit-display",
+      "context-window-tracking",
+      "session-duration",
+      "model-effort-display"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-10-11T04:25:39Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-11T04:27:40.296Z"
+  },
+  {
+    "id": "lippdev/lippstack",
+    "name": "lippstack",
+    "author": "lippdev",
+    "repoURL": "https://github.com/lippdev/lippstack",
+    "description": "My Claude Code stack: mods (agents panel, stage bar, done notifications, status line), product owner skills for Jira and Confluence, PM skills, design skills and curated plugins. One ./setup.sh.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "TypeScript",
+    "authMethod": [],
+    "features": [
+      "token-usage-display",
+      "context-fill-indicator",
+      "quota-tracking",
+      "subagent-monitoring",
+      "stage-tracking",
+      "skill-orchestration"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-10-11T00:40:57Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-11T04:27:40.296Z"
+  },
+  {
+    "id": "auto-mo/needs-you",
+    "name": "needs-you",
+    "author": "auto-mo",
+    "repoURL": "https://github.com/auto-mo/needs-you",
+    "description": "macOS menu bar app for Claude Code: answer permission prompts from any session and see usage by session",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "usage-by-session",
+      "permission-prompts",
+      "plan-limits",
+      "session-status",
+      "menu-bar-app",
+      "cost-breakdown",
+      "local-only"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-11T03:03:32Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-11T04:27:40.296Z"
+  },
+  {
+    "id": "HMDRAMS-DEV/pacer",
+    "name": "pacer",
+    "author": "HMDRAMS-DEV",
+    "repoURL": "https://github.com/HMDRAMS-DEV/pacer",
+    "description": "A calm Claude and Codex usage tracker for the macOS menu bar. Paces your weekly limit so it lasts the week.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie",
+      "JSONL Log Parsing",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "weekly-limit-pacing",
+      "rate-limit-alerts",
+      "multi-account",
+      "menu-bar-icon",
+      "daily-allowance",
+      "usage-forecast"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-10-11T01:14:37Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-11T04:27:40.296Z"
+  },
+  {
+    "id": "IDSTUK/token-budget",
+    "name": "token-budget",
+    "author": "IDSTUK",
+    "repoURL": "https://github.com/IDSTUK/token-budget",
+    "description": "macOS menu bar widget showing Claude 5-hour and 7-day usage against an even-burn pace (unofficial)",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "5h-7d-limits",
+      "even-burn-pace",
+      "multi-account",
+      "rate-limit-avoidance",
+      "keychain-storage",
+      "api-credits"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-10T21:32:49Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-11T04:27:40.296Z"
+  },
+  {
+    "id": "jjinijj/claude-usage-hud",
+    "name": "claude-usage-hud",
+    "author": "jjinijj",
+    "repoURL": "https://github.com/jjinijj/claude-usage-hud",
+    "description": "Claude·Codex 사용량, 실행 중인 세션, Mac 메모리·저장공간을 화면 맨 위에 상시 띄우는 macOS HUD",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "claude-usage-display",
+      "codex-usage-gauge",
+      "session-monitoring",
+      "resource-monitoring",
+      "floating-hud",
+      "multi-session-tracking",
+      "status-line-integration",
+      "claude-code-hooks"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-11T01:58:30Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-11T04:27:40.296Z"
   }
 ]
