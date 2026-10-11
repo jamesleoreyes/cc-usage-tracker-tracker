@@ -1324,5 +1324,35 @@
     "reason": "AgentSentinel is a multi-agent session monitor, not a Claude usage tracker—it displays agent session states and status but does not measure, display, or report Claude tokens, costs, rate limits, or quota usage.",
     "confidence": 0.92,
     "rejectedAt": "2026-10-11T12:16:01.812Z"
+  },
+  {
+    "id": "vibe-coding-labs/claude-code-status-skills",
+    "reason": "This is a Claude Code status line plugin that displays the current model ID and session metadata, not a usage tracker—it shows what model is running, not tokens, costs, or usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-11T21:37:01.004Z"
+  },
+  {
+    "id": "gunasekar/trails",
+    "reason": "trails is a session manager for AI coding agents (Claude Code, Copilot, Cursor, etc.) that starts and resumes tmux sessions—it does not display, measure, or report Claude usage metrics and thus does not qualify as a usage tracker.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-11T21:37:19.926Z"
+  },
+  {
+    "id": "suatkocar/termpaste",
+    "reason": "TermPaste is a keyboard utility that routes screenshots to Claude Code and other AI CLIs, but it does not display, measure, or report Claude usage (tokens, cost, rate limits, quotas) as a feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-11T21:37:25.637Z"
+  },
+  {
+    "id": "merely04/awake",
+    "reason": "Awake is a Mac power management tool that integrates with Claude Code via hooks to keep the Mac awake during agent sessions, but does not display, measure, or report Claude usage as a feature—it only detects when Claude is running to manage system sleep state.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-11T21:37:29.060Z"
+  },
+  {
+    "id": "urbanodx/corral",
+    "reason": "Corral is a window-tiling utility for Claude Code sessions with visual session state indicators, but does not track, measure, or report Claude usage (tokens, cost, rate limits) as a feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-11T21:37:31.656Z"
   }
 ]
