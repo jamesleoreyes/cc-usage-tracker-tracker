@@ -24,11 +24,15 @@ jobs:
           node-version: '24'
 
       - name: Fetch live metadata for all repos
+        id: refresh
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node .github/scripts/update-metadata.mjs
 
       - name: Commit if changed
+        env:
+          RENAMED: ${{ steps.refresh.outputs.renamed }}
+          DROPPED: ${{ steps.refresh.outputs.dropped }}
         run: |
           if git diff --quiet Sources/Resources/tracker-registry.json; then
             echo "No changes"
@@ -36,7 +40,13 @@ jobs:
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
             git add Sources/Resources/tracker-registry.json
-            git commit -m "Update registry metadata"
+            # Renames rewrite entries and dropped duplicates delete them — say
+            # so, or they hide in history among routine stat refreshes.
+            MESSAGE="Update registry metadata"
+            if [ "${RENAMED:-0}" -gt 0 ] || [ "${DROPPED:-0}" -gt 0 ]; then
+              MESSAGE="$MESSAGE ($RENAMED renamed, $DROPPED duplicates dropped)"
+            fi
+            git commit -m "$MESSAGE"
             for i in 1 2 3; do
               if git push; then exit 0; fi
               git pull --rebase origin main || { git rebase --abort; exit 1; }
