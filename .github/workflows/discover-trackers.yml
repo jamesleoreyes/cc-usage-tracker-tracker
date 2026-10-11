@@ -60,10 +60,12 @@ jobs:
       # so the batch goes to a PR for human review instead of main. Vetted
       # accepts don't count — the classifier reviewed each one, and they
       # routinely exceed 15 per run, which kept parking good batches in the PR.
+      # Fails closed: a changed registry without a numeric `unvetted` output
+      # (discover.mjs died after writing it) is quarantined too.
       - name: Count new discoveries
         id: changes
         env:
-          UNVETTED: ${{ steps.discover.outputs.unvetted || 0 }}
+          UNVETTED: ${{ steps.discover.outputs.unvetted }}
         run: |
           if git diff --quiet -- Sources/Resources/tracker-registry.json .github/data/rejected.json; then
             echo "dirty=false" >> "$GITHUB_OUTPUT"
@@ -78,12 +80,12 @@ jobs:
             ' /tmp/before-registry.json Sources/Resources/tracker-registry.json > /tmp/new-accepts.json
             echo "dirty=true" >> "$GITHUB_OUTPUT"
             echo "count=$(jq length /tmp/new-accepts.json)" >> "$GITHUB_OUTPUT"
-            if [ "$UNVETTED" -gt 15 ]; then
+            if ! [[ "$UNVETTED" =~ ^[0-9]+$ ]] || [ "$UNVETTED" -gt 15 ]; then
               echo "quarantine=true" >> "$GITHUB_OUTPUT"
             else
               echo "quarantine=false" >> "$GITHUB_OUTPUT"
             fi
-            echo "Found $(jq length /tmp/new-accepts.json) new tracker(s), $UNVETTED unvetted"
+            echo "Found $(jq length /tmp/new-accepts.json) new tracker(s), ${UNVETTED:-unknown} unvetted"
           fi
 
       # Normal drip: commit straight to main. No PR, no review queue.

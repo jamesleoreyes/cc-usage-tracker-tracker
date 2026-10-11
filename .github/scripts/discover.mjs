@@ -311,9 +311,11 @@ async function main() {
         evidence = await gatherEvidence(repo.full_name, TOKEN);
         verdict = await classifyRepo(repo, evidence, { apiKey: ANTHROPIC_API_KEY, model: CLASSIFIER_MODEL });
       } catch (e) {
-        console.warn(`  ? ${repo.full_name}: classifier unavailable (${e.message.slice(0, 200)}), accepting heuristically`);
+        // This is the fail-open path — it must not throw on a non-Error value.
+        const message = e instanceof Error ? e.message : String(e);
+        console.warn(`  ? ${repo.full_name}: classifier unavailable (${message.slice(0, 200)}), accepting heuristically`);
         failures++;
-        firstFailure ??= e.message;
+        firstFailure ??= message;
         accepted.push({ repo, verdict: null });
         continue;
       }
