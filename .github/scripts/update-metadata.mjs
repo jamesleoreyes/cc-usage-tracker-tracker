@@ -1,14 +1,15 @@
 #!/usr/bin/env node
 
 // Fetches live GitHub metadata (stars, last commit, archived, open issues,
-// latest release) for repos in the registry and writes it back.
+// latest release) for repos in the registry and writes it back, following
+// renamed and transferred repos to their current name.
 // Runs as a GitHub Action on a schedule.
 //
 // The registry is larger than one run's API budget, so each run refreshes the
 // BATCH_LIMIT stalest entries (by lastFetched) and the schedule rotates
 // through everything over ~a day and a half.
 
-import { readFileSync, writeFileSync } from "fs";
+import { appendFileSync, readFileSync, writeFileSync } from "fs";
 
 const REGISTRY_PATH = "Sources/Resources/tracker-registry.json";
 const GITHUB_API = "https://api.github.com";
@@ -50,6 +51,12 @@ async function fetchRepoMetadata(owner, repo) {
   if (data._notFound) return { notFound: true };
 
   return {
+    // GitHub redirects renamed and transferred repos, so these can differ from
+    // the registry entry that asked — that's how renames are detected.
+    fullName: data.full_name,
+    name: data.name,
+    owner: data.owner?.login,
+    repoURL: data.html_url,
     stars: data.stargazers_count ?? 0,
     lastCommitDate: data.pushed_at ?? null,
     openIssues: data.open_issues_count ?? 0,
@@ -63,6 +70,10 @@ async function fetchLatestRelease(owner, repo) {
   return data.tag_name ?? null;
 }
 
+const CLASSIFICATION_FIELDS = ["category", "platforms", "authMethod", "features", "builtWithClaude"];
+const isUnclassified = (p) =>
+  !(p.platforms ?? []).length && !(p.authMethod ?? []).length && !(p.features ?? []).length;
+
 async function main() {
   const registry = JSON.parse(readFileSync(REGISTRY_PATH, "utf-8"));
 
@@ -73,7 +84,15 @@ async function main() {
     .slice(0, BATCH_LIMIT);
   console.log(`Registry has ${registry.length} projects; refreshing the ${batch.length} stalest...`);
 
+  // A renamed or transferred repo keeps its old id here, while discovery
+  // searches by current name and adds it again — so a stale id is both wrong
+  // and a duplicate in waiting. Fix the id, or drop the entry when the repo is
+  // already listed under its current name.
+  const byID = new Map(registry.map((p) => [p.id.toLowerCase(), p]));
+  const dropped = new Set();
+
   let updated = 0;
+  let renamed = 0;
   let notFound = 0;
   let errors = 0;
 
@@ -104,6 +123,28 @@ async function main() {
       continue;
     }
 
+    if (metadata.fullName && metadata.fullName !== project.id) {
+      const listed = byID.get(metadata.fullName.toLowerCase());
+      if (listed && listed !== project) {
+        // An entry added after the rename while the classifier was down has no
+        // classification of its own — keep this one's rather than lose it.
+        if (isUnclassified(listed) && !isUnclassified(project)) {
+          for (const field of CLASSIFICATION_FIELDS) listed[field] = project[field];
+        }
+        dropped.add(project);
+        console.log(`  [duplicate] ${project.id} is now ${metadata.fullName}, already listed — dropped`);
+        continue;
+      }
+      console.log(`  [renamed] ${project.id} -> ${metadata.fullName}`);
+      byID.delete(project.id.toLowerCase());
+      project.id = metadata.fullName;
+      project.name = metadata.name;
+      project.author = metadata.owner;
+      project.repoURL = metadata.repoURL;
+      byID.set(project.id.toLowerCase(), project);
+      renamed++;
+    }
+
     project.stars = metadata.stars;
     project.lastCommitDate = metadata.lastCommitDate;
     project.openIssues = metadata.openIssues;
@@ -111,7 +152,7 @@ async function main() {
     project.lastFetched = new Date().toISOString();
 
     // Fetch latest release (skip if rate limited)
-    const release = await fetchLatestRelease(owner, repo);
+    const release = await fetchLatestRelease(...project.id.split("/"));
     if (release) {
       project.latestRelease = release;
     }
@@ -127,9 +168,12 @@ async function main() {
     await new Promise((r) => setTimeout(r, 100));
   }
 
-  // Write back
-  writeFileSync(REGISTRY_PATH, JSON.stringify(registry, null, 2) + "\n");
-  console.log(`\nDone: ${updated} updated, ${notFound} not found, ${errors} errors`);
+  // Write back; filtering out the dropped duplicates keeps everything else in order
+  writeFileSync(REGISTRY_PATH, JSON.stringify(registry.filter((p) => !dropped.has(p)), null, 2) + "\n");
+  if (process.env.GITHUB_OUTPUT) appendFileSync(process.env.GITHUB_OUTPUT, `renamed=${renamed}\ndropped=${dropped.size}\n`);
+  console.log(
+    `\nDone: ${updated} updated, ${renamed} renamed, ${dropped.size} duplicates dropped, ${notFound} not found, ${errors} errors`
+  );
 }
 
 main().catch(console.error);
