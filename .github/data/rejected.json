@@ -1354,5 +1354,11 @@
     "reason": "Corral is a window-tiling utility for Claude Code sessions with visual session state indicators, but does not track, measure, or report Claude usage (tokens, cost, rate limits) as a feature.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-11T21:37:31.656Z"
+  },
+  {
+    "id": "Bill-Fei/agent-island",
+    "reason": "This is a status-only macOS menu bar HUD that displays agent activity (Codex, Claude Code, Work Buddy) without measuring, tracking, or reporting Claude usage metrics like tokens, costs, or rate limits—it merely shows what agents are running or waiting for approval.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-12T04:43:39.785Z"
   }
 ]
