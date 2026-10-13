@@ -1390,5 +1390,23 @@
     "reason": "Kemory-plus is a Claude Code plugin for managing persistent memories within Claude sessions, not a tracker of Claude usage metrics like tokens, cost, or rate limits.",
     "confidence": 0.85,
     "rejectedAt": "2026-10-12T14:39:23.816Z"
+  },
+  {
+    "id": "mvrozanti/claude-progressbar",
+    "reason": "This is a Claude Code plugin that visualizes progress of running bash commands in the statusline, not a Claude usage tracker—it tracks command execution progress, not Claude API consumption or token usage.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-13T00:15:45.412Z"
+  },
+  {
+    "id": "SeKondBrainAILabs/kemory-panel",
+    "reason": "Kemory-panel is a memory management interface for Claude Code that displays recalled/saved memories and session context, but does not track or measure Claude usage (tokens, cost, rate limits) as a feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-13T00:15:57.376Z"
+  },
+  {
+    "id": "carterptull/ampline-website",
+    "reason": "This is a landing page website for ampline, not ampline itself; it demonstrates ampline's statusline output but does not measure or report Claude usage as its own feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-13T00:16:24.795Z"
   }
 ]
