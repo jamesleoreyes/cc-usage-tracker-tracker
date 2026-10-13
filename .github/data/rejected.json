@@ -1420,5 +1420,23 @@
     "reason": "MacAwake is a sleep-prevention utility for macOS that mentions Claude Code as a use case, but does not display, measure, or report Claude usage as a feature; it is a productivity tool unrelated to usage tracking.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-13T13:44:44.005Z"
+  },
+  {
+    "id": "danielboston38/code-run",
+    "reason": "This is a Claude Code mod that displays job progress in the status line, not a Claude usage tracker; it monitors long-running job progress, not Claude token consumption, cost, or quota.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-13T22:24:29.644Z"
+  },
+  {
+    "id": "maximwas/pixelwright",
+    "reason": "Pixelwright is an MCP server and Figma plugin that enables AI agents to read and edit Figma files, but it does not track, measure, or report Claude usage—it is a tool that Claude Code can use, not a usage tracker.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-13T22:24:33.132Z"
+  },
+  {
+    "id": "victorrentea/victor-insomnia",
+    "reason": "This is a utility that detects and responds to Claude Code sessions to manage Mac sleep state, but does not display, measure, or report Claude usage metrics as a feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-13T22:24:39.311Z"
   }
 ]
