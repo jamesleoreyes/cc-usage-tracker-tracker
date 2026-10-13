@@ -1408,5 +1408,17 @@
     "reason": "This is a landing page website for ampline, not ampline itself; it demonstrates ampline's statusline output but does not measure or report Claude usage as its own feature.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-13T00:16:24.795Z"
+  },
+  {
+    "id": "sankhacooray/aimeter-sankhacooray-com",
+    "reason": "This repository is a static download landing page for Claude Meter (hosted elsewhere), not a usage tracker itself; it contains no measurement or display logic.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-13T13:43:55.644Z"
+  },
+  {
+    "id": "isiddharthsingh/keep-mac-awake",
+    "reason": "MacAwake is a sleep-prevention utility for macOS that mentions Claude Code as a use case, but does not display, measure, or report Claude usage as a feature; it is a productivity tool unrelated to usage tracking.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-13T13:44:44.005Z"
   }
 ]
