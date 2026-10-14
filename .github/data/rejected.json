@@ -1438,5 +1438,17 @@
     "reason": "This is a utility that detects and responds to Claude Code sessions to manage Mac sleep state, but does not display, measure, or report Claude usage metrics as a feature.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-13T22:24:39.311Z"
+  },
+  {
+    "id": "giveitlegs/moonlyt",
+    "reason": "Moonlyt is a social presence tool for Claude Code users that shows who's online and allows waves, but does not display, measure, or report Claude usage metrics (tokens, cost, rate limits, quotas) as a feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-14T11:22:56.779Z"
+  },
+  {
+    "id": "robin-jiangdh/magpie",
+    "reason": "magpie is a multi-provider agent gateway and model router with quota failover, but does not display or report Claude usage metrics as a substantial feature—it switches providers when quotas run out rather than tracking usage.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-14T11:23:03.233Z"
   }
 ]
