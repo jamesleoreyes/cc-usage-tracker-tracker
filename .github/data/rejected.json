@@ -1450,5 +1450,23 @@
     "reason": "magpie is a multi-provider agent gateway and model router with quota failover, but does not display or report Claude usage metrics as a substantial feature—it switches providers when quotas run out rather than tracking usage.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-14T11:23:03.233Z"
+  },
+  {
+    "id": "Manukrish2504/themes",
+    "reason": "This is a pure theming plugin for Claude Code that customizes UI appearance, animations, and spinner text—it does not display, measure, or report Claude usage metrics like tokens, costs, or rate limits.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-14T16:43:06.655Z"
+  },
+  {
+    "id": "ahsoggg-creator/resumer",
+    "reason": "This project automates Claude Code interaction after rate limit resets rather than tracking or displaying Claude usage metrics, making it a rate-limit workaround tool rather than a usage tracker.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-10-14T16:43:15.431Z"
+  },
+  {
+    "id": "quan105dn/KeepAwake",
+    "reason": "KeepAwake is a sleep-management utility that monitors Claude Code sessions to decide when to keep the Mac awake, but it does not display, measure, or report Claude usage metrics (tokens, cost, rate limits) as a feature — it only detects activity state.",
+    "confidence": 0.92,
+    "rejectedAt": "2026-10-14T16:43:22.077Z"
   }
 ]
