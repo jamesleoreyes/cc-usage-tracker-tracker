@@ -1468,5 +1468,23 @@
     "reason": "KeepAwake is a sleep-management utility that monitors Claude Code sessions to decide when to keep the Mac awake, but it does not display, measure, or report Claude usage metrics (tokens, cost, rate limits) as a feature — it only detects activity state.",
     "confidence": 0.92,
     "rejectedAt": "2026-10-14T16:43:22.077Z"
+  },
+  {
+    "id": "Harrison-Blair/agents",
+    "reason": "This is a dotfile/configuration management system for Claude Code, Codex, Cursor, and Pi that syncs skills and instructions, not a usage tracker that measures or reports Claude consumption.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-14T21:22:13.848Z"
+  },
+  {
+    "id": "danordanor/softbox",
+    "reason": "This is a smart lighting controller for Elgato Key Light Air that includes Claude Code integration (breathing light when Claude needs input), but does not display, measure, or report Claude usage metrics, tokens, costs, or quotas—it only uses the light as a visual signal for Claude activity.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-14T21:22:26.778Z"
+  },
+  {
+    "id": "aslkhon/lookout",
+    "reason": "Lookout monitors Claude Code and Codex agent states and notifies on status changes, but does not measure, display, or report Claude usage metrics (tokens, costs, rate limits, quotas) as a substantial feature—it is an agent lifecycle monitor, not a usage tracker.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-14T21:22:30.052Z"
   }
 ]

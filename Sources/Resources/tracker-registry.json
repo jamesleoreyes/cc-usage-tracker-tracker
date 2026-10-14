@@ -183352,5 +183352,238 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-10-14T16:43:28.964Z"
+  },
+  {
+    "id": "angelwingsy/claude-limits",
+    "name": "claude-limits",
+    "author": "angelwingsy",
+    "repoURL": "https://github.com/angelwingsy/claude-limits",
+    "description": "🦀 Free macOS menu bar app that shows your Claude usage limits: 5-hour session, weekly and per-model limits, with reset times. A dancing pixel Claude tells you at a glance how much you have left.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "session-limit-tracking",
+      "weekly-limit-tracking",
+      "per-model-limits",
+      "reset-times",
+      "animated-mascot",
+      "menu-bar-display"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-14T17:57:47Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-14T21:22:36.305Z"
+  },
+  {
+    "id": "mbackschat/agent-monitor",
+    "name": "agent-monitor",
+    "author": "mbackschat",
+    "repoURL": "https://github.com/mbackschat/agent-monitor",
+    "description": "Trace heavy CPU and memory usage to Codex CLI and Claude Code sessions on macOS. Live terminal UI, session grouping, and JSONL output.",
+    "category": "Terminal UI",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [],
+    "features": [
+      "session-grouping",
+      "cpu-memory-monitoring",
+      "live-tui",
+      "jsonl-output",
+      "process-tracing",
+      "codex-claude-code"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-14T20:18:39Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-14T21:22:36.305Z"
+  },
+  {
+    "id": "daydeda/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "daydeda",
+    "repoURL": "https://github.com/daydeda/claude-code-statusline",
+    "description": "A colorful, compact 4-line status line for Claude Code: effort, folder, git, context, rate limits with reset times, and session cost. One Bash file, easy to fork.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "pace-prediction",
+      "rate-limit-alerts",
+      "session-cost",
+      "context-window",
+      "effort-indicator",
+      "reset-times",
+      "6-themes",
+      "5-bar-styles"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-14T21:20:25Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-14T21:22:36.305Z"
+  },
+  {
+    "id": "ivantohelpyou/claude-gas-gauge",
+    "name": "claude-gas-gauge",
+    "author": "ivantohelpyou",
+    "repoURL": "https://github.com/ivantohelpyou/claude-gas-gauge",
+    "description": "A fuel gauge for Claude Code: a status line with the session's cost, plan windows and context, written to disk for your own tooling",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Traffic Capture"
+    ],
+    "features": [
+      "session-cost-tracking",
+      "rate-limit-windows",
+      "context-window-monitoring",
+      "plan-pacing",
+      "json-sidecar",
+      "colorized-output"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-14T18:43:00Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-14T21:22:36.305Z"
+  },
+  {
+    "id": "yavuzceliker/usagebar",
+    "name": "usagebar",
+    "author": "yavuzceliker",
+    "repoURL": "https://github.com/yavuzceliker/usagebar",
+    "description": "Cursor & Claude Code usage in your macOS menu bar or Windows desktop: extra spend, rate limits, weekly/5-hour session %, reset countdowns, multiple accounts. Private, no sign-up.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos",
+      "windows"
+    ],
+    "language": "PowerShell",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "cursor-spend",
+      "claude-limits",
+      "session-tracking",
+      "rate-limits",
+      "multi-account",
+      "billing-cycle",
+      "menu-bar",
+      "desktop-widget"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-14T18:02:08Z",
+    "openIssues": 4,
+    "archived": false,
+    "lastFetched": "2026-10-14T21:22:36.305Z"
+  },
+  {
+    "id": "Koder-SpA/claude-mods",
+    "name": "claude-mods",
+    "author": "Koder-SpA",
+    "repoURL": "https://github.com/Koder-SpA/claude-mods",
+    "description": "Claude Code plugins by Koder SpA — real-time token cost, context and rate-limit dashboard for your statusline",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "JavaScript",
+    "authMethod": [],
+    "features": [
+      "real-time-token-tracking",
+      "cost-dashboard",
+      "context-monitoring",
+      "rate-limit-display",
+      "statusline-integration"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-14T17:14:26Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-14T21:22:36.305Z"
+  },
+  {
+    "id": "NicolasEymael/claude-multi-accounts-for-macos",
+    "name": "claude-multi-accounts-for-macos",
+    "author": "NicolasEymael",
+    "repoURL": "https://github.com/NicolasEymael/claude-multi-accounts-for-macos",
+    "description": "Share Claude Desktop sessions across accounts and see every account's usage limits in the macOS menu bar",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Session Cookie",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "multi-account-support",
+      "usage-limits-display",
+      "session-sharing",
+      "menu-bar-display",
+      "keychain-integration",
+      "rate-limit-tracking"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-14T18:42:16Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-14T21:22:36.305Z"
+  },
+  {
+    "id": "danielnebreja24/purrlet-releases",
+    "name": "purrlet-releases",
+    "author": "danielnebreja24",
+    "repoURL": "https://github.com/danielnebreja24/purrlet-releases",
+    "description": "Your Claude and Codex usage limits, at a glance, in the macOS menu bar.",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Unknown",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "usage-limits-display",
+      "reset-timers",
+      "pace-tracking",
+      "5h-weekly-quotas",
+      "no-analytics",
+      "local-only"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-14T16:51:22Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-14T21:22:36.305Z"
   }
 ]
