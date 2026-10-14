@@ -182056,5 +182056,241 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-10-13T22:24:58.047Z"
+  },
+  {
+    "id": "lepela/usage-monitor",
+    "name": "usage-monitor",
+    "author": "lepela",
+    "repoURL": "https://github.com/lepela/usage-monitor",
+    "description": "Claude Code 사용량·한도를 실시간으로 보여 주는 Windows용 로컬 대시보드 (트레이·위젯·키오스크). Unofficial.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Traffic Capture",
+      "OpenTelemetry"
+    ],
+    "features": [
+      "rate-limit-tracking",
+      "token-metrics",
+      "session-monitoring",
+      "cost-estimation",
+      "5h-7d-quotas",
+      "desktop-widget",
+      "tray-icon",
+      "kiosk-display"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-14T01:55:44Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-14T03:51:46.495Z"
+  },
+  {
+    "id": "mAgNiFiCeNtTaCo/ClaudeMods",
+    "name": "ClaudeMods",
+    "author": "mAgNiFiCeNtTaCo",
+    "repoURL": "https://github.com/mAgNiFiCeNtTaCo/ClaudeMods",
+    "description": "Dragon Ball Z themed mods for Claude Code: Kamehameha power gauges, Scouter, Saiyan status line, Shenron and the Dragon Balls",
+    "category": "Claude Code Plugin",
+    "platforms": [],
+    "language": "TypeScript",
+    "authMethod": [],
+    "features": [
+      "power-level-tracking",
+      "context-gauge",
+      "cost-display",
+      "token-counter",
+      "stamina-limits",
+      "battle-log",
+      "color-themes"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-13T23:03:23Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-14T03:51:46.495Z"
+  },
+  {
+    "id": "FranklinNotOld/Aurora-Claude-Code-Mod",
+    "name": "Aurora-Claude-Code-Mod",
+    "author": "FranklinNotOld",
+    "repoURL": "https://github.com/FranklinNotOld/Aurora-Claude-Code-Mod",
+    "description": "Aurora: a live session dashboard and reply themes for the Claude Code desktop app. Context, cost, rate limits, cache, tools and subagents, in twelve styles.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "TypeScript",
+    "authMethod": [],
+    "features": [
+      "session-dashboard",
+      "cost-tracking",
+      "context-usage",
+      "rate-limits",
+      "cache-hits",
+      "subagent-monitoring",
+      "reply-themes",
+      "run-trace"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-13T23:42:45Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-14T03:51:46.495Z"
+  },
+  {
+    "id": "3xyy/ephedrine",
+    "name": "ephedrine",
+    "author": "3xyy",
+    "repoURL": "https://github.com/3xyy/ephedrine",
+    "description": "Keeps your Mac awake while Claude Code works, then lets it sleep. A macOS menu bar app.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "claude-code-detection",
+      "session-tracking",
+      "usage-limits-display",
+      "battery-aware",
+      "menu-bar-widget"
+    ],
+    "builtWithClaude": null,
+    "stars": 1,
+    "lastCommitDate": "2026-10-14T03:42:54Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-14T03:51:46.495Z"
+  },
+  {
+    "id": "reedchan7/toks",
+    "name": "toks",
+    "author": "reedchan7",
+    "repoURL": "https://github.com/reedchan7/toks",
+    "description": "macOS menu bar widget showing live TTFT and tok/s for every coding agent you use — Kimi Code, Claude Code, Codex, DSH, ZCode, pi",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "ttft-measurement",
+      "decode-tok-per-second",
+      "multi-agent-support",
+      "sparkline-charts",
+      "rolling-averages",
+      "live-stats",
+      "menu-bar-widget",
+      "persistent-history"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-14T02:11:14Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-14T03:51:46.495Z"
+  },
+  {
+    "id": "carter51200/agent-meter",
+    "name": "agent-meter",
+    "author": "carter51200",
+    "repoURL": "https://github.com/carter51200/agent-meter",
+    "description": "A native macOS menu bar app for Codex, Claude Code, and Antigravity usage limits.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "API Key",
+      "Session Cookie"
+    ],
+    "features": [
+      "usage-limits-display",
+      "multi-provider",
+      "menu-bar-app",
+      "automatic-refresh",
+      "account-quotas",
+      "reset-times"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-14T00:18:46Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-14T03:51:46.495Z"
+  },
+  {
+    "id": "bsamek/aicost",
+    "name": "aicost",
+    "author": "bsamek",
+    "repoURL": "https://github.com/bsamek/aicost",
+    "description": "Native macOS menu bar app estimating token usage at API rates for codex, claude code, opencode, and pi",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "token-cost-estimates",
+      "multi-model-support",
+      "menu-bar-display",
+      "daily-monthly-totals",
+      "local-processing",
+      "price-refresh"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-13T23:44:16Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-14T03:51:46.495Z"
+  },
+  {
+    "id": "marlonguerreroam/usage-pulse-vscode",
+    "name": "usage-pulse-vscode",
+    "author": "marlonguerreroam",
+    "repoURL": "https://github.com/marlonguerreroam/usage-pulse-vscode",
+    "description": "See your Claude plan limits (5-hour and 7-day) in the VS Code status bar.",
+    "category": "VS Code Extension",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "Traffic Capture"
+    ],
+    "features": [
+      "5h-and-7d-limits",
+      "status-bar-display",
+      "hover-tooltips",
+      "session-cost",
+      "colored-alerts",
+      "slash-command",
+      "bilingual"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-13T22:59:28Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-14T03:51:46.495Z"
   }
 ]
