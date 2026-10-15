@@ -1516,5 +1516,29 @@
     "reason": "This is a battery management and power-saving tool for running Claude Code sessions on macOS, not a usage tracker—it does not display, measure, or report Claude usage metrics like tokens, cost, or quotas.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-15T10:59:58.889Z"
+  },
+  {
+    "id": "NathapolDev/al-status-line",
+    "reason": "This is a Claude Code plugin for AL (Business Central) development that displays project status (environment, version, compile state, publish time) but does not measure or report Claude usage as a feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-15T16:27:55.739Z"
+  },
+  {
+    "id": "gadingnst/ccmx",
+    "reason": "ccmx is a Claude Code profile multiplexer and session manager that handles rate-limit handoff, not a usage tracker; it supervises Claude Code without measuring or displaying usage metrics as a primary feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-15T16:28:02.153Z"
+  },
+  {
+    "id": "PiratedVirus/InterviewLens",
+    "reason": "InterviewLens is an interview practice tool that uses Claude Code for grading, not a Claude usage tracker—it measures interview performance, not Claude API usage.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-15T16:28:05.300Z"
+  },
+  {
+    "id": "AgentSkillDeck/keepwatch",
+    "reason": "Keepwatch is a utility for keeping Macs awake during AI agent sessions and monitoring privacy (mic/camera), but does not display, measure, or report Claude usage metrics, tokens, costs, or rate limits as a feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-15T16:28:12.011Z"
   }
 ]
