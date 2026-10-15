@@ -1486,5 +1486,17 @@
     "reason": "Lookout monitors Claude Code and Codex agent states and notifies on status changes, but does not measure, display, or report Claude usage metrics (tokens, costs, rate limits, quotas) as a substantial feature—it is an agent lifecycle monitor, not a usage tracker.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-14T21:22:30.052Z"
+  },
+  {
+    "id": "aiob3/claude-grounds",
+    "reason": "This is a pair of Claude Code mods that manages task goals and mutation testing with persistence across sessions, but does not display, measure, or report Claude usage (tokens, cost, rate limits) as a feature — it tracks task completion and testing progress instead.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-15T03:32:26.907Z"
+  },
+  {
+    "id": "onemoneki-sudo/Admiral",
+    "reason": "Admiral orchestrates and displays the status of multiple Claude Code sessions (fleet management, PR tracking, CI monitoring), but does not measure or report Claude usage metrics (tokens, cost, rate limits) as a feature—it explicitly avoids token accounting and focuses on workflow coordination instead.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-10-15T03:32:30.357Z"
   }
 ]

@@ -183585,5 +183585,367 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-10-14T21:22:36.305Z"
+  },
+  {
+    "id": "MazenDamdoum/claude-usage-monitor",
+    "name": "claude-usage-monitor",
+    "author": "MazenDamdoum",
+    "repoURL": "https://github.com/MazenDamdoum/claude-usage-monitor",
+    "description": "Live Claude plan usage (5-hour session & weekly limits) in the Windows taskbar. Native Win32, ~350 KB.",
+    "category": "Statusline",
+    "platforms": [
+      "windows"
+    ],
+    "language": "C++",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "live-taskbar-readout",
+      "session-limits",
+      "weekly-limits",
+      "reset-countdowns",
+      "warning-alerts",
+      "threshold-notifications",
+      "multi-limit-display",
+      "floating-window"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-14T23:52:29Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-15T03:33:03.054Z"
+  },
+  {
+    "id": "isisam/rainmeter-ai-usage-gpu-panels",
+    "name": "rainmeter-ai-usage-gpu-panels",
+    "author": "isisam",
+    "repoURL": "https://github.com/isisam/rainmeter-ai-usage-gpu-panels",
+    "description": "Rainmeter skins: Codex/Claude usage ring gauges + compact NVIDIA GPU panel (Win10 Widgets style)",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "OAuth Token",
+      "API Key"
+    ],
+    "features": [
+      "claude-usage-ring",
+      "codex-quota",
+      "5h-plan-tracking",
+      "weekly-quota",
+      "gpu-monitor",
+      "nvidia-stats"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-15T01:09:46Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-15T03:33:03.054Z"
+  },
+  {
+    "id": "newmediacrew/headroom",
+    "name": "headroom",
+    "author": "newmediacrew",
+    "repoURL": "https://github.com/newmediacrew/headroom",
+    "description": "Headroom — a status line for Claude Code",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "session-limits",
+      "weekly-limits",
+      "reset-timers",
+      "rate-limit-display"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-14T23:56:05Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-15T03:33:03.054Z"
+  },
+  {
+    "id": "jdmalter/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "jdmalter",
+    "repoURL": "https://github.com/jdmalter/claude-code-statusline",
+    "description": "A muted three-line status line for Claude Code, in bash for Git Bash on Windows",
+    "category": "Statusline",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "context-window-display",
+      "rate-limit-tracking",
+      "session-cost",
+      "multi-session-overview",
+      "session-info",
+      "effort-levels"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-14T23:31:50Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-15T03:33:03.054Z"
+  },
+  {
+    "id": "sijunnoh/claude-usage-status",
+    "name": "claude-usage-status",
+    "author": "sijunnoh",
+    "repoURL": "https://github.com/sijunnoh/claude-usage-status",
+    "description": "Claude Code mod that shows 5-hour/7-day usage limits, time until reset, context, and session cost in the status line",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "TypeScript",
+    "authMethod": [],
+    "features": [
+      "5h-limit-tracking",
+      "7d-limit-tracking",
+      "context-window-display",
+      "session-cost-calculation",
+      "limit-alerts",
+      "time-until-reset"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-15T03:20:54Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-15T03:33:03.054Z"
+  },
+  {
+    "id": "C0nanT/c-mods",
+    "name": "c-mods",
+    "author": "C0nanT",
+    "repoURL": "https://github.com/C0nanT/c-mods",
+    "description": "Claude Code plugin: guards for git, .env, secrets and rm, plus caveman mode, sounds and a status line.",
+    "category": "Claude Code Plugin",
+    "platforms": [],
+    "language": "TypeScript",
+    "authMethod": [],
+    "features": [
+      "status-line",
+      "context-display",
+      "rate-limit-tracking",
+      "model-info",
+      "session-duration",
+      "token-count"
+    ],
+    "builtWithClaude": true,
+    "stars": 2,
+    "lastCommitDate": "2026-10-15T02:16:21Z",
+    "openIssues": 1,
+    "archived": false,
+    "lastFetched": "2026-10-15T03:33:03.054Z"
+  },
+  {
+    "id": "Agentower/claude-plan-limits",
+    "name": "claude-plan-limits",
+    "author": "Agentower",
+    "repoURL": "https://github.com/Agentower/claude-plan-limits",
+    "description": "Your Claude Pro/Max plan limits in Claude Code's status line — 5-hour and weekly use, and when they reset.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "plan-limits-display",
+      "session-limit-tracking",
+      "weekly-limit-tracking",
+      "reset-time-alerts",
+      "warning-threshold",
+      "statusline-integration"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-14T22:48:15Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-15T03:33:03.054Z"
+  },
+  {
+    "id": "scorsi/keiki",
+    "name": "keiki",
+    "author": "scorsi",
+    "repoURL": "https://github.com/scorsi/keiki",
+    "description": "計器 — status line for Claude Code in Nim, configured like Starship, as a Nix flake with a Home Manager module (mirror of my Forgejo)",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Unknown",
+    "authMethod": [],
+    "features": [
+      "context-usage-bar",
+      "rate-limit-display",
+      "session-cost",
+      "starship-style-config",
+      "nix-flake",
+      "home-manager-module"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-14T22:16:35Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-15T03:33:03.054Z"
+  },
+  {
+    "id": "bahrulbangsawan/claude-pool",
+    "name": "claude-pool",
+    "author": "bahrulbangsawan",
+    "repoURL": "https://github.com/bahrulbangsawan/claude-pool",
+    "description": "Native macOS menu bar app for switching between multiple Claude Code accounts and seeing every account's usage limits at a glance.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "multi-account-switching",
+      "usage-limits-display",
+      "5h-7d-windows",
+      "usage-history-chart",
+      "session-management",
+      "menu-bar-app",
+      "profile-management",
+      "limit-alerts"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-15T03:06:07Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-15T03:33:03.054Z"
+  },
+  {
+    "id": "DavidMolina001/quota-app",
+    "name": "quota-app",
+    "author": "DavidMolina001",
+    "repoURL": "https://github.com/DavidMolina001/quota-app",
+    "description": "Downloads for Quota, a Mac menu bar view of your Claude and Codex usage limits",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "claude-usage-limits",
+      "codex-usage-limits",
+      "7-day-history",
+      "30-day-history",
+      "pace-marker",
+      "cost-projection"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-14T22:18:26Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-15T03:33:03.054Z"
+  },
+  {
+    "id": "ba-lison/usage-hud",
+    "name": "usage-hud",
+    "author": "ba-lison",
+    "repoURL": "https://github.com/ba-lison/usage-hud",
+    "description": "HUD para o Claude Code: janela de 5h, contexto e botão de handoff",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "TypeScript",
+    "authMethod": [],
+    "features": [
+      "5h-window-tracking",
+      "context-usage-display",
+      "handoff-generation",
+      "session-resumption",
+      "token-counter"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-14T21:51:12Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-15T03:33:03.054Z"
+  },
+  {
+    "id": "natansalvadorligabo/claude-usage-meter",
+    "name": "claude-usage-meter",
+    "author": "natansalvadorligabo",
+    "repoURL": "https://github.com/natansalvadorligabo/claude-usage-meter",
+    "description": "A Claude Code mod that shows context, 5-hour session and weekly usage on the footer, with a daily budget and a settings pane.",
+    "category": "Claude Code Plugin",
+    "platforms": [],
+    "language": "TypeScript",
+    "authMethod": [],
+    "features": [
+      "context-window-display",
+      "session-usage-tracking",
+      "weekly-usage-tracking",
+      "daily-budget-calculation",
+      "settings-pane",
+      "multi-terminal-sync",
+      "customizable-metrics",
+      "chart-visualization"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-14T22:18:33Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-15T03:33:03.054Z"
+  },
+  {
+    "id": "mustardcheese/usage-meter",
+    "name": "usage-meter",
+    "author": "mustardcheese",
+    "repoURL": "https://github.com/mustardcheese/usage-meter",
+    "description": "claude code usage meter",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "TypeScript",
+    "authMethod": [],
+    "features": [
+      "5h-usage-block",
+      "7d-usage-limit",
+      "context-size-display",
+      "colored-bars",
+      "subscription-usage",
+      "theme-customization"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-14T22:03:49Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-15T03:33:03.054Z"
   }
 ]
