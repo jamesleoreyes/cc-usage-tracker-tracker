@@ -1498,5 +1498,23 @@
     "reason": "Admiral orchestrates and displays the status of multiple Claude Code sessions (fleet management, PR tracking, CI monitoring), but does not measure or report Claude usage metrics (tokens, cost, rate limits) as a feature—it explicitly avoids token accounting and focuses on workflow coordination instead.",
     "confidence": 0.85,
     "rejectedAt": "2026-10-15T03:32:30.357Z"
+  },
+  {
+    "id": "RyanWeera/crab-progress",
+    "reason": "crab-progress is a Claude Code plugin that displays progress, subagent costs/tokens, and file activity with visual flourish, but does not track or report Claude usage as a core feature—it enhances the UX of Claude Code sessions rather than measuring usage.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-15T10:59:35.213Z"
+  },
+  {
+    "id": "tomacco/agents-mission-control",
+    "reason": "This is a macOS security/permission manager for Claude Code agents, not a usage tracker—it monitors and controls file system access per session, not Claude usage metrics, tokens, or costs.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-15T10:59:53.390Z"
+  },
+  {
+    "id": "MichalKaronczyk/macbook-keep-awake-lid-closed",
+    "reason": "This is a battery management and power-saving tool for running Claude Code sessions on macOS, not a usage tracker—it does not display, measure, or report Claude usage metrics like tokens, cost, or quotas.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-15T10:59:58.889Z"
   }
 ]
