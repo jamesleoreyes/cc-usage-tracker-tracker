@@ -1540,5 +1540,41 @@
     "reason": "Keepwatch is a utility for keeping Macs awake during AI agent sessions and monitoring privacy (mic/camera), but does not display, measure, or report Claude usage metrics, tokens, costs, or rate limits as a feature.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-15T16:28:12.011Z"
+  },
+  {
+    "id": "gagharutyunyan1993/ghorc",
+    "reason": "ghorc is a Claude Code plugin for orchestrating multi-agent workflows with context optimization, not a usage tracker; it manages Claude session cost and token efficiency through architectural patterns rather than displaying or reporting usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-15T21:02:30.445Z"
+  },
+  {
+    "id": "rperez93/claude-progress",
+    "reason": "This is a Claude Code skill/plugin that displays task progress in the status line, but it does not track or measure Claude usage (tokens, cost, rate limits, sessions) — it tracks arbitrary workload progress for coding agents.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-10-15T21:02:33.688Z"
+  },
+  {
+    "id": "Sttark/sttark-effort",
+    "reason": "This app controls Claude Code's effort level per task rather than measuring or reporting usage metrics, making it a session manager/controller rather than a usage tracker.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-15T21:02:43.731Z"
+  },
+  {
+    "id": "jhta/pr-bar",
+    "reason": "pr-bar is a PR dashboard with Claude Code integration for fixing and triaging, not a Claude usage tracker; it displays PR status and CI results, not Claude token/cost metrics.",
+    "confidence": 0.92,
+    "rejectedAt": "2026-10-15T21:02:47.008Z"
+  },
+  {
+    "id": "ealexisaraujo/agent-sounds-bar",
+    "reason": "Agent Sounds Bar is a sound-control utility for coding agents that does not measure, display, or report Claude usage metrics; it controls audio playback and event notifications, which does not qualify as a usage tracker per the inclusion criteria.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-15T21:02:50.516Z"
+  },
+  {
+    "id": "amjadArqan/nabd",
+    "reason": "Nabd is a system monitor that displays temperature, CPU, memory, and power metrics with a guard to pause heavy Claude Code sessions, but does not display, measure, or report Claude usage (tokens, cost, rate limits) as a feature — it monitors machine load to protect against resource saturation.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-15T21:02:54.086Z"
   }
 ]
