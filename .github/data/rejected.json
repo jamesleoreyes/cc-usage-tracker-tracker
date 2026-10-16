@@ -1600,5 +1600,23 @@
     "reason": "Earshot is a meeting recorder and note-taking app that uses Claude for analysis and todo extraction, but does not display, measure, or report Claude usage (tokens, cost, rate limits) as a feature—it only consumes Claude as a backend AI service.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-16T10:53:46.201Z"
+  },
+  {
+    "id": "ZiMianHe/statusline-toggle",
+    "reason": "This is a Claude Code plugin that toggles the statusline visibility, not a tracker of Claude usage—it merely displays usage in an existing statusline but does not measure, report, or track usage metrics as a substantial feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-16T16:13:55.894Z"
+  },
+  {
+    "id": "LucasXCoder/noetra-claude-setup",
+    "reason": "This is a curated Claude Code configuration and skill pack with a status line and cost-aware settings, but it does not display, measure, or report Claude usage as a substantial feature—it is a dotfiles/setup collection that configures Claude Code itself.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-16T16:14:09.116Z"
+  },
+  {
+    "id": "jimmymcjimbob/membot",
+    "reason": "MemBot monitors memory and CPU usage by session for AI tools like Claude Code, but it tracks resource consumption of those tools rather than tracking Claude API usage, tokens, or costs—the core inclusion criterion for this registry.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-16T16:14:24.649Z"
   }
 ]
