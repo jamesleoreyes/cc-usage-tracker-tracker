@@ -186743,5 +186743,372 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-10-16T16:14:43.766Z"
+  },
+  {
+    "id": "Enhed/clawd-usage-winwidget",
+    "name": "clawd-usage-winwidget",
+    "author": "Enhed",
+    "repoURL": "https://github.com/Enhed/clawd-usage-winwidget",
+    "description": "Claude usage limits in a tiny Windows widget + tray icon — with pixel Clawd who reacts to your Claude Code sessions, looks after your PC and chats with you, from the widget or your phone. PowerShell, no dependencies.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "PowerShell",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "usage-tracking",
+      "session-monitoring",
+      "rate-limit-alerts",
+      "weekly-limits",
+      "tray-icon",
+      "clawd-animation",
+      "system-status"
+    ],
+    "builtWithClaude": true,
+    "stars": 6,
+    "lastCommitDate": "2026-10-16T20:27:39Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-16T20:38:03.797Z"
+  },
+  {
+    "id": "thatskiff33/claude-usage-bar",
+    "name": "claude-usage-bar",
+    "author": "thatskiff33",
+    "repoURL": "https://github.com/thatskiff33/claude-usage-bar",
+    "description": "5 hourly and weekly usage limits shown in Claude Code CLI for easy visibility",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "5h-rolling-window",
+      "7d-window",
+      "usage-bars",
+      "reset-countdown",
+      "color-coded-alerts"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-16T18:55:56Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-16T20:38:03.798Z"
+  },
+  {
+    "id": "MikaelHernandez/toktrack",
+    "name": "toktrack",
+    "author": "MikaelHernandez",
+    "repoURL": "https://github.com/MikaelHernandez/toktrack",
+    "description": "Ultra-fast token & cost tracker for LLM Token Usage (e.g. Claude Code)",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "multi-cli-support",
+      "persistent-cache",
+      "tui-dashboard",
+      "per-project-breakdown",
+      "usage-reports",
+      "json-output",
+      "shell-integration",
+      "remote-sources"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-16T18:11:18Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-16T20:38:03.798Z"
+  },
+  {
+    "id": "LorenzoNu/carbonero-statusline-claude",
+    "name": "carbonero-statusline-claude",
+    "author": "LorenzoNu",
+    "repoURL": "https://github.com/LorenzoNu/carbonero-statusline-claude",
+    "description": "Claude code es quemar",
+    "category": "Statusline",
+    "platforms": [
+      "linux",
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "context-usage-bar",
+      "model-indicator",
+      "color-coded-levels",
+      "git-integration",
+      "custom-icons"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-16T17:26:07Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-16T20:38:03.798Z"
+  },
+  {
+    "id": "HongtaoWang75/deepseek-price-guard",
+    "name": "deepseek-price-guard",
+    "author": "HongtaoWang75",
+    "repoURL": "https://github.com/HongtaoWang75/deepseek-price-guard",
+    "description": "Claude Code 插件：DeepSeek 峰谷价拦截 + 余额/用量状态栏（配色·闪烁·倒计时），含 Windows 下 daemon+原生 shim 提速方案",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "deepseek-pricing-guard",
+      "balance-display",
+      "peak-off-peak-intercept",
+      "statusline-with-countdowns",
+      "cache-hit-rate",
+      "token-rate-monitoring",
+      "context-usage",
+      "daemon-shim-windows"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-16T17:07:17Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-16T20:38:03.798Z"
+  },
+  {
+    "id": "Telefaxnix/ROQAM",
+    "name": "ROQAM",
+    "author": "Telefaxnix",
+    "repoURL": "https://github.com/Telefaxnix/ROQAM",
+    "description": "ROQAM – Readout & Quick Access Mod: a status bar for Claude Code (terminal and desktop app, Windows) showing context, plan limits, cache countdown, service status, quick buttons, sky and weather. Independent project, not made by Anthropic.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "windows"
+    ],
+    "language": "TypeScript",
+    "authMethod": [],
+    "features": [
+      "context-usage-display",
+      "plan-limits-tracking",
+      "cache-countdown",
+      "service-status",
+      "token-counting",
+      "cost-estimation"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-16T16:33:01Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-16T20:38:03.798Z"
+  },
+  {
+    "id": "alice51849/ai-reset-line",
+    "name": "ai-reset-line",
+    "author": "alice51849",
+    "repoURL": "https://github.com/alice51849/ai-reset-line",
+    "description": "Claude Code status line: 5-hour and weekly usage with reset countdowns; --summary also reads Codex CLI sessions. No keys, no network.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Traffic Capture"
+    ],
+    "features": [
+      "five-hour-usage",
+      "weekly-usage",
+      "reset-countdowns",
+      "context-window",
+      "codex-cli-sessions",
+      "no-api-keys",
+      "multi-provider-summary"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-16T18:30:18Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-16T20:38:03.798Z"
+  },
+  {
+    "id": "drmuzikbpn/usage-deck",
+    "name": "usage-deck",
+    "author": "drmuzikbpn",
+    "repoURL": "https://github.com/drmuzikbpn/usage-deck",
+    "description": "Local daemon + hooks + MCP server that tell Claude Code sessions how close the account is to its rate limits, with local token spend, live session control and iPhone, Apple Watch and Android dashboards. Not affiliated with Anthropic.",
+    "category": "Web Dashboard",
+    "platforms": [
+      "macos",
+      "linux",
+      "ios",
+      "android",
+      "web"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "API Key",
+      "Session Cookie"
+    ],
+    "features": [
+      "rate-limit-alerts",
+      "live-session-control",
+      "multi-account",
+      "token-spend-tracking",
+      "mcp-server",
+      "ios-app",
+      "watchos-app",
+      "android-dashboard"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-10-16T20:09:02Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-16T20:38:03.798Z"
+  },
+  {
+    "id": "jimmy211245/agent-meter",
+    "name": "agent-meter",
+    "author": "jimmy211245",
+    "repoURL": "https://github.com/jimmy211245/agent-meter",
+    "description": "Local dashboard for token usage, cost and rate limits of AI coding agents: Claude Code, Codex, OpenCode, DeepSeek, Antigravity. 100% local, no telemetry.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "language": "Kotlin",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "token-usage",
+      "cost-tracking",
+      "rate-limit-alerts",
+      "multi-agent",
+      "30-day-history",
+      "system-tray",
+      "local-only"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-16T19:34:32Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-16T20:38:03.798Z"
+  },
+  {
+    "id": "gabrielrangel95/claude-switcher",
+    "name": "claude-switcher",
+    "author": "gabrielrangel95",
+    "repoURL": "https://github.com/gabrielrangel95/claude-switcher",
+    "description": "macOS menu bar + notch app to switch Claude Code between accounts in one click, with live usage",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "multi-account-switching",
+      "live-usage-display",
+      "menu-bar-app",
+      "notch-panel",
+      "cli-interface",
+      "keychain-storage",
+      "usage-limits"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-10-16T20:15:14Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-16T20:38:03.798Z"
+  },
+  {
+    "id": "sueun-dev/claude-pet",
+    "name": "claude-pet",
+    "author": "sueun-dev",
+    "repoURL": "https://github.com/sueun-dev/claude-pet",
+    "description": "Claude Code sessions in the macOS menu bar: status, alerts, and permission prompts in a Liquid Glass panel",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [],
+    "features": [
+      "session-monitoring",
+      "permission-prompts",
+      "menu-bar-status",
+      "liquid-glass-panel",
+      "alert-notifications",
+      "session-jumping",
+      "claude-code-integration"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-16T18:58:27Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-16T20:38:03.798Z"
+  },
+  {
+    "id": "ParkerRex/limits-left",
+    "name": "limits-left",
+    "author": "ParkerRex",
+    "repoURL": "https://github.com/ParkerRex/limits-left",
+    "description": "Mac menu bar app that shows how much of your Claude and Codex usage limits are left on every account, and when they reset.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Browser Cookie Auto-detect",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "multi-account",
+      "usage-limits",
+      "quota-forecast",
+      "menu-bar-display",
+      "model-analytics",
+      "reset-times",
+      "weekly-totals"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-16T19:27:45Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-16T20:38:03.798Z"
   }
 ]

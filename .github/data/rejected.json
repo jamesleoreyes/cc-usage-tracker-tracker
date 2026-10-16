@@ -1618,5 +1618,23 @@
     "reason": "MemBot monitors memory and CPU usage by session for AI tools like Claude Code, but it tracks resource consumption of those tools rather than tracking Claude API usage, tokens, or costs—the core inclusion criterion for this registry.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-16T16:14:24.649Z"
+  },
+  {
+    "id": "jpcruz88/claude-code-entorno",
+    "reason": "This is a Claude Code environment setup/dotfiles collection with statusline displaying usage metrics, but does not primarily display, measure, or report Claude usage as a substantial feature—the statusline shows cost and limits contextually, but the project's core purpose is configuration distribution, not usage tracking.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-16T20:37:28.052Z"
+  },
+  {
+    "id": "voyvodka/chores",
+    "reason": "Chores is a job scheduler and runner with run history tracking, but does not display, measure, or report Claude usage (tokens, costs, quotas, sessions) as a feature — it manages background jobs independent of Claude's metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-16T20:37:51.246Z"
+  },
+  {
+    "id": "abhey-gupta/PreviewChat",
+    "reason": "PreviewChat is a chat interface for PDFs using Claude Code CLI, not a usage tracker—it does not display, measure, or report Claude usage metrics as a feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-16T20:38:00.467Z"
   }
 ]
