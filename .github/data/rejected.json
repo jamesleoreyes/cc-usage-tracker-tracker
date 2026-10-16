@@ -1588,5 +1588,17 @@
     "reason": "bodycam is an AI agent audit/logging tool that records what agents do (commands, files, secrets, network), not a Claude usage tracker—it monitors agent behavior for security, not Claude usage metrics.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-16T03:29:15.140Z"
+  },
+  {
+    "id": "bardaxx/modsbook",
+    "reason": "This is a marketplace/collection of Claude Code plugins (mods) for UI enhancements and workflow features, not a tracker of Claude usage metrics or costs.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-16T10:53:36.665Z"
+  },
+  {
+    "id": "stephenlthorn/earshot",
+    "reason": "Earshot is a meeting recorder and note-taking app that uses Claude for analysis and todo extraction, but does not display, measure, or report Claude usage (tokens, cost, rate limits) as a feature—it only consumes Claude as a backend AI service.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-16T10:53:46.201Z"
   }
 ]
