@@ -1576,5 +1576,17 @@
     "reason": "Nabd is a system monitor that displays temperature, CPU, memory, and power metrics with a guard to pause heavy Claude Code sessions, but does not display, measure, or report Claude usage (tokens, cost, rate limits) as a feature — it monitors machine load to protect against resource saturation.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-15T21:02:54.086Z"
+  },
+  {
+    "id": "Sauzze/agentdeck",
+    "reason": "A control pad for Claude Code is a Claude-related tool but does not display, measure, or report usage as a substantial feature.",
+    "confidence": 0.9,
+    "rejectedAt": "2026-10-16T03:29:05.838Z"
+  },
+  {
+    "id": "omlahore/bodycam",
+    "reason": "bodycam is an AI agent audit/logging tool that records what agents do (commands, files, secrets, network), not a Claude usage tracker—it monitors agent behavior for security, not Claude usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-16T03:29:15.140Z"
   }
 ]
