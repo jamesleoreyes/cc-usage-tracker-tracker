@@ -1648,5 +1648,17 @@
     "reason": "While this is a delightful Claude Code companion app with a process monitor for Claude, it does not display, measure, or report Claude usage (tokens, cost, rate limits) as a substantial feature—it only watches for Claude activity status.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-17T03:19:18.919Z"
+  },
+  {
+    "id": "mvoshell652/skill-health",
+    "reason": "Skill Health is a tool for validating and correcting agent skills against current documentation; it does not display, measure, or report Claude usage (tokens, costs, quotas, sessions) as a substantial feature, so it does not qualify as a Claude usage tracker.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-17T10:17:33.018Z"
+  },
+  {
+    "id": "rsmith4321/agent-commander",
+    "reason": "Agent Commander is a menu bar launcher for invoking AI coding agents; it orchestrates and runs agents but does not display, measure, or report Claude usage metrics, tokens, costs, or quotas as a feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-17T10:17:36.031Z"
   }
 ]
