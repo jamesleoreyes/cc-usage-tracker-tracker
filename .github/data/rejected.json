@@ -1636,5 +1636,17 @@
     "reason": "PreviewChat is a chat interface for PDFs using Claude Code CLI, not a usage tracker—it does not display, measure, or report Claude usage metrics as a feature.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-16T20:38:00.467Z"
+  },
+  {
+    "id": "CharlesLadera/claude-custom-skills",
+    "reason": "This is a personal collection of Claude Code skills for workflow management and context preservation; while it includes a statusline that shows usage metrics, the project's primary purpose is task automation and session management, not Claude usage tracking or measurement.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-17T03:19:15.920Z"
+  },
+  {
+    "id": "xandertaylorx/clawd-buddy",
+    "reason": "While this is a delightful Claude Code companion app with a process monitor for Claude, it does not display, measure, or report Claude usage (tokens, cost, rate limits) as a substantial feature—it only watches for Claude activity status.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-17T03:19:18.919Z"
   }
 ]
