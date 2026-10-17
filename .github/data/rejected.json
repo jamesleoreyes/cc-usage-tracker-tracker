@@ -1660,5 +1660,17 @@
     "reason": "Agent Commander is a menu bar launcher for invoking AI coding agents; it orchestrates and runs agents but does not display, measure, or report Claude usage metrics, tokens, costs, or quotas as a feature.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-17T10:17:36.031Z"
+  },
+  {
+    "id": "pcangemi/cctune",
+    "reason": "cctune is a Claude Code plugin and MCP server for controlling Apple Music, not a Claude usage tracker—it displays music player status, not Claude token usage or costs.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-17T15:06:59.369Z"
+  },
+  {
+    "id": "macworld/claude-live-title",
+    "reason": "Live Title manages Claude Code session titles dynamically but does not display, measure, or report Claude usage metrics like tokens, costs, or rate limits as a feature; it is a productivity plugin for session organization, not a usage tracker.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-17T15:07:02.514Z"
   }
 ]
