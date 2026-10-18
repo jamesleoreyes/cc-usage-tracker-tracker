@@ -190026,5 +190026,293 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-10-18T10:33:04.864Z"
+  },
+  {
+    "id": "Ivan1Rev/clawd-usage-linux",
+    "name": "clawd-usage-linux",
+    "author": "Ivan1Rev",
+    "repoURL": "https://github.com/Ivan1Rev/clawd-usage-linux",
+    "description": "Linux port of Enhed/clawd-usage-winwidget: Claude usage widget with Clawd, for most distros (GNOME, KDE, XFCE...)",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "linux"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "session-usage-display",
+      "week-usage-display",
+      "claude-code-tracking",
+      "animated-widget",
+      "weather-integration",
+      "usage-breakdown"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-18T14:20:26Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-18T15:30:31.502Z"
+  },
+  {
+    "id": "tomjose-bv/claude-usage-widget",
+    "name": "claude-usage-widget",
+    "author": "tomjose-bv",
+    "repoURL": "https://github.com/tomjose-bv/claude-usage-widget",
+    "description": "Always-on-top Windows taskbar widget showing remaining Claude plan usage (session + weekly)",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "PowerShell",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "session-usage",
+      "weekly-usage",
+      "burn-rate-estimates",
+      "7-day-history",
+      "taskbar-widget",
+      "rate-limit-backoff",
+      "reset-countdown"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-18T10:54:16Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-18T15:30:31.502Z"
+  },
+  {
+    "id": "zfurkandurum/claude-usage-bar",
+    "name": "claude-usage-bar",
+    "author": "zfurkandurum",
+    "repoURL": "https://github.com/zfurkandurum/claude-usage-bar",
+    "description": "macOS menu bar app that shows your remaining Claude subscription limit (5-hour and weekly)",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "5-hour-limit-display",
+      "weekly-limit-display",
+      "color-warnings",
+      "progress-bars",
+      "keychain-auth",
+      "refresh-interval",
+      "multi-account-support"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-18T10:35:07Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-18T15:30:31.502Z"
+  },
+  {
+    "id": "mpaiva/a11y-tips-statusline",
+    "name": "a11y-tips-statusline",
+    "author": "mpaiva",
+    "repoURL": "https://github.com/mpaiva/a11y-tips-statusline",
+    "description": "WCAG Accessibility Tips for Claude Code - displays rotating accessibility guidelines in your statusline.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "token-usage-display",
+      "wcag-tips",
+      "statusline-integration",
+      "accessibility-guidelines",
+      "claude-code-plugin"
+    ],
+    "builtWithClaude": true,
+    "stars": 7,
+    "lastCommitDate": "2026-10-18T13:11:29Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-18T15:30:31.502Z"
+  },
+  {
+    "id": "JamesCarron/claude-statusline",
+    "name": "claude-statusline",
+    "author": "JamesCarron",
+    "repoURL": "https://github.com/JamesCarron/claude-statusline",
+    "description": "Configurable Claude Code status line with usage stats (Windows, Git Bash)",
+    "category": "Statusline",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "usage-stats",
+      "quota-tracking",
+      "cost-estimates",
+      "weekly-breakdown",
+      "configurable-display",
+      "pace-mode"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-18T12:26:55Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-18T15:30:31.502Z"
+  },
+  {
+    "id": "scorsi/shiori",
+    "name": "shiori",
+    "author": "scorsi",
+    "repoURL": "https://github.com/scorsi/shiori",
+    "description": "栞 — status line for Claude Code in Nim, configured like Starship, as a Nix flake with a Home Manager module (mirror of my Forgejo)",
+    "category": "Claude Code Plugin",
+    "platforms": [],
+    "language": "Unknown",
+    "authMethod": [
+      "OpenTelemetry"
+    ],
+    "features": [
+      "context-usage-display",
+      "token-tracking",
+      "rate-limit-monitoring",
+      "cost-tracking",
+      "configurable-segments"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-18T14:10:17Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-18T15:30:31.503Z"
+  },
+  {
+    "id": "Sawyrr7/token-odometer",
+    "name": "token-odometer",
+    "author": "Sawyrr7",
+    "repoURL": "https://github.com/Sawyrr7/token-odometer",
+    "description": "A macOS menu bar odometer that rolls up every token you've burned with Claude Code, live.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "lifetime-odometer",
+      "real-time-tracking",
+      "dashboard",
+      "speed-meter",
+      "daily-meter",
+      "trip-reset",
+      "local-only"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-18T14:38:01Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-18T15:30:31.503Z"
+  },
+  {
+    "id": "gundaIf/agentlens",
+    "name": "agentlens",
+    "author": "gundaIf",
+    "repoURL": "https://github.com/gundaIf/agentlens",
+    "description": "macOS menu bar app that shows what your AI agents (Claude Code, Cowork, Grok, Muse, Grok Bot) are doing and where their time goes",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "agent-activity-display",
+      "time-allocation-breakdown",
+      "multi-agent-support",
+      "subagent-tracking",
+      "accessibility-api-follow",
+      "menu-bar-app",
+      "offline-analysis"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-18T14:31:54Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-18T15:30:31.503Z"
+  },
+  {
+    "id": "Choisiz/DigiTokenBar",
+    "name": "DigiTokenBar",
+    "author": "Choisiz",
+    "repoURL": "https://github.com/Choisiz/DigiTokenBar",
+    "description": "A macOS menu bar app that turns your Claude Code and Codex token usage into Digimon growth. Hatch, evolve, and collect Digimon with branching evolution paths, fusion, and special items—all in a cyber-themed interface.",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Unknown",
+    "authMethod": [],
+    "features": [
+      "token-usage-display",
+      "digimon-evolution",
+      "branching-paths",
+      "fusion-system",
+      "cyber-theme"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-18T13:38:02Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-18T15:30:31.503Z"
+  },
+  {
+    "id": "fl03er/clawd-usage-mac",
+    "name": "clawd-usage-mac",
+    "author": "fl03er",
+    "repoURL": "https://github.com/fl03er/clawd-usage-mac",
+    "description": "Claude plan limits in the macOS menu bar, with a pixel Clawd. A macOS port of clawd-usage-winwidget.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "session-limits",
+      "5h-window",
+      "weekly-limits",
+      "live-sessions",
+      "7day-chart",
+      "service-status",
+      "notifications"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-10-18T11:29:17Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-18T15:30:31.503Z"
   }
 ]

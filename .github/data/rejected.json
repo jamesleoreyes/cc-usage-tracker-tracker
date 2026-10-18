@@ -1684,5 +1684,23 @@
     "reason": "This is a safety/access-control tool for Claude Code that blocks dangerous commands; it does not display, measure, or report Claude usage (tokens, cost, sessions, quotas) as a feature.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-18T10:32:53.758Z"
+  },
+  {
+    "id": "fortun8te/codex-reset-tracker",
+    "reason": "This project tracks OpenAI Codex/ChatGPT usage-limit resets via Telegram alerts, not Claude usage itself; it monitors when OpenAI announces resets but does not display, measure, or report Claude token consumption, costs, or quotas as a feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-18T15:30:04.571Z"
+  },
+  {
+    "id": "g4lb/my-claude-settings",
+    "reason": "This is a personal statusline customization for Claude Code that displays metadata (model, branch, folder, email) but does not measure, track, or report Claude usage metrics like tokens, cost, or rate limits.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-18T15:30:13.784Z"
+  },
+  {
+    "id": "deximple/usageswitch",
+    "reason": "UsageSwitch is an account switcher and manager for Claude Desktop and Codex, not a usage tracker—it does not display, measure, or report Claude usage metrics, tokens, costs, rate limits, or quotas.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-18T15:30:28.688Z"
   }
 ]
