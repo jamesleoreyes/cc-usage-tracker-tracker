@@ -1702,5 +1702,29 @@
     "reason": "UsageSwitch is an account switcher and manager for Claude Desktop and Codex, not a usage tracker—it does not display, measure, or report Claude usage metrics, tokens, costs, rate limits, or quotas.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-18T15:30:28.688Z"
+  },
+  {
+    "id": "jfcarpiopuntocom/claude-pets",
+    "reason": "This is a decorative ASCII pet companion for Claude Code's statusLine that reacts to work states and agent activity, but does not measure, display, or report Claude usage metrics like tokens, costs, or rate limits.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-18T20:13:35.349Z"
+  },
+  {
+    "id": "jfcarpiopuntocom/claude-mascotas",
+    "reason": "This is a decorative statusline plugin for Claude Code that displays ASCII pets reacting to work state and agent activity, but does not measure, display, or report Claude usage metrics (tokens, cost, rate limits, quotas, or sessions).",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-18T20:13:38.625Z"
+  },
+  {
+    "id": "okanerturan/amiguito",
+    "reason": "While amiguito displays Claude state (context window %, cost, lines written) via Claude Code's status line, its primary purpose is entertainment and animation rather than tracking or measuring usage as a substantial feature.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-10-18T20:13:43.607Z"
+  },
+  {
+    "id": "arifulislamat/cctwin",
+    "reason": "cctwin is an account switcher and session manager for Claude Code, not a usage tracker; it has no features for displaying, measuring, or reporting Claude usage, tokens, costs, or rate limits.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-18T20:13:55.929Z"
   }
 ]
