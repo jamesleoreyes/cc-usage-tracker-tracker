@@ -1678,5 +1678,11 @@
     "reason": "statuslin.es is a gallery and preview platform for Claude Code status line scripts, not a usage tracker; it displays and curates terminal status lines but does not measure, display, or report Claude API usage, tokens, costs, or quotas.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-18T03:24:36.351Z"
+  },
+  {
+    "id": "webnitros/safety-ai",
+    "reason": "This is a safety/access-control tool for Claude Code that blocks dangerous commands; it does not display, measure, or report Claude usage (tokens, cost, sessions, quotas) as a feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-18T10:32:53.758Z"
   }
 ]
