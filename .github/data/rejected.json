@@ -1672,5 +1672,11 @@
     "reason": "Live Title manages Claude Code session titles dynamically but does not display, measure, or report Claude usage metrics like tokens, costs, or rate limits as a feature; it is a productivity plugin for session organization, not a usage tracker.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-17T15:07:02.514Z"
+  },
+  {
+    "id": "NathanAB/statuslin.es",
+    "reason": "statuslin.es is a gallery and preview platform for Claude Code status line scripts, not a usage tracker; it displays and curates terminal status lines but does not measure, display, or report Claude API usage, tokens, costs, or quotas.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-18T03:24:36.351Z"
   }
 ]
