@@ -1744,5 +1744,41 @@
     "reason": "ClaudePulse monitors Claude Code session state and displays status in the menu bar, but does not measure, display, or report usage metrics like tokens, cost, or context window usage—it only shows session activity status.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-19T03:36:36.213Z"
+  },
+  {
+    "id": "jamestelfer/boxed",
+    "reason": "boxed displays Claude Code's sandbox configuration status as a statusline segment, but does not measure or report Claude usage metrics (tokens, cost, rate limits); it monitors a feature setting rather than tracking consumption.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-19T22:06:00.834Z"
+  },
+  {
+    "id": "snackdriven/claude-setup",
+    "reason": "This is a dotfiles/setup installer for Claude Code tools, not a usage tracker; it orchestrates installation of companion tools but does not display, measure, or report Claude usage as a feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-19T22:06:14.258Z"
+  },
+  {
+    "id": "ThunderConch/lol-live",
+    "reason": "This is a League of Legends live score tracker for Claude Code with match alerts and a statusline, but it tracks esports data, not Claude usage—it does not display or measure Claude/Claude Code consumption metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-19T22:06:30.273Z"
+  },
+  {
+    "id": "brian-rey-development/claude-kit",
+    "reason": "This project provides Claude Code theming, status line widgets, and visual customization tools, but does not measure or report Claude usage metrics as a primary feature—it displays context and rate-limit meters as UI elements within themes rather than tracking usage across sessions.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-10-19T22:06:33.828Z"
+  },
+  {
+    "id": "TonT-wilshere/codex-clamshell-keep-awake",
+    "reason": "This project is a macOS utility to keep processes running with lid closed, not a Claude usage tracker—it helps Claude Code and other AI agents continue working, but does not display, measure, or report Claude usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-19T22:06:43.597Z"
+  },
+  {
+    "id": "costrict-plugins-repo/github-trending-claude-usage-statusline",
+    "reason": "This is an auto-generated mirror repository with no README, no commits, and no substantive evidence of Claude usage tracking functionality beyond its name.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-10-19T22:06:49.263Z"
   }
 ]
