@@ -1726,5 +1726,23 @@
     "reason": "cctwin is an account switcher and session manager for Claude Code, not a usage tracker; it has no features for displaying, measuring, or reporting Claude usage, tokens, costs, or rate limits.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-18T20:13:55.929Z"
+  },
+  {
+    "id": "sytem643/claude-code-themes",
+    "reason": "This is a theming plugin for Claude Code sessions that enhances visual differentiation and mood display, but does not track, measure, or report Claude usage metrics—it only customizes appearance and reactive status indicators.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-19T03:36:10.982Z"
+  },
+  {
+    "id": "rishik4/breeze",
+    "reason": "Breeze is a fan and temperature control app for Mac with Claude integration via MCP server; it does not track or report Claude usage itself, only provides system data to Claude agents.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-19T03:36:22.356Z"
+  },
+  {
+    "id": "PhilRoli/claudepulse",
+    "reason": "ClaudePulse monitors Claude Code session state and displays status in the menu bar, but does not measure, display, or report usage metrics like tokens, cost, or context window usage—it only shows session activity status.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-19T03:36:36.213Z"
   }
 ]
