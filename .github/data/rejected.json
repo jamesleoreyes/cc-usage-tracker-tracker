@@ -1792,5 +1792,23 @@
     "reason": "GrammarBar is a text processing utility powered by Claude Code, not a usage tracker; it does not display, measure, or report Claude usage as a feature.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-20T11:03:18.162Z"
+  },
+  {
+    "id": "dockleryxk/claude-code-status-line",
+    "reason": "A custom statusline for Claude Code without evidence of displaying or measuring Claude usage metrics as a feature.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-10-20T16:29:11.544Z"
+  },
+  {
+    "id": "MaxSchwingenschloegl/claude-setup",
+    "reason": "This is a multi-account configuration manager and installer for Claude Code on Windows, not a usage tracker; it provides account switching, shared configuration, and a statusline but does not display, measure, or report Claude usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-20T16:29:14.114Z"
+  },
+  {
+    "id": "gruzd1sok/buildq",
+    "reason": "buildq is a build queue manager for Xcode that integrates with Claude Code, but does not track or measure Claude usage; it is a workflow orchestrator, not a usage tracker.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-20T16:29:34.513Z"
   }
 ]
