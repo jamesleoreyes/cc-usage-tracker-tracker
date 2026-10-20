@@ -1810,5 +1810,17 @@
     "reason": "buildq is a build queue manager for Xcode that integrates with Claude Code, but does not track or measure Claude usage; it is a workflow orchestrator, not a usage tracker.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-20T16:29:34.513Z"
+  },
+  {
+    "id": "mj0lken/thumbs-out",
+    "reason": "This is a keep-awake utility for AI agents that detects Claude Code and other tools running, but does not display, measure, or report Claude usage metrics—it only monitors process activity to manage system sleep.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-20T21:21:30.661Z"
+  },
+  {
+    "id": "Blackrose-blackhat/MorningContext",
+    "reason": "MorningContext reads Claude Code and Codex session context to generate daily briefs, but does not measure, display, or report Claude usage (tokens, cost, rate limits) as a feature—it consumes Claude as a tool for generating summaries, not as a tracker of Claude consumption.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-20T21:21:44.371Z"
   }
 ]

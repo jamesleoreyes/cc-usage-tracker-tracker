@@ -194336,5 +194336,310 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-10-20T16:29:45.534Z"
+  },
+  {
+    "id": "killbeezero/android-claude-usage",
+    "name": "android-claude-usage",
+    "author": "killbeezero",
+    "repoURL": "https://github.com/killbeezero/android-claude-usage",
+    "description": "Claude usage widget for Android — fork with Android 10 support and an always-on clock mode",
+    "category": "Mobile",
+    "platforms": [
+      "android"
+    ],
+    "language": "Kotlin",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "usage-widget",
+      "session-tracking",
+      "weekly-quotas",
+      "per-model-breakdown",
+      "history-charts",
+      "forecast-alerts",
+      "always-on-clock",
+      "notification-panel"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-20T17:51:43Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-20T21:21:48.180Z"
+  },
+  {
+    "id": "OtavioPelego/claude-usage-dashboard",
+    "name": "claude-usage-dashboard",
+    "author": "OtavioPelego",
+    "repoURL": "https://github.com/OtavioPelego/claude-usage-dashboard",
+    "description": "Skill do Claude Code: dashboard HTML local e privado do seu consumo de tokens. Dashboard of your own Claude Code token usage: daily bars, calendar, goals, by model/project/hour. Nothing leaves your machine.",
+    "category": "Web Dashboard",
+    "platforms": [
+      "web"
+    ],
+    "language": "HTML",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "daily-usage-bars",
+      "usage-calendar",
+      "multi-computer-sync",
+      "anthropic-api-integration",
+      "project-breakdown",
+      "hourly-breakdown",
+      "goal-projection",
+      "local-private"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-20T19:48:23Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-20T21:21:48.180Z"
+  },
+  {
+    "id": "KharimMchatta/tokentrace",
+    "name": "tokentrace",
+    "author": "KharimMchatta",
+    "repoURL": "https://github.com/KharimMchatta/tokentrace",
+    "description": "Claude Code context and token monitor for VS Code: live context in the status bar, a five-tab findings panel and a weekly usage report. Reads local transcripts only.",
+    "category": "VS Code Extension",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Unknown",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "live-context-display",
+      "token-monitoring",
+      "status-bar-widget",
+      "findings-panel",
+      "weekly-usage-report",
+      "local-transcript-parsing"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-20T20:53:55Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-20T21:21:48.180Z"
+  },
+  {
+    "id": "ltruchot/qol-mini-4-ai-tui",
+    "name": "qol-mini-4-ai-tui",
+    "author": "ltruchot",
+    "repoURL": "https://github.com/ltruchot/qol-mini-4-ai-tui",
+    "description": "Quality-of-life kit for Claude Code: context gauge, notification sounds, VS Code/Cursor tab marker, friction review before /compact",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "TypeScript",
+    "authMethod": [],
+    "features": [
+      "context-gauge",
+      "usage-alerts",
+      "notification-sounds",
+      "tab-marker",
+      "session-tracking",
+      "multi-session-management",
+      "kaizen-review",
+      "skill-management"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-20T21:14:19Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-20T21:21:48.180Z"
+  },
+  {
+    "id": "xilla420/claude-chronicle",
+    "name": "claude-chronicle",
+    "author": "xilla420",
+    "repoURL": "https://github.com/xilla420/claude-chronicle",
+    "description": "Claude Code mod: timestamps on every message, per-reply usage, live status line, limit alerts and a usage dashboard",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "TypeScript",
+    "authMethod": [],
+    "features": [
+      "timestamps-per-message",
+      "per-reply-usage",
+      "live-status-line",
+      "limit-alerts",
+      "usage-dashboard",
+      "burn-rate-tracking",
+      "context-monitoring",
+      "cache-statistics"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-20T17:19:04Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-20T21:21:48.180Z"
+  },
+  {
+    "id": "whbrewer/claude-usage-meter",
+    "name": "claude-usage-meter",
+    "author": "whbrewer",
+    "repoURL": "https://github.com/whbrewer/claude-usage-meter",
+    "description": "Claude Code status line showing session and weekly usage",
+    "category": "Statusline",
+    "platforms": [
+      "web"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "session-usage",
+      "weekly-usage",
+      "context-window",
+      "cost-tracking",
+      "rate-limit-alerts"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-10-20T16:53:58Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-20T21:21:48.180Z"
+  },
+  {
+    "id": "ShiftedReality12/usagebar",
+    "name": "usagebar",
+    "author": "ShiftedReality12",
+    "repoURL": "https://github.com/ShiftedReality12/usagebar",
+    "description": "macOS menu bar (SwiftBar) and terminal view of Claude Code, Codex and Grok usage limits and reset times. One stdlib Python script.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "OAuth Token",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "claude-code-usage",
+      "codex-usage",
+      "grok-usage",
+      "multi-account",
+      "menubar-display",
+      "token-totals",
+      "rate-limit-tracking"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-20T20:35:21Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-20T21:21:48.180Z"
+  },
+  {
+    "id": "coreyhaines31/fuelgauge",
+    "name": "fuelgauge",
+    "author": "coreyhaines31",
+    "repoURL": "https://github.com/coreyhaines31/fuelgauge",
+    "description": "Free menu bar app that forecasts when you'll hit your Claude Code and Codex limits",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "HTML",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Traffic Capture"
+    ],
+    "features": [
+      "forecast-limits",
+      "multi-provider",
+      "menu-bar-display",
+      "statusline-integration",
+      "cli-output",
+      "usage-charts",
+      "budget-calculations",
+      "notification-alerts"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-20T20:30:33Z",
+    "openIssues": 2,
+    "archived": false,
+    "lastFetched": "2026-10-20T21:21:48.180Z"
+  },
+  {
+    "id": "mikwiseman/openaccs",
+    "name": "openaccs",
+    "author": "mikwiseman",
+    "repoURL": "https://github.com/mikwiseman/openaccs",
+    "description": "macOS menu bar app to switch between multiple Claude and Codex (ChatGPT) accounts, share Claude Code history across Claude desktop profiles, and see 5-hour and weekly usage limits for Claude, Codex, Grok, Kimi Code and Z.ai GLM Coding Plan. Never touches Claude credentials.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie",
+      "API Key",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "multi-account",
+      "usage-limits",
+      "claude-codex-grok",
+      "kimi-z.ai",
+      "shared-code-history",
+      "menu-bar",
+      "account-switcher"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-20T19:49:00Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-20T21:21:48.180Z"
+  },
+  {
+    "id": "ParkerRex/little-limits",
+    "name": "little-limits",
+    "author": "ParkerRex",
+    "repoURL": "https://github.com/ParkerRex/little-limits",
+    "description": "Mac menu bar app that shows how much of your Claude and Codex usage limits are left on every account, and when they reset.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Browser Cookie Auto-detect",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "menu-bar-display",
+      "multi-account",
+      "usage-forecast",
+      "quota-tracking",
+      "model-analytics",
+      "reset-calendar",
+      "weekly-totals",
+      "local-history"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-20T19:20:04Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-20T21:21:48.180Z"
   }
 ]
