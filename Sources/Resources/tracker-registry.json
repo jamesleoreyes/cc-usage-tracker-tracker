@@ -192870,5 +192870,218 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-10-19T22:07:22.177Z"
+  },
+  {
+    "id": "HomeFront-tech/claude-usage-widget",
+    "name": "claude-usage-widget",
+    "author": "HomeFront-tech",
+    "repoURL": "https://github.com/HomeFront-tech/claude-usage-widget",
+    "description": "macOS desktop widget showing your Claude plan usage, plus a pixel Claude buddy that reacts to the app you're in (Hammerspoon, no AI)",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Lua",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "usage-display",
+      "session-limits",
+      "weekly-limits",
+      "per-model-limits",
+      "burn-rate-chart",
+      "hourly-candles",
+      "reset-countdown",
+      "desktop-widget"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-20T03:40:48Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-20T03:46:25.805Z"
+  },
+  {
+    "id": "mgd34msu/firetv-agent-monitor",
+    "name": "firetv-agent-monitor",
+    "author": "mgd34msu",
+    "repoURL": "https://github.com/mgd34msu/firetv-agent-monitor",
+    "description": "Your AI coding agents on a Fire TV: Claude Code, Codex, Muse Code and GoodVibes sessions with live status, activity, context, plan usage and a read-only session view. Built from lg-agent-monitor and rokuagents.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "android"
+    ],
+    "language": "Go",
+    "authMethod": [
+      "Session Cookie",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "multi-agent-dashboard",
+      "claude-code-support",
+      "plan-usage-tracking",
+      "context-window-monitor",
+      "session-status-live",
+      "5-hour-weekly-limits"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-20T03:31:28Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-20T03:46:25.805Z"
+  },
+  {
+    "id": "yassine-krichen/claude-code-agentic-setup",
+    "name": "claude-code-agentic-setup",
+    "author": "yassine-krichen",
+    "repoURL": "https://github.com/yassine-krichen/claude-code-agentic-setup",
+    "description": "Personal Claude Code setup — orchestrator/subagent delegation policy, custom agents, and a colored PowerShell statusline (git branch, model+effort, tokens, cost, rate limits).",
+    "category": "Statusline",
+    "platforms": [
+      "windows"
+    ],
+    "language": "PowerShell",
+    "authMethod": [],
+    "features": [
+      "claude-code-orchestration",
+      "subagent-delegation",
+      "token-display",
+      "cost-tracking",
+      "rate-limit-display",
+      "context-window-monitoring",
+      "git-integration",
+      "powershell-statusline"
+    ],
+    "builtWithClaude": null,
+    "stars": 2,
+    "lastCommitDate": "2026-10-20T03:43:51Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-20T03:46:25.805Z"
+  },
+  {
+    "id": "frostfire575/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "frostfire575",
+    "repoURL": "https://github.com/frostfire575/claude-code-statusline",
+    "description": "Boxed status line for Claude Code: context, rate limits, cost, cache and rolling usage",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "context-meter",
+      "rate-limit-alerts",
+      "cost-tracking",
+      "rolling-usage-ledger",
+      "30-day-history",
+      "prompt-cache-stats",
+      "session-metadata"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-20T03:02:19Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-20T03:46:25.805Z"
+  },
+  {
+    "id": "soft-jp-com/ccusage-report",
+    "name": "ccusage-report",
+    "author": "soft-jp-com",
+    "repoURL": "https://github.com/soft-jp-com/ccusage-report",
+    "description": "Markdown report of Claude Code token usage and API-equivalent cost, with a Pro / Max5 / Max20 plan estimate",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "language": "Go",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "token-usage-report",
+      "cost-estimation",
+      "plan-recommendation",
+      "rate-limit-tracking",
+      "daily-breakdown",
+      "multi-model-breakdown"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-20T02:23:35Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-20T03:46:25.805Z"
+  },
+  {
+    "id": "kylelee/ai-usagebar",
+    "name": "ai-usagebar",
+    "author": "kylelee",
+    "repoURL": "https://github.com/kylelee/ai-usagebar",
+    "description": "AI Usage Panel(Omarchy, Gnome... etc.,), Waybar widget, and tabbed TUI for AI plan usage across Claude, Codex/ChatGPT, Z.AI (GLM), OpenRouter, DeepSeek, Kimi, OpenCode Go, and other supported AI coding services.",
+    "category": "Waybar Module",
+    "platforms": [
+      "linux"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "multi-account",
+      "multi-provider",
+      "usage-windows",
+      "reset-countdowns",
+      "omarchy-panel",
+      "waybar-widget",
+      "tui-interface",
+      "claude-context-view"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-10T11:44:31Z",
+    "openIssues": 10,
+    "archived": false,
+    "lastFetched": "2026-10-20T03:46:25.805Z"
+  },
+  {
+    "id": "jaysoncbh/MilkFamily",
+    "name": "MilkFamily",
+    "author": "jaysoncbh",
+    "repoURL": "https://github.com/jaysoncbh/MilkFamily",
+    "description": "macOS Codex / Claude Code Token tracker with animated desktop companions, progression and cards · 奶家族",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "token-usage-display",
+      "daily-weekly-monthly-stats",
+      "desktop-companion",
+      "progression-gameplay",
+      "character-collection",
+      "card-system",
+      "bilingual-support",
+      "difficulty-scaling"
+    ],
+    "builtWithClaude": null,
+    "stars": 4,
+    "lastCommitDate": "2026-10-19T14:51:33Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-20T03:46:25.805Z"
   }
 ]
