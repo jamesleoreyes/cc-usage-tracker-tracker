@@ -1780,5 +1780,17 @@
     "reason": "This is an auto-generated mirror repository with no README, no commits, and no substantive evidence of Claude usage tracking functionality beyond its name.",
     "confidence": 0.85,
     "rejectedAt": "2026-10-19T22:06:49.263Z"
+  },
+  {
+    "id": "JaeseongYLW/ksystem-ax-usage-monitor",
+    "reason": "The repository name and description suggest a Kbot (Korean bot) usage monitor, but there is insufficient evidence that this specifically tracks Claude usage; it may monitor a different service entirely, making classification uncertain.",
+    "confidence": 0.6,
+    "rejectedAt": "2026-10-20T11:02:33.110Z"
+  },
+  {
+    "id": "sarifmiaa/GrammarBar",
+    "reason": "GrammarBar is a text processing utility powered by Claude Code, not a usage tracker; it does not display, measure, or report Claude usage as a feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-20T11:03:18.162Z"
   }
 ]
