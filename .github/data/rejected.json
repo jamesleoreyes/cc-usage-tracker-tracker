@@ -1870,5 +1870,17 @@
     "reason": "NapCat is a power-state and battery-management utility with optional Claude Code awareness (detecting if a turn is running), but does not display, measure, or report Claude usage metrics—it's a Mac maintenance tool, not a usage tracker.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-21T16:45:46.487Z"
+  },
+  {
+    "id": "abiodunosagie/vigil",
+    "reason": "Vigil monitors Claude Code session activity and state for power management purposes, but does not display, measure, or report Claude usage metrics (tokens, cost, rate limits) as a substantial feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-21T21:21:59.495Z"
+  },
+  {
+    "id": "RobStraubm/laufband",
+    "reason": "This project is a treadmill control app with MCP integration for Claude, but does not display, measure, or report Claude usage as a substantial feature—it controls hardware and exports fitness data to Apple Health.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-10-21T21:22:06.014Z"
   }
 ]
