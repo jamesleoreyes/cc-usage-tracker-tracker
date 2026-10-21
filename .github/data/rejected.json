@@ -1840,5 +1840,35 @@
     "reason": "This is a session manager and GitHub workflow dashboard that reads Claude Code session metadata for context-switching, but does not display, measure, or report Claude usage (tokens, costs, rate limits, quotas) as a substantial feature.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-21T11:20:25.472Z"
+  },
+  {
+    "id": "jietfan21/claude-usage-tracker-privacy",
+    "reason": "This is a privacy policy document repository, not a Claude usage tracker application itself; it contains no tracking functionality, measurement, or reporting features.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-10-21T16:45:14.990Z"
+  },
+  {
+    "id": "pge23/review-triage",
+    "reason": "This is a PR review triage tool that uses Claude Code as a skill component for judgment decisions, but does not track or measure Claude usage itself—it is a workflow automation project, not a usage tracker.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-21T16:45:31.113Z"
+  },
+  {
+    "id": "LucaL1fe/claude-code-alerts",
+    "reason": "This is a Claude Code session manager and notification system for VS Code, not a usage tracker—it monitors session state and activity (needs-you, done, plan-ready) rather than displaying tokens, cost, or resource consumption metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-21T16:45:40.216Z"
+  },
+  {
+    "id": "cparis-ts/schedulai",
+    "reason": "Schedulai is a job scheduler for Claude Code prompts, not a usage tracker—it executes prompts on a schedule and logs runs, but does not display, measure, or report Claude usage (tokens, costs, rate limits) as a feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-21T16:45:43.408Z"
+  },
+  {
+    "id": "MuratAlkan06/NapCat",
+    "reason": "NapCat is a power-state and battery-management utility with optional Claude Code awareness (detecting if a turn is running), but does not display, measure, or report Claude usage metrics—it's a Mac maintenance tool, not a usage tracker.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-21T16:45:46.487Z"
   }
 ]
