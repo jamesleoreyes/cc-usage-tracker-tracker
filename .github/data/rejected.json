@@ -1822,5 +1822,23 @@
     "reason": "MorningContext reads Claude Code and Codex session context to generate daily briefs, but does not measure, display, or report Claude usage (tokens, cost, rate limits) as a feature—it consumes Claude as a tool for generating summaries, not as a tracker of Claude consumption.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-20T21:21:44.371Z"
+  },
+  {
+    "id": "yznki/glidepath",
+    "reason": "Glidepath is a Claude Code review automation tool for GitHub PRs that displays token usage per run and per PR in its menu bar dashboard, but its primary purpose is PR review orchestration rather than tracking Claude usage as a substantial feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-21T11:20:12.202Z"
+  },
+  {
+    "id": "unrealandychan/claude-codex-gemini-router",
+    "reason": "This is a Claude/Codex-to-Gemini router proxy with a notification bar UI, not a Claude usage tracker—it routes requests to different models but does not display, measure, or report Claude usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-21T11:20:18.598Z"
+  },
+  {
+    "id": "kodeebo/branch-menu",
+    "reason": "This is a session manager and GitHub workflow dashboard that reads Claude Code session metadata for context-switching, but does not display, measure, or report Claude usage (tokens, costs, rate limits, quotas) as a substantial feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-21T11:20:25.472Z"
   }
 ]
