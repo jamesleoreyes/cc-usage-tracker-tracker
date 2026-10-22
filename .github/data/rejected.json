@@ -1882,5 +1882,29 @@
     "reason": "This project is a treadmill control app with MCP integration for Claude, but does not display, measure, or report Claude usage as a substantial feature—it controls hardware and exports fitness data to Apple Health.",
     "confidence": 0.85,
     "rejectedAt": "2026-10-21T21:22:06.014Z"
+  },
+  {
+    "id": "Marcozaa/claude-chiptune",
+    "reason": "This is a Spotify now-playing display for Claude Code's status line with pixel art and lyrics; it does not measure or report Claude usage (tokens, cost, rate limits, or quotas), so it does not qualify as a Claude usage tracker.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-22T03:36:53.989Z"
+  },
+  {
+    "id": "oaustegard/claude-sessions-mac",
+    "reason": "This is a Claude Code session monitor that tracks active sessions and their state, but does not measure or report Claude usage (tokens, cost, rate limits) as a feature—it only alerts on session completion and status changes.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-22T03:37:03.918Z"
+  },
+  {
+    "id": "StevenD2002/desk-droids",
+    "reason": "This is a visual/audio indicator of Claude Code activity rather than a usage tracker; it displays real-time operational state and events but does not measure, accumulate, or report tokens, costs, or usage metrics.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-10-22T03:37:07.020Z"
+  },
+  {
+    "id": "danromik/colchian-dragon",
+    "reason": "This is a sleep-management utility for macOS that integrates with Claude Code but does not display, measure, or report Claude usage metrics—it merely detects Claude Code activity to control Mac sleep behavior.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-22T03:37:10.063Z"
   }
 ]

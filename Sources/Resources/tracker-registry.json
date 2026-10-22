@@ -196721,5 +196721,303 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-10-21T21:22:22.287Z"
+  },
+  {
+    "id": "NasckDev/claude-usage-hud",
+    "name": "claude-usage-hud",
+    "author": "NasckDev",
+    "repoURL": "https://github.com/NasckDev/claude-usage-hud",
+    "description": "Widget flutuante para Windows que mostra o uso do Claude Code (sessão 5h, semana, limites por modelo e chats ativos) + status line",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "PowerShell",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "floating-widget",
+      "session-limits",
+      "weekly-limits",
+      "model-limits",
+      "active-chats",
+      "status-line",
+      "context-window",
+      "tray-icon"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-21T22:10:31Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-22T03:37:13.277Z"
+  },
+  {
+    "id": "YTcd/claudeUsage",
+    "name": "claudeUsage",
+    "author": "YTcd",
+    "repoURL": "https://github.com/YTcd/claudeUsage",
+    "description": "showing remain token percentage on VSCode's status bar",
+    "category": "VS Code Extension",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "OAuth Token"
+    ],
+    "features": [
+      "token-percentage-display",
+      "rate-limit-tracking",
+      "5h-7d-quotas",
+      "auto-reset-countdown",
+      "statusline-integration"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-22T03:18:35Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-22T03:37:13.278Z"
+  },
+  {
+    "id": "Atomphat/claudebar",
+    "name": "claudebar",
+    "author": "Atomphat",
+    "repoURL": "https://github.com/Atomphat/claudebar",
+    "description": "Claude usage limits and reset countdown in the macOS menu bar",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "usage-percentage",
+      "reset-countdown",
+      "session-limits",
+      "weekly-limits",
+      "color-coded-alerts",
+      "multi-model-limits",
+      "keychain-integration"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-22T00:20:25Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-22T03:37:13.278Z"
+  },
+  {
+    "id": "aivex2024-spec/usagegauge",
+    "name": "usagegauge",
+    "author": "aivex2024-spec",
+    "repoURL": "https://github.com/aivex2024-spec/usagegauge",
+    "description": "A tiny always-on-top Windows widget that estimates your AI coding tool usage (Claude Code, Codex, Gemini CLI, Antigravity) from local logs only. No login access; conversations never leave your PC. Remaining amount is an estimate, not an official number. 7-day free trial, one-time purchase. Unofficial, not affiliated with Anthropic, OpenAI or Google",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Unknown",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "claude-code-tracking",
+      "multi-provider",
+      "usage-estimates",
+      "rate-limit-alerts",
+      "5-hour-window",
+      "7-day-rolling",
+      "leak-detection"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-22T02:44:14Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-22T03:37:13.278Z"
+  },
+  {
+    "id": "ngarmy77-commits/ai-usage-widget",
+    "name": "ai-usage-widget",
+    "author": "ngarmy77-commits",
+    "repoURL": "https://github.com/ngarmy77-commits/ai-usage-widget",
+    "description": "Windows tray widget for Claude Code & Codex usage limits (local-only, single exe)",
+    "category": "Statusline",
+    "platforms": [
+      "windows"
+    ],
+    "language": "C#",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "rate-limit-display",
+      "5hr-weekly-quotas",
+      "token-tracking",
+      "tray-widget",
+      "local-only",
+      "no-auth"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-22T02:27:52Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-22T03:37:13.278Z"
+  },
+  {
+    "id": "darkraise/darkraise-ai-plugins",
+    "name": "darkraise-ai-plugins",
+    "author": "darkraise",
+    "repoURL": "https://github.com/darkraise/darkraise-ai-plugins",
+    "description": "Plugin marketplace for Claude Code and Codex: dr-forge (spec-to-merge workflow with scored plans, tiered agents and a session cockpit), a status line, and design-system skills.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "usage-meters",
+      "session-cockpit",
+      "budget-tracking",
+      "context-limits",
+      "account-aware",
+      "status-line"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-22T03:25:40Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-22T03:37:13.278Z"
+  },
+  {
+    "id": "FrostBy/claude-statusline-ultimate",
+    "name": "claude-statusline-ultimate",
+    "author": "FrostBy",
+    "repoURL": "https://github.com/FrostBy/claude-statusline-ultimate",
+    "description": "Configurable status line for Claude Code: context, 5h/weekly/per-model limits with burn-rate forecast, git across umbrella folders, live activity, TUI editor. Zero dependencies.",
+    "category": "Statusline",
+    "platforms": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "context-usage",
+      "rate-limit-tracking",
+      "burn-rate-forecast",
+      "per-model-limits",
+      "git-integration",
+      "live-activity",
+      "multi-line-config",
+      "tui-editor"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-21T23:56:04Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-22T03:37:13.278Z"
+  },
+  {
+    "id": "captjasonhite/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "captjasonhite",
+    "repoURL": "https://github.com/captjasonhite/claude-code-statusline",
+    "description": "Color-coded Claude Code status line: context, session and weekly usage, and reset times",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "context-usage-display",
+      "session-token-tracking",
+      "weekly-quota-tracking",
+      "color-coded-bars",
+      "reset-times",
+      "local-timezone"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-10-21T21:32:03Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-22T03:37:13.278Z"
+  },
+  {
+    "id": "tommy6134/kpi-tracker",
+    "name": "kpi-tracker",
+    "author": "tommy6134",
+    "repoURL": "https://github.com/tommy6134/kpi-tracker",
+    "description": "Registra e mostra tutti i KPI misurabili di utilizzo di Claude Code (token, costo, contesto, rate limit, tool, codice, git, permessi, subagent), salvati per progetto e sessione: barra live, pannello, /kpi con filtri, report HTML ed export CSV/JSON.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "TypeScript",
+    "authMethod": [],
+    "features": [
+      "token-tracking",
+      "cost-analysis",
+      "rate-limit-monitoring",
+      "context-tracking",
+      "live-dashboard",
+      "html-reports",
+      "csv-json-export",
+      "project-session-organization"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-21T22:14:33Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-22T03:37:13.278Z"
+  },
+  {
+    "id": "ezhangcusd-lab/claude-max-meter-calibration",
+    "name": "claude-max-meter-calibration",
+    "author": "ezhangcusd-lab",
+    "repoURL": "https://github.com/ezhangcusd-lab/claude-max-meter-calibration",
+    "description": "Calibration data: Claude Max 5-hour usage points per 1M tokens, by model and token kind",
+    "category": "Web Dashboard",
+    "platforms": [
+      "web"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "rate-limit-calibration",
+      "usage-meter-points",
+      "token-cost-measurement",
+      "cache-pricing",
+      "edge-locked-cells",
+      "replay-validation"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-22T02:47:54Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-22T03:37:13.278Z"
   }
 ]
