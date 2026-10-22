@@ -1942,5 +1942,23 @@
     "reason": "ParkBar is a productivity app for managing parked work sessions paired with Claude Code, but it tracks parked work state, not Claude usage metrics like tokens or costs.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-22T16:46:28.241Z"
+  },
+  {
+    "id": "georgetsouvaltzis/claude-switch",
+    "reason": "This is an account switcher for Claude Code with status line display, but does not measure or report Claude usage (tokens, cost, sessions, quotas) as a substantial feature—its primary purpose is account/subscription management and switching.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-22T21:18:07.024Z"
+  },
+  {
+    "id": "Owen-Silva/claude-mods",
+    "reason": "These are Claude Code mod plugins that enforce guardrails, pacing, and visibility within Claude Code sessions, but they do not display, measure, or report Claude usage (tokens, cost, rate limits, quotas) as a substantial feature—they are governance and workflow tools, not usage trackers.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-22T21:18:13.652Z"
+  },
+  {
+    "id": "martinsbicudo/murmur",
+    "reason": "Murmur is a meeting notes app that uses Claude Code for summarization and chat, but does not track, display, or report Claude usage metrics—it is a consumer of Claude, not a usage tracker.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-22T21:18:22.718Z"
   }
 ]
