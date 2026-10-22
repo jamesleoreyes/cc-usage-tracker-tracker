@@ -1906,5 +1906,23 @@
     "reason": "This is a sleep-management utility for macOS that integrates with Claude Code but does not display, measure, or report Claude usage metrics—it merely detects Claude Code activity to control Mac sleep behavior.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-22T03:37:10.063Z"
+  },
+  {
+    "id": "vedjuk/greengo",
+    "reason": "Greengo is a playful companion/narrator for Claude Code that displays session activity and context usage, but does not measure, track, or report Claude usage metrics like tokens, costs, or quotas as a primary feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-22T11:19:02.335Z"
+  },
+  {
+    "id": "matthieuh/balance-ton-port",
+    "reason": "This project monitors and manages Claude Code dev servers and ports, but does not display or measure Claude usage metrics (tokens, cost, rate limits, quotas, sessions); it is a cleanup utility rather than a usage tracker.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-22T11:19:05.708Z"
+  },
+  {
+    "id": "sbd1017/ai-nudge",
+    "reason": "AI Nudge is a scheduler that sends timed messages to Claude/ChatGPT to reset usage windows, not a tracker that displays or measures usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-22T11:19:19.519Z"
   }
 ]
