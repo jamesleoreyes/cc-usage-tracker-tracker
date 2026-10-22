@@ -1924,5 +1924,23 @@
     "reason": "AI Nudge is a scheduler that sends timed messages to Claude/ChatGPT to reset usage windows, not a tracker that displays or measures usage metrics.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-22T11:19:19.519Z"
+  },
+  {
+    "id": "ProggePal/lunte-app",
+    "reason": "Lunte is a gamified menu bar app that monitors Claude Code frustration through text analysis and explodes on caps/swears, but does not display Claude usage metrics (tokens, costs, rate limits) as a substantial feature—it's a social game rather than a usage tracker.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-10-22T16:46:21.597Z"
+  },
+  {
+    "id": "ArtemKorchunov/insomnia",
+    "reason": "This is a thermal/battery watchdog and menu bar app for keeping a MacBook running with the lid closed and enabling Claude Code remote sessions from a phone—it does not track or display Claude usage metrics, making it ineligible for the usage-tracker registry.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-22T16:46:24.977Z"
+  },
+  {
+    "id": "dragutin-oreski/parkbar",
+    "reason": "ParkBar is a productivity app for managing parked work sessions paired with Claude Code, but it tracks parked work state, not Claude usage metrics like tokens or costs.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-22T16:46:28.241Z"
   }
 ]
