@@ -198590,5 +198590,273 @@
     "openIssues": 1,
     "archived": false,
     "lastFetched": "2026-10-23T03:43:09.393Z"
+  },
+  {
+    "id": "Davidaprilio/claude-usage-kdewidget",
+    "name": "claude-usage-kdewidget",
+    "author": "Davidaprilio",
+    "repoURL": "https://github.com/Davidaprilio/claude-usage-kdewidget",
+    "description": "KDE Plasma 6 panel widget: Claude subscription usage limits, reset times, and token history per model and session",
+    "category": "Übersicht Widget",
+    "platforms": [
+      "linux"
+    ],
+    "language": "QML",
+    "authMethod": [
+      "OAuth Token",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "session-limits",
+      "token-history",
+      "multi-model-breakdown",
+      "reset-timers",
+      "usage-alerts",
+      "burndown-charts",
+      "cache-analytics"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-23T07:30:43Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-23T11:10:00.186Z"
+  },
+  {
+    "id": "woodti/QuotaBar",
+    "name": "QuotaBar",
+    "author": "woodti",
+    "repoURL": "https://github.com/woodti/QuotaBar",
+    "description": "Native macOS menu bar usage monitor for Codex and Claude Code. MIT licensed, Apple Silicon.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "claude-code-usage",
+      "codex-usage",
+      "rate-limits",
+      "menu-bar-display",
+      "multi-provider",
+      "reset-countdown"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-23T10:52:49Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-23T11:10:00.186Z"
+  },
+  {
+    "id": "nathanatgit/UsageMon",
+    "name": "UsageMon",
+    "author": "nathanatgit",
+    "repoURL": "https://github.com/nathanatgit/UsageMon",
+    "description": "Windows 11 usage monitor for Codex and Claude Code: floating ring panel and taskbar meter (C#, WinUI 3)",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "C#",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "floating-ring-panel",
+      "taskbar-meter",
+      "multi-provider",
+      "usage-percentages",
+      "5-hour-7day-windows",
+      "mica-material",
+      "dark-light-mode"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-23T10:36:44Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-23T11:10:00.186Z"
+  },
+  {
+    "id": "VizzleTF/claude-skills",
+    "name": "claude-skills",
+    "author": "VizzleTF",
+    "repoURL": "https://github.com/VizzleTF/claude-skills",
+    "description": "Claude Code plugin marketplace: tidemark (status band mod with context, cache and quota widgets) and technical-writing skills (EN/RU)",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "TypeScript",
+    "authMethod": [],
+    "features": [
+      "context-usage-display",
+      "quota-tracking",
+      "prompt-cache-display",
+      "git-integration",
+      "multi-widget-band",
+      "technical-writing-skills"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-23T10:58:58Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-23T11:10:00.186Z"
+  },
+  {
+    "id": "kittipitch/claude-statusline",
+    "name": "claude-statusline",
+    "author": "kittipitch",
+    "repoURL": "https://github.com/kittipitch/claude-statusline",
+    "description": "Catppuccin Mocha status line for the Claude Code CLI — bash + PowerShell, dynamic threshold colors",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "PowerShell",
+    "authMethod": [
+      "Traffic Capture"
+    ],
+    "features": [
+      "context-usage-display",
+      "rate-limit-tracking",
+      "dynamic-threshold-coloring",
+      "git-branch-display",
+      "catppuccin-mocha-theme",
+      "five-hour-rate-limit",
+      "seven-day-rate-limit"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-23T06:16:37Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-23T11:10:00.186Z"
+  },
+  {
+    "id": "fraser-langton/ai-state-machine",
+    "name": "ai-state-machine",
+    "author": "fraser-langton",
+    "repoURL": "https://github.com/fraser-langton/ai-state-machine",
+    "description": "Customisable workflow state machine for AI coding sessions: status line progress row, Claude Code + Codex hooks, SQLite history",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "session-state-tracking",
+      "workflow-progress",
+      "cost-display",
+      "rate-limit-tracking",
+      "sqlite-history",
+      "multi-harness-support",
+      "status-line-integration"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-23T05:29:09Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-23T11:10:00.186Z"
+  },
+  {
+    "id": "maseungsidea/ResetCoupon-Watch",
+    "name": "ResetCoupon-Watch",
+    "author": "maseungsidea",
+    "repoURL": "https://github.com/maseungsidea/ResetCoupon-Watch",
+    "description": "Claude Code mod: warns before Claude and Codex rate-limit reset coupons lapse unused (KST, D-day, use-by night)",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "Session Key",
+      "Session Cookie"
+    ],
+    "features": [
+      "reset-coupon-alerts",
+      "expiry-countdown",
+      "multi-provider",
+      "ksz-timezone",
+      "toast-notifications",
+      "status-line",
+      "read-only"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-23T07:58:10Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-23T11:10:00.186Z"
+  },
+  {
+    "id": "noyex/burn",
+    "name": "burn",
+    "author": "noyex",
+    "repoURL": "https://github.com/noyex/burn",
+    "description": "macOS menu bar app showing AI coding subscription limits (Claude Code, Codex, Cursor) and local usage cost",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "rate-limit-display",
+      "multi-provider",
+      "usage-cost-estimation",
+      "menu-bar-app",
+      "local-cost-compute",
+      "per-provider-charts"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-23T10:26:36Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-23T11:10:00.186Z"
+  },
+  {
+    "id": "Xroserok/yourlimit",
+    "name": "yourlimit",
+    "author": "Xroserok",
+    "repoURL": "https://github.com/Xroserok/yourlimit",
+    "description": "macOS menu bar app showing Claude subscription usage limits (5h session / weekly)",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "session-limit-display",
+      "weekly-limit-display",
+      "progress-bars",
+      "color-coded-alerts",
+      "reset-timers",
+      "keychain-integration"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-23T10:12:49Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-23T11:10:00.186Z"
   }
 ]

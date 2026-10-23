@@ -1966,5 +1966,11 @@
     "reason": "This is a collection of Claude Code mods providing guardrails, checklists, ETAs, fleet visibility, and rate-limit pacing—governance and visibility tools for Claude Code sessions, not a usage tracker that displays tokens, costs, or quota metrics.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-23T03:42:56.268Z"
+  },
+  {
+    "id": "rezafaraji93/Morning-Brief",
+    "reason": "Morning Brief is a productivity app that delegates AI work to Claude Code/Codex agents but does not itself display, measure, or report Claude usage as a substantial feature; it shows token cost and time only in a footer after generation, not as a tracking interface.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-23T11:09:57.320Z"
   }
 ]
