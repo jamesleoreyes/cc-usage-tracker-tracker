@@ -55064,11 +55064,11 @@
     ],
     "builtWithClaude": true,
     "stars": 3,
-    "lastCommitDate": "2026-10-15T02:50:44Z",
-    "openIssues": 1,
+    "lastCommitDate": "2026-10-22T06:52:08Z",
+    "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:52:54.552Z",
-    "latestRelease": "v1.10.3"
+    "lastFetched": "2026-10-23T16:42:48.669Z",
+    "latestRelease": "v1.10.5"
   },
   {
     "id": "Ch1nzo/claude-codex-usage-monitor",
@@ -55098,7 +55098,7 @@
     "lastCommitDate": "2026-06-02T02:30:19Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:52:53.457Z",
+    "lastFetched": "2026-10-23T16:42:47.667Z",
     "latestRelease": "v1.3.1"
   },
   {
@@ -55132,7 +55132,7 @@
     "lastCommitDate": "2026-05-28T07:56:51Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:52:54.029Z",
+    "lastFetched": "2026-10-23T16:42:48.222Z",
     "latestRelease": "v0.1.0"
   },
   {
@@ -55163,7 +55163,7 @@
     "lastCommitDate": "2026-10-11T09:51:00Z",
     "openIssues": 1,
     "archived": false,
-    "lastFetched": "2026-10-19T03:52:58.680Z"
+    "lastFetched": "2026-10-23T16:42:52.405Z"
   },
   {
     "id": "camhendo/claude-statusline",
@@ -55190,7 +55190,7 @@
     "lastCommitDate": "2026-05-28T06:19:16Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:52:55.749Z"
+    "lastFetched": "2026-10-23T16:42:49.654Z"
   },
   {
     "id": "weritas247/claude-statusline-builder",
@@ -55216,7 +55216,7 @@
     "lastCommitDate": "2026-08-05T06:45:26Z",
     "openIssues": 0,
     "archived": true,
-    "lastFetched": "2026-10-19T03:52:59.177Z"
+    "lastFetched": "2026-10-23T16:42:52.874Z"
   },
   {
     "id": "zyx1121/ditto",
@@ -55244,7 +55244,7 @@
     "lastCommitDate": "2026-10-19T02:51:11Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:52:55.134Z"
+    "lastFetched": "2026-10-23T16:42:49.151Z"
   },
   {
     "id": "kimon1230/claude_extensions",
@@ -55269,7 +55269,7 @@
     "lastCommitDate": "2026-10-18T15:32:28Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:52:59.566Z",
+    "lastFetched": "2026-10-23T16:42:53.129Z",
     "latestRelease": "v0.10"
   },
   {
@@ -55299,7 +55299,7 @@
     "lastCommitDate": "2026-09-02T19:19:23Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:00.039Z",
+    "lastFetched": "2026-10-23T16:42:53.792Z",
     "latestRelease": "v1.1.0"
   },
   {
@@ -55332,7 +55332,7 @@
     "lastCommitDate": "2026-05-28T14:24:32Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:00.583Z",
+    "lastFetched": "2026-10-23T16:42:54.282Z",
     "latestRelease": "v0.1.6"
   },
   {
@@ -55366,7 +55366,7 @@
     "lastCommitDate": "2026-05-30T21:48:53Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:02.402Z",
+    "lastFetched": "2026-10-23T16:42:56.005Z",
     "latestRelease": "v0.5.0"
   },
   {
@@ -55401,7 +55401,7 @@
     "lastCommitDate": "2026-10-15T19:25:38Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:02.984Z"
+    "lastFetched": "2026-10-23T16:42:56.514Z"
   },
   {
     "id": "arelstone/claude-code-co2-usage-tracker",
@@ -55431,7 +55431,7 @@
     "lastCommitDate": "2026-05-28T11:42:30Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:01.143Z"
+    "lastFetched": "2026-10-23T16:42:54.780Z"
   },
   {
     "id": "shano/auric",
@@ -55458,7 +55458,7 @@
     "lastCommitDate": "2026-05-30T16:23:43Z",
     "openIssues": 2,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:01.774Z",
+    "lastFetched": "2026-10-23T16:42:55.419Z",
     "latestRelease": "auric-v0.2.0"
   },
   {
@@ -55492,7 +55492,7 @@
     "lastCommitDate": "2026-09-21T10:11:49Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:03.553Z"
+    "lastFetched": "2026-10-23T16:42:57.091Z"
   },
   {
     "id": "yedidya-buildfy/claude-addons",
@@ -55517,10 +55517,10 @@
     ],
     "builtWithClaude": true,
     "stars": 1,
-    "lastCommitDate": "2026-10-17T16:45:01Z",
+    "lastCommitDate": "2026-10-23T14:40:18Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:04.144Z"
+    "lastFetched": "2026-10-23T16:42:57.643Z"
   },
   {
     "id": "bobbydas/claude-statusline",
@@ -55547,7 +55547,7 @@
     "lastCommitDate": "2026-06-02T13:40:23Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:04.778Z"
+    "lastFetched": "2026-10-23T16:42:58.191Z"
   },
   {
     "id": "sbaglieri13/claude-code-statusline",
@@ -55578,7 +55578,7 @@
     "lastCommitDate": "2026-10-16T16:39:29Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:05.378Z"
+    "lastFetched": "2026-10-23T16:42:58.805Z"
   },
   {
     "id": "Vincent615/claude-statusline-rs",
@@ -55607,7 +55607,7 @@
     "lastCommitDate": "2026-05-28T09:43:29Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:05.975Z",
+    "lastFetched": "2026-10-23T16:42:59.380Z",
     "latestRelease": "v0.1.0"
   },
   {
@@ -55638,7 +55638,7 @@
     "lastCommitDate": "2026-10-03T09:15:37Z",
     "openIssues": 1,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:07.124Z",
+    "lastFetched": "2026-10-23T16:43:00.462Z",
     "latestRelease": "v1.3.1"
   },
   {
@@ -55668,7 +55668,7 @@
     "lastCommitDate": "2026-05-28T16:26:53Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:06.510Z"
+    "lastFetched": "2026-10-23T16:42:59.856Z"
   },
   {
     "id": "juandresrodca/claude-usage-monitor",
@@ -55698,7 +55698,7 @@
     "lastCommitDate": "2026-05-28T16:23:45Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:07.708Z",
+    "lastFetched": "2026-10-23T16:43:01.024Z",
     "latestRelease": "v0.1.0"
   },
   {
@@ -55729,7 +55729,7 @@
     "lastCommitDate": "2026-07-31T19:56:23Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:14.041Z"
+    "lastFetched": "2026-10-23T16:43:06.999Z"
   },
   {
     "id": "ZafiroSad/Statusline_Claude",
@@ -55759,7 +55759,7 @@
     "lastCommitDate": "2026-06-16T19:23:17Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:14.704Z"
+    "lastFetched": "2026-10-23T16:43:07.588Z"
   },
   {
     "id": "Maggi-Controls-S-R-L/claude-statusline",
@@ -55783,11 +55783,11 @@
     ],
     "builtWithClaude": true,
     "stars": 0,
-    "lastCommitDate": "2026-10-16T14:04:37Z",
+    "lastCommitDate": "2026-10-19T09:44:39Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:16.700Z",
-    "latestRelease": "v1.2.0"
+    "lastFetched": "2026-10-23T16:43:09.352Z",
+    "latestRelease": "v1.4.0"
   },
   {
     "id": "holden-alt/cc-statusline",
@@ -55818,7 +55818,7 @@
     "lastCommitDate": "2026-05-28T16:16:40Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:16.107Z"
+    "lastFetched": "2026-10-23T16:43:08.791Z"
   },
   {
     "id": "HAR5HA-7663/harshas-claude-statusline",
@@ -55846,7 +55846,7 @@
     "lastCommitDate": "2026-09-23T19:36:41Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:15.370Z"
+    "lastFetched": "2026-10-23T16:43:08.191Z"
   },
   {
     "id": "norkey/claude-code-status-light",
@@ -55871,7 +55871,7 @@
     "lastCommitDate": "2026-05-29T08:29:07Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:17.253Z"
+    "lastFetched": "2026-10-23T16:43:09.859Z"
   },
   {
     "id": "h2ik/claude-statusline",
@@ -55898,7 +55898,7 @@
     "lastCommitDate": "2026-10-09T11:10:37Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:20.066Z",
+    "lastFetched": "2026-10-23T16:43:12.337Z",
     "latestRelease": "v1.7.0"
   },
   {
@@ -55927,7 +55927,7 @@
     "lastCommitDate": "2026-09-10T04:29:05Z",
     "openIssues": 1,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:17.917Z"
+    "lastFetched": "2026-10-23T16:43:10.629Z"
   },
   {
     "id": "mr-pmillz/claude-code-pmillz-statusline",
@@ -55954,7 +55954,7 @@
     "lastCommitDate": "2026-10-14T22:49:03Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:18.890Z"
+    "lastFetched": "2026-10-23T16:43:11.214Z"
   },
   {
     "id": "leonardocandiani/glint",
@@ -55979,10 +55979,10 @@
     ],
     "builtWithClaude": null,
     "stars": 1,
-    "lastCommitDate": "2026-10-05T12:04:42Z",
+    "lastCommitDate": "2026-10-22T20:19:37Z",
     "openIssues": 2,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:19.528Z",
+    "lastFetched": "2026-10-23T16:43:11.819Z",
     "latestRelease": "v1.1.0"
   },
   {
@@ -56012,7 +56012,7 @@
     "lastCommitDate": "2026-05-28T21:58:51Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:20.605Z"
+    "lastFetched": "2026-10-23T16:43:12.938Z"
   },
   {
     "id": "BlakePetersen/monoline",
@@ -56042,7 +56042,7 @@
     "lastCommitDate": "2026-06-01T17:59:15Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:21.278Z"
+    "lastFetched": "2026-10-23T16:43:13.522Z"
   },
   {
     "id": "Shuo-O/QuotaBar",
@@ -56073,7 +56073,7 @@
     "lastCommitDate": "2026-07-03T09:30:02Z",
     "openIssues": 1,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:21.919Z"
+    "lastFetched": "2026-10-23T16:43:14.032Z"
   },
   {
     "id": "my-monkeys/claude-monitor",
@@ -56098,7 +56098,7 @@
     "lastCommitDate": "2026-08-13T10:48:31Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:22.537Z",
+    "lastFetched": "2026-10-23T16:43:14.604Z",
     "latestRelease": "v1.0.0"
   },
   {
@@ -56128,10 +56128,10 @@
     ],
     "builtWithClaude": true,
     "stars": 70,
-    "lastCommitDate": "2026-10-18T07:01:07Z",
-    "openIssues": 3,
+    "lastCommitDate": "2026-10-23T11:51:43Z",
+    "openIssues": 5,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:35.947Z",
+    "lastFetched": "2026-10-23T16:43:27.231Z",
     "latestRelease": "v2.5.0"
   },
   {
@@ -56162,7 +56162,7 @@
     "lastCommitDate": "2026-09-28T13:21:04Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:23.029Z"
+    "lastFetched": "2026-10-23T16:43:15.060Z"
   },
   {
     "id": "TobyWu666/pelu",
@@ -56193,7 +56193,7 @@
     "lastCommitDate": "2026-10-14T07:21:52Z",
     "openIssues": 1,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:24.312Z"
+    "lastFetched": "2026-10-23T16:43:16.182Z"
   },
   {
     "id": "SVAH-X/claude-code-but-priestess",
@@ -56220,10 +56220,10 @@
     ],
     "builtWithClaude": true,
     "stars": 45,
-    "lastCommitDate": "2026-10-03T03:52:19Z",
+    "lastCommitDate": "2026-10-22T08:10:13Z",
     "openIssues": 1,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:30.499Z",
+    "lastFetched": "2026-10-23T16:43:22.067Z",
     "latestRelease": "v0.7.6"
   },
   {
@@ -56250,7 +56250,7 @@
     "lastCommitDate": "2026-05-29T03:18:46Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:23.590Z"
+    "lastFetched": "2026-10-23T16:43:15.659Z"
   },
   {
     "id": "kai-gme/claude-usage-snapshot-tracker-policy",
@@ -56270,7 +56270,7 @@
     "lastCommitDate": "2026-06-01T06:19:28Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:30.996Z"
+    "lastFetched": "2026-10-23T16:43:22.745Z"
   },
   {
     "id": "2eeYuan/tokenwise",
@@ -56301,7 +56301,7 @@
     "lastCommitDate": "2026-05-29T07:27:04Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:31.649Z"
+    "lastFetched": "2026-10-23T16:43:23.239Z"
   },
   {
     "id": "JaeggerJose/claude-statusline",
@@ -56326,7 +56326,7 @@
     "lastCommitDate": "2026-06-03T02:25:08Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:36.614Z"
+    "lastFetched": "2026-10-23T16:43:27.701Z"
   },
   {
     "id": "ryanclark/statusline",
@@ -56358,7 +56358,7 @@
     "lastCommitDate": "2026-10-15T20:23:22Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:40.885Z",
+    "lastFetched": "2026-10-23T16:43:31.927Z",
     "latestRelease": "v2.5.0"
   },
   {
@@ -56388,7 +56388,7 @@
     "lastCommitDate": "2026-10-06T15:55:29Z",
     "openIssues": 1,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:41.374Z",
+    "lastFetched": "2026-10-23T16:43:32.435Z",
     "latestRelease": "v2.6.0"
   },
   {
@@ -56416,7 +56416,7 @@
     "lastCommitDate": "2026-10-01T08:57:02Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:39.785Z",
+    "lastFetched": "2026-10-23T16:43:30.771Z",
     "latestRelease": "v6.5.3"
   },
   {
@@ -56448,7 +56448,7 @@
     "lastCommitDate": "2026-05-29T08:27:43Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:40.297Z"
+    "lastFetched": "2026-10-23T16:43:31.383Z"
   },
   {
     "id": "developzoneio/claude-code-statusline-windows",
@@ -56475,7 +56475,7 @@
     "lastCommitDate": "2026-05-29T08:22:01Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:41.963Z"
+    "lastFetched": "2026-10-23T16:43:32.921Z"
   },
   {
     "id": "OwenClaw/claude-statusline-theme",
@@ -56500,7 +56500,7 @@
     "lastCommitDate": "2026-07-17T10:33:35Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:48.536Z"
+    "lastFetched": "2026-10-23T16:43:38.714Z"
   },
   {
     "id": "akkaz/ccstatusline-gradient",
@@ -56528,7 +56528,7 @@
     "lastCommitDate": "2026-08-24T05:16:08Z",
     "openIssues": 2,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:42.586Z"
+    "lastFetched": "2026-10-23T16:43:33.511Z"
   },
   {
     "id": "SunXinFei/claude-code-traffic-light",
@@ -56560,7 +56560,7 @@
     "lastCommitDate": "2026-08-24T12:35:24Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:46.009Z",
+    "lastFetched": "2026-10-23T16:43:36.388Z",
     "latestRelease": "v2.3.1"
   },
   {
@@ -56592,7 +56592,7 @@
     "lastCommitDate": "2026-07-10T03:22:17Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:46.619Z",
+    "lastFetched": "2026-10-23T16:43:37.104Z",
     "latestRelease": "v0.1.8"
   },
   {
@@ -56622,7 +56622,7 @@
     "lastCommitDate": "2026-06-01T03:37:42Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:47.216Z"
+    "lastFetched": "2026-10-23T16:43:37.631Z"
   },
   {
     "id": "maciello/claude-statusline",
@@ -56652,7 +56652,7 @@
     "lastCommitDate": "2026-05-29T22:32:07Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:47.866Z"
+    "lastFetched": "2026-10-23T16:43:38.160Z"
   },
   {
     "id": "MessiasLima/cc-statusline",
@@ -56681,7 +56681,7 @@
     "lastCommitDate": "2026-08-07T12:13:34Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:52.500Z",
+    "lastFetched": "2026-10-23T16:43:42.521Z",
     "latestRelease": "v2.1.0"
   },
   {
@@ -56709,9 +56709,9 @@
     "builtWithClaude": null,
     "stars": 70,
     "lastCommitDate": "2026-10-05T06:32:03Z",
-    "openIssues": 4,
+    "openIssues": 5,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:49.106Z",
+    "lastFetched": "2026-10-23T16:43:39.216Z",
     "latestRelease": "v1.6.2"
   },
   {
@@ -56746,7 +56746,7 @@
     "lastCommitDate": "2026-06-09T07:31:06Z",
     "openIssues": 1,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:50.055Z",
+    "lastFetched": "2026-10-23T16:43:40.118Z",
     "latestRelease": "v1.6.0"
   },
   {
@@ -56778,7 +56778,7 @@
     "lastCommitDate": "2026-06-01T09:06:30Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:49.585Z",
+    "lastFetched": "2026-10-23T16:43:39.677Z",
     "latestRelease": "v1.0.0"
   },
   {
@@ -56813,7 +56813,7 @@
     "lastCommitDate": "2026-06-02T14:21:12Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:50.575Z"
+    "lastFetched": "2026-10-23T16:43:40.691Z"
   },
   {
     "id": "npezarro/claude-usage-monitor",
@@ -56845,7 +56845,7 @@
     "lastCommitDate": "2026-05-29T20:18:14Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:51.838Z"
+    "lastFetched": "2026-10-23T16:43:41.890Z"
   },
   {
     "id": "Hadse/claude-morpho-terminal",
@@ -56873,7 +56873,7 @@
     "lastCommitDate": "2026-06-13T23:36:47Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:51.209Z"
+    "lastFetched": "2026-10-23T16:43:41.301Z"
   },
   {
     "id": "WKassebaum/claude-statusline",
@@ -56904,7 +56904,7 @@
     "lastCommitDate": "2026-10-08T05:41:50Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:53.020Z"
+    "lastFetched": "2026-10-23T16:43:43.042Z"
   },
   {
     "id": "kleer001/claude_hud_ratio",
@@ -56935,7 +56935,7 @@
     "lastCommitDate": "2026-08-14T02:24:40Z",
     "openIssues": 3,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:54.262Z"
+    "lastFetched": "2026-10-23T16:43:44.295Z"
   },
   {
     "id": "pal815/claude-usage-widget",
@@ -56966,7 +56966,7 @@
     "lastCommitDate": "2026-05-30T08:21:29Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:54.820Z",
+    "lastFetched": "2026-10-23T16:43:44.939Z",
     "latestRelease": "v0.1.0"
   },
   {
@@ -56996,7 +56996,7 @@
     "lastCommitDate": "2026-10-12T07:32:41Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:53.659Z"
+    "lastFetched": "2026-10-23T16:43:43.685Z"
   },
   {
     "id": "AAP67/claude-token-tracker",
@@ -57022,7 +57022,7 @@
     "lastCommitDate": "2026-05-31T22:38:43Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:55.406Z"
+    "lastFetched": "2026-10-23T16:43:45.445Z"
   },
   {
     "id": "shinagaki/ccmonitor",
@@ -57056,7 +57056,7 @@
     "lastCommitDate": "2026-05-30T08:51:41Z",
     "openIssues": 4,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:56.018Z"
+    "lastFetched": "2026-10-23T16:43:46.063Z"
   },
   {
     "id": "burakgon/ai-usage-kde-widget",
@@ -57086,7 +57086,7 @@
     "lastCommitDate": "2026-07-29T21:31:06Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:56.704Z"
+    "lastFetched": "2026-10-23T16:43:46.560Z"
   },
   {
     "id": "AmirYa412/claude-code-pet",
@@ -57108,10 +57108,10 @@
     ],
     "builtWithClaude": true,
     "stars": 2,
-    "lastCommitDate": "2026-10-18T15:23:46Z",
+    "lastCommitDate": "2026-10-20T18:32:37Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:57.326Z"
+    "lastFetched": "2026-10-23T16:43:47.067Z"
   },
   {
     "id": "hasher4ever/claude-statusline",
@@ -57141,7 +57141,7 @@
     "lastCommitDate": "2026-05-30T15:16:38Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:57.939Z"
+    "lastFetched": "2026-10-23T16:43:47.649Z"
   },
   {
     "id": "galpratama/claude-statusline",
@@ -57163,10 +57163,10 @@
     ],
     "builtWithClaude": true,
     "stars": 5,
-    "lastCommitDate": "2026-10-17T14:41:22Z",
+    "lastCommitDate": "2026-10-20T13:20:08Z",
     "openIssues": 1,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:08.392Z"
+    "lastFetched": "2026-10-23T16:43:56.301Z"
   },
   {
     "id": "Scr1ptW0lf/claude-status-bar",
@@ -57192,7 +57192,7 @@
     "lastCommitDate": "2026-05-30T12:18:58Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:07.843Z"
+    "lastFetched": "2026-10-23T16:43:55.769Z"
   },
   {
     "id": "houxiaomu/m5stack-coding-toys",
@@ -57221,7 +57221,7 @@
     "lastCommitDate": "2026-07-02T13:43:36Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:07.326Z",
+    "lastFetched": "2026-10-23T16:43:55.243Z",
     "latestRelease": "fw-cores3-se-0.5.0"
   },
   {
@@ -57253,7 +57253,7 @@
     "lastCommitDate": "2026-09-25T16:13:07Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:03.956Z"
+    "lastFetched": "2026-10-23T16:43:53.547Z"
   },
   {
     "id": "timmyagentic/codex-monitor",
@@ -57283,7 +57283,7 @@
     "lastCommitDate": "2026-10-11T16:48:56Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:10.938Z",
+    "lastFetched": "2026-10-23T16:43:58.519Z",
     "latestRelease": "v1.0.12"
   },
   {
@@ -57317,7 +57317,7 @@
     "lastCommitDate": "2026-06-21T17:39:57Z",
     "openIssues": 7,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:12.619Z",
+    "lastFetched": "2026-10-23T16:44:00.083Z",
     "latestRelease": "v0.2.0"
   },
   {
@@ -57353,7 +57353,7 @@
     "lastCommitDate": "2026-09-30T06:43:52Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:09.000Z"
+    "lastFetched": "2026-10-23T16:43:56.755Z"
   },
   {
     "id": "miloudbelarebia/claude-token-tracker",
@@ -57384,7 +57384,7 @@
     "lastCommitDate": "2026-05-30T14:28:41Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:10.302Z"
+    "lastFetched": "2026-10-23T16:43:57.976Z"
   },
   {
     "id": "slipalison/moodline",
@@ -57414,7 +57414,7 @@
     "lastCommitDate": "2026-07-11T13:31:24Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:11.463Z",
+    "lastFetched": "2026-10-23T16:43:59.056Z",
     "latestRelease": "v0.3.25"
   },
   {
@@ -57442,7 +57442,7 @@
     "lastCommitDate": "2026-05-30T17:11:27Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:13.146Z"
+    "lastFetched": "2026-10-23T16:44:00.683Z"
   },
   {
     "id": "msusol/claude-code-plugins",
@@ -57467,7 +57467,7 @@
     "lastCommitDate": "2026-10-13T01:35:54Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:12.032Z"
+    "lastFetched": "2026-10-23T16:43:59.533Z"
   },
   {
     "id": "anupm-sinha/PRISM",
@@ -57500,7 +57500,7 @@
     "lastCommitDate": "2026-06-11T04:34:50Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:09.718Z"
+    "lastFetched": "2026-10-23T16:43:57.424Z"
   },
   {
     "id": "atishayjain-suraasa/claudemeter",
@@ -57531,7 +57531,7 @@
     "lastCommitDate": "2026-10-08T00:17:31Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:13.735Z",
+    "lastFetched": "2026-10-23T16:44:01.368Z",
     "latestRelease": "v1.1.0"
   },
   {
@@ -57563,7 +57563,7 @@
     "lastCommitDate": "2026-09-06T08:13:55Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:15.029Z"
+    "lastFetched": "2026-10-23T16:44:02.434Z"
   },
   {
     "id": "I-N-SILVA/NOTCHYLIMIT",
@@ -57596,7 +57596,7 @@
     "lastCommitDate": "2026-07-13T21:30:02Z",
     "openIssues": 12,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:16.850Z",
+    "lastFetched": "2026-10-23T16:44:04.196Z",
     "latestRelease": "v0.6.0"
   },
   {
@@ -57627,7 +57627,7 @@
     "lastCommitDate": "2026-05-30T21:52:09Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:14.324Z"
+    "lastFetched": "2026-10-23T16:44:01.850Z"
   },
   {
     "id": "AreteDriver/arete-cc-plugin",
@@ -57654,7 +57654,7 @@
     "lastCommitDate": "2026-06-22T08:34:08Z",
     "openIssues": 1,
     "archived": true,
-    "lastFetched": "2026-10-19T03:54:15.705Z"
+    "lastFetched": "2026-10-23T16:44:03.067Z"
   },
   {
     "id": "uPablo/claude-statusline",
@@ -57685,7 +57685,7 @@
     "lastCommitDate": "2026-05-30T21:50:54Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:16.297Z",
+    "lastFetched": "2026-10-23T16:44:03.696Z",
     "latestRelease": "v1.0.0"
   },
   {
@@ -57718,7 +57718,7 @@
     "lastCommitDate": "2026-05-30T21:07:09Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:17.340Z"
+    "lastFetched": "2026-10-23T16:44:04.746Z"
   },
   {
     "id": "AndyBoWu/Burnbar",
@@ -57749,7 +57749,7 @@
     "lastCommitDate": "2026-05-31T04:27:03Z",
     "openIssues": 3,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:18.000Z",
+    "lastFetched": "2026-10-23T16:44:05.396Z",
     "latestRelease": "v0.1.0"
   },
   {
@@ -57780,7 +57780,7 @@
     "lastCommitDate": "2026-06-01T14:46:50Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:18.571Z"
+    "lastFetched": "2026-10-23T16:44:05.936Z"
   },
   {
     "id": "t-katsuki/claude-usage-monitor",
@@ -57810,7 +57810,7 @@
     "lastCommitDate": "2026-05-31T03:39:59Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:19.229Z"
+    "lastFetched": "2026-10-23T16:44:06.588Z"
   },
   {
     "id": "peerapatbps/Token_bar",
@@ -57840,7 +57840,7 @@
     "lastCommitDate": "2026-05-31T06:12:01Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:19.803Z"
+    "lastFetched": "2026-10-23T16:44:07.309Z"
   },
   {
     "id": "kurisu-agent/nix-claude-drip",
@@ -57866,7 +57866,7 @@
     "lastCommitDate": "2026-09-08T02:31:37Z",
     "openIssues": 0,
     "archived": true,
-    "lastFetched": "2026-10-19T03:54:20.949Z"
+    "lastFetched": "2026-10-23T16:44:08.384Z"
   },
   {
     "id": "litang9/claude-code-statusline",
@@ -57898,7 +57898,7 @@
     "lastCommitDate": "2026-07-18T08:40:36Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:20.481Z"
+    "lastFetched": "2026-10-23T16:44:07.881Z"
   },
   {
     "id": "GatoMonocromatico/claude-code-statusline",
@@ -57924,7 +57924,7 @@
     "lastCommitDate": "2026-05-31T01:18:42Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:21.349Z"
+    "lastFetched": "2026-10-23T16:44:08.628Z"
   },
   {
     "id": "SethWoodbury/beautiful_fun_claude",
@@ -57951,7 +57951,7 @@
     "lastCommitDate": "2026-06-03T00:40:20Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:21.940Z"
+    "lastFetched": "2026-10-23T16:44:09.190Z"
   },
   {
     "id": "ultimatevegance/cyberpunk-hud",
@@ -57978,7 +57978,7 @@
     "lastCommitDate": "2026-06-26T15:05:14Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:22.580Z"
+    "lastFetched": "2026-10-23T16:44:09.760Z"
   },
   {
     "id": "owendavidprice/ccusage-windows",
@@ -58011,7 +58011,7 @@
     "lastCommitDate": "2026-05-31T06:19:49Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:23.196Z"
+    "lastFetched": "2026-10-23T16:44:10.331Z"
   },
   {
     "id": "yagcioglutoprak/AIQuotaBar",
@@ -58036,11 +58036,11 @@
       "rate-limit-monitoring"
     ],
     "builtWithClaude": true,
-    "stars": 42,
+    "stars": 44,
     "lastCommitDate": "2026-10-04T18:19:12Z",
     "openIssues": 11,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:24.315Z",
+    "lastFetched": "2026-10-23T16:44:11.511Z",
     "latestRelease": "v2.1.1"
   },
   {
@@ -58068,7 +58068,7 @@
     "lastCommitDate": "2026-06-18T08:40:47Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:23.768Z"
+    "lastFetched": "2026-10-23T16:44:10.910Z"
   },
   {
     "id": "murkug/claude-statusline",
@@ -58092,7 +58092,7 @@
     "lastCommitDate": "2026-05-31T08:44:57Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:24.896Z"
+    "lastFetched": "2026-10-23T16:44:12.036Z"
   },
   {
     "id": "htahaozlu/context-bar",
@@ -58125,7 +58125,7 @@
     "lastCommitDate": "2026-06-13T23:58:50Z",
     "openIssues": 1,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:27.037Z",
+    "lastFetched": "2026-10-23T16:44:14.155Z",
     "latestRelease": "v0.10.3"
   },
   {
@@ -58160,7 +58160,7 @@
     "lastCommitDate": "2026-05-31T18:00:45Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:27.653Z"
+    "lastFetched": "2026-10-23T16:44:14.701Z"
   },
   {
     "id": "Bayern4ever-dot/code-light",
@@ -58192,7 +58192,7 @@
     "lastCommitDate": "2026-06-01T00:48:11Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:26.500Z",
+    "lastFetched": "2026-10-23T16:44:13.696Z",
     "latestRelease": "Code-light-0.2.0"
   },
   {
@@ -58223,10 +58223,10 @@
     ],
     "builtWithClaude": true,
     "stars": 14,
-    "lastCommitDate": "2026-10-19T00:12:32Z",
+    "lastCommitDate": "2026-10-22T00:08:40Z",
     "openIssues": 8,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:26.026Z",
+    "lastFetched": "2026-10-23T16:44:13.186Z",
     "latestRelease": "v2.7.1"
   },
   {
@@ -58258,7 +58258,7 @@
     "lastCommitDate": "2026-06-06T03:29:20Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:25.490Z"
+    "lastFetched": "2026-10-23T16:44:12.635Z"
   },
   {
     "id": "IFAKA/claude-code-statusline",
@@ -58281,7 +58281,7 @@
     "lastCommitDate": "2026-05-31T15:41:22Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:28.298Z"
+    "lastFetched": "2026-10-23T16:44:15.353Z"
   },
   {
     "id": "thxmxx/plugin-hygiene",
@@ -58304,7 +58304,7 @@
     "lastCommitDate": "2026-05-31T14:52:01Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:28.915Z"
+    "lastFetched": "2026-10-23T16:44:16.172Z"
   },
   {
     "id": "SanderMuller/claude-statusline",
@@ -58329,7 +58329,7 @@
     "lastCommitDate": "2026-10-06T11:58:14Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:29.486Z"
+    "lastFetched": "2026-10-23T16:44:16.785Z"
   },
   {
     "id": "bart-turczynski/cc-cream",
@@ -58355,10 +58355,10 @@
     ],
     "builtWithClaude": true,
     "stars": 5,
-    "lastCommitDate": "2026-10-18T22:25:02Z",
+    "lastCommitDate": "2026-10-20T10:41:35Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:30.082Z",
+    "lastFetched": "2026-10-23T16:44:17.337Z",
     "latestRelease": "v0.5.2"
   },
   {
@@ -58388,7 +58388,7 @@
     "lastCommitDate": "2026-06-01T15:06:08Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:41.266Z"
+    "lastFetched": "2026-10-23T16:44:27.985Z"
   },
   {
     "id": "ryan-mt/claude-usage-monitor",
@@ -58422,7 +58422,7 @@
     "lastCommitDate": "2026-06-01T00:58:15Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:30.704Z"
+    "lastFetched": "2026-10-23T16:44:17.802Z"
   },
   {
     "id": "speedku/claude-code-usage-statusline",
@@ -58453,7 +58453,7 @@
     "lastCommitDate": "2026-09-25T12:59:06Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:33.003Z"
+    "lastFetched": "2026-10-23T16:44:20.002Z"
   },
   {
     "id": "TY-teo/StayAwake",
@@ -58476,11 +58476,11 @@
       "auto-off-timer"
     ],
     "builtWithClaude": true,
-    "stars": 69,
+    "stars": 70,
     "lastCommitDate": "2026-06-01T00:30:40Z",
-    "openIssues": 2,
+    "openIssues": 3,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:41.911Z",
+    "lastFetched": "2026-10-23T16:44:28.473Z",
     "latestRelease": "v1.0.0"
   },
   {
@@ -58510,7 +58510,7 @@
     "lastCommitDate": "2026-06-01T02:37:00Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:42.456Z"
+    "lastFetched": "2026-10-23T16:44:28.938Z"
   },
   {
     "id": "taka-avantgarde/claude-usage-barometer",
@@ -58539,7 +58539,7 @@
     "lastCommitDate": "2026-07-31T08:08:35Z",
     "openIssues": 0,
     "archived": true,
-    "lastFetched": "2026-10-19T03:54:43.724Z",
+    "lastFetched": "2026-10-23T16:44:30.036Z",
     "latestRelease": "v1.3.0"
   },
   {
@@ -58571,7 +58571,7 @@
     "lastCommitDate": "2026-09-15T06:37:59Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:44.618Z"
+    "lastFetched": "2026-10-23T16:44:30.689Z"
   },
   {
     "id": "cyckuan/ck-statusline",
@@ -58601,7 +58601,7 @@
     "lastCommitDate": "2026-09-11T05:40:21Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:43.092Z"
+    "lastFetched": "2026-10-23T16:44:29.485Z"
   },
   {
     "id": "ann0nip/claude-limit-statusline",
@@ -58629,7 +58629,7 @@
     "lastCommitDate": "2026-07-02T22:58:59Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:44.015Z",
+    "lastFetched": "2026-10-23T16:44:30.230Z",
     "latestRelease": "v0.5.0"
   },
   {
@@ -58656,10 +58656,10 @@
     ],
     "builtWithClaude": true,
     "stars": 0,
-    "lastCommitDate": "2026-06-01T23:28:34Z",
+    "lastCommitDate": "2026-10-23T00:52:17Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:45.172Z"
+    "lastFetched": "2026-10-23T16:44:31.321Z"
   },
   {
     "id": "chaoshengsc/clawdbar",
@@ -58689,7 +58689,7 @@
     "lastCommitDate": "2026-08-17T15:38:35Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:45.783Z"
+    "lastFetched": "2026-10-23T16:44:32.004Z"
   },
   {
     "id": "ntd4996/agentpet",
@@ -58718,12 +58718,12 @@
       "per-project-stats"
     ],
     "builtWithClaude": null,
-    "stars": 383,
-    "lastCommitDate": "2026-10-19T01:22:01Z",
+    "stars": 389,
+    "lastCommitDate": "2026-10-22T07:53:06Z",
     "openIssues": 9,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:47.052Z",
-    "latestRelease": "v1.17.1"
+    "lastFetched": "2026-10-23T16:44:33.138Z",
+    "latestRelease": "v1.17.3"
   },
   {
     "id": "ajcraig99/claude-code-usage-monitor-linux",
@@ -58752,7 +58752,7 @@
     "lastCommitDate": "2026-06-01T18:40:32Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:46.395Z"
+    "lastFetched": "2026-10-23T16:44:32.556Z"
   },
   {
     "id": "0xHanniba1/cc-statusline",
@@ -58779,7 +58779,7 @@
     "lastCommitDate": "2026-06-01T13:26:29Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:48.231Z"
+    "lastFetched": "2026-10-23T16:44:34.176Z"
   },
   {
     "id": "Lucas01SX/claude-code-statusline",
@@ -58808,7 +58808,7 @@
     "lastCommitDate": "2026-10-07T03:07:24Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:47.602Z"
+    "lastFetched": "2026-10-23T16:44:33.617Z"
   },
   {
     "id": "Aymix/claude-code-statusline-generator",
@@ -58835,7 +58835,7 @@
     "lastCommitDate": "2026-06-02T01:03:32Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:48.908Z"
+    "lastFetched": "2026-10-23T16:44:34.758Z"
   },
   {
     "id": "Gluthoric/claude-statusline",
@@ -58863,7 +58863,7 @@
     "lastCommitDate": "2026-06-01T12:55:51Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:49.590Z"
+    "lastFetched": "2026-10-23T16:44:35.381Z"
   },
   {
     "id": "huwd/claude-costs-powerline",
@@ -58892,7 +58892,7 @@
     "lastCommitDate": "2026-09-22T17:20:04Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:56.454Z"
+    "lastFetched": "2026-10-23T16:44:41.760Z"
   },
   {
     "id": "joshuajomiller/waik",
@@ -58917,7 +58917,7 @@
     "lastCommitDate": "2026-06-19T11:36:11Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:57.060Z",
+    "lastFetched": "2026-10-23T16:44:42.310Z",
     "latestRelease": "v0.5.5"
   },
   {
@@ -58947,7 +58947,7 @@
     "lastCommitDate": "2026-06-01T11:57:33Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:00.301Z"
+    "lastFetched": "2026-10-23T16:44:45.542Z"
   },
   {
     "id": "yimin12/llm-cost-monitor",
@@ -58980,7 +58980,7 @@
     "lastCommitDate": "2026-06-02T02:17:27Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:57.533Z"
+    "lastFetched": "2026-10-23T16:44:42.848Z"
   },
   {
     "id": "mafex11/Burnt",
@@ -59011,7 +59011,7 @@
     "lastCommitDate": "2026-09-30T04:37:17Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:00.896Z",
+    "lastFetched": "2026-10-23T16:44:46.114Z",
     "latestRelease": "v1.3.0"
   },
   {
@@ -59043,7 +59043,7 @@
     "lastCommitDate": "2026-07-02T19:13:34Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:01.472Z",
+    "lastFetched": "2026-10-23T16:44:46.648Z",
     "latestRelease": "v1.1.0"
   },
   {
@@ -59074,7 +59074,7 @@
     "lastCommitDate": "2026-06-01T15:45:25Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:02.019Z"
+    "lastFetched": "2026-10-23T16:44:47.220Z"
   },
   {
     "id": "lawyerplayingaround/usage-monitor-for-claude-mac",
@@ -59105,7 +59105,7 @@
     "lastCommitDate": "2026-07-27T15:41:56Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:03.234Z",
+    "lastFetched": "2026-10-23T16:44:48.423Z",
     "latestRelease": "v1.20.0-fork.6"
   },
   {
@@ -59134,7 +59134,7 @@
     "lastCommitDate": "2026-06-13T21:46:48Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:02.669Z",
+    "lastFetched": "2026-10-23T16:44:47.891Z",
     "latestRelease": "2.2.0"
   },
   {
@@ -59168,7 +59168,7 @@
     "lastCommitDate": "2026-06-02T06:21:31Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:04.984Z"
+    "lastFetched": "2026-10-23T16:44:50.307Z"
   },
   {
     "id": "heyodog0/claude-usage-swiftbar",
@@ -59197,7 +59197,7 @@
     "lastCommitDate": "2026-07-27T18:49:16Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:03.734Z"
+    "lastFetched": "2026-10-23T16:44:48.983Z"
   },
   {
     "id": "abdalziel/claude-usage-extension",
@@ -59225,7 +59225,7 @@
     "lastCommitDate": "2026-06-01T20:10:56Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:04.356Z"
+    "lastFetched": "2026-10-23T16:44:49.661Z"
   },
   {
     "id": "codecoincognition/claude-quota-statusline",
@@ -59254,7 +59254,7 @@
     "lastCommitDate": "2026-06-01T20:07:05Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:05.576Z"
+    "lastFetched": "2026-10-23T16:44:50.906Z"
   },
   {
     "id": "GAMZAMANDU/claude-code-account-cluster",
@@ -59286,7 +59286,7 @@
     "lastCommitDate": "2026-06-09T08:33:17Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:07.918Z"
+    "lastFetched": "2026-10-23T16:44:53.299Z"
   },
   {
     "id": "maskull42/vantage",
@@ -59316,7 +59316,7 @@
     "lastCommitDate": "2026-07-14T14:17:03Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:06.195Z",
+    "lastFetched": "2026-10-23T16:44:51.486Z",
     "latestRelease": "v1.0.1"
   },
   {
@@ -59341,7 +59341,7 @@
     "lastCommitDate": "2026-06-02T06:38:51Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:07.287Z"
+    "lastFetched": "2026-10-23T16:44:52.716Z"
   },
   {
     "id": "vietnnh-mialala/token-usage-bar",
@@ -59370,7 +59370,7 @@
     "lastCommitDate": "2026-09-16T06:07:21Z",
     "openIssues": 1,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:06.750Z",
+    "lastFetched": "2026-10-23T16:44:52.096Z",
     "latestRelease": "v1.0.20"
   },
   {
@@ -59401,7 +59401,7 @@
     "lastCommitDate": "2026-08-05T14:47:46Z",
     "openIssues": 1,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:09.221Z"
+    "lastFetched": "2026-10-23T16:44:54.482Z"
   },
   {
     "id": "orbenozio/claude-code-usage-indicator",
@@ -59433,7 +59433,7 @@
     "lastCommitDate": "2026-06-05T11:16:41Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:08.655Z",
+    "lastFetched": "2026-10-23T16:44:53.879Z",
     "latestRelease": "v0.1.9"
   },
   {
@@ -59465,7 +59465,7 @@
     "lastCommitDate": "2026-07-13T01:55:14Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:09.792Z"
+    "lastFetched": "2026-10-23T16:44:55.012Z"
   },
   {
     "id": "suparerk9x/Oh-My-Claude",
@@ -59499,7 +59499,7 @@
     "lastCommitDate": "2026-07-09T04:08:07Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:16.376Z"
+    "lastFetched": "2026-10-23T16:45:01.394Z"
   },
   {
     "id": "jwchoi-kr/claude-code-usage-per-project",
@@ -59532,7 +59532,7 @@
     "lastCommitDate": "2026-06-02T04:29:42Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:17.591Z",
+    "lastFetched": "2026-10-23T16:45:02.594Z",
     "latestRelease": "v0.2.3"
   },
   {
@@ -59559,7 +59559,7 @@
     "lastCommitDate": "2026-06-02T06:38:05Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:16.952Z"
+    "lastFetched": "2026-10-23T16:45:02.039Z"
   },
   {
     "id": "voyagi/claude-usage",
@@ -59590,7 +59590,7 @@
     "lastCommitDate": "2026-08-04T12:24:45Z",
     "openIssues": 5,
     "archived": true,
-    "lastFetched": "2026-10-19T03:55:18.092Z",
+    "lastFetched": "2026-10-23T16:45:03.064Z",
     "latestRelease": "v1.1.0"
   },
   {
@@ -59609,7 +59609,7 @@
     "lastCommitDate": "2026-06-02T10:39:12Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:18.401Z"
+    "lastFetched": "2026-10-23T16:45:03.332Z"
   },
   {
     "id": "emircanok/claude-usage-app",
@@ -59639,7 +59639,7 @@
     "lastCommitDate": "2026-06-05T10:34:10Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:28.413Z",
+    "lastFetched": "2026-10-23T16:45:13.019Z",
     "latestRelease": "v1.0.2"
   },
   {
@@ -59675,7 +59675,7 @@
     "lastCommitDate": "2026-09-18T20:36:36Z",
     "openIssues": 1,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:31.592Z",
+    "lastFetched": "2026-10-23T16:45:16.843Z",
     "latestRelease": "v0.1.17"
   },
   {
@@ -59708,7 +59708,7 @@
     "lastCommitDate": "2026-07-12T06:58:46Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:31.095Z",
+    "lastFetched": "2026-10-23T16:45:16.276Z",
     "latestRelease": "v0.1.0-beta.8"
   },
   {
@@ -59738,7 +59738,7 @@
     "lastCommitDate": "2026-06-02T12:44:13Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:32.114Z"
+    "lastFetched": "2026-10-23T16:45:17.393Z"
   },
   {
     "id": "TTigger/claude-status",
@@ -59768,7 +59768,7 @@
     "lastCommitDate": "2026-06-22T02:26:22Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:32.755Z"
+    "lastFetched": "2026-10-23T16:45:18.052Z"
   },
   {
     "id": "Tangweiwei227/ai-usage-dashboard",
@@ -59799,7 +59799,7 @@
     "lastCommitDate": "2026-06-02T10:02:19Z",
     "openIssues": 13,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:34.822Z",
+    "lastFetched": "2026-10-23T16:45:19.646Z",
     "latestRelease": "v1.0.0"
   },
   {
@@ -59825,7 +59825,7 @@
     "lastCommitDate": "2026-06-02T09:39:10Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:35.411Z"
+    "lastFetched": "2026-10-23T16:45:20.206Z"
   },
   {
     "id": "shippedtech/claude-code-token-tracker",
@@ -59856,7 +59856,7 @@
     "lastCommitDate": "2026-06-02T10:45:29Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:36.024Z"
+    "lastFetched": "2026-10-23T16:45:20.796Z"
   },
   {
     "id": "matthieuhuguet/claude-usage",
@@ -59882,7 +59882,7 @@
     "lastCommitDate": "2026-06-02T16:26:00Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:33.614Z"
+    "lastFetched": "2026-10-23T16:45:18.605Z"
   },
   {
     "id": "mvinnicius22/claude-statusline",
@@ -59909,7 +59909,7 @@
     "lastCommitDate": "2026-06-02T23:08:38Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:36.674Z"
+    "lastFetched": "2026-10-23T16:45:21.377Z"
   },
   {
     "id": "papaChong1229/cc-xp",
@@ -59941,7 +59941,7 @@
     "lastCommitDate": "2026-06-03T06:03:07Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:34.275Z",
+    "lastFetched": "2026-10-23T16:45:19.156Z",
     "latestRelease": "v0.1.2"
   },
   {
@@ -59972,7 +59972,7 @@
     "lastCommitDate": "2026-06-02T18:51:32Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:37.298Z"
+    "lastFetched": "2026-10-23T16:45:22.094Z"
   },
   {
     "id": "radumarias/claude-code-statusline",
@@ -60001,7 +60001,7 @@
     "lastCommitDate": "2026-07-02T11:43:38Z",
     "openIssues": 6,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:26.647Z"
+    "lastFetched": "2026-10-23T16:45:25.658Z"
   },
   {
     "id": "CyanFi/cc-statusline",
@@ -60030,7 +60030,7 @@
     "lastCommitDate": "2026-06-02T15:58:35Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:38.926Z"
+    "lastFetched": "2026-10-23T16:45:23.289Z"
   },
   {
     "id": "rdeoux-arrive/claude-statusline",
@@ -60056,7 +60056,7 @@
     "lastCommitDate": "2026-07-14T16:30:43Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:39.617Z"
+    "lastFetched": "2026-10-23T16:45:23.921Z"
   },
   {
     "id": "jorruss-git/claude-code-status-line",
@@ -60077,7 +60077,7 @@
     "lastCommitDate": "2026-06-02T18:43:41Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:38.280Z"
+    "lastFetched": "2026-10-23T16:45:22.686Z"
   },
   {
     "id": "riancyman/claude-code-statusline",
@@ -60106,7 +60106,7 @@
     "lastCommitDate": "2026-06-02T13:36:56Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:27.278Z"
+    "lastFetched": "2026-10-23T16:45:26.168Z"
   },
   {
     "id": "Lucianfoul165/Agent-Signal-Bar",
@@ -60132,7 +60132,7 @@
     "lastCommitDate": "2026-10-12T04:56:29Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:40.819Z"
+    "lastFetched": "2026-10-23T16:45:25.094Z"
   },
   {
     "id": "enieuwy/showy-quota",
@@ -60160,11 +60160,11 @@
       "tmux-integration"
     ],
     "builtWithClaude": null,
-    "stars": 25,
+    "stars": 26,
     "lastCommitDate": "2026-10-08T00:36:45Z",
     "openIssues": 2,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:40.203Z",
+    "lastFetched": "2026-10-23T16:45:24.460Z",
     "latestRelease": "v0.9.0"
   },
   {
@@ -60199,7 +60199,7 @@
     "lastCommitDate": "2026-06-02T18:59:01Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:28.891Z",
+    "lastFetched": "2026-10-23T16:45:27.667Z",
     "latestRelease": "v1.0.0"
   },
   {
@@ -60230,10 +60230,10 @@
     ],
     "builtWithClaude": true,
     "stars": 2,
-    "lastCommitDate": "2026-10-04T21:12:20Z",
+    "lastCommitDate": "2026-10-23T13:31:40Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:28.444Z",
+    "lastFetched": "2026-10-23T16:45:27.158Z",
     "latestRelease": "v0.1.3"
   },
   {
@@ -60264,7 +60264,7 @@
     "lastCommitDate": "2026-06-02T21:46:12Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:29.395Z"
+    "lastFetched": "2026-10-23T16:45:28.199Z"
   },
   {
     "id": "consigliereX/claude-code-usage-statusline",
@@ -60295,7 +60295,7 @@
     "lastCommitDate": "2026-06-03T00:24:56Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:30.010Z",
+    "lastFetched": "2026-10-23T16:45:28.779Z",
     "latestRelease": "v0.1.0"
   },
   {
@@ -60324,7 +60324,7 @@
     "lastCommitDate": "2026-10-14T22:48:04Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:27.846Z",
+    "lastFetched": "2026-10-23T16:45:26.724Z",
     "latestRelease": "v1.3.0"
   },
   {
@@ -60357,7 +60357,7 @@
     "lastCommitDate": "2026-06-25T15:05:48Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:30.589Z"
+    "lastFetched": "2026-10-23T16:45:29.381Z"
   },
   {
     "id": "sparkfabrik/claude-usage",
@@ -60392,7 +60392,7 @@
     "lastCommitDate": "2026-10-14T15:00:18Z",
     "openIssues": 1,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:33.528Z",
+    "lastFetched": "2026-10-23T16:45:32.674Z",
     "latestRelease": "v0.8.1"
   },
   {
@@ -60422,7 +60422,7 @@
     "lastCommitDate": "2026-06-03T04:32:19Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:32.352Z"
+    "lastFetched": "2026-10-23T16:45:31.342Z"
   },
   {
     "id": "denvor/statusline",
@@ -60451,10 +60451,10 @@
     ],
     "builtWithClaude": null,
     "stars": 0,
-    "lastCommitDate": "2026-09-09T09:25:20Z",
+    "lastCommitDate": "2026-10-20T12:46:59Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:32.910Z"
+    "lastFetched": "2026-10-23T16:45:32.066Z"
   },
   {
     "id": "vtmocanu/cc-statusline",
@@ -60480,11 +60480,11 @@
       "session-topics"
     ],
     "builtWithClaude": null,
-    "stars": 5,
+    "stars": 6,
     "lastCommitDate": "2026-10-13T07:25:59Z",
     "openIssues": 1,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:31.639Z",
+    "lastFetched": "2026-10-23T16:45:30.541Z",
     "latestRelease": "v3.8.0"
   },
   {
@@ -60513,7 +60513,7 @@
     "lastCommitDate": "2026-09-16T07:42:44Z",
     "openIssues": 1,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:31.124Z",
+    "lastFetched": "2026-10-23T16:45:29.953Z",
     "latestRelease": "v0.9.0"
   },
   {
@@ -60545,7 +60545,7 @@
     "lastCommitDate": "2026-06-03T03:13:27Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:34.018Z"
+    "lastFetched": "2026-10-23T16:45:33.170Z"
   },
   {
     "id": "dvdweyer/Claude-Usage-Tracker-iOS",
@@ -60577,7 +60577,7 @@
     "lastCommitDate": "2026-06-15T21:46:18Z",
     "openIssues": 0,
     "archived": true,
-    "lastFetched": "2026-10-19T09:42:32.057Z"
+    "lastFetched": "2026-10-23T16:45:31.024Z"
   },
   {
     "id": "miiiiiya1116/claude-usage-widget-windows",
@@ -60606,7 +60606,7 @@
     "lastCommitDate": "2026-07-02T01:36:04Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:34.585Z"
+    "lastFetched": "2026-10-23T16:45:33.731Z"
   },
   {
     "id": "TomerGutman1/claude-usage-widget",
@@ -60636,7 +60636,7 @@
     "lastCommitDate": "2026-06-03T11:42:26Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:38.719Z"
+    "lastFetched": "2026-10-23T16:45:38.261Z"
   },
   {
     "id": "wfk95/claude-usage",
@@ -60667,7 +60667,7 @@
     "lastCommitDate": "2026-06-05T18:20:52Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:38.164Z",
+    "lastFetched": "2026-10-23T16:45:37.780Z",
     "latestRelease": "v1.2"
   },
   {
@@ -60702,7 +60702,7 @@
     "lastCommitDate": "2026-06-03T09:19:15Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:36.475Z",
+    "lastFetched": "2026-10-23T16:45:35.772Z",
     "latestRelease": "v0.1.0"
   },
   {
@@ -60734,7 +60734,7 @@
     "lastCommitDate": "2026-06-03T09:45:08Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:35.161Z"
+    "lastFetched": "2026-10-23T16:45:34.433Z"
   },
   {
     "id": "Navaneethsen/realtime-ai-cost-tracker",
@@ -60766,7 +60766,7 @@
     "lastCommitDate": "2026-06-04T08:18:00Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:35.832Z"
+    "lastFetched": "2026-10-23T16:45:35.049Z"
   },
   {
     "id": "moritzschmitz-oviva/claude-otlp-statusline",
@@ -60796,7 +60796,7 @@
     "lastCommitDate": "2026-06-04T06:46:30Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:36.965Z"
+    "lastFetched": "2026-10-23T16:45:36.439Z"
   },
   {
     "id": "liush2yuxjtu/minimax-statusline",
@@ -60827,7 +60827,7 @@
     "lastCommitDate": "2026-09-21T08:23:04Z",
     "openIssues": 2,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:37.628Z",
+    "lastFetched": "2026-10-23T16:45:37.181Z",
     "latestRelease": "v0.2.0"
   },
   {
@@ -60861,7 +60861,7 @@
     "lastCommitDate": "2026-07-09T21:11:44Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:46.271Z"
+    "lastFetched": "2026-10-23T16:45:46.762Z"
   },
   {
     "id": "silverdolphin863/claude-code-statusline",
@@ -60892,7 +60892,7 @@
     "lastCommitDate": "2026-06-11T13:49:19Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:45.169Z"
+    "lastFetched": "2026-10-23T16:45:45.612Z"
   },
   {
     "id": "rgomes87/claude-code-statusline-rg",
@@ -60925,7 +60925,7 @@
     "lastCommitDate": "2026-06-12T07:45:00Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:39.262Z"
+    "lastFetched": "2026-10-23T16:45:39.865Z"
   },
   {
     "id": "shawti/claude-context-statusline",
@@ -60956,7 +60956,7 @@
     "lastCommitDate": "2026-09-23T09:53:29Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:41.183Z"
+    "lastFetched": "2026-10-23T16:45:41.702Z"
   },
   {
     "id": "hyyup/rate-limit-auto",
@@ -60984,7 +60984,7 @@
     "lastCommitDate": "2026-06-03T12:38:41Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:39.954Z"
+    "lastFetched": "2026-10-23T16:45:40.453Z"
   },
   {
     "id": "ericcai0814/claude-statusline",
@@ -61011,7 +61011,7 @@
     "lastCommitDate": "2026-06-06T05:01:54Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:40.664Z",
+    "lastFetched": "2026-10-23T16:45:41.087Z",
     "latestRelease": "v1.1.0"
   },
   {
@@ -61041,7 +61041,7 @@
     "lastCommitDate": "2026-06-03T08:38:33Z",
     "openIssues": 2,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:44.631Z",
+    "lastFetched": "2026-10-23T16:45:45.125Z",
     "latestRelease": "v1.3.1"
   },
   {
@@ -61074,7 +61074,7 @@
     "lastCommitDate": "2026-06-03T16:07:13Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:45.736Z"
+    "lastFetched": "2026-10-23T16:45:46.182Z"
   },
   {
     "id": "runyan-co/cc-monitor",
@@ -61104,7 +61104,7 @@
     "lastCommitDate": "2026-07-17T13:35:59Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:47.360Z",
+    "lastFetched": "2026-10-23T16:45:48.014Z",
     "latestRelease": "v1.0.1"
   },
   {
@@ -61138,7 +61138,7 @@
     "lastCommitDate": "2026-07-07T17:44:12Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:55.776Z"
+    "lastFetched": "2026-10-23T16:45:59.126Z"
   },
   {
     "id": "dvdstelt/ClaudeCodeUsage",
@@ -61166,11 +61166,11 @@
       "subscription-tier"
     ],
     "builtWithClaude": null,
-    "stars": 33,
-    "lastCommitDate": "2026-10-14T10:03:18Z",
-    "openIssues": 3,
+    "stars": 36,
+    "lastCommitDate": "2026-10-22T14:58:55Z",
+    "openIssues": 1,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:46.810Z"
+    "lastFetched": "2026-10-23T16:45:47.307Z"
   },
   {
     "id": "devnix/burnbar",
@@ -61195,7 +61195,7 @@
     "lastCommitDate": "2026-10-16T22:25:55Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:54.728Z",
+    "lastFetched": "2026-10-23T16:45:58.075Z",
     "latestRelease": "0.2.2"
   },
   {
@@ -61223,7 +61223,7 @@
     "lastCommitDate": "2026-06-03T18:46:02Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:53.571Z"
+    "lastFetched": "2026-10-23T16:45:56.786Z"
   },
   {
     "id": "ictechgy/understatus",
@@ -61249,7 +61249,7 @@
     "lastCommitDate": "2026-07-05T13:54:50Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:54.143Z",
+    "lastFetched": "2026-10-23T16:45:57.443Z",
     "latestRelease": "v0.7.4"
   },
   {
@@ -61280,7 +61280,7 @@
     "lastCommitDate": "2026-06-30T05:38:26Z",
     "openIssues": 1,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:55.187Z",
+    "lastFetched": "2026-10-23T16:45:58.643Z",
     "latestRelease": "v1.0.5"
   },
   {
@@ -61305,10 +61305,10 @@
     ],
     "builtWithClaude": null,
     "stars": 1,
-    "lastCommitDate": "2026-06-03T15:16:32Z",
+    "lastCommitDate": "2026-10-21T14:27:43Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:56.442Z"
+    "lastFetched": "2026-10-23T16:45:59.673Z"
   },
   {
     "id": "barvhaim/claude-code-statusline-editor",
@@ -61332,7 +61332,7 @@
     "lastCommitDate": "2026-06-03T14:25:38Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:59.104Z"
+    "lastFetched": "2026-10-23T16:46:03.062Z"
   },
   {
     "id": "ipangdz/claudexbar",
@@ -61363,7 +61363,7 @@
     "lastCommitDate": "2026-07-23T12:58:04Z",
     "openIssues": 2,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:58.055Z",
+    "lastFetched": "2026-10-23T16:46:01.666Z",
     "latestRelease": "v0.1.0"
   },
   {
@@ -61392,7 +61392,7 @@
     "lastCommitDate": "2026-07-10T09:05:52Z",
     "openIssues": 1,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:57.040Z",
+    "lastFetched": "2026-10-23T16:46:00.393Z",
     "latestRelease": "v0.2.0"
   },
   {
@@ -61421,7 +61421,7 @@
     "lastCommitDate": "2026-10-05T20:14:33Z",
     "openIssues": 1,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:58.508Z"
+    "lastFetched": "2026-10-23T16:46:02.426Z"
   },
   {
     "id": "rodboev/ticker",
@@ -61442,10 +61442,10 @@
     ],
     "builtWithClaude": null,
     "stars": 0,
-    "lastCommitDate": "2026-10-14T22:55:56Z",
+    "lastCommitDate": "2026-10-22T00:27:42Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:57.482Z"
+    "lastFetched": "2026-10-23T16:46:01.068Z"
   },
   {
     "id": "kamafozilov/claude-statusline",
@@ -61473,7 +61473,7 @@
     "lastCommitDate": "2026-06-04T00:30:08Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:59.652Z"
+    "lastFetched": "2026-10-23T16:46:03.670Z"
   },
   {
     "id": "squanchymnonm/ClaudeCodeStatusBar",
@@ -61500,7 +61500,7 @@
     "lastCommitDate": "2026-06-08T21:25:40Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:43:05.033Z"
+    "lastFetched": "2026-10-23T16:46:09.883Z"
   },
   {
     "id": "micschr0/claude-code-statusline",
@@ -61529,7 +61529,7 @@
     "lastCommitDate": "2026-07-07T21:24:19Z",
     "openIssues": 0,
     "archived": true,
-    "lastFetched": "2026-10-19T09:43:00.271Z"
+    "lastFetched": "2026-10-23T16:46:04.218Z"
   },
   {
     "id": "jainilsevalia/claude-ping",
@@ -61588,7 +61588,7 @@
     "lastCommitDate": "2026-08-12T17:51:50Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:43:05.585Z",
+    "lastFetched": "2026-10-23T16:46:10.406Z",
     "latestRelease": "v2.0.0"
   },
   {
@@ -61647,7 +61647,7 @@
     "lastCommitDate": "2026-06-13T19:59:51Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:43:06.107Z"
+    "lastFetched": "2026-10-23T16:46:11.074Z"
   },
   {
     "id": "coller95/gnome-taskbar-claude-usage",
@@ -117654,7 +117654,7 @@
     "lastCommitDate": "2026-07-21T05:53:47Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:41.775Z"
+    "lastFetched": "2026-10-23T16:45:42.316Z"
   },
   {
     "id": "frank-bee/claude-budget",
@@ -117685,7 +117685,7 @@
     "lastCommitDate": "2026-09-13T08:26:13Z",
     "openIssues": 0,
     "archived": true,
-    "lastFetched": "2026-10-19T09:42:42.395Z"
+    "lastFetched": "2026-10-23T16:45:42.901Z"
   },
   {
     "id": "ember-hearted/statusline",
@@ -117717,7 +117717,7 @@
     "lastCommitDate": "2026-08-21T14:50:43Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:43.025Z",
+    "lastFetched": "2026-10-23T16:45:43.478Z",
     "latestRelease": "v0.6.0"
   },
   {
@@ -117745,7 +117745,7 @@
     "lastCommitDate": "2026-09-03T18:43:07Z",
     "openIssues": 2,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:43.499Z"
+    "lastFetched": "2026-10-23T16:45:43.943Z"
   },
   {
     "id": "RiahStudio/riah-usage",
@@ -117779,7 +117779,7 @@
     "lastCommitDate": "2026-08-24T15:57:20Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:44.083Z"
+    "lastFetched": "2026-10-23T16:45:44.582Z"
   },
   {
     "id": "chrisongithub1977/geiger-diy",
@@ -119729,7 +119729,7 @@
     "lastCommitDate": "2026-07-27T20:25:18Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:47.900Z"
+    "lastFetched": "2026-10-23T16:45:48.726Z"
   },
   {
     "id": "gustavodower/claude-usage-stick-overlay",
@@ -119761,7 +119761,7 @@
     "lastCommitDate": "2026-08-06T22:58:31Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:48.462Z"
+    "lastFetched": "2026-10-23T16:45:49.326Z"
   },
   {
     "id": "5Donghwan/claude-usage-overlay",
@@ -119791,7 +119791,7 @@
     "lastCommitDate": "2026-09-10T04:33:25Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:49.089Z"
+    "lastFetched": "2026-10-23T16:45:49.999Z"
   },
   {
     "id": "KSilvagnoli/KS_AI_HeartbeatMonitor",
@@ -119818,7 +119818,7 @@
     "lastCommitDate": "2026-07-29T21:37:33Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:49.723Z",
+    "lastFetched": "2026-10-23T16:45:50.592Z",
     "latestRelease": "v1.6.1"
   },
   {
@@ -119851,7 +119851,7 @@
     "lastCommitDate": "2026-07-23T00:12:50Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:50.216Z"
+    "lastFetched": "2026-10-23T16:45:51.093Z"
   },
   {
     "id": "agarzon/claude-code-statusline",
@@ -119879,7 +119879,7 @@
     "lastCommitDate": "2026-07-22T21:38:33Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:50.918Z"
+    "lastFetched": "2026-10-23T16:45:53.769Z"
   },
   {
     "id": "pjetly/AgentUsageBar",
@@ -119908,7 +119908,7 @@
     "lastCommitDate": "2026-07-24T15:18:23Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:51.452Z"
+    "lastFetched": "2026-10-23T16:45:54.335Z"
   },
   {
     "id": "matsumoto-akio/rimlight",
@@ -119935,7 +119935,7 @@
     "lastCommitDate": "2026-07-23T03:49:56Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:52.065Z",
+    "lastFetched": "2026-10-23T16:45:54.955Z",
     "latestRelease": "v0.2.3"
   },
   {
@@ -119968,7 +119968,7 @@
     "lastCommitDate": "2026-07-24T19:09:39Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:52.478Z",
+    "lastFetched": "2026-10-23T16:45:55.499Z",
     "latestRelease": "0.2.0"
   },
   {
@@ -120000,7 +120000,7 @@
     "lastCommitDate": "2026-07-27T03:01:25Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:42:53.010Z"
+    "lastFetched": "2026-10-23T16:45:56.078Z"
   },
   {
     "id": "GuilhermeRozenblat/claude-usage-monitor-mac",
@@ -121165,7 +121165,7 @@
     "lastCommitDate": "2026-07-24T19:22:23Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:10.433Z",
+    "lastFetched": "2026-10-23T16:44:55.607Z",
     "latestRelease": "v1.0.0"
   },
   {
@@ -121199,7 +121199,7 @@
     "lastCommitDate": "2026-08-29T15:27:47Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:10.968Z",
+    "lastFetched": "2026-10-23T16:44:56.077Z",
     "latestRelease": "v1.11"
   },
   {
@@ -121231,7 +121231,7 @@
     "lastCommitDate": "2026-07-25T04:42:18Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:11.515Z",
+    "lastFetched": "2026-10-23T16:44:56.662Z",
     "latestRelease": "v1.0.1"
   },
   {
@@ -121261,7 +121261,7 @@
     "lastCommitDate": "2026-10-03T12:51:25Z",
     "openIssues": 1,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:11.994Z",
+    "lastFetched": "2026-10-23T16:44:57.259Z",
     "latestRelease": "v1.3.1"
   },
   {
@@ -121291,7 +121291,7 @@
     "lastCommitDate": "2026-07-26T17:09:52Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:12.467Z"
+    "lastFetched": "2026-10-23T16:44:57.726Z"
   },
   {
     "id": "Eakkapoom-Name/statusline-in-nutshell",
@@ -121322,7 +121322,7 @@
     "lastCommitDate": "2026-09-28T20:30:38Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:13.035Z",
+    "lastFetched": "2026-10-23T16:44:58.353Z",
     "latestRelease": "v0.4.0"
   },
   {
@@ -121353,7 +121353,7 @@
     "lastCommitDate": "2026-07-24T15:32:54Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:13.501Z"
+    "lastFetched": "2026-10-23T16:44:58.795Z"
   },
   {
     "id": "dromsak/claude-statusline",
@@ -121383,7 +121383,7 @@
     "lastCommitDate": "2026-07-24T15:30:03Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:14.142Z"
+    "lastFetched": "2026-10-23T16:44:59.463Z"
   },
   {
     "id": "Ea12421/ai-quota-app",
@@ -121413,7 +121413,7 @@
     "lastCommitDate": "2026-08-11T05:29:43Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:14.837Z"
+    "lastFetched": "2026-10-23T16:45:00.062Z"
   },
   {
     "id": "kongvictor/cliproxy-usage-statusline",
@@ -121444,7 +121444,7 @@
     "lastCommitDate": "2026-07-26T01:13:26Z",
     "openIssues": 0,
     "archived": true,
-    "lastFetched": "2026-10-19T03:55:15.376Z"
+    "lastFetched": "2026-10-23T16:45:00.545Z"
   },
   {
     "id": "Vek-tech-pro/claude-token-tracker",
@@ -121467,7 +121467,7 @@
     "lastCommitDate": "2026-07-24T15:20:30Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:15.776Z"
+    "lastFetched": "2026-10-23T16:45:00.832Z"
   },
   {
     "id": "jeromyt-ship-it/Claude-usage-OSX-widget",
@@ -122922,7 +122922,7 @@
     "lastCommitDate": "2026-07-26T08:31:28Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:37.257Z"
+    "lastFetched": "2026-10-23T16:43:28.327Z"
   },
   {
     "id": "billmac-hub/claude-usage-widget",
@@ -122952,7 +122952,7 @@
     "lastCommitDate": "2026-07-26T11:02:03Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:37.869Z",
+    "lastFetched": "2026-10-23T16:43:28.920Z",
     "latestRelease": "v0.1.0"
   },
   {
@@ -122982,7 +122982,7 @@
     "lastCommitDate": "2026-07-26T12:30:14Z",
     "openIssues": 0,
     "archived": true,
-    "lastFetched": "2026-10-19T03:53:38.279Z"
+    "lastFetched": "2026-10-23T16:43:29.268Z"
   },
   {
     "id": "cyperx84/ccstatus",
@@ -123014,7 +123014,7 @@
     "lastCommitDate": "2026-09-16T03:41:34Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:38.509Z"
+    "lastFetched": "2026-10-23T16:43:29.551Z"
   },
   {
     "id": "victorhqc/filbert",
@@ -123041,11 +123041,11 @@
     ],
     "builtWithClaude": null,
     "stars": 4,
-    "lastCommitDate": "2026-10-18T20:32:00Z",
+    "lastCommitDate": "2026-10-23T12:25:31Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:39.138Z",
-    "latestRelease": "v0.19.0"
+    "lastFetched": "2026-10-23T16:43:30.108Z",
+    "latestRelease": "v0.22.0"
   },
   {
     "id": "kukapu/ai-usebar",
@@ -123078,7 +123078,7 @@
     "lastCommitDate": "2026-07-26T13:45:54Z",
     "openIssues": 0,
     "archived": true,
-    "lastFetched": "2026-10-19T03:53:39.551Z",
+    "lastFetched": "2026-10-23T16:43:30.563Z",
     "latestRelease": "v0.1.0"
   },
   {
@@ -126549,7 +126549,7 @@
     "lastCommitDate": "2026-07-30T15:24:05Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:32.272Z",
+    "lastFetched": "2026-10-23T16:43:23.823Z",
     "latestRelease": "v0.3.0"
   },
   {
@@ -126578,7 +126578,7 @@
     "lastCommitDate": "2026-08-05T15:40:19Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:32.839Z"
+    "lastFetched": "2026-10-23T16:43:24.367Z"
   },
   {
     "id": "ai4pastor/claude-statusline",
@@ -126607,7 +126607,7 @@
     "lastCommitDate": "2026-07-31T23:30:30Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:33.413Z",
+    "lastFetched": "2026-10-23T16:43:24.955Z",
     "latestRelease": "v1.3.0"
   },
   {
@@ -126637,7 +126637,7 @@
     "lastCommitDate": "2026-07-29T22:12:42Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:33.973Z"
+    "lastFetched": "2026-10-23T16:43:25.493Z"
   },
   {
     "id": "adidshaft/limitbar",
@@ -126666,7 +126666,7 @@
     "lastCommitDate": "2026-08-15T15:00:15Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:34.533Z",
+    "lastFetched": "2026-10-23T16:43:26.057Z",
     "latestRelease": "v1.0.0"
   },
   {
@@ -126701,7 +126701,7 @@
     "lastCommitDate": "2026-07-30T00:29:04Z",
     "openIssues": 0,
     "archived": true,
-    "lastFetched": "2026-10-19T03:53:35.040Z",
+    "lastFetched": "2026-10-23T16:43:26.399Z",
     "latestRelease": "v0.1.0"
   },
   {
@@ -126731,7 +126731,7 @@
     "lastCommitDate": "2026-08-05T19:20:13Z",
     "openIssues": 1,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:35.386Z",
+    "lastFetched": "2026-10-23T16:43:26.656Z",
     "latestRelease": "v1.1.0"
   },
   {
@@ -128108,7 +128108,7 @@
     "lastCommitDate": "2026-08-07T14:21:23Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:50.296Z"
+    "lastFetched": "2026-10-23T16:44:35.957Z"
   },
   {
     "id": "Luneswan/claudelune",
@@ -128138,7 +128138,7 @@
     "lastCommitDate": "2026-09-02T18:57:04Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:50.900Z",
+    "lastFetched": "2026-10-23T16:44:36.520Z",
     "latestRelease": "v1.3.1"
   },
   {
@@ -128168,7 +128168,7 @@
     "lastCommitDate": "2026-08-01T16:36:11Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:51.527Z"
+    "lastFetched": "2026-10-23T16:44:37.133Z"
   },
   {
     "id": "jcsuen/SessionHawk",
@@ -128200,7 +128200,7 @@
     "lastCommitDate": "2026-08-13T14:57:18Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:52.133Z",
+    "lastFetched": "2026-10-23T16:44:37.703Z",
     "latestRelease": "v0.4.0"
   },
   {
@@ -128232,7 +128232,7 @@
     "lastCommitDate": "2026-08-25T16:33:21Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:52.610Z"
+    "lastFetched": "2026-10-23T16:44:38.267Z"
   },
   {
     "id": "WayneHe1221/claude-token-tracker",
@@ -128261,7 +128261,7 @@
     "lastCommitDate": "2026-09-16T03:52:13Z",
     "openIssues": 1,
     "archived": true,
-    "lastFetched": "2026-10-19T03:54:53.204Z"
+    "lastFetched": "2026-10-23T16:44:38.801Z"
   },
   {
     "id": "treatux/agentcost",
@@ -128292,7 +128292,7 @@
     "lastCommitDate": "2026-08-01T05:27:49Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:53.616Z"
+    "lastFetched": "2026-10-23T16:44:39.066Z"
   },
   {
     "id": "Guiziweb/claude-hud",
@@ -128319,7 +128319,7 @@
     "lastCommitDate": "2026-07-31T19:11:55Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:54.279Z",
+    "lastFetched": "2026-10-23T16:44:39.666Z",
     "latestRelease": "v0.2.3"
   },
   {
@@ -128351,7 +128351,7 @@
     "lastCommitDate": "2026-08-31T12:23:52Z",
     "openIssues": 1,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:54.876Z"
+    "lastFetched": "2026-10-23T16:44:40.099Z"
   },
   {
     "id": "Neymar-max/claude-api-meter",
@@ -128383,7 +128383,7 @@
     "lastCommitDate": "2026-08-14T09:40:37Z",
     "openIssues": 1,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:55.494Z",
+    "lastFetched": "2026-10-23T16:44:40.703Z",
     "latestRelease": "v1.1.0"
   },
   {
@@ -128414,7 +128414,7 @@
     "lastCommitDate": "2026-08-04T02:25:52Z",
     "openIssues": 1,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:55.995Z",
+    "lastFetched": "2026-10-23T16:44:41.272Z",
     "latestRelease": "v1.0.0"
   },
   {
@@ -131346,7 +131346,7 @@
     "lastCommitDate": "2026-10-14T07:30:51Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:24.177Z"
+    "lastFetched": "2026-10-23T16:45:08.663Z"
   },
   {
     "id": "aleksander-dytko/claude-code-statusline",
@@ -131377,7 +131377,7 @@
     "lastCommitDate": "2026-08-04T14:04:03Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:24.787Z"
+    "lastFetched": "2026-10-23T16:45:09.214Z"
   },
   {
     "id": "lucasyhzhu-debug/claude-code-statusline",
@@ -131406,7 +131406,7 @@
     "lastCommitDate": "2026-08-11T07:04:53Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:25.374Z"
+    "lastFetched": "2026-10-23T16:45:09.920Z"
   },
   {
     "id": "horned-specialization130/horned-specialization130.github.io",
@@ -131431,7 +131431,7 @@
     "lastCommitDate": "2026-08-14T17:13:25Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:26.023Z"
+    "lastFetched": "2026-10-23T16:45:10.562Z"
   },
   {
     "id": "InfinityScripter/claude-mcp-bar",
@@ -131459,7 +131459,7 @@
     "lastCommitDate": "2026-08-13T17:32:24Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:26.640Z"
+    "lastFetched": "2026-10-23T16:45:11.234Z"
   },
   {
     "id": "lordkerwin/claude-session-bar",
@@ -131488,7 +131488,7 @@
     "lastCommitDate": "2026-08-04T14:02:28Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:27.262Z"
+    "lastFetched": "2026-10-23T16:45:11.876Z"
   },
   {
     "id": "pionion-ai/quotabar",
@@ -131521,7 +131521,7 @@
     "lastCommitDate": "2026-08-04T11:01:48Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:27.889Z",
+    "lastFetched": "2026-10-23T16:45:12.502Z",
     "latestRelease": "v0.1.2"
   },
   {
@@ -133150,7 +133150,7 @@
     "lastCommitDate": "2026-08-06T02:50:44Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:37.567Z"
+    "lastFetched": "2026-10-23T16:44:24.257Z"
   },
   {
     "id": "DamianPala/hazline",
@@ -133173,7 +133173,7 @@
     "lastCommitDate": "2026-08-08T09:17:38Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:38.149Z",
+    "lastFetched": "2026-10-23T16:44:24.810Z",
     "latestRelease": "v0.3.1"
   },
   {
@@ -133205,7 +133205,7 @@
     "lastCommitDate": "2026-08-08T11:34:25Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:38.665Z"
+    "lastFetched": "2026-10-23T16:44:25.385Z"
   },
   {
     "id": "aucentiq/maxima",
@@ -133234,7 +133234,7 @@
     "lastCommitDate": "2026-08-06T08:52:20Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:39.316Z",
+    "lastFetched": "2026-10-23T16:44:26.046Z",
     "latestRelease": "v1.0.0"
   },
   {
@@ -133264,7 +133264,7 @@
     "lastCommitDate": "2026-08-14T02:33:53Z",
     "openIssues": 1,
     "archived": true,
-    "lastFetched": "2026-10-19T03:54:39.761Z"
+    "lastFetched": "2026-10-23T16:44:26.499Z"
   },
   {
     "id": "keli-wen/token-history",
@@ -133294,10 +133294,10 @@
     ],
     "builtWithClaude": true,
     "stars": 5,
-    "lastCommitDate": "2026-10-18T16:30:46Z",
+    "lastCommitDate": "2026-10-23T16:30:41Z",
     "openIssues": 1,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:40.133Z"
+    "lastFetched": "2026-10-23T16:44:26.791Z"
   },
   {
     "id": "SergioChan/token-meter",
@@ -133325,11 +133325,11 @@
       "multi-agent-tracking"
     ],
     "builtWithClaude": null,
-    "stars": 4,
+    "stars": 5,
     "lastCommitDate": "2026-09-21T16:58:36Z",
     "openIssues": 1,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:40.671Z",
+    "lastFetched": "2026-10-23T16:44:27.410Z",
     "latestRelease": "v0.4.0"
   },
   {
@@ -134920,7 +134920,7 @@
     "lastCommitDate": "2026-08-08T07:06:56Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:52:56.426Z"
+    "lastFetched": "2026-10-23T16:42:50.320Z"
   },
   {
     "id": "onecoded/claude-usage-monitor",
@@ -134949,7 +134949,7 @@
     "lastCommitDate": "2026-08-11T07:47:41Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:52:57.028Z"
+    "lastFetched": "2026-10-23T16:42:50.846Z"
   },
   {
     "id": "hulryung/claude-rate-monitor",
@@ -134980,7 +134980,7 @@
     "lastCommitDate": "2026-08-11T12:53:31Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:52:57.620Z",
+    "lastFetched": "2026-10-23T16:42:51.441Z",
     "latestRelease": "v1.11.1"
   },
   {
@@ -135012,7 +135012,7 @@
     "lastCommitDate": "2026-08-25T06:06:12Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:52:58.102Z",
+    "lastFetched": "2026-10-23T16:42:51.985Z",
     "latestRelease": "v0.11"
   },
   {
@@ -136227,7 +136227,7 @@
     "lastCommitDate": "2026-08-10T10:30:36Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:28.926Z"
+    "lastFetched": "2026-10-23T16:45:13.601Z"
   },
   {
     "id": "Halven08/agent-quota",
@@ -136259,7 +136259,7 @@
     "lastCommitDate": "2026-10-01T15:10:44Z",
     "openIssues": 1,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:29.486Z",
+    "lastFetched": "2026-10-23T16:45:14.324Z",
     "latestRelease": "v0.5.0"
   },
   {
@@ -136291,7 +136291,7 @@
     "lastCommitDate": "2026-08-10T11:24:36Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:30.054Z",
+    "lastFetched": "2026-10-23T16:45:15.071Z",
     "latestRelease": "v1.0.0"
   },
   {
@@ -136321,7 +136321,7 @@
     "lastCommitDate": "2026-09-21T12:04:12Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:30.559Z",
+    "lastFetched": "2026-10-23T16:45:15.717Z",
     "latestRelease": "v0.1.9"
   },
   {
@@ -139755,7 +139755,7 @@
     "lastCommitDate": "2026-08-14T05:53:26Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:04.569Z"
+    "lastFetched": "2026-10-23T16:43:54.058Z"
   },
   {
     "id": "ulisestame/Enhanced-Experience-Claude-Code",
@@ -139782,7 +139782,7 @@
     "lastCommitDate": "2026-09-22T21:07:56Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:06.667Z"
+    "lastFetched": "2026-10-23T16:43:54.660Z"
   },
   {
     "id": "cyKim0115/claude-usage-widget",
@@ -140898,7 +140898,7 @@
     "lastCommitDate": "2026-08-16T16:04:24Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:31.303Z",
+    "lastFetched": "2026-10-23T16:44:18.381Z",
     "latestRelease": "v0.9.0"
   },
   {
@@ -140932,7 +140932,7 @@
     "lastCommitDate": "2026-08-16T06:30:40Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:31.833Z"
+    "lastFetched": "2026-10-23T16:44:18.834Z"
   },
   {
     "id": "kevinRForshey/GnomeShellClaudeMeter",
@@ -140962,7 +140962,7 @@
     "lastCommitDate": "2026-08-16T03:37:19Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:32.377Z"
+    "lastFetched": "2026-10-23T16:44:19.372Z"
   },
   {
     "id": "Coldcomplex1/claude-usage-bar",
@@ -142590,7 +142590,7 @@
     "lastCommitDate": "2026-10-13T02:55:26Z",
     "openIssues": 24,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:33.636Z",
+    "lastFetched": "2026-10-23T16:44:20.596Z",
     "latestRelease": "v1.1.0"
   },
   {
@@ -142621,7 +142621,7 @@
     "lastCommitDate": "2026-09-24T10:46:54Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:34.150Z",
+    "lastFetched": "2026-10-23T16:44:21.110Z",
     "latestRelease": "V0.1.1"
   },
   {
@@ -142654,7 +142654,7 @@
     "lastCommitDate": "2026-10-12T15:21:20Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:34.678Z"
+    "lastFetched": "2026-10-23T16:44:21.602Z"
   },
   {
     "id": "kristijankopacevic/optiflow-mcp",
@@ -142680,7 +142680,7 @@
     "lastCommitDate": "2026-08-23T16:02:22Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:35.242Z"
+    "lastFetched": "2026-10-23T16:44:22.193Z"
   },
   {
     "id": "dev-2nan/dapperline",
@@ -142706,7 +142706,7 @@
     "lastCommitDate": "2026-08-25T11:30:17Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:35.892Z",
+    "lastFetched": "2026-10-23T16:44:22.763Z",
     "latestRelease": "v0.2.0"
   },
   {
@@ -142736,7 +142736,7 @@
     "lastCommitDate": "2026-09-29T21:18:10Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:36.396Z"
+    "lastFetched": "2026-10-23T16:44:23.228Z"
   },
   {
     "id": "baldwinsung/SimpleClaudeMenuBar",
@@ -142765,7 +142765,7 @@
     "lastCommitDate": "2026-09-01T19:05:06Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:37.032Z",
+    "lastFetched": "2026-10-23T16:44:23.745Z",
     "latestRelease": "v0.1.7"
   },
   {
@@ -144463,7 +144463,7 @@
     "lastCommitDate": "2026-08-23T00:37:00Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:58.652Z",
+    "lastFetched": "2026-10-23T16:43:48.214Z",
     "latestRelease": "v1.8.0"
   },
   {
@@ -144495,7 +144495,7 @@
     "lastCommitDate": "2026-09-25T22:35:22Z",
     "openIssues": 1,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:59.181Z"
+    "lastFetched": "2026-10-23T16:43:48.846Z"
   },
   {
     "id": "dsaltaren/claude-context-kit",
@@ -144525,7 +144525,7 @@
     "lastCommitDate": "2026-08-22T15:48:13Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:01.644Z"
+    "lastFetched": "2026-10-23T16:43:51.272Z"
   },
   {
     "id": "mbanderas/maestro-context-bar",
@@ -144551,7 +144551,7 @@
     "lastCommitDate": "2026-08-20T02:44:37Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:02.203Z"
+    "lastFetched": "2026-10-23T16:43:51.917Z"
   },
   {
     "id": "npclfg/subswitch",
@@ -144578,7 +144578,7 @@
     "lastCommitDate": "2026-09-05T22:33:33Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:02.830Z",
+    "lastFetched": "2026-10-23T16:43:52.591Z",
     "latestRelease": "v0.2.5"
   },
   {
@@ -144610,7 +144610,7 @@
     "lastCommitDate": "2026-10-07T10:46:33Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:03.443Z",
+    "lastFetched": "2026-10-23T16:43:53.086Z",
     "latestRelease": "v0.3.1"
   },
   {
@@ -147868,7 +147868,7 @@
     "lastCommitDate": "2026-08-24T12:52:05Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:58.098Z"
+    "lastFetched": "2026-10-23T16:44:43.382Z"
   },
   {
     "id": "huijoson/hudline",
@@ -147893,11 +147893,11 @@
     ],
     "builtWithClaude": true,
     "stars": 0,
-    "lastCommitDate": "2026-10-19T02:36:28Z",
-    "openIssues": 0,
+    "lastCommitDate": "2026-10-23T14:55:49Z",
+    "openIssues": 1,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:58.641Z",
-    "latestRelease": "v0.8.6"
+    "lastFetched": "2026-10-23T16:44:43.953Z",
+    "latestRelease": "v0.8.7"
   },
   {
     "id": "sachanayush47/vigil",
@@ -147926,7 +147926,7 @@
     "lastCommitDate": "2026-08-28T17:47:41Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:59.153Z",
+    "lastFetched": "2026-10-23T16:44:44.539Z",
     "latestRelease": "v1.2"
   },
   {
@@ -147956,7 +147956,7 @@
     "lastCommitDate": "2026-08-24T16:58:26Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:59.671Z",
+    "lastFetched": "2026-10-23T16:44:45.064Z",
     "latestRelease": "v1.2"
   },
   {
@@ -152050,7 +152050,7 @@
     "lastCommitDate": "2026-09-02T07:57:52Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:43.228Z"
+    "lastFetched": "2026-10-23T16:43:34.027Z"
   },
   {
     "id": "renatojfsantos/claude-statusline",
@@ -152078,7 +152078,7 @@
     "lastCommitDate": "2026-08-30T14:45:41Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:43.915Z"
+    "lastFetched": "2026-10-23T16:43:34.700Z"
   },
   {
     "id": "berk-karaal/cc-statusline-berk",
@@ -152102,7 +152102,7 @@
     "lastCommitDate": "2026-08-30T14:21:53Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:44.590Z",
+    "lastFetched": "2026-10-23T16:43:35.277Z",
     "latestRelease": "v1.0.0"
   },
   {
@@ -152133,7 +152133,7 @@
     "lastCommitDate": "2026-08-30T13:37:47Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:45.398Z"
+    "lastFetched": "2026-10-23T16:43:35.803Z"
   },
   {
     "id": "yaakov-source/claude-usage-widget",
@@ -154871,7 +154871,7 @@
     "lastCommitDate": "2026-09-10T22:15:23Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:59.844Z",
+    "lastFetched": "2026-10-23T16:43:49.500Z",
     "latestRelease": "v0.6.1"
   },
   {
@@ -154896,10 +154896,10 @@
     ],
     "builtWithClaude": null,
     "stars": 16,
-    "lastCommitDate": "2026-09-02T21:53:12Z",
+    "lastCommitDate": "2026-10-19T19:50:49Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:00.342Z"
+    "lastFetched": "2026-10-23T16:43:50.024Z"
   },
   {
     "id": "ReubenBeeler/statusline",
@@ -154923,7 +154923,7 @@
     "lastCommitDate": "2026-10-03T03:07:39Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:54:00.980Z"
+    "lastFetched": "2026-10-23T16:43:50.647Z"
   },
   {
     "id": "SunggaP/claude-usage-widget",
@@ -158028,7 +158028,7 @@
     "lastCommitDate": "2026-09-05T18:00:28Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:08.268Z"
+    "lastFetched": "2026-10-23T16:43:01.484Z"
   },
   {
     "id": "elomid/tokenio",
@@ -158057,7 +158057,7 @@
     "lastCommitDate": "2026-09-11T18:56:42Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:08.874Z",
+    "lastFetched": "2026-10-23T16:43:02.070Z",
     "latestRelease": "v0.1.6"
   },
   {
@@ -158086,7 +158086,7 @@
     "lastCommitDate": "2026-10-08T01:57:24Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:09.386Z"
+    "lastFetched": "2026-10-23T16:43:02.583Z"
   },
   {
     "id": "Gr0mar/quotabar",
@@ -158118,7 +158118,7 @@
     "lastCommitDate": "2026-10-13T15:10:41Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:10.086Z",
+    "lastFetched": "2026-10-23T16:43:03.119Z",
     "latestRelease": "v1.2.0"
   },
   {
@@ -158149,7 +158149,7 @@
     "lastCommitDate": "2026-09-05T18:35:32Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:10.663Z"
+    "lastFetched": "2026-10-23T16:43:03.643Z"
   },
   {
     "id": "ojasviyadav/ai-usage-rings",
@@ -158181,7 +158181,7 @@
     "lastCommitDate": "2026-09-05T16:30:58Z",
     "openIssues": 1,
     "archived": true,
-    "lastFetched": "2026-10-19T03:53:11.239Z"
+    "lastFetched": "2026-10-23T16:43:04.184Z"
   },
   {
     "id": "ghub-alex/claude-statusline",
@@ -158209,7 +158209,7 @@
     "lastCommitDate": "2026-09-07T12:52:38Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:11.648Z"
+    "lastFetched": "2026-10-23T16:43:04.500Z"
   },
   {
     "id": "itsdadelous/claude-code-hud",
@@ -158241,7 +158241,7 @@
     "lastCommitDate": "2026-09-05T15:11:10Z",
     "openIssues": 0,
     "archived": true,
-    "lastFetched": "2026-10-19T03:53:12.125Z"
+    "lastFetched": "2026-10-23T16:43:05.026Z"
   },
   {
     "id": "nahwan-kim/token-jar",
@@ -158273,7 +158273,7 @@
     "lastCommitDate": "2026-10-05T12:08:03Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:12.393Z",
+    "lastFetched": "2026-10-23T16:43:05.284Z",
     "latestRelease": "v0.1.5"
   },
   {
@@ -158305,7 +158305,7 @@
     "lastCommitDate": "2026-09-05T16:06:06Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:12.967Z",
+    "lastFetched": "2026-10-23T16:43:05.885Z",
     "latestRelease": "v1.0.0"
   },
   {
@@ -158336,11 +158336,11 @@
     ],
     "builtWithClaude": null,
     "stars": 0,
-    "lastCommitDate": "2026-10-18T16:04:17Z",
-    "openIssues": 1,
+    "lastCommitDate": "2026-10-20T16:44:47Z",
+    "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:13.505Z",
-    "latestRelease": "v0.7.1"
+    "lastFetched": "2026-10-23T16:43:06.425Z",
+    "latestRelease": "v0.7.2"
   },
   {
     "id": "Fanthall/claude-usage-widget",
@@ -160521,7 +160521,7 @@
     "lastCommitDate": "2026-09-13T18:35:54Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:19.042Z"
+    "lastFetched": "2026-10-23T16:45:03.877Z"
   },
   {
     "id": "chang0755/claude-usage-glance",
@@ -160539,7 +160539,7 @@
     "lastCommitDate": "2026-09-09T02:19:34Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:19.617Z"
+    "lastFetched": "2026-10-23T16:45:04.465Z"
   },
   {
     "id": "isugif/ClaudeUsageBar",
@@ -160557,7 +160557,7 @@
     "lastCommitDate": "2026-09-11T00:15:20Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:20.215Z"
+    "lastFetched": "2026-10-23T16:45:05.036Z"
   },
   {
     "id": "Travel-Connect/claude-code-statusline",
@@ -160575,7 +160575,7 @@
     "lastCommitDate": "2026-09-09T06:28:11Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:20.853Z"
+    "lastFetched": "2026-10-23T16:45:05.600Z"
   },
   {
     "id": "thadeu/clowk-claude-statusline",
@@ -160593,7 +160593,7 @@
     "lastCommitDate": "2026-10-05T16:48:44Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:21.477Z"
+    "lastFetched": "2026-10-23T16:45:06.210Z"
   },
   {
     "id": "isaahmdantas/oc-hud",
@@ -160611,7 +160611,7 @@
     "lastCommitDate": "2026-09-09T00:37:40Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:22.114Z"
+    "lastFetched": "2026-10-23T16:45:06.934Z"
   },
   {
     "id": "aiwitsam/claude-auto",
@@ -160629,7 +160629,7 @@
     "lastCommitDate": "2026-09-08T21:58:40Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:22.767Z"
+    "lastFetched": "2026-10-23T16:45:07.493Z"
   },
   {
     "id": "sam-pop/QuotaBar",
@@ -160661,7 +160661,7 @@
     "lastCommitDate": "2026-09-27T16:24:57Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:55:23.636Z",
+    "lastFetched": "2026-10-23T16:45:08.088Z",
     "latestRelease": "v1.6.0"
   },
   {
@@ -162381,7 +162381,7 @@
     "lastCommitDate": "2026-09-12T08:39:47Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:43:06.684Z"
+    "lastFetched": "2026-10-23T16:46:11.755Z"
   },
   {
     "id": "TanKaizokuO/token-tracker",
@@ -162396,10 +162396,10 @@
     "features": [],
     "builtWithClaude": null,
     "stars": 0,
-    "lastCommitDate": "2026-10-15T08:49:39Z",
+    "lastCommitDate": "2026-10-21T11:46:41Z",
     "openIssues": 1,
     "archived": false,
-    "lastFetched": "2026-10-19T09:43:07.285Z"
+    "lastFetched": "2026-10-23T16:46:12.337Z"
   },
   {
     "id": "007tsx/claude-code-dopagaki-line",
@@ -162417,7 +162417,7 @@
     "lastCommitDate": "2026-10-07T07:04:28Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:43:08.019Z"
+    "lastFetched": "2026-10-23T16:46:12.926Z"
   },
   {
     "id": "avstechfr/claude-plugins",
@@ -162435,7 +162435,7 @@
     "lastCommitDate": "2026-10-16T11:35:15Z",
     "openIssues": 2,
     "archived": false,
-    "lastFetched": "2026-10-19T09:43:08.594Z"
+    "lastFetched": "2026-10-23T16:46:13.545Z"
   },
   {
     "id": "regisdias/claude-code-statusline",
@@ -162453,7 +162453,7 @@
     "lastCommitDate": "2026-09-30T03:17:23Z",
     "openIssues": 3,
     "archived": false,
-    "lastFetched": "2026-10-19T09:43:09.142Z",
+    "lastFetched": "2026-10-23T16:46:14.100Z",
     "latestRelease": "v1.7.0"
   },
   {
@@ -162472,7 +162472,7 @@
     "lastCommitDate": "2026-09-12T14:24:16Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:43:09.598Z"
+    "lastFetched": "2026-10-23T16:46:14.666Z"
   },
   {
     "id": "sigiletlabs/ai-quota-meter",
@@ -162490,7 +162490,7 @@
     "lastCommitDate": "2026-10-17T04:38:49Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:43:10.145Z",
+    "lastFetched": "2026-10-23T16:46:15.372Z",
     "latestRelease": "v0.3.5"
   },
   {
@@ -162509,7 +162509,7 @@
     "lastCommitDate": "2026-09-12T04:57:02Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:43:10.603Z"
+    "lastFetched": "2026-10-23T16:46:15.903Z"
   },
   {
     "id": "MarwanMaher0/claude-account-switcher",
@@ -162527,7 +162527,7 @@
     "lastCommitDate": "2026-10-05T11:21:36Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:43:11.133Z",
+    "lastFetched": "2026-10-23T16:46:16.449Z",
     "latestRelease": "v2.3.0"
   },
   {
@@ -162546,7 +162546,7 @@
     "lastCommitDate": "2026-09-12T06:04:37Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:43:11.602Z"
+    "lastFetched": "2026-10-23T16:46:16.977Z"
   },
   {
     "id": "fengfe1125/tokentracker",
@@ -164504,7 +164504,7 @@
     "lastCommitDate": "2026-10-13T16:22:09Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:43:00.750Z"
+    "lastFetched": "2026-10-23T16:46:04.935Z"
   },
   {
     "id": "YigitSalihEmecen/claude-usage-on-menu-bar",
@@ -164522,7 +164522,7 @@
     "lastCommitDate": "2026-10-06T08:34:38Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:43:01.300Z",
+    "lastFetched": "2026-10-23T16:46:05.592Z",
     "latestRelease": "v1.2.0"
   },
   {
@@ -164541,7 +164541,7 @@
     "lastCommitDate": "2026-09-20T18:19:27Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:43:01.739Z"
+    "lastFetched": "2026-10-23T16:46:06.127Z"
   },
   {
     "id": "yaakov-source/CLAUDEXOPEN_USAGE-BAR",
@@ -164556,10 +164556,10 @@
     "features": [],
     "builtWithClaude": null,
     "stars": 0,
-    "lastCommitDate": "2026-09-15T19:13:01Z",
+    "lastCommitDate": "2026-10-19T13:15:55Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:43:02.335Z"
+    "lastFetched": "2026-10-23T16:46:06.694Z"
   },
   {
     "id": "rajasekharponakala/ai-monitor",
@@ -164574,10 +164574,10 @@
     "features": [],
     "builtWithClaude": null,
     "stars": 0,
-    "lastCommitDate": "2026-10-14T18:16:54Z",
+    "lastCommitDate": "2026-10-20T17:15:19Z",
     "openIssues": 3,
     "archived": false,
-    "lastFetched": "2026-10-19T09:43:02.917Z"
+    "lastFetched": "2026-10-23T16:46:07.393Z"
   },
   {
     "id": "ChristianVerghis/claude-statusline",
@@ -164595,7 +164595,7 @@
     "lastCommitDate": "2026-10-10T02:37:10Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:43:03.442Z"
+    "lastFetched": "2026-10-23T16:46:08.005Z"
   },
   {
     "id": "c2keesey/codex-statusline",
@@ -164613,7 +164613,7 @@
     "lastCommitDate": "2026-10-16T22:54:51Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:43:03.973Z",
+    "lastFetched": "2026-10-23T16:46:08.770Z",
     "latestRelease": "v0.3.13"
   },
   {
@@ -164632,7 +164632,7 @@
     "lastCommitDate": "2026-09-15T19:00:40Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T09:43:04.429Z"
+    "lastFetched": "2026-10-23T16:46:09.238Z"
   },
   {
     "id": "rajatbhagat/claude-usage-widget",
@@ -170590,7 +170590,7 @@
     "lastCommitDate": "2026-10-10T23:59:09Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:24.932Z"
+    "lastFetched": "2026-10-23T16:43:16.789Z"
   },
   {
     "id": "Relis-lol/ai-usage-widget",
@@ -170608,7 +170608,7 @@
     "lastCommitDate": "2026-10-17T23:52:47Z",
     "openIssues": 1,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:25.539Z",
+    "lastFetched": "2026-10-23T16:43:17.301Z",
     "latestRelease": "v0.1.0"
   },
   {
@@ -170627,7 +170627,7 @@
     "lastCommitDate": "2026-10-04T03:10:05Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:26.052Z",
+    "lastFetched": "2026-10-23T16:43:17.784Z",
     "latestRelease": "v1.4.0"
   },
   {
@@ -170646,7 +170646,7 @@
     "lastCommitDate": "2026-10-11T11:55:05Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:26.604Z"
+    "lastFetched": "2026-10-23T16:43:18.276Z"
   },
   {
     "id": "MHDMAM/statusline",
@@ -170661,10 +170661,10 @@
     "features": [],
     "builtWithClaude": null,
     "stars": 0,
-    "lastCommitDate": "2026-09-26T12:27:07Z",
+    "lastCommitDate": "2026-10-21T08:56:24Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:27.281Z"
+    "lastFetched": "2026-10-23T16:43:18.827Z"
   },
   {
     "id": "LHner1/claude-bar",
@@ -170682,7 +170682,7 @@
     "lastCommitDate": "2026-09-26T11:39:09Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:27.843Z",
+    "lastFetched": "2026-10-23T16:43:19.458Z",
     "latestRelease": "v1.0.0"
   },
   {
@@ -170701,7 +170701,7 @@
     "lastCommitDate": "2026-09-30T11:21:14Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:28.374Z",
+    "lastFetched": "2026-10-23T16:43:20.021Z",
     "latestRelease": "v1.4.4"
   },
   {
@@ -170720,7 +170720,7 @@
     "lastCommitDate": "2026-09-28T16:16:31Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:28.859Z",
+    "lastFetched": "2026-10-23T16:43:20.500Z",
     "latestRelease": "v1.0.0"
   },
   {
@@ -170739,7 +170739,7 @@
     "lastCommitDate": "2026-10-15T22:39:18Z",
     "openIssues": 1,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:29.386Z",
+    "lastFetched": "2026-10-23T16:43:20.990Z",
     "latestRelease": "v1.8.0"
   },
   {
@@ -170758,7 +170758,7 @@
     "lastCommitDate": "2026-10-14T10:36:49Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:53:29.894Z",
+    "lastFetched": "2026-10-23T16:43:21.617Z",
     "latestRelease": "v3.0.5"
   },
   {
@@ -172974,11 +172974,11 @@
     "features": [],
     "builtWithClaude": null,
     "stars": 0,
-    "lastCommitDate": "2026-10-14T08:49:58Z",
+    "lastCommitDate": "2026-10-22T19:40:48Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:52:35.019Z",
-    "latestRelease": "v0.2.2"
+    "lastFetched": "2026-10-23T16:42:29.920Z",
+    "latestRelease": "v0.2.3"
   },
   {
     "id": "123-Cheese-Online-LLC/pulse",
@@ -172996,7 +172996,7 @@
     "lastCommitDate": "2026-10-14T16:49:01Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:52:52.418Z"
+    "lastFetched": "2026-10-23T16:42:46.492Z"
   },
   {
     "id": "noeigenstate/CodePulse",
@@ -173014,7 +173014,7 @@
     "lastCommitDate": "2026-10-08T08:09:44Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:52:52.983Z",
+    "lastFetched": "2026-10-23T16:42:47.047Z",
     "latestRelease": "v1.4.11"
   },
   {
@@ -183633,7 +183633,7 @@
     "lastCommitDate": "2026-10-16T11:15:42Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:52:35.512Z"
+    "lastFetched": "2026-10-23T16:42:30.477Z"
   },
   {
     "id": "nakamura226/grass-tracker",
@@ -183662,7 +183662,7 @@
     "lastCommitDate": "2026-10-15T04:13:50Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:52:36.170Z"
+    "lastFetched": "2026-10-23T16:42:31.045Z"
   },
   {
     "id": "msfbeast/reset",
@@ -183690,12 +183690,12 @@
       "mcp-integration"
     ],
     "builtWithClaude": true,
-    "stars": 3,
-    "lastCommitDate": "2026-10-18T21:12:57Z",
+    "stars": 4,
+    "lastCommitDate": "2026-10-20T14:49:09Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:52:36.830Z",
-    "latestRelease": "v0.3.23"
+    "lastFetched": "2026-10-23T16:42:31.648Z",
+    "latestRelease": "v0.3.25"
   },
   {
     "id": "Pouya-Mansournia/QuotaBar",
@@ -183723,10 +183723,10 @@
     ],
     "builtWithClaude": null,
     "stars": 0,
-    "lastCommitDate": "2026-10-15T09:20:17Z",
+    "lastCommitDate": "2026-10-20T09:09:39Z",
     "openIssues": 5,
     "archived": false,
-    "lastFetched": "2026-10-19T03:52:37.322Z",
+    "lastFetched": "2026-10-23T16:42:32.221Z",
     "latestRelease": "Windows-v1.0.1"
   },
   {
@@ -183760,7 +183760,7 @@
     "lastCommitDate": "2026-10-15T08:10:31Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:52:37.954Z"
+    "lastFetched": "2026-10-23T16:42:32.715Z"
   },
   {
     "id": "zhoufanscut/VArgus",
@@ -183788,7 +183788,7 @@
     "lastCommitDate": "2026-10-17T08:10:07Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:52:38.621Z",
+    "lastFetched": "2026-10-23T16:42:33.362Z",
     "latestRelease": "v0.3.0"
   },
   {
@@ -183812,7 +183812,7 @@
     "lastCommitDate": "2026-10-15T04:16:45Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:52:39.163Z"
+    "lastFetched": "2026-10-23T16:42:33.927Z"
   },
   {
     "id": "WaXllXace/usage-bar",
@@ -183836,7 +183836,7 @@
     "lastCommitDate": "2026-10-15T10:08:07Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:52:39.757Z"
+    "lastFetched": "2026-10-23T16:42:34.536Z"
   },
   {
     "id": "suiyun08/agenttally",
@@ -183860,11 +183860,11 @@
     ],
     "builtWithClaude": true,
     "stars": 1,
-    "lastCommitDate": "2026-10-19T03:44:22Z",
+    "lastCommitDate": "2026-10-21T01:39:36Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:52:40.399Z",
-    "latestRelease": "v1.0.3"
+    "lastFetched": "2026-10-23T16:42:35.154Z",
+    "latestRelease": "v1.0.6"
   },
   {
     "id": "sketchmesome/UsageBar",
@@ -183892,10 +183892,10 @@
     ],
     "builtWithClaude": true,
     "stars": 2,
-    "lastCommitDate": "2026-10-15T15:33:58Z",
+    "lastCommitDate": "2026-10-21T00:07:25Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:52:40.912Z",
+    "lastFetched": "2026-10-23T16:42:35.642Z",
     "latestRelease": "v1.2.2"
   },
   {
@@ -183922,10 +183922,10 @@
     ],
     "builtWithClaude": true,
     "stars": 0,
-    "lastCommitDate": "2026-10-15T08:54:03Z",
+    "lastCommitDate": "2026-10-20T11:17:12Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:52:41.450Z"
+    "lastFetched": "2026-10-23T16:42:36.216Z"
   },
   {
     "id": "r33hab/usage-hud",
@@ -183957,7 +183957,7 @@
     "lastCommitDate": "2026-10-15T10:58:46Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:52:42.112Z"
+    "lastFetched": "2026-10-23T16:42:36.827Z"
   },
   {
     "id": "M-Jeremy/claude-usage-bar",
@@ -183982,10 +183982,11 @@
     ],
     "builtWithClaude": null,
     "stars": 0,
-    "lastCommitDate": "2026-10-15T14:30:05Z",
+    "lastCommitDate": "2026-10-23T12:55:48Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:52:42.721Z"
+    "lastFetched": "2026-10-23T16:42:37.351Z",
+    "latestRelease": "v0.2.7"
   },
   {
     "id": "creamcitycyber/usage-meter",
@@ -184011,7 +184012,7 @@
     "lastCommitDate": "2026-10-15T15:53:17Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:52:43.341Z"
+    "lastFetched": "2026-10-23T16:42:37.909Z"
   },
   {
     "id": "breadDDDDD/honjoji-claude-tracker",
@@ -184043,7 +184044,7 @@
     "lastCommitDate": "2026-10-18T06:42:31Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:52:43.977Z"
+    "lastFetched": "2026-10-23T16:42:38.565Z"
   },
   {
     "id": "baurrustem/ai-usage",
@@ -184074,7 +184075,7 @@
     "lastCommitDate": "2026-10-18T16:50:53Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:52:44.551Z"
+    "lastFetched": "2026-10-23T16:42:39.125Z"
   },
   {
     "id": "oshablovskyy/claude-statusline",
@@ -184102,7 +184103,7 @@
     "lastCommitDate": "2026-10-15T14:19:25Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:52:45.106Z"
+    "lastFetched": "2026-10-23T16:42:39.734Z"
   },
   {
     "id": "shaocongzeming/zhipu-statusline",
@@ -184130,7 +184131,7 @@
     "lastCommitDate": "2026-10-15T12:54:51Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:52:45.674Z"
+    "lastFetched": "2026-10-23T16:42:40.359Z"
   },
   {
     "id": "www8351/Kickoff",
@@ -184157,7 +184158,7 @@
     "lastCommitDate": "2026-10-15T13:12:15Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:52:46.301Z"
+    "lastFetched": "2026-10-23T16:42:40.908Z"
   },
   {
     "id": "fabifont/claude-statusline",
@@ -184186,7 +184187,7 @@
     "lastCommitDate": "2026-10-15T11:32:23Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:52:46.954Z",
+    "lastFetched": "2026-10-23T16:42:41.512Z",
     "latestRelease": "v0.6.0"
   },
   {
@@ -184217,7 +184218,7 @@
     "lastCommitDate": "2026-10-15T15:53:57Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:52:47.531Z"
+    "lastFetched": "2026-10-23T16:42:41.987Z"
   },
   {
     "id": "jacopofilonzi/ai-usage",
@@ -184247,7 +184248,7 @@
     "lastCommitDate": "2026-10-15T15:24:52Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:52:48.086Z"
+    "lastFetched": "2026-10-23T16:42:42.528Z"
   },
   {
     "id": "DavidLinhares-DV/cerebro",
@@ -184274,7 +184275,7 @@
     "lastCommitDate": "2026-10-15T13:17:02Z",
     "openIssues": 0,
     "archived": true,
-    "lastFetched": "2026-10-19T03:52:48.602Z"
+    "lastFetched": "2026-10-23T16:42:42.960Z"
   },
   {
     "id": "GentlemanHu/limitbreak",
@@ -184305,7 +184306,7 @@
     "lastCommitDate": "2026-10-15T16:54:02Z",
     "openIssues": 6,
     "archived": false,
-    "lastFetched": "2026-10-19T03:52:48.957Z",
+    "lastFetched": "2026-10-23T16:42:43.249Z",
     "latestRelease": "v1.0.0"
   },
   {
@@ -184335,7 +184336,7 @@
     "lastCommitDate": "2026-10-15T12:31:32Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:52:49.506Z",
+    "lastFetched": "2026-10-23T16:42:43.808Z",
     "latestRelease": "v1.0.0"
   },
   {
@@ -184364,7 +184365,7 @@
     "lastCommitDate": "2026-10-16T17:34:31Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:52:50.018Z"
+    "lastFetched": "2026-10-23T16:42:44.269Z"
   },
   {
     "id": "theofonsecapaixao-sys/claude-usage-overlay",
@@ -184396,7 +184397,7 @@
     "lastCommitDate": "2026-10-15T14:11:01Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:52:50.609Z"
+    "lastFetched": "2026-10-23T16:42:44.889Z"
   },
   {
     "id": "jhnqch/usagebar",
@@ -184429,7 +184430,7 @@
     "lastCommitDate": "2026-10-16T21:37:53Z",
     "openIssues": 0,
     "archived": false,
-    "lastFetched": "2026-10-19T03:52:51.225Z",
+    "lastFetched": "2026-10-23T16:42:45.483Z",
     "latestRelease": "v1.0.1"
   },
   {
@@ -184457,10 +184458,10 @@
     ],
     "builtWithClaude": true,
     "stars": 3,
-    "lastCommitDate": "2026-10-16T15:07:47Z",
-    "openIssues": 1,
+    "lastCommitDate": "2026-10-23T13:49:58Z",
+    "openIssues": 2,
     "archived": false,
-    "lastFetched": "2026-10-19T03:52:51.757Z"
+    "lastFetched": "2026-10-23T16:42:45.976Z"
   },
   {
     "id": "afpoley/claude-usage",
