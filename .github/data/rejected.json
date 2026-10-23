@@ -1972,5 +1972,17 @@
     "reason": "Morning Brief is a productivity app that delegates AI work to Claude Code/Codex agents but does not itself display, measure, or report Claude usage as a substantial feature; it shows token cost and time only in a footer after generation, not as a tracking interface.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-23T11:09:57.320Z"
+  },
+  {
+    "id": "RobStraubm/saunter",
+    "reason": "Saunter is a walking pad control app with activity history and Apple Health integration, but does not display or measure Claude usage as a feature; the MCP server enables Claude to read stats, but the app itself is not a Claude usage tracker.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-23T16:37:08.628Z"
+  },
+  {
+    "id": "muhammederem/claude-todo",
+    "reason": "This app displays Claude Code session status and pending tasks, but tracks Claude Code activity (not usage metrics like tokens/costs/quotas), so it does not qualify as a usage tracker per the registry criteria.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-10-23T16:37:11.319Z"
   }
 ]

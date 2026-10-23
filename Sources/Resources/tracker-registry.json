@@ -198858,5 +198858,361 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-10-23T11:10:00.186Z"
+  },
+  {
+    "id": "jacklee981229/claude-usage-widget",
+    "name": "claude-usage-widget",
+    "author": "jacklee981229",
+    "repoURL": "https://github.com/jacklee981229/claude-usage-widget",
+    "description": "Desktop widget for Claude plan usage, with a Claude Code mod for the official numbers",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "five-hour-window",
+      "weekly-limit",
+      "claude-code-transcripts",
+      "official-usage-sync",
+      "desktop-widget",
+      "accuracy-checking"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-23T16:04:19Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-23T16:37:21.827Z"
+  },
+  {
+    "id": "EMRahman/herdr-usage-monitor",
+    "name": "herdr-usage-monitor",
+    "author": "EMRahman",
+    "repoURL": "https://github.com/EMRahman/herdr-usage-monitor",
+    "description": "A space-efficient subscription allowance monitor for Herdr: glanceable % remaining in the tab bar and an instant modal breakdown for Claude Code, Codex, and Antigravity CLI",
+    "category": "Terminal UI",
+    "platforms": [
+      "linux"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "Browser Cookie Auto-detect",
+      "Session Key"
+    ],
+    "features": [
+      "multi-provider",
+      "rate-limit-display",
+      "tab-bar-widget",
+      "modal-breakdown",
+      "background-daemon",
+      "5h-session-tracking",
+      "weekly-limits"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-23T12:55:01Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-23T16:37:21.827Z"
+  },
+  {
+    "id": "guille-nat/token-bar",
+    "name": "token-bar",
+    "author": "guille-nat",
+    "repoURL": "https://github.com/guille-nat/token-bar",
+    "description": "Claude Code mod: plan usage, model and repo status bar",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "plan-usage-display",
+      "token-counters",
+      "context-window-monitor",
+      "cost-estimation",
+      "model-status",
+      "repo-status-integration",
+      "animated-companion",
+      "live-rate-limits"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-23T15:22:02Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-23T16:37:21.827Z"
+  },
+  {
+    "id": "mysticalsin/TTT",
+    "name": "TTT",
+    "author": "mysticalsin",
+    "repoURL": "https://github.com/mysticalsin/TTT",
+    "description": "Token to Time: the real time your Claude Code tokens buy, per task and per project, live in your status bar.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "token-to-time-conversion",
+      "task-forecasting",
+      "project-analytics",
+      "real-vs-agent-time",
+      "multi-session-tracking",
+      "subagent-monitoring",
+      "exchange-rate-calculation",
+      "14-day-sparkline"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-23T15:14:58Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-23T16:37:21.827Z"
+  },
+  {
+    "id": "nhinata/tallyline",
+    "name": "tallyline",
+    "author": "nhinata",
+    "repoURL": "https://github.com/nhinata/tallyline",
+    "description": "Fast Claude Code status line: tokens, API-equivalent cost, rate limits, and why your usage is high",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "token-usage-by-period",
+      "api-cost-estimation",
+      "rate-limit-tracking",
+      "session-analysis",
+      "usage-diagnostics",
+      "cache-efficiency-insights"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-10-23T15:14:03Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-23T16:37:21.827Z"
+  },
+  {
+    "id": "wvwvw5/claude-statusline",
+    "name": "claude-statusline",
+    "author": "wvwvw5",
+    "repoURL": "https://github.com/wvwvw5/claude-statusline",
+    "description": "Claude Code status line: model, context bar, and Claude.ai subscription limits (5h / 7d) with weekly reset countdown",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "JavaScript",
+    "authMethod": [],
+    "features": [
+      "context-usage-bar",
+      "subscription-limits",
+      "rate-limit-display",
+      "weekly-reset-countdown"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-23T14:57:02Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-23T16:37:21.827Z"
+  },
+  {
+    "id": "xurxomr/claude-statusline",
+    "name": "claude-statusline",
+    "author": "xurxomr",
+    "repoURL": "https://github.com/xurxomr/claude-statusline",
+    "description": "A compact, single-file status line for [Claude Code](https://claude.com/claude-code), powered by Node.js.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "language": "JavaScript",
+    "authMethod": [],
+    "features": [
+      "context-window-display",
+      "rate-limit-tracking",
+      "session-cost",
+      "effort-level",
+      "token-counter",
+      "task-display",
+      "narrow-terminal-adapt"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-23T13:11:31Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-23T16:37:21.827Z"
+  },
+  {
+    "id": "puddle-works/swamp-update-status",
+    "name": "swamp-update-status",
+    "author": "puddle-works",
+    "repoURL": "https://github.com/puddle-works/swamp-update-status",
+    "description": "Keep swamp up to date at session start and show the version in the Claude Code status line",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "context-usage-display",
+      "rate-limit-tracking",
+      "status-line-integration",
+      "session-hooks"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-23T16:10:51Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-23T16:37:21.827Z"
+  },
+  {
+    "id": "ShaneLevs/statusline",
+    "name": "statusline",
+    "author": "ShaneLevs",
+    "repoURL": "https://github.com/ShaneLevs/statusline",
+    "description": "A configurable multi-line Claude Code statusline (hooks mod): model, context, usage limits, git, tools, agents, todos, and output speed.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "TypeScript",
+    "authMethod": [],
+    "features": [
+      "usage-limits",
+      "context-window",
+      "cost-tracking",
+      "model-info",
+      "output-speed",
+      "git-status",
+      "session-duration",
+      "cache-hit-rate"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-23T11:28:27Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-23T16:37:21.827Z"
+  },
+  {
+    "id": "PointerLex/claude-usage-meter",
+    "name": "claude-usage-meter",
+    "author": "PointerLex",
+    "repoURL": "https://github.com/PointerLex/claude-usage-meter",
+    "description": "Cyberpunk usage meter mod for Claude Code: 5h and weekly limits, tokens spent, context breakdown, history charts, git graph, PRs and Docker containers.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "usage-band-visual",
+      "token-accounting",
+      "context-breakdown",
+      "history-charts",
+      "git-integration",
+      "pr-monitor",
+      "docker-containers",
+      "subagent-tracking"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-23T14:03:58Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-23T16:37:21.827Z"
+  },
+  {
+    "id": "asome/t3meter",
+    "name": "t3meter",
+    "author": "asome",
+    "repoURL": "https://github.com/asome/t3meter",
+    "description": "Local, owner-configured usage budget for Claude Code: refuses prompts before inference when your budget is spent.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "API Key"
+    ],
+    "features": [
+      "usage-budget",
+      "spending-guard",
+      "dashboard",
+      "local-enforcement",
+      "multi-window",
+      "cache-aware"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-23T13:02:16Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-23T16:37:21.827Z"
+  },
+  {
+    "id": "JikunLiu101/claude-usage-guard",
+    "name": "claude-usage-guard",
+    "author": "JikunLiu101",
+    "repoURL": "https://github.com/JikunLiu101/claude-usage-guard",
+    "description": "LangBot plugin: usage meter and gate for the Claude Code Runner – locks the bot when account 5h/7d usage or the bot's own token window exceeds your limits.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Traffic Capture"
+    ],
+    "features": [
+      "usage-metering",
+      "rate-limit-gates",
+      "account-windows",
+      "bot-windows",
+      "token-counting",
+      "cost-tracking",
+      "lock-mechanism",
+      "langbot-plugin"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-23T12:37:51Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-23T16:37:21.827Z"
   }
 ]
