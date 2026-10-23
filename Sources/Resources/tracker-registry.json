@@ -199215,5 +199215,250 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-10-23T16:37:21.827Z"
+  },
+  {
+    "id": "dmminga1983/claude-limit-bar-extension",
+    "name": "claude-limit-bar-extension",
+    "author": "dmminga1983",
+    "repoURL": "https://github.com/dmminga1983/claude-limit-bar-extension",
+    "description": "See your Claude usage limit before you hit it. A tiny Chrome extension that shows your 5-hour and weekly usage as color-coded bars right next to the model picker on claude.ai. No account, no server, no tracking.",
+    "category": "Browser Extension",
+    "platforms": [
+      "chromium"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "usage-bars",
+      "5h-window",
+      "weekly-window",
+      "color-coded-alerts",
+      "hover-tooltips",
+      "local-rendering"
+    ],
+    "builtWithClaude": true,
+    "stars": 2,
+    "lastCommitDate": "2026-10-23T19:57:12Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-23T21:06:41.372Z"
+  },
+  {
+    "id": "Cristopheer96/claude-usage-swiftbar",
+    "name": "claude-usage-swiftbar",
+    "author": "Cristopheer96",
+    "repoURL": "https://github.com/Cristopheer96/claude-usage-swiftbar",
+    "description": "See your Claude plan usage (5-hour and weekly limits) in the macOS menu bar. SwiftBar plugin with one-line install.",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "menu-bar-display",
+      "usage-percentage",
+      "session-limit",
+      "weekly-limit",
+      "notifications",
+      "rate-limit-safe",
+      "auto-update",
+      "multi-language"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-23T21:00:29Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-23T21:06:41.372Z"
+  },
+  {
+    "id": "DimitriFourny/claude-usage-bar",
+    "name": "claude-usage-bar",
+    "author": "DimitriFourny",
+    "repoURL": "https://github.com/DimitriFourny/claude-usage-bar",
+    "description": "macOS menu bar app that shows how much of your Claude subscription quota is left",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "session-window-quota",
+      "weekly-quota",
+      "per-model-caps",
+      "refresh-on-wake",
+      "color-alerts",
+      "keychain-storage",
+      "usage-bar-visualization"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-23T17:45:38Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-23T21:06:41.372Z"
+  },
+  {
+    "id": "ibrarwtf/claude-limits",
+    "name": "claude-limits",
+    "author": "ibrarwtf",
+    "repoURL": "https://github.com/ibrarwtf/claude-limits",
+    "description": "Your Claude usage at a glance — native macOS menu-bar and Windows taskbar app",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "windows"
+    ],
+    "language": "C#",
+    "authMethod": [
+      "Browser Cookie Auto-detect",
+      "Session Key"
+    ],
+    "features": [
+      "usage-percentage",
+      "burn-rate-sparkline",
+      "quota-countdown",
+      "weekly-limits",
+      "pay-as-you-go",
+      "pace-projection",
+      "threshold-alerts"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-23T21:02:51Z",
+    "openIssues": 1,
+    "archived": false,
+    "lastFetched": "2026-10-23T21:06:41.372Z"
+  },
+  {
+    "id": "LeePham99x/pitboard",
+    "name": "pitboard",
+    "author": "LeePham99x",
+    "repoURL": "https://github.com/LeePham99x/pitboard",
+    "description": "Switch Claude Code, Codex and Claude Desktop between your own accounts. Pit Wall edition: F1 timing-tower menu bar panel and a notch island limit alert for macOS 27.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "account-switcher",
+      "limit-alerts",
+      "notch-island",
+      "pit-wall-panel",
+      "timing-tower",
+      "auto-switch",
+      "multi-account"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-23T20:55:13Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-23T21:06:41.372Z"
+  },
+  {
+    "id": "silveiralsv/claude-deck",
+    "name": "claude-deck",
+    "author": "silveiralsv",
+    "repoURL": "https://github.com/silveiralsv/claude-deck",
+    "description": "macOS menu bar deck for Claude Code sessions, with a pixel pet per session and one-click jump to its terminal tab",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "multi-account",
+      "session-status-display",
+      "pixel-pet-indicator",
+      "terminal-integration",
+      "session-cards",
+      "background-shell-tracking"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-23T19:40:06Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-23T21:06:41.372Z"
+  },
+  {
+    "id": "hiepkhach1005/VibeToken",
+    "name": "VibeToken",
+    "author": "hiepkhach1005",
+    "repoURL": "https://github.com/hiepkhach1005/VibeToken",
+    "description": "Super-light macOS menu bar app showing Claude Code & Codex quota, with token and cost stats",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "OAuth Token",
+      "Session Cookie"
+    ],
+    "features": [
+      "claude-code-quota",
+      "codex-quota",
+      "token-cost-stats",
+      "session-context",
+      "per-model-limits",
+      "trend-charts",
+      "budget-alerts",
+      "multi-account"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-23T18:09:33Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-23T21:06:41.372Z"
+  },
+  {
+    "id": "hai20112003/claude-account-switcher",
+    "name": "claude-account-switcher",
+    "author": "hai20112003",
+    "repoURL": "https://github.com/hai20112003/claude-account-switcher",
+    "description": "Switch between Claude Code and Codex CLI accounts from the macOS menu bar or the Windows system tray",
+    "category": "macOS Native",
+    "platforms": [
+      "macos",
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Session Cookie",
+      "Session Key"
+    ],
+    "features": [
+      "account-switching",
+      "live-usage-display",
+      "multi-account",
+      "auto-failover",
+      "keychain-storage",
+      "provider-separated-state"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-23T16:59:34Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-23T21:06:41.372Z"
   }
 ]

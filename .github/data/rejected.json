@@ -1984,5 +1984,17 @@
     "reason": "This app displays Claude Code session status and pending tasks, but tracks Claude Code activity (not usage metrics like tokens/costs/quotas), so it does not qualify as a usage tracker per the registry criteria.",
     "confidence": 0.85,
     "rejectedAt": "2026-10-23T16:37:11.319Z"
+  },
+  {
+    "id": "je4yfc/claude-catppuccin",
+    "reason": "This is a theme and statusline customization for Claude Code, not a usage tracker—it provides visual styling and display formatting but does not measure, display, or report Claude usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-23T21:06:25.520Z"
+  },
+  {
+    "id": "andrewlindstrom/sidetrack-releases",
+    "reason": "Sidetrack is a music player with Claude Code integration, not a usage tracker; it uses Claude as a feature (DJ) but does not display, measure, or report Claude usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-23T21:06:34.516Z"
   }
 ]
