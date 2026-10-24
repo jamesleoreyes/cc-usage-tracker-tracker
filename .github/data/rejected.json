@@ -2026,5 +2026,11 @@
     "reason": "This is a releases and auto-update feed repository for Tach, not the Tach application itself; it contains only distribution artifacts and update metadata, not the tracker implementation.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-24T15:31:17.660Z"
+  },
+  {
+    "id": "dvwinck/capybara-toolbox",
+    "reason": "These are Claude Code plugins for task automation, approval workflows, git management, and documentation checks—not for tracking Claude usage, tokens, costs, or quotas.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-24T20:22:50.956Z"
   }
 ]
