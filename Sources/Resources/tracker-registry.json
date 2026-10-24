@@ -199467,5 +199467,271 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-10-23T21:06:41.372Z"
+  },
+  {
+    "id": "melucasleite/claude-usage-widget",
+    "name": "claude-usage-widget",
+    "author": "melucasleite",
+    "repoURL": "https://github.com/melucasleite/claude-usage-widget",
+    "description": "macOS widget showing your Claude Code usage limits as Apple-Watch-style activity rings, with a limit forecast.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "activity-rings",
+      "usage-forecast",
+      "multi-limit-tracking",
+      "menu-bar-app",
+      "zero-setup-auth",
+      "rate-limit-backoff"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-24T01:38:25Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-24T03:36:34.632Z"
+  },
+  {
+    "id": "JohnTenno/TouchBarStats",
+    "name": "TouchBarStats",
+    "author": "JohnTenno",
+    "repoURL": "https://github.com/JohnTenno/TouchBarStats",
+    "description": "Live system stats on the MacBook Pro Touch Bar: CPU, GPU, RAM, temperatures, fan control and Claude usage. Native Swift, no Xcode needed.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "cpu-gpu-monitoring",
+      "temperature-monitoring",
+      "fan-control",
+      "claude-usage-display",
+      "touch-bar-integration",
+      "control-strip-widget",
+      "customizable-layout"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-24T03:29:03Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-24T03:36:34.632Z"
+  },
+  {
+    "id": "Rybchynskyi/claude-usage",
+    "name": "claude-usage",
+    "author": "Rybchynskyi",
+    "repoURL": "https://github.com/Rybchynskyi/claude-usage",
+    "description": "Claude Code usage limits in your macOS menu bar, with a timed keep-awake switch that survives a closed lid",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "session-window-tracking",
+      "weekly-limit-tracking",
+      "per-model-breakdown",
+      "keep-awake-mode",
+      "color-coded-alerts",
+      "auto-token-refresh",
+      "menu-bar-display"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-24T00:02:09Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-24T03:36:34.632Z"
+  },
+  {
+    "id": "barracodev/agent-usage-monitor",
+    "name": "agent-usage-monitor",
+    "author": "barracodev",
+    "repoURL": "https://github.com/barracodev/agent-usage-monitor",
+    "description": "Floating Windows widget for Claude Code and Codex usage limits",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "OpenTelemetry",
+      "API Key"
+    ],
+    "features": [
+      "usage-percentage",
+      "rate-limits",
+      "countdown-timer",
+      "dual-provider",
+      "light-dark-theme",
+      "status-line-integration"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-10-24T00:52:50Z",
+    "openIssues": 1,
+    "archived": false,
+    "lastFetched": "2026-10-24T03:36:34.632Z"
+  },
+  {
+    "id": "victorlcs87/plasma-ai-usage-widget",
+    "name": "plasma-ai-usage-widget",
+    "author": "victorlcs87",
+    "repoURL": "https://github.com/victorlcs87/plasma-ai-usage-widget",
+    "description": "KDE Plasma 6 widget for Claude Code, OpenAI Codex and Gemini usage quotas, reset times, multiple accounts and token history. Includes a local Python collector and Waybar support.",
+    "category": "Waybar Module",
+    "platforms": [
+      "linux"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Session Cookie",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "multi-account",
+      "quota-alerts",
+      "token-history",
+      "weekly-limits",
+      "reset-countdowns",
+      "desktop-notifications",
+      "csv-json-export",
+      "waybar-support"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-24T01:55:30Z",
+    "openIssues": 36,
+    "archived": false,
+    "lastFetched": "2026-10-24T03:36:34.632Z"
+  },
+  {
+    "id": "marcelomiyake/usage-hud",
+    "name": "usage-hud",
+    "author": "marcelomiyake",
+    "repoURL": "https://github.com/marcelomiyake/usage-hud",
+    "description": "Claude Code plugin that shows context window usage and 5-hour and weekly usage limits in a compact status line.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "TypeScript",
+    "authMethod": [],
+    "features": [
+      "context-window-display",
+      "session-usage-monitoring",
+      "5-hour-limit-tracking",
+      "weekly-limit-tracking",
+      "reset-countdown",
+      "zero-token-cost"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-23T21:50:18Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-24T03:36:34.632Z"
+  },
+  {
+    "id": "BerkkanB/perch",
+    "name": "perch",
+    "author": "BerkkanB",
+    "repoURL": "https://github.com/BerkkanB/perch",
+    "description": "Native macOS app for the notch and menu bar: keep your Mac awake with the lid closed and follow your Claude Code sessions",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "claude-code-sessions",
+      "usage-limits-display",
+      "session-tracking",
+      "approval-notifications",
+      "stay-awake-toggle",
+      "notch-integration"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-23T23:20:10Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-24T03:36:34.632Z"
+  },
+  {
+    "id": "hoberobin/1up",
+    "name": "1up",
+    "author": "hoberobin",
+    "repoURL": "https://github.com/hoberobin/1up",
+    "description": "macOS menu bar app that shows the state of every Claude Code session: working, needs you, done. Five arcade themes.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "session-state-display",
+      "arcade-themes",
+      "menu-bar-app",
+      "local-only",
+      "no-permissions"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-23T22:37:20Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-24T03:36:34.632Z"
+  },
+  {
+    "id": "Cristopheer96/ai-usage-meter",
+    "name": "ai-usage-meter",
+    "author": "Cristopheer96",
+    "repoURL": "https://github.com/Cristopheer96/ai-usage-meter",
+    "description": "See your Claude and Codex usage limits (5-hour and weekly) in the macOS menu bar, with alerts at 90% and when they reset. One-line install, no Homebrew needed.",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Session Cookie",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "5h-session-limit",
+      "weekly-limit",
+      "reset-notifications",
+      "90-percent-alerts",
+      "multi-provider",
+      "swiftbar-plugin",
+      "keychain-integration"
+    ],
+    "builtWithClaude": null,
+    "stars": 1,
+    "lastCommitDate": "2026-10-23T21:47:45Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-24T03:36:34.632Z"
   }
 ]

@@ -1996,5 +1996,17 @@
     "reason": "Sidetrack is a music player with Claude Code integration, not a usage tracker; it uses Claude as a feature (DJ) but does not display, measure, or report Claude usage metrics.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-23T21:06:34.516Z"
+  },
+  {
+    "id": "Screddyice/claude-code-harness",
+    "reason": "This is a starter harness and scaffolding repository for Claude Code workflows, providing hooks, statusline utilities, and template configuration, but does not display, measure, or report Claude usage as a feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-24T03:36:18.811Z"
+  },
+  {
+    "id": "a1murt/airbag",
+    "reason": "Airbag is a safety/undo tool for AI agents that snapshots projects before commands run, but does not display, measure, or report Claude usage as a feature—it focuses on project file recovery rather than usage tracking.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-24T03:36:31.378Z"
   }
 ]
