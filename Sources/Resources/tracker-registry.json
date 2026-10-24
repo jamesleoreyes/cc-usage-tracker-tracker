@@ -200125,5 +200125,271 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-10-24T10:27:25.028Z"
+  },
+  {
+    "id": "abderra7mane/claude-usage-bar-releases",
+    "name": "claude-usage-bar-releases",
+    "author": "abderra7mane",
+    "repoURL": "https://github.com/abderra7mane/claude-usage-bar-releases",
+    "description": "https://cc-usage-bar.vercel.app/",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Unknown",
+    "authMethod": [
+      "OAuth Token",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "session-usage-display",
+      "weekly-quota-tracking",
+      "cost-estimation",
+      "multi-account-support",
+      "cache-expiry-alerts",
+      "usage-notifications",
+      "live-session-monitor",
+      "theme-customization"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-24T13:17:40Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-24T15:31:17.661Z"
+  },
+  {
+    "id": "okisooo/fleet",
+    "name": "fleet",
+    "author": "okisooo",
+    "repoURL": "https://github.com/okisooo/fleet",
+    "description": "AI usage monitor and quota tracker for Windows 11. A system tray app for Claude Code, Codex, Grok and Antigravity, with reset times and API balances.",
+    "category": "Statusline",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "API Key",
+      "Session Key",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "multi-provider",
+      "quota-meters",
+      "reset-times",
+      "api-balances",
+      "rate-limit-headers",
+      "claude-code",
+      "local-clients"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-24T15:24:18Z",
+    "openIssues": 1,
+    "archived": false,
+    "lastFetched": "2026-10-24T15:31:17.661Z"
+  },
+  {
+    "id": "masa-san-jp/ai-limit-monitor",
+    "name": "ai-limit-monitor",
+    "author": "masa-san-jp",
+    "repoURL": "https://github.com/masa-san-jp/ai-limit-monitor",
+    "description": "Experimental macOS menu bar monitor for Claude Code and Codex usage limits, with a Grok dashboard window. MIT licensed.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "Session Cookie",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "claude-usage-limits",
+      "codex-limits",
+      "grok-limits",
+      "menubar-display",
+      "rate-limit-countdown",
+      "multi-service"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-24T11:38:18Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-24T15:31:17.661Z"
+  },
+  {
+    "id": "klavdiy-core/limit-forecast",
+    "name": "limit-forecast",
+    "author": "klavdiy-core",
+    "repoURL": "https://github.com/klavdiy-core/limit-forecast",
+    "description": "See your Claude Code plan limit running out before it does: pace, time to 100% vs reset, and a nudge to commit and hand off near the end. No tokens, stdlib only.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "Python",
+    "authMethod": [],
+    "features": [
+      "rate-limit-forecasting",
+      "pace-tracking",
+      "handoff-generation",
+      "claude-code-hooks",
+      "burndown-alerts"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-24T15:29:12Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-24T15:31:17.661Z"
+  },
+  {
+    "id": "elythi0n/whiskers",
+    "name": "whiskers",
+    "author": "elythi0n",
+    "repoURL": "https://github.com/elythi0n/whiskers",
+    "description": "A tiny status line for Claude Code: model, effort, usage limits, token pace, and context at a glance.",
+    "category": "Claude Code Plugin",
+    "platforms": [],
+    "language": "TypeScript",
+    "authMethod": [],
+    "features": [
+      "model-display",
+      "usage-limits",
+      "token-pace",
+      "context-window",
+      "burn-rate-alerts",
+      "effort-level",
+      "edits-tracking"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-24T14:37:16Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-24T15:31:17.661Z"
+  },
+  {
+    "id": "Pumpernickel01/claude-mods",
+    "name": "claude-mods",
+    "author": "Pumpernickel01",
+    "repoURL": "https://github.com/Pumpernickel01/claude-mods",
+    "description": "Claude Code mods: hooks, skills, subagents, MCP servers, status line and agent monitor for macOS terminals",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [],
+    "features": [
+      "statusline-display",
+      "cost-tracking",
+      "context-percentage",
+      "agent-monitor",
+      "token-metrics",
+      "live-tui",
+      "git-integration"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-24T13:58:30Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-24T15:31:17.661Z"
+  },
+  {
+    "id": "nicothlt/Paceline",
+    "name": "Paceline",
+    "author": "nicothlt",
+    "repoURL": "https://github.com/nicothlt/Paceline",
+    "description": "Token pacing for Claude & Codex agents: menu bar usage limits and a budget for Claude Code agents. No credentials, no network.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "session-limits",
+      "weekly-limits",
+      "burn-rate-alerts",
+      "budget-pacing",
+      "multi-provider",
+      "live-updates",
+      "agent-skill"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-24T15:18:41Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-24T15:31:17.661Z"
+  },
+  {
+    "id": "IZZY-Agency/ration",
+    "name": "ration",
+    "author": "IZZY-Agency",
+    "repoURL": "https://github.com/IZZY-Agency/ration",
+    "description": "Every Claude, Codex and Cursor account's usage limits in your macOS menu bar, with one-click Claude Code and Codex account switching.",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "usage-monitoring",
+      "rate-limit-alerts",
+      "account-switching",
+      "multi-account",
+      "burn-rate-history",
+      "reset-countdowns",
+      "spending-alerts"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-24T14:59:49Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-24T15:31:17.661Z"
+  },
+  {
+    "id": "mammut001/kanjo",
+    "name": "kanjo",
+    "author": "mammut001",
+    "repoURL": "https://github.com/mammut001/kanjo",
+    "description": "How much AI money did each git repo cost? macOS menu bar app + CLI for Claude Code, Codex and Antigravity logs.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "cost-tracking-per-repo",
+      "multi-agent",
+      "8-week-burn-strip",
+      "time-ranges",
+      "repo-treemap",
+      "session-detail"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-24T14:33:39Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-24T15:31:17.661Z"
   }
 ]

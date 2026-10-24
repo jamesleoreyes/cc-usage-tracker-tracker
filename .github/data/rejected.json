@@ -2014,5 +2014,17 @@
     "reason": "mad is a multi-agent orchestrator and router that detects Claude rate limits and automatically hands off work to Google AI Ultra, but does not display, measure, or report Claude usage as a substantial feature—it only consumes usage data to trigger routing decisions.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-24T10:26:58.921Z"
+  },
+  {
+    "id": "PepijnSenders/ccstatusline-rs",
+    "reason": "This is a performance-optimized port of ccstatusline that renders status information in Claude Code, but does not display or measure Claude usage metrics as a core feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-24T15:30:59.575Z"
+  },
+  {
+    "id": "ShaneBurkhart/tach-releases",
+    "reason": "This is a releases and auto-update feed repository for Tach, not the Tach application itself; it contains only distribution artifacts and update metadata, not the tracker implementation.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-24T15:31:17.660Z"
   }
 ]
