@@ -2008,5 +2008,11 @@
     "reason": "Airbag is a safety/undo tool for AI agents that snapshots projects before commands run, but does not display, measure, or report Claude usage as a feature—it focuses on project file recovery rather than usage tracking.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-24T03:36:31.378Z"
+  },
+  {
+    "id": "bsommers/mad",
+    "reason": "mad is a multi-agent orchestrator and router that detects Claude rate limits and automatically hands off work to Google AI Ultra, but does not display, measure, or report Claude usage as a substantial feature—it only consumes usage data to trigger routing decisions.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-24T10:26:58.921Z"
   }
 ]
