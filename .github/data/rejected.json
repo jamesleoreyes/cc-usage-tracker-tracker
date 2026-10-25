@@ -2038,5 +2038,23 @@
     "reason": "This is a Claude Code sidebar plugin for English language learning and productivity features; while it tracks some telemetry internally (learning log, corrections), its primary purpose is teaching English and offering productivity controls rather than displaying Claude usage metrics as a substantial feature.",
     "confidence": 0.85,
     "rejectedAt": "2026-10-25T03:33:15.358Z"
+  },
+  {
+    "id": "cdaz-dev/chroma-crab",
+    "reason": "This is a Claude Code launcher that assigns colors to windows and displays context usage via a status bar, but does not track, measure, or report Claude usage (tokens, cost, quotas) as a feature—it manages visual session differentiation and shows context fill percentage only.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-25T15:40:51.832Z"
+  },
+  {
+    "id": "abdulfatiraziz/storagebar",
+    "reason": "StorageBar is a disk space analyzer and cleaner for macOS that helps manage storage used by development tools, but does not display, measure, or report Claude usage as a feature; it merely helps clean up Claude Code worktrees as a side benefit.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-25T15:41:04.553Z"
+  },
+  {
+    "id": "leffen-fjordline/fjordhop",
+    "reason": "Fjordhop is a session manager and switcher for Claude Code in Ghostty—it navigates between Claude sessions but does not display, measure, or report Claude usage metrics (tokens, cost, rate limits, quotas) as a feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-25T15:41:08.065Z"
   }
 ]
