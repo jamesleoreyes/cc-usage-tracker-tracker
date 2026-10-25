@@ -200642,5 +200642,210 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-10-24T20:23:03.394Z"
+  },
+  {
+    "id": "yusaitajiri/peak-monitor-for-claude",
+    "name": "peak-monitor-for-claude",
+    "author": "yusaitajiri",
+    "repoURL": "https://github.com/yusaitajiri/peak-monitor-for-claude",
+    "description": "Claude Code plugin: find Claude's peak hours from your own usage — cost of the 5-hour limit by hour of day",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "peak-hours-analysis",
+      "5-hour-limit-tracking",
+      "hourly-cost-breakdown",
+      "usage-by-time-of-day",
+      "api-pricing-comparison",
+      "local-storage"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-25T01:18:29Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-25T03:33:24.598Z"
+  },
+  {
+    "id": "marcusviniciusf/ai-usage-bar",
+    "name": "ai-usage-bar",
+    "author": "marcusviniciusf",
+    "repoURL": "https://github.com/marcusviniciusf/ai-usage-bar",
+    "description": "macOS menu bar spend tracker for Cursor, Claude Code and OpenCode",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "multi-provider-tracking",
+      "menu-bar-display",
+      "usage-costs",
+      "subscription-quotas",
+      "budget-alerts",
+      "session-history",
+      "burn-rate-forecasting",
+      "multi-tool-detection"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-24T21:41:20Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-25T03:33:24.598Z"
+  },
+  {
+    "id": "itspriddle/jccs",
+    "name": "jccs",
+    "author": "itspriddle",
+    "repoURL": "https://github.com/itspriddle/jccs",
+    "description": "A Claude Code statusline of my very own",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Rust",
+    "authMethod": [],
+    "features": [
+      "claude-usage-display"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-25T03:05:43Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-25T03:33:24.598Z"
+  },
+  {
+    "id": "adrien-ln/agentline",
+    "name": "agentline",
+    "author": "adrien-ln",
+    "repoURL": "https://github.com/adrien-ln/agentline",
+    "description": "The Claude Code statusline: model, Git, PR, context and quotas on two lines, in 49 themes (per project or per branch), with an animated theme picker. One Go binary for Windows, Linux and macOS, no network calls, English and French.",
+    "category": "Statusline",
+    "platforms": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "language": "Go",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "claude-code-context",
+      "quota-display",
+      "model-info",
+      "git-branch-status",
+      "pr-status",
+      "49-themes",
+      "theme-picker",
+      "multi-branch-config"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-25T00:55:46Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-25T03:33:24.598Z"
+  },
+  {
+    "id": "Sagar-CK/sub-tracker",
+    "name": "sub-tracker",
+    "author": "Sagar-CK",
+    "repoURL": "https://github.com/Sagar-CK/sub-tracker",
+    "description": "Open-source macOS notch and menu bar app for AI subscription usage. Codex, Claude, and Z.ai.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "Session Cookie",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "multi-provider",
+      "usage-display",
+      "notch-menu-bar",
+      "quota-tracking",
+      "weekly-allowances",
+      "account-switching"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-25T03:29:41Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-25T03:33:24.598Z"
+  },
+  {
+    "id": "ElsiKora/Claude-Switcher",
+    "name": "Claude-Switcher",
+    "author": "ElsiKora",
+    "repoURL": "https://github.com/ElsiKora/Claude-Switcher",
+    "description": "🔁 Native macOS menu bar app that switches the Claude desktop app between accounts — shared chats, work that continues after a switch, live limits and usage analytics. Unofficial.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "account-switcher",
+      "live-limits",
+      "usage-analytics",
+      "cost-estimation",
+      "multi-account",
+      "automatic-switching",
+      "shared-chats"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-25T02:28:58Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-25T03:33:24.598Z"
+  },
+  {
+    "id": "ethicalsumit/token-meter",
+    "name": "token-meter",
+    "author": "ethicalsumit",
+    "repoURL": "https://github.com/ethicalsumit/token-meter",
+    "description": "Claude mod that shows the current chat's token usage(/tokens)",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "TypeScript",
+    "authMethod": [],
+    "features": [
+      "token-counting",
+      "cache-aware-weighting",
+      "context-window-display",
+      "session-cost",
+      "effective-tokens",
+      "subagent-tracking"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-24T23:01:30Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-25T03:33:24.598Z"
   }
 ]

@@ -2032,5 +2032,11 @@
     "reason": "These are Claude Code plugins for task automation, approval workflows, git management, and documentation checks—not for tracking Claude usage, tokens, costs, or quotas.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-24T20:22:50.956Z"
+  },
+  {
+    "id": "rapha-rodrigues/cc-esol",
+    "reason": "This is a Claude Code sidebar plugin for English language learning and productivity features; while it tracks some telemetry internally (learning log, corrections), its primary purpose is teaching English and offering productivity controls rather than displaying Claude usage metrics as a substantial feature.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-10-25T03:33:15.358Z"
   }
 ]
