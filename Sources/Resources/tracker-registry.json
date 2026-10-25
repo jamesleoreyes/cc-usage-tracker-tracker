@@ -201388,5 +201388,254 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-10-25T15:41:20.624Z"
+  },
+  {
+    "id": "ixolt/geekclock-bar",
+    "name": "geekclock-bar",
+    "author": "ixolt",
+    "repoURL": "https://github.com/ixolt/geekclock-bar",
+    "description": "macOS menu bar app that shows your Claude usage limits and mirrors them to a GeekMagic SmallTV-Ultra desk clock",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "claude-usage-display",
+      "rate-limit-tracking",
+      "5-hour-window",
+      "weekly-limits",
+      "per-model-limits",
+      "hardware-sync",
+      "menu-bar-widget",
+      "reset-countdown"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-25T19:46:18Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-25T20:30:09.740Z"
+  },
+  {
+    "id": "didiksudyana/claude-usage",
+    "name": "claude-usage",
+    "author": "didiksudyana",
+    "repoURL": "https://github.com/didiksudyana/claude-usage",
+    "description": "macOS menu bar app showing your Claude plan session and weekly usage limits live",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "session-limits",
+      "weekly-quota",
+      "pace-projection",
+      "claude-code-activity",
+      "local-token-stats",
+      "24h-chart",
+      "multi-tier-alerts"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-25T16:32:13Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-25T20:30:09.740Z"
+  },
+  {
+    "id": "Steven-Cleys/claude-code-monitor",
+    "name": "claude-code-monitor",
+    "author": "Steven-Cleys",
+    "repoURL": "https://github.com/Steven-Cleys/claude-code-monitor",
+    "description": "Self-hosted observability for Claude Code: a live agent dashboard plus Grafana cost and usage metrics",
+    "category": "Web Dashboard",
+    "platforms": [
+      "macos",
+      "linux",
+      "web"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "OpenTelemetry",
+      "Traffic Capture"
+    ],
+    "features": [
+      "live-agent-dashboard",
+      "cost-tracking",
+      "token-counting",
+      "grafana-metrics",
+      "session-monitoring",
+      "subagent-tree",
+      "context-window-fill",
+      "multi-session"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-25T19:34:44Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-25T20:30:09.740Z"
+  },
+  {
+    "id": "pyyxzi/tokenlens",
+    "name": "tokenlens",
+    "author": "pyyxzi",
+    "repoURL": "https://github.com/pyyxzi/tokenlens",
+    "description": "Local-first AI usage & cost workbench for Windows. One unified ledger of tokens, cost, models and sessions across 25+ AI coding tools (Claude Code, Codex CLI, Gemini CLI...). token usage tracker / token 统计 / AI 用量统计 / 费用统计",
+    "category": "Electron/Desktop",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "multi-tool-ledger",
+      "cost-estimation",
+      "local-sqlite",
+      "25-plus-sources",
+      "incremental-scan",
+      "csv-json-import",
+      "ai-assistant",
+      "signed-updates"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-25T20:01:53Z",
+    "openIssues": 11,
+    "archived": false,
+    "lastFetched": "2026-10-25T20:30:09.740Z"
+  },
+  {
+    "id": "diegomarty/tokendex",
+    "name": "tokendex",
+    "author": "diegomarty",
+    "repoURL": "https://github.com/diegomarty/tokendex",
+    "description": "Your AI coding tokens hatch, raise and catch Pokémon in VS Code. A 100% local usage tracker for Claude Code, Codex, Gemini and more.",
+    "category": "VS Code Extension",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "multi-provider-support",
+      "local-parsing",
+      "token-counting",
+      "cost-calculation",
+      "rate-limit-tracking",
+      "gamification",
+      "pokémon-themed",
+      "shiny-variants"
+    ],
+    "builtWithClaude": null,
+    "stars": 4,
+    "lastCommitDate": "2026-10-25T18:57:20Z",
+    "openIssues": 2,
+    "archived": false,
+    "lastFetched": "2026-10-25T20:30:09.740Z"
+  },
+  {
+    "id": "MankhongGarden/claude-code-mods-field-notes",
+    "name": "claude-code-mods-field-notes",
+    "author": "MankhongGarden",
+    "repoURL": "https://github.com/MankhongGarden/claude-code-mods-field-notes",
+    "description": "Field notes on Claude Code mods on Windows after two weeks of daily use: a context/quota fuel bar, a Thai UI mod, background-task and git bands, a pasted-image preview, a Matrix boot intro and a safe updater, plus what failed and why.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "windows"
+    ],
+    "language": "TypeScript",
+    "authMethod": [],
+    "features": [
+      "context-quota-display",
+      "fuel-bar",
+      "thai-ui-mod",
+      "task-band",
+      "git-band",
+      "image-preview",
+      "matrix-intro",
+      "safe-updater"
+    ],
+    "builtWithClaude": true,
+    "stars": 2,
+    "lastCommitDate": "2026-10-25T18:49:11Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-25T20:30:09.740Z"
+  },
+  {
+    "id": "termfoundry/claude-code-tally",
+    "name": "claude-code-tally",
+    "author": "termfoundry",
+    "repoURL": "https://github.com/termfoundry/claude-code-tally",
+    "description": "Claude Code status line: limit pace, per-model tokens, turns and active time, counted from the transcripts.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "per-model-tokens",
+      "context-fill-tracking",
+      "rate-limit-pacing",
+      "session-totals",
+      "cost-calculation",
+      "tool-call-counts",
+      "multi-model-support",
+      "git-integration"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-25T17:13:01Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-25T20:30:09.740Z"
+  },
+  {
+    "id": "chaekim96/token-fuel",
+    "name": "token-fuel",
+    "author": "chaekim96",
+    "repoURL": "https://github.com/chaekim96/token-fuel",
+    "description": "Live context-window fuel gauge for Claude Code and Codex (macOS menu bar + floating window)",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "context-window-gauge",
+      "menu-bar-display",
+      "floating-window",
+      "token-accounting",
+      "multi-session-tracking",
+      "turn-estimation",
+      "usage-trends"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-25T19:37:54Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-25T20:30:09.740Z"
   }
 ]

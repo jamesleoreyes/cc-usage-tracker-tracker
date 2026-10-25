@@ -2056,5 +2056,11 @@
     "reason": "Fjordhop is a session manager and switcher for Claude Code in Ghostty—it navigates between Claude sessions but does not display, measure, or report Claude usage metrics (tokens, cost, rate limits, quotas) as a feature.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-25T15:41:08.065Z"
+  },
+  {
+    "id": "geheime/bucket",
+    "reason": "Bucket is a productivity tool for managing screenshots with Claude Code, but does not display, measure, or report Claude usage (tokens, cost, rate limits, quotas) as a feature—it is a clipboard utility, not a usage tracker.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-25T20:30:09.739Z"
   }
 ]
