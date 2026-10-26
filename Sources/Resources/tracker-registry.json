@@ -201646,5 +201646,191 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-10-25T20:30:09.740Z"
+  },
+  {
+    "id": "Sipheren/usage-bar",
+    "name": "usage-bar",
+    "author": "Sipheren",
+    "repoURL": "https://github.com/Sipheren/usage-bar",
+    "description": "Menu bar app showing Claude usage for multiple accounts (macOS; Windows planned)",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "windows"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "multi-account",
+      "session-limits",
+      "weekly-limits",
+      "pace-markers",
+      "cost-estimates",
+      "rate-limit-friendly",
+      "menu-bar-display"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-26T02:54:28Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-26T03:35:56.433Z"
+  },
+  {
+    "id": "Gillysuit/claude-usage-bar",
+    "name": "claude-usage-bar",
+    "author": "Gillysuit",
+    "repoURL": "https://github.com/Gillysuit/claude-usage-bar",
+    "description": "macOS menu bar app showing your Claude plan usage (session + weekly), like /usage in Claude Code",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "session-weekly-limits",
+      "per-model-limits",
+      "usage-by-surface",
+      "extra-usage",
+      "animated-indicator",
+      "rate-limit-aware"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-26T02:44:51Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-26T03:35:56.433Z"
+  },
+  {
+    "id": "SamStull9007/limitcast",
+    "name": "limitcast",
+    "author": "SamStull9007",
+    "repoURL": "https://github.com/SamStull9007/limitcast",
+    "description": "Stop getting locked out of Claude Code: runout forecasts, a subagent guard, and starting-context trim. Local-only CLI for Claude Code and Codex.",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "runout-forecasts",
+      "burn-rate-tracking",
+      "subagent-guard",
+      "context-trim-advisor",
+      "token-usage-report",
+      "multi-model-support",
+      "cost-tracking",
+      "daily-allowance"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-26T03:32:39Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-26T03:35:56.433Z"
+  },
+  {
+    "id": "HenryLop/usage-brake",
+    "name": "usage-brake",
+    "author": "HenryLop",
+    "repoURL": "https://github.com/HenryLop/usage-brake",
+    "description": "Usage readout and daily brake for Claude Code plan limits: 5-hour and weekly percent, run-out projection, alarms the agent can't switch off.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "OAuth Token",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "usage-readout",
+      "daily-brake",
+      "5-hour-window",
+      "weekly-percent",
+      "run-out-projection",
+      "alarms",
+      "pretooluse-hook",
+      "hard-stop"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-26T02:18:32Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-26T03:35:56.433Z"
+  },
+  {
+    "id": "bubblebath99/tokenmeter",
+    "name": "tokenmeter",
+    "author": "bubblebath99",
+    "repoURL": "https://github.com/bubblebath99/tokenmeter",
+    "description": "A quiet macOS menu bar gauge for your Claude plan usage limits",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "weekly-limit-gauge",
+      "session-window-gauge",
+      "color-coded-bars",
+      "usage-details-modal",
+      "minimal-network-overhead"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-26T01:15:28Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-26T03:35:56.433Z"
+  },
+  {
+    "id": "PresWiFi/hangar",
+    "name": "hangar",
+    "author": "PresWiFi",
+    "repoURL": "https://github.com/PresWiFi/hangar",
+    "description": "Self-hosted web UI for Claude Code sessions: tmux-backed terminals you can pick up from any device, transcripts, and a plan-usage dashboard. Runs in Docker.",
+    "category": "Web Dashboard",
+    "platforms": [
+      "web"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "usage-dashboard",
+      "token-activity",
+      "session-history",
+      "cost-tracking",
+      "rate-limit-alerts",
+      "multi-device-access",
+      "transcript-view",
+      "file-uploads"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-25T22:33:42Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-26T03:35:56.433Z"
   }
 ]
