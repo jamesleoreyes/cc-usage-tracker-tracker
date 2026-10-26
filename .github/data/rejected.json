@@ -2080,5 +2080,29 @@
     "reason": "MCP Doctor monitors MCP server authentication status across Claude Code, Codex, and Cursor—it is a health/status checker for MCP servers, not a Claude usage tracker; it does not display, measure, or report Claude token usage, costs, or quotas.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-26T12:25:29.873Z"
+  },
+  {
+    "id": "lanz/tenable-api-field-guide",
+    "reason": "This is an agent skill for AI coding assistants to write correct Tenable API code; it provides reference guidance but does not display, measure, or report Claude usage.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-26T22:24:41.607Z"
+  },
+  {
+    "id": "SyaPratama/9router-rust",
+    "reason": "9Router is a multi-provider AI gateway and token optimizer, not a Claude usage tracker — it routes requests and compresses tokens but does not display, measure, or report Claude usage as a feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-26T22:24:44.747Z"
+  },
+  {
+    "id": "pradiv-kumar/claude-tower",
+    "reason": "This project monitors Claude Code session states and displays them in a menu bar + plugin interface, but does not measure, display, or report Claude API usage metrics (tokens, cost, rate limits); it tracks session activity and state, not usage consumption.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-26T22:24:57.239Z"
+  },
+  {
+    "id": "SquirrelThatIsScreaming/ContinueTimer",
+    "reason": "This is a scheduler/automation tool for Claude Code and Codex that monitors usage limits and automatically resumes work, but it does not display, measure, or report Claude usage as a feature—it only automates continuation after limit resets.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-26T22:25:10.216Z"
   }
 ]
