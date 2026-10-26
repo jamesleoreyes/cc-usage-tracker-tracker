@@ -2062,5 +2062,23 @@
     "reason": "Bucket is a productivity tool for managing screenshots with Claude Code, but does not display, measure, or report Claude usage (tokens, cost, rate limits, quotas) as a feature—it is a clipboard utility, not a usage tracker.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-25T20:30:09.739Z"
+  },
+  {
+    "id": "baobien-dev/claude-dotfiles",
+    "reason": "This is a personal dotfiles collection for Claude Code configuration (rules, statusline scripts, installer) but does not display, measure, or report Claude usage metrics—it configures agent behavior and UI only.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-26T12:25:21.141Z"
+  },
+  {
+    "id": "rishavkr08/SysWatch",
+    "reason": "SysWatch is a system resource monitor with Claude Code session awareness and an 'Ask Claude' helper feature, but it does not display, measure, or report Claude usage (tokens, cost, sessions, quotas) as a substantial feature—it monitors CPU, memory, and disk instead.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-10-26T12:25:26.946Z"
+  },
+  {
+    "id": "AbziBzi/mcp-doctor",
+    "reason": "MCP Doctor monitors MCP server authentication status across Claude Code, Codex, and Cursor—it is a health/status checker for MCP servers, not a Claude usage tracker; it does not display, measure, or report Claude token usage, costs, or quotas.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-26T12:25:29.873Z"
   }
 ]
