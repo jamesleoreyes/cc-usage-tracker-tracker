@@ -2164,5 +2164,11 @@
     "reason": "This is a Claude Code session launcher and navigator, not a usage tracker—it helps jump into recent sessions but does not display, measure, or report Claude usage metrics like tokens, costs, rate limits, or quotas.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-27T17:37:41.847Z"
+  },
+  {
+    "id": "liam-machine/lid-agents",
+    "reason": "This is a macOS utility for keeping agents running with lid closed, not a Claude usage tracker—it manages system sleep state but does not display, measure, or report Claude usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-27T21:54:54.041Z"
   }
 ]
