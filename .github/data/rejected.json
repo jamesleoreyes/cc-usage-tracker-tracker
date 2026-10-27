@@ -2122,5 +2122,29 @@
     "reason": "ProcBar monitors Claude Code sessions and processes but does not display, measure, or report Claude usage metrics (tokens, cost, rate limits, quotas); it is a process manager and resource cleaner, not a usage tracker.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-27T04:01:23.327Z"
+  },
+  {
+    "id": "isene/deck",
+    "reason": "deck is a Claude Code terminal frontend with paned UI for answers, tool logs, and status display, but does not measure or report Claude usage metrics like tokens, cost, or rate limits.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-27T11:44:45.000Z"
+  },
+  {
+    "id": "tutu-studio/ClaudeSwitch",
+    "reason": "This is an account switcher for Claude Code with no usage display, measurement, or reporting functionality, so it does not qualify as a usage tracker.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-27T11:44:50.555Z"
+  },
+  {
+    "id": "nikotsy/emergency-mac",
+    "reason": "This is a macOS system monitor that triggers Claude Code cleanup sessions but does not display, measure, or report Claude usage (tokens, costs, rate limits) as a feature; it monitors Mac resources instead.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-10-27T11:44:56.883Z"
+  },
+  {
+    "id": "Ezreal777/PieDrop",
+    "reason": "PieDrop is a file-path injection utility for AI CLI sessions (Claude Code, Codex, Gemini) that detects and manages active terminal sessions, but does not track, measure, or report Claude usage metrics—it only facilitates passing file context to running sessions.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-27T11:45:03.125Z"
   }
 ]
