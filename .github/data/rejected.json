@@ -2104,5 +2104,23 @@
     "reason": "This is a scheduler/automation tool for Claude Code and Codex that monitors usage limits and automatically resumes work, but it does not display, measure, or report Claude usage as a feature—it only automates continuation after limit resets.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-26T22:25:10.216Z"
+  },
+  {
+    "id": "rachael/claude-code-tui-hud-extender-statusline",
+    "reason": "This is a UI customization/extension framework for Claude Code and Codex that provides statusline and HUD components, but does not display, measure, or report Claude usage (tokens, costs, quotas, etc.) as a substantial feature.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-10-27T04:01:07.658Z"
+  },
+  {
+    "id": "rachael/codex-tui-hud-extender-statusline",
+    "reason": "This is a UI customization/extension library for Codex CLI and Claude Code with statusline and info-pane modules, not a Claude usage tracker; it provides interface layout presets without displaying or measuring usage metrics.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-10-27T04:01:10.961Z"
+  },
+  {
+    "id": "waleedrizwan/procbar",
+    "reason": "ProcBar monitors Claude Code sessions and processes but does not display, measure, or report Claude usage metrics (tokens, cost, rate limits, quotas); it is a process manager and resource cleaner, not a usage tracker.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-27T04:01:23.327Z"
   }
 ]

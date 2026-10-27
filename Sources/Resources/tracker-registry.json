@@ -203056,5 +203056,277 @@
     "openIssues": 1,
     "archived": false,
     "lastFetched": "2026-10-26T22:25:13.369Z"
+  },
+  {
+    "id": "ernie0/ClaudeUsageMonitor",
+    "name": "ClaudeUsageMonitor",
+    "author": "ernie0",
+    "repoURL": "https://github.com/ernie0/ClaudeUsageMonitor",
+    "description": "Claude 額度小幫手：桌面浮窗看 Claude 方案額度，加上不開 VS Code 就能下指令的工作流小視窗（非官方工具）",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows",
+      "macos"
+    ],
+    "language": "C#",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "quota-monitoring",
+      "token-tracking",
+      "usage-analytics",
+      "burn-rate-alerts",
+      "cost-estimation",
+      "claude-workflow",
+      "export-csv"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-26T23:47:56Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-27T04:01:29.204Z"
+  },
+  {
+    "id": "InsightfulAnalytics/claude_usage_widget",
+    "name": "claude_usage_widget",
+    "author": "InsightfulAnalytics",
+    "repoURL": "https://github.com/InsightfulAnalytics/claude_usage_widget",
+    "description": "Windows tray icon and desktop panel showing your Claude plan usage limits and reset times",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "session-limits",
+      "weekly-limits",
+      "reset-times",
+      "rate-limit-backoff",
+      "tray-icon",
+      "desktop-panel"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-26T22:38:10Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-27T04:01:29.204Z"
+  },
+  {
+    "id": "thekaroe-thailand/system-monitor",
+    "name": "system-monitor",
+    "author": "thekaroe-thailand",
+    "repoURL": "https://github.com/thekaroe-thailand/system-monitor",
+    "description": "Tiny always-on-top Windows gadget: CPU/RAM/Disk/Net, Claude Code usage, desk calendar (PowerShell + WPF)",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "PowerShell",
+    "authMethod": [
+      "Traffic Capture"
+    ],
+    "features": [
+      "claude-code-usage",
+      "cpu-ram-disk-network",
+      "always-on-top",
+      "calendar",
+      "statusline-integration"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-27T03:43:54Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-27T04:01:29.204Z"
+  },
+  {
+    "id": "lindong28/agent-monitor",
+    "name": "agent-monitor",
+    "author": "lindong28",
+    "repoURL": "https://github.com/lindong28/agent-monitor",
+    "description": "Personal CLI and dashboard for Claude Code and Codex usage, sessions, estimated costs and quota observations.",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "API Key"
+    ],
+    "features": [
+      "claude-code-tracking",
+      "session-analysis",
+      "cost-estimation",
+      "quota-monitoring",
+      "multi-machine-aggregation",
+      "web-dashboard"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-27T03:19:30Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-27T04:01:29.204Z"
+  },
+  {
+    "id": "01-1/statusline",
+    "name": "statusline",
+    "author": "01-1",
+    "repoURL": "https://github.com/01-1/statusline",
+    "description": "Color-coded Claude Code status line with usage-limit burn-rate warnings",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "burn-rate-alerts",
+      "context-usage",
+      "token-tracking",
+      "usage-limits",
+      "session-stats",
+      "effort-level",
+      "cache-metrics"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-27T00:54:10Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-27T04:01:29.204Z"
+  },
+  {
+    "id": "decentralizeallengineering/pacekeeper",
+    "name": "pacekeeper",
+    "author": "decentralizeallengineering",
+    "repoURL": "https://github.com/decentralizeallengineering/pacekeeper",
+    "description": "Claude Code usage pacing: 5h and 7d meters from the status line, %/hour targets, budgets, spend by project, and a wind-down hook.",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "5h-7d-rate-limits",
+      "pacing-targets",
+      "per-project-spend",
+      "token-cost-weights",
+      "wind-down-hooks",
+      "reset-tracking",
+      "burn-rate-alerts"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-27T03:55:42Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-27T04:01:29.204Z"
+  },
+  {
+    "id": "chenbstack/switchboard",
+    "name": "switchboard",
+    "author": "chenbstack",
+    "repoURL": "https://github.com/chenbstack/switchboard",
+    "description": "macOS menu bar app to switch between multiple Claude Code & Codex accounts in one click, with live 5-hour / weekly quota. 菜单栏 Claude / Codex 多账号切换与额度监控",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "multi-account",
+      "quota-monitoring",
+      "5h-window",
+      "weekly-window",
+      "account-switching",
+      "menu-bar-gauge",
+      "claude-desktop-sync",
+      "auto-update"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-27T02:22:46Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-27T04:01:29.204Z"
+  },
+  {
+    "id": "0xpolarzero/headroom",
+    "name": "headroom",
+    "author": "0xpolarzero",
+    "repoURL": "https://github.com/0xpolarzero/headroom",
+    "description": "macOS menu bar app for coding-agent limits (Claude, Codex, Z.ai, Antigravity, OpenRouter) that helps you run Claude Code on several Claude accounts",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie",
+      "API Key",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "multi-account",
+      "session-limits",
+      "weekly-limits",
+      "model-scoped-limits",
+      "multi-provider",
+      "spend-tracking",
+      "limit-reset-counters"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-26T23:33:14Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-27T04:01:29.204Z"
+  },
+  {
+    "id": "nandobrazil/toolbelt",
+    "name": "toolbelt",
+    "author": "nandobrazil",
+    "repoURL": "https://github.com/nandobrazil/toolbelt",
+    "description": "Six menu bar utilities in one ~13 MB macOS app: hidden icons behind the notch, window switcher, clipboard history, window layouts, system monitor and Claude Code accounts.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "claude-accounts",
+      "usage-display",
+      "5h-window",
+      "weekly-stats",
+      "multi-account",
+      "menu-bar"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-26T23:13:16Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-27T04:01:29.204Z"
   }
 ]
