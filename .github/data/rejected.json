@@ -2188,5 +2188,29 @@
     "reason": "MemSlop is a system monitor and process manager for cleaning up idle dev server processes, not a Claude usage tracker—it monitors CPU/RAM generally and happens to target leftovers from AI agents, but displays no Claude-specific metrics like tokens, costs, or usage quotas.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-28T04:24:42.777Z"
+  },
+  {
+    "id": "nightlab-agent/skill-status",
+    "reason": "This is a Claude Code mod that displays which skill was loaded last and logs skill usage in a session, but does not track or measure Claude API usage (tokens, costs, or rate limits) as a substantial feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-28T12:16:59.867Z"
+  },
+  {
+    "id": "nightlab-agent/file-trail",
+    "reason": "This is a Claude Code plugin that logs file operations with timestamps and status but does not track Claude usage metrics like tokens, cost, or rate limits.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-28T12:17:02.981Z"
+  },
+  {
+    "id": "LIghtJUNction/magpie-rs",
+    "reason": "Magpie is a model/agent management tool that aggregates different LLMs (DeepSeek, Claude, Kimi) in one interface, but it does not display, measure, or report Claude usage as a substantial feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-28T12:17:10.046Z"
+  },
+  {
+    "id": "bartdudzic/keepmacawake",
+    "reason": "Keep Mac Awake is a sleep-prevention utility for MacBooks with an AI agent plugin, but it does not display, measure, or report Claude usage as a substantial feature—it is a tool for keeping machines awake during agent sessions, not a usage tracker.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-28T12:17:16.844Z"
   }
 ]
