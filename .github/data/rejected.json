@@ -2212,5 +2212,17 @@
     "reason": "Keep Mac Awake is a sleep-prevention utility for MacBooks with an AI agent plugin, but it does not display, measure, or report Claude usage as a substantial feature—it is a tool for keeping machines awake during agent sessions, not a usage tracker.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-28T12:17:16.844Z"
+  },
+  {
+    "id": "sefimov/juggler",
+    "reason": "Juggler is a task/window switcher for managing parallel chat sessions and terminal tabs, not a Claude usage tracker; it facilitates switching between chats but does not measure, display, or report Claude usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-28T22:19:15.589Z"
+  },
+  {
+    "id": "samhudson/trafficlight",
+    "reason": "This project displays AI agent session states (working/waiting/done) but does not measure, display, or report Claude usage metrics like tokens, costs, or rate limits—it monitors agent workflow status only.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-28T22:19:18.869Z"
   }
 ]
