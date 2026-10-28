@@ -204665,5 +204665,347 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-10-27T21:55:06.286Z"
+  },
+  {
+    "id": "andreescocard/kindle-ai-usage-monitor",
+    "name": "kindle-ai-usage-monitor",
+    "author": "andreescocard",
+    "repoURL": "https://github.com/andreescocard/kindle-ai-usage-monitor",
+    "description": "Kindle com jailbreak como painel dos limites de 5h e semanais do Claude Code e do Codex",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "linux"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "claude-code-usage",
+      "codex-usage",
+      "rate-limit-display",
+      "weekly-limits",
+      "battery-status",
+      "eink-display"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-28T01:28:20Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-28T04:24:55.356Z"
+  },
+  {
+    "id": "keerthivibisan/agent-control-plane",
+    "name": "agent-control-plane",
+    "author": "keerthivibisan",
+    "repoURL": "https://github.com/keerthivibisan/agent-control-plane",
+    "description": "A platform for orchestrating AI coding agents, with project boards, configurable workflows, isolated worktrees, approval controls, automated checks, conflict recovery, and token usage tracking. Currently supports Claude Code.",
+    "category": "Web Dashboard",
+    "platforms": [
+      "web"
+    ],
+    "language": "TypeScript",
+    "authMethod": [],
+    "features": [
+      "token-usage-tracking",
+      "multi-agent-orchestration",
+      "session-monitoring",
+      "workflow-configuration",
+      "claude-code-integration",
+      "cache-reuse-metrics"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-28T02:27:49Z",
+    "openIssues": 2,
+    "archived": false,
+    "lastFetched": "2026-10-28T04:24:55.356Z"
+  },
+  {
+    "id": "botiejedi/claude-statusline",
+    "name": "claude-statusline",
+    "author": "botiejedi",
+    "repoURL": "https://github.com/botiejedi/claude-statusline",
+    "description": "Custom statusline for Claude Code on Windows - displays model, cost, context usage, and rate limits",
+    "category": "Statusline",
+    "platforms": [
+      "windows"
+    ],
+    "language": "PowerShell",
+    "authMethod": [],
+    "features": [
+      "model-display",
+      "cost-tracking",
+      "context-usage",
+      "rate-limit-monitoring",
+      "session-info",
+      "color-warnings"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-28T03:30:54Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-28T04:24:55.356Z"
+  },
+  {
+    "id": "michaelgilch/claude-statusline",
+    "name": "claude-statusline",
+    "author": "michaelgilch",
+    "repoURL": "https://github.com/michaelgilch/claude-statusline",
+    "description": "AI-enerated statusline for claude code",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "plan-usage-display",
+      "context-window-usage",
+      "rate-limit-tracking",
+      "background-caching"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-27T22:25:20Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-28T04:24:55.356Z"
+  },
+  {
+    "id": "Daejun/mind-stack",
+    "name": "mind-stack",
+    "author": "Daejun",
+    "repoURL": "https://github.com/Daejun/mind-stack",
+    "description": "Claude Code mod: the conversation's topic stack in the status line",
+    "category": "Claude Code Plugin",
+    "platforms": [],
+    "language": "TypeScript",
+    "authMethod": [],
+    "features": [
+      "topic-stack-display",
+      "haiku-classification",
+      "token-tracking",
+      "jsonl-logging",
+      "conversation-context"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-28T03:19:41Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-28T04:24:55.356Z"
+  },
+  {
+    "id": "reillyb732-lab/claude-code-budget-coach",
+    "name": "claude-code-budget-coach",
+    "author": "reillyb732-lab",
+    "repoURL": "https://github.com/reillyb732-lab/claude-code-budget-coach",
+    "description": "Free Claude Code status line that warns you before you hit your usage limit",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Traffic Capture"
+    ],
+    "features": [
+      "usage-display",
+      "burn-rate-alerts",
+      "weekly-limits",
+      "context-monitoring",
+      "model-switching-tips",
+      "local-only"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-28T02:42:34Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-28T04:24:55.356Z"
+  },
+  {
+    "id": "nightlab-agent/usage-file",
+    "name": "usage-file",
+    "author": "nightlab-agent",
+    "repoURL": "https://github.com/nightlab-agent/usage-file",
+    "description": "Claude Code mod: writes your rate-limit windows, context fill and session cost to one local JSON file on every session.measure event, and shows the windows in the status line.",
+    "category": "Claude Code Plugin",
+    "platforms": [],
+    "language": "TypeScript",
+    "authMethod": [],
+    "features": [
+      "rate-limit-windows",
+      "context-fill",
+      "session-cost",
+      "status-line",
+      "local-json-file",
+      "no-polling"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-27T22:22:38Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-28T04:24:55.356Z"
+  },
+  {
+    "id": "trexchery/patch-goblins",
+    "name": "patch-goblins",
+    "author": "trexchery",
+    "repoURL": "https://github.com/trexchery/patch-goblins",
+    "description": "Windows tray and macOS menu bar app that turns your Claude Code accounts into one coding team. Work goes to whichever account has usage left; goblins build, test and review your issues, then open pull requests you merge. Local, MIT, no telemetry.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos",
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "multi-account-pooling",
+      "quota-meters",
+      "work-routing",
+      "agent-orchestration",
+      "pull-request-automation",
+      "verification-checks"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-10-28T04:20:08Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-28T04:24:55.356Z"
+  },
+  {
+    "id": "sirrayi/bars",
+    "name": "bars",
+    "author": "sirrayi",
+    "repoURL": "https://github.com/sirrayi/bars",
+    "description": "Menu bar usage tracker for Claude, OpenCode, Devin and DeepSeek",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "Browser Cookie Auto-detect",
+      "API Key",
+      "JSONL Log Parsing",
+      "Session Key"
+    ],
+    "features": [
+      "multi-provider-tracking",
+      "usage-meters",
+      "cost-estimates",
+      "reset-countdowns",
+      "widget-support",
+      "cli-tool",
+      "quota-notifications",
+      "spend-charts"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-27T22:27:04Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-28T04:24:55.356Z"
+  },
+  {
+    "id": "nsypxlmx/Meterforclaude",
+    "name": "Meterforclaude",
+    "author": "nsypxlmx",
+    "repoURL": "https://github.com/nsypxlmx/Meterforclaude",
+    "description": "Claude Code usage and plan limits in the GNOME top bar. Local-only, Python/GTK. Not affiliated with Anthropic.",
+    "category": "Statusline",
+    "platforms": [
+      "linux"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "usage-gauge",
+      "weekly-limits",
+      "token-breakdown",
+      "cost-estimates",
+      "burn-rate-alerts",
+      "pinned-metrics"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-28T04:07:00Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-28T04:24:55.356Z"
+  },
+  {
+    "id": "developerscompany/usage-meter-for-claude",
+    "name": "usage-meter-for-claude",
+    "author": "developerscompany",
+    "repoURL": "https://github.com/developerscompany/usage-meter-for-claude",
+    "description": "Your Claude usage on Stream Deck: plan limits per model, peak hours, credit, Claude Code tokens and costs, model mix and status. Unofficial",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "windows"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Session Key",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "plan-limits",
+      "peak-hours",
+      "token-usage",
+      "api-cost",
+      "cache-hits",
+      "model-mix",
+      "service-status",
+      "daily-streak"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-28T03:25:50Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-28T04:24:55.356Z"
+  },
+  {
+    "id": "Andres201203/claude-meter",
+    "name": "claude-meter",
+    "author": "Andres201203",
+    "repoURL": "https://github.com/Andres201203/claude-meter",
+    "description": "macOS desktop widget showing your Claude 5-hour and weekly plan usage",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "5-hour-session-limit",
+      "weekly-plan-limit",
+      "keychain-integration",
+      "usage-polling"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-27T23:21:56Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-28T04:24:55.356Z"
   }
 ]
