@@ -205995,5 +205995,336 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-10-28T22:19:24.398Z"
+  },
+  {
+    "id": "parades-inc/claude-usage-bar",
+    "name": "claude-usage-bar",
+    "author": "parades-inc",
+    "repoURL": "https://github.com/parades-inc/claude-usage-bar",
+    "description": "macOS menu bar readout of Claude plan usage: session, Fable and weekly %",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "session-usage",
+      "weekly-limit",
+      "model-scoped-limits",
+      "color-alerts",
+      "refresh-button"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-29T01:46:51Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-29T04:43:59.136Z"
+  },
+  {
+    "id": "max38tech/omarchy-ai-usage-improved",
+    "name": "omarchy-ai-usage-improved",
+    "author": "max38tech",
+    "repoURL": "https://github.com/max38tech/omarchy-ai-usage-improved",
+    "description": "Enhanced Omarchy AI Subscription Usage bar widget with Antigravity CLI tab, keyring/OAuth auto-renewal for Antigravity & Claude Code, in-panel refresh button, installer script, and AI agent skill",
+    "category": "Statusline",
+    "platforms": [
+      "linux"
+    ],
+    "language": "QML",
+    "authMethod": [
+      "Browser Cookie Auto-detect",
+      "API Key",
+      "Session Key"
+    ],
+    "features": [
+      "claude-oauth-renewal",
+      "antigravity-integration",
+      "multi-provider-support",
+      "token-statistics",
+      "quota-display",
+      "keyring-integration"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-29T04:27:56Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-29T04:43:59.136Z"
+  },
+  {
+    "id": "zzlalani/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "zzlalani",
+    "repoURL": "https://github.com/zzlalani/claude-code-statusline",
+    "description": "Claude Code status line: model, context usage, 5h/7d rate-limit bars with reset countdowns (beta)",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "context-usage",
+      "rate-limit-bars",
+      "token-display",
+      "reset-countdowns",
+      "model-info",
+      "thinking-effort"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-29T04:31:11Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-29T04:43:59.136Z"
+  },
+  {
+    "id": "Lucasbk38/claude-statusline",
+    "name": "claude-statusline",
+    "author": "Lucasbk38",
+    "repoURL": "https://github.com/Lucasbk38/claude-statusline",
+    "description": "Claude Code status line and subagent panel: usage, context, model, effort",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "usage-display",
+      "context-tokens",
+      "model-info",
+      "effort-tracking",
+      "subagent-panel",
+      "burn-rate",
+      "weekly-usage"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-29T02:14:35Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-29T04:43:59.136Z"
+  },
+  {
+    "id": "anagsoares/status-line-terminal",
+    "name": "status-line-terminal",
+    "author": "anagsoares",
+    "repoURL": "https://github.com/anagsoares/status-line-terminal",
+    "description": "✨ Deixe o rodapé do seu Claude Code lindo: veja o modelo, quanto do contexto já usou, os tokens e o custo da sessão — tudo numa linha só.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "context-usage-bar",
+      "token-tracking",
+      "session-cost",
+      "model-display",
+      "git-branch-info"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-10-29T03:21:58Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-29T04:43:59.136Z"
+  },
+  {
+    "id": "yash201040/claude-code-meter",
+    "name": "claude-code-meter",
+    "author": "yash201040",
+    "repoURL": "https://github.com/yash201040/claude-code-meter",
+    "description": "Claude Code status line with usage, cost and limit warnings, plus an optional macOS menu bar",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "context-usage-display",
+      "cost-tracking",
+      "burn-rate-alerts",
+      "session-tokens",
+      "limit-warnings",
+      "git-integration",
+      "swiftbar-menu"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-29T00:23:56Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-29T04:43:59.136Z"
+  },
+  {
+    "id": "CedPer/claudestatusline",
+    "name": "claudestatusline",
+    "author": "CedPer",
+    "repoURL": "https://github.com/CedPer/claudestatusline",
+    "description": "For my personnal Claude Code Status line ",
+    "category": "Claude Code Plugin",
+    "platforms": [],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "context-window-display",
+      "quota-tracking",
+      "session-duration",
+      "model-display",
+      "git-integration",
+      "effort-level"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-28T23:25:34Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-29T04:43:59.136Z"
+  },
+  {
+    "id": "hangryclaude/headroom",
+    "name": "headroom",
+    "author": "hangryclaude",
+    "repoURL": "https://github.com/hangryclaude/headroom",
+    "description": "Claude Code quota in your macOS menu bar — one click to the account with room",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "quota-display",
+      "multi-account",
+      "account-switcher",
+      "weekly-budget",
+      "burn-rate",
+      "cost-breakdown",
+      "token-tracking",
+      "pace-mark"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-29T02:44:10Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-29T04:43:59.136Z"
+  },
+  {
+    "id": "Chimarrao/AgentStatusBarForMac",
+    "name": "AgentStatusBarForMac",
+    "author": "Chimarrao",
+    "repoURL": "https://github.com/Chimarrao/AgentStatusBarForMac",
+    "description": "Mac menu bar usage meters for Claude, Codex, Antigravity, Grok and Cursor. Fork of pixbroker/grokbar.",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie",
+      "Session Key",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "multi-provider",
+      "usage-meters",
+      "menu-bar",
+      "claude-codex-antigravity-grok-cursor",
+      "session-weekly-credit-tracking",
+      "configurable-refresh"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-29T03:03:13Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-29T04:43:59.136Z"
+  },
+  {
+    "id": "iChuvak/tank-tick",
+    "name": "tank-tick",
+    "author": "iChuvak",
+    "repoURL": "https://github.com/iChuvak/tank-tick",
+    "description": "macOS menu bar app for Claude & ChatGPT plan usage»",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key",
+      "Session Cookie"
+    ],
+    "features": [
+      "usage-dashboard",
+      "reset-timers",
+      "pace-forecast",
+      "7-day-history",
+      "multi-provider",
+      "notifications",
+      "menu-bar"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-10-29T02:13:38Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-29T04:43:59.136Z"
+  },
+  {
+    "id": "ThanaelFontaine/Brimline",
+    "name": "Brimline",
+    "author": "ThanaelFontaine",
+    "repoURL": "https://github.com/ThanaelFontaine/Brimline",
+    "description": "macOS menu bar app with public source code: the usage limits of each AI subscription, account by account (Claude, ChatGPT, Gemini, Grok, Cursor), a JSON command and a local MCP server for agents, and hiding the icons of other apps. Read only, local. License: PolyForm Shield 1.0.0.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "multi-account",
+      "usage-limits",
+      "menu-bar-display",
+      "json-command",
+      "mcp-server",
+      "icon-hiding",
+      "read-only",
+      "cost-tracking"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-29T00:54:19Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-29T04:43:59.136Z"
   }
 ]

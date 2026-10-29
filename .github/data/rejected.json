@@ -2224,5 +2224,17 @@
     "reason": "This project displays AI agent session states (working/waiting/done) but does not measure, display, or report Claude usage metrics like tokens, costs, or rate limits—it monitors agent workflow status only.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-28T22:19:18.869Z"
+  },
+  {
+    "id": "ggofri/beckon",
+    "reason": "This is an agent state monitor that tracks which Claude Code/Codex/opencode instances are running and their state (working/blocked/idle), but it does not measure, display, or report Claude usage metrics like tokens, cost, rate limits, or quotas—it only monitors agent presence and activity status.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-29T04:43:45.746Z"
+  },
+  {
+    "id": "yash201040/claude-code-sessions",
+    "reason": "This project lists and searches Claude Code sessions but does not display, measure, or report usage metrics like tokens, cost, or rate limits; for usage tracking see claude-code-meter instead.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-29T04:43:48.712Z"
   }
 ]
