@@ -2236,5 +2236,17 @@
     "reason": "This project lists and searches Claude Code sessions but does not display, measure, or report usage metrics like tokens, cost, or rate limits; for usage tracking see claude-code-meter instead.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-29T04:43:48.712Z"
+  },
+  {
+    "id": "said-zenhr/ai-setup",
+    "reason": "This is a personal dotfiles/plugin setup installer for Claude Code with statusline integration, not a usage tracker—it configures Claude's behavior and UI but does not display, measure, or report Claude usage metrics.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-10-29T12:27:08.136Z"
+  },
+  {
+    "id": "MartijnMul/plaincontrol",
+    "reason": "Plaincontrol is a session launcher and project manager for Claude Code that displays sessions at a glance, but does not track or measure Claude usage metrics like tokens, cost, or quotas.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-29T12:27:18.852Z"
   }
 ]
