@@ -2248,5 +2248,23 @@
     "reason": "Plaincontrol is a session launcher and project manager for Claude Code that displays sessions at a glance, but does not track or measure Claude usage metrics like tokens, cost, or quotas.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-29T12:27:18.852Z"
+  },
+  {
+    "id": "har27il/overnight-garden",
+    "reason": "This is a gamification/wellness tool that displays a garden in the Claude Code status line based on idle time, not a tracker of Claude API usage, tokens, costs, or rate limits.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-29T22:32:18.692Z"
+  },
+  {
+    "id": "MichaelBroadbrand/juniper",
+    "reason": "Juniper is a Claude Code interface and agent launcher for macOS, not a usage tracker; it enables talking to Claude Code but does not display, measure, or report Claude usage metrics as a feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-29T22:32:31.105Z"
+  },
+  {
+    "id": "sefimov/jugglinator",
+    "reason": "Jugglinator is a task switcher for managing multiple AI chats and sessions, not a Claude usage tracker—it does not display, measure, or report Claude tokens, costs, rate limits, or usage metrics as a feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-29T22:32:38.193Z"
   }
 ]
