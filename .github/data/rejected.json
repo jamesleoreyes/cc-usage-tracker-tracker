@@ -2266,5 +2266,23 @@
     "reason": "Jugglinator is a task switcher for managing multiple AI chats and sessions, not a Claude usage tracker—it does not display, measure, or report Claude tokens, costs, rate limits, or usage metrics as a feature.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-29T22:32:38.193Z"
+  },
+  {
+    "id": "eodesign7/claude-inbox",
+    "reason": "This is an MCP server and Claude Code plugin for inter-agent task coordination and project context management, not a usage tracker—it does not display, measure, or report Claude token consumption, costs, rate limits, or quotas.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-10-30T12:18:32.492Z"
+  },
+  {
+    "id": "TANISHA-fiftyfive/Walk-in-Queue-Manager",
+    "reason": "This is a queue management system for clinics/shops with no usage tracking feature; it displays queue status and wait times, not Claude usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-30T12:18:35.609Z"
+  },
+  {
+    "id": "arthur-bump-pm/awake-mac",
+    "reason": "Awake is a Mac sleep-prevention utility with Claude Code integration via MCP, but it does not display, measure, or report Claude usage (tokens, cost, rate limits) as a substantial feature—it monitors and manages Mac power state for coding sessions.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-30T12:18:49.429Z"
   }
 ]
