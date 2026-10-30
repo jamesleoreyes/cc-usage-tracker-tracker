@@ -2284,5 +2284,11 @@
     "reason": "Awake is a Mac sleep-prevention utility with Claude Code integration via MCP, but it does not display, measure, or report Claude usage (tokens, cost, rate limits) as a substantial feature—it monitors and manages Mac power state for coding sessions.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-30T12:18:49.429Z"
+  },
+  {
+    "id": "joshkerr/claude-mods",
+    "reason": "These are Claude Code utility mods (pkexec-guard, long-task-notifier, herdr-statusline) that enhance Claude Code sessions, but they do not display, measure, or report Claude usage as a substantial feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-30T22:00:54.785Z"
   }
 ]
