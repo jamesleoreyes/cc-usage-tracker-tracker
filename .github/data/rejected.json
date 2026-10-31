@@ -2290,5 +2290,17 @@
     "reason": "These are Claude Code utility mods (pkexec-guard, long-task-notifier, herdr-statusline) that enhance Claude Code sessions, but they do not display, measure, or report Claude usage as a substantial feature.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-30T22:00:54.785Z"
+  },
+  {
+    "id": "jz-wilson/claude-setup",
+    "reason": "This is a setup guide and template collection for Claude Code workflows (instructions, hooks, review loops, vaults, mods, statusline) with no usage tracking or metrics display as a core feature; the claude-hud is a statusline but lacks evidence of displaying Claude usage metrics.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-10-31T04:27:21.062Z"
+  },
+  {
+    "id": "Ayodehi/docket",
+    "reason": "Docket is a GitHub PR triage assistant that uses Claude Code as a tool for reviewing/fixing PRs, not a Claude usage tracker—it does not display, measure, or report Claude token usage, costs, or quota consumption.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-31T04:27:24.273Z"
   }
 ]

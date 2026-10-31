@@ -208526,5 +208526,121 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-10-30T22:01:26.823Z"
+  },
+  {
+    "id": "eocnd36/Kongi",
+    "name": "Kongi",
+    "author": "eocnd36",
+    "repoURL": "https://github.com/eocnd36/Kongi",
+    "description": "A Dynamic Island made for Macs without a notch — watch Claude Code work live, approve from the island, Claude usage in the menu bar. Android app too.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos",
+      "android"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "claude-code-live-view",
+      "approval-requests",
+      "usage-menu-bar",
+      "session-tracking",
+      "conversation-reader",
+      "multi-device-sync"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-10-30T23:31:32Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-31T04:27:24.273Z"
+  },
+  {
+    "id": "Rhussu/claude-mods",
+    "name": "claude-mods",
+    "author": "Rhussu",
+    "repoURL": "https://github.com/Rhussu/claude-mods",
+    "description": "Unofficial mods for Claude Code · Mods no oficiales para Claude Code",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "TypeScript",
+    "authMethod": [],
+    "features": [
+      "statusline-display",
+      "context-usage",
+      "plan-limits",
+      "model-info",
+      "effort-tracking",
+      "git-branch"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-31T04:03:19Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-31T04:27:24.273Z"
+  },
+  {
+    "id": "Cocos666a/ccstatusline-extras",
+    "name": "ccstatusline-extras",
+    "author": "Cocos666a",
+    "repoURL": "https://github.com/Cocos666a/ccstatusline-extras",
+    "description": "ccstatusline presets adding cache hit rate, session-wide input tokens and compaction count to the Claude Code statusline.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "cache-hit-rate",
+      "session-tokens",
+      "context-compression-count",
+      "statusline-widget"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-31T01:42:59Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-31T04:27:24.273Z"
+  },
+  {
+    "id": "Danglebary/meter",
+    "name": "meter",
+    "author": "Danglebary",
+    "repoURL": "https://github.com/Danglebary/meter",
+    "description": "Claude Code's status line and a measure of its token usage and cost, from one Rust core",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "OpenTelemetry"
+    ],
+    "features": [
+      "token-usage",
+      "cost-tracking",
+      "context-window",
+      "prompt-cache-status",
+      "spend-limits",
+      "session-reporting"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-31T04:23:10Z",
+    "openIssues": 1,
+    "archived": false,
+    "lastFetched": "2026-10-31T04:27:24.273Z"
   }
 ]
