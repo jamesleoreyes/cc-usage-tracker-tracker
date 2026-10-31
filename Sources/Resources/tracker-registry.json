@@ -209092,5 +209092,276 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-10-31T16:57:23.505Z"
+  },
+  {
+    "id": "maxmeis/hello-claude-usage",
+    "name": "hello-claude-usage",
+    "author": "maxmeis",
+    "repoURL": "https://github.com/maxmeis/hello-claude-usage",
+    "description": "Standalone Claude usage monitor for the SenseCAP Indicator D1",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "linux"
+    ],
+    "language": "C",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "claude-usage-display",
+      "codex-usage-display",
+      "quota-tracking",
+      "device-code-auth",
+      "multi-language-ui",
+      "screensaver-widget"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-31T18:46:35Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-31T21:07:32.656Z"
+  },
+  {
+    "id": "mssafonov-cmyk/aiti-rhythm",
+    "name": "aiti-rhythm",
+    "author": "mssafonov-cmyk",
+    "repoURL": "https://github.com/mssafonov-cmyk/aiti-rhythm",
+    "description": "Windows widget for Codex, Claude Code & Antigravity: AI session monitor, token usage and subscription limits. Панель статусов ИИ-агентов, расхода токенов и квот.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "token-usage",
+      "session-monitor",
+      "subscription-quotas",
+      "daily-burn-rate",
+      "multi-agent",
+      "calendar-integration"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-31T19:57:03Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-31T21:07:32.656Z"
+  },
+  {
+    "id": "kdwjzh/windows-claude-tracker",
+    "name": "windows-claude-tracker",
+    "author": "kdwjzh",
+    "repoURL": "https://github.com/kdwjzh/windows-claude-tracker",
+    "description": "A free Windows widget to track usage limits and reset times for Claude Code and Codex (ChatGPT). Supports the Claude Desktop app.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "claude-usage-display",
+      "codex-usage-display",
+      "reset-countdown",
+      "multi-provider",
+      "taskbar-widget",
+      "auto-hide-fullscreen",
+      "hotkey-toggle"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-10-31T17:26:50Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-31T21:07:32.656Z"
+  },
+  {
+    "id": "unpaidfunds/burn",
+    "name": "burn",
+    "author": "unpaidfunds",
+    "repoURL": "https://github.com/unpaidfunds/burn",
+    "description": "Mac app that tracks Claude Code token usage and your 5-hour and weekly limits.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Unknown",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "token-usage-tracking",
+      "5-hour-limits",
+      "weekly-limits",
+      "daily-heatmap",
+      "project-breakdown",
+      "agent-tracking",
+      "live-monitoring",
+      "pace-planning"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-10-31T16:57:35Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-31T21:07:32.656Z"
+  },
+  {
+    "id": "frippz/headroom",
+    "name": "headroom",
+    "author": "frippz",
+    "repoURL": "https://github.com/frippz/headroom",
+    "description": "Claude Code's five-hour and weekly usage limits in the macOS menu bar and as a desktop widget",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "five-hour-limit",
+      "weekly-limit",
+      "menu-bar",
+      "widget",
+      "burn-rate",
+      "multi-profile",
+      "notifications"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-31T20:46:50Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-31T21:07:32.656Z"
+  },
+  {
+    "id": "photomohsen/Coding-Agent-Usage-Meter",
+    "name": "Coding-Agent-Usage-Meter",
+    "author": "photomohsen",
+    "repoURL": "https://github.com/photomohsen/Coding-Agent-Usage-Meter",
+    "description": "A small Windows 11 widget that shows your Claude Code and Codex usage limits (5-hour and 7-day) and your local dev servers, including Docker in WSL.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "C#",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "claude-code-limits",
+      "codex-limits",
+      "5h-7d-tracking",
+      "reset-timers",
+      "dev-server-list",
+      "multiple-looks",
+      "color-alerts"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-31T17:13:27Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-31T21:07:32.656Z"
+  },
+  {
+    "id": "parothegreat/claude-hud",
+    "name": "claude-hud",
+    "author": "parothegreat",
+    "repoURL": "https://github.com/parothegreat/claude-hud",
+    "description": "Desk display for Claude Code: ESP32-C3 + 128x64 OLED showing Claude's state, rate limits and an animated Clawd",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "Traffic Capture"
+    ],
+    "features": [
+      "rate-limit-display",
+      "usage-windows",
+      "reset-countdown",
+      "animated-ui",
+      "embedded-hardware",
+      "dashboard"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-31T17:45:19Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-31T21:07:32.656Z"
+  },
+  {
+    "id": "itsnedthomas/claude-switch",
+    "name": "claude-switch",
+    "author": "itsnedthomas",
+    "repoURL": "https://github.com/itsnedthomas/claude-switch",
+    "description": "Every Claude plan in your Mac's menu bar: see each account's limits, switch the live Claude Code login in one click, auto-switch and schedule 5-hour windows.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "multi-account",
+      "weekly-limits",
+      "auto-switch",
+      "usage-display",
+      "rate-limit-tracking",
+      "schedule-windows",
+      "grok-bot-tracking",
+      "chatgpt-tracking"
+    ],
+    "builtWithClaude": true,
+    "stars": 2,
+    "lastCommitDate": "2026-10-31T21:05:42Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-31T21:07:32.656Z"
+  },
+  {
+    "id": "nooooto/LimitBar",
+    "name": "LimitBar",
+    "author": "nooooto",
+    "repoURL": "https://github.com/nooooto/LimitBar",
+    "description": "Claude and OpenCode Go usage limits in the Mac menu bar: pace, service status and spending at API prices. English and Italian.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "API Key"
+    ],
+    "features": [
+      "usage-limits-display",
+      "spend-tracking-at-api-prices",
+      "service-status-monitoring",
+      "pace-forecasting",
+      "multi-service-claude-opencode",
+      "iphone-widget",
+      "activity-notifications",
+      "spending-breakdown"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-31T18:50:53Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-31T21:07:32.656Z"
   }
 ]
