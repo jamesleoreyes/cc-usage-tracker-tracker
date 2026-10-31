@@ -208614,5 +208614,117 @@
     "openIssues": 1,
     "archived": false,
     "lastFetched": "2026-10-31T04:27:24.273Z"
+  },
+  {
+    "id": "Slaster44/claude-token-tracker",
+    "name": "claude-token-tracker",
+    "author": "Slaster44",
+    "repoURL": "https://github.com/Slaster44/claude-token-tracker",
+    "description": "Local dashboard that tracks Claude Code token usage against the 5-hour and weekly limits",
+    "category": "Web Dashboard",
+    "platforms": [
+      "web"
+    ],
+    "language": "HTML",
+    "authMethod": [],
+    "features": [
+      "token-tracking",
+      "5-hour-limits",
+      "weekly-limits",
+      "usage-dashboard"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-31T10:18:53Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-31T11:49:16.945Z"
+  },
+  {
+    "id": "sumitdas76/claude-context-meter",
+    "name": "claude-context-meter",
+    "author": "sumitdas76",
+    "repoURL": "https://github.com/sumitdas76/claude-context-meter",
+    "description": "Claude Code status line: context usage, plan quota remaining, cache state and cost. No dependencies.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Traffic Capture"
+    ],
+    "features": [
+      "context-usage-display",
+      "cost-tracking",
+      "rate-limit-alerts",
+      "quota-tracking",
+      "cache-state-monitor",
+      "color-coded-warnings"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-31T10:52:08Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-31T11:49:16.945Z"
+  },
+  {
+    "id": "rushi-me/claude-statusline",
+    "name": "claude-statusline",
+    "author": "rushi-me",
+    "repoURL": "https://github.com/rushi-me/claude-statusline",
+    "description": "Claude Code status line: context tokens, session cost, rate limits, git info. Based on nilbuild/claude-statusline.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "context-tokens",
+      "session-cost",
+      "rate-limits",
+      "git-info",
+      "effort-level",
+      "spend-bar"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-31T08:47:21Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-31T11:49:16.945Z"
+  },
+  {
+    "id": "divineyl/ai-usage-meter",
+    "name": "ai-usage-meter",
+    "author": "divineyl",
+    "repoURL": "https://github.com/divineyl/ai-usage-meter",
+    "description": "Per-chat token, API-cost and quota meters for Claude Code and Codex（每个对话的 Token、API 等价费用和订阅额度占比）",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "per-chat-tokens",
+      "cache-breakdown",
+      "api-cost-calculation",
+      "quota-tracking",
+      "session-analytics",
+      "multi-chat-comparison"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-31T10:44:53Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-10-31T11:49:16.945Z"
   }
 ]

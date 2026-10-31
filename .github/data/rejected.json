@@ -2302,5 +2302,11 @@
     "reason": "Docket is a GitHub PR triage assistant that uses Claude Code as a tool for reviewing/fixing PRs, not a Claude usage tracker—it does not display, measure, or report Claude token usage, costs, or quota consumption.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-31T04:27:24.273Z"
+  },
+  {
+    "id": "nicedreamzapp/claude-code-local",
+    "reason": "This is a Claude Code alternative/replacement tool that runs local models to bypass usage limits, not a usage tracker that measures or reports Claude consumption metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-10-31T11:49:13.880Z"
   }
 ]
