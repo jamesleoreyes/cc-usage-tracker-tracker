@@ -2308,5 +2308,35 @@
     "reason": "This is a Claude Code alternative/replacement tool that runs local models to bypass usage limits, not a usage tracker that measures or reports Claude consumption metrics.",
     "confidence": 0.95,
     "rejectedAt": "2026-10-31T11:49:13.880Z"
+  },
+  {
+    "id": "rafe-walker/cc-anchor",
+    "reason": "cc-anchor is a Claude Code plugin for context management and agent memory that does not display, measure, or report Claude usage metrics; it manages session state across compactions rather than tracking usage.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-01T04:46:56.630Z"
+  },
+  {
+    "id": "princesshu/herdr-fold",
+    "reason": "herdr-fold is a workspace manager and IDE framework for Claude Code and Codex, not a Claude usage tracker; while it displays status lines with model and context info, measuring/reporting usage is not a substantial feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-01T04:47:02.575Z"
+  },
+  {
+    "id": "mannyd209/remote-keeper",
+    "reason": "This is a tool for managing Claude Code Remote Control sessions, not for tracking Claude API usage—it reconnects sessions but does not display, measure, or report tokens, costs, or usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-01T04:47:13.883Z"
+  },
+  {
+    "id": "cb-117/barista",
+    "reason": "Barista is a menu-bar app for managing Mac sleep/wake timers and running agents, with Claude Code integration as one feature among many, but usage tracking/display is not a substantial feature — it's a productivity tool, not a usage tracker.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-11-01T04:47:17.031Z"
+  },
+  {
+    "id": "plattnum/starship-themes",
+    "reason": "This project provides Starship themes and matching Claude Code statusline visuals, but does not display, measure, or report Claude usage metrics—it is purely cosmetic theming.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-01T04:47:25.583Z"
   }
 ]

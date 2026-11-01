@@ -209337,5 +209337,213 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-10-31T21:07:32.656Z"
+  },
+  {
+    "id": "richardkmichael/claude-betty",
+    "name": "claude-betty",
+    "author": "richardkmichael",
+    "repoURL": "https://github.com/richardkmichael/claude-betty",
+    "description": "Tooling for Claude Code: hooks, skills, subagents, output styles, mods, a status line and an MCP server",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Python",
+    "authMethod": [],
+    "features": [
+      "context-gauge",
+      "rate-limit-gauge",
+      "quota-tracking",
+      "tool-usage-analysis",
+      "session-transcripts",
+      "multi-window-quota"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-01T04:26:54Z",
+    "openIssues": 3,
+    "archived": false,
+    "lastFetched": "2026-11-01T04:47:29.135Z"
+  },
+  {
+    "id": "srnnkls/linea",
+    "name": "linea",
+    "author": "srnnkls",
+    "repoURL": "https://github.com/srnnkls/linea",
+    "description": "Claude Code status line",
+    "category": "Claude Code Plugin",
+    "platforms": [],
+    "language": "Rust",
+    "authMethod": [],
+    "features": [
+      "context-usage-display",
+      "model-info",
+      "session-time",
+      "prompt-cache-display",
+      "effort-indicator"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-01T00:29:03Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-01T04:47:29.135Z"
+  },
+  {
+    "id": "PoPs9444/conso-bar",
+    "name": "conso-bar",
+    "author": "PoPs9444",
+    "repoURL": "https://github.com/PoPs9444/conso-bar",
+    "description": "The usage panel for Claude Code: rate limits, context, costs and live agents, in your language",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "TypeScript",
+    "authMethod": [],
+    "features": [
+      "rate-limit-tracking",
+      "context-monitoring",
+      "cost-history",
+      "live-agents",
+      "multi-language",
+      "forecast-pacing"
+    ],
+    "builtWithClaude": true,
+    "stars": 2,
+    "lastCommitDate": "2026-11-01T04:28:55Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-01T04:47:29.135Z"
+  },
+  {
+    "id": "bb520xx-code/Claude-Duo",
+    "name": "Claude-Duo",
+    "author": "bb520xx-code",
+    "repoURL": "https://github.com/bb520xx-code/Claude-Duo",
+    "description": "Claude Code companion for macOS and iPhone: live plan usage % in the menu bar and on your phone, a Liquid Glass popup, and a crash-proof terminal grid for your sessions",
+    "category": "macOS Native",
+    "platforms": [
+      "macos",
+      "ios",
+      "web"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "menu-bar-display",
+      "usage-percentage",
+      "session-tracking",
+      "token-charts",
+      "limit-alerts",
+      "iphone-companion",
+      "crash-proof-grid",
+      "live-usage-updates"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-01T04:44:28Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-01T04:47:29.135Z"
+  },
+  {
+    "id": "tacogips/ccusage-gauge",
+    "name": "ccusage-gauge",
+    "author": "tacogips",
+    "repoURL": "https://github.com/tacogips/ccusage-gauge",
+    "description": "Claude Code & Codex usage gauge for macOS menu bar + dashboard: subscription limit used/remaining % (5-hour & weekly) with reset times, extra-usage credits, and token/cost history via ccusage.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos",
+      "linux",
+      "web"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie",
+      "API Key"
+    ],
+    "features": [
+      "subscription-limits",
+      "rate-limit-tracking",
+      "token-counting",
+      "cost-history",
+      "multi-provider",
+      "menu-bar-display",
+      "dashboard",
+      "reset-countdowns"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-01T01:25:16Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-01T04:47:29.135Z"
+  },
+  {
+    "id": "donePM/nudged",
+    "name": "nudged",
+    "author": "donePM",
+    "repoURL": "https://github.com/donePM/nudged",
+    "description": "macOS menu bar app for Claude Code: answer permission requests and questions, get notified when a session is done, and see all running sessions at a glance.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Go",
+    "authMethod": [
+      "Traffic Capture"
+    ],
+    "features": [
+      "session-monitoring",
+      "permission-requests",
+      "cost-display",
+      "token-counting",
+      "session-list",
+      "waiting-alerts",
+      "multi-session"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-10-31T21:18:08Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-01T04:47:29.135Z"
+  },
+  {
+    "id": "youssefrigale/MeterLuma",
+    "name": "MeterLuma",
+    "author": "youssefrigale",
+    "repoURL": "https://github.com/youssefrigale/MeterLuma",
+    "description": "All your AI usage, one glance. Desktop tracker for macOS and Windows.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "macos",
+      "windows"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "API Key",
+      "OAuth Token",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "multi-provider-support",
+      "claude-code-tracking",
+      "usage-alerts",
+      "activity-history",
+      "local-exports",
+      "profile-management"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-10-31T22:49:22Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-01T04:47:29.135Z"
   }
 ]
