@@ -2356,5 +2356,11 @@
     "reason": "AgentGrid is a window-tiling utility for AI coding agents (including Claude Code) but does not display, measure, or report Claude usage metrics—it only organizes running agent windows on screen.",
     "confidence": 0.95,
     "rejectedAt": "2026-11-01T21:48:16.448Z"
+  },
+  {
+    "id": "salihcantekin/ruvio-skills",
+    "reason": "This is an Agent Skills collection for teaching AI assistants about Ruvio database commands, not a Claude usage tracker; it was built with Claude as evidenced by commit trailers.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-02T04:48:12.447Z"
   }
 ]
