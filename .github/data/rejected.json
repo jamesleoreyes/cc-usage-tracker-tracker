@@ -2362,5 +2362,17 @@
     "reason": "This is an Agent Skills collection for teaching AI assistants about Ruvio database commands, not a Claude usage tracker; it was built with Claude as evidenced by commit trailers.",
     "confidence": 0.95,
     "rejectedAt": "2026-11-02T04:48:12.447Z"
+  },
+  {
+    "id": "corbaz/speedy-code",
+    "reason": "This is a Claude Code plugin that adds voice and dictation features to the Claude Code editor; it does not display, measure, or report Claude usage metrics as a substantial feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-02T14:57:57.206Z"
+  },
+  {
+    "id": "samirmaikap/spawnsweep",
+    "reason": "SpawnSweep is a cleanup utility for AI coding agent leftovers, not a Claude usage tracker—it detects and manages running processes rather than displaying usage metrics like tokens, costs, or rate limits.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-02T14:58:08.922Z"
   }
 ]
