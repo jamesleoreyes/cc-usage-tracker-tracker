@@ -2374,5 +2374,11 @@
     "reason": "SpawnSweep is a cleanup utility for AI coding agent leftovers, not a Claude usage tracker—it detects and manages running processes rather than displaying usage metrics like tokens, costs, or rate limits.",
     "confidence": 0.95,
     "rejectedAt": "2026-11-02T14:58:08.922Z"
+  },
+  {
+    "id": "caretbag/caretbag",
+    "reason": "Caretbag is a portfolio/wallet tracker for Robinhood Chain assets displayed in Claude Code's statusline, but does not track Claude usage (tokens, cost, rate limits); it tracks cryptocurrency holdings instead.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-03T00:40:12.094Z"
   }
 ]
