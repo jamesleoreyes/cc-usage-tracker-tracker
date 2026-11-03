@@ -2380,5 +2380,17 @@
     "reason": "Caretbag is a portfolio/wallet tracker for Robinhood Chain assets displayed in Claude Code's statusline, but does not track Claude usage (tokens, cost, rate limits); it tracks cryptocurrency holdings instead.",
     "confidence": 0.95,
     "rejectedAt": "2026-11-03T00:40:12.094Z"
+  },
+  {
+    "id": "carlocontaldi/claude-full-focus-view",
+    "reason": "This is a Claude Code plugin that displays real-time information about running tools and tasks, but does not measure or report Claude usage (tokens, cost, rate limits) as a feature—it merely shows UI enhancements for tool execution visibility.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-03T13:47:07.172Z"
+  },
+  {
+    "id": "yylwdyx-commits/claude-code-auto-continue",
+    "reason": "This is an automation plugin that auto-resumes Claude Code sessions after API errors, not a usage tracker—it does not display, measure, or report Claude usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-03T13:47:09.702Z"
   }
 ]
