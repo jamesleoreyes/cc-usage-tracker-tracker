@@ -2392,5 +2392,11 @@
     "reason": "This is an automation plugin that auto-resumes Claude Code sessions after API errors, not a usage tracker—it does not display, measure, or report Claude usage metrics.",
     "confidence": 0.95,
     "rejectedAt": "2026-11-03T13:47:09.702Z"
+  },
+  {
+    "id": "hunterZh37/progress-bar-plugin",
+    "reason": "This is a Claude Code plugin for visualizing progress of subagents and jobs, not a tracker of Claude usage metrics like tokens, cost, or rate limits.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-11-03T22:59:53.216Z"
   }
 ]
