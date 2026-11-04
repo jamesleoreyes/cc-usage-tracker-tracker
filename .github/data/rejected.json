@@ -2416,5 +2416,11 @@
     "reason": "Trinetra is a sleep/wake manager for AI coding agents with session summaries, not a Claude usage tracker—it monitors agent activity state and battery impact, not tokens, costs, or usage metrics.",
     "confidence": 0.95,
     "rejectedAt": "2026-11-04T05:09:06.428Z"
+  },
+  {
+    "id": "JNSoftworks/jns-quota-keeper",
+    "reason": "This is a quota optimization guide and hooks system, not a usage tracker—it explicitly states 'Not a usage monitor' and focuses on reducing token spend rather than displaying or measuring Claude usage.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-04T13:54:36.917Z"
   }
 ]
