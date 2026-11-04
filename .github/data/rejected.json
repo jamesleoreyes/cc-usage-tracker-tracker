@@ -2422,5 +2422,29 @@
     "reason": "This is a quota optimization guide and hooks system, not a usage tracker—it explicitly states 'Not a usage monitor' and focuses on reducing token spend rather than displaying or measuring Claude usage.",
     "confidence": 0.95,
     "rejectedAt": "2026-11-04T13:54:36.917Z"
+  },
+  {
+    "id": "axiom-csc/axiom-claude-skill",
+    "reason": "This is a security/constraint-validation tool for Claude Code agents that prevents hallucination on auth and payments, not a usage tracker — it does not display, measure, or report Claude token consumption, costs, or rate limits.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-04T23:19:23.363Z"
+  },
+  {
+    "id": "liam-machine/cold-brew",
+    "reason": "Cold Brew is a MacBook power management tool for keeping AI agents running with the lid closed, not a Claude usage tracker—it monitors agent activity state but does not display, measure, or report Claude usage metrics like tokens, cost, or quotas.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-11-04T23:19:26.946Z"
+  },
+  {
+    "id": "williamtrde/warden",
+    "reason": "Warden monitors and explains config file changes for Claude Code and other agents for security purposes, not Claude usage tracking; it does not measure, display, or report Claude API usage, tokens, costs, or rate limits.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-04T23:19:37.014Z"
+  },
+  {
+    "id": "gustavobb2809/agent-hub",
+    "reason": "This is an agent approval/management system for Claude Code sessions rather than a Claude usage tracker—it monitors agent work and approvals, not Claude token consumption, cost, rate limits, or quotas.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-11-04T23:19:39.850Z"
   }
 ]
