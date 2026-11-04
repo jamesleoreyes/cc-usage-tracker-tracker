@@ -212973,5 +212973,208 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-11-03T23:00:28.721Z"
+  },
+  {
+    "id": "johnylab/claude-code-usage-monitor",
+    "name": "claude-code-usage-monitor",
+    "author": "johnylab",
+    "repoURL": "https://github.com/johnylab/claude-code-usage-monitor",
+    "description": "Pace-aware usage monitor for Claude Code: compares plan consumption with time until reset and guides Claude in the conversation",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "pace-aware-alerts",
+      "burn-rate-analysis",
+      "session-tracking",
+      "cost-display",
+      "context-monitoring",
+      "weekly-review",
+      "multi-session-awareness"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-04T01:14:43Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-04T05:09:15.612Z"
+  },
+  {
+    "id": "Bariscanates404/claude-nyan",
+    "name": "claude-nyan",
+    "author": "Bariscanates404",
+    "repoURL": "https://github.com/Bariscanates404/claude-nyan",
+    "description": "Which Claude Code tab is done? A tab signal and a rainbow status line for macOS Terminal.app.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "context-window-display",
+      "usage-cost-tracking",
+      "session-status-signals",
+      "7-day-usage",
+      "5-hour-usage",
+      "rainbow-statusline",
+      "tab-naming"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-03T23:21:30Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-04T05:09:15.612Z"
+  },
+  {
+    "id": "Miguel2604/headroom",
+    "name": "headroom",
+    "author": "Miguel2604",
+    "repoURL": "https://github.com/Miguel2604/headroom",
+    "description": "macOS menu bar app and widgets showing Claude Code and Codex quota headroom",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "HTML",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "quota-headroom",
+      "burn-rate-alerts",
+      "multi-provider",
+      "menu-bar-widget"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-04T04:52:20Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-04T05:09:15.612Z"
+  },
+  {
+    "id": "Ja-efan/Noonchi",
+    "name": "Noonchi",
+    "author": "Ja-efan",
+    "repoURL": "https://github.com/Ja-efan/Noonchi",
+    "description": "macOS menu bar app that shows Claude Code 5-hour, weekly, and per-model usage",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Traffic Capture"
+    ],
+    "features": [
+      "claude-code-usage",
+      "codex-usage",
+      "rate-limits",
+      "usage-alerts",
+      "menu-bar-display",
+      "multi-service",
+      "burn-rate-warnings"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-04T01:42:36Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-04T05:09:15.612Z"
+  },
+  {
+    "id": "imtripleq/tabpulse",
+    "name": "tabpulse",
+    "author": "imtripleq",
+    "repoURL": "https://github.com/imtripleq/tabpulse",
+    "description": "See which Claude Code sessions are working, waiting on you, or done, on your Ghostty tabs and macOS menu bar.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "claude-code-session-status",
+      "menu-bar-display",
+      "ghostty-tab-integration",
+      "notification-alerts",
+      "session-duration-timer",
+      "waiting-indicator"
+    ],
+    "builtWithClaude": null,
+    "stars": 3,
+    "lastCommitDate": "2026-11-04T00:46:48Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-04T05:09:15.612Z"
+  },
+  {
+    "id": "jdamcd/benched",
+    "name": "benched",
+    "author": "jdamcd",
+    "repoURL": "https://github.com/jdamcd/benched",
+    "description": "macOS menu bar app that shows Claude subscription usage limits",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "subscription-usage-limits",
+      "session-tracking",
+      "weekly-quota",
+      "menu-bar-display",
+      "local-command-parsing"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-04T04:48:42Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-04T05:09:15.612Z"
+  },
+  {
+    "id": "JayJay1024/usagebar-for-claude",
+    "name": "usagebar-for-claude",
+    "author": "JayJay1024",
+    "repoURL": "https://github.com/JayJay1024/usagebar-for-claude",
+    "description": "Unofficial macOS menu bar plugin showing your Claude session and weekly usage with reset times",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "menu-bar-display",
+      "session-usage",
+      "weekly-usage",
+      "reset-timers",
+      "color-alerts",
+      "swiftbar-plugin"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-04T04:52:59Z",
+    "openIssues": 1,
+    "archived": false,
+    "lastFetched": "2026-11-04T05:09:15.612Z"
   }
 ]

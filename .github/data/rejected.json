@@ -2398,5 +2398,23 @@
     "reason": "This is a Claude Code plugin for visualizing progress of subagents and jobs, not a tracker of Claude usage metrics like tokens, cost, or rate limits.",
     "confidence": 0.85,
     "rejectedAt": "2026-11-03T22:59:53.216Z"
+  },
+  {
+    "id": "kyxap1/claude-multiprofile",
+    "reason": "This is a multi-account switcher and profile manager for Claude Code with a statusline display, but it does not measure, display, or report Claude usage (tokens, cost, rate limits); it only shows which account is active.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-04T05:08:49.126Z"
+  },
+  {
+    "id": "nghiax32/AgentSetup",
+    "reason": "This is a reusable setup configuration for Claude Code that includes rules, hooks, and a status line, but does not track, measure, or report Claude usage metrics—it only displays a status line showing session/week usage percentages as part of agent behavior management, not as a tracking feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-04T05:08:53.656Z"
+  },
+  {
+    "id": "animeshbasak/trinetra",
+    "reason": "Trinetra is a sleep/wake manager for AI coding agents with session summaries, not a Claude usage tracker—it monitors agent activity state and battery impact, not tokens, costs, or usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-04T05:09:06.428Z"
   }
 ]
