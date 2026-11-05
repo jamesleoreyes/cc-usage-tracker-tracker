@@ -2458,5 +2458,29 @@
     "reason": "Amnesia is a session manager and data cleanup tool for Claude Code/Codex, not a usage tracker—it does not display, measure, or report Claude usage metrics like tokens, costs, or rate limits.",
     "confidence": 0.95,
     "rejectedAt": "2026-11-05T05:31:05.914Z"
+  },
+  {
+    "id": "coindef/waitroom",
+    "reason": "Waitroom is a Claude Code plugin system for UI feedback and automation during agent turns, not a usage tracker—it monitors agent work activity and behavior, not Claude API consumption, tokens, or costs.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-11-05T14:09:09.667Z"
+  },
+  {
+    "id": "zatkoma/codex-statusline",
+    "reason": "This is a Codex CLI status line wrapper for OpenAI's model, not a Claude usage tracker; it monitors OpenAI Codex rate limits and context, not Claude usage metrics.",
+    "confidence": 0.92,
+    "rejectedAt": "2026-11-05T14:09:12.799Z"
+  },
+  {
+    "id": "viachm/claude-whisper",
+    "reason": "Claude Whisper is a macOS menu bar wrapper for Claude Code's voice dictation feature, not a usage tracker; it does not display, measure, or report Claude usage as a substantial feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-05T14:09:23.120Z"
+  },
+  {
+    "id": "xiaopangwa99/Doneko",
+    "reason": "Doneko is a notification helper for Claude Code and Codex completion events, not a usage tracker—it displays no token counts, costs, rate limits, quotas, sessions, or analytics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-05T14:09:29.335Z"
   }
 ]
