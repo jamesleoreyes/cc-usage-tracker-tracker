@@ -2446,5 +2446,17 @@
     "reason": "This is an agent approval/management system for Claude Code sessions rather than a Claude usage tracker—it monitors agent work and approvals, not Claude token consumption, cost, rate limits, or quotas.",
     "confidence": 0.85,
     "rejectedAt": "2026-11-04T23:19:39.850Z"
+  },
+  {
+    "id": "dgtlwrks/claude-terminal-mods",
+    "reason": "This project is a terminal UI customization framework for Claude Code with plugins and layout tools, not a usage tracker—it displays session state and checklist info but does not measure or report Claude token usage, costs, or rate limits as a core feature.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-11-05T05:30:56.694Z"
+  },
+  {
+    "id": "ieuforu/Amnesia",
+    "reason": "Amnesia is a session manager and data cleanup tool for Claude Code/Codex, not a usage tracker—it does not display, measure, or report Claude usage metrics like tokens, costs, or rate limits.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-05T05:31:05.914Z"
   }
 ]
