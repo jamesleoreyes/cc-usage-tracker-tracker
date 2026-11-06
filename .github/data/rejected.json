@@ -2524,5 +2524,17 @@
     "reason": "This is a notification/notification-sound utility for Claude Code that monitors sessions and plays chimes, but does not display, measure, or report Claude usage metrics (tokens, cost, rate limits, quotas) as a substantial feature.",
     "confidence": 0.95,
     "rejectedAt": "2026-11-06T05:30:01.586Z"
+  },
+  {
+    "id": "tinhtute/monoclaudian",
+    "reason": "This is a Claude Code configuration and setup repository with plugins, mods, and skills, but does not display or measure Claude usage as a feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-06T13:52:37.664Z"
+  },
+  {
+    "id": "hanshika0292/profiles-for-claude",
+    "reason": "This is an account switcher and profile manager for Claude Desktop/Code with no usage tracking or measurement features; it enables running multiple accounts simultaneously but does not display, measure, or report Claude usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-06T13:52:49.284Z"
   }
 ]
