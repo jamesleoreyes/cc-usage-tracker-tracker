@@ -2536,5 +2536,11 @@
     "reason": "This is an account switcher and profile manager for Claude Desktop/Code with no usage tracking or measurement features; it enables running multiple accounts simultaneously but does not display, measure, or report Claude usage metrics.",
     "confidence": 0.95,
     "rejectedAt": "2026-11-06T13:52:49.284Z"
+  },
+  {
+    "id": "abcd753951-gg/dsh-claude-mode",
+    "reason": "This is a DeepSeek Harness plugin providing Claude Code-style UI (themes, command palette, chat search, text-to-speech) but does not display, measure, or report Claude usage as a feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-06T22:48:34.501Z"
   }
 ]
