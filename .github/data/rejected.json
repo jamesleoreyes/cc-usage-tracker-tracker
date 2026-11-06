@@ -2482,5 +2482,47 @@
     "reason": "Doneko is a notification helper for Claude Code and Codex completion events, not a usage tracker—it displays no token counts, costs, rate limits, quotas, sessions, or analytics.",
     "confidence": 0.95,
     "rejectedAt": "2026-11-05T14:09:29.335Z"
+  },
+  {
+    "id": "axiom-csc/axiom-skill",
+    "reason": "Axiom is a security guardrail/circuit-breaker for Claude Code that prevents unsafe code patterns—not a usage tracker that displays or measures Claude consumption.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-06T05:29:45.958Z"
+  },
+  {
+    "id": "panhwerwaseem/llm-launch-readiness",
+    "reason": "This is an agent skill for validating LLM feature readiness (checking safeguards, retries, rate limits, cost logging) before release, not a usage tracker that measures or reports Claude consumption as a substantial feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-06T05:29:48.756Z"
+  },
+  {
+    "id": "pacocuevasg/ClaudeSniper",
+    "reason": "ClaudeSniper is a productivity tool that sends TextSniper captures to Claude for analysis, but does not display, measure, or report Claude usage (tokens, costs, quotas) as a feature—it simply consumes the plan invisibly.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-06T05:29:51.265Z"
+  },
+  {
+    "id": "pulket/mac-dev-tools",
+    "reason": "ClaudeHere and Command Center are developer utility apps that integrate with Claude Code but do not display, measure, or report Claude usage metrics—they are launchers and helpers, not usage trackers.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-06T05:29:53.691Z"
+  },
+  {
+    "id": "starding/pitbus",
+    "reason": "PitBus is an event bus and orchestrator for Claude Code sessions that minimizes token usage by waking agents only when events arrive; it displays task status (waiting on you, waiting externally, completed) but does not measure or report Claude usage metrics as a primary feature.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-11-06T05:29:56.524Z"
+  },
+  {
+    "id": "SpaceTerran/context-guard",
+    "reason": "This is a Claude Code session manager that monitors context size and automates compaction—it measures context tokens but does not display, track, or report overall Claude usage statistics as a primary feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-06T05:29:58.851Z"
+  },
+  {
+    "id": "naumaanh/claude-chimes",
+    "reason": "This is a notification/notification-sound utility for Claude Code that monitors sessions and plays chimes, but does not display, measure, or report Claude usage metrics (tokens, cost, rate limits, quotas) as a substantial feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-06T05:30:01.586Z"
   }
 ]
