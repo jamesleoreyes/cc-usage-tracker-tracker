@@ -2572,5 +2572,11 @@
     "reason": "AgentRouter is a session manager for Claude Code and Codex agents that routes prompts and captures output, but does not display, measure, or report Claude usage metrics (tokens, cost, rate limits, quotas) as a feature.",
     "confidence": 0.95,
     "rejectedAt": "2026-11-07T12:36:09.581Z"
+  },
+  {
+    "id": "willblackmore/hatstand",
+    "reason": "Hatstand is an account switcher/instance manager for Claude desktop with no usage display, measurement, or reporting features—it does not track Claude usage and therefore does not qualify for the registry.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-07T21:32:42.693Z"
   }
 ]
