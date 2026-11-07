@@ -2554,5 +2554,23 @@
     "reason": "QuickPrompt is a text processing utility that uses Claude Code and Codex as backend services, but does not display, measure, or report Claude usage (tokens, cost, rate limits) as a feature — it only consumes the APIs transparently.",
     "confidence": 0.95,
     "rejectedAt": "2026-11-07T04:57:59.595Z"
+  },
+  {
+    "id": "md-sazzadulislam/claude-multi-browser-monitor",
+    "reason": "This project monitors Claude conversation state and automates UI interactions (continue button clicks) but does not display, measure, or report Claude usage metrics like tokens, cost, or quotas—making it a UI automation tool rather than a usage tracker.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-07T12:36:01.109Z"
+  },
+  {
+    "id": "clerancebae/orbi",
+    "reason": "Orbi is a menu bar companion for AI agents that notifies on completion and enables interaction, but does not display, measure, or report Claude usage metrics (tokens, costs, rate limits) as a substantial feature.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-11-07T12:36:06.436Z"
+  },
+  {
+    "id": "ajazabdullah/AgentRouter",
+    "reason": "AgentRouter is a session manager for Claude Code and Codex agents that routes prompts and captures output, but does not display, measure, or report Claude usage metrics (tokens, cost, rate limits, quotas) as a feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-07T12:36:09.581Z"
   }
 ]
