@@ -216089,5 +216089,140 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-11-06T22:48:56.005Z"
+  },
+  {
+    "id": "drmohammedalmasri-pixel/claude-usage-tray",
+    "name": "claude-usage-tray",
+    "author": "drmohammedalmasri-pixel",
+    "repoURL": "https://github.com/drmohammedalmasri-pixel/claude-usage-tray",
+    "description": "Windows tray app that tracks your Claude usage and shows exactly how much of the weekly limit a 5-hour session costs.",
+    "category": "Statusline",
+    "platforms": [
+      "windows"
+    ],
+    "language": "C#",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "usage-tracking",
+      "weekly-limit-visualization",
+      "session-cost-calculator",
+      "usage-history",
+      "csv-export",
+      "multi-language-support"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-07T00:23:07Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-07T04:57:59.595Z"
+  },
+  {
+    "id": "bryanjinkim/sieve",
+    "name": "sieve",
+    "author": "bryanjinkim",
+    "repoURL": "https://github.com/bryanjinkim/sieve",
+    "description": "Claude Code plugin that cuts token usage by filtering noisy tool output, guarding large file reads, and tracking a token budget.",
+    "category": "Claude Code Plugin",
+    "platforms": [],
+    "language": "Python",
+    "authMethod": [],
+    "features": [
+      "token-budget-tracking",
+      "output-compression",
+      "file-read-guarding",
+      "session-reporting",
+      "cheaper-model-routing",
+      "token-savings-habits"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-07T02:31:12Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-07T04:57:59.595Z"
+  },
+  {
+    "id": "renanpallin/claude-slimbar",
+    "name": "claude-slimbar",
+    "author": "renanpallin",
+    "repoURL": "https://github.com/renanpallin/claude-slimbar",
+    "description": "Minimal footer for Claude Code: one row, one context bar colored by tokens in use, no status line needed",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "TypeScript",
+    "authMethod": [],
+    "features": [
+      "context-usage-bar",
+      "token-visualization",
+      "minimal-ui",
+      "auto-compaction-awareness"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-07T04:28:51Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-07T04:57:59.595Z"
+  },
+  {
+    "id": "minijaws/claude-statusline",
+    "name": "claude-statusline",
+    "author": "minijaws",
+    "repoURL": "https://github.com/minijaws/claude-statusline",
+    "description": "Status line and subagent rows for Claude Code",
+    "category": "Claude Code Plugin",
+    "platforms": [],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "context-usage-display",
+      "rate-limit-tracking",
+      "prompt-cache-monitoring",
+      "session-cost-estimate",
+      "multi-agent-tracking",
+      "git-integration"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-07T03:18:42Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-07T04:57:59.595Z"
+  },
+  {
+    "id": "spkcd/quota-signal",
+    "name": "quota-signal",
+    "author": "spkcd",
+    "repoURL": "https://github.com/spkcd/quota-signal",
+    "description": "macOS menu bar dashboard for Claude weekly quota and local Claude Code token usage",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Browser Cookie Auto-detect",
+      "Session Key"
+    ],
+    "features": [
+      "weekly-quota-display",
+      "multi-account",
+      "menu-bar-widget",
+      "claude-code-tokens",
+      "local-log-parsing",
+      "workspace-comparison",
+      "reset-countdown"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-07T00:32:51Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-07T04:57:59.595Z"
   }
 ]

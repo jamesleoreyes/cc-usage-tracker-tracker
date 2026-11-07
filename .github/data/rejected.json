@@ -2542,5 +2542,17 @@
     "reason": "This is a DeepSeek Harness plugin providing Claude Code-style UI (themes, command palette, chat search, text-to-speech) but does not display, measure, or report Claude usage as a feature.",
     "confidence": 0.95,
     "rejectedAt": "2026-11-06T22:48:34.501Z"
+  },
+  {
+    "id": "motystudio/SimLease",
+    "reason": "SimLease is a device manager for Claude Code sessions that optimizes simulator/emulator resource allocation, not a usage tracker—it does not display, measure, or report Claude API usage, tokens, costs, or rate limits.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-07T04:57:53.061Z"
+  },
+  {
+    "id": "maximnikmazin/QuickPrompt",
+    "reason": "QuickPrompt is a text processing utility that uses Claude Code and Codex as backend services, but does not display, measure, or report Claude usage (tokens, cost, rate limits) as a feature — it only consumes the APIs transparently.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-07T04:57:59.595Z"
   }
 ]
