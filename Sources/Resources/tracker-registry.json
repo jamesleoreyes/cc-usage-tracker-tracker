@@ -217041,5 +217041,215 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-11-07T21:33:01.193Z"
+  },
+  {
+    "id": "Jonirulah/Orchestra",
+    "name": "Orchestra",
+    "author": "Jonirulah",
+    "repoURL": "https://github.com/Jonirulah/Orchestra",
+    "description": "Windows terminal + SSH manager for AI coding agents (Claude Code, Codex, opencode): multi-account grid, agent and subagent tracking, token usage and savings tips, MCP servers across accounts. Tauri 2 + Svelte 5.",
+    "category": "Electron/Desktop",
+    "platforms": [
+      "windows"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "Session Key",
+      "API Key"
+    ],
+    "features": [
+      "multi-account-tracking",
+      "token-usage-display",
+      "quota-monitoring",
+      "agent-tracking",
+      "subagent-monitoring",
+      "context-size-tracking",
+      "prompt-cache-countdown",
+      "ssh-manager"
+    ],
+    "builtWithClaude": true,
+    "stars": 2,
+    "lastCommitDate": "2026-11-07T22:57:55Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-08T04:51:04.404Z"
+  },
+  {
+    "id": "sixiaohanle/token-float",
+    "name": "token-float",
+    "author": "sixiaohanle",
+    "repoURL": "https://github.com/sixiaohanle/token-float",
+    "description": "A native macOS floating widget and menu bar meter for Codex and Claude Code token rates and local usage history.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "live-output-rates",
+      "daily-weekly-cumulative-charts",
+      "multi-provider-tracking",
+      "floating-widget",
+      "menu-bar-display",
+      "usage-history",
+      "deduplication"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-08T04:31:17Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-08T04:51:04.405Z"
+  },
+  {
+    "id": "Libo-Chan/token-gauge",
+    "name": "token-gauge",
+    "author": "Libo-Chan",
+    "repoURL": "https://github.com/Libo-Chan/token-gauge",
+    "description": "Unofficial Windows desktop widget showing Claude Code & Codex token usage and plan limits",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "PowerShell",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "API Key"
+    ],
+    "features": [
+      "claude-code-usage",
+      "codex-usage",
+      "token-breakdown",
+      "rate-limit-display",
+      "quota-alerts",
+      "multi-language",
+      "live-countdown",
+      "tray-icon"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-08T04:01:32Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-08T04:51:04.405Z"
+  },
+  {
+    "id": "joao-carmassi/claude-statusline",
+    "name": "claude-statusline",
+    "author": "joao-carmassi",
+    "repoURL": "https://github.com/joao-carmassi/claude-statusline",
+    "description": "Colorful Claude Code status line showing caveman state, context usage and 5-hour/weekly rate limits",
+    "category": "Statusline",
+    "platforms": [
+      "windows"
+    ],
+    "language": "PowerShell",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "context-usage-bar",
+      "rate-limit-display",
+      "multi-account",
+      "caveman-state",
+      "5h-weekly-limits",
+      "ansi-colored-output"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-07T23:34:46Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-08T04:51:04.405Z"
+  },
+  {
+    "id": "Karasoy-Teknoloji/agent-crew-kit",
+    "name": "agent-crew-kit",
+    "author": "Karasoy-Teknoloji",
+    "repoURL": "https://github.com/Karasoy-Teknoloji/agent-crew-kit",
+    "description": "Team kit for Claude Code: subagent ladder, working rules, safety hooks, quota pace status line, Vault helper",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Python",
+    "authMethod": [],
+    "features": [
+      "quota-pace-forecast",
+      "subagent-ladder",
+      "status-line",
+      "cost-statistics",
+      "team-usage-ranking"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-08T00:45:46Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-08T04:51:04.405Z"
+  },
+  {
+    "id": "toddsherman/agent-ledger",
+    "name": "agent-ledger",
+    "author": "toddsherman",
+    "repoURL": "https://github.com/toddsherman/agent-ledger",
+    "description": "A local, independently observed record of what AI agents (Claude Code, Codex) do in Chrome. Chrome extension + macOS menu bar app.",
+    "category": "Browser Extension",
+    "platforms": [
+      "macos",
+      "chromium"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Browser Cookie Auto-detect",
+      "Traffic Capture"
+    ],
+    "features": [
+      "agent-session-recording",
+      "click-tracking",
+      "form-capture",
+      "navigation-logging",
+      "tamper-evidence",
+      "task-labels",
+      "claude-code-support",
+      "multi-agent"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-08T02:11:25Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-08T04:51:04.405Z"
+  },
+  {
+    "id": "ThomasVuNguyen/token-tracker",
+    "name": "token-tracker",
+    "author": "ThomasVuNguyen",
+    "repoURL": "https://github.com/ThomasVuNguyen/token-tracker",
+    "description": "Menu bar app for remaining Claude, Codex, Cursor, and Antigravity usage",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "menu-bar-display",
+      "multi-provider-quotas",
+      "claude-cursor-codex-antigravity",
+      "auto-refresh",
+      "keychain-integration"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-08T00:13:32Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-08T04:51:04.405Z"
   }
 ]

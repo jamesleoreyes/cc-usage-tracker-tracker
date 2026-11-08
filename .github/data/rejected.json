@@ -2578,5 +2578,11 @@
     "reason": "Hatstand is an account switcher/instance manager for Claude desktop with no usage display, measurement, or reporting features—it does not track Claude usage and therefore does not qualify for the registry.",
     "confidence": 0.95,
     "rejectedAt": "2026-11-07T21:32:42.693Z"
+  },
+  {
+    "id": "sudeep1098/never-lose-context",
+    "reason": "This is a context management and session persistence tool for AI agents that helps recover from rate limits and crashes, but does not display, measure, or report Claude usage metrics as a feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-08T04:50:58.257Z"
   }
 ]
