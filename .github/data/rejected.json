@@ -2584,5 +2584,11 @@
     "reason": "This is a context management and session persistence tool for AI agents that helps recover from rate limits and crashes, but does not display, measure, or report Claude usage metrics as a feature.",
     "confidence": 0.95,
     "rejectedAt": "2026-11-08T04:50:58.257Z"
+  },
+  {
+    "id": "jiangwanyutao/antigravity-cli-hud",
+    "reason": "This is a statusline plugin for Google Antigravity CLI that displays model, context, and quota metrics, but it tracks Gemini/Antigravity usage, not Claude usage, so it does not qualify for the Claude usage tracker registry.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-11-08T12:54:14.674Z"
   }
 ]
