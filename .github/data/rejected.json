@@ -2590,5 +2590,11 @@
     "reason": "This is a statusline plugin for Google Antigravity CLI that displays model, context, and quota metrics, but it tracks Gemini/Antigravity usage, not Claude usage, so it does not qualify for the Claude usage tracker registry.",
     "confidence": 0.85,
     "rejectedAt": "2026-11-08T12:54:14.674Z"
+  },
+  {
+    "id": "anpawo/claude-setup",
+    "reason": "This is a Claude Code starter kit providing skills, statusline configuration, and defaults—not a project that displays or measures Claude usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-08T21:47:17.011Z"
   }
 ]

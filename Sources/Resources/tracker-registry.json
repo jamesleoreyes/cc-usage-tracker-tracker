@@ -217657,5 +217657,248 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-11-08T12:54:20.638Z"
+  },
+  {
+    "id": "alebastr12/cursor-limits-tray",
+    "name": "cursor-limits-tray",
+    "author": "alebastr12",
+    "repoURL": "https://github.com/alebastr12/cursor-limits-tray",
+    "description": "Tray AI limits — macOS menu bar app for live Cursor / ChatGPT / Claude usage limits",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "live-usage-display",
+      "multi-provider",
+      "menu-bar-app",
+      "cursor-limits",
+      "chatgpt-limits",
+      "claude-limits",
+      "percentage-display",
+      "keychain-caching"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-08T19:40:37Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-08T21:47:32.777Z"
+  },
+  {
+    "id": "ductran27/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "ductran27",
+    "repoURL": "https://github.com/ductran27/claude-code-statusline",
+    "description": "Personal Claude Code statusline — single-row, tight separators, muted 256-color palette",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Rust",
+    "authMethod": [],
+    "features": [
+      "context-window-display",
+      "rate-limit-tracking",
+      "effort-tier-display",
+      "model-info",
+      "session-status",
+      "ultracode-marker",
+      "weekly-bucket"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-11-08T19:47:27Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-08T21:47:32.777Z"
+  },
+  {
+    "id": "stirnim/claude-statusline",
+    "name": "claude-statusline",
+    "author": "stirnim",
+    "repoURL": "https://github.com/stirnim/claude-statusline",
+    "description": "A compact status line for Claude Code",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "OpenTelemetry"
+    ],
+    "features": [
+      "cost-display",
+      "context-usage",
+      "rate-limit-tracking",
+      "color-coded-alerts",
+      "multi-window-tracking"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-08T18:44:50Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-08T21:47:32.777Z"
+  },
+  {
+    "id": "doongchoong/claude-deepseek-worker",
+    "name": "claude-deepseek-worker",
+    "author": "doongchoong",
+    "repoURL": "https://github.com/doongchoong/claude-deepseek-worker",
+    "description": "DeepSeek as a cheap worker for Claude Code: delegated coding, batch jobs, web research, and a usage status line.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "usage-status-line",
+      "session-tracking",
+      "token-counting",
+      "cost-calculation",
+      "cache-hit-rate",
+      "account-balance"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-08T14:54:03Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-08T21:47:32.777Z"
+  },
+  {
+    "id": "prantikmedhi/clarping",
+    "name": "clarping",
+    "author": "prantikmedhi",
+    "repoURL": "https://github.com/prantikmedhi/clarping",
+    "description": "Hit your Claude limit? Switch Claude accounts for Claude Code and Claude Desktop in one click from the macOS menu bar. Live 5-hour, weekly and Fable usage limits, token dashboard, Liquid Glass UI.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie",
+      "Session Key"
+    ],
+    "features": [
+      "account-switcher",
+      "usage-limits",
+      "token-dashboard",
+      "rate-limit-display",
+      "multi-account",
+      "liquid-glass-ui",
+      "menu-bar-app",
+      "limit-reset-times"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-08T18:21:38Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-08T21:47:32.777Z"
+  },
+  {
+    "id": "dipvibe/Tokenwick",
+    "name": "Tokenwick",
+    "author": "dipvibe",
+    "repoURL": "https://github.com/dipvibe/Tokenwick",
+    "description": "Claude Code usage limits & tokens in your macOS menu bar",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Session Key"
+    ],
+    "features": [
+      "session-limits",
+      "weekly-limits",
+      "token-usage",
+      "claude-code-tokens",
+      "extra-usage",
+      "model-breakdown",
+      "menu-bar-display",
+      "cache-read-breakdown"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-08T16:14:43Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-08T21:47:32.777Z"
+  },
+  {
+    "id": "Panther114/TokenStats",
+    "name": "TokenStats",
+    "author": "Panther114",
+    "repoURL": "https://github.com/Panther114/TokenStats",
+    "description": "Token usage and API-equivalent cost across Claude Code, Codex, OpenCode, Gemini CLI and 14 more AI coding agents, in one local Windows dashboard.",
+    "category": "Electron/Desktop",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "multi-provider",
+      "token-counting",
+      "cost-tracking",
+      "cache-rates",
+      "heatmaps",
+      "daily-ranges",
+      "local-only",
+      "price-refresh"
+    ],
+    "builtWithClaude": null,
+    "stars": 1,
+    "lastCommitDate": "2026-11-08T13:29:46Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-08T21:47:32.777Z"
+  },
+  {
+    "id": "sgotur/token-meter",
+    "name": "token-meter",
+    "author": "sgotur",
+    "repoURL": "https://github.com/sgotur/token-meter",
+    "description": "Claude Code hook showing token usage and estimated cost per turn and session",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Python",
+    "authMethod": [],
+    "features": [
+      "token-counting",
+      "cost-estimation",
+      "per-turn-metrics",
+      "session-totals",
+      "cache-tracking",
+      "context-warnings",
+      "budget-alerts",
+      "statusline-display"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-08T13:46:47Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-08T21:47:32.777Z"
   }
 ]
