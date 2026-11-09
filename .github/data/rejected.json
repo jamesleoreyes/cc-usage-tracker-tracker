@@ -2596,5 +2596,17 @@
     "reason": "This is a Claude Code starter kit providing skills, statusline configuration, and defaults—not a project that displays or measures Claude usage metrics.",
     "confidence": 0.95,
     "rejectedAt": "2026-11-08T21:47:17.011Z"
+  },
+  {
+    "id": "pavstev/tackroom",
+    "reason": "This is an AI coding harness providing skills, agents, and guard hooks for Claude Code/Cursor/Opencode, but does not display, measure, or report Claude usage (tokens, costs, quotas, sessions) as a feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-09T04:58:42.892Z"
+  },
+  {
+    "id": "cristiandonofrio/agentlings",
+    "reason": "Agentlings displays Claude Code session status and activity through visual creatures, but does not measure, track, or report Claude usage metrics (tokens, cost, rate limits); it is a session monitor/organizer, not a usage tracker.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-09T04:58:49.148Z"
   }
 ]

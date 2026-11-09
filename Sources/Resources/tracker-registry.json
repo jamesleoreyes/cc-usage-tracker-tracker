@@ -217900,5 +217900,180 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-11-08T21:47:32.777Z"
+  },
+  {
+    "id": "mothoro/claude-usage-widget",
+    "name": "claude-usage-widget",
+    "author": "mothoro",
+    "repoURL": "https://github.com/mothoro/claude-usage-widget",
+    "description": "Scriptable iOS widget showing Claude plan usage",
+    "category": "Mobile",
+    "platforms": [
+      "ios"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "claude-plan-usage",
+      "percentage-display",
+      "sessionkey-rotation",
+      "keychain-storage"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-09T01:30:12Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-09T04:58:51.612Z"
+  },
+  {
+    "id": "SakithaSamarathunga33/claude-usage-limits",
+    "name": "claude-usage-limits",
+    "author": "SakithaSamarathunga33",
+    "repoURL": "https://github.com/SakithaSamarathunga33/claude-usage-limits",
+    "description": "See your Claude 5-hour and weekly usage limits as progress bars in Claude Code",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "TypeScript",
+    "authMethod": [],
+    "features": [
+      "session-limit-progress-bars",
+      "weekly-limit-tracking",
+      "reset-countdown",
+      "live-usage-updates",
+      "multi-theme-support"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-09T01:35:16Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-09T04:58:51.612Z"
+  },
+  {
+    "id": "Cupjok/clawd-statusline",
+    "name": "clawd-statusline",
+    "author": "Cupjok",
+    "repoURL": "https://github.com/Cupjok/clawd-statusline",
+    "description": "Colourful 3-line Claude Code status line with an animated Clawd, usage bars and git status",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "usage-bars",
+      "context-window-tracking",
+      "session-usage",
+      "weekly-usage",
+      "animated-status",
+      "git-integration"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-09T02:50:02Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-09T04:58:51.612Z"
+  },
+  {
+    "id": "brahimfilali758/claude-context-bar",
+    "name": "claude-context-bar",
+    "author": "brahimfilali758",
+    "repoURL": "https://github.com/brahimfilali758/claude-context-bar",
+    "description": "Coloured context-window progress bar (green → yellow → red) + plan usage % for the Claude Code status line",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "OpenTelemetry"
+    ],
+    "features": [
+      "context-window-display",
+      "usage-rate-limits",
+      "cost-tracking",
+      "compact-warnings",
+      "pace-alerts",
+      "git-branch-info",
+      "configurable-colors"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-08T23:59:15Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-09T04:58:51.612Z"
+  },
+  {
+    "id": "salva1973/agent-usage",
+    "name": "agent-usage",
+    "author": "salva1973",
+    "repoURL": "https://github.com/salva1973/agent-usage",
+    "description": "Read-only CLI and TypeScript library that reports Codex and Claude Code usage and rate limits in one provider-neutral report",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "linux",
+      "macos"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "multi-provider",
+      "rate-limits",
+      "token-analytics",
+      "json-export",
+      "demo-mode"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-09T03:39:15Z",
+    "openIssues": 3,
+    "archived": false,
+    "lastFetched": "2026-11-09T04:58:51.612Z"
+  },
+  {
+    "id": "prjwrld/CCManage",
+    "name": "CCManage",
+    "author": "prjwrld",
+    "repoURL": "https://github.com/prjwrld/CCManage",
+    "description": "Menu bar app for several Claude Desktop accounts on one Mac: live 5-hour and weekly usage for each, one-click open, add and sync. Unofficial.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "multi-account",
+      "live-usage",
+      "5-hour-limits",
+      "weekly-limits",
+      "menu-bar",
+      "account-sync"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-11-09T03:58:12Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-09T04:58:51.612Z"
   }
 ]
