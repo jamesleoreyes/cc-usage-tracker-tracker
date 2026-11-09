@@ -2608,5 +2608,23 @@
     "reason": "Agentlings displays Claude Code session status and activity through visual creatures, but does not measure, track, or report Claude usage metrics (tokens, cost, rate limits); it is a session monitor/organizer, not a usage tracker.",
     "confidence": 0.95,
     "rejectedAt": "2026-11-09T04:58:49.148Z"
+  },
+  {
+    "id": "derek-miller/claude-handoff",
+    "reason": "Claude Handoff is a session manager for Claude Desktop that moves Code history between accounts, not a usage tracker—it does not display, measure, or report Claude usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-09T15:27:26.450Z"
+  },
+  {
+    "id": "aibyos/claude-sessions",
+    "reason": "Claude Sessions is a session manager and organizer for Claude Code conversations, not a usage tracker—it displays conversations, memory use, and retention status but does not measure, aggregate, or report Claude token usage, costs, or API quotas.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-09T15:27:29.815Z"
+  },
+  {
+    "id": "taylorarndt/DictateMute",
+    "reason": "DictateMute is an automation tool that detects Claude Code dictation and controls Discord muting, but does not display, measure, or report Claude usage as a feature—it merely reacts to microphone activity.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-09T15:27:32.907Z"
   }
 ]
