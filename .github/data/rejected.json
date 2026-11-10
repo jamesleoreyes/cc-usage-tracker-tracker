@@ -2644,5 +2644,17 @@
     "reason": "This is a process monitor for Claude Code runaways, not a Claude usage tracker—it alerts on CPU/resource spikes, not usage metrics like tokens, cost, or rate limits.",
     "confidence": 0.92,
     "rejectedAt": "2026-11-10T01:16:56.534Z"
+  },
+  {
+    "id": "kashym/tmux-agent-herd",
+    "reason": "This project monitors AI coding agent states (Claude Code, Codex, Copilot, etc.) and displays their status in tmux, but does not track Claude-specific usage metrics like tokens, costs, or rate limits—it tracks agent execution states and readiness instead.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-10T14:29:54.409Z"
+  },
+  {
+    "id": "alexbystrow/claude-kit",
+    "reason": "This is a collection of Claude Code customizations and skills (statusline mod, note-sharing plugin, output style, review loop) that enhance Claude Code's functionality, but do not measure, display, or report Claude usage metrics as a substantial feature—model-band shows model/context at a glance but is a workflow aid, not a usage tracker.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-10T14:30:08.780Z"
   }
 ]
