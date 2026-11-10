@@ -2626,5 +2626,23 @@
     "reason": "DictateMute is an automation tool that detects Claude Code dictation and controls Discord muting, but does not display, measure, or report Claude usage as a feature—it merely reacts to microphone activity.",
     "confidence": 0.95,
     "rejectedAt": "2026-11-09T15:27:32.907Z"
+  },
+  {
+    "id": "runkids/figlens",
+    "reason": "figlens is a Figma MCP server and agent skill for design-to-code workflows; it does not track, measure, or report Claude usage metrics, costs, tokens, or quotas.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-10T01:16:50.349Z"
+  },
+  {
+    "id": "blitzhash360-web/blitzhash-vibe-coding-rules",
+    "reason": "This is a ruleset and skill pack for AI coding tools to write secure code; it does not display, measure, or report Claude usage metrics—it is a developer security guide, not a usage tracker.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-10T01:16:53.519Z"
+  },
+  {
+    "id": "Nharu/procwatch",
+    "reason": "This is a process monitor for Claude Code runaways, not a Claude usage tracker—it alerts on CPU/resource spikes, not usage metrics like tokens, cost, or rate limits.",
+    "confidence": 0.92,
+    "rejectedAt": "2026-11-10T01:16:56.534Z"
   }
 ]
