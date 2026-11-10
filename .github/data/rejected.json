@@ -2656,5 +2656,23 @@
     "reason": "This is a collection of Claude Code customizations and skills (statusline mod, note-sharing plugin, output style, review loop) that enhance Claude Code's functionality, but do not measure, display, or report Claude usage metrics as a substantial feature—model-band shows model/context at a glance but is a workflow aid, not a usage tracker.",
     "confidence": 0.95,
     "rejectedAt": "2026-11-10T14:30:08.780Z"
+  },
+  {
+    "id": "sergeiwallace/ai-cli-utils",
+    "reason": "Despite token-tracking capabilities (CC token scanning and usage events), the primary purpose is session management and orchestration for multiple AI CLIs; usage tracking is a secondary operational feature, not a substantial display/reporting interface.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-11-10T22:57:29.678Z"
+  },
+  {
+    "id": "HYClub/deepseek-harness-game-studios",
+    "reason": "This is a port of Claude Code Game Studios to DeepSeek Harness—a game development orchestrator with agents and skills, not a Claude usage tracker; it displays no usage metrics, token counts, costs, or quotas.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-10T22:57:41.630Z"
+  },
+  {
+    "id": "t0d0r/claude-checkpoints",
+    "reason": "This is a Claude Code plugin for tracking project checkpoints/progress, not for tracking Claude usage metrics like tokens, cost, or API quotas.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-10T22:57:44.496Z"
   }
 ]
