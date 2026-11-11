@@ -2674,5 +2674,11 @@
     "reason": "This is a Claude Code plugin for tracking project checkpoints/progress, not for tracking Claude usage metrics like tokens, cost, or API quotas.",
     "confidence": 0.95,
     "rejectedAt": "2026-11-10T22:57:44.496Z"
+  },
+  {
+    "id": "kolivritech/kolivri-voice-mcp",
+    "reason": "This is an MCP server that provides phone/voice calling capabilities to Claude Code and other agents, not a tracker of Claude usage metrics or consumption.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-11T13:43:25.120Z"
   }
 ]
