@@ -2710,5 +2710,11 @@
     "reason": "Hopback is a session navigator and window switcher for Claude Code, not a usage tracker—it displays session status (waiting/working/finished) but does not measure or report Claude usage metrics like tokens, cost, or rate limits.",
     "confidence": 0.95,
     "rejectedAt": "2026-11-12T00:11:15.857Z"
+  },
+  {
+    "id": "ek33450505/eridian",
+    "reason": "This is a Claude Code persona/plugin system with a statusline mood display, not a usage tracker—it does not measure, display, or report Claude token/cost/quota metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-12T14:47:06.993Z"
   }
 ]
