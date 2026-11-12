@@ -2716,5 +2716,11 @@
     "reason": "This is a Claude Code persona/plugin system with a statusline mood display, not a usage tracker—it does not measure, display, or report Claude token/cost/quota metrics.",
     "confidence": 0.95,
     "rejectedAt": "2026-11-12T14:47:06.993Z"
+  },
+  {
+    "id": "chaos-zhou/quota-watch",
+    "reason": "This is an automation tool that monitors and auto-resumes interrupted Codex/Claude sessions after quota resets, but does not display or report Claude usage metrics as a feature—it monitors session state and quota events only.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-12T23:18:43.514Z"
   }
 ]
