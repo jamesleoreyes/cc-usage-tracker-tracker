@@ -222733,5 +222733,190 @@
     "openIssues": 13,
     "archived": false,
     "lastFetched": "2026-11-12T23:18:49.767Z"
+  },
+  {
+    "id": "P3TCH/ClaudeUsageBar",
+    "name": "ClaudeUsageBar",
+    "author": "P3TCH",
+    "repoURL": "https://github.com/P3TCH/ClaudeUsageBar",
+    "description": "This project is mini app to show your claude and codex usage",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "Session Cookie"
+    ],
+    "features": [
+      "session-limits",
+      "weekly-limits",
+      "multi-model-tracking",
+      "menu-bar-display",
+      "customizable-display"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-13T04:55:11Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-13T05:28:41.349Z"
+  },
+  {
+    "id": "DanielAlexssander/Claude-Codex-Usage",
+    "name": "Claude-Codex-Usage",
+    "author": "DanielAlexssander",
+    "repoURL": "https://github.com/DanielAlexssander/Claude-Codex-Usage",
+    "description": "Widget de desktop (Windows e macOS) que mostra o uso do Claude Code e do Codex: limites de 5h e semanal, reset, tokens, projetos e custo estimado. Alterne entre as IAs com um clique. Tudo local, sem servidor intermediário. Feito com Tauri 2 e Rust.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows",
+      "macos"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "OAuth Token",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "usage-dashboard",
+      "token-tracking",
+      "cost-estimation",
+      "5h-session-limits",
+      "weekly-quotas",
+      "multi-model-support",
+      "codex-integration",
+      "rate-limit-alerts"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-13T01:25:09Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-13T05:28:41.349Z"
+  },
+  {
+    "id": "madhusoodhans/claude-buddy",
+    "name": "claude-buddy",
+    "author": "madhusoodhans",
+    "repoURL": "https://github.com/madhusoodhans/claude-buddy",
+    "description": "A desk companion that gives Claude Code a face: ESP32-S3 Cheeko Gotchi firmware + macOS menu bar app",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "macos"
+    ],
+    "language": "C++",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "usage-meters",
+      "session-limits",
+      "weekly-quotas",
+      "spend-caps",
+      "activity-logging",
+      "multi-machine",
+      "bluetooth-sync"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-13T05:15:27Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-13T05:28:41.349Z"
+  },
+  {
+    "id": "samsonchen/agent-town-claude-code",
+    "name": "agent-town-claude-code",
+    "author": "samsonchen",
+    "repoURL": "https://github.com/samsonchen/agent-town-claude-code",
+    "description": "Agent-Town for Claude Code: watch your Claude Code sessions as a small 3D office. A macOS menu bar app and a Claude Code plugin, now on Windows too.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "macos",
+      "windows"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "session-visualization",
+      "real-time-monitoring",
+      "subagent-tracking",
+      "background-job-display",
+      "approval-notifications",
+      "3d-office-view"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-13T04:49:44Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-13T05:28:41.349Z"
+  },
+  {
+    "id": "Bastaff/puddle",
+    "name": "puddle",
+    "author": "Bastaff",
+    "repoURL": "https://github.com/Bastaff/puddle",
+    "description": "Work has changed. See it differently. A free, open-source Mac menu bar app that shows how you and your team work with Claude Code and Codex. Never your prompts or code.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Session Cookie",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "claude-code-tracking",
+      "team-analytics",
+      "token-usage",
+      "rate-limit-alerts",
+      "session-logs",
+      "privacy-focused",
+      "live-sharing",
+      "agent-analytics"
+    ],
+    "builtWithClaude": null,
+    "stars": 2,
+    "lastCommitDate": "2026-11-12T23:51:44Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-13T05:28:41.349Z"
+  },
+  {
+    "id": "arifmardhatillah/Tessly",
+    "name": "Tessly",
+    "author": "arifmardhatillah",
+    "repoURL": "https://github.com/arifmardhatillah/Tessly",
+    "description": "Tessly: AI Token Tracker. Know every token you spend.",
+    "category": "Electron/Desktop",
+    "platforms": [
+      "windows"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "token-usage-breakdown",
+      "daily-charts",
+      "calendar-heatmap",
+      "per-model-stats",
+      "7-day-average",
+      "cache-tracking",
+      "multi-year-history",
+      "update-auto-check"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-13T04:25:55Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-13T05:28:41.349Z"
   }
 ]

@@ -2722,5 +2722,17 @@
     "reason": "This is an automation tool that monitors and auto-resumes interrupted Codex/Claude sessions after quota resets, but does not display or report Claude usage metrics as a feature—it monitors session state and quota events only.",
     "confidence": 0.95,
     "rejectedAt": "2026-11-12T23:18:43.514Z"
+  },
+  {
+    "id": "KennethAtchon/brain-speak",
+    "reason": "Brain Speak is a text-to-speech notification tool for Claude Code agents that speaks short updates aloud; it does not display, measure, or report Claude usage metrics (tokens, cost, rate limits, quotas) as a feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-13T05:28:31.748Z"
+  },
+  {
+    "id": "LaiYongqiang/SleepSkip",
+    "reason": "SleepSkip is a keep-awake utility for AI agents and Claude Code, not a Claude usage tracker; it monitors and defers sleep during agent execution but does not display, measure, or report Claude token/cost/quota metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-13T05:28:34.795Z"
   }
 ]
