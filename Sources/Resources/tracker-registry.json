@@ -222921,5 +222921,304 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-11-13T05:28:41.349Z"
+  },
+  {
+    "id": "jihanurrahman33/Claude-Usage-Widget",
+    "name": "Claude-Usage-Widget",
+    "author": "jihanurrahman33",
+    "repoURL": "https://github.com/jihanurrahman33/Claude-Usage-Widget",
+    "description": "See your Claude Code limits at a glance. An always-on-top desktop widget with activity rings for your 5-hour and 7-day usage. Local only, no network calls.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "language": "Dart",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "activity-rings",
+      "rate-limit-display",
+      "5h-7d-limits",
+      "usage-alerts",
+      "always-on-top",
+      "local-only",
+      "multi-account"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-13T12:58:25Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-13T14:03:55.121Z"
+  },
+  {
+    "id": "celeldor-dot/claude-usage-widget",
+    "name": "claude-usage-widget",
+    "author": "celeldor-dot",
+    "repoURL": "https://github.com/celeldor-dot/claude-usage-widget",
+    "description": "Widget Windows : consommation de l'abonnement Claude dans la zone de notification et sur le bureau",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "usage-display",
+      "5h-session-limits",
+      "weekly-limits",
+      "per-model-limits",
+      "reset-times",
+      "system-tray-icon",
+      "desktop-panel"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-13T11:40:35Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-13T14:03:55.121Z"
+  },
+  {
+    "id": "jjimi77/ClaudeUsageWidget",
+    "name": "ClaudeUsageWidget",
+    "author": "jjimi77",
+    "repoURL": "https://github.com/jjimi77/ClaudeUsageWidget",
+    "description": "Claude Pro/Max 구독 사용량(5시간·주간 한도)을 맥 바탕화면에 실시간으로 띄우는 위젯",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "session-usage-display",
+      "weekly-usage-analytics",
+      "model-breakdown",
+      "auto-refresh",
+      "usage-warnings",
+      "keychain-integration"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-13T07:57:58Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-13T14:03:55.121Z"
+  },
+  {
+    "id": "zaryabmustafa/headroom-widget",
+    "name": "headroom-widget",
+    "author": "zaryabmustafa",
+    "repoURL": "https://github.com/zaryabmustafa/headroom-widget",
+    "description": "Windows 11 taskbar widget showing Claude Code and OpenAI Codex usage limits (5-hour and weekly) plus RAM. Native Rust, no API key.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "claude-code-limits",
+      "codex-limits",
+      "ram-monitor",
+      "multi-account",
+      "taskbar-widget",
+      "no-api-key",
+      "light-weight"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-13T10:08:47Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-13T14:03:55.121Z"
+  },
+  {
+    "id": "leekd123/claude-usage-statusline",
+    "name": "claude-usage-statusline",
+    "author": "leekd123",
+    "repoURL": "https://github.com/leekd123/claude-usage-statusline",
+    "description": "Claude Code mod: rate-limit usage, cost and tokens in the status line",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "TypeScript",
+    "authMethod": [],
+    "features": [
+      "rate-limit-display",
+      "cost-tracking",
+      "token-counting",
+      "session-totals",
+      "daily-totals",
+      "multi-session-awareness"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-13T08:38:14Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-13T14:03:55.121Z"
+  },
+  {
+    "id": "Az-Su/claude-statusline-gallery",
+    "name": "claude-statusline-gallery",
+    "author": "Az-Su",
+    "repoURL": "https://github.com/Az-Su/claude-statusline-gallery",
+    "description": "A gallery of ready-made Claude Code status lines, with a zero-dependency engine and CLI to customize them.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "JavaScript",
+    "authMethod": [],
+    "features": [
+      "status-line-presets",
+      "context-window-display",
+      "cost-tracking",
+      "token-counting",
+      "burn-rate-widget",
+      "prompt-cache-stats",
+      "plan-limits-display",
+      "customizable-widgets"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-11-13T07:10:19Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-13T14:03:55.121Z"
+  },
+  {
+    "id": "cjr03/GodCode",
+    "name": "GodCode",
+    "author": "cjr03",
+    "repoURL": "https://github.com/cjr03/GodCode",
+    "description": "A Claude Code status line with a King James Bible verse for every minute of the day, themed by the hour, alongside context, cache, usage, git state and cost.",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "context-usage-bars",
+      "cache-countdown",
+      "cost-display",
+      "session-tracking",
+      "git-state",
+      "effort-levels",
+      "multi-theme-verses"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-13T07:37:18Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-13T14:03:55.121Z"
+  },
+  {
+    "id": "KenseiTheOne/agent-hub",
+    "name": "agent-hub",
+    "author": "KenseiTheOne",
+    "repoURL": "https://github.com/KenseiTheOne/agent-hub",
+    "description": "Agent Hub — a macOS menu bar hub to watch and steer AI agents: Claude Code sessions, background agents, plugins",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "claude-code-sessions",
+      "quota-tracking",
+      "token-spend-journal",
+      "background-agents",
+      "plugin-system",
+      "notifications"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-13T13:27:16Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-13T14:03:55.121Z"
+  },
+  {
+    "id": "d0s1nt/llm-usage",
+    "name": "llm-usage",
+    "author": "d0s1nt",
+    "repoURL": "https://github.com/d0s1nt/llm-usage",
+    "description": "macOS menu bar meter for AI coding tool usage: Claude Code, Codex, Gemini CLI, Grok Build, Grok Bot, Muse Code. Read-only, no telemetry.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie",
+      "API Key",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "multi-provider",
+      "weekly-limits",
+      "rate-limit-alerts",
+      "read-only",
+      "keychain-integration",
+      "usage-by-surface"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-13T12:05:21Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-13T14:03:55.121Z"
+  },
+  {
+    "id": "hong-minji/ai-usage-bar",
+    "name": "ai-usage-bar",
+    "author": "hong-minji",
+    "repoURL": "https://github.com/hong-minji/ai-usage-bar",
+    "description": "macOS menu bar app showing remaining Claude / ChatGPT (Codex) / Gemini / Antigravity quota in one line",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie",
+      "Browser Cookie Auto-detect",
+      "API Key"
+    ],
+    "features": [
+      "claude-quota",
+      "chatgpt-codex-quota",
+      "gemini-quota",
+      "antigravity-quota",
+      "multi-provider",
+      "menubar-display",
+      "refresh-intervals"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-13T13:35:13Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-13T14:03:55.121Z"
   }
 ]
