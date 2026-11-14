@@ -224078,5 +224078,286 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-11-14T05:18:07.586Z"
+  },
+  {
+    "id": "tukitohosi/ai-token-usage-monitor",
+    "name": "ai-token-usage-monitor",
+    "author": "tukitohosi",
+    "repoURL": "https://github.com/tukitohosi/ai-token-usage-monitor",
+    "description": "Windows 本地 AI Token 用量监控，支持 Codex、Claude Code、OpenCode 与 WorkBuddy。按单次请求估算长上下文费用，支持导入本机计价规则、历史重算及 CSV/JSON 导出，避免同一工作区的多个短对话合并触发加价。",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "multi-source-tracking",
+      "token-counting",
+      "cost-estimation",
+      "custom-pricing",
+      "csv-json-export",
+      "historical-analysis",
+      "desktop-pet-overlay",
+      "local-mode"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-14T05:05:26Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-14T13:05:59.403Z"
+  },
+  {
+    "id": "u007/claude-si",
+    "name": "claude-si",
+    "author": "u007",
+    "repoURL": "https://github.com/u007/claude-si",
+    "description": "Personal Claude Code plugin marketplace: context-status statusline and jev-guard inbound-content guardrail",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Python",
+    "authMethod": [],
+    "features": [
+      "context-usage-statusline",
+      "session-tracking",
+      "model-display",
+      "git-branch-display",
+      "directory-tracking"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-14T06:29:36Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-14T13:05:59.403Z"
+  },
+  {
+    "id": "dwagwd/quotapilot",
+    "name": "quotapilot",
+    "author": "dwagwd",
+    "repoURL": "https://github.com/dwagwd/quotapilot",
+    "description": "See your Codex and Claude Code quota before you hit the limit. Native macOS menu bar app + CLI for Linux and Windows. Plan limits and community stats: https://aiquotawatch.pages.dev",
+    "category": "macOS Native",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "quota-monitoring",
+      "burn-rate-alerts",
+      "multi-provider",
+      "quota-router",
+      "usage-stats",
+      "cli-tool",
+      "reset-countdown",
+      "auto-continue"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-11-14T09:55:31Z",
+    "openIssues": 1,
+    "archived": false,
+    "lastFetched": "2026-11-14T13:05:59.403Z"
+  },
+  {
+    "id": "PacifAIst/claudown",
+    "name": "claudown",
+    "author": "PacifAIst",
+    "repoURL": "https://github.com/PacifAIst/claudown",
+    "description": "Leave Claude working and go to sleep: claudown watches your 5-hour and weekly limits at zero token cost, lets Claude wrap up, then shuts down your computer, or as soon as the job is done, so you save energy as well.",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Traffic Capture"
+    ],
+    "features": [
+      "rate-limit-monitoring",
+      "5-hour-window",
+      "weekly-limit",
+      "auto-shutdown",
+      "wrap-up-grace-period",
+      "sleep-mode",
+      "zero-api-calls",
+      "webhook-support"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-11-14T08:34:39Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-14T13:05:59.403Z"
+  },
+  {
+    "id": "lubino/aiBar",
+    "name": "aiBar",
+    "author": "lubino",
+    "repoURL": "https://github.com/lubino/aiBar",
+    "description": "Ultra-compact native macOS menu bar monitor for Google Gemini, Anthropic Claude, OpenAI, and Grok usage limits and reset times.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "Session Cookie",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "multi-provider",
+      "usage-percentage",
+      "rate-limit-alerts",
+      "quota-windows",
+      "reset-countdowns",
+      "native-menubar",
+      "secure-keychain"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-14T11:27:59Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-14T13:05:59.403Z"
+  },
+  {
+    "id": "GithubAnant/Allot",
+    "name": "Allot",
+    "author": "GithubAnant",
+    "repoURL": "https://github.com/GithubAnant/Allot",
+    "description": "Know what's left. A native macOS menu bar app for Codex, Claude and Cursor usage: limits, reset countdowns, costs and tokens.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "usage-limits",
+      "reset-countdowns",
+      "cost-estimation",
+      "token-tracking",
+      "multi-provider",
+      "multi-account",
+      "automatic-refresh",
+      "dark-mode"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-14T08:35:04Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-14T13:05:59.403Z"
+  },
+  {
+    "id": "xuefei016/agent-traffic-manager",
+    "name": "agent-traffic-manager",
+    "author": "xuefei016",
+    "repoURL": "https://github.com/xuefei016/agent-traffic-manager",
+    "description": "macOS menu bar app (Swift) for Codex, Claude, B.AI, and DeepSeek usage quotas, with Keychain-backed secrets, tests, and CI.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie",
+      "API Key",
+      "Session Key"
+    ],
+    "features": [
+      "multi-provider-quotas",
+      "claude-usage",
+      "codex-usage",
+      "deepseek-usage",
+      "keychain-secrets",
+      "menubar-display"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-14T08:11:50Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-14T13:05:59.403Z"
+  },
+  {
+    "id": "danship/kyl",
+    "name": "kyl",
+    "author": "danship",
+    "repoURL": "https://github.com/danship/kyl",
+    "description": "kyl — Know Your Limits. Fork of ryanbarnett-2am/Juicage: macOS menu bar app showing how much claude.ai usage you have left, rebased on upstream periodically.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "multi-account",
+      "usage-rings",
+      "pace-forecast",
+      "session-tracking",
+      "weekly-limits",
+      "per-model-limits",
+      "usage-history",
+      "burn-rate-alerts"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-14T06:23:05Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-14T13:05:59.403Z"
+  },
+  {
+    "id": "tatavarthitarun/ClaudeMeter",
+    "name": "ClaudeMeter",
+    "author": "tatavarthitarun",
+    "repoURL": "https://github.com/tatavarthitarun/ClaudeMeter",
+    "description": "Always-on-top usage meter for Claude Code on Mac, with a monkey that tells you when Claude is done",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "HTML",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "usage-meter",
+      "session-tracking",
+      "context-limits",
+      "cost-display",
+      "token-history",
+      "animated-ui",
+      "multi-session",
+      "notifications"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-14T12:48:20Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-14T13:05:59.403Z"
   }
 ]

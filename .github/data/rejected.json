@@ -2752,5 +2752,23 @@
     "reason": "This is a time-tracking app for Claude Code sessions, not a Claude usage tracker; it measures personal coding time spent in Claude Code, not Claude API tokens, costs, rate limits, or actual Claude usage metrics.",
     "confidence": 0.95,
     "rejectedAt": "2026-11-13T23:20:41.061Z"
+  },
+  {
+    "id": "Doubl3K/claude-voice-setup",
+    "reason": "This is a voice interface enhancement for Claude Code with a status line indicator, but it does not display, measure, or report Claude usage (tokens, costs, quotas, rate limits); it only provides voice I/O and session management features.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-14T13:05:29.077Z"
+  },
+  {
+    "id": "ArtemKorchunov/lidocaine",
+    "reason": "This is a Mac utility for keeping devices awake during Claude Code sessions with thermal/battery safety, not a usage tracker—it monitors sessions but does not display, measure, or report Claude usage (tokens, cost, quotas) as a feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-14T13:05:32.656Z"
+  },
+  {
+    "id": "CometaLabs/wick",
+    "reason": "Wick is a keep-awake utility for AI agents with process monitoring and Claude Code hooks, but does not display, measure, or report Claude usage (tokens, cost, sessions) as a feature—it only detects agent activity to prevent sleep.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-14T13:05:35.875Z"
   }
 ]
