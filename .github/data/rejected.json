@@ -2770,5 +2770,17 @@
     "reason": "Wick is a keep-awake utility for AI agents with process monitoring and Claude Code hooks, but does not display, measure, or report Claude usage (tokens, cost, sessions) as a feature—it only detects agent activity to prevent sleep.",
     "confidence": 0.95,
     "rejectedAt": "2026-11-14T13:05:35.875Z"
+  },
+  {
+    "id": "seuthootDev/claude-gh-guard",
+    "reason": "This is a safety guard that prevents accidental commits with wrong GitHub accounts in Claude Code; it does not display or measure Claude usage metrics, making it a developer-tools utility rather than a usage tracker.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-14T22:03:15.445Z"
+  },
+  {
+    "id": "dmsherazi/claude-speak",
+    "reason": "claude-speak is a text-to-speech utility for Claude Code replies, not a usage tracker; it does not display, measure, or report Claude usage metrics like tokens, cost, or rate limits.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-14T22:03:20.308Z"
   }
 ]
