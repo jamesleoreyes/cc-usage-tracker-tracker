@@ -2794,5 +2794,23 @@
     "reason": "AInnotator is a screenshot annotation tool for sending marked-up images to Claude and other AI models, not a Claude usage tracker; it facilitates Claude interaction but does not measure, display, or report Claude usage metrics.",
     "confidence": 0.95,
     "rejectedAt": "2026-11-15T13:34:38.144Z"
+  },
+  {
+    "id": "PoppieHub/mcp-coder",
+    "reason": "This is an MCP server for delegating coding tasks to Claude, not a tracker of Claude usage—it incidentally reports token usage but primarily functions as a task executor and tool extension.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-15T22:34:16.988Z"
+  },
+  {
+    "id": "isokron-ai/cc-anchor",
+    "reason": "cc-anchor is a Claude Code plugin that manages agent memory and context compaction but does not track or display Claude usage metrics; it is explicitly built with Claude as evidenced by 19/30 commits authored by a claude bot account.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-15T22:34:26.952Z"
+  },
+  {
+    "id": "SidiElvalli/antigravity-claude-mem",
+    "reason": "This is a memory integration plugin for Antigravity CLI that enhances claude-mem's persistence and visibility, but does not itself display, measure, or report Claude usage metrics (tokens, costs, rate limits) as a substantial feature.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-11-15T22:34:39.785Z"
   }
 ]
