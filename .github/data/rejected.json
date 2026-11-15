@@ -2782,5 +2782,17 @@
     "reason": "claude-speak is a text-to-speech utility for Claude Code replies, not a usage tracker; it does not display, measure, or report Claude usage metrics like tokens, cost, or rate limits.",
     "confidence": 0.95,
     "rejectedAt": "2026-11-14T22:03:20.308Z"
+  },
+  {
+    "id": "al-siv/agent-statusline",
+    "reason": "This project provides status-line configurations for Claude Code and other CLI harnesses, displaying usage metrics like context tokens and rate limits, but is fundamentally a dotfiles/config repository for managing status-line bindings rather than a tracker that measures or reports Claude usage as its primary feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-15T13:34:22.553Z"
+  },
+  {
+    "id": "porco-rs/ainnotator",
+    "reason": "AInnotator is a screenshot annotation tool for sending marked-up images to Claude and other AI models, not a Claude usage tracker; it facilitates Claude interaction but does not measure, display, or report Claude usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-15T13:34:38.144Z"
   }
 ]
