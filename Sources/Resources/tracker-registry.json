@@ -224811,5 +224811,237 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-11-14T22:03:47.131Z"
+  },
+  {
+    "id": "colinstephens93/claude-usage-tracker",
+    "name": "claude-usage-tracker",
+    "author": "colinstephens93",
+    "repoURL": "https://github.com/colinstephens93/claude-usage-tracker",
+    "description": "Casio A168-style desktop widget showing Claude Code session and weekly usage limits (Python + PySide6). Data method adapted from bozdemir/claude-usage-widget (MIT).",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "language": "Unknown",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "session-usage-display",
+      "weekly-limits",
+      "casio-a168-widget"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-14T23:43:27Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-15T05:11:36.590Z"
+  },
+  {
+    "id": "oguzkarcan/claude-usage",
+    "name": "claude-usage",
+    "author": "oguzkarcan",
+    "repoURL": "https://github.com/oguzkarcan/claude-usage",
+    "description": "Claude Code active sessions, live quota limits (/usage), model & token breakdown, and tool telemetry in the Omarchy bar.",
+    "category": "Statusline",
+    "platforms": [
+      "linux"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "OAuth Token",
+      "Session Key"
+    ],
+    "features": [
+      "active-sessions",
+      "token-metrics",
+      "quota-tracking",
+      "burn-rate-alerts",
+      "model-breakdown",
+      "session-manager",
+      "tool-telemetry",
+      "live-usage"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-15T02:18:03Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-15T05:11:36.590Z"
+  },
+  {
+    "id": "jeffclimbsbikes/claude-statusline",
+    "name": "claude-statusline",
+    "author": "jeffclimbsbikes",
+    "repoURL": "https://github.com/jeffclimbsbikes/claude-statusline",
+    "description": "Multi-line Claude Code statusline with gradual-fill progress bars, real-time rate limits, and per-turn timing stats",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "OpenTelemetry"
+    ],
+    "features": [
+      "context-window-tracking",
+      "rate-limit-monitoring",
+      "session-cost-display",
+      "per-turn-timing",
+      "progress-bars",
+      "git-integration"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-15T04:08:07Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-15T05:11:36.590Z"
+  },
+  {
+    "id": "skeid21/usage-statusline",
+    "name": "usage-statusline",
+    "author": "skeid21",
+    "repoURL": "https://github.com/skeid21/usage-statusline",
+    "description": "Claude code usage statusline plugin",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "TypeScript",
+    "authMethod": [],
+    "features": [
+      "context-window-display",
+      "usage-percentage-tracking",
+      "model-display",
+      "5h-window-tracking",
+      "weekly-limit-tracking"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-15T00:31:46Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-15T05:11:36.590Z"
+  },
+  {
+    "id": "HaeDalWang/kcal",
+    "name": "kcal",
+    "author": "HaeDalWang",
+    "repoURL": "https://github.com/HaeDalWang/kcal",
+    "description": "macOS menu bar app for Claude Code, Codex and Kiro: see what your agent loads at startup and how much usage limit is left. Local only.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "usage-limits",
+      "context-window-breakdown",
+      "startup-context",
+      "multi-agent",
+      "local-only",
+      "keychain-auth"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-15T03:50:39Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-15T05:11:36.590Z"
+  },
+  {
+    "id": "IsaacSahyoun/accountdeck",
+    "name": "accountdeck",
+    "author": "IsaacSahyoun",
+    "repoURL": "https://github.com/IsaacSahyoun/accountdeck",
+    "description": "Mac menu bar app that saves and switches Claude Code, Claude Desktop, Codex and Muse Code logins, and shows their usage.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Session Cookie",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "multi-account-switching",
+      "usage-display",
+      "reset-time-tracking",
+      "auto-switch-at-limits",
+      "early-switch-optimization",
+      "undo-capability"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-15T02:00:13Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-15T05:11:36.590Z"
+  },
+  {
+    "id": "Nugkta/monita",
+    "name": "monita",
+    "author": "Nugkta",
+    "repoURL": "https://github.com/Nugkta/monita",
+    "description": "Monita: a little monitor for your Codex and Claude Code tasks, in the macOS menu bar or beside the notch.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [],
+    "features": [
+      "codex-tasks",
+      "claude-code-tasks",
+      "running-input-review-queue",
+      "task-grouping",
+      "menu-bar-docking",
+      "notch-island",
+      "sound-alerts"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-15T01:39:24Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-15T05:11:36.590Z"
+  },
+  {
+    "id": "ginjae/usage-overlay",
+    "name": "usage-overlay",
+    "author": "ginjae",
+    "repoURL": "https://github.com/ginjae/usage-overlay",
+    "description": "An always-visible Claude and Codex rate-limit meter for macOS",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "rate-limit-meter",
+      "menu-bar-display",
+      "floating-overlay",
+      "multi-provider",
+      "reset-timer",
+      "pace-indicator",
+      "customizable-windows"
+    ],
+    "builtWithClaude": null,
+    "stars": 6,
+    "lastCommitDate": "2026-11-15T03:16:33Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-15T05:11:36.590Z"
   }
 ]
