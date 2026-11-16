@@ -226297,5 +226297,409 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-11-16T05:08:06.659Z"
+  },
+  {
+    "id": "rabbive/ai-usage-widget",
+    "name": "ai-usage-widget",
+    "author": "rabbive",
+    "repoURL": "https://github.com/rabbive/ai-usage-widget",
+    "description": "Scriptable widget tracking Muse + Claude usage",
+    "category": "Mobile",
+    "platforms": [
+      "ios"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "muse-integration",
+      "claude-usage-display",
+      "manual-quota-entry",
+      "scriptable-widget"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-16T09:20:47Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-16T15:02:29.494Z"
+  },
+  {
+    "id": "DanielLampa/claude-usage-monitor",
+    "name": "claude-usage-monitor",
+    "author": "DanielLampa",
+    "repoURL": "https://github.com/DanielLampa/claude-usage-monitor",
+    "description": "Chrome extension to monitor usage limits across multiple Claude accounts at once, with alerts before you hit a limit.",
+    "category": "Browser Extension",
+    "platforms": [
+      "chromium"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Browser Cookie Auto-detect",
+      "Session Key"
+    ],
+    "features": [
+      "multi-account-dashboard",
+      "usage-alerts",
+      "pace-projections",
+      "quiet-hours",
+      "toolbar-badge",
+      "settings-export-import",
+      "session-expiry-detection"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-16T10:02:36Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-16T15:02:29.494Z"
+  },
+  {
+    "id": "lukas0711/claude-usage-float",
+    "name": "claude-usage-float",
+    "author": "lukas0711",
+    "repoURL": "https://github.com/lukas0711/claude-usage-float",
+    "description": "Claude 5-hour and weekly usage in a floating, always-on-top Windows widget you can place anywhere",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "5h-and-weekly-usage",
+      "floating-widget",
+      "always-on-top",
+      "multi-account",
+      "dark-mode",
+      "customizable-opacity"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-16T13:05:31Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-16T15:02:29.494Z"
+  },
+  {
+    "id": "samu2kdotcom/claude-usage-garmin",
+    "name": "claude-usage-garmin",
+    "author": "samu2kdotcom",
+    "repoURL": "https://github.com/samu2kdotcom/claude-usage-garmin",
+    "description": "Widget Garmin Connect IQ: uso de Claude Pro/Max (sesión, límites semanales, proyecciones) en tu reloj",
+    "category": "Waybar Module",
+    "platforms": [
+      "linux"
+    ],
+    "language": "Monkey C",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "session-tracking",
+      "weekly-limits",
+      "burn-rate-projections",
+      "multi-device-support",
+      "offline-caching",
+      "token-refresh"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-16T06:24:59Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-16T15:02:29.494Z"
+  },
+  {
+    "id": "weizard/herdr-ai-usage-monitor",
+    "name": "herdr-ai-usage-monitor",
+    "author": "weizard",
+    "repoURL": "https://github.com/weizard/herdr-ai-usage-monitor",
+    "description": "Herdr mod: a popup showing Claude Code and Codex rate-limit usage",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "macos"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "rate-limit-tracking",
+      "claude-code-usage",
+      "codex-usage",
+      "popup-display",
+      "status-visualization"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-16T09:01:42Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-16T15:02:29.494Z"
+  },
+  {
+    "id": "myeongsu-dev/Claude-Tracker",
+    "name": "Claude-Tracker",
+    "author": "myeongsu-dev",
+    "repoURL": "https://github.com/myeongsu-dev/Claude-Tracker",
+    "description": "Tray app that shows Claude Code usage (Qt6)",
+    "category": "Statusline",
+    "platforms": [
+      "windows",
+      "linux"
+    ],
+    "language": "C++",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "real-time-usage-tracking",
+      "token-quota-monitoring",
+      "countdown-timer",
+      "payment-credit-tracking",
+      "local-learning-algorithm",
+      "status-hooks",
+      "offline-tracking"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-11-16T13:12:21Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-16T15:02:29.494Z"
+  },
+  {
+    "id": "jgoneit/claude-statusline-xmas",
+    "name": "claude-statusline-xmas",
+    "author": "jgoneit",
+    "repoURL": "https://github.com/jgoneit/claude-statusline-xmas",
+    "description": "Christmas status line for Claude Code — ASCII snow piles up beside your status rows, a snowman gets built, Santa waves",
+    "category": "Statusline",
+    "platforms": [
+      "web"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "context-usage-gauge",
+      "rate-limit-display",
+      "session-cost",
+      "model-info",
+      "ascii-animation"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-16T14:05:31Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-16T15:02:29.494Z"
+  },
+  {
+    "id": "tony-schumacher/ghostty-bar",
+    "name": "ghostty-bar",
+    "author": "tony-schumacher",
+    "repoURL": "https://github.com/tony-schumacher/ghostty-bar",
+    "description": "Vertical tab list for Ghostty in the macOS menu bar: see which Claude Code sessions are working, finished or waiting for you.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [],
+    "features": [
+      "claude-code-status",
+      "tab-monitoring",
+      "unread-tracking",
+      "agent-activity",
+      "menu-bar-display",
+      "floating-window",
+      "hotkey-navigation",
+      "notifications"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-16T12:23:45Z",
+    "openIssues": 1,
+    "archived": false,
+    "lastFetched": "2026-11-16T15:02:29.494Z"
+  },
+  {
+    "id": "Abdulaziz-kiran/tidewatch",
+    "name": "tidewatch",
+    "author": "Abdulaziz-kiran",
+    "repoURL": "https://github.com/Abdulaziz-kiran/tidewatch",
+    "description": "See your Claude, Codex and Antigravity usage limits in one place: terminal, JSON or macOS menu bar.",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Traffic Capture"
+    ],
+    "features": [
+      "multi-provider-support",
+      "usage-limits",
+      "quota-warnings",
+      "menubar-display",
+      "json-output",
+      "reset-alerts"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-16T13:10:11Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-16T15:02:29.494Z"
+  },
+  {
+    "id": "woreczko/headroom",
+    "name": "headroom",
+    "author": "woreczko",
+    "repoURL": "https://github.com/woreczko/headroom",
+    "description": "Claude & ChatGPT usage limits in your Mac menu bar and widgets — downloads only",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Unknown",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "menu-bar-display",
+      "usage-limits",
+      "session-tracking",
+      "widgets",
+      "activity-calendar",
+      "token-stats",
+      "cost-estimation",
+      "notifications"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-16T14:17:14Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-16T15:02:29.494Z"
+  },
+  {
+    "id": "momochan1011/usage-meter",
+    "name": "usage-meter",
+    "author": "momochan1011",
+    "repoURL": "https://github.com/momochan1011/usage-meter",
+    "description": "Claude Code の使用率を、入力欄の上に1行で出すメーター",
+    "category": "Claude Code Plugin",
+    "platforms": [],
+    "language": "TypeScript",
+    "authMethod": [],
+    "features": [
+      "5h-quota-tracking",
+      "weekly-quota-tracking",
+      "conversation-length",
+      "usage-meter",
+      "color-coded-alerts"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-16T14:45:52Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-16T15:02:29.494Z"
+  },
+  {
+    "id": "andreasskyt/usage-meter",
+    "name": "usage-meter",
+    "author": "andreasskyt",
+    "repoURL": "https://github.com/andreasskyt/usage-meter",
+    "description": "See your Claude Code usage, then spend less: a usage panel mod, usage-saving skills, and mod ideas.",
+    "category": "Claude Code Plugin",
+    "platforms": [],
+    "language": "TypeScript",
+    "authMethod": [],
+    "features": [
+      "usage-panel",
+      "context-window-display",
+      "rate-limit-tracking",
+      "session-cost",
+      "token-counting",
+      "mcp-monitoring",
+      "tool-call-tracking",
+      "usage-saver-skills"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-16T14:12:31Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-16T15:02:29.494Z"
+  },
+  {
+    "id": "swbins/usage-tray",
+    "name": "usage-tray",
+    "author": "swbins",
+    "repoURL": "https://github.com/swbins/usage-tray",
+    "description": "Claude Code usage meter in the Windows tray — 5-hour block %, limit warnings, done/needs-you notifications",
+    "category": "Statusline",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "usage-meter",
+      "5-hour-block-tracking",
+      "limit-warnings",
+      "done-notifications",
+      "phone-alerts",
+      "token-counting",
+      "local-only"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-16T06:18:50Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-16T15:02:29.494Z"
+  },
+  {
+    "id": "afonsojramos/busybar-usage",
+    "name": "busybar-usage",
+    "author": "afonsojramos",
+    "repoURL": "https://github.com/afonsojramos/busybar-usage",
+    "description": "Shows how much of your AI subscriptions you have used on a BUSY Bar.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "macos"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "Browser Cookie Auto-detect",
+      "API Key",
+      "Session Key"
+    ],
+    "features": [
+      "claude-usage",
+      "multi-provider",
+      "rate-limit-windows",
+      "reset-timers",
+      "account-per-page",
+      "busy-bar-integration"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-16T10:19:08Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-16T15:02:29.494Z"
   }
 ]

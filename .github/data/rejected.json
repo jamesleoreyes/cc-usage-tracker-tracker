@@ -2812,5 +2812,23 @@
     "reason": "This is a memory integration plugin for Antigravity CLI that enhances claude-mem's persistence and visibility, but does not itself display, measure, or report Claude usage metrics (tokens, costs, rate limits) as a substantial feature.",
     "confidence": 0.85,
     "rejectedAt": "2026-11-15T22:34:39.785Z"
+  },
+  {
+    "id": "aydho/claude-usage-site",
+    "reason": "This repository contains only privacy and support pages for a usage tracker, not the tracker itself, so it does not qualify for inclusion in the registry.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-11-16T15:01:44.763Z"
+  },
+  {
+    "id": "digjoynandi12-arch/kanji-statusline",
+    "reason": "This is a kanji learning tool integrated into Claude Code via statusline and desktop-app band, not a Claude usage tracker—it teaches kanji, not measures Claude consumption.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-16T15:02:05.880Z"
+  },
+  {
+    "id": "mihaeltomic/krasnotch",
+    "reason": "Krasnotch is a notification/indicator app that shows Claude Code agent status on the macOS notch, not a usage tracker that measures or reports Claude tokens, costs, or quotas.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-16T15:02:11.346Z"
   }
 ]
