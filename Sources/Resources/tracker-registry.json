@@ -226020,5 +226020,309 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-11-15T22:34:48.678Z"
+  },
+  {
+    "id": "iiunuii/claude-code-monitor-bar",
+    "name": "claude-code-monitor-bar",
+    "author": "iiunuii",
+    "repoURL": "https://github.com/iiunuii/claude-code-monitor-bar",
+    "description": "Claude code usage monitor on Mac Menubar",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "multi-profile",
+      "real-time-limits",
+      "session-stats",
+      "burn-rate",
+      "color-coded-usage",
+      "token-cost",
+      "model-mix"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-16T04:46:43Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-16T05:08:06.659Z"
+  },
+  {
+    "id": "derpmeter/derpmeter-cli",
+    "name": "derpmeter-cli",
+    "author": "derpmeter",
+    "repoURL": "https://github.com/derpmeter/derpmeter-cli",
+    "description": "derp CLI, Claude Code statusline and MCP server for DerpMeter (read-only mirror)",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "voting-system",
+      "community-scores",
+      "statusline-display",
+      "mcp-server",
+      "session-linked-votes",
+      "multi-agent-support"
+    ],
+    "builtWithClaude": null,
+    "stars": 1,
+    "lastCommitDate": "2026-11-16T01:05:35Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-16T05:08:06.659Z"
+  },
+  {
+    "id": "Bluewind8791/bear-hud",
+    "name": "bear-hud",
+    "author": "Bluewind8791",
+    "repoURL": "https://github.com/Bluewind8791/bear-hud",
+    "description": "Claude Code Status Line",
+    "category": "Statusline",
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "OpenTelemetry"
+    ],
+    "features": [
+      "context-usage",
+      "session-usage",
+      "weekly-usage",
+      "rate-limits",
+      "git-status",
+      "bear-mascot"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-16T04:32:23Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-16T05:08:06.659Z"
+  },
+  {
+    "id": "eliseorobles/brim",
+    "name": "brim",
+    "author": "eliseorobles",
+    "repoURL": "https://github.com/eliseorobles/brim",
+    "description": "Free, open-source macOS menu bar app for developers who live in Claude Code: run several Claude Code accounts on one Mac, free memory held by leftover dev processes, plus a system monitor, Port Manager, Cleaner, Uninstaller and clipboard history.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "multi-account",
+      "usage-at-a-glance",
+      "weekly-limits",
+      "model-specific-limits",
+      "memory-management",
+      "system-monitor",
+      "clipboard-history"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-16T03:56:26Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-16T05:08:06.659Z"
+  },
+  {
+    "id": "Longado/tokenly",
+    "name": "tokenly",
+    "author": "Longado",
+    "repoURL": "https://github.com/Longado/tokenly",
+    "description": "Local token usage, API-equivalent cost and plan limits for Claude Code and Codex — macOS menu bar app + CLI",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "API Key",
+      "Session Cookie"
+    ],
+    "features": [
+      "token-tracking",
+      "cost-analytics",
+      "plan-limits",
+      "multi-provider",
+      "cache-stats",
+      "custom-pricing",
+      "trend-visualization",
+      "cli-interface"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-16T03:10:26Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-16T05:08:06.659Z"
+  },
+  {
+    "id": "superalex051/glowworm",
+    "name": "glowworm",
+    "author": "superalex051",
+    "repoURL": "https://github.com/superalex051/glowworm",
+    "description": "Drives the NovelKeys Classic TKL light bar from a macOS menu bar app: Spotify song progress, Claude Code weekly usage and an idle snake.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Traffic Capture"
+    ],
+    "features": [
+      "claude-code-usage",
+      "spotify-progress",
+      "idle-snake",
+      "menu-bar-display",
+      "weekly-quota",
+      "session-indicator"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-16T03:05:27Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-16T05:08:06.659Z"
+  },
+  {
+    "id": "jsiksn/limi",
+    "name": "limi",
+    "author": "jsiksn",
+    "repoURL": "https://github.com/jsiksn/limi",
+    "description": "Your AI usage limits, in one menu bar: Claude Code, Codex and Antigravity on macOS.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "multi-account-support",
+      "usage-limits-display",
+      "account-switching",
+      "menu-bar-app",
+      "rate-limit-tracking",
+      "reset-coupons"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-16T00:45:38Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-16T05:08:06.659Z"
+  },
+  {
+    "id": "zzusec/agy-statusline",
+    "name": "agy-statusline",
+    "author": "zzusec",
+    "repoURL": "https://github.com/zzusec/agy-statusline",
+    "description": "Google Antigravity CLI (agy) 零虚标实时上下文监控状态栏 — 实时解码服务端真实压缩上限 (CheckpointConfig.max_context_tokens) 与自动压缩峰值追踪",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "context-window-monitoring",
+      "checkpoint-compression-tracking",
+      "server-pushed-thresholds",
+      "peak-history",
+      "cache-hit-rate",
+      "multi-model-support",
+      "real-time-decoding",
+      "incremental-parsing"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-16T04:30:25Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-16T05:08:06.659Z"
+  },
+  {
+    "id": "chrsdme/claude-statusline",
+    "name": "claude-statusline",
+    "author": "chrsdme",
+    "repoURL": "https://github.com/chrsdme/claude-statusline",
+    "description": "My Claude Statusline",
+    "category": "Statusline",
+    "platforms": [
+      "web"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "context-usage-display",
+      "token-limits",
+      "rate-limit-monitoring",
+      "cache-timer",
+      "cache-hit-ratio",
+      "effort-level",
+      "multi-session"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-16T01:55:08Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-16T05:08:06.659Z"
+  },
+  {
+    "id": "boha-k/accountdeck",
+    "name": "accountdeck",
+    "author": "boha-k",
+    "repoURL": "https://github.com/boha-k/accountdeck",
+    "description": "A macOS menu bar app for Claude, Codex and Antigravity usage and saved accounts.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Session Cookie",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "multi-account-switching",
+      "usage-display",
+      "limit-tracking",
+      "auto-switch-on-threshold",
+      "reset-countdown",
+      "menu-bar-alerts"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-16T04:19:05Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-16T05:08:06.659Z"
   }
 ]
