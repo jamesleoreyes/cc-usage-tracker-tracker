@@ -2836,5 +2836,23 @@
     "reason": "This is a Claude Code plugin system for managing long sessions and context handoffs, not a Claude usage tracker; it handles session continuity and context management but does not display, measure, or report Claude usage metrics.",
     "confidence": 0.85,
     "rejectedAt": "2026-11-17T01:41:59.581Z"
+  },
+  {
+    "id": "cmtdrt/hibou",
+    "reason": "Hibou is a Claude Code chat interface for the macOS menu bar, not a usage tracker—it does not display, measure, or report Claude usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-17T15:38:57.792Z"
+  },
+  {
+    "id": "daniyalishaq1/claude-orbit",
+    "reason": "Claude Orbit is an account switcher and manager for Claude Code with no usage display, measurement, or reporting features—it switches between accounts but does not track, measure, or display Claude usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-17T15:39:03.382Z"
+  },
+  {
+    "id": "hubsoapp-beep/ScreenshotKopiarz",
+    "reason": "ScreenshotKopiarz is a screenshot clipboard utility that works with Claude Code but does not display, measure, or report Claude usage as a substantial feature—it merely supports pasting screenshots into Claude Code like any text editor.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-17T15:39:09.216Z"
   }
 ]
