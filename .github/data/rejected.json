@@ -2830,5 +2830,11 @@
     "reason": "Krasnotch is a notification/indicator app that shows Claude Code agent status on the macOS notch, not a usage tracker that measures or reports Claude tokens, costs, or quotas.",
     "confidence": 0.95,
     "rejectedAt": "2026-11-16T15:02:11.346Z"
+  },
+  {
+    "id": "mushtruk/claude-plugins",
+    "reason": "This is a Claude Code plugin system for managing long sessions and context handoffs, not a Claude usage tracker; it handles session continuity and context management but does not display, measure, or report Claude usage metrics.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-11-17T01:41:59.581Z"
   }
 ]
