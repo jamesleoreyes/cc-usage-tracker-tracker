@@ -2854,5 +2854,11 @@
     "reason": "ScreenshotKopiarz is a screenshot clipboard utility that works with Claude Code but does not display, measure, or report Claude usage as a substantial feature—it merely supports pasting screenshots into Claude Code like any text editor.",
     "confidence": 0.95,
     "rejectedAt": "2026-11-17T15:39:09.216Z"
+  },
+  {
+    "id": "lopushok9/claude-wallet-statusline",
+    "reason": "This is a Claude Code skill for displaying cryptocurrency wallet balances in a statusline, not a tool for tracking Claude usage (tokens, costs, rate limits, or API consumption).",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-18T00:40:12.607Z"
   }
 ]

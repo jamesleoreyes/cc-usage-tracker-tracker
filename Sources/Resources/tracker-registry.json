@@ -227826,5 +227826,387 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-11-17T15:39:27.750Z"
+  },
+  {
+    "id": "FuzulsFriend/claude-usage-limits",
+    "name": "claude-usage-limits",
+    "author": "FuzulsFriend",
+    "repoURL": "https://github.com/FuzulsFriend/claude-usage-limits",
+    "description": "Claude Code skill: the session tracks its own weekly limit, 5-hour limit and context window, plans to fit, stops clean, resumes on time, and tells you when to compact.",
+    "category": "Claude Code Plugin",
+    "platforms": [],
+    "language": "JavaScript",
+    "authMethod": [
+      "OpenTelemetry"
+    ],
+    "features": [
+      "rate-limit-tracking",
+      "context-window-monitoring",
+      "session-auto-resume",
+      "compaction-alerts",
+      "weekly-limit-tracking",
+      "5-hour-limit-tracking",
+      "clean-stop-boundary",
+      "handoff-docs"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-17T23:08:40Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-18T00:40:35.018Z"
+  },
+  {
+    "id": "rodortega/claude-usage-bars",
+    "name": "claude-usage-bars",
+    "author": "rodortega",
+    "repoURL": "https://github.com/rodortega/claude-usage-bars",
+    "description": "Orca plugin: Claude 5h/7d usage as colored status bar bars with reset countdowns",
+    "category": "Übersicht Widget",
+    "platforms": [
+      "macos"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "5h-7d-windows",
+      "color-severity-coding",
+      "reset-countdown",
+      "multi-account-support",
+      "polite-polling",
+      "details-on-hover"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-17T19:15:47Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-18T00:40:35.018Z"
+  },
+  {
+    "id": "nphardorworse/claude-dashboard",
+    "name": "claude-dashboard",
+    "author": "nphardorworse",
+    "repoURL": "https://github.com/nphardorworse/claude-dashboard",
+    "description": "Local web dashboard for Claude Code: toggle plugins, skills, MCP servers and hooks per project, switch profiles, and track token usage and cost.",
+    "category": "Web Dashboard",
+    "platforms": [
+      "web"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "token-usage-tracking",
+      "cost-analytics",
+      "plugin-toggles",
+      "mcp-servers",
+      "session-history",
+      "profiles",
+      "usage-warnings"
+    ],
+    "builtWithClaude": true,
+    "stars": 7,
+    "lastCommitDate": "2026-11-17T21:09:48Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-18T00:40:35.018Z"
+  },
+  {
+    "id": "v1kr4m-ai/claude-statusline",
+    "name": "claude-statusline",
+    "author": "v1kr4m-ai",
+    "repoURL": "https://github.com/v1kr4m-ai/claude-statusline",
+    "description": "Colourful status line for Claude Code: model, git branch, context and 5h/weekly usage bars, cost, time",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "context-usage-bar",
+      "5h-7d-quota-display",
+      "session-cost-tracking",
+      "model-display",
+      "git-branch-status",
+      "color-coded-warnings"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-17T22:17:50Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-18T00:40:35.018Z"
+  },
+  {
+    "id": "Migentetamoenjapon/claude-code-vscode-notifications",
+    "name": "claude-code-vscode-notifications",
+    "author": "Migentetamoenjapon",
+    "repoURL": "https://github.com/Migentetamoenjapon/claude-code-vscode-notifications",
+    "description": "Claude Code notifications for VS Code on macOS: popups with Markdown, jump to the exact terminal, menu bar session monitor, per-event sounds and a minimal status line. Built on Claude Code hooks.",
+    "category": "VS Code Extension",
+    "platforms": [
+      "vscode",
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [],
+    "features": [
+      "session-monitor",
+      "menu-bar",
+      "notifications",
+      "status-line",
+      "terminal-jump",
+      "per-event-sounds"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-17T18:39:47Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-18T00:40:35.018Z"
+  },
+  {
+    "id": "aneeshkaravadi/claude-stoplight",
+    "name": "claude-stoplight",
+    "author": "aneeshkaravadi",
+    "repoURL": "https://github.com/aneeshkaravadi/claude-stoplight",
+    "description": "A menu bar traffic light for your Claude Code chats: green while working, yellow when waiting on you, red when idle.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Objective-C",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "chat-status-monitoring",
+      "menu-bar-display",
+      "real-time-state-tracking",
+      "multi-chat-aggregation"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-17T23:05:57Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-18T00:40:35.018Z"
+  },
+  {
+    "id": "mascarock/QuotaBro-downloads",
+    "name": "QuotaBro-downloads",
+    "author": "mascarock",
+    "repoURL": "https://github.com/mascarock/QuotaBro-downloads",
+    "description": "Download QuotaBro for macOS. Claude Code, Codex, and Cursor usage in your menu bar",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Unknown",
+    "authMethod": [
+      "Session Cookie",
+      "API Key"
+    ],
+    "features": [
+      "menu-bar-display",
+      "token-tracking",
+      "cost-estimation",
+      "account-limits",
+      "session-breakdown",
+      "multi-provider"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-17T20:33:10Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-18T00:40:35.018Z"
+  },
+  {
+    "id": "jahaanb7/agent-cats",
+    "name": "agent-cats",
+    "author": "jahaanb7",
+    "repoURL": "https://github.com/jahaanb7/agent-cats",
+    "description": "Pixel-art cats under the macOS menu bar that monitor Claude Code and Codex sessions",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [],
+    "features": [
+      "session-monitoring",
+      "token-tracking",
+      "context-window-display",
+      "rate-limit-monitoring",
+      "permission-requests",
+      "multi-session-dashboard"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-17T19:02:32Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-18T00:40:35.018Z"
+  },
+  {
+    "id": "jakemismas/agent-balancer",
+    "name": "agent-balancer",
+    "author": "jakemismas",
+    "repoURL": "https://github.com/jakemismas/agent-balancer",
+    "description": "For anyone with several Claude Code accounts or subscriptions: agent-balancer reads each account's five-hour and weekly usage and picks the account for your next launch. A command line tool, a macOS menu bar app and a skill.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "Session Key"
+    ],
+    "features": [
+      "multi-account",
+      "usage-display",
+      "rate-limit-awareness",
+      "load-balancing",
+      "menu-bar-app",
+      "cli-tool",
+      "claude-code-skill"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-17T18:48:51Z",
+    "openIssues": 42,
+    "archived": false,
+    "lastFetched": "2026-11-18T00:40:35.018Z"
+  },
+  {
+    "id": "dty00/QuotaPin",
+    "name": "QuotaPin",
+    "author": "dty00",
+    "repoURL": "https://github.com/dty00/QuotaPin",
+    "description": "macOS menu bar app showing Claude & Codex subscription usage limits, with a which-account-to-use-next recommendation",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "multi-account",
+      "usage-display",
+      "quota-alerts",
+      "account-recommendation",
+      "model-specific-limits",
+      "weekly-reset-tracking"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-18T00:14:53Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-18T00:40:35.018Z"
+  },
+  {
+    "id": "RobinVivant/usage-bar",
+    "name": "usage-bar",
+    "author": "RobinVivant",
+    "repoURL": "https://github.com/RobinVivant/usage-bar",
+    "description": "macOS menu bar app for Claude and Codex usage through TeamClaude: level bars, pace charts, banked resets, routing and one-click updates",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "level-bars",
+      "pace-charts",
+      "banked-resets",
+      "account-routing",
+      "weekly-timeline",
+      "run-out-forecast",
+      "token-breakdown",
+      "notifications"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-11-17T19:53:22Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-18T00:40:35.018Z"
+  },
+  {
+    "id": "v1kr4m-ai/token-meter",
+    "name": "token-meter",
+    "author": "v1kr4m-ai",
+    "repoURL": "https://github.com/v1kr4m-ai/token-meter",
+    "description": "Live token counter and usage card for Claude Code (5-hour and weekly token totals, by type and model)",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "live-token-counter",
+      "5h-and-weekly-totals",
+      "token-type-breakdown",
+      "per-model-table",
+      "cache-read-tracking",
+      "local-model-support"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-17T21:35:12Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-18T00:40:35.018Z"
+  },
+  {
+    "id": "elcidspain/yourbest-meter-collector",
+    "name": "yourbest-meter-collector",
+    "author": "elcidspain",
+    "repoURL": "https://github.com/elcidspain/yourbest-meter-collector",
+    "description": "Privacy-preserving AI usage collector for Codex, Grok, Claude, Cursor and MCP. Signed telemetry for YourBest Meter / AUMARA.",
+    "category": "CLI/Terminal",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "API Key"
+    ],
+    "features": [
+      "multi-provider-usage",
+      "token-counting",
+      "tool-call-tracking",
+      "signed-telemetry",
+      "local-aggregation",
+      "cache-deduplication",
+      "scheduled-collection"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-17T19:56:49Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-18T00:40:35.018Z"
   }
 ]
