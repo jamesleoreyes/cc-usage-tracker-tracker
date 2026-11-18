@@ -2884,5 +2884,29 @@
     "reason": "While this app monitors Claude Code sessions as one of several dev environment features, it does not display, measure, or report Claude usage metrics (tokens, cost, rate limits) as a substantial feature—it only lists active/past sessions for resumption or cleanup.",
     "confidence": 0.85,
     "rejectedAt": "2026-11-18T15:16:56.487Z"
+  },
+  {
+    "id": "sairithik9849/claude-code-setup",
+    "reason": "This is a personal dotfile/config backup repository for Claude Code settings and custom skills, not a usage tracker — it has no features for displaying, measuring, or reporting Claude usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-18T23:59:02.832Z"
+  },
+  {
+    "id": "bumfo/subagent-statusline-cc",
+    "reason": "This is a Claude Code plugin that modifies the display of subagent status lines but does not measure, display, or report Claude usage metrics like tokens, costs, or quotas.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-18T23:59:07.724Z"
+  },
+  {
+    "id": "joelmoss/attn",
+    "reason": "This is a planned notification/attention aggregator app with no Claude usage tracking feature; it integrates Claude Code as a *source* of notifications to display, not as something to measure or report usage of.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-18T23:59:17.754Z"
+  },
+  {
+    "id": "aryamantepal/agent-monitor",
+    "reason": "While this app monitors AI coding agents including Claude Code, it tracks system resource usage (CPU, memory, power) rather than Claude usage metrics like tokens, costs, or rate limits, so it does not qualify as a Claude usage tracker.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-18T23:59:20.419Z"
   }
 ]
