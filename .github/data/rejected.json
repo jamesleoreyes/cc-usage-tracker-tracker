@@ -2908,5 +2908,29 @@
     "reason": "While this app monitors AI coding agents including Claude Code, it tracks system resource usage (CPU, memory, power) rather than Claude usage metrics like tokens, costs, or rate limits, so it does not qualify as a Claude usage tracker.",
     "confidence": 0.95,
     "rejectedAt": "2026-11-18T23:59:20.419Z"
+  },
+  {
+    "id": "iwamatsu0430/sock-dock-slack",
+    "reason": "SockDock is a Slack automation gateway with Claude Code and Codex as optional handlers, not a Claude usage tracker—it orchestrates handlers but does not display, measure, or report Claude usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-19T06:49:34.234Z"
+  },
+  {
+    "id": "arsyaadi/pr-tools",
+    "reason": "pr-tools is a Claude Code plugin for GitHub PR review automation with an optional macOS menu bar; it does not track Claude usage metrics, tokens, costs, or quotas as a substantial feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-19T06:49:39.433Z"
+  },
+  {
+    "id": "cartertwotoned/twotoned-projects",
+    "reason": "This is a project manager with Claude Code integration, not a Claude usage tracker — it displays tasks and allows Claude to interact with projects, but does not measure or report Claude usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-19T06:49:41.829Z"
+  },
+  {
+    "id": "Kiterlin/agy-hud",
+    "reason": "This is a statusline plugin for Google Antigravity CLI that displays model/context/quota metrics, inspired by claude-hud but designed for Antigravity not Claude; it tracks Antigravity usage, not Claude usage, so it does not qualify for the Claude tracker registry.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-19T06:49:44.584Z"
   }
 ]

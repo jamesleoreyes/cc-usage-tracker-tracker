@@ -229529,5 +229529,210 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-11-18T23:59:31.838Z"
+  },
+  {
+    "id": "huangchihhsiung/claude-usage-widget",
+    "name": "claude-usage-widget",
+    "author": "huangchihhsiung",
+    "repoURL": "https://github.com/huangchihhsiung/claude-usage-widget",
+    "description": "claude-usage-widget",
+    "category": "Mobile",
+    "platforms": [
+      "android"
+    ],
+    "language": "Kotlin",
+    "authMethod": [
+      "Session Cookie",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "android-widget",
+      "usage-display",
+      "5h-rolling-window",
+      "weekly-quota",
+      "model-breakdown",
+      "auto-refresh",
+      "color-coded-alerts",
+      "organization-switch"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-19T02:08:02Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-19T06:49:44.584Z"
+  },
+  {
+    "id": "Fiveo9/aiusage",
+    "name": "aiusage",
+    "author": "Fiveo9",
+    "repoURL": "https://github.com/Fiveo9/aiusage",
+    "description": "Open-source AI usage tracker — tokens, cost, and sessions across Claude Code, Codex, Hermes, Qoder, and more",
+    "category": "Web Dashboard",
+    "platforms": [
+      "macos",
+      "linux",
+      "windows",
+      "web"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "multi-tool-support",
+      "token-tracking",
+      "cost-tracking",
+      "sessions",
+      "quotas",
+      "leaderboard",
+      "cloud-sync",
+      "desktop-widget"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-19T06:35:09Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-19T06:49:44.584Z"
+  },
+  {
+    "id": "FXology/claude-warcraft-widget",
+    "name": "claude-warcraft-widget",
+    "author": "FXology",
+    "repoURL": "https://github.com/FXology/claude-warcraft-widget",
+    "description": "Windows desktop widget for Claude Code: usage limits with a forecast, background chats with status and context, in a Warcraft III look or a plain one.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "C#",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "usage-limits",
+      "forecast",
+      "context-tracking",
+      "background-chats",
+      "burn-rate-alerts",
+      "notifications",
+      "warcraft-theme"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-19T03:19:00Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-19T06:49:44.584Z"
+  },
+  {
+    "id": "VV-Violet/claude-statusline",
+    "name": "claude-statusline",
+    "author": "VV-Violet",
+    "repoURL": "https://github.com/VV-Violet/claude-statusline",
+    "description": "Colorful zero-dependency status line for Claude Code (model, context bar, cost, duration, diff)",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "JavaScript",
+    "authMethod": [],
+    "features": [
+      "context-usage-bar",
+      "cost-tracking",
+      "session-duration",
+      "token-display",
+      "diff-stats",
+      "model-display"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-19T05:51:05Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-19T06:49:44.584Z"
+  },
+  {
+    "id": "moon1ite/claude-statusline",
+    "name": "claude-statusline",
+    "author": "moon1ite",
+    "repoURL": "https://github.com/moon1ite/claude-statusline",
+    "description": "Real-time statusline for Claude Code showing tools, agents, and todos",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "context-window-display",
+      "session-cost-tracking",
+      "git-status-integration",
+      "skill-tracking",
+      "todo-progress",
+      "real-time-statusline"
+    ],
+    "builtWithClaude": true,
+    "stars": 9,
+    "lastCommitDate": "2026-11-19T05:46:37Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-19T06:49:44.584Z"
+  },
+  {
+    "id": "yoshimoriryu/nudge-lamp",
+    "name": "nudge-lamp",
+    "author": "yoshimoriryu",
+    "repoURL": "https://github.com/yoshimoriryu/nudge-lamp",
+    "description": "macOS menu bar lamp that shows when a Claude Code session is working, waiting for you, or idle",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [],
+    "features": [
+      "session-status-indicator",
+      "menu-bar-app",
+      "notification-alerts",
+      "multi-session-counter"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-19T06:43:21Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-19T06:49:44.584Z"
+  },
+  {
+    "id": "hwanyong/claude-api-switch",
+    "name": "claude-api-switch",
+    "author": "hwanyong",
+    "repoURL": "https://github.com/hwanyong/claude-api-switch",
+    "description": "macOS menu bar app that repoints Claude Code between the Anthropic API, LM Studio, a Strata engine, or one Anthropic-compatible endpoint you declare, and sizes the context window to what your engine can keep in RAM.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "endpoint-switching",
+      "context-window-sizing",
+      "kv-cache-measurement",
+      "menu-bar-app",
+      "local-engine-support"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-19T06:42:44Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-19T06:49:44.584Z"
   }
 ]
