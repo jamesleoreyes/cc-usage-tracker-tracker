@@ -2932,5 +2932,11 @@
     "reason": "This is a statusline plugin for Google Antigravity CLI that displays model/context/quota metrics, inspired by claude-hud but designed for Antigravity not Claude; it tracks Antigravity usage, not Claude usage, so it does not qualify for the Claude tracker registry.",
     "confidence": 0.95,
     "rejectedAt": "2026-11-19T06:49:44.584Z"
+  },
+  {
+    "id": "960nata/frugal-ai-skills",
+    "reason": "This is a collection of agent skills/prompts for coding agents to handle production constraints, not a Claude usage tracker or monitor.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-19T20:04:22.564Z"
   }
 ]
