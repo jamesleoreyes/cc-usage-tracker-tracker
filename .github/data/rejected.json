@@ -2968,5 +2968,23 @@
     "reason": "ReviewBar is a code review assistant that uses Claude/Codex to generate reviews, but it does not display, measure, or report Claude usage (tokens, cost, rate limits) as a feature—it is fundamentally a review workflow tool that happens to be powered by Claude.",
     "confidence": 0.95,
     "rejectedAt": "2026-11-20T15:21:08.465Z"
+  },
+  {
+    "id": "adamchrabaszcz/bytek",
+    "reason": "Bytek is a Claude Code status-line companion that displays agent activity states (reading, thinking, editing) but does not track Claude usage metrics like tokens, costs, or rate limits.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-20T23:46:04.879Z"
+  },
+  {
+    "id": "lashaws/agent-tmux-harness",
+    "reason": "This is a personal dotfiles/harness setup for running Claude Code agents in tmux with account switching and status-line integration, but it does not display, measure, or report Claude usage (tokens, cost, rate limits) as a substantial feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-20T23:46:11.304Z"
+  },
+  {
+    "id": "ahmeddwaheed/agent-huddle",
+    "reason": "Agent Huddle monitors and manages Claude Code agent sessions and permission requests through a macOS menu bar widget, but does not display, measure, or report Claude usage metrics (tokens, cost, rate limits) as a substantial feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-20T23:46:21.312Z"
   }
 ]
