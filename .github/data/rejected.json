@@ -2962,5 +2962,11 @@
     "reason": "Sidekick is a macOS menu bar app that uses Claude Code to draft Slack replies—it is an AI agent interface, not a Claude usage tracker, since it does not display, measure, or report Claude usage metrics as a feature.",
     "confidence": 0.95,
     "rejectedAt": "2026-11-20T06:01:55.928Z"
+  },
+  {
+    "id": "ganeshmani/reviewbar",
+    "reason": "ReviewBar is a code review assistant that uses Claude/Codex to generate reviews, but it does not display, measure, or report Claude usage (tokens, cost, rate limits) as a feature—it is fundamentally a review workflow tool that happens to be powered by Claude.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-20T15:21:08.465Z"
   }
 ]
