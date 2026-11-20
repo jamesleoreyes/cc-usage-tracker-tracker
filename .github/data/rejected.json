@@ -2938,5 +2938,29 @@
     "reason": "This is a collection of agent skills/prompts for coding agents to handle production constraints, not a Claude usage tracker or monitor.",
     "confidence": 0.95,
     "rejectedAt": "2026-11-19T20:04:22.564Z"
+  },
+  {
+    "id": "KerryHuang/claude-settings",
+    "reason": "This is a Claude Code settings manager GUI that organizes configurations, hooks, and resources—not a usage tracker; commit evidence confirms Claude was used to build it.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-20T06:01:40.219Z"
+  },
+  {
+    "id": "johnlegoat/halo",
+    "reason": "Halo is a visual enhancement tool that displays Claude Code session identities and includes a statusline showing model and context usage, but its primary purpose is animated window decoration rather than usage tracking or measurement.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-20T06:01:48.787Z"
+  },
+  {
+    "id": "mushroom220/azkar-status",
+    "reason": "This is a Claude Code plugin that displays religious reminders in the status line during Claude processing; it does not track, measure, or report Claude usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-20T06:01:51.805Z"
+  },
+  {
+    "id": "lilong7676/sidekick",
+    "reason": "Sidekick is a macOS menu bar app that uses Claude Code to draft Slack replies—it is an AI agent interface, not a Claude usage tracker, since it does not display, measure, or report Claude usage metrics as a feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-20T06:01:55.928Z"
   }
 ]
