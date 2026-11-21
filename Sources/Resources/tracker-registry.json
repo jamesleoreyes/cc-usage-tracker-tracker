@@ -231801,5 +231801,414 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-11-21T05:56:17.001Z"
+  },
+  {
+    "id": "ThanhNguyenVN93/claude-usage-tracker",
+    "name": "claude-usage-tracker",
+    "author": "ThanhNguyenVN93",
+    "repoURL": "https://github.com/ThanhNguyenVN93/claude-usage-tracker",
+    "description": "Tray tool theo dõi usage Claude (HUD, thống kê, dự báo, cảnh báo) cho Windows",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "C#",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "hud-overlay",
+      "quota-forecasting",
+      "alerts",
+      "tray-icon",
+      "model-statistics",
+      "auto-model-switching",
+      "24h-7d-charts"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-21T13:34:45Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-21T14:22:05.140Z"
+  },
+  {
+    "id": "LeoFalco/claude-usage-bar",
+    "name": "claude-usage-bar",
+    "author": "LeoFalco",
+    "repoURL": "https://github.com/LeoFalco/claude-usage-bar",
+    "description": "macOS menu bar app that shows your Claude plan usage, the same numbers as /usage in Claude Code",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "usage-bars",
+      "pace-projection",
+      "limit-alerts",
+      "menu-bar-display",
+      "reset-countdown",
+      "notification-alerts"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-21T13:53:14Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-21T14:22:05.140Z"
+  },
+  {
+    "id": "xamtodd/ClaudeUsageBar-for-Mac",
+    "name": "ClaudeUsageBar-for-Mac",
+    "author": "xamtodd",
+    "repoURL": "https://github.com/xamtodd/ClaudeUsageBar-for-Mac",
+    "description": "macOS-Menüleisten-App: zeigt live dein Claude 5-Stunden- und Wochenlimit",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "Session Key"
+    ],
+    "features": [
+      "5h-window-usage",
+      "weekly-limit-usage",
+      "reset-countdown",
+      "progress-bars",
+      "rate-limit-backoff",
+      "auto-refresh"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-21T13:02:40Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-21T14:22:05.140Z"
+  },
+  {
+    "id": "TastyGoats/claudebar",
+    "name": "claudebar",
+    "author": "TastyGoats",
+    "repoURL": "https://github.com/TastyGoats/claudebar",
+    "description": "macOS menu bar app + desktop widget for Claude Code: plan usage, live sessions, needs-you notifications",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "plan-usage-display",
+      "live-session-tracking",
+      "usage-notifications",
+      "agent-cost-breakdown",
+      "desktop-widget",
+      "multi-machine-support"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-21T11:04:38Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-21T14:22:05.141Z"
+  },
+  {
+    "id": "mkhinini-motaz/claude-code-session-toolkit",
+    "name": "claude-code-session-toolkit",
+    "author": "mkhinini-motaz",
+    "repoURL": "https://github.com/mkhinini-motaz/claude-code-session-toolkit",
+    "description": "Know what Claude Code costs per session and per subagent. 21 small tools, among them a status line with plan limits and hooks that catch stuck subagents and restore context after compaction.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Python",
+    "authMethod": [],
+    "features": [
+      "token-cost-tracking",
+      "session-analysis",
+      "subagent-monitoring",
+      "status-line",
+      "context-window-display",
+      "plan-limits",
+      "cost-estimation",
+      "notion-integration"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-21T13:18:32Z",
+    "openIssues": 3,
+    "archived": false,
+    "lastFetched": "2026-11-21T14:22:05.141Z"
+  },
+  {
+    "id": "caolib/subagent-statusline",
+    "name": "subagent-statusline",
+    "author": "caolib",
+    "repoURL": "https://github.com/caolib/subagent-statusline",
+    "description": "Claude Code 子代理状态行 Mod：以原生 AgentRow 显示名称、模型、耗时、token、状态与当前工具动作",
+    "category": "Claude Code Plugin",
+    "platforms": [],
+    "language": "TypeScript",
+    "authMethod": [],
+    "features": [
+      "token-display",
+      "elapsed-time",
+      "model-name",
+      "agent-status",
+      "tool-action-tracking"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-21T11:42:13Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-21T14:22:05.141Z"
+  },
+  {
+    "id": "khfagy2030/khfagy",
+    "name": "khfagy",
+    "author": "khfagy2030",
+    "repoURL": "https://github.com/khfagy2030/khfagy",
+    "description": "A bright navy session HUD for Claude Code: activity pane, turn summary, status line, alerts and guardrails. English and Arabic.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "TypeScript",
+    "authMethod": [],
+    "features": [
+      "token-tracking",
+      "daily-budget",
+      "turn-history",
+      "activity-pane",
+      "undo-rewind",
+      "secret-shield",
+      "destructive-command-guard"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-11-21T13:14:59Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-21T14:22:05.141Z"
+  },
+  {
+    "id": "robfold/lane-desk",
+    "name": "lane-desk",
+    "author": "robfold",
+    "repoURL": "https://github.com/robfold/lane-desk",
+    "description": "macOS menu bar app for Claude Code and Codex on more than one account: usage from Tally, a per-account weekly run-out forecast, and one-click tmux sessions.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "multi-account",
+      "usage-forecast",
+      "runout-alerts",
+      "session-management",
+      "tmux-integration",
+      "itunes-attach"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-21T13:47:27Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-21T14:22:05.141Z"
+  },
+  {
+    "id": "bombadiltom/ClaudeWatch",
+    "name": "ClaudeWatch",
+    "author": "bombadiltom",
+    "repoURL": "https://github.com/bombadiltom/ClaudeWatch",
+    "description": "macOS menu bar app: Claude plan limits, token usage and Claude Code costs (Bedrock and Pro/Max plan)",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "plan-limits-display",
+      "token-usage-tracking",
+      "claude-code-costs",
+      "bedrock-aws-pricing",
+      "menu-bar-app",
+      "session-pinning",
+      "budget-alerts",
+      "multi-period-reporting"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-21T14:17:05Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-21T14:22:05.141Z"
+  },
+  {
+    "id": "SoufianTamim/ubclaude",
+    "name": "ubclaude",
+    "author": "SoufianTamim",
+    "repoURL": "https://github.com/SoufianTamim/ubclaude",
+    "description": "Your Claude Code usage limits, live in the Mac menu bar. 5-hour and weekly limits, reset countdowns, alerts and pace forecast.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Unknown",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "5-hour-session-limits",
+      "weekly-limits",
+      "reset-countdowns",
+      "usage-alerts",
+      "pace-forecast",
+      "token-stats",
+      "per-model-limits"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-21T12:18:15Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-21T14:22:05.141Z"
+  },
+  {
+    "id": "smitpatel1010/everboard",
+    "name": "everboard",
+    "author": "smitpatel1010",
+    "repoURL": "https://github.com/smitpatel1010/everboard",
+    "description": "A macOS menu bar app for developers: your tickets, PRs and pipelines from GitLab, GitHub and Jira, your running Claude Code and Cursor sessions with their prompts answered in one place, AI agents you start by voice or a click, and briefs and notes saved to your Obsidian vault.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "API Key",
+      "Session Cookie"
+    ],
+    "features": [
+      "claude-code-sessions",
+      "agent-tracking",
+      "daily-standup-generation",
+      "team-health-reports",
+      "voice-commands",
+      "obsidian-integration"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-21T09:58:58Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-21T14:22:05.141Z"
+  },
+  {
+    "id": "miladghorbani1999/ccusage-pane",
+    "name": "ccusage-pane",
+    "author": "miladghorbani1999",
+    "repoURL": "https://github.com/miladghorbani1999/ccusage-pane",
+    "description": "Claude Code / Claude Desktop pane showing your usage and estimated cost, powered by ccusage. Type /ccusage to open it.",
+    "category": "Claude Code Plugin",
+    "platforms": [],
+    "language": "TypeScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "daily-usage",
+      "monthly-usage",
+      "cost-estimates",
+      "per-model-breakdown",
+      "7-day-history",
+      "35-day-history"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-21T10:36:42Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-21T14:22:05.141Z"
+  },
+  {
+    "id": "noterikkirillov8/tally",
+    "name": "tally",
+    "author": "noterikkirillov8",
+    "repoURL": "https://github.com/noterikkirillov8/tally",
+    "description": "Claude and Codex plan usage in the menu bar, as two tiny level bars.",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Session Cookie"
+    ],
+    "features": [
+      "menu-bar-display",
+      "usage-forecasting",
+      "rate-limit-alerts",
+      "weekly-limits",
+      "daily-budget",
+      "token-history",
+      "multi-service"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-21T05:28:31Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-21T14:22:05.141Z"
+  },
+  {
+    "id": "zylbeyondlimits/herdr-usage-meter",
+    "name": "herdr-usage-meter",
+    "author": "zylbeyondlimits",
+    "repoURL": "https://github.com/zylbeyondlimits/herdr-usage-meter",
+    "description": "Herdr mod: what's left on each AI subscription your agents use (Claude, Codex, Grok, Kiro, Antigravity, Gemini, your own), beside the tab bar",
+    "category": "Electron/Desktop",
+    "platforms": [
+      "macos"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Browser Cookie Auto-detect",
+      "API Key",
+      "Session Key"
+    ],
+    "features": [
+      "multi-provider-tracking",
+      "subscription-quotas",
+      "usage-windows",
+      "credential-caching",
+      "custom-providers",
+      "live-activity"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-21T13:26:15Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-21T14:22:05.141Z"
   }
 ]

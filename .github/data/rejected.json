@@ -3004,5 +3004,11 @@
     "reason": "DevLoadBar is a resource management utility for Codex and Claude Code processes, but does not display, measure, or report Claude usage (tokens, cost, rate limits) as a substantial feature—it manages workloads and system resources instead.",
     "confidence": 0.95,
     "rejectedAt": "2026-11-21T05:56:07.739Z"
+  },
+  {
+    "id": "remidiy/Shotty",
+    "reason": "Shotty is a screenshot delivery tool for AI agents without usage measurement or reporting; it facilitates Claude/Code interaction but does not track, display, or measure Claude usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-21T14:21:49.114Z"
   }
 ]
