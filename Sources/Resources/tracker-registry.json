@@ -231562,5 +231562,243 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-11-20T23:46:24.745Z"
+  },
+  {
+    "id": "yaochangyu/claude-statusline",
+    "name": "claude-statusline",
+    "author": "yaochangyu",
+    "repoURL": "https://github.com/yaochangyu/claude-statusline",
+    "description": "Cross-platform Claude Code statusline with session token usage",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "session-token-usage",
+      "rate-limit-display",
+      "daily-monthly-totals",
+      "context-usage-bar",
+      "cross-platform",
+      "git-integration"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-21T05:43:33Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-21T05:56:17.001Z"
+  },
+  {
+    "id": "miskatul-anwar/hairline",
+    "name": "hairline",
+    "author": "miskatul-anwar",
+    "repoURL": "https://github.com/miskatul-anwar/hairline",
+    "description": "A minimal, muted one-line status line plugin for Claude Code",
+    "category": "Claude Code Plugin",
+    "platforms": [],
+    "language": "JavaScript",
+    "authMethod": [],
+    "features": [
+      "context-window-display",
+      "token-usage",
+      "session-cost",
+      "rate-limit-display",
+      "model-info"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-21T04:05:35Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-21T05:56:17.001Z"
+  },
+  {
+    "id": "PersieDaCoder/ccstatus-rs",
+    "name": "ccstatus-rs",
+    "author": "PersieDaCoder",
+    "repoURL": "https://github.com/PersieDaCoder/ccstatus-rs",
+    "description": "Fast Rust status line for Claude Code, compatible with ccstatusline",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "token-tracking",
+      "cost-display",
+      "context-window",
+      "session-metrics",
+      "cache-stats",
+      "usage-limits",
+      "performance-optimized",
+      "git-integration"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-21T02:26:15Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-21T05:56:17.001Z"
+  },
+  {
+    "id": "hoonmin2-code/usage-status",
+    "name": "usage-status",
+    "author": "hoonmin2-code",
+    "repoURL": "https://github.com/hoonmin2-code/usage-status",
+    "description": "Claude Code mod: shows Claude plan 5-hour and weekly usage in the status line",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "5-hour-usage-display",
+      "weekly-usage-display",
+      "usage-percentage",
+      "warning-alerts",
+      "reset-time-display"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-21T00:16:51Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-21T05:56:17.001Z"
+  },
+  {
+    "id": "minhntothex/ebb",
+    "name": "ebb",
+    "author": "minhntothex",
+    "repoURL": "https://github.com/minhntothex/ebb",
+    "description": "Minimal macOS Menu Bar monitor for Claude Code and OpenAI Codex remaining quota",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "quota-display",
+      "menu-bar",
+      "claude-code",
+      "codex",
+      "low-quota-alerts",
+      "reset-countdown",
+      "native-notifications",
+      "dark-light-mode"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-21T05:27:43Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-21T05:56:17.001Z"
+  },
+  {
+    "id": "Solarity-AI/ai-usage-taskbar-widgets",
+    "name": "ai-usage-taskbar-widgets",
+    "author": "Solarity-AI",
+    "repoURL": "https://github.com/Solarity-AI/ai-usage-taskbar-widgets",
+    "description": "Windows taskbar widgets and a macOS menu-bar app that show how much of your weekly Claude and Codex allowance is used, and when it runs out at your pace.",
+    "category": "Statusline",
+    "platforms": [
+      "windows",
+      "macos"
+    ],
+    "language": "PowerShell",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "usage-display",
+      "weekly-allowance",
+      "pace-alerts",
+      "5-hour-session-tracking",
+      "burn-rate-visualization",
+      "multi-provider",
+      "notifications",
+      "per-model-limits"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-11-21T04:54:30Z",
+    "openIssues": 2,
+    "archived": false,
+    "lastFetched": "2026-11-21T05:56:17.001Z"
+  },
+  {
+    "id": "badugisoft/antigravity-quota",
+    "name": "antigravity-quota",
+    "author": "badugisoft",
+    "repoURL": "https://github.com/badugisoft/antigravity-quota",
+    "description": "Real-time macOS menu bar quota monitor & WidgetKit widgets for Google Antigravity — track Gemini, Claude & GPT usage limits and reset timers.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "real-time-monitoring",
+      "menu-bar-app",
+      "widgetkit-widgets",
+      "multi-model-tracking",
+      "quota-alerts",
+      "countdown-timers",
+      "adaptive-polling"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-21T02:32:26Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-21T05:56:17.001Z"
+  },
+  {
+    "id": "moriyama-dev/vscode-claude-code-usage-meter",
+    "name": "vscode-claude-code-usage-meter",
+    "author": "moriyama-dev",
+    "repoURL": "https://github.com/moriyama-dev/vscode-claude-code-usage-meter",
+    "description": "VS Code extension that shows in the status bar whether your Claude Code plan limits will last until they reset",
+    "category": "VS Code Extension",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "Session Cookie",
+      "Traffic Capture"
+    ],
+    "features": [
+      "status-bar-display",
+      "weekly-limits",
+      "session-limits",
+      "model-limits",
+      "usage-projection",
+      "auto-refresh"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-21T00:57:42Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-21T05:56:17.001Z"
   }
 ]
