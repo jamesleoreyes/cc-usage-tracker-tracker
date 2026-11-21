@@ -3010,5 +3010,11 @@
     "reason": "Shotty is a screenshot delivery tool for AI agents without usage measurement or reporting; it facilitates Claude/Code interaction but does not track, display, or measure Claude usage metrics.",
     "confidence": 0.95,
     "rejectedAt": "2026-11-21T14:21:49.114Z"
+  },
+  {
+    "id": "akiiwa-games/AgentCompass-Router",
+    "reason": "AgentCompass is a task router and quota scheduler for multi-agent systems that manages rate limits and subscriptions across providers, but it does not display, measure, or report Claude usage as a substantial feature—it routes tasks based on capability fit and quota windows without surfacing usage metrics or consumption analytics to the user.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-21T22:52:35.405Z"
   }
 ]
