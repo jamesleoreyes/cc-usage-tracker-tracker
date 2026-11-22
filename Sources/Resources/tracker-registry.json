@@ -232658,5 +232658,127 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-11-21T22:52:53.676Z"
+  },
+  {
+    "id": "cagaozer/claude-usage-widget-mini",
+    "name": "claude-usage-widget-mini",
+    "author": "cagaozer",
+    "repoURL": "https://github.com/cagaozer/claude-usage-widget-mini",
+    "description": "Tiny always-on-top Windows & macOS widget showing your Claude 5-hour session and weekly usage limits, so you don't have to keep typing /usage.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "macos",
+      "windows"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "session-usage-display",
+      "weekly-usage-display",
+      "model-specific-limits",
+      "always-on-top",
+      "auto-refresh",
+      "multiple-orgs",
+      "draggable-widget"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-22T02:46:34Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-22T05:29:28.278Z"
+  },
+  {
+    "id": "oleksandr-shmat/provider-usage",
+    "name": "provider-usage",
+    "author": "oleksandr-shmat",
+    "repoURL": "https://github.com/oleksandr-shmat/provider-usage",
+    "description": "Always-on-top quota monitor for AI coding providers (Claude Code, Codex, Cursor, Antigravity)",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "linux"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "Session Cookie",
+      "API Key"
+    ],
+    "features": [
+      "multi-provider-quota",
+      "always-on-top",
+      "cli-output-parsing",
+      "claude-code-support"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-22T02:22:53Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-22T05:29:28.278Z"
+  },
+  {
+    "id": "cmxau/system32-hud",
+    "name": "system32-hud",
+    "author": "cmxau",
+    "repoURL": "https://github.com/cmxau/system32-hud",
+    "description": "A heads-up display for Claude Code: context, rate limits, cost, skills, sub-agents, todos and tool activity in the status line, plus a docked side pane. One zero-dependency Node file, no network, no telemetry.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "context-tracking",
+      "rate-limit-monitoring",
+      "cost-estimation",
+      "model-usage",
+      "session-stats",
+      "skill-tracking",
+      "sub-agent-monitoring",
+      "todo-tracking"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-22T01:02:20Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-22T05:29:28.278Z"
+  },
+  {
+    "id": "jgruber96/claude-usage-plugin",
+    "name": "claude-usage-plugin",
+    "author": "jgruber96",
+    "repoURL": "https://github.com/jgruber96/claude-usage-plugin",
+    "description": "See your Claude plan limits coming: session and weekly usage with pace, as a terminal status line, a Claude Code desktop mod and a Windows overlay card.",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "language": "PowerShell",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "session-limits",
+      "weekly-limits",
+      "pace-tracking",
+      "context-usage",
+      "statusline-display",
+      "desktop-mod",
+      "windows-overlay"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-22T01:06:17Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-22T05:29:28.278Z"
   }
 ]

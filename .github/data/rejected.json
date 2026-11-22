@@ -3016,5 +3016,11 @@
     "reason": "AgentCompass is a task router and quota scheduler for multi-agent systems that manages rate limits and subscriptions across providers, but it does not display, measure, or report Claude usage as a substantial feature—it routes tasks based on capability fit and quota windows without surfacing usage metrics or consumption analytics to the user.",
     "confidence": 0.95,
     "rejectedAt": "2026-11-21T22:52:35.405Z"
+  },
+  {
+    "id": "nathanchann/claude-thread-overview",
+    "reason": "This tool displays Claude Code thread metadata and state across projects, but does not measure, track, or report Claude usage metrics like tokens, cost, or rate limits—it aggregates thread management data only.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-11-22T05:29:28.278Z"
   }
 ]
