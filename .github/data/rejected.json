@@ -3022,5 +3022,35 @@
     "reason": "This tool displays Claude Code thread metadata and state across projects, but does not measure, track, or report Claude usage metrics like tokens, cost, or rate limits—it aggregates thread management data only.",
     "confidence": 0.85,
     "rejectedAt": "2026-11-22T05:29:28.278Z"
+  },
+  {
+    "id": "petter1/tmux-monitor-gui",
+    "reason": "This is a tmux monitor and GPU dashboard with Claude Code plugin capability, but does not track Claude API usage—it monitors tmux sessions and GPU metrics instead.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-22T23:20:21.330Z"
+  },
+  {
+    "id": "DontGoToCollege/house-rules",
+    "reason": "This Claude Code plugin provides recipes, privacy checks, and input blocking but does not display, measure, or report Claude usage as a substantial feature; the status line shows project commits, not Claude usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-22T23:20:40.139Z"
+  },
+  {
+    "id": "hoffaviation/Master-agent-overview",
+    "reason": "This is a Claude Code plugin for managing and displaying the status of multiple Claude sessions, but it does not measure or report Claude usage metrics (tokens, cost, rate limits) as a substantial feature—it only tracks session coordination and work status.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-11-22T23:20:42.914Z"
+  },
+  {
+    "id": "yusufkaran/lest",
+    "reason": "Lest is a to-do list app designed for Claude Code agents to use, but it tracks tasks/reminders rather than Claude usage metrics like tokens, costs, or rate limits, so it does not qualify as a Claude usage tracker.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-22T23:20:45.962Z"
+  },
+  {
+    "id": "omiusgm/bb-claude-shield",
+    "reason": "This is a VPN/network security shield for Claude Code that verifies exit IPs and routes, not a usage tracker that measures, displays, or reports Claude consumption metrics like tokens, cost, or quotas.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-22T23:20:52.136Z"
   }
 ]
