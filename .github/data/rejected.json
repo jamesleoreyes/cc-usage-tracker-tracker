@@ -3058,5 +3058,23 @@
     "reason": "Sonar is a general-purpose status line for bash, tmux, and Claude Code that displays repository and system state; while it includes Claude Code agent status as one segment among many, usage tracking is not a substantial feature—it only shows whether an agent is waiting, not Claude usage metrics.",
     "confidence": 0.95,
     "rejectedAt": "2026-11-23T06:07:47.386Z"
+  },
+  {
+    "id": "axiom-csc/tenthcheck",
+    "reason": "This is a safety/security tool for Claude Code agents that validates changes before execution, not a usage tracker—it does not display, measure, or report Claude token consumption, costs, or rate limits.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-23T23:31:30.727Z"
+  },
+  {
+    "id": "ericxk/covey",
+    "reason": "Covey is an orchestrator and task-management butler for coding agents (Claude Code, Codex, Antigravity) in Feishu, not a Claude usage tracker—it routes work to agents but does not display, measure, or report Claude usage metrics as a substantial feature.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-23T23:31:33.814Z"
+  },
+  {
+    "id": "Zain-Zain/claude-code-permission-popups",
+    "reason": "This is a macOS menu bar app for displaying Claude Code permission popups as a UI convenience tool, not for tracking or measuring Claude usage itself.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-23T23:31:44.099Z"
   }
 ]
