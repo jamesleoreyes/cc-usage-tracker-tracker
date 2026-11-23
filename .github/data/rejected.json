@@ -3052,5 +3052,11 @@
     "reason": "This is a VPN/network security shield for Claude Code that verifies exit IPs and routes, not a usage tracker that measures, displays, or reports Claude consumption metrics like tokens, cost, or quotas.",
     "confidence": 0.95,
     "rejectedAt": "2026-11-22T23:20:52.136Z"
+  },
+  {
+    "id": "russbeye/sonar",
+    "reason": "Sonar is a general-purpose status line for bash, tmux, and Claude Code that displays repository and system state; while it includes Claude Code agent status as one segment among many, usage tracking is not a substantial feature—it only shows whether an agent is waiting, not Claude usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-23T06:07:47.386Z"
   }
 ]
