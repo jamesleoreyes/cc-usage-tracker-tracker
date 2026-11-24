@@ -3076,5 +3076,23 @@
     "reason": "This is a macOS menu bar app for displaying Claude Code permission popups as a UI convenience tool, not for tracking or measuring Claude usage itself.",
     "confidence": 0.95,
     "rejectedAt": "2026-11-23T23:31:44.099Z"
+  },
+  {
+    "id": "Viprasol-Tech/claude-crypto-bot-skills",
+    "reason": "This is a collection of Claude Code skills for crypto bot development that teaches exchange APIs and trading engineering, not a tool that displays or measures Claude usage itself.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-24T08:46:52.351Z"
+  },
+  {
+    "id": "llm4omics/panebell",
+    "reason": "PaneBell is a tmux project manager and completion receipt tracker for Claude Code permission reminders, but does not display, measure, or report Claude usage (tokens, cost, rate limits) as a substantial feature—it only observes permission requests and completion events.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-11-24T08:46:58.801Z"
+  },
+  {
+    "id": "huachan5/agy-hud",
+    "reason": "agy-hud is a statusline plugin for Antigravity CLI (not Claude) that displays Gemini model usage, quota pools, and tool statistics—it does not track Claude usage and is inspired by claude-hud but designed for a different platform.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-24T08:47:08.523Z"
   }
 ]
