@@ -235363,5 +235363,691 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-11-24T08:47:15.256Z"
+  },
+  {
+    "id": "francoisgn/soho-monitor",
+    "name": "soho-monitor",
+    "author": "francoisgn",
+    "repoURL": "https://github.com/francoisgn/soho-monitor",
+    "description": "Native macOS system monitor for a SOHO: disk usage by your own YAML categories, live CPU/memory/network, Synology, UniFi and Claude usage, in a Liquid Glass menu bar app.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "API Key"
+    ],
+    "features": [
+      "claude-usage-display",
+      "menu-bar-app",
+      "yaml-config",
+      "liquid-glass-panel",
+      "synology-integration",
+      "unifi-integration",
+      "system-monitoring"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-24T15:32:41Z",
+    "openIssues": 49,
+    "archived": false,
+    "lastFetched": "2026-11-24T22:02:12.891Z"
+  },
+  {
+    "id": "eriizuka/claude-usage-widget",
+    "name": "claude-usage-widget",
+    "author": "eriizuka",
+    "repoURL": "https://github.com/eriizuka/claude-usage-widget",
+    "description": "Never hit your Claude limit by surprise. A tiny always-on-top Windows widget for your 5h/weekly limits, context, tokens and cost. 100% local.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "usage-display",
+      "rate-limit-monitoring",
+      "token-counter",
+      "cost-estimate",
+      "context-window-tracking",
+      "always-on-top-widget",
+      "multi-language"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-24T21:56:35Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-24T22:02:12.891Z"
+  },
+  {
+    "id": "JoolBaby/claude-usage-widget",
+    "name": "claude-usage-widget",
+    "author": "JoolBaby",
+    "repoURL": "https://github.com/JoolBaby/claude-usage-widget",
+    "description": "Small macOS desktop widget showing Claude session and weekly usage",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "macos",
+      "windows"
+    ],
+    "language": "C#",
+    "authMethod": [
+      "OAuth Token",
+      "Session Cookie"
+    ],
+    "features": [
+      "session-usage",
+      "weekly-usage",
+      "color-coded-alerts",
+      "auto-refresh",
+      "taskbar-widget",
+      "cross-platform"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-24T18:59:18Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-24T22:02:12.891Z"
+  },
+  {
+    "id": "bmarketer/claude-usage-widget",
+    "name": "claude-usage-widget",
+    "author": "bmarketer",
+    "repoURL": "https://github.com/bmarketer/claude-usage-widget",
+    "description": "Claude Code 사용량 데스크톱 위젯 (비공식) — macOS · Windows",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "macos",
+      "windows"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "usage-display",
+      "session-quota",
+      "weekly-quota",
+      "per-model-breakdown",
+      "threshold-alerts",
+      "menubar-tray",
+      "auto-update"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-24T16:16:03Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-24T22:02:12.891Z"
+  },
+  {
+    "id": "jandolecekk/claude-usage-widget",
+    "name": "claude-usage-widget",
+    "author": "jandolecekk",
+    "repoURL": "https://github.com/jandolecekk/claude-usage-widget",
+    "description": "macOS menu bar widget: Claude plan usage, Claude Code sessions, memory",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "plan-usage-display",
+      "session-limits",
+      "5h-session-tracking",
+      "weekly-limits",
+      "claude-code-sessions",
+      "context-window-fill",
+      "cache-state",
+      "memory-monitoring"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-24T13:42:23Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-24T22:02:12.891Z"
+  },
+  {
+    "id": "BlasterWhite/claude-usage-gnome",
+    "name": "claude-usage-gnome",
+    "author": "BlasterWhite",
+    "repoURL": "https://github.com/BlasterWhite/claude-usage-gnome",
+    "description": "GNOME Shell top-bar indicator for Claude subscription limits and Claude Code token usage",
+    "category": "Statusline",
+    "platforms": [
+      "linux"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "OAuth Token",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "subscription-limits",
+      "claude-code-tokens",
+      "session-window",
+      "weekly-breakdown",
+      "color-alerts",
+      "offline-local-stats"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-24T18:02:22Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-24T22:02:12.891Z"
+  },
+  {
+    "id": "ProKu97/claude-usage-bar",
+    "name": "claude-usage-bar",
+    "author": "ProKu97",
+    "repoURL": "https://github.com/ProKu97/claude-usage-bar",
+    "description": "在 Claude Code 输入框上方常驻显示 5 小时额度和本周额度",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "C#",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "quota-display",
+      "5h-allowance",
+      "weekly-allowance",
+      "color-coded-usage",
+      "windows-overlay"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-24T12:38:42Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-24T22:02:12.891Z"
+  },
+  {
+    "id": "shilverfox/ai-usage-monitor",
+    "name": "ai-usage-monitor",
+    "author": "shilverfox",
+    "repoURL": "https://github.com/shilverfox/ai-usage-monitor",
+    "description": "macOS menu bar monitor for Claude Code & Codex usage — per-account quota, reset countdowns, zero telemetry",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "OAuth Token",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "multi-account",
+      "rate-limit-tracking",
+      "quota-reset-countdown",
+      "token-usage-history",
+      "zero-telemetry",
+      "claude-code-codex"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-24T15:11:03Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-24T22:02:12.891Z"
+  },
+  {
+    "id": "Miaoranmmm/MacSignal",
+    "name": "MacSignal",
+    "author": "Miaoranmmm",
+    "repoURL": "https://github.com/Miaoranmmm/MacSignal",
+    "description": "macOS menu bar monitor for coding agents: system stats, Claude Code / Codex usage and agent session status",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [],
+    "features": [
+      "claude-code-usage",
+      "codex-usage",
+      "session-status",
+      "menu-bar-monitor",
+      "cpu-memory-stats",
+      "subscription-limits",
+      "agent-notifications"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-24T11:24:00Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-24T22:02:12.891Z"
+  },
+  {
+    "id": "Hasan5858/token-tracker",
+    "name": "token-tracker",
+    "author": "Hasan5858",
+    "repoURL": "https://github.com/Hasan5858/token-tracker",
+    "description": "Local read-only dashboard for AI coding-agent token usage (Hermes, ZCode, Antigravity, Claude Code, Kimi Code)",
+    "category": "Web Dashboard",
+    "platforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "language": "TypeScript",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "multi-tool-support",
+      "token-usage-dashboard",
+      "cost-tracking",
+      "session-breakdown",
+      "daily-hourly-views",
+      "read-only-snapshot"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-24T17:51:29Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-24T22:02:12.891Z"
+  },
+  {
+    "id": "jdsteel61/ai-usage-tracker",
+    "name": "ai-usage-tracker",
+    "author": "jdsteel61",
+    "repoURL": "https://github.com/jdsteel61/ai-usage-tracker",
+    "description": "Windows tray app: quotas, credits or key health for Codex, Claude Code, Z.ai, Grok, Gemini, OpenRouter, Muse. API keys stay in Credential Manager. Opt-in Claude top-up reads Claude Code's saved login.",
+    "category": "Electron/Desktop",
+    "platforms": [
+      "windows"
+    ],
+    "language": "JavaScript",
+    "authMethod": [
+      "Browser Cookie Auto-detect",
+      "API Key",
+      "Session Cookie"
+    ],
+    "features": [
+      "multi-provider",
+      "claude-code-capture",
+      "quota-display",
+      "credit-budgets",
+      "key-health",
+      "api-topup",
+      "local-statusline-parsing"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-24T14:01:11Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-24T22:02:12.891Z"
+  },
+  {
+    "id": "renanzm/cursor-usage-widget",
+    "name": "cursor-usage-widget",
+    "author": "renanzm",
+    "repoURL": "https://github.com/renanzm/cursor-usage-widget",
+    "description": "Windows desktop widget showing spend and plan limits for Claude Code, Codex and Cursor",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "API Key",
+      "Session Cookie",
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "spend-tracking",
+      "plan-limits",
+      "pace-alerts",
+      "multi-provider",
+      "weekly-breakdown",
+      "monthly-projection",
+      "windows-notifications",
+      "theme-customization"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-24T19:27:27Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-24T22:02:12.891Z"
+  },
+  {
+    "id": "ddaanet/cc-statusline",
+    "name": "cc-statusline",
+    "author": "ddaanet",
+    "repoURL": "https://github.com/ddaanet/cc-statusline",
+    "description": "Claude Code statusline and statusline mod: identity, cost, context, plan limits",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Unknown",
+    "authMethod": [],
+    "features": [
+      "identity-display",
+      "cost-tracking",
+      "context-window",
+      "plan-limits"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-24T18:11:20Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-24T22:02:12.891Z"
+  },
+  {
+    "id": "amirhp-com/claude-code-statusline",
+    "name": "claude-code-statusline",
+    "author": "amirhp-com",
+    "repoURL": "https://github.com/amirhp-com/claude-code-statusline",
+    "description": "Two-line status line for Claude Code: usage limits, reset timers and plan end date",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Shell",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "usage-limits",
+      "cost-tracking",
+      "context-window",
+      "cache-ratio",
+      "burn-rate-alerts",
+      "plan-tracking"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-24T16:15:37Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-24T22:02:12.891Z"
+  },
+  {
+    "id": "leicaflorian/claudia-avatar",
+    "name": "claudia-avatar",
+    "author": "leicaflorian",
+    "repoURL": "https://github.com/leicaflorian/claudia-avatar",
+    "description": "Claudia, an animated pixel-art avatar for the Claude Code status line",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "vscode"
+    ],
+    "language": "Shell",
+    "authMethod": [],
+    "features": [
+      "context-monitoring",
+      "cost-tracking",
+      "session-summary",
+      "test-results",
+      "desktop-notifications",
+      "pixel-art-avatar"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-24T12:53:57Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-24T22:02:12.892Z"
+  },
+  {
+    "id": "JoacoCasta/agent-monitor",
+    "name": "agent-monitor",
+    "author": "JoacoCasta",
+    "repoURL": "https://github.com/JoacoCasta/agent-monitor",
+    "description": "Native macOS Menu Bar monitor for Google Antigravity, ChatGPT (Codex), and Claude Code — live agent status & quota reset countdowns",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "JSONL Log Parsing",
+      "Traffic Capture"
+    ],
+    "features": [
+      "multi-agent-monitor",
+      "quota-tracking",
+      "live-status",
+      "menu-bar-indicator",
+      "low-quota-alerts",
+      "reset-countdowns",
+      "7-languages"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-24T21:22:30Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-24T22:02:12.892Z"
+  },
+  {
+    "id": "javieer133/cuantoquedapp",
+    "name": "cuantoquedapp",
+    "author": "javieer133",
+    "repoURL": "https://github.com/javieer133/cuantoquedapp",
+    "description": "Menu bar (macOS) and tray (Windows) icon showing your Codex and Claude Code usage limits. Rust.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos",
+      "windows"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "Session Key"
+    ],
+    "features": [
+      "codex-usage",
+      "claude-code-usage",
+      "5-hour-window",
+      "weekly-window",
+      "menu-bar-display",
+      "bilingual-ui",
+      "threshold-alerts"
+    ],
+    "builtWithClaude": true,
+    "stars": 1,
+    "lastCommitDate": "2026-11-24T18:07:46Z",
+    "openIssues": 2,
+    "archived": false,
+    "lastFetched": "2026-11-24T22:02:12.892Z"
+  },
+  {
+    "id": "fredericvilcot/my-claude-code",
+    "name": "my-claude-code",
+    "author": "fredericvilcot",
+    "repoURL": "https://github.com/fredericvilcot/my-claude-code",
+    "description": "Claude Code in your macOS menu bar: limits, live sessions, real terminals.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "usage-limits",
+      "forecast",
+      "live-sessions",
+      "terminal-view",
+      "cost-stats",
+      "compact-sessions",
+      "quiet-notifications",
+      "dictation"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-24T16:28:38Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-24T22:02:12.892Z"
+  },
+  {
+    "id": "pego/lanes",
+    "name": "lanes",
+    "author": "pego",
+    "repoURL": "https://github.com/pego/lanes",
+    "description": "Run several Claude Desktop accounts side by side on macOS: isolated profiles, a menu bar usage tracker, a desktop widget and a tiny CLI.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie"
+    ],
+    "features": [
+      "multi-account",
+      "menu-bar-app",
+      "usage-alerts",
+      "desktop-widget",
+      "cli",
+      "sparkline-charts",
+      "burn-rate-visual"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-24T18:26:59Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-24T22:02:12.892Z"
+  },
+  {
+    "id": "HY916-cn/UsageCenter",
+    "name": "UsageCenter",
+    "author": "HY916-cn",
+    "repoURL": "https://github.com/HY916-cn/UsageCenter",
+    "description": "macOS menu bar unified AI usage monitor for Claude, ChatGPT, Antigravity, and DeepSeek via local CLIs",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Swift",
+    "authMethod": [
+      "Session Cookie",
+      "JSONL Log Parsing",
+      "API Key"
+    ],
+    "features": [
+      "multi-provider",
+      "menu-bar-display",
+      "quota-monitoring",
+      "usage-history",
+      "local-cli",
+      "token-analytics"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-24T16:39:35Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-24T22:02:12.892Z"
+  },
+  {
+    "id": "masterunix/usage-meter",
+    "name": "usage-meter",
+    "author": "masterunix",
+    "repoURL": "https://github.com/masterunix/usage-meter",
+    "description": "Claude Code mod: warns Claude, and you, before your plan's 5-hour usage limit runs out, so work stops at a clean point.",
+    "category": "Claude Code Plugin",
+    "platforms": [],
+    "language": "TypeScript",
+    "authMethod": [],
+    "features": [
+      "usage-limit-warnings",
+      "5h-window-tracking",
+      "7d-window-tracking",
+      "subagent-thresholds",
+      "context-size-display",
+      "session-muting"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-24T12:39:55Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-24T22:02:12.892Z"
+  },
+  {
+    "id": "hhhai0304/herdr-plan-usage",
+    "name": "herdr-plan-usage",
+    "author": "hhhai0304",
+    "repoURL": "https://github.com/hhhai0304/herdr-plan-usage",
+    "description": "Usage meters of every AI coding agent signed in on your machine — Claude Code, Codex/ChatGPT, OpenCode Go, OpenRouter, DeepSeek, Antigravity — in the herdr tab bar plus a detail popup.",
+    "category": "Statusline",
+    "platforms": [
+      "macos",
+      "linux"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Browser Cookie Auto-detect",
+      "API Key",
+      "Session Cookie"
+    ],
+    "features": [
+      "multi-agent-usage",
+      "rate-limit-tracking",
+      "quota-windows",
+      "token-budgets",
+      "custom-providers",
+      "herdr-plugin"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-24T09:21:56Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-24T22:02:12.892Z"
+  },
+  {
+    "id": "Berkayr/ai-usage-widget",
+    "name": "ai-usage-widget",
+    "author": "Berkayr",
+    "repoURL": "https://github.com/Berkayr/ai-usage-widget",
+    "description": "Customizable Windows and Linux desktop widget for AI provider quotas and reset countdowns.",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows",
+      "linux"
+    ],
+    "language": "JavaScript",
+    "authMethod": [],
+    "features": [
+      "multi-provider-quotas",
+      "reset-countdowns",
+      "rate-limit-display",
+      "customizable-layouts",
+      "panel-integration",
+      "quota-pacing"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-24T21:49:21Z",
+    "openIssues": 2,
+    "archived": false,
+    "lastFetched": "2026-11-24T22:02:12.892Z"
   }
 ]

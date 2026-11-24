@@ -3094,5 +3094,29 @@
     "reason": "agy-hud is a statusline plugin for Antigravity CLI (not Claude) that displays Gemini model usage, quota pools, and tool statistics—it does not track Claude usage and is inspired by claude-hud but designed for a different platform.",
     "confidence": 0.95,
     "rejectedAt": "2026-11-24T08:47:08.523Z"
+  },
+  {
+    "id": "useshortcut/prline",
+    "reason": "prline displays GitHub PR and CI status in Claude Code's statusline, but does not measure or report Claude usage itself—it tracks GitHub workflow state, not Claude consumption.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-24T22:01:31.623Z"
+  },
+  {
+    "id": "radam5000/speakyspeak",
+    "reason": "SpeakySpeak is a text-to-speech playback layer for Claude Code replies, not a usage tracker—it reads responses aloud but does not display, measure, or report Claude usage metrics like tokens, costs, or rate limits.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-24T22:01:41.831Z"
+  },
+  {
+    "id": "phroggyy/pr-queue",
+    "reason": "This is a PR queue manager with Claude Code integration, not a Claude usage tracker; it does not display, measure, or report Claude/Claude Code usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-24T22:01:48.056Z"
+  },
+  {
+    "id": "w0ts/claude-code-voice",
+    "reason": "This is a Claude Code plugin and macOS companion app for voice alerts, not a usage tracker—it manages audio notifications from Claude Code sessions rather than displaying or measuring Claude usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-24T22:01:51.830Z"
   }
 ]
