@@ -3118,5 +3118,17 @@
     "reason": "This is a Claude Code plugin and macOS companion app for voice alerts, not a usage tracker—it manages audio notifications from Claude Code sessions rather than displaying or measuring Claude usage metrics.",
     "confidence": 0.95,
     "rejectedAt": "2026-11-24T22:01:51.830Z"
+  },
+  {
+    "id": "jcpsimmons/claude-eta-statusline",
+    "reason": "This project displays Claude Code task progress and ETA estimates in a statusline, but does not measure or report Claude usage metrics (tokens, cost, rate limits, quotas, or sessions); it is a progress-tracking tool for long-running tasks, not a usage tracker.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-25T07:21:34.021Z"
+  },
+  {
+    "id": "BrodyKretz/terminal-manager",
+    "reason": "This is a terminal/session manager for Claude Code that displays session status and activity, but does not track or report Claude usage metrics (tokens, costs, rate limits) as a substantial feature.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-11-25T07:21:36.636Z"
   }
 ]
