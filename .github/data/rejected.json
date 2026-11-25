@@ -3130,5 +3130,29 @@
     "reason": "This is a terminal/session manager for Claude Code that displays session status and activity, but does not track or report Claude usage metrics (tokens, costs, rate limits) as a substantial feature.",
     "confidence": 0.85,
     "rejectedAt": "2026-11-25T07:21:36.636Z"
+  },
+  {
+    "id": "pglbiscuite/pvc-stack",
+    "reason": "This is a Claude Code configuration/setup collection with skills, hooks, and output styles, but it does not display, measure, or report Claude usage (tokens, cost, rate limits) as a substantial feature—it is a personal dotfile/setup collection.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-25T21:13:19.180Z"
+  },
+  {
+    "id": "Mrwanawad/staff-of-chiefs",
+    "reason": "This is a Claude Code plugin for orchestrating multi-model teams with live status and dashboard display, but usage tracking is not its primary purpose—it's a task orchestrator that happens to show agent activity and token counts as secondary features, not a tracker focused on measuring Claude consumption.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-25T21:13:22.051Z"
+  },
+  {
+    "id": "korkmazMert/ports-panel",
+    "reason": "This is a Claude Code plugin that displays open ports and services, not a Claude usage tracker; it does not measure, display, or report Claude token usage, costs, rate limits, or quotas.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-25T21:13:25.108Z"
+  },
+  {
+    "id": "Haffaz/switchboard",
+    "reason": "Switchboard is an account manager and switcher for Claude Desktop and Claude Code, but does not display, measure, or report Claude usage metrics as a feature—it only manages multiple sign-ins and windows.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-25T21:13:37.583Z"
   }
 ]
