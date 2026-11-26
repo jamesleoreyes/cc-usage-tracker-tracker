@@ -3178,5 +3178,17 @@
     "reason": "This is a session scheduler that *uses* Claude Code but does not display, measure, or report Claude usage as a substantial feature—it only manages when to ping and monitors session windows, not usage metrics.",
     "confidence": 0.85,
     "rejectedAt": "2026-11-26T07:10:15.003Z"
+  },
+  {
+    "id": "viper1979/claude-statusline-configurator",
+    "reason": "This is a configurator tool for Claude Code statuslines, not a usage tracker—it customizes the display format rather than measuring or reporting Claude usage metrics.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-11-26T21:02:49.151Z"
+  },
+  {
+    "id": "xiaodilj-dev/ccusage-reprice",
+    "reason": "This tool calculates what-if pricing scenarios by applying rate cards to ccusage exports; it does not display, measure, or report actual Claude usage as a feature itself, but rather performs financial modeling on pre-exported usage data.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-26T21:03:27.638Z"
   }
 ]
