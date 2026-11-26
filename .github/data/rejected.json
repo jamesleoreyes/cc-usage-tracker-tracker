@@ -3154,5 +3154,29 @@
     "reason": "Switchboard is an account manager and switcher for Claude Desktop and Claude Code, but does not display, measure, or report Claude usage metrics as a feature—it only manages multiple sign-ins and windows.",
     "confidence": 0.95,
     "rejectedAt": "2026-11-25T21:13:37.583Z"
+  },
+  {
+    "id": "IvyYang1999/KeyKeeper",
+    "reason": "KeyKeeper is a secrets manager and credential injector for macOS, not a Claude usage tracker; it manages API keys for Claude Code and other tools but does not display, measure, or report Claude usage metrics.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-26T07:10:03.463Z"
+  },
+  {
+    "id": "harry0816web/Agent-Awake",
+    "reason": "Agent Awake is a power-management utility that monitors and responds to Claude Code/Codex agent activity, but does not display, measure, or report Claude usage (tokens, cost, rate limits) as a substantial feature—it tracks agent lifecycle state only to decide when to sleep the Mac.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-26T07:10:06.521Z"
+  },
+  {
+    "id": "Jan-ebb/side-eye",
+    "reason": "Side Eye is a chat organizer and inbox triage tool for agent chats, not a Claude usage tracker—it displays agent status and chat notifications, not usage metrics like tokens, costs, or rate limits.",
+    "confidence": 0.92,
+    "rejectedAt": "2026-11-26T07:10:12.214Z"
+  },
+  {
+    "id": "theRaven1312/session-ping",
+    "reason": "This is a session scheduler that *uses* Claude Code but does not display, measure, or report Claude usage as a substantial feature—it only manages when to ping and monitors session windows, not usage metrics.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-11-26T07:10:15.003Z"
   }
 ]
