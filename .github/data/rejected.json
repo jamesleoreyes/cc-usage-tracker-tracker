@@ -3196,5 +3196,17 @@
     "reason": "This is a Claude Code plugin for monitoring Hibira app connections and approvals, not a Claude usage tracker—it displays Hibira service metrics, not Claude token/cost/quota data.",
     "confidence": 0.95,
     "rejectedAt": "2026-11-27T07:05:04.541Z"
+  },
+  {
+    "id": "sukramb/vassy",
+    "reason": "Vassy is a session manager for Claude Code/Codex that queues waiting sessions and helps respond to them, but does not display, measure, or report Claude usage (tokens, cost, rate limits) as a substantial feature—it manages workflow, not usage metrics.",
+    "confidence": 0.85,
+    "rejectedAt": "2026-11-27T20:48:03.753Z"
+  },
+  {
+    "id": "QuotaSense/addons",
+    "reason": "QuotaSense/addons is a collection of display add-ons for an external tracker (QuotaSense), not itself a tracker—it shows pre-computed usage data from the QuotaSense core service rather than measuring or reporting Claude usage independently.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-27T20:48:14.746Z"
   }
 ]
