@@ -3190,5 +3190,11 @@
     "reason": "This tool calculates what-if pricing scenarios by applying rate cards to ccusage exports; it does not display, measure, or report actual Claude usage as a feature itself, but rather performs financial modeling on pre-exported usage data.",
     "confidence": 0.95,
     "rejectedAt": "2026-11-26T21:03:27.638Z"
+  },
+  {
+    "id": "hibira-io/claude-mod",
+    "reason": "This is a Claude Code plugin for monitoring Hibira app connections and approvals, not a Claude usage tracker—it displays Hibira service metrics, not Claude token/cost/quota data.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-27T07:05:04.541Z"
   }
 ]
