@@ -239905,5 +239905,266 @@
     "openIssues": 0,
     "archived": false,
     "lastFetched": "2026-11-27T20:48:22.419Z"
+  },
+  {
+    "id": "KoteshB/claude-usage-tracker",
+    "name": "claude-usage-tracker",
+    "author": "KoteshB",
+    "repoURL": "https://github.com/KoteshB/claude-usage-tracker",
+    "description": "Tracks usage of Claude Code on macOS device",
+    "category": "macOS Native",
+    "platforms": [
+      "macos"
+    ],
+    "language": "PLpgSQL",
+    "authMethod": [
+      "Traffic Capture"
+    ],
+    "features": [
+      "claude-code-skills",
+      "token-tracking",
+      "cost-estimation",
+      "sqlite-local-storage",
+      "sub-agents",
+      "hooks"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-28T03:13:59Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-28T06:39:26.106Z"
+  },
+  {
+    "id": "kimminho93/Claude-Code-Usage-Monitor",
+    "name": "Claude-Code-Usage-Monitor",
+    "author": "kimminho93",
+    "repoURL": "https://github.com/kimminho93/Claude-Code-Usage-Monitor",
+    "description": "Modified version of CodeZeno/Claude-Code-Usage-Monitor: Antigravity Gemini usage fix and Classic Clear theme",
+    "category": "Desktop Overlay",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Rust",
+    "authMethod": [
+      "Browser Cookie Auto-detect",
+      "Session Key"
+    ],
+    "features": [
+      "multi-provider-support",
+      "multi-account",
+      "taskbar-widget",
+      "usage-display",
+      "refresh-interval",
+      "custom-themes"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-28T06:00:32Z",
+    "openIssues": 2,
+    "archived": false,
+    "lastFetched": "2026-11-28T06:39:26.106Z"
+  },
+  {
+    "id": "supervisor-515/ai-quota-widget",
+    "name": "ai-quota-widget",
+    "author": "supervisor-515",
+    "repoURL": "https://github.com/supervisor-515/ai-quota-widget",
+    "description": "Android home screen widget & app to monitor 5-hour and weekly usage limits for Codex, Claude Code, and Antigravity (agy)",
+    "category": "Mobile",
+    "platforms": [
+      "android"
+    ],
+    "language": "Kotlin",
+    "authMethod": [
+      "Session Cookie",
+      "OAuth Token"
+    ],
+    "features": [
+      "5h-and-weekly-limits",
+      "multi-service-widget",
+      "push-notifications",
+      "pc-bridge-sync",
+      "background-refresh",
+      "keystore-encryption"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-28T05:23:22Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-28T06:39:26.106Z"
+  },
+  {
+    "id": "WealthFinPilot/Harness-Monitoring",
+    "name": "Harness-Monitoring",
+    "author": "WealthFinPilot",
+    "repoURL": "https://github.com/WealthFinPilot/Harness-Monitoring",
+    "description": "Mesure de l'usage d'un harness Claude Code : ingestion DuckDB, dbt, Parquet, Power BI (PBIP)",
+    "category": "Web Dashboard",
+    "platforms": [
+      "windows"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "JSONL Log Parsing"
+    ],
+    "features": [
+      "claude-code-harness",
+      "cost-breakdown",
+      "token-accounting",
+      "dbt-pipeline",
+      "power-bi-dashboard",
+      "duckdb-storage",
+      "project-attribution",
+      "model-family-breakdown"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-28T02:40:06Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-28T06:39:26.106Z"
+  },
+  {
+    "id": "gittycat/quota-statusline",
+    "name": "quota-statusline",
+    "author": "gittycat",
+    "repoURL": "https://github.com/gittycat/quota-statusline",
+    "description": "Claude Code status line with 5h/7d subscription quota shown from session start",
+    "category": "Claude Code Plugin",
+    "platforms": [],
+    "language": "TypeScript",
+    "authMethod": [
+      "Session Cookie",
+      "Browser Cookie Auto-detect"
+    ],
+    "features": [
+      "quota-display",
+      "5h-limit",
+      "7d-limit",
+      "context-tokens",
+      "burn-rate-visual",
+      "subscription-tier"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-28T05:29:12Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-28T06:39:26.106Z"
+  },
+  {
+    "id": "Galahask-dev/galah-statusline",
+    "name": "galah-statusline",
+    "author": "Galahask-dev",
+    "repoURL": "https://github.com/Galahask-dev/galah-statusline",
+    "description": "Barra de estado con colores para Claude Code",
+    "category": "Claude Code Plugin",
+    "platforms": [
+      "web"
+    ],
+    "language": "JavaScript",
+    "authMethod": [],
+    "features": [
+      "context-usage-display",
+      "rate-limit-tracking",
+      "session-reasoning-level",
+      "git-integration",
+      "account-info",
+      "version-checking"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-28T04:40:52Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-28T06:39:26.106Z"
+  },
+  {
+    "id": "vjt/claude-statusline",
+    "name": "claude-statusline",
+    "author": "vjt",
+    "repoURL": "https://github.com/vjt/claude-statusline",
+    "description": "Claude Code statusline: context, cost, rate limits, weekly budget line",
+    "category": "Claude Code Plugin",
+    "platforms": [],
+    "language": "Python",
+    "authMethod": [
+      "OAuth Token"
+    ],
+    "features": [
+      "context-usage-display",
+      "session-cost-tracking",
+      "rate-limit-monitoring",
+      "weekly-budget-tracking",
+      "time-to-reset"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-28T03:13:57Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-28T06:39:26.106Z"
+  },
+  {
+    "id": "Perape3796/agent-desk",
+    "name": "agent-desk",
+    "author": "Perape3796",
+    "repoURL": "https://github.com/Perape3796/agent-desk",
+    "description": "Unify AI coding sessions from Claude Code, Cursor, Copilot, Codex and more in one macOS menu bar app: read masked conversations and loaded skills.",
+    "category": "macOS Native",
+    "platforms": [
+      "macos",
+      "windows"
+    ],
+    "language": "TypeScript",
+    "authMethod": [],
+    "features": [
+      "sessions-by-tool",
+      "sessions-by-project",
+      "skills-overview",
+      "rules-overview",
+      "agents-overview",
+      "hooks-overview",
+      "local-only",
+      "menu-bar"
+    ],
+    "builtWithClaude": true,
+    "stars": 0,
+    "lastCommitDate": "2026-11-28T05:33:41Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-28T06:39:26.106Z"
+  },
+  {
+    "id": "sieveandsand/swiftbar-token-usage",
+    "name": "swiftbar-token-usage",
+    "author": "sieveandsand",
+    "repoURL": "https://github.com/sieveandsand/swiftbar-token-usage",
+    "description": "Your Claude and Codex usage limits, always visible in the macOS menu bar.",
+    "category": "Statusline",
+    "platforms": [
+      "macos"
+    ],
+    "language": "Python",
+    "authMethod": [
+      "Browser Cookie Auto-detect",
+      "Session Cookie"
+    ],
+    "features": [
+      "menu-bar-display",
+      "usage-windows",
+      "reset-countdowns",
+      "visual-bars",
+      "multi-provider",
+      "rate-limit-alerts"
+    ],
+    "builtWithClaude": null,
+    "stars": 0,
+    "lastCommitDate": "2026-11-28T00:51:58Z",
+    "openIssues": 0,
+    "archived": false,
+    "lastFetched": "2026-11-28T06:39:26.106Z"
   }
 ]

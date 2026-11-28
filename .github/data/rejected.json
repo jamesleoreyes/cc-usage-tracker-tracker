@@ -3208,5 +3208,11 @@
     "reason": "QuotaSense/addons is a collection of display add-ons for an external tracker (QuotaSense), not itself a tracker—it shows pre-computed usage data from the QuotaSense core service rather than measuring or reporting Claude usage independently.",
     "confidence": 0.95,
     "rejectedAt": "2026-11-27T20:48:14.746Z"
+  },
+  {
+    "id": "Tz-dev0/orberus",
+    "reason": "Orberus is an account switcher/profile manager for Claude Code that displays usage limits and account history, but its primary purpose is automatic account selection by folder, not usage tracking; usage display is a secondary reporting feature, not the substantial purpose.",
+    "confidence": 0.95,
+    "rejectedAt": "2026-11-28T06:39:23.020Z"
   }
 ]
